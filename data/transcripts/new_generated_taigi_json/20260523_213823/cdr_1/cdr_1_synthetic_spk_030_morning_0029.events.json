@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先洗個面，然後食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1499
+  },
+  {
+    "type": "speech",
+    "text": "噗嚕一下就準備出門囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1433
+  },
+  {
+    "type": "speech",
+    "text": "不過，欲去哪個地方啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1217
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個包包，按呢應該咧擺厝內某個地方，但是又想袂起咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 810
+  },
+  {
+    "type": "speech",
+    "text": "找到啦，就在灶跤邊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 470
+  },
+  {
+    "type": "speech",
+    "text": "那個，呃，今早要去菜市仔買菜啊，不過說袂定買啥物，頭腦有點糊糊的。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，我先轉去拿包包，然後再想一下要去哪個地方。"
+  }
+]

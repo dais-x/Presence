@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1100
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊... 嗯... 那個時間閣過去了啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 719
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1130
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔攏去欲咧，買個豆漿跟油條，那個油條誠阿母搥的啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 923
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸今早轉去厝了啦，彼個...彼個叫啥，就是說他出去買菜去了啊... 嗯... 孫仔咧，佇學校。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 554
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔去欲咧，那個時間袂記得了，就是說閣過去了啦。"
+  }
+]

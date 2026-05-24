@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好啊，我欲想著以前讀冊的時候。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 634
+  },
+  {
+    "type": "speech",
+    "text": "那個時候，菜市仔還袂那麼大，大家都自己種田。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 624
+  },
+  {
+    "type": "speech",
+    "text": "我們一早起囝仔就去田裡幫忙，伊阿母說要勤奮。"
+  },
+  {
+    "type": "speech",
+    "text": "農忙時節，整天都攏在田裡，腳都累欲斷啦。"
+  },
+  {
+    "type": "speech",
+    "text": "不過咧，晚上回家後，一家人坐著食飯，話家常，就很開心。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...還記得阿爸講的那些故事齁，有時會笑到肚子痛。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1021
+  },
+  {
+    "type": "speech",
+    "text": "現在想想，按呢日子真誠美好。"
+  }
+]

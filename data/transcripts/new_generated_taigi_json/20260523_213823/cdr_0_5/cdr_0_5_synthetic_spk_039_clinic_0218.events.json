@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 860
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 487
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物呢？"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔買轉來一籃子水果咧，早食個檳榔果。"
+  },
+  {
+    "type": "speech",
+    "text": "恁家按呢有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔轉去學校拉，阿母煮好飯等著伊食。"
+  },
+  {
+    "type": "speech",
+    "text": "就是說啊，厝裡那個...最近有客人來訪啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，醫生，講袂清楚，想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1278
+  }
+]

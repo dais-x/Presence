@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1090
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，記勿到。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1266
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1492
+  },
+  {
+    "type": "speech",
+    "text": "食番薯籺跟豆漿啦。"
+  },
+  {
+    "type": "speech",
+    "text": "伊是阿母煮好佇菜市仔攜來的。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1034
+  },
+  {
+    "type": "speech",
+    "text": "可是我無去菜市仔，是恁伊去的啊。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 那個... 沒有啥特別事啦。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔回來咧，跟囝仔講話。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 480
+  },
+  {
+    "type": "speech",
+    "text": "伊說欲買新鞋子，但是佇哪攏袂知。"
+  },
+  {
+    "type": "speech",
+    "text": "該去哪裡找呢？"
+  },
+  {
+    "type": "speech",
+    "text": "呣知道了啦。"
+  }
+]

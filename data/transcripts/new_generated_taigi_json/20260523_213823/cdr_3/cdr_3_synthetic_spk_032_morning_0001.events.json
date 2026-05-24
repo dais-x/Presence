@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日欲洗面... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2563
+  },
+  {
+    "type": "speech",
+    "text": "嗯，食飯時間啦... 囝仔往哪去？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2441
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 813
+  },
+  {
+    "type": "speech",
+    "text": "冷啊... 菜市仔袂想去... 攚記起啥物... 天氣好差..."
+  }
+]

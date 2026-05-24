@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啦，那個青菜啊，伊欲好多錢。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1188
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會做啥物？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 725
+  },
+  {
+    "type": "speech",
+    "text": "，我食飯咧，轉去厝內齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 673
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧有無在讀書啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1098
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐我食啥物來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1003
+  },
+  {
+    "type": "speech",
+    "text": "伊講袂清啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1494
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前買菜咧，會攜我去，那個青菜、蘿蔔咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1060
+  },
+  {
+    "type": "speech",
+    "text": "現在袂知為啥物，身體袂好啦，頭痛欲死。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 653
+  }
+]

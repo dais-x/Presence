@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_023_clinic_0032",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號 [停頓] 食啥物啊 [長停頓] 阿母咧？嗯... 囝仔食飯未 [沉默] [嘆氣] 伊袂知 [咳嗽] 冷啦 按呢閣足冷 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1276
+    },
+    {
+      "type": "speech",
+      "text": "食啥物啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3910
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？嗯... 囝仔食飯未"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4756
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1012
+    },
+    {
+      "type": "speech",
+      "text": "伊袂知"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 547
+    },
+    {
+      "type": "speech",
+      "text": "冷啦 按呢閣足冷"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 5790
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 15732,
+    "mean_pause_ms": 3933.0,
+    "speech_char_count": 34
+  },
+  "speech_rate_target": 0.65
+}

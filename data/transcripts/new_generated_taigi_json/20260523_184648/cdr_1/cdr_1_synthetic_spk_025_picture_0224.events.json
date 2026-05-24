@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_025_picture_0224",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我去看菜市仔啦。彼個菜市仔人好多，攏在買菜咧。那個賣水果彼個攤子，彼個...彼個叫啥？想袂起來齁。不過伊賣的水果都很新鮮啦。還有個阿婆在賣菜，伊賣的青江菜很不錯咧。 [停頓] 啊，對了，我兒子今仔日轉去台北上班啦，孫仔在家裡誠著 [長停頓] [嘆氣] ，阿母想他嘞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我去看菜市仔啦。彼個菜市仔人好多，攏在買菜咧。那個賣水果彼個攤子，彼個...彼個叫啥？想袂起來齁。不過伊賣的水果都很新鮮啦。還有個阿婆在賣菜，伊賣的青江菜很不錯咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 964
+    },
+    {
+      "type": "speech",
+      "text": "啊，對了，我兒子今仔日轉去台北上班啦，孫仔在家裡誠著"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1779
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 989
+    },
+    {
+      "type": "speech",
+      "text": "，阿母想他嘞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 6,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2743,
+    "mean_pause_ms": 1371.5,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 0.85
+}

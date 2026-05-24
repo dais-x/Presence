@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_034_memory_0193",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣不錯啊，我想到以前讀冊時陣的事啦。當時伊（指老師）講啥物都聽袂懂， [停頓] 那個數學咧，彼個...彼個叫啥？想袂起來了。 [長停頓] 那時候阿母會叫我去菜市仔買東西，買米、蔬菜咧，還有按呢（這）種豆子，伊叫啥物咧？記袂起來啦。 [嘆氣] 無論如何，少年時陣攏很開心啊，現在想起來就笑個不停。 [咳嗽] 阿爸農忙時陣，佇田裡工作，伊會講：「汝去學好仔讀冊，毋要做農夫咧」。彼個...彼個話講得我記袂起來了啦，但是阿爸的話我攏記得啊。 [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯啊，我想到以前讀冊時陣的事啦。當時伊（指老師）講啥物都聽袂懂，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1075
+    },
+    {
+      "type": "speech",
+      "text": "那個數學咧，彼個...彼個叫啥？想袂起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2004
+    },
+    {
+      "type": "speech",
+      "text": "那時候阿母會叫我去菜市仔買東西，買米、蔬菜咧，還有按呢（這）種豆子，伊叫啥物咧？記袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1141
+    },
+    {
+      "type": "speech",
+      "text": "無論如何，少年時陣攏很開心啊，現在想起來就笑個不停。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 530
+    },
+    {
+      "type": "speech",
+      "text": "阿爸農忙時陣，佇田裡工作，伊會講：「汝去學好仔讀冊，毋要做農夫咧」。彼個...彼個話講得我記袂起來了啦，但是阿爸的話我攏記得啊。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2245
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5324,
+    "mean_pause_ms": 1774.67,
+    "speech_char_count": 196
+  },
+  "speech_rate_target": 0.85
+}

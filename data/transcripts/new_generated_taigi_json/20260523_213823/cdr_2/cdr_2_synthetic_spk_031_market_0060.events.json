@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啊，那個攤販說伊咧賣新鮮菜啦， 欲買啥物好呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1278
+  },
+  {
+    "type": "speech",
+    "text": "按呢欲吃啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1187
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前常講伊年輕時恁早起去采菜齁，阿爸閣是去田裡工作。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1877
+  },
+  {
+    "type": "speech",
+    "text": "現在啊，我毋知要去哪裡找那麼新鮮的菜。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1085
+  },
+  {
+    "type": "speech",
+    "text": "那個，轉去厝內欲煮啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1562
+  },
+  {
+    "type": "speech",
+    "text": "早餐咧食啥物好呢？"
+  },
+  {
+    "type": "speech",
+    "text": "我記性愈來愈差啦，就是講話會袂順。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 697
+  }
+]

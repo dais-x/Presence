@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_033_clinic_0272",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日是五月十三號，我早食飯食碗米粥同個蛋。 [停頓] 我孫仔咧厝，伊來陪我食飯。阿母佇菜市仔買菜去未返來，按呢阿爸佇家裡，毋知在做啥物。 [停頓] 今早無啥代誌，就是講話嘛啦，無乜特別事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是五月十三號，我早食飯食碗米粥同個蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 425
+    },
+    {
+      "type": "speech",
+      "text": "我孫仔咧厝，伊來陪我食飯。阿母佇菜市仔買菜去未返來，按呢阿爸佇家裡，毋知在做啥物。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 239
+    },
+    {
+      "type": "speech",
+      "text": "今早無啥代誌，就是講話嘛啦，無乜特別事。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 664,
+    "mean_pause_ms": 332.0,
+    "speech_char_count": 83
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_012_clinic_0011",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我欲毋知是幾號啦。早餐咧吃啥物嘛？我食的是花生湯跟稀飯啦。按呢厝裡頭有無發生啥代誌？ [長停頓] 佇想袂起來，好像最近伊阿母病一哈齁... 阿爸也好久沒有出厝了，那個就是足不出戶ㄟ樣子啊... 我今仔日欲去菜市仔買菜咧，那個彼個店名叫啥？ [嘆氣] 想袂起來啦。 [停頓] 但我還是要去咧，因為按呢厝裡頭缺好多東西嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 843
+    },
+    {
+      "type": "speech",
+      "text": "我欲毋知是幾號啦。早餐咧吃啥物嘛？我食的是花生湯跟稀飯啦。按呢厝裡頭有無發生啥代誌？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1834
+    },
+    {
+      "type": "speech",
+      "text": "佇想袂起來，好像最近伊阿母病一哈齁... 阿爸也好久沒有出厝了，那個就是足不出戶ㄟ樣子啊... 我今仔日欲去菜市仔買菜咧，那個彼個店名叫啥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1172
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 992
+    },
+    {
+      "type": "speech",
+      "text": "但我還是要去咧，因為按呢厝裡頭缺好多東西嘛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3669,
+    "mean_pause_ms": 1223.0,
+    "speech_char_count": 147
+  },
+  "speech_rate_target": 0.85
+}

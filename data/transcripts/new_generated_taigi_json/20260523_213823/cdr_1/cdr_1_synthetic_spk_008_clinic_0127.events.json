@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 804
+  },
+  {
+    "type": "speech",
+    "text": "早飯佇菜市仔買啦，攏是一些粿、豆漿齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 713
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢無啥代誌，阿母身體好著落啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1113
+  },
+  {
+    "type": "speech",
+    "text": "啊，那個孫仔咧，今朝有去學校無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1111
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個日期啊，就是幾號咧，齁，記袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "早餐是豆漿粿咧，按呢無啥好著落啦，阿母佇家裡啊。"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1492
+  },
+  {
+    "type": "speech",
+    "text": "那個咧按呢記無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1379
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 阿母一早起來就煮飯咧，我食米粥跟鹹菜。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 657
+  },
+  {
+    "type": "speech",
+    "text": "當時咧好多鳥啊，山裡面。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 543
+  },
+  {
+    "type": "speech",
+    "text": "以前伊袂講啥文子咧，就是簡單幾句話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2570
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2398
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔今早去學校嘞， 啊... 阿爸一早起來就騎腳踏車去菜市仔買菜。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 915
+  },
+  {
+    "type": "speech",
+    "text": "按呢咧講啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 肚餓啦。"
+  }
+]

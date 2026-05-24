@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我去看菜市仔，彼個攤販賣野菜咧，彼個野菜好青啊，想袂起來伊叫啥物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1554
+  },
+  {
+    "type": "speech",
+    "text": "嗯，有看到孫仔在公園閣玩溜溜球，那個球轉去轉來足好玩啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 703
+  },
+  {
+    "type": "speech",
+    "text": "阿母厝裡，灶跤上頭按呢放著鍋子，菜咧煮啊煮，香味誠濃。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 809
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 686
+  },
+  {
+    "type": "speech",
+    "text": "想起來欲去買個菜，可是又想袂起來要去哪個攤販。"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_003_market_0162",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，彼個老闆我熟識很久啦，就咧講話，講著講著就想袂起來彼個地瓜叫啥物， [停頓] 那個叫番薯齁，想起來啦，就買佇一斤來。轉去厝內，阿母問我今仔日菜市仔有無去，我就咧答應著，講說按呢買咧幾樣菜，那個地瓜啦， [長停頓] 就是彼個東西啦，嗯...叫啥物，想袂起來， [嘆氣] 真是愈來愈笨啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，彼個老闆我熟識很久啦，就咧講話，講著講著就想袂起來彼個地瓜叫啥物，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 972
+    },
+    {
+      "type": "speech",
+      "text": "那個叫番薯齁，想起來啦，就買佇一斤來。轉去厝內，阿母問我今仔日菜市仔有無去，我就咧答應著，講說按呢買咧幾樣菜，那個地瓜啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1804
+    },
+    {
+      "type": "speech",
+      "text": "就是彼個東西啦，嗯...叫啥物，想袂起來，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1181
+    },
+    {
+      "type": "speech",
+      "text": "真是愈來愈笨啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2776,
+    "mean_pause_ms": 1388.0,
+    "speech_char_count": 135
+  },
+  "speech_rate_target": 0.85
+}

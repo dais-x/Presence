@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_002_memory_0061",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我年輕時陣，每早都會起個大早去菜市仔買菜，那個...買菜回來就會煮飯給全家食。當時阿母會教我煮好多好吃的東西，像是一碗清甜的冬瓜湯、乾麵線羹，就是做得很好吃啦。農忙時期，我就會幫伊割稻子咧，那個時候真的很辛苦啊 [停頓] ，常常從早到晚都在田裡工作。記得有一次，阿爸叫我去轉去市場買個東西，當時我還很小囝仔，那個路都袂熟，但是還是自己硬著頭皮去了。後來讀冊時陣，每週都會有個假日班，就是會去學校唸書，那時候真的很嚕囝 [停頓] ，現在想起來就覺得很開心啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我年輕時陣，每早都會起個大早去菜市仔買菜，那個...買菜回來就會煮飯給全家食。當時阿母會教我煮好多好吃的東西，像是一碗清甜的冬瓜湯、乾麵線羹，就是做得很好吃啦。農忙時期，我就會幫伊割稻子咧，那個時候真的很辛苦啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 552
+    },
+    {
+      "type": "speech",
+      "text": "，常常從早到晚都在田裡工作。記得有一次，阿爸叫我去轉去市場買個東西，當時我還很小囝仔，那個路都袂熟，但是還是自己硬著頭皮去了。後來讀冊時陣，每週都會有個假日班，就是會去學校唸書，那時候真的很嚕囝"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "，現在想起來就覺得很開心啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1752,
+    "mean_pause_ms": 876.0,
+    "speech_char_count": 225
+  },
+  "speech_rate_target": 0.92
+}

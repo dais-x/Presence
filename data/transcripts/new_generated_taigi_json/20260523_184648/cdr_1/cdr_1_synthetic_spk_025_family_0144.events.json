@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_025_family_0144",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔跟孫仔轉來厝內食飯，大家坐佇灶跤邊講話啦。彼個...彼個叫啥物，彼個那個孫仔咧，想袂起來了 [停頓] 。啊，對啦，阿母叫伊準備菜來著，伊就去菜市仔買菜齁。啊，今仔日天氣好足瞭，大家都心情不錯啦。彼個...彼個孫仔咧，就是咧，哎呀，彼個叫啥啦 [長停頓] ，想袂起來了 [嘆氣] 。好啦，話說回來，伊轉去厝內就開始準備飯啦。啊，阿爸閣在邊上看報紙咧，那個我嘛就在那邊攏著講話啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔跟孫仔轉來厝內食飯，大家坐佇灶跤邊講話啦。彼個...彼個叫啥物，彼個那個孫仔咧，想袂起來了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1135
+    },
+    {
+      "type": "speech",
+      "text": "。啊，對啦，阿母叫伊準備菜來著，伊就去菜市仔買菜齁。啊，今仔日天氣好足瞭，大家都心情不錯啦。彼個...彼個孫仔咧，就是咧，哎呀，彼個叫啥啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1725
+    },
+    {
+      "type": "speech",
+      "text": "，想袂起來了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1365
+    },
+    {
+      "type": "speech",
+      "text": "。好啦，話說回來，伊轉去厝內就開始準備飯啦。啊，阿爸閣在邊上看報紙咧，那個我嘛就在那邊攏著講話啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 12,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2860,
+    "mean_pause_ms": 1430.0,
+    "speech_char_count": 174
+  },
+  "speech_rate_target": 0.85
+}

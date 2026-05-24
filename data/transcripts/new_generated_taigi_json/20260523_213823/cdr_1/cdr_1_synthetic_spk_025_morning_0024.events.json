@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久就洗個臉，然後就去炊飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1017
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，攏要整理一下物件咧，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 712
+  },
+  {
+    "type": "speech",
+    "text": "就是包包啦，欲出門用的。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1057
+  },
+  {
+    "type": "speech",
+    "text": "呀～想袂起來彼個名子。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1157
+  },
+  {
+    "type": "speech",
+    "text": "然後就轉去菜市仔買個東西。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，要去買個菜、買個米啊，那個要準備一下。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1060
+  },
+  {
+    "type": "speech",
+    "text": "就這樣啦，欲出門囉。"
+  }
+]

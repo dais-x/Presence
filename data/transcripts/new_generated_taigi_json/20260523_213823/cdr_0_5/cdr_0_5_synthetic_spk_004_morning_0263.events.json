@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起床啦，先去洗面，然後就食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 949
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，我就整理一下厝內的物件咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 486
+  },
+  {
+    "type": "speech",
+    "text": "那個...想要準備一下要去菜市仔買東西啊。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，想袂起來要帶啥物咧。"
+  },
+  {
+    "type": "speech",
+    "text": "就是說，阿母以前都會攏講好啦，現在她去閣足囝仔那裡去了，就無法幫我拉。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，我自己也要學會整理嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "然後我就轉去出門啦。"
+  }
+]

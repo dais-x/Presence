@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我早早就轉去菜市仔買菜啊，那個攤販咧伊熱情喊我去選菜，我選咧一籃子青菜跟肉，想袂起來咧，伊賣啥物菜名我都講袂出來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 507
+  },
+  {
+    "type": "speech",
+    "text": "然後我就轉回厝內，阿母問我：「買啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 750
+  },
+  {
+    "type": "speech",
+    "text": "」我就說：「伊有啦，那個啥物都攏有了」。"
+  },
+  {
+    "type": "speech",
+    "text": "食飯咧，咱就吃個熱騰騰的肉燥飯。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 932
+  },
+  {
+    "type": "speech",
+    "text": "感覺真好啊。"
+  }
+]

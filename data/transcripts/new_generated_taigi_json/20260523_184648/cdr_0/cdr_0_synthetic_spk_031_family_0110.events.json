@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_031_family_0110",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。阿母準備好多菜，伊說著最近菜市仔的蔬菜價錢袂便宜，大家聽咧都點頭。孫仔還未足七歲，他講話時有時會用台式華語，那個真可愛啊。 [停頓] 囝仔講伊學校裡老師教啥物新課程，我聽了就講以前我們讀書時哪有這些東西，現在的世界變好多啦。孫仔就插嘴問說是咧？他就問個不停，我就跟伊講當年的故事，大家都笑翻瞭。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。阿母準備好多菜，伊說著最近菜市仔的蔬菜價錢袂便宜，大家聽咧都點頭。孫仔還未足七歲，他講話時有時會用台式華語，那個真可愛啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 474
+    },
+    {
+      "type": "speech",
+      "text": "囝仔講伊學校裡老師教啥物新課程，我聽了就講以前我們讀書時哪有這些東西，現在的世界變好多啦。孫仔就插嘴問說是咧？他就問個不停，我就跟伊講當年的故事，大家都笑翻瞭。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 474,
+    "mean_pause_ms": 474.0,
+    "speech_char_count": 168
+  },
+  "speech_rate_target": 1.0
+}

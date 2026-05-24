@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2279
+  },
+  {
+    "type": "speech",
+    "text": "那個... 早早就食飽啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2095
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1086
+  },
+  {
+    "type": "speech",
+    "text": "畫報紙咧，阿母說畫報紙會傷眼睛。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 417
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣足囝仔時候，伊袂欲我學做菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1124
+  },
+  {
+    "type": "speech",
+    "text": "嗯，那個... 食飯後頭痛。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1753
+  },
+  {
+    "type": "speech",
+    "text": "啊，以前伊講，厝裡佇菜市仔附近，天天要去買菜。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 977
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔咧好多攏在那邊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 739
+  },
+  {
+    "type": "speech",
+    "text": "今仔日早早就轉去啦。"
+  }
+]

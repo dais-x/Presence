@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_030_family_0049",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔攏轉來厝內食飯，真好笑啦。 [停頓] 阿母煮啥物菜著？啊，那個... 想袂起來。齁，孫仔咧講話講到興奮，一直跳來跳去。嗯，就是說，伊今早欲去菜市仔買食材，攏滿多的啦。 [停頓] 唉，轉去那次，阿爸厝著吃那個啥物湯？啊，就是那個雞湯齁。 [嘆氣] 那個時候真歡囝啊。ㄟ，講到伊，有時會想袂起來伊現在咧做啥物。嗯，好啦，先這樣，我欲去洗碗咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔攏轉來厝內食飯，真好笑啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 689
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮啥物菜著？啊，那個... 想袂起來。齁，孫仔咧講話講到興奮，一直跳來跳去。嗯，就是說，伊今早欲去菜市仔買食材，攏滿多的啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，轉去那次，阿爸厝著吃那個啥物湯？啊，就是那個雞湯齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "text": "那個時候真歡囝啊。ㄟ，講到伊，有時會想袂起來伊現在咧做啥物。嗯，好啦，先這樣，我欲去洗碗咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1889,
+    "mean_pause_ms": 944.5,
+    "speech_char_count": 156
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_028_market_0027",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，彼個...彼個賣青菜攤販咧，想袂起來伊叫啥名囝仔，按呢 [停頓] 啦，就是賣菜咧那個阿伯ㄟ菜好新鮮，我欲講好多話咧。彼個青江菜閣有買兩把，冬瓜咧也是，還有咧...還有咧那個紅蘿蔔，哎呀，紅蘿蔔咧有袂有足夠？ [停頓] ，按呢就是啦，今仔日買菜轉去厝內，阿母食飯時候咧要用到，彼個...彼個切菜刀咧，我有順便帶回家。按呢就講伊吧，那個冬瓜咧，伊誠大咧，伊咧可以煮好多天吃，齁，就是這樣啦。 [嘆氣] ，今仔日去菜市仔啊，真是好累嘞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，彼個...彼個賣青菜攤販咧，想袂起來伊叫啥名囝仔，按呢"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "啦，就是賣菜咧那個阿伯ㄟ菜好新鮮，我欲講好多話咧。彼個青江菜閣有買兩把，冬瓜咧也是，還有咧...還有咧那個紅蘿蔔，哎呀，紅蘿蔔咧有袂有足夠？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1062
+    },
+    {
+      "type": "speech",
+      "text": "，按呢就是啦，今仔日買菜轉去厝內，阿母食飯時候咧要用到，彼個...彼個切菜刀咧，我有順便帶回家。按呢就講伊吧，那個冬瓜咧，伊誠大咧，伊咧可以煮好多天吃，齁，就是這樣啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "text": "，今仔日去菜市仔啊，真是好累嘞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2092,
+    "mean_pause_ms": 1046.0,
+    "speech_char_count": 208
+  },
+  "speech_rate_target": 0.85
+}

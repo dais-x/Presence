@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我年輕時啦，天天農忙，早起晚睡，那個伊讀冊咧，書房內好多書，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1217
+  },
+  {
+    "type": "speech",
+    "text": "現在欲袂想恁多事體啦，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 509
+  },
+  {
+    "type": "speech",
+    "text": "孫仔都大囝仔了，阿母阿爸都無在咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1586
+  },
+  {
+    "type": "speech",
+    "text": "以前菜市仔佇那裡啊，早起去攤子買東西，那個按呢無人啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1482
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1830
+  },
+  {
+    "type": "speech",
+    "text": "欲食米粥齁，欲食麵線？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2213
+  },
+  {
+    "type": "speech",
+    "text": "那個身體無力，腳酸嘞，做袂到農忙囉，以前是足誠足誠去做啊。"
+  }
+]

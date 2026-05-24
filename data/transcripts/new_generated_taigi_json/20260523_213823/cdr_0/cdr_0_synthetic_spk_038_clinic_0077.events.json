@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早啊，我食飯啦，食碗稀飯袂啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 248
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣九月十七號齁，醫生你毋知咧。"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔去欲咧，買兩包菜跟一顆蕃薯攏有啦。"
+  },
+  {
+    "type": "speech",
+    "text": "伊講啥物代誌佇家裡？"
+  },
+  {
+    "type": "speech",
+    "text": "哦～按呢足啦，今早無啥特別嘸啦。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，孫仔今早轉去學校啦。"
+  }
+]

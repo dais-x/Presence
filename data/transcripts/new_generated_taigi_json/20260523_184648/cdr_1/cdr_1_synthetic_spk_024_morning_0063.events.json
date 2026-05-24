@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_morning_0063",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起囉，洗個面，食碗飯啦。然後去菜市仔買些東西咧，啥物欲用的啦。那個包包啊，包包內裝佇啥物呢？ [停頓] 那個米啊，醬油啊，按呢啦。準備好就轉去啦，轉去後面要幹嘛啊，就是要去朋友家啦，齁，好久沒見到伊咧。 [停頓] 你知伊住在啥處嗎？那個地址啊，想袂起來了啦，那個...那边有个大樹，按呢就好找啦。 [嘆氣] 想走去攏可以，就是腳有點軟啦。 [咳嗽] 阿母講說要幫佇厝裡整理一下咧，但我閣無力做啦，那些東西啊，擺咧好多處，想袂起來要怎麼處理。 [長停頓] 嗯... 今仔日就先這樣啦，明天再慢慢來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起囉，洗個面，食碗飯啦。然後去菜市仔買些東西咧，啥物欲用的啦。那個包包啊，包包內裝佇啥物呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1028
+    },
+    {
+      "type": "speech",
+      "text": "那個米啊，醬油啊，按呢啦。準備好就轉去啦，轉去後面要幹嘛啊，就是要去朋友家啦，齁，好久沒見到伊咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1286
+    },
+    {
+      "type": "speech",
+      "text": "你知伊住在啥處嗎？那個地址啊，想袂起來了啦，那個...那边有个大樹，按呢就好找啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1344
+    },
+    {
+      "type": "speech",
+      "text": "想走去攏可以，就是腳有點軟啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 761
+    },
+    {
+      "type": "speech",
+      "text": "阿母講說要幫佇厝裡整理一下咧，但我閣無力做啦，那些東西啊，擺咧好多處，想袂起來要怎麼處理。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2459
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 今仔日就先這樣啦，明天再慢慢來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4773,
+    "mean_pause_ms": 1591.0,
+    "speech_char_count": 223
+  },
+  "speech_rate_target": 0.85
+}

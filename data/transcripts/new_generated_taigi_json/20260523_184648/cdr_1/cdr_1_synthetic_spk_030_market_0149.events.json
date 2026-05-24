@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_030_market_0149",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，彼個攤販咧賣青菜按呢， [停頓] 嗯...彼個青菜好綠齁，我就想袂起來啊，那個...青菜叫啥物名？ [長停頓] [嘆氣] 那個青菜，對袂起嚐啦。買佇菜市仔以後咧轉去厝內，阿母咧等著我按呢，她欲食飯啦，我就煮飯給伊吃，那個...彼個菜要加豆乾齁，豆乾咧賣佷貴啦， [停頓] 毋知怎麼講，想袂起來， [長停頓] [嘆氣] 嗯...對嚐啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，彼個攤販咧賣青菜按呢，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1126
+    },
+    {
+      "type": "speech",
+      "text": "嗯...彼個青菜好綠齁，我就想袂起來啊，那個...青菜叫啥物名？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1676
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "text": "那個青菜，對袂起嚐啦。買佇菜市仔以後咧轉去厝內，阿母咧等著我按呢，她欲食飯啦，我就煮飯給伊吃，那個...彼個菜要加豆乾齁，豆乾咧賣佷貴啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "text": "毋知怎麼講，想袂起來，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2046
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 938
+    },
+    {
+      "type": "speech",
+      "text": "嗯...對嚐啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 2,
+    "cough_count": 0,
+    "pause_total_ms": 5699,
+    "mean_pause_ms": 1424.75,
+    "speech_char_count": 143
+  },
+  "speech_rate_target": 0.85
+}

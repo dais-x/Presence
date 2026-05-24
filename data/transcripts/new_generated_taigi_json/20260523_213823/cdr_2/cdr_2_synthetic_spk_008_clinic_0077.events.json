@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1866
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢咧是星期几啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 964
+  },
+  {
+    "type": "speech",
+    "text": "我欲知袂，問我阿母就好齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 954
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1487
+  },
+  {
+    "type": "speech",
+    "text": "欲吃麥片咧，但我無買到。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1737
+  },
+  {
+    "type": "speech",
+    "text": "然後今早佇菜市仔遇伊老公啦，伊說要轉去台北看孫仔。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，以前我阿爸每日都帶我去公園玩，那個公園有好多樹，還有一個大水池咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 661
+  },
+  {
+    "type": "speech",
+    "text": "你說按呢是幾號啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 470
+  },
+  {
+    "type": "speech",
+    "text": "我記袂起來啦，齁。"
+  }
+]

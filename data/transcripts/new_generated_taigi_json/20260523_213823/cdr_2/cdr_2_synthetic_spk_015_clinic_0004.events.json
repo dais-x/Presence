@@ -1,0 +1,86 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1066
+  },
+  {
+    "type": "speech",
+    "text": "我啊"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 945
+  },
+  {
+    "type": "speech",
+    "text": "，想袂到咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 993
+  },
+  {
+    "type": "speech",
+    "text": "早飯我食啥物？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 977
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食米糕啦，加個蛋，那個還有豆漿。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2213
+  },
+  {
+    "type": "speech",
+    "text": "我阿母以前煮佇灶跤，聞起來香喔。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2479
+  },
+  {
+    "type": "speech",
+    "text": "按呢伊還在嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "啊不咧，足老了啦。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧，他讀書誠認真。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 642
+  },
+  {
+    "type": "speech",
+    "text": "早飯欲食啥物？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 429
+  },
+  {
+    "type": "speech",
+    "text": "那個... 那個今早啊咧?"
+  },
+  {
+    "type": "speech",
+    "text": "伊講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "我記袂到啦。"
+  }
+]

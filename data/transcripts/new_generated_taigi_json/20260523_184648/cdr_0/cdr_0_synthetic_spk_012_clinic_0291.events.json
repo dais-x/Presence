@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_012_clinic_0291",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？按呢是五月十六号啦。早饭我食了碗稀飯同個水煮蛋，還有一杯咖啡齁。家裡最近啥物代誌咧？阿母前兩天去菜市仔買菜回來腳疼欲下啦，那個醫生有叫她多休息一下咧。孫仔放假咧，現在在家裡玩遊戲齁，好像在線上跟朋友打電動。 [停頓] 嗯...按呢就這樣子啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？按呢是五月十六号啦。早饭我食了碗稀飯同個水煮蛋，還有一杯咖啡齁。家裡最近啥物代誌咧？阿母前兩天去菜市仔買菜回來腳疼欲下啦，那個醫生有叫她多休息一下咧。孫仔放假咧，現在在家裡玩遊戲齁，好像在線上跟朋友打電動。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 518
+    },
+    {
+      "type": "speech",
+      "text": "嗯...按呢就這樣子啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 518,
+    "mean_pause_ms": 518.0,
+    "speech_char_count": 122
+  },
+  "speech_rate_target": 1.0
+}

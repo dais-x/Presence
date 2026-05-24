@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好曬，阿母叫我去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 752
+  },
+  {
+    "type": "speech",
+    "text": "我記得以前少年時陣，每天都要去幫伊轉菜，還要去田裡幹農活。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 472
+  },
+  {
+    "type": "speech",
+    "text": "那個時候讀冊啊，老師講課很嚴肅，常常想著中午回家可以吃啥物。"
+  },
+  {
+    "type": "speech",
+    "text": "有時放假就同阿爸去山邊采草藥，伊教我好多。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1316
+  },
+  {
+    "type": "speech",
+    "text": "現在想起來，按呢陣生活簡直是個夢囝仔。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...那個時候真是開心啊。"
+  }
+]

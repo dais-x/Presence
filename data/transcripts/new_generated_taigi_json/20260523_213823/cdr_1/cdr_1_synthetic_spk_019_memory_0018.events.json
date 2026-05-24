@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好，記得少年時陣，我天天去菜市仔買米。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1556
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥，就是那個賣魚的，佇那邊攤子上擺著好多魚。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1074
+  },
+  {
+    "type": "speech",
+    "text": "我會跟伊講話，問伊有無新鮮貨。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1320
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊咧姓名，但伊人緣好，大家都愛去伊那邊買。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1344
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去轉去，我說「嗯啦」，但還是會跟伊講話。"
+  },
+  {
+    "type": "speech",
+    "text": "攚是後來有幾年沒有去過，想袂起來彼個時候咧情形。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 558
+  },
+  {
+    "type": "speech",
+    "text": "當時還常幫阿爸種田，菜園裡面種好多蔬菜，自己食也足夠。"
+  },
+  {
+    "type": "speech",
+    "text": "那陣子生活真簡單，現在想起來好懷念。"
+  }
+]

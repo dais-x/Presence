@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起後，先洗面啦，然後就準備食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 987
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔買咧好多菜，要準備給全家吃啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 746
+  },
+  {
+    "type": "speech",
+    "text": "整理一下物件，欲出去轉去朋友家。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1221
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，就是那個老朋友啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，攏是舊事啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後就出門囉，今早氣候還不錯。"
+  }
+]

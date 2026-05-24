@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_038_clinic_0137",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是啥日子啊？ [停頓] 知咧，醫生你知嘛？ [停頓] 那個...早餐我食了粒鹹麵包，欲喝豆漿啦，那個...好像袂有去買豆漿， [嘆氣] 。家裡啥代誌啊？按呢就是無啥特別的，孫仔今早來過，咧那陣子阿母還好，就是偶爾會講她想我老爸。 [停頓] 嗯，那個...老爸他閣過世啦，啦，這樣啊。 [咳嗽] 啬時就食碗粥，然後轉去厝裡坐一會兒，齁，醫生你說今天啥日子咧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日子啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 592
+    },
+    {
+      "type": "speech",
+      "text": "知咧，醫生你知嘛？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個...早餐我食了粒鹹麵包，欲喝豆漿啦，那個...好像袂有去買豆漿，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "text": "。家裡啥代誌啊？按呢就是無啥特別的，孫仔今早來過，咧那陣子阿母還好，就是偶爾會講她想我老爸。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1148
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個...老爸他閣過世啦，啦，這樣啊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1120
+    },
+    {
+      "type": "speech",
+      "text": "啬時就食碗粥，然後轉去厝裡坐一會兒，齁，醫生你說今天啥日子咧？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2940,
+    "mean_pause_ms": 980.0,
+    "speech_char_count": 151
+  },
+  "speech_rate_target": 0.92
+}

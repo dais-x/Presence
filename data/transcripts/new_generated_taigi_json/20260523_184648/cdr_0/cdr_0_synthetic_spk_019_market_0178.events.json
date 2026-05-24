@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_market_0178",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個攤販問我欲袂欲買阮的筍子啊，我就講欲買啦。 [停頓] 然後伊咧那邊秤奬筍子，佇那時伊又講說阮這陣子有新鮮的黃瓜，我也就多買幾條來囉。轉去厝內啦，阿母問我今仔日菜市場有無買啥物新鮮蔬菜啊，我就講講給伊聽咧。 [停頓] 阿爸在灶跤煮飯，伊也想知阮今仔日買到啥物好料，我就順勢把筍子跟黃瓜拿去啦。按呢就攏足食飯囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個攤販問我欲袂欲買阮的筍子啊，我就講欲買啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 579
+    },
+    {
+      "type": "speech",
+      "text": "然後伊咧那邊秤奬筍子，佇那時伊又講說阮這陣子有新鮮的黃瓜，我也就多買幾條來囉。轉去厝內啦，阿母問我今仔日菜市場有無買啥物新鮮蔬菜啊，我就講講給伊聽咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 426
+    },
+    {
+      "type": "speech",
+      "text": "阿爸在灶跤煮飯，伊也想知阮今仔日買到啥物好料，我就順勢把筍子跟黃瓜拿去啦。按呢就攏足食飯囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1005,
+    "mean_pause_ms": 502.5,
+    "speech_char_count": 155
+  },
+  "speech_rate_target": 1.0
+}

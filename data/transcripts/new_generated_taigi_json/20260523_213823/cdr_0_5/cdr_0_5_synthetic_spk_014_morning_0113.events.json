@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起來洗面，然後就去炊飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 931
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，就開始整理一下厝裡頭物件啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 469
+  },
+  {
+    "type": "speech",
+    "text": "那個包包咧準備好，欲轉去菜市仔買些菜啊。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，要帶啥物東西？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 683
+  },
+  {
+    "type": "speech",
+    "text": "嗯...攏是記著，不過就是說，講到咧才會想起啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後就出門囉。"
+  }
+]

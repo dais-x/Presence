@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_030_clinic_0069",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是啥日呢？ [停頓] 那個就是星期幾啦... 想袂起來。嗯... 今早食啥物咧？ [停頓] 阿母叫我食飯，但毋知是啥米。那個就食飽了嘛。 [嘆氣] 家裡按呢有啥代誌嗎？孫仔咧，那個就是伊要去學校啦。還有阿爸，阿爸按呢還好啦... 就是講話有點慢，彼個... 彼個叫啥啊！ [停頓] 想袂起來啦。反正就是這樣子嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1093
+    },
+    {
+      "type": "speech",
+      "text": "那個就是星期幾啦... 想袂起來。嗯... 今早食啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1481
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我食飯，但毋知是啥米。那個就食飽了嘛。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1142
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢有啥代誌嗎？孫仔咧，那個就是伊要去學校啦。還有阿爸，阿爸按呢還好啦... 就是講話有點慢，彼個... 彼個叫啥啊！"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 987
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。反正就是這樣子嘛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3561,
+    "mean_pause_ms": 1187.0,
+    "speech_char_count": 135
+  },
+  "speech_rate_target": 0.85
+}

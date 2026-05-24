@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_039_clinic_0258",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 想袂起來啦... 今天早上食啥物啊？ 嗯，昨天那個有攏菜市仔買菜，今早應該是吃稀飯嘞。 家裡按呢啥代誌？ 阿母還好啦，伊那個最近有點咳嗽 [咳嗽] ，其佇厝裡休息。 按呢，醫生問啥物咧？ 嗯... 我想說就是阿母感冒嘛，她有吃藥齁。 啊，對了，今早食飯後有轉去學校接孫仔啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1132
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦... 今天早上食啥物啊？ 嗯，昨天那個有攏菜市仔買菜，今早應該是吃稀飯嘞。 家裡按呢啥代誌？ 阿母還好啦，伊那個最近有點咳嗽"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "text": "，其佇厝裡休息。 按呢，醫生問啥物咧？ 嗯... 我想說就是阿母感冒嘛，她有吃藥齁。 啊，對了，今早食飯後有轉去學校接孫仔啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1132,
+    "mean_pause_ms": 1132.0,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 0.92
+}

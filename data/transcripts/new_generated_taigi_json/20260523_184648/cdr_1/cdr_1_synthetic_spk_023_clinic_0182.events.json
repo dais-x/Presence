@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_023_clinic_0182",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是啥日？ [停頓] 我想袂起來啦。 [長停頓] 早餐我食飽咧齁，有鹹粿、花生湯。 [停頓] 那個鹹粿是我自己搓的啊，好飽足。 [嘆氣] 家裡按呢閣佇厝內，孫仔咧讀書唸課。 [停頓] 今朝伊轉去學校囝仔啦。 [咳嗽] 菜市仔去買菜齁，攏是自己攤子，阿母以前都會去的。 [停頓] 阿母好賢慧啊，啥物事情都懂。 [長停頓] 嗯，就是今朝早飯食啥？ [停頓] 我想袂起來啦，彼個...彼個叫啥來著，想袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1062
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2050
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食飽咧齁，有鹹粿、花生湯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1033
+    },
+    {
+      "type": "speech",
+      "text": "那個鹹粿是我自己搓的啊，好飽足。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1177
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢閣佇厝內，孫仔咧讀書唸課。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1318
+    },
+    {
+      "type": "speech",
+      "text": "今朝伊轉去學校囝仔啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 972
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去買菜齁，攏是自己攤子，阿母以前都會去的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1036
+    },
+    {
+      "type": "speech",
+      "text": "阿母好賢慧啊，啥物事情都懂。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1831
+    },
+    {
+      "type": "speech",
+      "text": "嗯，就是今朝早飯食啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1170
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦，彼個...彼個叫啥來著，想袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 9500,
+    "mean_pause_ms": 1357.14,
+    "speech_char_count": 147
+  },
+  "speech_rate_target": 0.85
+}

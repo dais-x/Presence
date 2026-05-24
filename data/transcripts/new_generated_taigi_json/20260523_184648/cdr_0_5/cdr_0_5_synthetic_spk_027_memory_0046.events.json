@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_027_memory_0046",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，我年輕時陣還袂敢想到會有咁樣。那個時候，一早起來就要去菜市仔買東西，然後回家準備農忙。讀冊的時候，阿母會叫我去幫伊拿書包。學校啦，老師講話我就記著，不過有些事就想袂起來了。 [停頓] 那個時候的同學，有個叫阿明，他常常跟我一起讀書，那個... 唉，就是常常這樣子咧。農忙的時候，大家會一起去田裡做工，中午就在田邊吃飯。孫仔現在都袂做這些事啦，齁，現在生活不一樣了。 [停頓] 那個時候簡單心啊，想起來就覺得很開心。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，我年輕時陣還袂敢想到會有咁樣。那個時候，一早起來就要去菜市仔買東西，然後回家準備農忙。讀冊的時候，阿母會叫我去幫伊拿書包。學校啦，老師講話我就記著，不過有些事就想袂起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 736
+    },
+    {
+      "type": "speech",
+      "text": "那個時候的同學，有個叫阿明，他常常跟我一起讀書，那個... 唉，就是常常這樣子咧。農忙的時候，大家會一起去田裡做工，中午就在田邊吃飯。孫仔現在都袂做這些事啦，齁，現在生活不一樣了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個時候簡單心啊，想起來就覺得很開心。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1936,
+    "mean_pause_ms": 968.0,
+    "speech_char_count": 204
+  },
+  "speech_rate_target": 0.92
+}

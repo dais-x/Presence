@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 960
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知是幾號啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 902
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "我食了個土司跟牛奶。"
+  },
+  {
+    "type": "speech",
+    "text": "那個菜市仔去袂啦，因為無時間嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "就是伊阿母講孫仔感冒拉，嗯...想袂起來咧。"
+  },
+  {
+    "type": "speech",
+    "text": "齁、那個今早伊叫我去厝看伊，說是去食飯就好。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，食過午頓未？"
+  },
+  {
+    "type": "speech",
+    "text": "我還沒食啦，閣準備著要去囝仔家。"
+  }
+]

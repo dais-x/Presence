@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_037_morning_0296",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就睏醒來，起來後先去洗面啦，那個水溼咧濕漉漉的， [停頓] 然後就去菜市仔買些菜來煮飯吃啊。食完飯後我有整理一下厝內物件，準備要去鄰居家坐一會兒。那個包包攏揹好啦，門也鎖緊，就轉去出門囉。齁，今仔日天氣咧好嘛，就是想去散散步，那個公園裡頭好多花開放著，咧看咧心情就好起來。 [停頓] 啊，想袂起來要講啥物嘞，不過這樣也好啦，反正要去買個菜就先去了唄。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就睏醒來，起來後先去洗面啦，那個水溼咧濕漉漉的，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 575
+    },
+    {
+      "type": "speech",
+      "text": "然後就去菜市仔買些菜來煮飯吃啊。食完飯後我有整理一下厝內物件，準備要去鄰居家坐一會兒。那個包包攏揹好啦，門也鎖緊，就轉去出門囉。齁，今仔日天氣咧好嘛，就是想去散散步，那個公園裡頭好多花開放著，咧看咧心情就好起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "啊，想袂起來要講啥物嘞，不過這樣也好啦，反正要去買個菜就先去了唄。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1775,
+    "mean_pause_ms": 887.5,
+    "speech_char_count": 168
+  },
+  "speech_rate_target": 0.92
+}

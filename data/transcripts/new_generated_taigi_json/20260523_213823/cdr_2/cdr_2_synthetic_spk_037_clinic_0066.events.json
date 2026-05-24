@@ -1,0 +1,86 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1665
+  },
+  {
+    "type": "speech",
+    "text": "忘記咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 756
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 865
+  },
+  {
+    "type": "speech",
+    "text": "食米粥啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1751
+  },
+  {
+    "type": "speech",
+    "text": "那個阿母去菜市仔。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2337
+  },
+  {
+    "type": "speech",
+    "text": "我以前有個狗狗，好可愛。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2024
+  },
+  {
+    "type": "speech",
+    "text": "攚是袂知道了。"
+  },
+  {
+    "type": "speech",
+    "text": "異時佇老家，伊咧灶跤煮湯。"
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "啦，就是米粥嘛。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1365
+  },
+  {
+    "type": "speech",
+    "text": "阿爸他咧啦，去哪裡啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1020
+  },
+  {
+    "type": "speech",
+    "text": "我想說是昨日的，但我毋知啦。"
+  },
+  {
+    "type": "speech",
+    "text": "攚是頭腦不太清楚。"
+  }
+]

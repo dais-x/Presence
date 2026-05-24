@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_picture_0103",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日看到張圖，咧袂清楚有幾個人， [停頓] 應該是三個，齁一個老阿母，做菜市仔攤，賣水果無？ [長停頓] 彼個...彼個叫啥？好像香蕉跟蘋果，攏有， [嘆氣] 。 [咳嗽] 那個老阿爸，應該是咧佇顧攤攠， [停頓] 顧著伊的老母。 [長停頓] 還有個年輕人，應該是孫仔無？去買菜，欲講啥物，想袂起來，啦， [停頓] 好像欲買水果。 [長停頓] 今仔日看咧，老阿母賣菜辛苦， [沉默] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看到張圖，咧袂清楚有幾個人，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 952
+    },
+    {
+      "type": "speech",
+      "text": "應該是三個，齁一個老阿母，做菜市仔攤，賣水果無？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2128
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個叫啥？好像香蕉跟蘋果，攏有，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 674
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1105
+    },
+    {
+      "type": "speech",
+      "text": "那個老阿爸，應該是咧佇顧攤攠，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 830
+    },
+    {
+      "type": "speech",
+      "text": "顧著伊的老母。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1523
+    },
+    {
+      "type": "speech",
+      "text": "還有個年輕人，應該是孫仔無？去買菜，欲講啥物，想袂起來，啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1025
+    },
+    {
+      "type": "speech",
+      "text": "好像欲買水果。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2051
+    },
+    {
+      "type": "speech",
+      "text": "今仔日看咧，老阿母賣菜辛苦，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1995
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 3,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 10504,
+    "mean_pause_ms": 1500.57,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.85
+}

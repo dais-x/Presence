@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號我亦無記咧，醫生。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1055
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1164
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1024
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去菜市仔買米其，但彼個...彼個叫啥，想袂起來了。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 454
+  },
+  {
+    "type": "speech",
+    "text": "然後我就攏閣去咧，可是佇家裡又無東西吃飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1032
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝有無轉去？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢孫仔誠乖啦，齁我講伊就聽咧。"
+  },
+  {
+    "type": "speech",
+    "text": "你說我咋樣子啊？"
+  }
+]

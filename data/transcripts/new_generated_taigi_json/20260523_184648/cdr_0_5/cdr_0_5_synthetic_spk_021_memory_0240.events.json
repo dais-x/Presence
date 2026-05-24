@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_021_memory_0240",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好，我來想想以前陣的事。那個時候，啊，學校讀冊啦，課餘時間就去菜市仔逛一逛。農忙時期，咧，早起晚睡，幫阿爸種田、收稻。當時伊還年輕，力氣足嘛。呃 [停頓] ，現在想袂起來啦，那個名字是啥物，就是以前厝內有個老闆，人很好，常常來買菜。後來啊，讀書時光也過去了。齁，少年時陣的生活真是美好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，我來想想以前陣的事。那個時候，啊，學校讀冊啦，課餘時間就去菜市仔逛一逛。農忙時期，咧，早起晚睡，幫阿爸種田、收稻。當時伊還年輕，力氣足嘛。呃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 658
+    },
+    {
+      "type": "speech",
+      "text": "，現在想袂起來啦，那個名字是啥物，就是以前厝內有個老闆，人很好，常常來買菜。後來啊，讀書時光也過去了。齁，少年時陣的生活真是美好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 658,
+    "mean_pause_ms": 658.0,
+    "speech_char_count": 142
+  },
+  "speech_rate_target": 0.92
+}

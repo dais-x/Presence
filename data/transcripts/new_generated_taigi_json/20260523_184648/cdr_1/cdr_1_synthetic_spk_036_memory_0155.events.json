@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_036_memory_0155",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天气好，我想到年轻时阵的生活。彼個...彼個叫啥物？（ [停頓] ）对了，就是读册的时候。阿爸会讲袂拢功课，叫我认真读。然後去菜市仔買菜，妈妈說要准备晚饭。那时候好多田地，农忙时候很辛苦。（那個，我们都要帮忙，割稻子、插秧咧。）现在想起來好像刚刚发生一样。彼個...啥物來著？（ [停頓] ）对了，还有阿母讲的话，她說做人要做诚心诚意的。 [停頓] 嗯，那时候大家聚在一起，都很热闹。（那個，就是啦，现在有点想不起來伊咧。）",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气好，我想到年轻时阵的生活。彼個...彼個叫啥物？（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1183
+    },
+    {
+      "type": "speech",
+      "text": "）对了，就是读册的时候。阿爸会讲袂拢功课，叫我认真读。然後去菜市仔買菜，妈妈說要准备晚饭。那时候好多田地，农忙时候很辛苦。（那個，我们都要帮忙，割稻子、插秧咧。）现在想起來好像刚刚发生一样。彼個...啥物來著？（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 948
+    },
+    {
+      "type": "speech",
+      "text": "）对了，还有阿母讲的话，她說做人要做诚心诚意的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1276
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那时候大家聚在一起，都很热闹。（那個，就是啦，现在有点想不起來伊咧。）"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3407,
+    "mean_pause_ms": 1135.67,
+    "speech_char_count": 197
+  },
+  "speech_rate_target": 0.85
+}

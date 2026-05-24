@@ -1,0 +1,48 @@
+{
+  "sample_id": "cdr_1_memory_0002",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "spoken_transcript": "彼個阿母叫啥物，彼個... [長停頓] 彼個是誰啊？想袂起來。年輕時陣，讀冊咧，每早起早閣去菜市仔買菜， [長停頓] 阿爸講袂到佇田裡干活啦，今仔日食飯欲毋知，還轉去厝內看孫仔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "彼個阿母叫啥物，彼個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1800
+    },
+    {
+      "type": "speech",
+      "text": "彼個是誰啊？想袂起來。年輕時陣，讀冊咧，每早起早閣去菜市仔買菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2300
+    },
+    {
+      "type": "speech",
+      "text": "阿爸講袂到佇田裡干活啦，今仔日食飯欲毋知，還轉去厝內看孫仔。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 1,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 4100,
+    "mean_pause_ms": 2050.0,
+    "speech_char_count": 75
+  },
+  "speech_rate_target": 0.85
+}

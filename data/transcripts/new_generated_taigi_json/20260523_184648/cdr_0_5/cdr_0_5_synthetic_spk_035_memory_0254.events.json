@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_memory_0254",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日阿母叫我來菜市仔買物，不過我年輕時陣毋是這樣， [停頓] 那個... 那時候啊，讀冊就認真唸書啦，讀到天黑才轉去。農忙時期咧，早早就起來做工，種稻榖、割稻，伊佇田裡幹好多活， [停頓] 現在想袂起來有啥物不同了... 那個時候啊，厝內阿爸會教我搿些事體，講說要好好學，不然長大後無法自理。 [嘆氣] 就是說，按呢生活變化很大啦，以前啊那個，囝仔時陣都是跟著大人做工，現在年輕人毋想做農業，都去讀大學咧。齁，我這會兒頭有點昏，想袂起來的事體愈來愈多啦。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日阿母叫我來菜市仔買物，不過我年輕時陣毋是這樣，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 929
+    },
+    {
+      "type": "speech",
+      "text": "那個... 那時候啊，讀冊就認真唸書啦，讀到天黑才轉去。農忙時期咧，早早就起來做工，種稻榖、割稻，伊佇田裡幹好多活，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "現在想袂起來有啥物不同了... 那個時候啊，厝內阿爸會教我搿些事體，講說要好好學，不然長大後無法自理。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 949
+    },
+    {
+      "type": "speech",
+      "text": "就是說，按呢生活變化很大啦，以前啊那個，囝仔時陣都是跟著大人做工，現在年輕人毋想做農業，都去讀大學咧。齁，我這會兒頭有點昏，想袂起來的事體愈來愈多啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 561
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 4,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2129,
+    "mean_pause_ms": 1064.5,
+    "speech_char_count": 210
+  },
+  "speech_rate_target": 0.92
+}

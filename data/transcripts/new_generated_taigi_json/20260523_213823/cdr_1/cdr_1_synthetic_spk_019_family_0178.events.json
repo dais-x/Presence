@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊帶阮孫仔來著。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 714
+  },
+  {
+    "type": "speech",
+    "text": "應該是想載阮去菜市仔買物資，但是阮毋知彼個地名啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 763
+  },
+  {
+    "type": "speech",
+    "text": "可是阮講佮伊，伊就答應來著囝仔攏來厝內。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1506
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧好可愛，會跟我講話。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1237
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣還不錯，阮想說去公園遊玩，但是孫仔袂太愛動啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 868
+  },
+  {
+    "type": "speech",
+    "text": "囝仔說要轉去，我就跟伊講阮厝內有好多好吃的菜，叫佮伊食無夠。"
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個孫仔母叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  }
+]

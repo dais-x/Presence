@@ -1,0 +1,130 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_020_clinic_0089",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號 [停頓] ？我毋知啦 [長停頓] ...早餐食啥物呢？我食米糕 [停頓] 那個阿母有煮好著咧 [長停頓] [沉默] ...按呢伊還在嗎？伊袂在嘸？ [停頓] 以前伊會煮好多好吃的咧，齁現在無人煮啦 [嘆氣] 。孫仔最近怎樣？ [咳嗽] 我今早食飯時候袂太有胃口啊 [長停頓] [沉默] ...我講啥物咧？早餐啦，對齁 [停頓] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1433
+    },
+    {
+      "type": "speech",
+      "text": "？我毋知啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1532
+    },
+    {
+      "type": "speech",
+      "text": "...早餐食啥物呢？我食米糕"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1388
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母有煮好著咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2321
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2694
+    },
+    {
+      "type": "speech",
+      "text": "...按呢伊還在嗎？伊袂在嘸？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1488
+    },
+    {
+      "type": "speech",
+      "text": "以前伊會煮好多好吃的咧，齁現在無人煮啦"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 911
+    },
+    {
+      "type": "speech",
+      "text": "。孫仔最近怎樣？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1157
+    },
+    {
+      "type": "speech",
+      "text": "我今早食飯時候袂太有胃口啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4050
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2493
+    },
+    {
+      "type": "speech",
+      "text": "...我講啥物咧？早餐啦，對齁"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1437
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 21,
+    "speech_event_count": 10,
+    "pause_event_count": 9,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 18836,
+    "mean_pause_ms": 2092.89,
+    "speech_char_count": 104
+  },
+  "speech_rate_target": 0.75
+}

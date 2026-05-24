@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_008_family_0007",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯咧，伊攏是早早就來咧，孫仔咧也跟著來齁。咱們坐佇灶跤邊講話，阿母袂在，她去菜市仔買菜去了。 [停頓] 孫仔咧問我啥物時候有空帶佇公園玩，我就說週末啦，今仔日毋知伊忙啥咧。孫仔咧聽了咧就開心齁，咱們講話講到天黑才轉去，真是好久袂見面了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯咧，伊攏是早早就來咧，孫仔咧也跟著來齁。咱們坐佇灶跤邊講話，阿母袂在，她去菜市仔買菜去了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 532
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧問我啥物時候有空帶佇公園玩，我就說週末啦，今仔日毋知伊忙啥咧。孫仔咧聽了咧就開心齁，咱們講話講到天黑才轉去，真是好久袂見面了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 532,
+    "mean_pause_ms": 532.0,
+    "speech_char_count": 122
+  },
+  "speech_rate_target": 1.0
+}

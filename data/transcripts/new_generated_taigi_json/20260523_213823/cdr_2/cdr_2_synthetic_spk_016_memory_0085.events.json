@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天气好啊，我 率去菜市仔買物資咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2557
+  },
+  {
+    "type": "speech",
+    "text": "想起以前啦，我阿母叫我去帮忙农忙，那個田间工作真累，齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2159
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1383
+  },
+  {
+    "type": "speech",
+    "text": "阿爸他呢阵子袂见了啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2252
+  },
+  {
+    "type": "speech",
+    "text": "唉，少年时读册的事，按呢就是不太记得咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 515
+  },
+  {
+    "type": "speech",
+    "text": "早饭有煮稀饭啊，还有咸菜，那個滋味好久没嚐啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1758
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔人真多啊，欲買啥物咧，我那個记性，哎呀，忘勒。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 632
+  }
+]

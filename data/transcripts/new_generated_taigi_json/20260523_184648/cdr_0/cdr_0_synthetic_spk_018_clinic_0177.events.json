@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_018_clinic_0177",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日是幾號啊？按呢是十月廿八啦。 [停頓] 我今早食的是稀飯加滷蛋咧，還有一點豆腐乳配著吃。家裡最近嘛沒啥代誌，就是孫仔放假回家，整天跑菜市仔買零食，阿母說他毋知節制。那個，伊咧學校讀書好像還好啦，就是有點懶惰，老師講要多唸書，他就 [停頓] [停頓] 一下，好像聽不進去。唉，年輕人真難管嘞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾號啊？按呢是十月廿八啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 594
+    },
+    {
+      "type": "speech",
+      "text": "我今早食的是稀飯加滷蛋咧，還有一點豆腐乳配著吃。家裡最近嘛沒啥代誌，就是孫仔放假回家，整天跑菜市仔買零食，阿母說他毋知節制。那個，伊咧學校讀書好像還好啦，就是有點懶惰，老師講要多唸書，他就"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 266
+    },
+    {
+      "type": "pause",
+      "duration_ms": 526
+    },
+    {
+      "type": "speech",
+      "text": "一下，好像聽不進去。唉，年輕人真難管嘞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 6,
+    "speech_event_count": 3,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1386,
+    "mean_pause_ms": 462.0,
+    "speech_char_count": 131
+  },
+  "speech_rate_target": 1.0
+}

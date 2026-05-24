@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久，先去洗面，然後就食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 729
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，那個，想起來要去菜市仔買些東西咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 896
+  },
+  {
+    "type": "speech",
+    "text": "嗯，整理一下厝裡頭的物件，準備出門ㄟ行李。"
+  },
+  {
+    "type": "speech",
+    "text": "就是要去找朋友ㄟ，好久没見到伊啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 824
+  },
+  {
+    "type": "speech",
+    "text": "那個，啊，閣要檢查一下電器有無關妥無，免得會有啥物意外咧。"
+  },
+  {
+    "type": "speech",
+    "text": "然後就轉去菜市仔買東西齁，準備好後就出門囉。"
+  }
+]

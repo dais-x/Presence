@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，洗面咧，然後去廚房食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 778
+  },
+  {
+    "type": "speech",
+    "text": "早餐吃啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1455
+  },
+  {
+    "type": "speech",
+    "text": "呃，想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1228
+  },
+  {
+    "type": "speech",
+    "text": "然後整理一下物件，準備出去啦。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去菜市仔買東西，彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那些日常要用的東西啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 941
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後轉去，嗯，拿傘咧，因為天氣好像會下雨齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 649
+  },
+  {
+    "type": "speech",
+    "text": "然後就出門啦。"
+  }
+]

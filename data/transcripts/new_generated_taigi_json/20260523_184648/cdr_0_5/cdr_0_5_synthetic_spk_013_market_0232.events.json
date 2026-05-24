@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_013_market_0232",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，那個攤販咧賣菜咧好多，我欲問伊有無紅蘿蔔，伊講有啊，我就買了一個回去啦。按呢轉去厝內，阿母閣在灶跤煮飯咧，伊問我買啥物菜來著，我就講伊啦。 [停頓] 那個青江菜咧，還有那個紅蘿蔔，嗯... 想袂起來，就是還買啥物菜咧，齁按呢就記袂起咧，但反正有買幾樣菜回去啊。轉去後面想一下，好像有無蒜頭，那個蒜頭咧，我有無買，嗯... [停頓] 啦啦，應該有買啦，因為煮湯時要用到嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，那個攤販咧賣菜咧好多，我欲問伊有無紅蘿蔔，伊講有啊，我就買了一個回去啦。按呢轉去厝內，阿母閣在灶跤煮飯咧，伊問我買啥物菜來著，我就講伊啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 633
+    },
+    {
+      "type": "speech",
+      "text": "那個青江菜咧，還有那個紅蘿蔔，嗯... 想袂起來，就是還買啥物菜咧，齁按呢就記袂起咧，但反正有買幾樣菜回去啊。轉去後面想一下，好像有無蒜頭，那個蒜頭咧，我有無買，嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "啦啦，應該有買啦，因為煮湯時要用到嘛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1833,
+    "mean_pause_ms": 916.5,
+    "speech_char_count": 185
+  },
+  "speech_rate_target": 0.92
+}

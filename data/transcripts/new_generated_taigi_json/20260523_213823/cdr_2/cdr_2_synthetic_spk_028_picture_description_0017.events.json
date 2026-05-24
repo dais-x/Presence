@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣誠好，我按呢欲去菜市仔買物資咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1476
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇灶跤煮飯，囝仔那個在旁邊亂動啊，好像欲幫忙啦"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 449
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠愛玩，攏在地板上拿著玩具來來去去的。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1913
+  },
+  {
+    "type": "speech",
+    "text": "我以前還會做好多菜，現在記毋到咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2123
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2239
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣足未起齁，那個，按呢欲轉去？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 651
+  }
+]

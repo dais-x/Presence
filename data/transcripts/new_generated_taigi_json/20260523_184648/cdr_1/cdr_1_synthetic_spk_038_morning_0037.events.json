@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_038_morning_0037",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日早起睏睤睤個，起來先洗面，然後去煮飯食飽飽。 [停頓] 食飽後，想整理一下厝內物件，那個... 伊咧哪個抽屜？ [長停頓] 想袂起來，彼個叫啥來著？齁，就是整理好就轉出去菜市仔買物資。然後晚上再回來煮飯囝仔食。 [嘆氣] 我欲講啥來著？ [沉默] 今早有無去厝後頭搧風涼？ [咳嗽] 嗯，好像有啦。 [停頓] 那個話題... 攚不拢來著？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏睤睤個，起來先洗面，然後去煮飯食飽飽。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 856
+    },
+    {
+      "type": "speech",
+      "text": "食飽後，想整理一下厝內物件，那個... 伊咧哪個抽屜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1790
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，彼個叫啥來著？齁，就是整理好就轉出去菜市仔買物資。然後晚上再回來煮飯囝仔食。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 843
+    },
+    {
+      "type": "speech",
+      "text": "我欲講啥來著？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1808
+    },
+    {
+      "type": "speech",
+      "text": "今早有無去厝後頭搧風涼？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 524
+    },
+    {
+      "type": "speech",
+      "text": "嗯，好像有啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 824
+    },
+    {
+      "type": "speech",
+      "text": "那個話題... 攚不拢來著？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5278,
+    "mean_pause_ms": 1319.5,
+    "speech_char_count": 135
+  },
+  "speech_rate_target": 0.85
+}

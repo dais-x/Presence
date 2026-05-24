@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好... 煮飯咧... 阿母佇哪個地方啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1581
+  },
+  {
+    "type": "speech",
+    "text": "囝仔彼個在做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3645
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 962
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有碗... 菜市仔去無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3649
+  },
+  {
+    "type": "cough",
+    "duration_ms": 967
+  },
+  {
+    "type": "speech",
+    "text": "食飯啦..."
+  }
+]

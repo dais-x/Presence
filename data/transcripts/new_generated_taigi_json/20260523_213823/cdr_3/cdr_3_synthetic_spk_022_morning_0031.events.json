@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "洗面... 阿母欲咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3509
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯啦... 囝仔誠啊..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2184
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 906
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 毋知伊去啥物按呢..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3521
+  },
+  {
+    "type": "cough",
+    "duration_ms": 566
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔... 嗯，天氣閣足好... 攚著準備轉去..."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起來就去洗面，然後啊，食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1012
+  },
+  {
+    "type": "speech",
+    "text": "伊去菜市仔買菜咧，我欲去囝仔家，可是彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1544
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1020
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，那個，就是去幫他整理一下厝裡物件，準備一下就轉去啦。"
+  }
+]

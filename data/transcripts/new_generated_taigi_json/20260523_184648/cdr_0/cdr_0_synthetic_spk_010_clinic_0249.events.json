@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_010_clinic_0249",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我記著袂啦，醫生閣看咧，按呢個月份應該快五月了吧？早飯我食了粒土司跟杯牛奶，簡單啦。 [停頓] 咱家裡無啥代誌，阿母好好的，孫仔今早去學校，誠在家裡寫功課咧。昨晚伊食飯足未，記得有幾隻雞腿還有青菜湯，按呢應該都還在冰箱裡頭。家中無啥事，就是這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 635
+    },
+    {
+      "type": "speech",
+      "text": "我記著袂啦，醫生閣看咧，按呢個月份應該快五月了吧？早飯我食了粒土司跟杯牛奶，簡單啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 593
+    },
+    {
+      "type": "speech",
+      "text": "咱家裡無啥代誌，阿母好好的，孫仔今早去學校，誠在家裡寫功課咧。昨晚伊食飯足未，記得有幾隻雞腿還有青菜湯，按呢應該都還在冰箱裡頭。家中無啥事，就是這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1228,
+    "mean_pause_ms": 614.0,
+    "speech_char_count": 125
+  },
+  "speech_rate_target": 1.0
+}

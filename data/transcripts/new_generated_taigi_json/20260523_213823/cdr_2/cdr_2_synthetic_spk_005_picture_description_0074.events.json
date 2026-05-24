@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日按呢人咧煮飯啊，我袂曉講啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1531
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1073
+  },
+  {
+    "type": "speech",
+    "text": "，以前阿母做早餐時都會叫我去買油條，那個超好吃齁，咦，這個碗咧有啥物東西咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2552
+  },
+  {
+    "type": "speech",
+    "text": "，就是說呀，我孫仔咧玩，佇厝頂閣，按呢碗咧有飯粒"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2381
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1088
+  },
+  {
+    "type": "speech",
+    "text": "，以前啊，我們囝仔時候咧，那個菜市仔真熱鬧，今仔日袂像以前啦。"
+  }
+]

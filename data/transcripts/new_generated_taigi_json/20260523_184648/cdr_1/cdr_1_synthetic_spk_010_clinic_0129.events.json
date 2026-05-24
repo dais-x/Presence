@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_010_clinic_0129",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 想袂起來啦... 可是今朝有吃過早餐囉。 [長停頓] 我食的是花生糊，那個還好嚕。 [嘆氣] 嚐飯時阿母有講啥代誌嘛？就是想袂起來啦。 [停頓] 菜市仔咧買菜，攏是伊自己去，我毋敢去，因為頭痛欲倒。 [長停頓] 那個孫仔咧讀書，按呢放假會來看我。 [咳嗽] 我家裡有啥代誌嘛？想袂起來啦... 嗯，今朝那個阿爸有無來啊？ [停頓] 他閣在厝裡面，毋知伊有無出去遊蕩。 [停頓] [沉默] 那個孫仔咧讀書，按呢放假會來看我。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1105
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦... 可是今朝有吃過早餐囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2171
+    },
+    {
+      "type": "speech",
+      "text": "我食的是花生糊，那個還好嚕。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 871
+    },
+    {
+      "type": "speech",
+      "text": "嚐飯時阿母有講啥代誌嘛？就是想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1135
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔咧買菜，攏是伊自己去，我毋敢去，因為頭痛欲倒。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2384
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧讀書，按呢放假會來看我。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 991
+    },
+    {
+      "type": "speech",
+      "text": "我家裡有啥代誌嘛？想袂起來啦... 嗯，今朝那個阿爸有無來啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 916
+    },
+    {
+      "type": "speech",
+      "text": "他閣在厝裡面，毋知伊有無出去遊蕩。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1305
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2097
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧讀書，按呢放假會來看我。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1091
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 11113,
+    "mean_pause_ms": 1587.57,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.85
+}

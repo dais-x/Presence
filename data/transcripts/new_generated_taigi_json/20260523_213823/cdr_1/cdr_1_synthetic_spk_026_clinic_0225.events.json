@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 869
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1276
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1320
+  },
+  {
+    "type": "speech",
+    "text": "那個... 是豆漿跟包子啦，按呢毋知是不是咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 856
+  },
+  {
+    "type": "speech",
+    "text": "家裡最近有啥代誌啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 942
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 我孫仔轉去學校咧，按呢就是說伊讀書咧。"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔有無開咧？"
+  },
+  {
+    "type": "speech",
+    "text": "開啦，我去買菜 來著，那個菜啊... 嗯，今早 沒去。"
+  },
+  {
+    "type": "speech",
+    "text": "我阿母伊還好，咧 跟我講話 有無 問候 來著。"
+  }
+]

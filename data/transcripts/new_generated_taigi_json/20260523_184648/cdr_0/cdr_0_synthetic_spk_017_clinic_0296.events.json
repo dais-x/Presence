@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_017_clinic_0296",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日是啥日子啊？ [停頓] 應該是個禮拜三啦。早餐我食的是稀飯跟鹹菜，還有一點豆腐乳。那個家裡按呢咧安好無？孫仔今天有返學，說是學校咧有考試。阿母今朝袂太舒服，頭有點痛，我想是感冒齁。不然就是最近天氣變來變去，比較容易生病。 [咳嗽] 其他都還好啦，就是這樣子齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日子啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 419
+    },
+    {
+      "type": "speech",
+      "text": "應該是個禮拜三啦。早餐我食的是稀飯跟鹹菜，還有一點豆腐乳。那個家裡按呢咧安好無？孫仔今天有返學，說是學校咧有考試。阿母今朝袂太舒服，頭有點痛，我想是感冒齁。不然就是最近天氣變來變去，比較容易生病。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 538
+    },
+    {
+      "type": "speech",
+      "text": "其他都還好啦，就是這樣子齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 419,
+    "mean_pause_ms": 419.0,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 1.0
+}

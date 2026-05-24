@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_028_memory_0287",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我年輕時陣天天都要去菜市仔買菜，那個時候讀冊嘛，學校講師很嚴肅啦， [停頓] 有個先生教我們文學課，講古詩咧。農忙的時候啊，全家人都要去田裡工作，伊說要做完日頭才暝的工作， [停頓] 現在年輕人不曉得辛苦，當初我讀冊時，那個...想袂起來啦，阿母叫我食飯轉去學校，閣要早起，不然會遲到。 [嘆氣] 啊，那些年月真辛苦，不過也快樂，就是這樣子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我年輕時陣天天都要去菜市仔買菜，那個時候讀冊嘛，學校講師很嚴肅啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 677
+    },
+    {
+      "type": "speech",
+      "text": "有個先生教我們文學課，講古詩咧。農忙的時候啊，全家人都要去田裡工作，伊說要做完日頭才暝的工作，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "現在年輕人不曉得辛苦，當初我讀冊時，那個...想袂起來啦，阿母叫我食飯轉去學校，閣要早起，不然會遲到。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1378
+    },
+    {
+      "type": "speech",
+      "text": "啊，那些年月真辛苦，不過也快樂，就是這樣子。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1877,
+    "mean_pause_ms": 938.5,
+    "speech_char_count": 162
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 693
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，按呢菜市仔買菜咧，看到掛曆才曉得是幾號。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1096
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 669
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我咧，說孫仔講厝裡有啥代誌，彼個...彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1359
+  },
+  {
+    "type": "speech",
+    "text": "是按呢伊出門買菜，看到鄰居啊。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是說家裡無啥特別事啦。"
+  }
+]

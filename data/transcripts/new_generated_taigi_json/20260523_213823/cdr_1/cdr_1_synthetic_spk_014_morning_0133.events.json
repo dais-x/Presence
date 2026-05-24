@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂早，先去洗面，然後就食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1312
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後我就整理一下厝內物件，準備要去菜市仔買物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 992
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 717
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "反正就是要去買些蔬菜水果咧。"
+  },
+  {
+    "type": "speech",
+    "text": "想著說要去買東西，結果就攏忘了欲去哪，只好再等等看齁。"
+  },
+  {
+    "type": "speech",
+    "text": "今早閣足在厝內，毋知晚仔日有無出門。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1246
+  },
+  {
+    "type": "speech",
+    "text": "這樣啦，慢慢來就好。"
+  }
+]

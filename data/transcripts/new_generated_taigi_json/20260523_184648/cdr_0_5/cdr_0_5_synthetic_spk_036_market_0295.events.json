@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_036_market_0295",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個按呢攤販咧賣青江菜，我講「伊有無賣青江菜？ [停頓] 摊販講袂起，我就自己找，那個找到啦，買一斤回來。 [停頓] 菜市場裡頭還看到阿母以前常去的攤子，那個按呢攤販咧賣魚，伊有無？ [嘆氣] 想袂起來伊叫啥物名，齁，轉去厝內啦，煮個湯給囝仔食。 [咳嗽] 唔該，那個話題變咁多，就是講菜市仔的嘛，那個今日買菜就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個按呢攤販咧賣青江菜，我講「伊有無賣青江菜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1105
+    },
+    {
+      "type": "speech",
+      "text": "摊販講袂起，我就自己找，那個找到啦，買一斤回來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "菜市場裡頭還看到阿母以前常去的攤子，那個按呢攤販咧賣魚，伊有無？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 960
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥物名，齁，轉去厝內啦，煮個湯給囝仔食。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 919
+    },
+    {
+      "type": "speech",
+      "text": "唔該，那個話題變咁多，就是講菜市仔的嘛，那個今日買菜就這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2305,
+    "mean_pause_ms": 1152.5,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.92
+}

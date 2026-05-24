@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_033_picture_0232",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "彼個圖內有好多囝仔咧，那個阿母在搥衣服， [停頓] 噐，搥衣裳是以前的活動啦。彼個是菜市仔齁，按呢這邊有人攤販在賣菜啊，那個 [長停頓] 想袂起來叫啥物，就是拿著籃子買菜咧。伊 [停頓] 有戴頂帽子，嗯... 噁，想袂起來是誰啦，就是隔壁阿伯齁。還有彼個是囝仔在玩球啊，那個球是足球啦。 [嘆氣] 唉，今仔日天氣好熱，去菜市仔買菜會流好多汗咧。那個阿母還在搥衣服，以前都是這樣做咧。 [長停頓] 噁，彼個叫啥物，就是拿籃子的，好像隔壁鄰居啦。 [咳嗽] 唉，今仔日想起來的事就這幾件啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "彼個圖內有好多囝仔咧，那個阿母在搥衣服，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 951
+    },
+    {
+      "type": "speech",
+      "text": "噐，搥衣裳是以前的活動啦。彼個是菜市仔齁，按呢這邊有人攤販在賣菜啊，那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1512
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來叫啥物，就是拿著籃子買菜咧。伊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "text": "有戴頂帽子，嗯... 噁，想袂起來是誰啦，就是隔壁阿伯齁。還有彼個是囝仔在玩球啊，那個球是足球啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 937
+    },
+    {
+      "type": "speech",
+      "text": "唉，今仔日天氣好熱，去菜市仔買菜會流好多汗咧。那個阿母還在搥衣服，以前都是這樣做咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1671
+    },
+    {
+      "type": "speech",
+      "text": "噁，彼個叫啥物，就是拿籃子的，好像隔壁鄰居啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 788
+    },
+    {
+      "type": "speech",
+      "text": "唉，今仔日想起來的事就這幾件啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 12,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5034,
+    "mean_pause_ms": 1258.5,
+    "speech_char_count": 205
+  },
+  "speech_rate_target": 0.85
+}

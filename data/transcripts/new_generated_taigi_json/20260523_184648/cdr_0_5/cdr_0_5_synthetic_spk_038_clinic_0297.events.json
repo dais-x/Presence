@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_038_clinic_0297",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我那個... 想袂起來咧。 [停頓] 今早食啥物？我食碗稀飯跟一個蛋。 [停頓] 家裡按呢有啥代誌嗎？伊佇菜市仔買菜去啦，那個... 孫仔咧感冒齁，真係困人。 [嘆氣] 阿母說要攏轉厝去，我就陪伊回去啦。 [咳嗽] 今早有無食飯？食啊，早就食過囉。 [停頓] 攚想起來啥物？就是恁伊講到孫仔嘛，那個... 孫仔咧誠足乖。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我那個... 想袂起來咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 972
+    },
+    {
+      "type": "speech",
+      "text": "今早食啥物？我食碗稀飯跟一個蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢有啥代誌嗎？伊佇菜市仔買菜去啦，那個... 孫仔咧感冒齁，真係困人。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 638
+    },
+    {
+      "type": "speech",
+      "text": "阿母說要攏轉厝去，我就陪伊回去啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 458
+    },
+    {
+      "type": "speech",
+      "text": "今早有無食飯？食啊，早就食過囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 877
+    },
+    {
+      "type": "speech",
+      "text": "攚想起來啥物？就是恁伊講到孫仔嘛，那個... 孫仔咧誠足乖。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3049,
+    "mean_pause_ms": 1016.33,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.92
+}

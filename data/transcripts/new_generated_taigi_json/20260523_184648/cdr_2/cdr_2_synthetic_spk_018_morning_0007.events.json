@@ -1,0 +1,162 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_018_morning_0007",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早起欲洗面， [停頓] 那個食飯啦， [長停頓] 伊毋知咧， [嘆氣] 母親以前會準備早餐， [沉默] 我那個時候還小， [咳嗽] 現在呀， [停頓] 早飯欲吃啥物？攏是母雞卵，齁。 [長停頓] 那個轉去，孫仔有無食飽， [停頓] 孫仔現在咧， 啊， [沉默] 心裡想著以前啊。 [長停頓] 欲出門啦， [停頓] 阿爸以前也是早起， 菜市仔有啥物菜？ [停頓] 嗯， [長停頓] 身體有點袂舒適， [嘆氣] 我咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起欲洗面，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1278
+    },
+    {
+      "type": "speech",
+      "text": "那個食飯啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3095
+    },
+    {
+      "type": "speech",
+      "text": "伊毋知咧，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 924
+    },
+    {
+      "type": "speech",
+      "text": "母親以前會準備早餐，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2977
+    },
+    {
+      "type": "speech",
+      "text": "我那個時候還小，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 509
+    },
+    {
+      "type": "speech",
+      "text": "現在呀，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1246
+    },
+    {
+      "type": "speech",
+      "text": "早飯欲吃啥物？攏是母雞卵，齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1521
+    },
+    {
+      "type": "speech",
+      "text": "那個轉去，孫仔有無食飽，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1357
+    },
+    {
+      "type": "speech",
+      "text": "孫仔現在咧， 啊，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3321
+    },
+    {
+      "type": "speech",
+      "text": "心裡想著以前啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2974
+    },
+    {
+      "type": "speech",
+      "text": "欲出門啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1338
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前也是早起， 菜市仔有啥物菜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1252
+    },
+    {
+      "type": "speech",
+      "text": "嗯，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2042
+    },
+    {
+      "type": "speech",
+      "text": "身體有點袂舒適，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 689
+    },
+    {
+      "type": "speech",
+      "text": "我咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 29,
+    "speech_event_count": 15,
+    "pause_event_count": 11,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 22401,
+    "mean_pause_ms": 2036.45,
+    "speech_char_count": 122
+  },
+  "speech_rate_target": 0.75
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，全家人都坐佇灶跤邊，講講閒天。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 568
+  },
+  {
+    "type": "speech",
+    "text": "伊阿母叫伊食多一點，那個...菜色有好多種，想袂起來啥物先吃。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 717
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧問伊，阿公阿媽年輕時做啥工作？"
+  },
+  {
+    "type": "speech",
+    "text": "噗～"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 428
+  },
+  {
+    "type": "speech",
+    "text": "想起來啦，當年是教書ㄟ職業。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，講到學校，就想到以前同儕咧聚會，大家講起舊事都覺得很開心。"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔買的菜還滿好吃嘸？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，那個孫仔咧說想學煮飯，伊聽啦就很支持。"
+  }
+]

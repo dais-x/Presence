@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_031_memory_0020",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我年輕時袂是這樣。 [停頓] 那個時候，我會去菜市仔買菜，載伊母去讀冊。 [長停頓] 有時阿爸喊我去幫農忙，那個真辛苦啦。 [嘆氣] 真懷念以前咧，現在嘛就是吃早餐囝仔啊，早佇食飯咧。 [咳嗽] 阿爸講我今朝毋知為啥物這樣袂爽， [停頓] 就是會想以前的事。 [長停頓] 那個時候真好。 [沉默] [嘆氣] 现在嘛就是吃早餐囝仔啊，早佇食飯咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我年輕時袂是這樣。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1409
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，我會去菜市仔買菜，載伊母去讀冊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4256
+    },
+    {
+      "type": "speech",
+      "text": "有時阿爸喊我去幫農忙，那個真辛苦啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1111
+    },
+    {
+      "type": "speech",
+      "text": "真懷念以前咧，現在嘛就是吃早餐囝仔啊，早佇食飯咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 542
+    },
+    {
+      "type": "speech",
+      "text": "阿爸講我今朝毋知為啥物這樣袂爽，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1355
+    },
+    {
+      "type": "speech",
+      "text": "就是會想以前的事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2491
+    },
+    {
+      "type": "speech",
+      "text": "那個時候真好。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2534
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1274
+    },
+    {
+      "type": "speech",
+      "text": "现在嘛就是吃早餐囝仔啊，早佇食飯咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 12045,
+    "mean_pause_ms": 2409.0,
+    "speech_char_count": 132
+  },
+  "speech_rate_target": 0.75
+}

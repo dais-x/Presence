@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好曬，我想到小時候陣的事啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 613
+  },
+  {
+    "type": "speech",
+    "text": "那個時節啊，我們天天去菜市仔買餠食，讀冊嘛，農忙咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 560
+  },
+  {
+    "type": "speech",
+    "text": "阿母會叫我去幫伊攏田裡工作，那個時候真辛苦咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 873
+  },
+  {
+    "type": "speech",
+    "text": "還記得有個孫仔嘞，常常來厝內玩，現在都大大人啦。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，對了，還有灶跤那陣子，大家坐著食飯，講講話，真的很歡喜。"
+  },
+  {
+    "type": "speech",
+    "text": "就是說，那些日子真是美好。"
+  }
+]

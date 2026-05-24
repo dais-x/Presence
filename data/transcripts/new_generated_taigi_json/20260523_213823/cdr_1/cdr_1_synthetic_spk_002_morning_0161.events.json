@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，先去洗面，然後就去菜市仔買餓肚的物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1543
+  },
+  {
+    "type": "speech",
+    "text": "買回來後，就開始煮飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 906
+  },
+  {
+    "type": "speech",
+    "text": "菜嘛，想袂起來咧..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1219
+  },
+  {
+    "type": "speech",
+    "text": "反正就是伊慣講啥個，那個按呢有足個料，就會去做囉。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 541
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，就想轉去準備出門啊，可是包包裡頭有啥物，彼個...彼個叫啥啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 703
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來咧，只好去厝仔內再攏找一找啦。"
+  }
+]

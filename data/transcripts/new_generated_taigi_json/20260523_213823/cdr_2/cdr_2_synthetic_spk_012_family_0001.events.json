@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊， 孫仔也攏來咧，大家坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1520
+  },
+  {
+    "type": "speech",
+    "text": "那個，伊以前讀書時候阿母袂許伊吃糖齁，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1091
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 728
+  },
+  {
+    "type": "speech",
+    "text": "那個時候真無食啥物甜的啊， 噗！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2158
+  },
+  {
+    "type": "speech",
+    "text": "現在嘛，哎呀，身體袂好啦，早餐欲吃多點米糕，那個伊以前咧？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1040
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧，按呢阿爸還佇嗎？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1992
+  },
+  {
+    "type": "speech",
+    "text": "他袂在了齁， 现在就我跟孫仔兩個人啊。"
+  }
+]

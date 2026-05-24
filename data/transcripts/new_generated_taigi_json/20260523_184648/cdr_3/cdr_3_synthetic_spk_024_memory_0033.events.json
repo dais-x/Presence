@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_024_memory_0033",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "菜市仔... 阿母咧？ [長停頓] 欲去囝仔厝... 攏無人... [長停頓] 食飯啦... 嗯... 冷啦... 灶跤閣燒啦齁... [沉默] 袂知伊在哪個？ [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔... 阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1891
+    },
+    {
+      "type": "speech",
+      "text": "欲去囝仔厝... 攏無人..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4982
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦... 嗯... 冷啦... 灶跤閣燒啦齁..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 5047
+    },
+    {
+      "type": "speech",
+      "text": "袂知伊在哪個？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 887
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 7,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 11920,
+    "mean_pause_ms": 3973.33,
+    "speech_char_count": 60
+  },
+  "speech_rate_target": 0.65
+}

@@ -1,0 +1,60 @@
+{
+  "sample_id": "cdr_2_memory_0006",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "spoken_transcript": "今仔日菜市仔袂攏去欲，按呢閣足食飯囝 [長停頓] 阿爸少年時陣做農忙啊咧 [長停頓] 伊誠辛苦齁，嗯...我以前讀冊啦 [長停頓] 書本無多瞭，現在是這樣子嘞 [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日菜市仔袂攏去欲，按呢閣足食飯囝"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "text": "阿爸少年時陣做農忙啊咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2000
+    },
+    {
+      "type": "speech",
+      "text": "伊誠辛苦齁，嗯...我以前讀冊啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1800
+    },
+    {
+      "type": "speech",
+      "text": "書本無多瞭，現在是這樣子嘞"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3500
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 1,
+    "semantic_drift_count": 2,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 8800,
+    "mean_pause_ms": 2200.0,
+    "speech_char_count": 58
+  },
+  "speech_rate_target": 0.75
+}

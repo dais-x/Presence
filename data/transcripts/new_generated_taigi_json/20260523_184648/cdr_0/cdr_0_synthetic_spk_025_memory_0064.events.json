@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_025_memory_0064",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好熱，阿母叫我去菜市仔買幾樣東西，我走去時路過厝後頭那塊田，看到伊們在搥稻子收穫咧。那個時候我們家也是農耕家庭啦，每天都要早起做工，從菜園到田地，無日無之足工攏要做。 [停頓] 讀冊時間很少，因為要幫忙厝內長輩做家事，講真話，少年時陣真辛苦啊，可是現在回想起來又覺得那段日子很有趣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱，阿母叫我去菜市仔買幾樣東西，我走去時路過厝後頭那塊田，看到伊們在搥稻子收穫咧。那個時候我們家也是農耕家庭啦，每天都要早起做工，從菜園到田地，無日無之足工攏要做。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 254
+    },
+    {
+      "type": "speech",
+      "text": "讀冊時間很少，因為要幫忙厝內長輩做家事，講真話，少年時陣真辛苦啊，可是現在回想起來又覺得那段日子很有趣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 254,
+    "mean_pause_ms": 254.0,
+    "speech_char_count": 141
+  },
+  "speech_rate_target": 1.0
+}

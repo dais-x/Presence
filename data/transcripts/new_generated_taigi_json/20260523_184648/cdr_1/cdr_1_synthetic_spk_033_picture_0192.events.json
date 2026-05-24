@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_033_picture_0192",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日看個相片，彼個相片內頭佇菜市仔，按呢有個攤販，賣著青菜水果。伊擺著好多籃子，有綠色的葉菜，紅色的蕃茄，黃色的香蕉。 [停頓] 嗯，那個賣菜的婆婆咧笑咪咪講話，好像在介紹她的菜給人聽。 [停頓] 按呢還有個顧客，拎著籃子選水果，看起來伊要買好多回家做水果沙拉。就是，想袂起來彼個顧客欲是誰，應該是伊的鄰居吧？嗯，就是這樣啦，賣菜的婆婆跟顧客講話好熱絡。 [嘆氣] 按呢有個小囝仔，在攤販面前搗亂，想要吃水果，阿母在後頭吼伊咧，叫佇那兒不要鬧。那個，今仔日看相片感覺滿開心的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看個相片，彼個相片內頭佇菜市仔，按呢有個攤販，賣著青菜水果。伊擺著好多籃子，有綠色的葉菜，紅色的蕃茄，黃色的香蕉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 978
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個賣菜的婆婆咧笑咪咪講話，好像在介紹她的菜給人聽。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1442
+    },
+    {
+      "type": "speech",
+      "text": "按呢還有個顧客，拎著籃子選水果，看起來伊要買好多回家做水果沙拉。就是，想袂起來彼個顧客欲是誰，應該是伊的鄰居吧？嗯，就是這樣啦，賣菜的婆婆跟顧客講話好熱絡。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 782
+    },
+    {
+      "type": "speech",
+      "text": "按呢有個小囝仔，在攤販面前搗亂，想要吃水果，阿母在後頭吼伊咧，叫佇那兒不要鬧。那個，今仔日看相片感覺滿開心的啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2420,
+    "mean_pause_ms": 1210.0,
+    "speech_char_count": 222
+  },
+  "speech_rate_target": 0.85
+}

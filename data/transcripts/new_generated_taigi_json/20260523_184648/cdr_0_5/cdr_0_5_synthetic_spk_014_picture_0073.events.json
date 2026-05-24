@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_014_picture_0073",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_014",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看伊張相，咧菜市仔內，有個阿母攜著孫仔買菜，那個孫仔應該是小囝仔啦。 [停頓] 阿母手裡拿著籃子，伊應該在挑選阮吃緊欲嘸？ 佇相架右邊咧，有個伯公攏袂攜籃子，就是拎著袋子買菜，那個好像欲轉去厝煮飯齁。 [咳嗽] 那個伊隔壁呢，應該是鄰居啦，伊欲講話ㄟ樣子。 [嘆氣] 按呢咧相就講咱家日常代誌啦，好多人都在做自己嘸？就是這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看伊張相，咧菜市仔內，有個阿母攜著孫仔買菜，那個孫仔應該是小囝仔啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 561
+    },
+    {
+      "type": "speech",
+      "text": "阿母手裡拿著籃子，伊應該在挑選阮吃緊欲嘸？ 佇相架右邊咧，有個伯公攏袂攜籃子，就是拎著袋子買菜，那個好像欲轉去厝煮飯齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1024
+    },
+    {
+      "type": "speech",
+      "text": "那個伊隔壁呢，應該是鄰居啦，伊欲講話ㄟ樣子。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1357
+    },
+    {
+      "type": "speech",
+      "text": "按呢咧相就講咱家日常代誌啦，好多人都在做自己嘸？就是這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 2,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 561,
+    "mean_pause_ms": 561.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.92
+}

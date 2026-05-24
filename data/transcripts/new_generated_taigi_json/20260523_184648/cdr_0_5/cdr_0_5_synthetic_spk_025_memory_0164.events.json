@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_025_memory_0164",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日無啥物事，坐在厝內就想著少年時陣的生活囝仔時期。當時阿母叫我去菜市仔買菜，那個...攏是自己騎腳踏車去。買完就轉回來，伊咧灶跤煮飯啊。農忙的時候比較辛苦，從早到晚都在田裡做工，那個...想袂起來當時有無放假咧，好像每天都會去。讀冊嘛，學校就在附近，每天步行去啦。 [停頓] 現在回想起來，那個年代生活簡單卻也足夠誠心。 [停頓] 阿爸以前講過，做人要誠實，做事要盡力，這樣才對得起自己啊。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日無啥物事，坐在厝內就想著少年時陣的生活囝仔時期。當時阿母叫我去菜市仔買菜，那個...攏是自己騎腳踏車去。買完就轉回來，伊咧灶跤煮飯啊。農忙的時候比較辛苦，從早到晚都在田裡做工，那個...想袂起來當時有無放假咧，好像每天都會去。讀冊嘛，學校就在附近，每天步行去啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1143
+    },
+    {
+      "type": "speech",
+      "text": "現在回想起來，那個年代生活簡單卻也足夠誠心。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前講過，做人要誠實，做事要盡力，這樣才對得起自己啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1242
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 6,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2343,
+    "mean_pause_ms": 1171.5,
+    "speech_char_count": 185
+  },
+  "speech_rate_target": 0.92
+}

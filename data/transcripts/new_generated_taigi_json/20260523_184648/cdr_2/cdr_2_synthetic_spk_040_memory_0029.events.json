@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_040_memory_0029",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天气好啊， [停頓] 以前我袂读书册咧，那個时候啊，在田里干活， [長停頓] 那個稻子收成啦，就阿爸跟伊一起去， [沉默] 就是那個阿母在厝内等著， [嘆氣] 早年嘛，我就欲帮忙割稻，那個刀啊，那個镰刀，那個镰刀要好沉哦， [咳嗽] 那個阿爸教我咧， [停頓] 那個饭食，就那個早上起來就吃稀饭啦，以前的那個孙仔现在都大囝仔啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气好啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1431
+    },
+    {
+      "type": "speech",
+      "text": "以前我袂读书册咧，那個时候啊，在田里干活，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2806
+    },
+    {
+      "type": "speech",
+      "text": "那個稻子收成啦，就阿爸跟伊一起去，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1775
+    },
+    {
+      "type": "speech",
+      "text": "就是那個阿母在厝内等著，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 907
+    },
+    {
+      "type": "speech",
+      "text": "早年嘛，我就欲帮忙割稻，那個刀啊，那個镰刀，那個镰刀要好沉哦，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 445
+    },
+    {
+      "type": "speech",
+      "text": "那個阿爸教我咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1258
+    },
+    {
+      "type": "speech",
+      "text": "那個饭食，就那個早上起來就吃稀饭啦，以前的那個孙仔现在都大囝仔啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 7270,
+    "mean_pause_ms": 1817.5,
+    "speech_char_count": 130
+  },
+  "speech_rate_target": 0.75
+}

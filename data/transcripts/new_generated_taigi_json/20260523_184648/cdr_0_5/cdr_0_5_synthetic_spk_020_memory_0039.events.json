@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_020_memory_0039",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好好，我想到少年時陣啦。那個時候啊，學校讀冊攏是用台文，不過後來變漢文啦。農忙時期咧，厝內大人閣要出去菜市仔買東西，伊會叫我去幫佇田裡工作。 [停頓] 那個時候，阿母有時會煮些清淡的菜給我們食飯，因為阿爸那個... 想袂起來啦，他要去幫忙鄰居耕田。我啊，常常跟著囝仔們一起去溪邊戲水，那個時候真是快樂啊。 [嘆氣] 今仔日想來咧，好像那些時光都足誠好久以前的事了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好好，我想到少年時陣啦。那個時候啊，學校讀冊攏是用台文，不過後來變漢文啦。農忙時期咧，厝內大人閣要出去菜市仔買東西，伊會叫我去幫佇田裡工作。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 813
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，阿母有時會煮些清淡的菜給我們食飯，因為阿爸那個... 想袂起來啦，他要去幫忙鄰居耕田。我啊，常常跟著囝仔們一起去溪邊戲水，那個時候真是快樂啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1279
+    },
+    {
+      "type": "speech",
+      "text": "今仔日想來咧，好像那些時光都足誠好久以前的事了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 813,
+    "mean_pause_ms": 813.0,
+    "speech_char_count": 175
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,64 @@
+{
+  "sample_id": "cdr_1_clinic_0001",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "spoken_transcript": "今仔日幾號我毋知，按呢袂想起來。 [長停頓] 早餐食啥？嗯... [停頓] 食飯啦！菜市仔欲去無？ [沉默] 那個啊母叫啥，彼個...彼個叫啥咧，就是恁伊足誠。 [嘆氣] 按呢有啥代誌嘛，按呢閣未發生啥物",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號我毋知，按呢袂想起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "text": "早餐食啥？嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦！菜市仔欲去無？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2000
+    },
+    {
+      "type": "speech",
+      "text": "那個啊母叫啥，彼個...彼個叫啥咧，就是恁伊足誠。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "按呢有啥代誌嘛，按呢閣未發生啥物"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 2,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 4300,
+    "mean_pause_ms": 1433.33,
+    "speech_char_count": 77
+  },
+  "speech_rate_target": 0.85
+}

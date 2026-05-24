@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊叫孫仔咧也來，大家都坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1249
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1211
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔，伊毋知叫啥，阿母說伊叫明明啦，明明啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1379
+  },
+  {
+    "type": "speech",
+    "text": "我欲問伊讀書否齁，明明就講伊讀初中啦。"
+  },
+  {
+    "type": "speech",
+    "text": "佇講話咧，我欲想起來彼個...彼個啥物，就是欲講一陣子袂來的那個囝仔，欲講袂起來了。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1239
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔咧，按呢足攏誠乖，毋知伊是誰啦，阿爸說伊是二女兒囝仔。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1048
+  },
+  {
+    "type": "speech",
+    "text": "噗哈哈，講到啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "是啊，大家轉去食飯嘞。"
+  }
+]

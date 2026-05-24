@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日伊人咧厝內煮飯，鍋子熱烘烘，飯氣香噴噴，那個...想袂起來，啥物桌頂上有物件？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 580
+  },
+  {
+    "type": "speech",
+    "text": "啊！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 492
+  },
+  {
+    "type": "speech",
+    "text": "攏是碗碟咧，還有個壺。"
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔欲買些青菜，阿母說要食飽飽，囝仔呢講伊要去公園玩，誠毋知伊去未去。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1040
+  },
+  {
+    "type": "speech",
+    "text": "齁，今早真忙。"
+  }
+]

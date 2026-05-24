@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_006_clinic_0245",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早辰我食個麵線糊啦，攏是自家煮嘸啥物贓。醫生先生，按呢個日子幾號啊？ [停頓] 我記無啦，那個看日曆咧才知。不過今早我有去菜市仔買菜，欲煮給孫仔食。按呢家裡伊都安穩，毋講啥物贓代誌。就是最近天氣變換快，老是袂知著要穿啥。齁，你說今早是幾號啊？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早辰我食個麵線糊啦，攏是自家煮嘸啥物贓。醫生先生，按呢個日子幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 223
+    },
+    {
+      "type": "speech",
+      "text": "我記無啦，那個看日曆咧才知。不過今早我有去菜市仔買菜，欲煮給孫仔食。按呢家裡伊都安穩，毋講啥物贓代誌。就是最近天氣變換快，老是袂知著要穿啥。齁，你說今早是幾號啊？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 223,
+    "mean_pause_ms": 223.0,
+    "speech_char_count": 118
+  },
+  "speech_rate_target": 1.0
+}

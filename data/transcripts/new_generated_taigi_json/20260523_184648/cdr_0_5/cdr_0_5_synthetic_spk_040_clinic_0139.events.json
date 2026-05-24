@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_040_clinic_0139",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "醫生，今仔日幾號啊？ [停頓] 想袂起來啦... 嗯，那個是星期幾咧？ 早餐食啥物啊，我食了個土司跟一杯牛奶齁。 那個，按呢陣厝裡無啥代誌啦，伊都在好好的。 [停頓] 就是，孫仔今早有去菜市仔買菜，攏佇家裡等著食飯。 [嘆氣] 那個... 欲講啥物咧？ 啊，想起來了啦，我今早轉去厝，阿母叫我去洗碗咧，我就洗了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "醫生，今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 670
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦... 嗯，那個是星期幾咧？ 早餐食啥物啊，我食了個土司跟一杯牛奶齁。 那個，按呢陣厝裡無啥代誌啦，伊都在好好的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "就是，孫仔今早有去菜市仔買菜，攏佇家裡等著食飯。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 629
+    },
+    {
+      "type": "speech",
+      "text": "那個... 欲講啥物咧？ 啊，想起來了啦，我今早轉去厝，阿母叫我去洗碗咧，我就洗了啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1870,
+    "mean_pause_ms": 935.0,
+    "speech_char_count": 139
+  },
+  "speech_rate_target": 0.92
+}

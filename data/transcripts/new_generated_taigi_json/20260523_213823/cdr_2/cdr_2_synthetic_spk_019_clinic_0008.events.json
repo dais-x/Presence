@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1223
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1800
+  },
+  {
+    "type": "speech",
+    "text": "那個早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1751
+  },
+  {
+    "type": "speech",
+    "text": "早飯欲袂吃，頭好痛。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1305
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊咧有無啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1891
+  },
+  {
+    "type": "speech",
+    "text": "按呢佇厝齁，孫仔伊咧玩囝仔戲。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 461
+  },
+  {
+    "type": "speech",
+    "text": "灶跤閣足菜啊。"
+  },
+  {
+    "type": "speech",
+    "text": "以前阿爸伊袂講話嘞，今朝怎麼恁會講起話來了啊。"
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知伊欲講啥物，齁。"
+  }
+]

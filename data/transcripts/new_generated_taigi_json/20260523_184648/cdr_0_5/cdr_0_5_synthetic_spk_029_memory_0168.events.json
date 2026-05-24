@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_memory_0168",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好好，我想到小時候讀冊陣的事。 [停頓] 那個時候啊，真係無想袂起伊咧樣子。 阿母會叫我去菜市仔買東西， [停頓] 有時佇學校陣，老師會教我們寫字。 [停頓] 嗯，那個農忙時候，一早起來就去田裡做工，阿爸也袂閒著。 [停頓] 想袂起來伊咧話講啥物？ [嘆氣] 有時我跟鄰居的囝仔一起去溪邊戲水，那個真開心啊。 [咳嗽] 就是說，今仔日的生活比以前好多了啦。按呢講著講著又想袂起來啦，那個時候的事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好好，我想到小時候讀冊陣的事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 802
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啊，真係無想袂起伊咧樣子。 阿母會叫我去菜市仔買東西，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 834
+    },
+    {
+      "type": "speech",
+      "text": "有時佇學校陣，老師會教我們寫字。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 925
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個農忙時候，一早起來就去田裡做工，阿爸也袂閒著。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊咧話講啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 805
+    },
+    {
+      "type": "speech",
+      "text": "有時我跟鄰居的囝仔一起去溪邊戲水，那個真開心啊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 535
+    },
+    {
+      "type": "speech",
+      "text": "就是說，今仔日的生活比以前好多了啦。按呢講著講著又想袂起來啦，那個時候的事。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3761,
+    "mean_pause_ms": 940.25,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.92
+}

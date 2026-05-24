@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_037_family_0026",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔攏轉來食飯啊 [停頓] ，孫仔咧好可愛齁 [長停頓] 。阿母伊煮啥物吃袂知啦 [沉默] 。以前我佇菜市仔賣菜，伊時節咧 [嘆氣] 。那個早餐伊毋記起欲吃啥物 [咳嗽] 。大家坐佇灶跤邊講話啊，孫仔伊咧笑嘛哈哈哈 [長停頓] 。孫仔伊咧好可愛啊，個個月來一次啦。今仔日囝仔攏轉來食飯啊 [停頓] 。阿爸伊以前伊袂會煮菜啦，現在伊也學會啦 [沉默] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔攏轉來食飯啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1376
+    },
+    {
+      "type": "speech",
+      "text": "，孫仔咧好可愛齁"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1600
+    },
+    {
+      "type": "speech",
+      "text": "。阿母伊煮啥物吃袂知啦"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3477
+    },
+    {
+      "type": "speech",
+      "text": "。以前我佇菜市仔賣菜，伊時節咧"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 707
+    },
+    {
+      "type": "speech",
+      "text": "。那個早餐伊毋記起欲吃啥物"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 702
+    },
+    {
+      "type": "speech",
+      "text": "。大家坐佇灶跤邊講話啊，孫仔伊咧笑嘛哈哈哈"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3203
+    },
+    {
+      "type": "speech",
+      "text": "。孫仔伊咧好可愛啊，個個月來一次啦。今仔日囝仔攏轉來食飯啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1243
+    },
+    {
+      "type": "speech",
+      "text": "。阿爸伊以前伊袂會煮菜啦，現在伊也學會啦"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1975
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12874,
+    "mean_pause_ms": 2145.67,
+    "speech_char_count": 129
+  },
+  "speech_rate_target": 0.75
+}

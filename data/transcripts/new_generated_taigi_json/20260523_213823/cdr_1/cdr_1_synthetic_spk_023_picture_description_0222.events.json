@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人攏好多啊，我欲去買菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1403
+  },
+  {
+    "type": "speech",
+    "text": "但我伊咧煮飯，阿母咧洗碗，孫仔咧玩玩具，按呢個場景想袂起來... 想袂起來就講無啦齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 626
+  },
+  {
+    "type": "speech",
+    "text": "那個囝仔咧攏在地板上趴著，那個啥物擺桌頂咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 840
+  },
+  {
+    "type": "speech",
+    "text": "我毋知，不過今早我有看到伊在桌上啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1161
+  },
+  {
+    "type": "speech",
+    "text": "唉，想袂起來就無講啦，按呢個菜市仔人咧買菜，佇厝裡人咧煮飯，孫仔咧玩玩具，就是這樣啦。"
+  }
+]

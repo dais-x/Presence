@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_002_memory_0041",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日無啥物特別，講起少年時陣的事，按呢真係好想記憶。當伊讀冊陣，每日都要轉去菜市仔買食飯的東西。 [停頓] 阿母教伊煮食，伊誠會煮，不過做來做來也是那些個，毋知現在有恁多新奇的料理法。農忙時期咧，佇田裡攏要幫伊伯做工，手腳都誠累。 [停頓] 有時囝仔啦孫仔也袂能跟著去，因為伊閣要做作業。今仔日聽著鄰居講起舊事，就想到自己當年咧的生活",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日無啥物特別，講起少年時陣的事，按呢真係好想記憶。當伊讀冊陣，每日都要轉去菜市仔買食飯的東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "text": "阿母教伊煮食，伊誠會煮，不過做來做來也是那些個，毋知現在有恁多新奇的料理法。農忙時期咧，佇田裡攏要幫伊伯做工，手腳都誠累。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 200
+    },
+    {
+      "type": "speech",
+      "text": "有時囝仔啦孫仔也袂能跟著去，因為伊閣要做作業。今仔日聽著鄰居講起舊事，就想到自己當年咧的生活"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 650,
+    "mean_pause_ms": 325.0,
+    "speech_char_count": 156
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂好睡，洗面咧，食飯欲去菜市仔買東西，那個伊佇屋裡攏無整理好，我欲轉去啦，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2233
+  },
+  {
+    "type": "cough",
+    "duration_ms": 990
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前講過啥物話，齁，今早食啥物早餐咧，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1331
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 871
+  },
+  {
+    "type": "speech",
+    "text": "，孫仔佇哪裡呀，菜市仔人好多，以前咧，伊袂有恁多人，我身體無力，。"
+  }
+]

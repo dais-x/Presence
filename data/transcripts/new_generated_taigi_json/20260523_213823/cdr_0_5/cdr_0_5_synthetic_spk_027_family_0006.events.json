@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 801
+  },
+  {
+    "type": "speech",
+    "text": "那個，阿母煮啥物菜好啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 658
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧講說想吃海鮮，那個我欲袂知要去菜市仔買啥物，想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1334
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣在咧，按呢他就比較曉得去哪裡買。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，大家就攏坐著等伊回來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...今早孫仔咧問說要轉去學堂，那個我講說好好啦，但是要乖乖唸書啊。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，這樣子好啦。"
+  }
+]

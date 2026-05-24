@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_027_clinic_0026",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 想袂起來啦。 [嘆氣] 今早食啥物啊？ [長停頓] 食湯包，還有阿母煮的菜。 [停頓] 菜市仔去咧，伊說啥物好？按呢日頭太曬欲去啊， [停頓] 所以就袂有去啦。 [嘆氣] 家裡按呢咋樣啊？ [咳嗽] 孫仔來拜訪咧，那個啥物叫孫仔啊，就是囝仔的囝仔啦。 [長停頓] 菜市仔伊欲吃啥物，攏都要買，阿母說毋知哪個菜好，彼個...彼個叫啥？想袂起來齁。家裡按呢咋樣啊，孫仔來咧。 [沉默] 那個啥物叫孫仔啦，就是囝仔的囝仔啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1083
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 705
+    },
+    {
+      "type": "speech",
+      "text": "今早食啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2256
+    },
+    {
+      "type": "speech",
+      "text": "食湯包，還有阿母煮的菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 863
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去咧，伊說啥物好？按呢日頭太曬欲去啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 945
+    },
+    {
+      "type": "speech",
+      "text": "所以就袂有去啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 685
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢咋樣啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1181
+    },
+    {
+      "type": "speech",
+      "text": "孫仔來拜訪咧，那個啥物叫孫仔啊，就是囝仔的囝仔啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1528
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔伊欲吃啥物，攏都要買，阿母說毋知哪個菜好，彼個...彼個叫啥？想袂起來齁。家裡按呢咋樣啊，孫仔來咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1779
+    },
+    {
+      "type": "speech",
+      "text": "那個啥物叫孫仔啦，就是囝仔的囝仔啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 8454,
+    "mean_pause_ms": 1409.0,
+    "speech_char_count": 166
+  },
+  "speech_rate_target": 0.85
+}

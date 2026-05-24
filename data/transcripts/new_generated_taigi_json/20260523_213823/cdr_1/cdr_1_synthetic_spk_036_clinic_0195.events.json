@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 973
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 967
+  },
+  {
+    "type": "speech",
+    "text": "醫生，今早食啥物無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1177
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去菜市仔買菜，我有去咧。"
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐吃伊咧，就是鹹粥齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔回來了啦，他講要轉去學校唸書。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個名字想袂起來囉，就是那個叫啥物來著？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 642
+  },
+  {
+    "type": "speech",
+    "text": "反正無啥大事啦。"
+  }
+]

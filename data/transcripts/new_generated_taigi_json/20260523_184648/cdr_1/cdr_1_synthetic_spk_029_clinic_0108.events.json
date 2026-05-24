@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_029_clinic_0108",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是啥日子啊？ [停頓] 那個，我想袂起來啦。早咧我食啥咧？ [長停頓] 我食飯就好啦。阿母佇屋內齁，她有無食？ 我去菜市仔買攏東西，就是伊閣要去。孫仔咧讀書啊，那個恁囝仔今朝去哪？ [嘆氣] 按呢咧欲知啥物咧。我那陣時會想袂起來彼個名字，彼個叫啥啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日子啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "那個，我想袂起來啦。早咧我食啥咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1707
+    },
+    {
+      "type": "speech",
+      "text": "我食飯就好啦。阿母佇屋內齁，她有無食？ 我去菜市仔買攏東西，就是伊閣要去。孫仔咧讀書啊，那個恁囝仔今朝去哪？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 744
+    },
+    {
+      "type": "speech",
+      "text": "按呢咧欲知啥物咧。我那陣時會想袂起來彼個名字，彼個叫啥啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2737,
+    "mean_pause_ms": 1368.5,
+    "speech_char_count": 109
+  },
+  "speech_rate_target": 0.85
+}

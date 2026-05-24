@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 723
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來那個... 早食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 584
+  },
+  {
+    "type": "speech",
+    "text": "我早食阮阿母煮伊心肝湯咧。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 阿爸講佇菜市仔買啥物，那個... 覺得足誠好吃啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，按呢閣無啥特別事情啦。"
+  }
+]

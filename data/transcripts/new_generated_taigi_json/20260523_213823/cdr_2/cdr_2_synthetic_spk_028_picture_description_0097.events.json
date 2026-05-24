@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人袂多啊，阿母以前袂住搭我咧，那個按呢欲想食甘蔗水齁，孫仔咧玩啦，伊誠愛攏是玩陀螺"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1397
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1170
+  },
+  {
+    "type": "speech",
+    "text": "，以前轉去學校欲早咧，現在睏袂著啊"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1422
+  },
+  {
+    "type": "cough",
+    "duration_ms": 942
+  },
+  {
+    "type": "speech",
+    "text": "，今早阿爸有無食飯？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1174
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔佇啦，欲買物資，那個伊欲幫孫仔買零食，講袂完就閣有啥物東西欲買，以前伊愛去厝後面田裡工作，咧種稻子，今早食啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1695
+  },
+  {
+    "type": "speech",
+    "text": "，好睏啊。"
+  }
+]

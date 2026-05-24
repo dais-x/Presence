@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_030_picture_0249",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日菜市仔真多人啊，那個阿母袂是攏去買菜嚕？我欲去買些菜回來煮飯，咧厝內也沒啥物菜了嘛。 [停頓] 你看看這個圖，按呢伊在做啥代誌？好像在挑選蔬菜齁，就是說，那個青菜啊，要選最新鮮的啦。嗯，還有水果咧，阿母每次都會買些水果回家，給孫仔吃，那個香蕉、蘋果都好，真好吃啊。 [停頓] 說起孫仔，伊今暝有來看我欸，那個囝仔真可愛啦，會講好多話，齁，就是好像個大人ㄟ。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日菜市仔真多人啊，那個阿母袂是攏去買菜嚕？我欲去買些菜回來煮飯，咧厝內也沒啥物菜了嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1173
+    },
+    {
+      "type": "speech",
+      "text": "你看看這個圖，按呢伊在做啥代誌？好像在挑選蔬菜齁，就是說，那個青菜啊，要選最新鮮的啦。嗯，還有水果咧，阿母每次都會買些水果回家，給孫仔吃，那個香蕉、蘋果都好，真好吃啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "說起孫仔，伊今暝有來看我欸，那個囝仔真可愛啦，會講好多話，齁，就是好像個大人ㄟ。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2373,
+    "mean_pause_ms": 1186.5,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.92
+}

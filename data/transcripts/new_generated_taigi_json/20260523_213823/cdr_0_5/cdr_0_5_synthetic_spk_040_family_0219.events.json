@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，伊同孫仔攏袂欲去菜市仔買菜啦，所以阿母準備好幾頓無啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 540
+  },
+  {
+    "type": "speech",
+    "text": "我說那個，孫仔咧誠可愛哦， 教話語恁愛聽哦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 772
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 孫仔今早講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來了。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，講佇灶跤邊啦，伊攏坐著講話咧，大家心情都好足哦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 那個孫仔有無食飽飯啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1065
+  },
+  {
+    "type": "speech",
+    "text": "我毋知伊有無欲再加點心啊，就是這樣啦。"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_039_picture_0078",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日我去看菜市仔啦，按呢個有一陣子袂有去咧。 [停頓] 那個攤位彼個...彼個叫啥？想袂起來啦。賣雞卵的，對齁。那個阿姨誠很好笑，咧講話時就一直睏著眼嘛。 [長停頓] 你知影我孫仔啊，按呢個在厝內畫圖，他畫得好可愛啦，就是有幾張紙都畫壞了，阿母講他誠是個小小藝術家齁。 [嘆氣] 真是可愛到不行咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去看菜市仔啦，按呢個有一陣子袂有去咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1141
+    },
+    {
+      "type": "speech",
+      "text": "那個攤位彼個...彼個叫啥？想袂起來啦。賣雞卵的，對齁。那個阿姨誠很好笑，咧講話時就一直睏著眼嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1911
+    },
+    {
+      "type": "speech",
+      "text": "你知影我孫仔啊，按呢個在厝內畫圖，他畫得好可愛啦，就是有幾張紙都畫壞了，阿母講他誠是個小小藝術家齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "text": "真是可愛到不行咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3052,
+    "mean_pause_ms": 1526.0,
+    "speech_char_count": 131
+  },
+  "speech_rate_target": 0.85
+}

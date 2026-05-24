@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_033_morning_0012",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起睏目睭，洗面咧，然後就去廚房食飯啦。那個，阿母叫我準備一下要去菜市仔買菜哦。我講袂起來要先整理一下書桌，把那些不用的東西收起來。嗯... 那個包包也要檢查一下有無漏帶啥物，好像要攜帶雨傘咧。 [停頓] 還有啦，那個阿爸咧，他要去轉工，要提醒伊準備一下哦。我講著講著就想到厝邊的鄰居啦，他們家孫仔去讀書，按呢時候應該早就出門了齁。嗯... 應該要去準備一下自己啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏目睭，洗面咧，然後就去廚房食飯啦。那個，阿母叫我準備一下要去菜市仔買菜哦。我講袂起來要先整理一下書桌，把那些不用的東西收起來。嗯... 那個包包也要檢查一下有無漏帶啥物，好像要攜帶雨傘咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 818
+    },
+    {
+      "type": "speech",
+      "text": "還有啦，那個阿爸咧，他要去轉工，要提醒伊準備一下哦。我講著講著就想到厝邊的鄰居啦，他們家孫仔去讀書，按呢時候應該早就出門了齁。嗯... 應該要去準備一下自己啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 818,
+    "mean_pause_ms": 818.0,
+    "speech_char_count": 180
+  },
+  "speech_rate_target": 0.92
+}

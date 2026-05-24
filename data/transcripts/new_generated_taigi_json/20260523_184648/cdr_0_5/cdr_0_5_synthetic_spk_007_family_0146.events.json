@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_007_family_0146",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯，我欲煮個啥物給佇？ [停頓] 嗯... 囉！雞肉湯咧，還有個就是炒青菜啦。孫仔咧，那個... 伊好愛吃魚乾齁，我昨日有買好多來著。然後按呢大家就坐佇灶跤邊講話，真係是好久沒見到囝仔了。啊，那個，阿母咧，伊說伊要去菜市仔買些東西，要轉去一陣子。 [停頓] 呸！我那個... 想袂起來啦，剛纔想講啥物？齁，雞肉湯咧，對囉！ [嘆氣] 真係好久沒見到大家了，就是話題好少。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯，我欲煮個啥物給佇？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 972
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 囉！雞肉湯咧，還有個就是炒青菜啦。孫仔咧，那個... 伊好愛吃魚乾齁，我昨日有買好多來著。然後按呢大家就坐佇灶跤邊講話，真係是好久沒見到囝仔了。啊，那個，阿母咧，伊說伊要去菜市仔買些東西，要轉去一陣子。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "呸！我那個... 想袂起來啦，剛纔想講啥物？齁，雞肉湯咧，對囉！"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1070
+    },
+    {
+      "type": "speech",
+      "text": "真係好久沒見到大家了，就是話題好少。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2172,
+    "mean_pause_ms": 1086.0,
+    "speech_char_count": 177
+  },
+  "speech_rate_target": 0.92
+}

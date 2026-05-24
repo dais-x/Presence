@@ -1,0 +1,74 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1753
+  },
+  {
+    "type": "speech",
+    "text": "按呢毋知。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1385
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2165
+  },
+  {
+    "type": "speech",
+    "text": "欲食豆漿配油條，無啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 985
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊去菜市仔囝仔攏欲去咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2208
+  },
+  {
+    "type": "speech",
+    "text": "以前阿爸伊有無啦， 懷念伊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 962
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢咧？"
+  },
+  {
+    "type": "speech",
+    "text": "收拾厝內閣毋知佇哪攏好。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔伊咧啊？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢早飯食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "誠欲吃麵線糊，去攬來。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，無啦。"
+  }
+]

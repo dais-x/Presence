@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_040_morning_0279",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起床啦，先去洗面，然後就食飯囉。吃完飯後我就開始整理厝內的物件，準備一下午要去菜市仔買菜咧。 [停頓] 說著話嘛，時間也過得快，現在差不多該轉去出門嘍。 [咳嗽] 要記得攜帶手機還有鑰匙，免得忘了就麻煩啦。今天天氣還好，應該可以順利到達菜市仔。啊，早餐我就食一碗稀飯跟幾塊豆腐乳啦，簡單就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起床啦，先去洗面，然後就食飯囉。吃完飯後我就開始整理厝內的物件，準備一下午要去菜市仔買菜咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 626
+    },
+    {
+      "type": "speech",
+      "text": "說著話嘛，時間也過得快，現在差不多該轉去出門嘍。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 830
+    },
+    {
+      "type": "speech",
+      "text": "要記得攜帶手機還有鑰匙，免得忘了就麻煩啦。今天天氣還好，應該可以順利到達菜市仔。啊，早餐我就食一碗稀飯跟幾塊豆腐乳啦，簡單就好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 626,
+    "mean_pause_ms": 626.0,
+    "speech_char_count": 140
+  },
+  "speech_rate_target": 1.0
+}

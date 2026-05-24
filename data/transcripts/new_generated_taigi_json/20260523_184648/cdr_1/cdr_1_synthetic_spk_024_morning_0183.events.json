@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_morning_0183",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來囉，起來咧先洗個面，然後就去煮飯食啦。 [停頓] 食完飯後，就去整理一下厝裡頭的物件，按呢個桌子、椅子咧都有整理。 [長停頓] 整理好了之後啊，準備轉出去菜市仔買東西啦。那個彼個包包咧，就在伊的閣攏有放著，可是我就是想袂起來欲放在啥處。 [嘆氣] 嗯，然後就轉去菜市仔了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來囉，起來咧先洗個面，然後就去煮飯食啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 811
+    },
+    {
+      "type": "speech",
+      "text": "食完飯後，就去整理一下厝裡頭的物件，按呢個桌子、椅子咧都有整理。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2010
+    },
+    {
+      "type": "speech",
+      "text": "整理好了之後啊，準備轉出去菜市仔買東西啦。那個彼個包包咧，就在伊的閣攏有放著，可是我就是想袂起來欲放在啥處。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 860
+    },
+    {
+      "type": "speech",
+      "text": "嗯，然後就轉去菜市仔了啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2821,
+    "mean_pause_ms": 1410.5,
+    "speech_char_count": 126
+  },
+  "speech_rate_target": 0.85
+}

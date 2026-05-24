@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 896
+  },
+  {
+    "type": "speech",
+    "text": "那個...我記不得啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 953
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔買個豆漿跟饅頭，食緊呢。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢如何？"
+  },
+  {
+    "type": "speech",
+    "text": "伊阿母昨暝感冒囉，那個...我毋知要怎樣做才好。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 785
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔咧？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，在厝內攏足啦，齁就是這樣啦。"
+  }
+]

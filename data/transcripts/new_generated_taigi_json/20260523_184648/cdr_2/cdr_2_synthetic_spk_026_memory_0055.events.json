@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_026_memory_0055",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣無啥物好， [停頓] 以前袂敢想說會變這樣。阿母叫我去菜市仔買米，那個時候袂開車啦。讀冊時陣，課本攏是伊講的， [長停頓] 就是我毋知啊。 [沉默] 那時候，我欲幫阿爸做農忙， [嘆氣] 真辛苦。孫仔咧，今早食啥物？ [咳嗽] 按呢閣足囝仔時， [停頓] 那個真快樂。伊誠是，以前袂像按呢。 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣無啥物好，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1342
+    },
+    {
+      "type": "speech",
+      "text": "以前袂敢想說會變這樣。阿母叫我去菜市仔買米，那個時候袂開車啦。讀冊時陣，課本攏是伊講的，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4345
+    },
+    {
+      "type": "speech",
+      "text": "就是我毋知啊。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3011
+    },
+    {
+      "type": "speech",
+      "text": "那時候，我欲幫阿爸做農忙，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1065
+    },
+    {
+      "type": "speech",
+      "text": "真辛苦。孫仔咧，今早食啥物？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 899
+    },
+    {
+      "type": "speech",
+      "text": "按呢閣足囝仔時，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1367
+    },
+    {
+      "type": "speech",
+      "text": "那個真快樂。伊誠是，以前袂像按呢。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3883
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 14,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 13948,
+    "mean_pause_ms": 2789.6,
+    "speech_char_count": 113
+  },
+  "speech_rate_target": 0.75
+}

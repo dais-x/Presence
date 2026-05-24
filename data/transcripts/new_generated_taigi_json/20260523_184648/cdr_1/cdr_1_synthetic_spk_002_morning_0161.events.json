@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_002_morning_0161",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起啊，洗個面就去食飯啦。然後整理一下物件，準備好出門的東西咧。那個包包欲攏放袂起來，想著伊擺哪個地方啊？ [停頓] 彼個...彼個叫啥物？（欲講到包包）就是找袂到ㄟ。 [長停頓] 阿母以前有教我咧，說是厝裡頭的東西要擺好攏整齊。啦，今仔日要去菜市仔買些菜啦，那個準備一下就轉去囝仔家。孫仔等著我咧。嗯，就是想著伊咧。 [嘆氣] 唔知怎麼講，好像漏掉啥物一樣。 [咳嗽] 按呢閣要去整理一下包包啊，攏足誠ㄟ。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起啊，洗個面就去食飯啦。然後整理一下物件，準備好出門的東西咧。那個包包欲攏放袂起來，想著伊擺哪個地方啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1167
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個叫啥物？（欲講到包包）就是找袂到ㄟ。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1581
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前有教我咧，說是厝裡頭的東西要擺好攏整齊。啦，今仔日要去菜市仔買些菜啦，那個準備一下就轉去囝仔家。孫仔等著我咧。嗯，就是想著伊咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 614
+    },
+    {
+      "type": "speech",
+      "text": "唔知怎麼講，好像漏掉啥物一樣。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1154
+    },
+    {
+      "type": "speech",
+      "text": "按呢閣要去整理一下包包啊，攏足誠ㄟ。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2748,
+    "mean_pause_ms": 1374.0,
+    "speech_char_count": 182
+  },
+  "speech_rate_target": 0.85
+}

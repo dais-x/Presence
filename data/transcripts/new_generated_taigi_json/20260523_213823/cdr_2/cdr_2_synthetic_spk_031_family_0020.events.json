@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來食飯齁，孫仔欲攏來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2067
+  },
+  {
+    "type": "speech",
+    "text": "阿母煮啥物菜著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2050
+  },
+  {
+    "type": "speech",
+    "text": "以前那個灶跤啊，大很多啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 446
+  },
+  {
+    "type": "speech",
+    "text": "嚟厝內講話比較親熱。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1010
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠囝時憨囝，現在高足人。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1298
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣在咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1642
+  },
+  {
+    "type": "speech",
+    "text": "他欲轉去齁，那個路袂認知啦。"
+  },
+  {
+    "type": "speech",
+    "text": "以前食早餐，阿母會煮粿條，今朝毋知按呢樣。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠囝時愛玩，現在按呢啊，愛玩手機。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 452
+  }
+]

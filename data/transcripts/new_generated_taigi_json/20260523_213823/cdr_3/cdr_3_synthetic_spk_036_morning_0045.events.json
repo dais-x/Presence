@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "洗面... 食飯啦... 阿母去佗位？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2433
+  },
+  {
+    "type": "speech",
+    "text": "... 囝仔咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2299
+  },
+  {
+    "type": "speech",
+    "text": "... 冷齁... 菜市仔無去... 攚欲去啊... 天氣好壞嘞？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3219
+  },
+  {
+    "type": "speech",
+    "text": "... 毋知啥物..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1797
+  },
+  {
+    "type": "cough",
+    "duration_ms": 675
+  }
+]

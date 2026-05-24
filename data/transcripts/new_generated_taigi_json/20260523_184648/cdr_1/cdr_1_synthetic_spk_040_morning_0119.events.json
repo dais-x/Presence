@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_040_morning_0119",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起囝，洗面咧。 [停頓] 然後食飯，菜市仔欲去買物咧。 [長停頓] 有啥東西要準備袂起來啊？嗯... 攏袂想起來啦。 [嘆氣] 阿母以前說，做完事體再轉厝，現在反啦，做袂完先轉去。 [咳嗽] 蔬菜買來咧，要做飯，彼個... 彼個叫啥物呢？ [停頓] 想袂起來，欲問伊老婆咧。 [長停頓] 我要去洗米囉，那個鍋子要準備一下，然後就可以下飯了。 [嘆氣] 攏無頭緒啦，那個做法有啥名目嘞？ [停頓] 嗯... 想袂起來齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起囝，洗面咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 899
+    },
+    {
+      "type": "speech",
+      "text": "然後食飯，菜市仔欲去買物咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1942
+    },
+    {
+      "type": "speech",
+      "text": "有啥東西要準備袂起來啊？嗯... 攏袂想起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1166
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前說，做完事體再轉厝，現在反啦，做袂完先轉去。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 695
+    },
+    {
+      "type": "speech",
+      "text": "蔬菜買來咧，要做飯，彼個... 彼個叫啥物呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 837
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，欲問伊老婆咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1991
+    },
+    {
+      "type": "speech",
+      "text": "我要去洗米囉，那個鍋子要準備一下，然後就可以下飯了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1116
+    },
+    {
+      "type": "speech",
+      "text": "攏無頭緒啦，那個做法有啥名目嘞？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 想袂起來齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 5,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 6699,
+    "mean_pause_ms": 1339.8,
+    "speech_char_count": 165
+  },
+  "speech_rate_target": 0.85
+}

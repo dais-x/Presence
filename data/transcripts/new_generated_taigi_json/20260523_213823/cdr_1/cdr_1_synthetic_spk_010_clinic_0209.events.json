@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 693
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1394
+  },
+  {
+    "type": "speech",
+    "text": "今早無食啥物，頭陣想著要去菜市仔買菜，結果就免囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1540
+  },
+  {
+    "type": "speech",
+    "text": "我家按呢彼個月有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是孫仔啦，佇學校參加活動咧。"
+  },
+  {
+    "type": "speech",
+    "text": "我最近欲毋記得好多事，伊那個...伊叫啥名字啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1057
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "就是最近常常這樣，頭腦有時會茫茫的。"
+  }
+]

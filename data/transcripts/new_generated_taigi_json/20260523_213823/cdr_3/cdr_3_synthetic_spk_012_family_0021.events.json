@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1523
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 囝仔轉來囉... 按呢冷啦... 食飯未啊... 孫仔足誠..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2728
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 873
+  },
+  {
+    "type": "speech",
+    "text": "袂知伊欲做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2863
+  },
+  {
+    "type": "cough",
+    "duration_ms": 806
+  },
+  {
+    "type": "speech",
+    "text": "天氣真不好..."
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_039_family_0038",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔帶孫仔轉來厝內食飯，大家坐佇灶跤邊講話， [停頓] 那個阿母咧去菜市仔買菜，還沒轉來啊。彼個...彼個叫啥？那個孫仔叫啥名字啦？ [長停頓] 忘袂起來，想袂起來啊。齁，伊是阿爸囝仔，阿公孫仔嘛。 [嘆氣] 那個話題咧講啥物？就是講講厝內事體啦，食飯時候總是要講幾句話。 [咳嗽] 嗯，那個菜咧快做好未啊？阿母閣要去買菜無？ [停頓] 那個孫仔好可愛，會叫阿公，伊咧笑啊。 [停頓] 忘袂起來，彼個孫仔名字咧？ [嘆氣] 唉，老來記性差啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔帶孫仔轉來厝內食飯，大家坐佇灶跤邊講話，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 922
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母咧去菜市仔買菜，還沒轉來啊。彼個...彼個叫啥？那個孫仔叫啥名字啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2059
+    },
+    {
+      "type": "speech",
+      "text": "忘袂起來，想袂起來啊。齁，伊是阿爸囝仔，阿公孫仔嘛。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1254
+    },
+    {
+      "type": "speech",
+      "text": "那個話題咧講啥物？就是講講厝內事體啦，食飯時候總是要講幾句話。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1037
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個菜咧快做好未啊？阿母閣要去買菜無？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1034
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔好可愛，會叫阿公，伊咧笑啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1328
+    },
+    {
+      "type": "speech",
+      "text": "忘袂起來，彼個孫仔名字咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 713
+    },
+    {
+      "type": "speech",
+      "text": "唉，老來記性差啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 4,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 5343,
+    "mean_pause_ms": 1335.75,
+    "speech_char_count": 181
+  },
+  "speech_rate_target": 0.85
+}

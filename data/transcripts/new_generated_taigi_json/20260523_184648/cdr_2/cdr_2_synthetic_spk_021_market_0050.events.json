@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_021_market_0050",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊，那個有無攏有無攏 [停頓] 想起來以前阿母會煮啥物早餐咧齁。 [長停頓] 一籬菜青豆芽欲袂好尋 [沉默] 知伊擺咧哪按呢 [嘆氣] 畫面誠袂清啊。轉去厝內欲食飯，那個有無攏有無攏 [咳嗽] 無啦啦，阿爸以前有無攏有無攏 [長停頓] 佇灶跤邊煮啥物咧齁。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，那個有無攏有無攏"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1230
+    },
+    {
+      "type": "speech",
+      "text": "想起來以前阿母會煮啥物早餐咧齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3835
+    },
+    {
+      "type": "speech",
+      "text": "一籬菜青豆芽欲袂好尋"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2936
+    },
+    {
+      "type": "speech",
+      "text": "知伊擺咧哪按呢"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1145
+    },
+    {
+      "type": "speech",
+      "text": "畫面誠袂清啊。轉去厝內欲食飯，那個有無攏有無攏"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 687
+    },
+    {
+      "type": "speech",
+      "text": "無啦啦，阿爸以前有無攏有無攏"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3944
+    },
+    {
+      "type": "speech",
+      "text": "佇灶跤邊煮啥物咧齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1475
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 14,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 13420,
+    "mean_pause_ms": 2684.0,
+    "speech_char_count": 99
+  },
+  "speech_rate_target": 0.75
+}

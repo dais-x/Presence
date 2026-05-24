@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_021_morning_0010",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起啦，洗面咧。 [停頓] 食飯欲去菜市仔買物資。 [長停頓] 唉，以前啊，阿母會煮好多東西。 [咳嗽] 有花生、鹹魚，那個，鹹蛋咧。 [沉默] 就是，今朝食啥物？ [嘆氣] 菜市仔菜價袂便宜，齁。 [停頓] 阿爸以前去菜市仔，買菜咧。 [長停頓] 今仔日要去買菜啊，那個，有無足力氣去呢？ [沉默] [咳嗽] 唉，早起啦，洗面欲食飯。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起啦，洗面咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1247
+    },
+    {
+      "type": "speech",
+      "text": "食飯欲去菜市仔買物資。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3945
+    },
+    {
+      "type": "speech",
+      "text": "唉，以前啊，阿母會煮好多東西。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1012
+    },
+    {
+      "type": "speech",
+      "text": "有花生、鹹魚，那個，鹹蛋咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2828
+    },
+    {
+      "type": "speech",
+      "text": "就是，今朝食啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 994
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔菜價袂便宜，齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1206
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前去菜市仔，買菜咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2695
+    },
+    {
+      "type": "speech",
+      "text": "今仔日要去買菜啊，那個，有無足力氣去呢？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3194
+    },
+    {
+      "type": "cough",
+      "duration_ms": 797
+    },
+    {
+      "type": "speech",
+      "text": "唉，早起啦，洗面欲食飯。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1397
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 2,
+    "pause_total_ms": 15115,
+    "mean_pause_ms": 2519.17,
+    "speech_char_count": 116
+  },
+  "speech_rate_target": 0.75
+}

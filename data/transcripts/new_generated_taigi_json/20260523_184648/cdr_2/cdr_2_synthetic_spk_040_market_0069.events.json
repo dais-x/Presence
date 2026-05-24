@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_040_market_0069",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個攤販咧賣青江菜啊，價錢袂貴，就買了一斤。 [停頓] 那個阿母以前啊，會自己種菜吃，現在嘛啦，佇厝內等著我轉去。 [長停頓] 今仔日天氣好，那個孫仔咧學校齁，放假就會來陪我食飯，真好。 [嘆氣] 那個頭痛欲死，按呢幾歲啊，身體真不如以前啦。 [咳嗽] 當年伊們年輕時候，咧山裡做工，阿爸閣會唱歌，那個歌嘛啦，想袂起來啦。 [沉默] 去菜市仔買菜，買菜，就買了一點青江菜跟蘿蔔。 [停頓] 那個孫仔真好，放假就會來陪我食飯，阿母也會準備早餐。 [長停頓] [咳嗽] 當年伊們年輕時候，阿爸閣會唱歌，那個歌嘛啦，想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個攤販咧賣青江菜啊，價錢袂貴，就買了一斤。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1361
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母以前啊，會自己種菜吃，現在嘛啦，佇厝內等著我轉去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2072
+    },
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，那個孫仔咧學校齁，放假就會來陪我食飯，真好。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 853
+    },
+    {
+      "type": "speech",
+      "text": "那個頭痛欲死，按呢幾歲啊，身體真不如以前啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 683
+    },
+    {
+      "type": "speech",
+      "text": "當年伊們年輕時候，咧山裡做工，阿爸閣會唱歌，那個歌嘛啦，想袂起來啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4140
+    },
+    {
+      "type": "speech",
+      "text": "去菜市仔買菜，買菜，就買了一點青江菜跟蘿蔔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1243
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔真好，放假就會來陪我食飯，阿母也會準備早餐。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2516
+    },
+    {
+      "type": "cough",
+      "duration_ms": 966
+    },
+    {
+      "type": "speech",
+      "text": "當年伊們年輕時候，阿爸閣會唱歌，那個歌嘛啦，想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 2,
+    "pause_total_ms": 11332,
+    "mean_pause_ms": 2266.4,
+    "speech_char_count": 222
+  },
+  "speech_rate_target": 0.75
+}

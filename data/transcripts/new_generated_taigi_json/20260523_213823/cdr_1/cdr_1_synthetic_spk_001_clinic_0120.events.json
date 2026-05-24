@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 707
+  },
+  {
+    "type": "speech",
+    "text": "那個就是...想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1010
+  },
+  {
+    "type": "speech",
+    "text": "早飯吃啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1169
+  },
+  {
+    "type": "speech",
+    "text": "嗯，食飽就好啦齁。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝有啥代誌嗎？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 881
+  },
+  {
+    "type": "speech",
+    "text": "我那個孫仔轉來嘞，阿母講伊轉去啦。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是我兒子啊，那個就回來咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1005
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔買菜啦，買菜嘞。"
+  },
+  {
+    "type": "speech",
+    "text": "沒啥代誌，就是伊回來就好啦。"
+  }
+]

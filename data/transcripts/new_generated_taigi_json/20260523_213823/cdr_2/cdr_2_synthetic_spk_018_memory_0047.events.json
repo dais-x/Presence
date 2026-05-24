@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣不錯，阿母以前常帶我去菜市仔買東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2417
+  },
+  {
+    "type": "speech",
+    "text": "那個時候真快樂啊，伊教我讀冊，還攏會講古事。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1390
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 740
+  },
+  {
+    "type": "speech",
+    "text": "現在袂想伊了，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1396
+  },
+  {
+    "type": "cough",
+    "duration_ms": 511
+  },
+  {
+    "type": "speech",
+    "text": "以前咧我們會去田裡幫忙農忙，那個時候人多，現在就剩幾個人啦，今早食飯有啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2101
+  },
+  {
+    "type": "speech",
+    "text": "我欲講少年時陣的事，伊誠阿爸齁，伊教我好多東西。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1030
+  },
+  {
+    "type": "speech",
+    "text": "今仔日頭很曬，我欲轉去囝仔家吃飯啦。"
+  }
+]

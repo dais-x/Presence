@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好曬，我欲去菜市仔買青菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2445
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔人濟濟，攤販喊叫賣伊貨物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2120
+  },
+  {
+    "type": "speech",
+    "text": "阿母按呢有無食飯？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2512
+  },
+  {
+    "type": "speech",
+    "text": "囝仔閣在厝裡玩嗎？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1380
+  },
+  {
+    "type": "speech",
+    "text": "以前我阿爸咧煮飯，今早他無煮，真不知啥物。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 653
+  },
+  {
+    "type": "speech",
+    "text": "我那個孫仔咧，好動啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1067
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有碗咧，還有個啥物嘞？"
+  },
+  {
+    "type": "speech",
+    "text": "那個鍋子咧，伊熱熱，我毋敢碰。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1296
+  }
+]

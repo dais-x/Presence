@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_006_memory_0025",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣真好，我記得小時候每早睏醒來就會聽到阿母叫囝仔起來讀冊。那個田裡農忙時節，一早就要去菜市仔買菜，準備全家食飯。按呢個時候學校放假，好多同學都去幫大人做農工。 [停頓] 那時候真愉快啊，有好多朋友一起玩。 想袂起來以前那個老師叫啥物名字？好像叫什麼來著...就是啦，阿母有時會講：「汝毋通偷懶，要去讀好書。」嗯，農忙咧最辛苦，整天都在田裡做工，夕陽西下才轉去厝內休息。 唔知為啥物現在想袂起來伊長相？那個...按呢個時候真幸福啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，我記得小時候每早睏醒來就會聽到阿母叫囝仔起來讀冊。那個田裡農忙時節，一早就要去菜市仔買菜，準備全家食飯。按呢個時候學校放假，好多同學都去幫大人做農工。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 830
+    },
+    {
+      "type": "speech",
+      "text": "那時候真愉快啊，有好多朋友一起玩。 想袂起來以前那個老師叫啥物名字？好像叫什麼來著...就是啦，阿母有時會講：「汝毋通偷懶，要去讀好書。」嗯，農忙咧最辛苦，整天都在田裡做工，夕陽西下才轉去厝內休息。 唔知為啥物現在想袂起來伊長相？那個...按呢個時候真幸福啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 830,
+    "mean_pause_ms": 830.0,
+    "speech_char_count": 213
+  },
+  "speech_rate_target": 0.92
+}

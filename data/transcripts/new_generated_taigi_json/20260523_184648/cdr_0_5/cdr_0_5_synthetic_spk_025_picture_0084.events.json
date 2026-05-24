@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_025_picture_0084",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜咧，看到好多攤子啊。那個賣青菜的阿伯咧，他講說今天天氣好熱齁。然後我袂知想起來那個雞蛋怎麼稱的啦，就問伊，伊咧笑一聲，說是三塊錢一顆 [停頓] 。我就買幾顆回去給囝仔吃啦。按呢那個孫仔啊，最愛吃土司配牛奶，那個早餐吃得開心得很。然後想到阿母以前煮飯的樣子，那個灶跤旁邊擺滿碗盤咧，現在想起來就感覺好像還在眼前一樣 [停頓] 。嗯...那個今天菜市場有啥物好玩的代誌咧？啊！看到一對老夫婦手牽手走著咧，真的好甜齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜咧，看到好多攤子啊。那個賣青菜的阿伯咧，他講說今天天氣好熱齁。然後我袂知想起來那個雞蛋怎麼稱的啦，就問伊，伊咧笑一聲，說是三塊錢一顆"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 979
+    },
+    {
+      "type": "speech",
+      "text": "。我就買幾顆回去給囝仔吃啦。按呢那個孫仔啊，最愛吃土司配牛奶，那個早餐吃得開心得很。然後想到阿母以前煮飯的樣子，那個灶跤旁邊擺滿碗盤咧，現在想起來就感覺好像還在眼前一樣"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "。嗯...那個今天菜市場有啥物好玩的代誌咧？啊！看到一對老夫婦手牽手走著咧，真的好甜齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2179,
+    "mean_pause_ms": 1089.5,
+    "speech_char_count": 203
+  },
+  "speech_rate_target": 0.92
+}

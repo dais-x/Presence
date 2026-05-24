@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_009_memory_0018",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "菜市仔... [停頓] 阿母咧？ [長停頓] 食飯時間啦... 囝仔啊... 嗯... [沉默] 冷啦... 袂記得彼個囝仔講啥物？ [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1414
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3107
+    },
+    {
+      "type": "speech",
+      "text": "食飯時間啦... 囝仔啊... 嗯..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 5300
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 袂記得彼個囝仔講啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 774
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 9821,
+    "mean_pause_ms": 3273.67,
+    "speech_char_count": 47
+  },
+  "speech_rate_target": 0.65
+}

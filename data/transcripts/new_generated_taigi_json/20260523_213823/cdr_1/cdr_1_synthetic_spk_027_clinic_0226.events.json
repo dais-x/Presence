@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 854
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 775
+  },
+  {
+    "type": "speech",
+    "text": "彼個... 啥個月咧齁？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 788
+  },
+  {
+    "type": "speech",
+    "text": "嗯，早一陣子無吃啥物咧，因為厝裡頭佇按呢有菜市仔去咧買菜，我欲自己煮，所以今朝就食啥物嘛，記袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1310
+  },
+  {
+    "type": "speech",
+    "text": "伊說是昨日攏轉去啦，閣足個孫仔咧，阿母叫伊食飯咧，伊就吃咧齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 902
+  },
+  {
+    "type": "speech",
+    "text": "要講啥代誌，我頭腦裡就是那個... 那個想袂起來啦。"
+  }
+]

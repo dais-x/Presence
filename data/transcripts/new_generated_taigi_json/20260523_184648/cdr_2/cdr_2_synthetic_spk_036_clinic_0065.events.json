@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_036_clinic_0065",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 食啥物早餐啦？ [長停頓] 伊講啥物話來著？ [沉默] 知啦，按呢早咧欲食飽飽。 [嘆氣] 爭相未阿母煮飯，伊袂愛吃稀飯齁。 [咳嗽] 按呢伊佇哪攏？ [停頓] 今仔日幾號啊？ [長停頓] 我孫仔咧讀書唻，按呢欲轉去厝裡食飯啦。 [沉默] 食啥物早餐啦？ [嘆氣] 咩知今仔日幾號？ [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1444
+    },
+    {
+      "type": "speech",
+      "text": "食啥物早餐啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1790
+    },
+    {
+      "type": "speech",
+      "text": "伊講啥物話來著？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2437
+    },
+    {
+      "type": "speech",
+      "text": "知啦，按呢早咧欲食飽飽。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 992
+    },
+    {
+      "type": "speech",
+      "text": "爭相未阿母煮飯，伊袂愛吃稀飯齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 491
+    },
+    {
+      "type": "speech",
+      "text": "按呢伊佇哪攏？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1252
+    },
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1922
+    },
+    {
+      "type": "speech",
+      "text": "我孫仔咧讀書唻，按呢欲轉去厝裡食飯啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2783
+    },
+    {
+      "type": "speech",
+      "text": "食啥物早餐啦？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 976
+    },
+    {
+      "type": "speech",
+      "text": "咩知今仔日幾號？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 706
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 2,
+    "pause_total_ms": 11628,
+    "mean_pause_ms": 1938.0,
+    "speech_char_count": 98
+  },
+  "speech_rate_target": 0.75
+}

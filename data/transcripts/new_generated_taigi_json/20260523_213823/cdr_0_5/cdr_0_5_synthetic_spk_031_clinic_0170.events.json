@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 749
+  },
+  {
+    "type": "speech",
+    "text": "我記得袂清。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 579
+  },
+  {
+    "type": "speech",
+    "text": "（）那個好像昨天咧... 早飯食啥物啦？"
+  },
+  {
+    "type": "speech",
+    "text": "我食個麵線糊糊啦，那個很順口。"
+  },
+  {
+    "type": "speech",
+    "text": "（）有時啊佇菜市仔買些東西，伊人好多。"
+  },
+  {
+    "type": "speech",
+    "text": "（"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1166
+  },
+  {
+    "type": "speech",
+    "text": "）我按呢要問阿母足否去厝裡咧？"
+  },
+  {
+    "type": "speech",
+    "text": "（）應該是足吧啦... 菜市仔今早攏袂去啦，因為下雨咧嘛。"
+  }
+]

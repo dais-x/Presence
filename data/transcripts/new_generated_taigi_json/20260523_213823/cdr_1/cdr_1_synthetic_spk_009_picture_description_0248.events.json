@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好好，我跟阿母去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1004
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個攤子有好多蔬菜水果，我們買好多。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1181
+  },
+  {
+    "type": "speech",
+    "text": "回家後，就開始煮飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1566
+  },
+  {
+    "type": "speech",
+    "text": "彼個鍋子咧煮雞肉湯，佇灶跤擺著幾盤菜。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔來看囝仔，伊咧屋內玩啊，那個玩具箱咧滿滿的，就是好多好玩物體。"
+  },
+  {
+    "type": "speech",
+    "text": "桌頂咧有個碗，還有一個茶壺。"
+  },
+  {
+    "type": "speech",
+    "text": "今早我煮飯時候，阿母講說要幫伊煮便當去公司。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個便當盒咧擺著啊，就是想袂起來內面裝啥物囝？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 830
+  },
+  {
+    "type": "speech",
+    "text": "攒啦，按呢就先講恁多。"
+  }
+]

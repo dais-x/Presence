@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_006_morning_0005",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "早咧，先去洗個面，然後準備一下出門啦。 [停頓] 菜市仔今早欲去買些蔬菜水果。講到這，就想著阿母以前也是這個時候就起床去菜市仔。嗯...自己也該動身囉。 [停頓] 剛好灶跤旁佇的那碗飯，可以趁機吃一匙。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "早咧，先去洗個面，然後準備一下出門啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔今早欲去買些蔬菜水果。講到這，就想著阿母以前也是這個時候就起床去菜市仔。嗯...自己也該動身囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "剛好灶跤旁佇的那碗飯，可以趁機吃一匙。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 900,
+    "mean_pause_ms": 450.0,
+    "speech_char_count": 89
+  },
+  "speech_rate_target": 1.0
+}

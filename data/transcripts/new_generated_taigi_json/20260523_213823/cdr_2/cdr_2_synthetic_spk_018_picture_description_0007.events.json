@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "人咧煮飯啊，菜市仔欲去未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2017
+  },
+  {
+    "type": "speech",
+    "text": "阿母今早食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1493
+  },
+  {
+    "type": "speech",
+    "text": "嗯記起以前囝仔啦，那個誠小時候咧玩尪仔兵。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1518
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1109
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔有好多攤販，伊袂知賣啥物。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1042
+  },
+  {
+    "type": "speech",
+    "text": "今仔日欲轉去厝囉，按呢閣足菜未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2214
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前有個花園，種好多菜咧。"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 729
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 嗯，醫生，我剛才吃啥咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 952
+  },
+  {
+    "type": "speech",
+    "text": "早餐嘛，吃稀飯攏油條咧，齁，那個，今早我孫仔來阿母這邊玩，咧帶來一袋糖果。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1514
+  },
+  {
+    "type": "speech",
+    "text": "你知伊叫啥名字嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "彼個... 彼個叫做小明啦，就是我們隔壁鄰居的囝仔啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 758
+  },
+  {
+    "type": "speech",
+    "text": "那麼，今早我有去菜市仔買菜，那個青菜咧，還有魚啊。"
+  },
+  {
+    "type": "speech",
+    "text": "那你說幾號咧？"
+  },
+  {
+    "type": "speech",
+    "text": "我記袂起來啦... 阿爸說過幾號咧，可是我想袂起來啦。"
+  }
+]

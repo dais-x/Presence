@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_015_picture_0034",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看張圖，咧裡頭有個人攏佇菜市仔買菜，那個... 伊欲買阮媽愛食的菜。 [停頓] 阿母閣在厝內等阮，阮就會轉去按呢。 [停頓] 唉，伊袂曉得阿爸今仔日有無去市場，齁，佇市場咧按呢有好多攤販賣蔬菜水果。 [嘆氣] 想袂起來伊欲買啥物菜，那個... 阮就先講說阮會幫伊買啦。 [咳嗽] 那個... 按呢按張圖好像講的佇台南一帶咧，齁，那裡人好多啊。 [停頓] 我那個... 有無跟你講過我阿母愛吃啥物菜？ [停頓] 唉，就是講袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看張圖，咧裡頭有個人攏佇菜市仔買菜，那個... 伊欲買阮媽愛食的菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1069
+    },
+    {
+      "type": "speech",
+      "text": "阿母閣在厝內等阮，阮就會轉去按呢。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，伊袂曉得阿爸今仔日有無去市場，齁，佇市場咧按呢有好多攤販賣蔬菜水果。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1129
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊欲買啥物菜，那個... 阮就先講說阮會幫伊買啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 595
+    },
+    {
+      "type": "speech",
+      "text": "那個... 按呢按張圖好像講的佇台南一帶咧，齁，那裡人好多啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 587
+    },
+    {
+      "type": "speech",
+      "text": "我那個... 有無跟你講過我阿母愛吃啥物菜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，就是講袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4056,
+    "mean_pause_ms": 1014.0,
+    "speech_char_count": 182
+  },
+  "speech_rate_target": 0.92
+}

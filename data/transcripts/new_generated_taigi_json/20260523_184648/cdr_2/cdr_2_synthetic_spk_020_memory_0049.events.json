@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_020_memory_0049",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好晴朗齁， [停頓] 想起當年讀冊時陣，那個學校閣真遠啊。 [長停頓] 每早五點就轉去菜市仔買菜，阿母說要煮飯給大家食。 [停頓] 以前農忙時陣，整天都佇田裡做工，伊袂知辛苦咧。 [嘆氣] 那個時候啊，按呢真快活， [長停頓] 現在嘛，身體就不足欲啦。 [咳嗽] [沉默] 身體無力，頭痛欲死，哎呀，那個時候真好，讀冊時陣， 阿母煮的菜真好吃，伊誠會做菜ㄟ， [停頓] 現在嘛，就只想著早餐咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好晴朗齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1379
+    },
+    {
+      "type": "speech",
+      "text": "想起當年讀冊時陣，那個學校閣真遠啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4411
+    },
+    {
+      "type": "speech",
+      "text": "每早五點就轉去菜市仔買菜，阿母說要煮飯給大家食。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1419
+    },
+    {
+      "type": "speech",
+      "text": "以前農忙時陣，整天都佇田裡做工，伊袂知辛苦咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啊，按呢真快活，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4023
+    },
+    {
+      "type": "speech",
+      "text": "現在嘛，身體就不足欲啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 542
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2346
+    },
+    {
+      "type": "speech",
+      "text": "身體無力，頭痛欲死，哎呀，那個時候真好，讀冊時陣， 阿母煮的菜真好吃，伊誠會做菜ㄟ，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1305
+    },
+    {
+      "type": "speech",
+      "text": "現在嘛，就只想著早餐咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 14883,
+    "mean_pause_ms": 2480.5,
+    "speech_char_count": 153
+  },
+  "speech_rate_target": 0.75
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_019_clinic_0278",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日是啥日來著？ [停頓] 那個... 我想袂起來。齁醫生，我今早有去菜市仔買菜，那個鹼水粽買一粒，食來真甜。 [停頓] 家裡按呢無啥代誌，孫仔咧讀書去學校了，阿母誠在厝內搥搥作作。 [嘆氣] 可惜伊今早袂有煮飯，我只好轉去外面吃早餐。嗯... 那個，醫生你問啥問題嘞？ [停頓] 我有點忘了咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 832
+    },
+    {
+      "type": "speech",
+      "text": "那個... 我想袂起來。齁醫生，我今早有去菜市仔買菜，那個鹼水粽買一粒，食來真甜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢無啥代誌，孫仔咧讀書去學校了，阿母誠在厝內搥搥作作。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1232
+    },
+    {
+      "type": "speech",
+      "text": "可惜伊今早袂有煮飯，我只好轉去外面吃早餐。嗯... 那個，醫生你問啥問題嘞？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 971
+    },
+    {
+      "type": "speech",
+      "text": "我有點忘了咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3003,
+    "mean_pause_ms": 1001.0,
+    "speech_char_count": 125
+  },
+  "speech_rate_target": 0.92
+}

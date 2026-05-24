@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_2_clinic_0005",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "spoken_transcript": "今仔日幾號啊？ [長停頓] 我欲吃飽菜。 [長停頓] 伊講啥物話咧？ [嘆氣] 以前我阿母會煮餳豆花給囝仔喫。 [長停頓] 齁，今朝早飯是菜市仔買的乾麵咧。 [沉默] [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "text": "我欲吃飽菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3000
+    },
+    {
+      "type": "speech",
+      "text": "伊講啥物話咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "text": "以前我阿母會煮餳豆花給囝仔喫。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4500
+    },
+    {
+      "type": "speech",
+      "text": "齁，今朝早飯是菜市仔買的乾麵咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2000
+    },
+    {
+      "type": "cough",
+      "duration_ms": 250
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 3,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 11000,
+    "mean_pause_ms": 2750.0,
+    "speech_char_count": 51
+  },
+  "speech_rate_target": 0.75
+}

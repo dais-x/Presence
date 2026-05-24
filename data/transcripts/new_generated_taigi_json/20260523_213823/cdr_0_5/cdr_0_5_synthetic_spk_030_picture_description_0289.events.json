@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 743
+  },
+  {
+    "type": "speech",
+    "text": "我去菜市仔買菜，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 685
+  },
+  {
+    "type": "speech",
+    "text": "看到一張圖，"
+  },
+  {
+    "type": "speech",
+    "text": "人咧厝裡煮飯，"
+  },
+  {
+    "type": "speech",
+    "text": "那個...桌頂有個鍋子，"
+  },
+  {
+    "type": "speech",
+    "text": "還有碗咧，"
+  },
+  {
+    "type": "speech",
+    "text": "看袂清伊是裝啥物，"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔咧玩偶閣佇地板上，"
+  },
+  {
+    "type": "speech",
+    "text": "按呢好像還有一個孫仔，"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來阿母是哪時來的，"
+  },
+  {
+    "type": "speech",
+    "text": "不過無礙啦，"
+  },
+  {
+    "type": "speech",
+    "text": "按呢講的是煮飯跟玩偶的事齁。"
+  }
+]

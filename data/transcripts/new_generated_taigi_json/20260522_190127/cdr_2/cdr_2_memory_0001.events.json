@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_2_memory_0001",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "spoken_transcript": "今仔日天气欲好多啦 [長停頓] 我以前读册时候啊 [停頓] 那個学校菜市仔边攏有阿母煮的便当呀 [沉默] 呃...便是說以前囝仔时候咧 [嘆氣] 啊那個农忙时候佇田里干活袂有啥物休息 [咳嗽] [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气欲好多啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2000
+    },
+    {
+      "type": "speech",
+      "text": "我以前读册时候啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "那個学校菜市仔边攏有阿母煮的便当呀"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "呃...便是說以前囝仔时候咧"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 350
+    },
+    {
+      "type": "speech",
+      "text": "啊那個农忙时候佇田里干活袂有啥物休息"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 250
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4000
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 2,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 7700,
+    "mean_pause_ms": 1925.0,
+    "speech_char_count": 66
+  },
+  "speech_rate_target": 0.75
+}

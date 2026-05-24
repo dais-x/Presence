@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_morning_0128",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂很久就洗面，然後煮飯吃。那個菜啊，就是昨天買回來咧，今天要做。 [停頓] 有幾件衫要攏摺好，免得明天無時間做。 唉，準備一下出門去菜市仔買東西，但是袂知要去哪個店，那個... 想袂起來。齁，先整理一下厝內咧，然後再決定要去哪裡。食完飯就轉去啦，反正阿母叫我去買米跟油，嗯，還有洗髮精。 [停頓] 嗯，準備好就可以出門囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂很久就洗面，然後煮飯吃。那個菜啊，就是昨天買回來咧，今天要做。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 771
+    },
+    {
+      "type": "speech",
+      "text": "有幾件衫要攏摺好，免得明天無時間做。 唉，準備一下出門去菜市仔買東西，但是袂知要去哪個店，那個... 想袂起來。齁，先整理一下厝內咧，然後再決定要去哪裡。食完飯就轉去啦，反正阿母叫我去買米跟油，嗯，還有洗髮精。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 846
+    },
+    {
+      "type": "speech",
+      "text": "嗯，準備好就可以出門囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1617,
+    "mean_pause_ms": 808.5,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 0.92
+}

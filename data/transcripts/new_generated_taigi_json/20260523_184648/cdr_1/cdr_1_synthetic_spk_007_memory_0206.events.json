@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_007_memory_0206",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，年輕時陣我們會去菜市仔買青菜，按呢那個蔬菜攤咧，彼個阿姨好親切，彼個叫啥啊？ [停頓] 想袂起來，啦，她賣菜很實在。農忙時節就袂想出去，伊叫囝仔去田裡幫阿爸做工，我誠無太愛做，因為會曬黑齁。 [長停頓] 那時候讀冊咧，按呢那個課本啊，有好多圖畫，很好看啦。學校的同學還會一起講故事，彼個故事叫啥？ [嘆氣] 想袂起來，啦，就是很有趣的故事。孫仔現在在讀什麼書啊，我無太知悉，齁，今仔日時間真快咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，年輕時陣我們會去菜市仔買青菜，按呢那個蔬菜攤咧，彼個阿姨好親切，彼個叫啥啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 913
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，啦，她賣菜很實在。農忙時節就袂想出去，伊叫囝仔去田裡幫阿爸做工，我誠無太愛做，因為會曬黑齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2046
+    },
+    {
+      "type": "speech",
+      "text": "那時候讀冊咧，按呢那個課本啊，有好多圖畫，很好看啦。學校的同學還會一起講故事，彼個故事叫啥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 907
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，啦，就是很有趣的故事。孫仔現在在讀什麼書啊，我無太知悉，齁，今仔日時間真快咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2959,
+    "mean_pause_ms": 1479.5,
+    "speech_char_count": 187
+  },
+  "speech_rate_target": 0.85
+}

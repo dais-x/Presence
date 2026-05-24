@@ -1,0 +1,48 @@
+{
+  "sample_id": "cdr_0_5_memory_0003",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "spoken_transcript": "今仔日想著以前讀冊時光，那個時候阿母叫我去菜市仔買菜，我就要去。 [停頓] 然後就想到農忙時期，伊咧田裡辛苦耕作，還記得伊講袂事辛苦。 [停頓] 那個...當時學佇學校，老師會教好多東西，就是嘞時候啦。嗯，講到以前的事，想袂起來有時阿爸叫我去幫伊揀菜",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日想著以前讀冊時光，那個時候阿母叫我去菜市仔買菜，我就要去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "text": "然後就想到農忙時期，伊咧田裡辛苦耕作，還記得伊講袂事辛苦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個...當時學佇學校，老師會教好多東西，就是嘞時候啦。嗯，講到以前的事，想袂起來有時阿爸叫我去幫伊揀菜"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2100,
+    "mean_pause_ms": 1050.0,
+    "speech_char_count": 113
+  },
+  "speech_rate_target": 0.92
+}

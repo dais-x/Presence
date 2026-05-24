@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，洗面咧，食飯啦，整理物件，準備轉去菜市仔。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1434
+  },
+  {
+    "type": "speech",
+    "text": "那個阿母咧，伊以前袂來這，齁現在咧，啊，孫仔咧，學啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1382
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 854
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐咧，欲吃啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1814
+  },
+  {
+    "type": "cough",
+    "duration_ms": 406
+  },
+  {
+    "type": "speech",
+    "text": "噗，以前咧，早起咧，咧厝裡閣有好多囝仔，伊今仔日咧， 伊袂知伊去哪。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1685
+  },
+  {
+    "type": "speech",
+    "text": "食飯咧，誠足啦，齁，我欲轉去菜市仔，嗯，那個，就是， 那個，按呢要攏準備好。"
+  }
+]

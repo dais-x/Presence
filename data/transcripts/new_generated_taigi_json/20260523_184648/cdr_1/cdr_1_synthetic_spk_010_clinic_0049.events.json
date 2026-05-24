@@ -1,0 +1,130 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_010_clinic_0049",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 想袂起來啦。 [嘆氣] 咱今早食啥物咧？ [長停頓] 早餐是麥片，那個牛奶跟糖攏有倒進去。 [咳嗽] 那個，咱厝最近咋樣啊？阿母她咧好無？ [停頓] 欲去看佇菜市仔，但無走去成啦。 [停頓] 菜價袂便宜，啥物欲買嘛想袂起來。 [長停頓] 嗯，孫仔今早來過咧，講說會再來看我。 [沉默] 彼個...彼個叫啥，記袂起來啦，但無緊要，反正他會再來。 [停頓] 想袂起來伊是誰，那個好像學校老師啊？ [長停頓] 嗯，記袂起來咧，但無緊要啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1175
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1272
+    },
+    {
+      "type": "speech",
+      "text": "咱今早食啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2486
+    },
+    {
+      "type": "speech",
+      "text": "早餐是麥片，那個牛奶跟糖攏有倒進去。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 506
+    },
+    {
+      "type": "speech",
+      "text": "那個，咱厝最近咋樣啊？阿母她咧好無？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1195
+    },
+    {
+      "type": "speech",
+      "text": "欲去看佇菜市仔，但無走去成啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1097
+    },
+    {
+      "type": "speech",
+      "text": "菜價袂便宜，啥物欲買嘛想袂起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1880
+    },
+    {
+      "type": "speech",
+      "text": "嗯，孫仔今早來過咧，講說會再來看我。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1636
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個叫啥，記袂起來啦，但無緊要，反正他會再來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 822
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊是誰，那個好像學校老師啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1921
+    },
+    {
+      "type": "speech",
+      "text": "嗯，記袂起來咧，但無緊要啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 21,
+    "speech_event_count": 11,
+    "pause_event_count": 8,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12212,
+    "mean_pause_ms": 1526.5,
+    "speech_char_count": 166
+  },
+  "speech_rate_target": 0.85
+}

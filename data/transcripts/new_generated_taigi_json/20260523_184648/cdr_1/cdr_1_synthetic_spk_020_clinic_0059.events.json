@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_020_clinic_0059",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 想袂起來啦...彼個...彼個叫啥，想袂起來。 [長停頓] 早餐食啥物啊？ [嘆氣] 食飯啦，就一般菜色啦... [停頓] 家裡有無發生啥代誌？ [咳嗽] 沒啥特別的啦，就是這樣齁。 [停頓] 阿母最近身體好些，阿爸還是一樣，那個...那個咧，足誠好好。 [長停頓] 今仔日是幾號啊？ [嘆氣] 嗯...想袂起來啦，醫生，按呢是幾號？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1054
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦...彼個...彼個叫啥，想袂起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1952
+    },
+    {
+      "type": "speech",
+      "text": "早餐食啥物啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1131
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦，就一般菜色啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 936
+    },
+    {
+      "type": "speech",
+      "text": "家裡有無發生啥代誌？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 484
+    },
+    {
+      "type": "speech",
+      "text": "沒啥特別的啦，就是這樣齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1172
+    },
+    {
+      "type": "speech",
+      "text": "阿母最近身體好些，阿爸還是一樣，那個...那個咧，足誠好好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2069
+    },
+    {
+      "type": "speech",
+      "text": "今仔日是幾號啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 680
+    },
+    {
+      "type": "speech",
+      "text": "嗯...想袂起來啦，醫生，按呢是幾號？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 5,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 7183,
+    "mean_pause_ms": 1436.6,
+    "speech_char_count": 130
+  },
+  "speech_rate_target": 0.85
+}

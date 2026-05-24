@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好曬，我欲去菜市仔買物資。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1580
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊時候，阿母叫我去田裡幫忙農忙，伊說佇田裡可以學好多東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1479
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個是誰呀？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1235
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那時候囝仔多，厝內人手足夠，按呢天就好少人。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 642
+  },
+  {
+    "type": "speech",
+    "text": "我阿爸會做好多手工活，像編籃子咧、織網，他誠好能幹。"
+  },
+  {
+    "type": "speech",
+    "text": "我欲學伊一丁點，但袂會啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 860
+  },
+  {
+    "type": "speech",
+    "text": "那時候啊，食飯時間厝內人都等著，轉去就轉去，現在嘛，大家都好忙。"
+  }
+]

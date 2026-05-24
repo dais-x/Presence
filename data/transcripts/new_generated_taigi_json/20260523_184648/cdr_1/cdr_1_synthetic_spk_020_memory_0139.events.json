@@ -1,0 +1,130 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_020_memory_0139",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日想起來以前讀冊時陣，彼個...彼個叫啥物？ [停頓] 阿母叫我去菜市仔買魚，那個時候真袂懂事，攏會亂買啦。 [長停頓] 有佇學校旁邊的那間老店，賣好多種類，那個店主人咧誠好客， [嘆氣] 真是好久以前的事啊。 [咳嗽] 想袂起來彼個店主的名字了， [停頓] 那時候伊咧教我怎麼選魚，現在想起來袂得不感謝伊。 [長停頓] 有時陣佇田裡幫阿爸工作，那個種稻米真辛苦， [停頓] 嗯...田裡好多泥巴，攏會黏腳啊。 [嘆氣] 那個時候日頭很大， [長停頓] 要多喝水，不過咧有菜梗可以吃， [停頓] 又是好久以前的事啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日想起來以前讀冊時陣，彼個...彼個叫啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1146
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去菜市仔買魚，那個時候真袂懂事，攏會亂買啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1741
+    },
+    {
+      "type": "speech",
+      "text": "有佇學校旁邊的那間老店，賣好多種類，那個店主人咧誠好客，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1224
+    },
+    {
+      "type": "speech",
+      "text": "真是好久以前的事啊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 895
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個店主的名字了，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 898
+    },
+    {
+      "type": "speech",
+      "text": "那時候伊咧教我怎麼選魚，現在想起來袂得不感謝伊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1704
+    },
+    {
+      "type": "speech",
+      "text": "有時陣佇田裡幫阿爸工作，那個種稻米真辛苦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 942
+    },
+    {
+      "type": "speech",
+      "text": "嗯...田裡好多泥巴，攏會黏腳啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1171
+    },
+    {
+      "type": "speech",
+      "text": "那個時候日頭很大，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1811
+    },
+    {
+      "type": "speech",
+      "text": "要多喝水，不過咧有菜梗可以吃，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 915
+    },
+    {
+      "type": "speech",
+      "text": "又是好久以前的事啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 21,
+    "speech_event_count": 11,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 9157,
+    "mean_pause_ms": 1308.14,
+    "speech_char_count": 197
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日... 食啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2642
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧囉... 囝仔去哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1893
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 菜市仔欲去啊... 攚記袂清... 阿爸..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1773
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 772
+  },
+  {
+    "type": "speech",
+    "text": "天氣好冷齁..."
+  }
+]

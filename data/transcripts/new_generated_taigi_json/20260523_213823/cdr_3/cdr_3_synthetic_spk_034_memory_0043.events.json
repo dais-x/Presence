@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2788
+  },
+  {
+    "type": "speech",
+    "text": "按呢欲去囝仔厝啊... 冷啦... 囝仔今仔日做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1546
+  },
+  {
+    "type": "speech",
+    "text": "毋知啦... 食飯時候未到嗎？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4168
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3491
+  },
+  {
+    "type": "speech",
+    "text": "嗯記得了..."
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_036_family_0015",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔同囝仔轉來厝內食飯啊，阿母準備好多菜。 [停頓] 嗯...那個講到哪啦？對了，大家坐佇灶跤邊吃飯咧。講話聲跟笑聲攏有，熱鬧得很齁。那個...囝仔他以前讀書時候，常常會轉去菜市仔買東西。 [停頓] 想袂起來說啥物啦？對了，孫仔今早走去公園玩，回來咧就講好多學校的事。大家都聽咧，嗯...就是這樣子齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔同囝仔轉來厝內食飯啊，阿母準備好多菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 703
+    },
+    {
+      "type": "speech",
+      "text": "嗯...那個講到哪啦？對了，大家坐佇灶跤邊吃飯咧。講話聲跟笑聲攏有，熱鬧得很齁。那個...囝仔他以前讀書時候，常常會轉去菜市仔買東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來說啥物啦？對了，孫仔今早走去公園玩，回來咧就講好多學校的事。大家都聽咧，嗯...就是這樣子齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1903,
+    "mean_pause_ms": 951.5,
+    "speech_char_count": 142
+  },
+  "speech_rate_target": 0.92
+}

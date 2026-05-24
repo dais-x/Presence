@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日看張圖，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1333
+  },
+  {
+    "type": "speech",
+    "text": "人咧煮飯，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1005
+  },
+  {
+    "type": "speech",
+    "text": "那個鍋子裡頭熱騰騰，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1376
+  },
+  {
+    "type": "speech",
+    "text": "應該是菜飯，"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔在那邊玩著，"
+  },
+  {
+    "type": "speech",
+    "text": "好像拿著玩具車，"
+  },
+  {
+    "type": "speech",
+    "text": "桌頂上有碗跟筷子，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 927
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫伊去幫忙，但是伊欲玩，不想攏來，然後就這樣啦。"
+  },
+  {
+    "type": "speech",
+    "text": "有時候想袂起來，彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "反正就是囝仔在那邊，阿母要煮飯，那個囝仔嘛就這樣子。"
+  }
+]

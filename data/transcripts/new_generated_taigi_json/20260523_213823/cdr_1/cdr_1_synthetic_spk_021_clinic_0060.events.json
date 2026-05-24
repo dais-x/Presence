@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 743
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，那個按呢咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1501
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢咧？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 668
+  },
+  {
+    "type": "speech",
+    "text": "我早飯咧食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 737
+  },
+  {
+    "type": "speech",
+    "text": "早飯咧食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔欲去買菜，那個按呢才去？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢有無去過？"
+  },
+  {
+    "type": "speech",
+    "text": "那個今早閣未去。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡發生啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢咧？"
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔來啦，那個伊咧做啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "伊欲食飯咧，阿母有無煮好？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母按呢閣未煮好。"
+  }
+]

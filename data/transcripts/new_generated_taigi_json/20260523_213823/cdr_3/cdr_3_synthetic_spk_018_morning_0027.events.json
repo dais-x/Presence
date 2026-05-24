@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "洗面... 阿母佇哪攏？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4035
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯時光啦... 囝仔呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3521
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣好冷齁... 袂記得要去菜市仔買菜..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3147
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 816
+  },
+  {
+    "type": "speech",
+    "text": "冷啊... 攤販咧未去開店？"
+  }
+]

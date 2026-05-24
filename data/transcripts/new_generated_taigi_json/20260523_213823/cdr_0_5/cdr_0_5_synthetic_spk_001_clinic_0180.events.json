@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 876
+  },
+  {
+    "type": "speech",
+    "text": "我嘛記袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 681
+  },
+  {
+    "type": "speech",
+    "text": "咱早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "食個麥片同牛奶，但那個菜名嘛想袂起來齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母病著，但我去菜市仔買菜回來就毋知伊咧哪廂了啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 854
+  },
+  {
+    "type": "speech",
+    "text": "噗..."
+  },
+  {
+    "type": "cough",
+    "duration_ms": 521
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊閣佇哪廂，應該足在厝內吧。"
+  },
+  {
+    "type": "speech",
+    "text": "那個最近囝仔有無來探望？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，他有啦，就是說要去轉去上班，嘛有時間。"
+  }
+]

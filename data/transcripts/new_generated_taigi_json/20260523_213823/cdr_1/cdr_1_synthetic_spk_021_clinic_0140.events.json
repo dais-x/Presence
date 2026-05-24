@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1336
+  },
+  {
+    "type": "speech",
+    "text": "咱才食過早餐齁，是啥呀？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1369
+  },
+  {
+    "type": "speech",
+    "text": "那個...是稀飯咧，加點鹹菜。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 936
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 530
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔今朝放假，伊要去公園玩咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1498
+  },
+  {
+    "type": "speech",
+    "text": "伊的學校是啥名字啦？"
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來了。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣咱阿母咧，她欲去菜市仔買菜，不過佇家裡足啦。"
+  }
+]

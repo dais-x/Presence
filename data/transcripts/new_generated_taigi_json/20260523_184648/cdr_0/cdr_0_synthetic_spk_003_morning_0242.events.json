@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_003_morning_0242",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起睏毋好攏袂欲，就起來洗面囉。 [停頓] 洗完咧就去菜市仔買些食材，回來煮飯食。阿母叫我去整理一下厝內物件，我就按呢做啦。整理好後，阿爸說要去廟口跟朋友講話，我就攜著雨傘轉去。今早天氣袂太好，有陣雨齁。 [停頓] 準備好了咧，就出門囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏毋好攏袂欲，就起來洗面囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 358
+    },
+    {
+      "type": "speech",
+      "text": "洗完咧就去菜市仔買些食材，回來煮飯食。阿母叫我去整理一下厝內物件，我就按呢做啦。整理好後，阿爸說要去廟口跟朋友講話，我就攜著雨傘轉去。今早天氣袂太好，有陣雨齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 315
+    },
+    {
+      "type": "speech",
+      "text": "準備好了咧，就出門囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 673,
+    "mean_pause_ms": 336.5,
+    "speech_char_count": 110
+  },
+  "speech_rate_target": 1.0
+}

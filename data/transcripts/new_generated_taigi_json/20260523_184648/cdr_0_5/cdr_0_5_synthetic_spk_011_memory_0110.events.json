@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_011_memory_0110",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，年輕時陣，一早起來就去菜市仔買菜，那個... [停頓] 母親叫我去買阮家的東西，想袂起來是啥物了。 [停頓] 那個時候，我們會一起去田裡幫阿爸做農忙，收穫季節就更累了啦。 然後就是讀冊，學校老師講話真嚴肅，總是跟阮說要好好讀書，那個... 就是現在想起來好笑啦。 以前厝內還有好多個囝仔，孫仔咧也多，大家一齊食飯的時候熱鬧得很，那個時候真的是簡單幸福啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，年輕時陣，一早起來就去菜市仔買菜，那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 798
+    },
+    {
+      "type": "speech",
+      "text": "母親叫我去買阮家的東西，想袂起來是啥物了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1021
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，我們會一起去田裡幫阿爸做農忙，收穫季節就更累了啦。 然後就是讀冊，學校老師講話真嚴肅，總是跟阮說要好好讀書，那個... 就是現在想起來好笑啦。 以前厝內還有好多個囝仔，孫仔咧也多，大家一齊食飯的時候熱鬧得很，那個時候真的是簡單幸福啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1819,
+    "mean_pause_ms": 909.5,
+    "speech_char_count": 174
+  },
+  "speech_rate_target": 0.92
+}

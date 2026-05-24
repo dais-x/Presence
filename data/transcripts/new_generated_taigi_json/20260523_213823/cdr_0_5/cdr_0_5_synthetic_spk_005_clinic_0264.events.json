@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 520
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 690
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物佇？"
+  },
+  {
+    "type": "speech",
+    "text": "我食米糕跟豆漿咧。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母按呢好嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "她按呢還攏好，就是那個身體有時會累齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢無啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "就是孫仔昨日來看伊啦，今早就轉去學校拉。"
+  },
+  {
+    "type": "speech",
+    "text": "呣是...想袂起來講啥物了。"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2319
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯... 啥物食？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3045
+  },
+  {
+    "type": "speech",
+    "text": "囝仔... 佇哪裡？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3209
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 袂記得... 阿爸咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2134
+  },
+  {
+    "type": "speech",
+    "text": "天氣好... 嗯..."
+  }
+]

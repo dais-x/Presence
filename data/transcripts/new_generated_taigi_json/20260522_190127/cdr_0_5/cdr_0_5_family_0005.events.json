@@ -1,0 +1,44 @@
+{
+  "sample_id": "cdr_0_5_family_0005",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，按呢欲講啥物話啊？ [停頓] 囝仔咧也來了，伊今早就講要去菜市仔買菜。那個... 想袂起來去哪買？ 無知啦，應該是說伊去阿母那邊買，因為伊毋知去別處 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，按呢欲講啥物話啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "text": "囝仔咧也來了，伊今早就講要去菜市仔買菜。那個... 想袂起來去哪買？ 無知啦，應該是說伊去阿母那邊買，因為伊毋知去別處"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 4,
+    "speech_event_count": 2,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1500,
+    "mean_pause_ms": 750.0,
+    "speech_char_count": 80
+  },
+  "speech_rate_target": 0.92
+}

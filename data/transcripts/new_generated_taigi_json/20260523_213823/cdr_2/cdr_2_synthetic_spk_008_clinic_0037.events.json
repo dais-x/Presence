@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號囝？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2345
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知是啥日子。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1026
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧厝裡，我無去菜市仔買東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1182
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1962
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 那個早飯有食粥啦，加鹹鴨蛋。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1082
+  },
+  {
+    "type": "speech",
+    "text": "我以前啊，每日要去田裡工作，袂想現在這樣。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 463
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧好無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1324
+  },
+  {
+    "type": "speech",
+    "text": "話說起來，我孫仔去外頭玩啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 攏毋知是啥日子嘞。"
+  }
+]

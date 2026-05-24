@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久就起來洗面，然後去炊碗飯食。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 765
+  },
+  {
+    "type": "speech",
+    "text": "食完後就去整理一下厝內物件，準備要轉去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 823
+  },
+  {
+    "type": "speech",
+    "text": "那個...啊，想袂起來要去買啥物東西咧，但按呢攏毋妨啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後就出門囉。"
+  }
+]

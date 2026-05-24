@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_011_memory_0270",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣不錯囝，年輕時陣啊，天天都要去菜市仔買菜，那個農忙時期咧，早早就起來做工，阿母佇灶跤煮飯，伊一早就要準備好三餐。我呢就負責收工後的田地工作，那個啦，讀冊時候呢，學校裡頭就會有好多朋友一起玩， [停頓] 想袂起當時老師的名字咧，不過就是記得那些日子啊，大家都誠誠懇懇的。 [停頓] 那個齁，少年時陣，家裡的田地很大啦，常常要幫阿爸種稻，那個時候啊，整個村子的人都攏是這樣子生活，現在想起來，真是簡單又幸福咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯囝，年輕時陣啊，天天都要去菜市仔買菜，那個農忙時期咧，早早就起來做工，阿母佇灶跤煮飯，伊一早就要準備好三餐。我呢就負責收工後的田地工作，那個啦，讀冊時候呢，學校裡頭就會有好多朋友一起玩，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 507
+    },
+    {
+      "type": "speech",
+      "text": "想袂起當時老師的名字咧，不過就是記得那些日子啊，大家都誠誠懇懇的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個齁，少年時陣，家裡的田地很大啦，常常要幫阿爸種稻，那個時候啊，整個村子的人都攏是這樣子生活，現在想起來，真是簡單又幸福咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1707,
+    "mean_pause_ms": 853.5,
+    "speech_char_count": 196
+  },
+  "speech_rate_target": 0.92
+}

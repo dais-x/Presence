@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，攏坐佇灶跤邊啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1208
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 950
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，就是孫仔啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 978
+  },
+  {
+    "type": "speech",
+    "text": "咧講話咧笑，真開心啊。"
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔欲學煮湯，咧練習齁。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢伊就會咧，伊會做菜囉。"
+  },
+  {
+    "type": "speech",
+    "text": "今早阿母有去菜市仔買菜，買好多青菜啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我想說要做啥物給大家吃？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 784
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，就是簡單煮碗湯就好齁。"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣好咧，大家都心情好啊。"
+  }
+]

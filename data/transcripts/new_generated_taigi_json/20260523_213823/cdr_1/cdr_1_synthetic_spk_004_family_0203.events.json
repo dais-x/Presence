@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來食飯齁，伊攏袂知伊欲轉去啥時陣。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1470
+  },
+  {
+    "type": "speech",
+    "text": "佷久未見到彼個...彼個叫啥啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 734
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1394
+  },
+  {
+    "type": "speech",
+    "text": "齁，孫仔咧也乖啦，坐佇灶跤邊聽伊講故事。"
+  },
+  {
+    "type": "speech",
+    "text": "那個，阿母說伊想吃菜市仔買的鹹魚飯，我欲煮給伊食啦。"
+  },
+  {
+    "type": "speech",
+    "text": "但是今早無去菜市仔，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1131
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來要買啥物。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，囝仔咧講話欲講啥？"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物，是阿母的囝仔啊， 呀，伊也轉來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 673
+  },
+  {
+    "type": "speech",
+    "text": "那個，大家坐佇一起食飯，誠歡喜。"
+  }
+]

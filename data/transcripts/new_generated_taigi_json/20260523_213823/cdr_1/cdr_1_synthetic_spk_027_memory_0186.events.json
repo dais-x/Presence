@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日阿母叫我去菜市仔買菜，我就去啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1300
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阮小時候啊，無恁麼多車，都係走路囝仔，齁，我讀冊時陣，會跟朋友去溪邊戲水咧，那個，真歡喜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1046
+  },
+  {
+    "type": "speech",
+    "text": "農忙時陣，佇田裡做工，袂想起來伊叫啥名字啦， 但做啥工作毋知錯，誠仔細啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1032
+  },
+  {
+    "type": "speech",
+    "text": "阮阿爸閣阮囝仔都足誠， 可是，彼個彼個叫啥來著？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 644
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來了。"
+  }
+]

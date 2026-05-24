@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，先去洗面，然後食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 727
+  },
+  {
+    "type": "speech",
+    "text": "想起來要整理一下厝裡物件，但彼個...彼個叫啥啦？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1377
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是那些小東西啦，想袂起來是啥物咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 831
+  },
+  {
+    "type": "speech",
+    "text": "攜去菜市仔買些菜，準備食飯，轉去時又會整理一下咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1441
+  },
+  {
+    "type": "speech",
+    "text": "齁，今早還欲帶個包包，但包包咧？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該閣在厝裡啊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1071
+  },
+  {
+    "type": "speech",
+    "text": "嗯，先出門去買啦，回來再找尋包包。"
+  }
+]

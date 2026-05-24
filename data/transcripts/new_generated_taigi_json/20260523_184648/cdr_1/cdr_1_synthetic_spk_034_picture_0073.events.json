@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_034_picture_0073",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好，我欲去菜市仔買菜，看到好多阿母攤子咧擺滿蔬菜水果。彼個...彼個賣鹹鴨蛋的攤子叫啥？想袂起來啊。 [停頓] 那時候伊還在，現在袂曉得了。 [嘆氣] 真是，以前我天天去買菜，現在很少去了。那個囝仔咧長大，孫仔也好多了。 [長停頓] 有時欲講啥物話，就是想袂起來啦。 [咳嗽] 那個市場咧，攏很多老朋友咧相見，真的很懷念啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，我欲去菜市仔買菜，看到好多阿母攤子咧擺滿蔬菜水果。彼個...彼個賣鹹鴨蛋的攤子叫啥？想袂起來啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1196
+    },
+    {
+      "type": "speech",
+      "text": "那時候伊還在，現在袂曉得了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 866
+    },
+    {
+      "type": "speech",
+      "text": "真是，以前我天天去買菜，現在很少去了。那個囝仔咧長大，孫仔也好多了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2113
+    },
+    {
+      "type": "speech",
+      "text": "有時欲講啥物話，就是想袂起來啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 619
+    },
+    {
+      "type": "speech",
+      "text": "那個市場咧，攏很多老朋友咧相見，真的很懷念啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3309,
+    "mean_pause_ms": 1654.5,
+    "speech_char_count": 142
+  },
+  "speech_rate_target": 0.85
+}

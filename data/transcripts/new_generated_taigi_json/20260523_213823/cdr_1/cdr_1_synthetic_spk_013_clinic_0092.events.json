@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 706
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 按呢個是週幾咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 657
+  },
+  {
+    "type": "speech",
+    "text": "醫生先生。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 859
+  },
+  {
+    "type": "speech",
+    "text": "我今早無吃啥物，就食碗稀飯啦，加上一顆水煮蛋，有攏啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢我家裡頭有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "就是伊阿母還好啦， 但最近伊常喊著想轉去娘家看伊兄長。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1213
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "伊孫仔啊，他放假了咧，來我這裡陪阿公。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢咧。"
+  },
+  {
+    "type": "speech",
+    "text": "醫生先生，汝有啥問題欲問我就講嘛啦。"
+  }
+]

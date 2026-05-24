@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "煮飯咧... 阿母佇哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3247
+  },
+  {
+    "type": "speech",
+    "text": "囝仔去哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2977
+  },
+  {
+    "type": "speech",
+    "text": "天氣袂好啊... 嗯... 冷啦... 菜市仔欲去..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3841
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 684
+  },
+  {
+    "type": "speech",
+    "text": "食飯時間啦..."
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_005_morning_0144",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗面咧，然後就準備食飯囉。那個碗筷咧，我有先整理好啦。 [停頓] 食完飯後就想去菜市仔買些食材來做午餐。 [停頓] 等一下要去朋友家拜訪，那個包包咧，應該有攏裝好齁。想袂起來啊，按呢個時候要帶啥物去？ [嘆氣] 唔管啦，等一下到了再去揀就好。嗯... 出門前記著要把電燈關一關，然後就轉去囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗面咧，然後就準備食飯囉。那個碗筷咧，我有先整理好啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 674
+    },
+    {
+      "type": "speech",
+      "text": "食完飯後就想去菜市仔買些食材來做午餐。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "等一下要去朋友家拜訪，那個包包咧，應該有攏裝好齁。想袂起來啊，按呢個時候要帶啥物去？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 680
+    },
+    {
+      "type": "speech",
+      "text": "唔管啦，等一下到了再去揀就好。嗯... 出門前記著要把電燈關一關，然後就轉去囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1874,
+    "mean_pause_ms": 937.0,
+    "speech_char_count": 136
+  },
+  "speech_rate_target": 0.92
+}

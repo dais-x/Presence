@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_028_memory_0187",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，咱小時候每天都要到菜市仔去攤販學賣菜，那個辛苦哦～彼個...彼個叫啥？阿母她咧總講說，要勤儉持家，毋可以浪費。我記憶中，阿爸他每日就著田裡工作， [停頓] 唔通有放假。讀冊時光，課本誠難攏看，就是有些單字袂曉意思啦。 [長停頓] 那個時候，鄰居們都熱鬧，會聚在厝邊頭講話、打牌，按呢咧誠有趣啊。彼個...彼個叫啥來著？是伊的名字，想袂起來了。 [嘆氣] 還有阿母她總煮好多菜，大家圍桌食飯，歡樂到足啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，咱小時候每天都要到菜市仔去攤販學賣菜，那個辛苦哦～彼個...彼個叫啥？阿母她咧總講說，要勤儉持家，毋可以浪費。我記憶中，阿爸他每日就著田裡工作，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 816
+    },
+    {
+      "type": "speech",
+      "text": "唔通有放假。讀冊時光，課本誠難攏看，就是有些單字袂曉意思啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1787
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，鄰居們都熱鬧，會聚在厝邊頭講話、打牌，按呢咧誠有趣啊。彼個...彼個叫啥來著？是伊的名字，想袂起來了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1018
+    },
+    {
+      "type": "speech",
+      "text": "還有阿母她總煮好多菜，大家圍桌食飯，歡樂到足啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2603,
+    "mean_pause_ms": 1301.5,
+    "speech_char_count": 190
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 793
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 那個就是九月十三啦，對齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 545
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "今朝我有去菜市仔買麵包跟牛奶，孫仔愛吃那個麵包齁。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，家裡按呢還好啦，阿母說伊要去厝邊鄰居那兒坐會兒，誠足朋友咧。"
+  }
+]

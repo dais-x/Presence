@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔帶孫仔轉來厝內食飯，大家坐佇灶跤邊講天講地，伊阿母咧也來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 997
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 841
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1158
+  },
+  {
+    "type": "speech",
+    "text": "就是伊孫仔咧，長高好多，按呢讀幾班齁？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 995
+  },
+  {
+    "type": "speech",
+    "text": "嗯，阿爸跟伊說過，不過我今仔日想袂起來，講話講著講著就忘記咧。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，講到囝仔，彼個囝仔按呢幾歲啦？"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日厝內熱熱，大家都坐佇涼快地方講話。"
+  }
+]

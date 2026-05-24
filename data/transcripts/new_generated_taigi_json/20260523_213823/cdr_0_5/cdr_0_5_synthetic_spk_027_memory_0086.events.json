@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好啊，想起來我少年時陣讀冊時候。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 532
+  },
+  {
+    "type": "speech",
+    "text": "那個學校佇鄉下咧，菜市仔邊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 591
+  },
+  {
+    "type": "speech",
+    "text": "每天早起去讀册，晚間回來幫阿母做家務，洗碗、搥衣裳。"
+  },
+  {
+    "type": "speech",
+    "text": "農忙時期就袂能讀册，都要幫伊揀稻穗。"
+  },
+  {
+    "type": "speech",
+    "text": "真係辛苦啦，不過那段時陣生活也歡喜。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣想袂起來啊，那個是啥物來著...齁，對了，厝內阿公阿媽都好疼囝仔，孫仔咧總是有糖吃。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 927
+  },
+  {
+    "type": "speech",
+    "text": "現在回想起來真是個美好時期。"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_015_clinic_0174",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日是幾號啊？ [停頓] 我欲記起來啦。 [長停頓] 早餐我有食碗米粥，攏是簡單啦。 [嘆氣] 那個菜市仔我去咧，買幾樣青菜回去煮飯。 [咳嗽] 按呢家裡啥物代誌嘛？就是無啥特別啦。 [停頓] 我孫仔有來拜訪我，帶囝仔來。 [長停頓] 今早伊講話袂通，彼個...彼個叫啥？ [沉默] 嗯，想袂起來。 [嘆氣] 那個就是啦，按呢天氣足好，我轉去厝裡坐無風咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1110
+    },
+    {
+      "type": "speech",
+      "text": "我欲記起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1965
+    },
+    {
+      "type": "speech",
+      "text": "早餐我有食碗米粥，攏是簡單啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1025
+    },
+    {
+      "type": "speech",
+      "text": "那個菜市仔我去咧，買幾樣青菜回去煮飯。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1118
+    },
+    {
+      "type": "speech",
+      "text": "按呢家裡啥物代誌嘛？就是無啥特別啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1081
+    },
+    {
+      "type": "speech",
+      "text": "我孫仔有來拜訪我，帶囝仔來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2164
+    },
+    {
+      "type": "speech",
+      "text": "今早伊講話袂通，彼個...彼個叫啥？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2275
+    },
+    {
+      "type": "speech",
+      "text": "嗯，想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1150
+    },
+    {
+      "type": "speech",
+      "text": "那個就是啦，按呢天氣足好，我轉去厝裡坐無風咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 5,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 8595,
+    "mean_pause_ms": 1719.0,
+    "speech_char_count": 129
+  },
+  "speech_rate_target": 0.85
+}

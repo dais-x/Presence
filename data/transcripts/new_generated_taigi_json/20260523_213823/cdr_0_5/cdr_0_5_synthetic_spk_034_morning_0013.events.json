@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起就先去洗面，洗完面後再來食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 902
+  },
+  {
+    "type": "speech",
+    "text": "那個飯後我就整理一下厝裡頭的物件，準備著要去菜市仔買菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 887
+  },
+  {
+    "type": "speech",
+    "text": "那個...欲出門咧，可是包包攏袂知放哪，那個...啊！"
+  },
+  {
+    "type": "speech",
+    "text": "應該是擺在灶跤上齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 765
+  },
+  {
+    "type": "speech",
+    "text": "好久未去菜市仔囉，那個...想袂起來伊最近有無開張。"
+  },
+  {
+    "type": "speech",
+    "text": "反正先去一下看啦。"
+  }
+]

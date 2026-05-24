@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 501
+  },
+  {
+    "type": "speech",
+    "text": "按呢是十月廿二號啦。"
+  },
+  {
+    "type": "speech",
+    "text": "早飯我食米粥啦，加些鹹蛋跟蘿蔔乾齁。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "最近阿母身體不太好，要去看醫生咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔放假咧，在厝裡頭玩啦。"
+  },
+  {
+    "type": "speech",
+    "text": "其他嘛就攏好啦。"
+  }
+]

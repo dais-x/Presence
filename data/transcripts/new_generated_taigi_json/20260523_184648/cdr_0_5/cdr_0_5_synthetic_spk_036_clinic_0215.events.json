@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_036_clinic_0215",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我也袂知啦，那個好像毋是星期五ㄟ... [停頓] 啥物咧，食啥物當早餐？我今早食阮阿母煮的粥跟鹹蛋，好飽齁。家裡按呢有啥代誌嗎？嗯... 沒啥特別的啦，就是孫仔來過看囝仔，咧咧就回去咧。 [嘆氣] 那個欲講啥物啊？ [咳嗽] 唔通啦，我今早還食佇菜市仔買的水果欸。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 936
+    },
+    {
+      "type": "speech",
+      "text": "我也袂知啦，那個好像毋是星期五ㄟ..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "啥物咧，食啥物當早餐？我今早食阮阿母煮的粥跟鹹蛋，好飽齁。家裡按呢有啥代誌嗎？嗯... 沒啥特別的啦，就是孫仔來過看囝仔，咧咧就回去咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1102
+    },
+    {
+      "type": "speech",
+      "text": "那個欲講啥物啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1129
+    },
+    {
+      "type": "speech",
+      "text": "唔通啦，我今早還食佇菜市仔買的水果欸。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2136,
+    "mean_pause_ms": 1068.0,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.92
+}

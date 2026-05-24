@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_010_memory_0089",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣真好，阿母叫我去菜市仔買餓虱（蝦米）。 [停頓] 彼個彼個叫啥...想袂起來啦。那個時候還會去幫伊做田裡工作，種花生咧，按呢是早年間的事囉。當年讀冊時，老師講的課文啊，好多都記袂起來齁，就是那時候年輕人嘛，比較會玩啦。 [長停頓] 阿母煮飯時，我會去幫伊搧風扇，搧灶跤咧。那個孫仔現在大啦，按呢應該也讀高中囉。 [嘆氣] 唉，時間真快啊，轉眼就過瞭。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，阿母叫我去菜市仔買餓虱（蝦米）。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1082
+    },
+    {
+      "type": "speech",
+      "text": "彼個彼個叫啥...想袂起來啦。那個時候還會去幫伊做田裡工作，種花生咧，按呢是早年間的事囉。當年讀冊時，老師講的課文啊，好多都記袂起來齁，就是那時候年輕人嘛，比較會玩啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2403
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮飯時，我會去幫伊搧風扇，搧灶跤咧。那個孫仔現在大啦，按呢應該也讀高中囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 786
+    },
+    {
+      "type": "speech",
+      "text": "唉，時間真快啊，轉眼就過瞭。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3485,
+    "mean_pause_ms": 1742.5,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.85
+}

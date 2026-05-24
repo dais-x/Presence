@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_001_morning_0240",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂晚，先去洗面啦。 [停頓] 洗完之後就煮飯吃啊，菜色簡單一點就好。整理一下房間咧，有啥物亂七八糟的，通通收一收。想出去買點東西啊，那個……想去菜市仔買菜，不過搭公車袂曉得要怎麼搭。 [停頓] 那個……搭公車要去按呢站，但我現在想袂起來咧。 [嘆氣] 以前阿母都會講我，但伊現在去嘞，自己就…… [沉默] 想起阿爸啦，他以前會帶我去菜市仔買菜。 [咳嗽] 那個時候好開心啊。 [停頓] 現在要出去，手袋有沒有帶攏記不得了。 [停頓] 嗯……反正先去拿一下包包咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂晚，先去洗面啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 808
+    },
+    {
+      "type": "speech",
+      "text": "洗完之後就煮飯吃啊，菜色簡單一點就好。整理一下房間咧，有啥物亂七八糟的，通通收一收。想出去買點東西啊，那個……想去菜市仔買菜，不過搭公車袂曉得要怎麼搭。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1213
+    },
+    {
+      "type": "speech",
+      "text": "那個……搭公車要去按呢站，但我現在想袂起來咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1144
+    },
+    {
+      "type": "speech",
+      "text": "以前阿母都會講我，但伊現在去嘞，自己就……"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2064
+    },
+    {
+      "type": "speech",
+      "text": "想起阿爸啦，他以前會帶我去菜市仔買菜。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "text": "那個時候好開心啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 806
+    },
+    {
+      "type": "speech",
+      "text": "現在要出去，手袋有沒有帶攏記不得了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1234
+    },
+    {
+      "type": "speech",
+      "text": "嗯……反正先去拿一下包包咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6125,
+    "mean_pause_ms": 1225.0,
+    "speech_char_count": 194
+  },
+  "speech_rate_target": 0.85
+}

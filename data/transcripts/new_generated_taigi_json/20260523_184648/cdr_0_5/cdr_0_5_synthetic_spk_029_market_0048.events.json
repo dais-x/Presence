@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_market_0048",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個雞蛋有袂有咧？ [停頓] 攤販說有，就買一盒。然後想起來啦，要買個啥物蔬菜來著？嗯... 那個葉子嘛，就是青江菜啦！轉去厝內，阿母問我買啥物咧？我就講伊講袂清，那個就是買個青江菜跟雞蛋。 [咳嗽] 然後呢，今仔日有無食飯咧？按呢還沒，準備晚一點再來煮。 [停頓] 嗯... 去菜市仔真是好攏學到新東西啊，齁！",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個雞蛋有袂有咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 622
+    },
+    {
+      "type": "speech",
+      "text": "攤販說有，就買一盒。然後想起來啦，要買個啥物蔬菜來著？嗯... 那個葉子嘛，就是青江菜啦！轉去厝內，阿母問我買啥物咧？我就講伊講袂清，那個就是買個青江菜跟雞蛋。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1160
+    },
+    {
+      "type": "speech",
+      "text": "然後呢，今仔日有無食飯咧？按呢還沒，準備晚一點再來煮。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1048
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 去菜市仔真是好攏學到新東西啊，齁！"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1670,
+    "mean_pause_ms": 835.0,
+    "speech_char_count": 148
+  },
+  "speech_rate_target": 0.92
+}

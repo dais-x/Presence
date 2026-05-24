@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 808
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 早餐食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1322
+  },
+  {
+    "type": "speech",
+    "text": "我食白飯跟菜市仔買來的菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1143
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "那個，伊（阿母）還好齁，就是偶而會講彼個話彼個叫啥，想袂起來啦... 攚厝去有無看到孫仔啊？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢就毋知咧，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 817
+  },
+  {
+    "type": "speech",
+    "text": "今早有來診間咧。"
+  }
+]

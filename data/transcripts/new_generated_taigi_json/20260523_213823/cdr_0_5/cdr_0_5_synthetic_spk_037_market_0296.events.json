@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜，那個阿母叫我去買些青菜跟肉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 542
+  },
+  {
+    "type": "speech",
+    "text": "跟攤販講：「老闆，欲幾錢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 752
+  },
+  {
+    "type": "speech",
+    "text": "」 呀，想袂起來怎麼講說的菜名，不過老闆聽懂啦，就是給我拿伊要的東西。"
+  },
+  {
+    "type": "speech",
+    "text": "然後咧就轉去厝內，阿爸問我：「買啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "」 我說：「嗯，那個菜市仔買來勒。"
+  },
+  {
+    "type": "speech",
+    "text": "」 噢，對了，還買一塊肉咧。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，今仔日買菜經驗挺好的。"
+  }
+]

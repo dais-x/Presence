@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_013_memory_0012",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好，年輕時陣，阿爸叫我早起去菜市仔買菜。 [停頓] 佇那時陣，讀冊是件頭痛事，不過跟著厝內長輩幹農忙嘛有學到好多事情。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，年輕時陣，阿爸叫我早起去菜市仔買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "佇那時陣，讀冊是件頭痛事，不過跟著厝內長輩幹農忙嘛有學到好多事情。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 400,
+    "mean_pause_ms": 400.0,
+    "speech_char_count": 58
+  },
+  "speech_rate_target": 1.0
+}

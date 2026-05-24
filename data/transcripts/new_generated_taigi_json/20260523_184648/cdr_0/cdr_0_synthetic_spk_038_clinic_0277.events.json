@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_038_clinic_0277",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日是幾號咧，我曉得無？ [停頓] 我早飯食魯肉饭配稀饭，還滿好吃的啦。按呢家裡一切安好，阿母身體還不錯，就是有點腰酸背痛，醫生有叫伊多休息，可是伊老人家就是捨不得歇著啊。孫仔今朝去學校咧，阿爸則是在厝內整理菜園子。 [停頓] 沒啥特別的代誌啦，大家都平安就好囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾號咧，我曉得無？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 412
+    },
+    {
+      "type": "speech",
+      "text": "我早飯食魯肉饭配稀饭，還滿好吃的啦。按呢家裡一切安好，阿母身體還不錯，就是有點腰酸背痛，醫生有叫伊多休息，可是伊老人家就是捨不得歇著啊。孫仔今朝去學校咧，阿爸則是在厝內整理菜園子。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 231
+    },
+    {
+      "type": "speech",
+      "text": "沒啥特別的代誌啦，大家都平安就好囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 643,
+    "mean_pause_ms": 321.5,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 1.0
+}

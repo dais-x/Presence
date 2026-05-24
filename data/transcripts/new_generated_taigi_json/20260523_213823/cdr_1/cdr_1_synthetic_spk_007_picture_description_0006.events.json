@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我去看菜市仔啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 776
+  },
+  {
+    "type": "speech",
+    "text": "彼個阿母袂在家囝，伊去煮飯咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1115
+  },
+  {
+    "type": "speech",
+    "text": "彼個孫仔欲玩溜溜球，但就是想袂起來叫啥物名。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1027
+  },
+  {
+    "type": "speech",
+    "text": "那個桌頂有好多東西，按呢攏是碗、盤子齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "我講伊阿爸今早轉去買菜啦，伊說要去買魚跟菜。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 949
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔人絡繹不絕，真熱鬧咧。"
+  },
+  {
+    "type": "speech",
+    "text": "呣知彼個囝仔閣袂有在課堂上做功課啊，應該足誠誠唻。"
+  }
+]

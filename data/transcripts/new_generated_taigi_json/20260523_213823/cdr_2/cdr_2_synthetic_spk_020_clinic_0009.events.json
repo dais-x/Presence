@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1596
+  },
+  {
+    "type": "speech",
+    "text": "我食啥物早飯咧"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1540
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1075
+  },
+  {
+    "type": "speech",
+    "text": "？伊阿母誠袂好齁，按呢個孫仔欲去菜市仔啦"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 608
+  },
+  {
+    "type": "speech",
+    "text": "佇以前咧，我袂曉吃恁種東西，現在欲吃啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2142
+  },
+  {
+    "type": "speech",
+    "text": "早飯吃啥物咧，我食阮阿爸煮嘸有？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1194
+  },
+  {
+    "type": "speech",
+    "text": "阮厝按呢個灶跤足誠舊啦，按呢個孫仔欲轉去食飯咧。"
+  }
+]

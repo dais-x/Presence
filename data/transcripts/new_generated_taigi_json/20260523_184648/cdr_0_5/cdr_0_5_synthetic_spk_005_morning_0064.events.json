@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_005_morning_0064",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起咧，洗個面，食個飯，整理一下物件。欲出門去菜市仔買點東西，那個包包咧有袂有攜好物資？ [停頓] 想袂起來伊擺哪兒了，應該是放佇櫃子內頭，我去檢查一下。 [停頓] 噗哈哈哈，真是個老囝仔啦，明明就攏在桌上啊！ [咳嗽] 然後咧準備錢包、鑰匙，那個口罩也要攜著，現在咧都要戴啊。齁，走去菜市仔買點蔬菜水果，回家再煮頓飯給家人吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起咧，洗個面，食個飯，整理一下物件。欲出門去菜市仔買點東西，那個包包咧有袂有攜好物資？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 575
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊擺哪兒了，應該是放佇櫃子內頭，我去檢查一下。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "噗哈哈哈，真是個老囝仔啦，明明就攏在桌上啊！"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 555
+    },
+    {
+      "type": "speech",
+      "text": "然後咧準備錢包、鑰匙，那個口罩也要攜著，現在咧都要戴啊。齁，走去菜市仔買點蔬菜水果，回家再煮頓飯給家人吃。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1775,
+    "mean_pause_ms": 887.5,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.92
+}

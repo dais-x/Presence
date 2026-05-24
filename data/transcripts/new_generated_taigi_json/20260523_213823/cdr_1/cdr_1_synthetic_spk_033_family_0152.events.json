@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，帶阮孫仔來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1478
+  },
+  {
+    "type": "speech",
+    "text": "伊阿母叫啥個名字？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1574
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦...彼個彼個叫啥，那個孫仔咧，阮講起話來嘛有無聊到吼。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 819
+  },
+  {
+    "type": "speech",
+    "text": "按呢阮大家坐佇灶跤邊，聊講天。"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔說要帶阮去菜市仔買菜，齁，阮要去買啊！"
+  },
+  {
+    "type": "speech",
+    "text": "今早阮食飯時候，囝仔還講要幫阮轉厝咧，但阮毋知啥時會轉去。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1309
+  },
+  {
+    "type": "speech",
+    "text": "阮說啦，毋通急著轉，按呢閣好啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1039
+  }
+]

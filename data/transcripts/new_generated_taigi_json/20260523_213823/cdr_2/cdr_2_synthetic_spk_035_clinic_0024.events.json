@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 979
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1180
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2361
+  },
+  {
+    "type": "speech",
+    "text": "我食包仔粿咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 441
+  },
+  {
+    "type": "speech",
+    "text": "阿母無啦，伊去啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 646
+  },
+  {
+    "type": "speech",
+    "text": "嗨，我以前會煮好多東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1582
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔咧？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢佇哪攏？"
+  },
+  {
+    "type": "speech",
+    "text": "我手袂好攏，啊，毋知足力。"
+  }
+]

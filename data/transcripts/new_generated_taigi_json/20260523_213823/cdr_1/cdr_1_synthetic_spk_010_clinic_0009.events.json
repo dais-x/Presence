@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 760
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1341
+  },
+  {
+    "type": "speech",
+    "text": "醫生，你查問啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 889
+  },
+  {
+    "type": "speech",
+    "text": "我今早食飯啦，菜市仔去買些東西。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...孫仔啊，佇學校唸書齁，誠足乖的。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 780
+  },
+  {
+    "type": "speech",
+    "text": "家裡最近無啥代誌，阿母還好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來了。"
+  },
+  {
+    "type": "speech",
+    "text": "就是說，伊咧厝裡。"
+  },
+  {
+    "type": "speech",
+    "text": "今早有食鹹粥啊，還有花生湯。"
+  },
+  {
+    "type": "speech",
+    "text": "醫生你問啥物嘞？"
+  }
+]

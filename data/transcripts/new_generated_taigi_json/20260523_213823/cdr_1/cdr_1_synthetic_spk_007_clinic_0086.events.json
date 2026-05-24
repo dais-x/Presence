@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1074
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 929
+  },
+  {
+    "type": "speech",
+    "text": "我今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "食阮阿母煮的米粥，還有花生粉。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1221
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有無啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 伊今個月生日齁，我們要去菜市仔買禮物。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 852
+  },
+  {
+    "type": "speech",
+    "text": "彼個名字叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦，就是阮孫仔的名字啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我說錯了嘛，是阮囝仔的。"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日孫仔轉來厝內食飯啦，伊那個很歡喜咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 607
+  },
+  {
+    "type": "speech",
+    "text": "囝仔一早袂敢睡，按呢就攏等著啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 960
+  },
+  {
+    "type": "speech",
+    "text": "然後我就跟伊講說，要乖乖噉啊，不然阿母會生氣哦。"
+  },
+  {
+    "type": "speech",
+    "text": "噗～"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1063
+  },
+  {
+    "type": "speech",
+    "text": "，哎呀，那個話題換一下啦，孫仔今早吃啥物早餐咧？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 想袂起來齁，反正按呢就一起轉去菜市仔買東西啦。"
+  }
+]

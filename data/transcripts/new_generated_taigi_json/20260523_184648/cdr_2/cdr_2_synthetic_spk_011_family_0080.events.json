@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_011_family_0080",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "囝仔轉來囝仔轉來啦，孫仔也轉來囝仔轉來啦。 [停頓] 阿母伊今早煮啥物？那個時候阿母伊煮啥物啊？ [長停頓] 今仔日天氣好曬啊，菜市仔有無去啊？ [嘆氣] 孫仔食飯咧，孫仔食飯咧。 [咳嗽] 阿爸伊以前有無攏足力啊？ [沉默] 就是，囝仔轉來囝仔轉來啦。 [停頓] 今早阿母煮啥物啊？ [長停頓] 那個時候天氣好曬啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "囝仔轉來囝仔轉來啦，孫仔也轉來囝仔轉來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1454
+    },
+    {
+      "type": "speech",
+      "text": "阿母伊今早煮啥物？那個時候阿母伊煮啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2920
+    },
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬啊，菜市仔有無去啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1135
+    },
+    {
+      "type": "speech",
+      "text": "孫仔食飯咧，孫仔食飯咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 929
+    },
+    {
+      "type": "speech",
+      "text": "阿爸伊以前有無攏足力啊？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4452
+    },
+    {
+      "type": "speech",
+      "text": "就是，囝仔轉來囝仔轉來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1332
+    },
+    {
+      "type": "speech",
+      "text": "今早阿母煮啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2183
+    },
+    {
+      "type": "speech",
+      "text": "那個時候天氣好曬啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12341,
+    "mean_pause_ms": 2468.2,
+    "speech_char_count": 115
+  },
+  "speech_rate_target": 0.75
+}

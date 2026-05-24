@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "囝仔轉來... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3714
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯啦... 嗯，佇厝內..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3639
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1219
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 袂記得啥物... 囝仔，彼個孫仔啊..."
+  }
+]

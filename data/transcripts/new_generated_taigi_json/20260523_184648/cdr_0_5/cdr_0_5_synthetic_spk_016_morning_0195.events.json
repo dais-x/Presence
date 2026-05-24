@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_016_morning_0195",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起啦，洗個面，食飯咧。那個菜市仔去買些蔬菜水果，準備好午頓用的食材啦。 [停頓] 整理一下厝內，衣服咧收整，按呢就準備轉去朋友家裡坐坐。就是最近身子有點累齁，那個朋友說要來幫忙煮飯咧。啊，還有啦，孫仔今暝來玩，要預備些零嘴給佇伊吃。 [停頓] 想袂起來呀，啥物零嘴比較適合？嗯...那個乾果啦，瓜子之類的應該好。齁，就是準備一下，轉去朋友家裡就好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起啦，洗個面，食飯咧。那個菜市仔去買些蔬菜水果，準備好午頓用的食材啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 965
+    },
+    {
+      "type": "speech",
+      "text": "整理一下厝內，衣服咧收整，按呢就準備轉去朋友家裡坐坐。就是最近身子有點累齁，那個朋友說要來幫忙煮飯咧。啊，還有啦，孫仔今暝來玩，要預備些零嘴給佇伊吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來呀，啥物零嘴比較適合？嗯...那個乾果啦，瓜子之類的應該好。齁，就是準備一下，轉去朋友家裡就好啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2165,
+    "mean_pause_ms": 1082.5,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.92
+}

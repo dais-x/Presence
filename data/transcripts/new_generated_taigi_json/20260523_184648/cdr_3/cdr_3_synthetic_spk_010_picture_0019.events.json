@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_010_picture_0019",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "菜市仔... [長停頓] 阿母咧？那個... [長停頓] 食飯... 囝仔彼個... 冷啦... 嗯... [沉默] 蔬菜... 咳嗽... 天氣好冷啊... [嘆氣] 攤販... 沒有攤販咧... [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1892
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6454
+    },
+    {
+      "type": "speech",
+      "text": "食飯... 囝仔彼個... 冷啦... 嗯..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2753
+    },
+    {
+      "type": "speech",
+      "text": "蔬菜... 咳嗽... 天氣好冷啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1041
+    },
+    {
+      "type": "speech",
+      "text": "攤販... 沒有攤販咧..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3851
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 11,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 14950,
+    "mean_pause_ms": 3737.5,
+    "speech_char_count": 73
+  },
+  "speech_rate_target": 0.65
+}

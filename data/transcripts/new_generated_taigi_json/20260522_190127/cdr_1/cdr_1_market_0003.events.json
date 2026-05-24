@@ -1,0 +1,56 @@
+{
+  "sample_id": "cdr_1_market_0003",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "spoken_transcript": "今仔日我去菜市仔買菜，彼個攤販講話真爽 [停頓] 買啥東西來著？想袂起來啦。 [嘆氣] 齁，有買青菜、雞蛋咧 [長停頓] 按呢要轉去厝內食飯囉，孫仔等著我咧",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜，彼個攤販講話真爽"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "text": "買啥東西來著？想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "齁，有買青菜、雞蛋咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1800
+    },
+    {
+      "type": "speech",
+      "text": "按呢要轉去厝內食飯囉，孫仔等著我咧"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2700,
+    "mean_pause_ms": 1350.0,
+    "speech_char_count": 59
+  },
+  "speech_rate_target": 0.85
+}

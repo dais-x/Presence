@@ -1,0 +1,78 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號嚕？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1030
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦...按呢是啥週幾啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1104
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1431
+  },
+  {
+    "type": "speech",
+    "text": "食白粥同鹹菜，還有個小菜，那個叫啥來著？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1060
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "厝裡無啥代誌齁。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧讀書，阿母閣在做家務。"
+  },
+  {
+    "type": "speech",
+    "text": "我無啥事，就是閒著而已啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個伊有講啥物嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢，今早食飯時候跟伊講話，彼個...彼個叫啥嚕？"
+  },
+  {
+    "type": "speech",
+    "text": "就是伊咧厝裡的鄰居啊，他講說最近要去旅行，想去廈門看看。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 779
+  },
+  {
+    "type": "speech",
+    "text": "停一下啦。"
+  },
+  {
+    "type": "speech",
+    "text": "伊有無講啥物特別的呀？"
+  },
+  {
+    "type": "speech",
+    "text": "就是這樣啦，無啥特別的。"
+  }
+]

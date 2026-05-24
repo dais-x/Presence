@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_010_memory_0249",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好，彼個...彼個叫啥，阿母叫我去菜市仔買東西，想袂起來彼個啥物名字啦。 [停頓] 阿爸咧農忙，佇田裡做工，我跟著去，幫伊揀石頭、除草。 [長停頓] 有時會去讀冊，學校老師叫我們唸書，彼個...彼個課本啥名字？想袂起來啦，就是紅色封面的那個。 [嘆氣] 少年時陣好玩，阿母煮飯給我吃，食飯後轉去囝仔房間做功課，有時會跟鄰居的小朋友玩。 [咳嗽] 那時候真快活啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，彼個...彼個叫啥，阿母叫我去菜市仔買東西，想袂起來彼個啥物名字啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 994
+    },
+    {
+      "type": "speech",
+      "text": "阿爸咧農忙，佇田裡做工，我跟著去，幫伊揀石頭、除草。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1972
+    },
+    {
+      "type": "speech",
+      "text": "有時會去讀冊，學校老師叫我們唸書，彼個...彼個課本啥名字？想袂起來啦，就是紅色封面的那個。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1165
+    },
+    {
+      "type": "speech",
+      "text": "少年時陣好玩，阿母煮飯給我吃，食飯後轉去囝仔房間做功課，有時會跟鄰居的小朋友玩。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 887
+    },
+    {
+      "type": "speech",
+      "text": "那時候真快活啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2966,
+    "mean_pause_ms": 1483.0,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.85
+}

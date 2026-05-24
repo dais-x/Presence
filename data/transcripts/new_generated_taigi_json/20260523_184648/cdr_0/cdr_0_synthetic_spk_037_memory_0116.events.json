@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_037_memory_0116",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣真好，我想到少年時陣的事。當時讀冊啊，學校佇鄉下，菜市仔離學校袂遠。每早食飯後就轉去學校，老師講課認真，同學們都誠誠的聽。農忙時節咧，放學後就跟阿爸去田裡幫忙，插秧、收割，好攏辛苦。厝內阿母做家務，煮飯足夠一家人吃。按呢想想，當時生活雖簡單，但大家都很開心。 [停頓] 可是現在，好多東西都變啦，唉...",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，我想到少年時陣的事。當時讀冊啊，學校佇鄉下，菜市仔離學校袂遠。每早食飯後就轉去學校，老師講課認真，同學們都誠誠的聽。農忙時節咧，放學後就跟阿爸去田裡幫忙，插秧、收割，好攏辛苦。厝內阿母做家務，煮飯足夠一家人吃。按呢想想，當時生活雖簡單，但大家都很開心。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 225
+    },
+    {
+      "type": "speech",
+      "text": "可是現在，好多東西都變啦，唉..."
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 225,
+    "mean_pause_ms": 225.0,
+    "speech_char_count": 151
+  },
+  "speech_rate_target": 1.0
+}

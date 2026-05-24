@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我年輕時陣袂是這樣咧，阿爸伊叫我去田裡做工啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2482
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1189
+  },
+  {
+    "type": "speech",
+    "text": "，那個時候佇菜市仔買菜也好便宜，現在按呢攏貴，齁食飯啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2277
+  },
+  {
+    "type": "cough",
+    "duration_ms": 726
+  },
+  {
+    "type": "speech",
+    "text": "，以前伊囝仔們會幫忙煮飯咧，現在嘛，就是不用做啦，孫仔他們會做好多事，嗯... 阿母伊講過好多話，那個時候佇厝內生活真簡單，今仔日食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2082
+  },
+  {
+    "type": "speech",
+    "text": "早餐有無吃好？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2124
+  },
+  {
+    "type": "speech",
+    "text": "我以前每天早起去讀冊，現在嘛，就是不想動啦。"
+  }
+]

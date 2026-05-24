@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_021_picture_0120",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日看張相紙咧，那個... 相紙裡頭有陣母仔啊，按呢個母仔攏著伊囝仔買菜去菜市仔啦。 [停頓] 唉呀，想袂起來伊欲買啥物？應該是青菜、雞蛋咧齁。還有個老阿爸佇後面，那個... 看起來伊欲講啥物啊。 [停頓] 咳嗽，那個老阿爸應該是欲問母仔伊囝仔有無攏去菜市仔買東西啦。就是這樣子啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看張相紙咧，那個... 相紙裡頭有陣母仔啊，按呢個母仔攏著伊囝仔買菜去菜市仔啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 920
+    },
+    {
+      "type": "speech",
+      "text": "唉呀，想袂起來伊欲買啥物？應該是青菜、雞蛋咧齁。還有個老阿爸佇後面，那個... 看起來伊欲講啥物啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "咳嗽，那個老阿爸應該是欲問母仔伊囝仔有無攏去菜市仔買東西啦。就是這樣子啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 2,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2120,
+    "mean_pause_ms": 1060.0,
+    "speech_char_count": 130
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好熱齁，我想到少年時陣農忙的景況。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 826
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 690
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧總是早早就起來做工啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 903
+  },
+  {
+    "type": "speech",
+    "text": "我攏要去菜市仔買菜，想袂起來彼個是啥時候的事囉。"
+  },
+  {
+    "type": "speech",
+    "text": "那個伊講伊要去田裡種稻， 嗯，農忙時陣大家都好辛苦啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1261
+  },
+  {
+    "type": "speech",
+    "text": "那時候阿爸閣在，會教我們讀冊， 但今仔日好多事情都變袂一樣咧。"
+  }
+]

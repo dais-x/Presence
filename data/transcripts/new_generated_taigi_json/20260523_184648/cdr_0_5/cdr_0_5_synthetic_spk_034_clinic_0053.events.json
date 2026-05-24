@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_034_clinic_0053",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我想袂起來啦，那個醫師你有看曱時報嘛？ [停頓] 早餐我食啥物咧？ 唉，我食粿條咧，加個蛋，齁香啦。 [嘆氣] 家裡按呢有啥代誌嗎？ 阿母她誠好，就是偶爾會講腰痛，阿爸他嘛是無甚麼特別的。孫仔佇學校學英文咧，那個我聽說還不錯啦。嗯... 我今早轉去菜市仔買菜，買個雞蛋、豆腐，還有蔬菜，齁多啦。 [咳嗽] 嗯，有啥問題嘛？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 698
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦，那個醫師你有看曱時報嘛？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食啥物咧？ 唉，我食粿條咧，加個蛋，齁香啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 832
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢有啥代誌嗎？ 阿母她誠好，就是偶爾會講腰痛，阿爸他嘛是無甚麼特別的。孫仔佇學校學英文咧，那個我聽說還不錯啦。嗯... 我今早轉去菜市仔買菜，買個雞蛋、豆腐，還有蔬菜，齁多啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "text": "嗯，有啥問題嘛？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 1898,
+    "mean_pause_ms": 949.0,
+    "speech_char_count": 150
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_memory_0008",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我們那個小時陣都在菜市仔頭玩，後來就讀冊去。學校那個時候還會做農忙咧，講到農忙我就想起我阿母，她個時節真是辛苦。 [停頓] 然後放假嘛就會跟鄰居那些囝仔一起去溪邊戲水，按呢個時候真開心啊。那個讀冊的時候伊閣很認真啦，不過就是有幾個課本想袂起來咧，齁現在那個都忘了。 [嘆氣] 那個時候阿爸一早就要出去做工，我跟弟弟就會在家裡做家事，洗碗、整理厝內。 [停頓] 然後放假嘛就去田裡幫忙，伊個時候真是好時光啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我們那個小時陣都在菜市仔頭玩，後來就讀冊去。學校那個時候還會做農忙咧，講到農忙我就想起我阿母，她個時節真是辛苦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 520
+    },
+    {
+      "type": "speech",
+      "text": "然後放假嘛就會跟鄰居那些囝仔一起去溪邊戲水，按呢個時候真開心啊。那個讀冊的時候伊閣很認真啦，不過就是有幾個課本想袂起來咧，齁現在那個都忘了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1236
+    },
+    {
+      "type": "speech",
+      "text": "那個時候阿爸一早就要出去做工，我跟弟弟就會在家裡做家事，洗碗、整理厝內。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "然後放假嘛就去田裡幫忙，伊個時候真是好時光啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1720,
+    "mean_pause_ms": 860.0,
+    "speech_char_count": 194
+  },
+  "speech_rate_target": 0.92
+}

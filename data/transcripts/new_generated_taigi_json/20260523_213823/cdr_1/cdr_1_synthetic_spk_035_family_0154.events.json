@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，阿母咧準備菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1386
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 893
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，那個孫仔啦，他轉來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1104
+  },
+  {
+    "type": "speech",
+    "text": "大家坐佇灶跤邊講話，伊有攏閣足啦。"
+  },
+  {
+    "type": "speech",
+    "text": "呀，今仔日天氣好好，阿母欲去菜市仔買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個彼個，我毋知叫啥物，齁，就是那個青菜啦。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧食佇飯，那個囝仔他有無轉來？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢伊就攏閣足啦，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1292
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊毋是攏閣足嘛。"
+  }
+]

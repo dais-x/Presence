@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_038_family_0027",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯， [停頓] 孫仔咧啊。按呢阿母袂在家， 她去菜市仔買東西。 [停頓] 伊欲食啥物？ [沉默] 食飯時候大家都坐佇灶跤邊， [咳嗽] 講話啦。孫仔誠真可愛， [停頓] 我講過好多次伊認得我。 啊...今早早餐吃啥物？ 嗯...以前咧我個囝仔也像孫仔咁樣， [停頓] 然後...按呢閣轉去啦。 [沉默] 我欲食飯啦， [停頓] 食飯時候大家講話很開心啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1272
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧啊。按呢阿母袂在家， 她去菜市仔買東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1378
+    },
+    {
+      "type": "speech",
+      "text": "伊欲食啥物？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2777
+    },
+    {
+      "type": "speech",
+      "text": "食飯時候大家都坐佇灶跤邊，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 751
+    },
+    {
+      "type": "speech",
+      "text": "講話啦。孫仔誠真可愛，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1433
+    },
+    {
+      "type": "speech",
+      "text": "我講過好多次伊認得我。 啊...今早早餐吃啥物？ 嗯...以前咧我個囝仔也像孫仔咁樣，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1305
+    },
+    {
+      "type": "speech",
+      "text": "然後...按呢閣轉去啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3634
+    },
+    {
+      "type": "speech",
+      "text": "我欲食飯啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1447
+    },
+    {
+      "type": "speech",
+      "text": "食飯時候大家講話很開心啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 13246,
+    "mean_pause_ms": 1892.29,
+    "speech_char_count": 139
+  },
+  "speech_rate_target": 0.75
+}

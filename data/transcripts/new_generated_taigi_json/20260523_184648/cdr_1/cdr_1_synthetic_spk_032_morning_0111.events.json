@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_032_morning_0111",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂晚，先去洗面咧，然後就食飯啦。 [停頓] 想起來要去菜市仔買菜，但又想袂起來去啥地方好。那個包包有無準備攏毋知，要去問一下老公啦。老公彼個說什麼來著啊？ [長停頓] 忘記講什麼了啦。包包咧，包包欲要檢查一下，看足沒有忘帶啥物東西。然後出去咧，走去菜市仔買菜囝。那個要去幾點去啊？ [嘆氣] 想袂起來，今早要去的彼個地方叫啥，想著會不會是阿母厝附近，按呢記憶好模糊啦。 [咳嗽] 老公，你知不知道要去哪裡？ [長停頓] 嗯，就是那個去菜市仔囝，然後準備足了才出去啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂晚，先去洗面咧，然後就食飯啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 927
+    },
+    {
+      "type": "speech",
+      "text": "想起來要去菜市仔買菜，但又想袂起來去啥地方好。那個包包有無準備攏毋知，要去問一下老公啦。老公彼個說什麼來著啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1527
+    },
+    {
+      "type": "speech",
+      "text": "忘記講什麼了啦。包包咧，包包欲要檢查一下，看足沒有忘帶啥物東西。然後出去咧，走去菜市仔買菜囝。那個要去幾點去啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 935
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，今早要去的彼個地方叫啥，想著會不會是阿母厝附近，按呢記憶好模糊啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 991
+    },
+    {
+      "type": "speech",
+      "text": "老公，你知不知道要去哪裡？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1840
+    },
+    {
+      "type": "speech",
+      "text": "嗯，就是那個去菜市仔囝，然後準備足了才出去啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4294,
+    "mean_pause_ms": 1431.33,
+    "speech_char_count": 206
+  },
+  "speech_rate_target": 0.85
+}

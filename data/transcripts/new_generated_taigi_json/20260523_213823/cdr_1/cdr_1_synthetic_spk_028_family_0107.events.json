@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1172
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥，那個阿母，她煮啥物菜啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1298
+  },
+  {
+    "type": "speech",
+    "text": "嚐袂起來了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 766
+  },
+  {
+    "type": "speech",
+    "text": "就是說伊今朝有煮好多東西咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧誠囝仔咧，攏愛吃伊做的菜齁。"
+  },
+  {
+    "type": "speech",
+    "text": "那個囝仔彼個叫啥，講袂出來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢有講到啥物？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 772
+  },
+  {
+    "type": "speech",
+    "text": "我想著的啥物咧？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 478
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是說大家都開心食飯，講好多話啊。"
+  }
+]

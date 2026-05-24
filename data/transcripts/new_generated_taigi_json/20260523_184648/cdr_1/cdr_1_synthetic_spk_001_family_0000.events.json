@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_001_family_0000",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔有轉來厝內食飯啦，還有孫仔咧，大家都坐佇灶跤邊講話，好熱鬧啊。彼個孫仔才幾歲嘛，還欲叫伊啥物名號？ [停頓] 想袂起來啦。那個孫仔咧，真可愛啦，咿呀咿呀的，阿母說伊要教伊認字啊，可是我講伊現在太小啦，等佇大一點再教就好啦。哎，講到囝仔，我就想袂起彼個老朋友叫啥， [長停頓] 想袂起來了，齁，真煩人。呣管那麼多啦，還是講回今仔日的菜嘛，阿爸說要煮魚湯，我問伊有無揹緊去市場買料囝，他就講攏好啦，咧就等著食飯就好。 [嘆氣] 那個孫仔真會逗人笑啊，哈哈哈。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔有轉來厝內食飯啦，還有孫仔咧，大家都坐佇灶跤邊講話，好熱鬧啊。彼個孫仔才幾歲嘛，還欲叫伊啥物名號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1097
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。那個孫仔咧，真可愛啦，咿呀咿呀的，阿母說伊要教伊認字啊，可是我講伊現在太小啦，等佇大一點再教就好啦。哎，講到囝仔，我就想袂起彼個老朋友叫啥，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2335
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來了，齁，真煩人。呣管那麼多啦，還是講回今仔日的菜嘛，阿爸說要煮魚湯，我問伊有無揹緊去市場買料囝，他就講攏好啦，咧就等著食飯就好。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1356
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔真會逗人笑啊，哈哈哈。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3432,
+    "mean_pause_ms": 1716.0,
+    "speech_char_count": 213
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_012_clinic_0091",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？按呢今仔日是三月廿五號啊。我早飯有吃飽，食的是稀飯跟菜脯蛋啦，味道還不錯齁。家裡無啥特別代誌，阿母身體還好，就阿爸腳有點酸痛，醫生有叫佇家裡多休息，吃藥就好咧。孫仔今早來拜訪我囝仔一家子，帶來好多水果咧，說最近生意還順利，就是比較忙啦 [停頓] 。其他嘛，無啥特別事，按呢在家裡看電視，講電話跟鄰居聊天啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？按呢今仔日是三月廿五號啊。我早飯有吃飽，食的是稀飯跟菜脯蛋啦，味道還不錯齁。家裡無啥特別代誌，阿母身體還好，就阿爸腳有點酸痛，醫生有叫佇家裡多休息，吃藥就好咧。孫仔今早來拜訪我囝仔一家子，帶來好多水果咧，說最近生意還順利，就是比較忙啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 203
+    },
+    {
+      "type": "speech",
+      "text": "。其他嘛，無啥特別事，按呢在家裡看電視，講電話跟鄰居聊天啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 203,
+    "mean_pause_ms": 203.0,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 1.0
+}

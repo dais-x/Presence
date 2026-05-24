@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天亮早袂起，先洗面，然後去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1381
+  },
+  {
+    "type": "speech",
+    "text": "買啥物來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 736
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1166
+  },
+  {
+    "type": "speech",
+    "text": "阿母說要買雞蛋跟青菜。"
+  },
+  {
+    "type": "speech",
+    "text": "攏買足回家，就在灶跤煮飯食飯。"
+  },
+  {
+    "type": "speech",
+    "text": "然後整理厝裡物件，準備轉去買藥。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 705
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個醫生啦，記不住他名字。"
+  },
+  {
+    "type": "speech",
+    "text": "想起來咧！"
+  },
+  {
+    "type": "speech",
+    "text": "齁，要去醫院看醫生。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 751
+  },
+  {
+    "type": "speech",
+    "text": "攏準備好，等會兒出門就按呢。"
+  }
+]

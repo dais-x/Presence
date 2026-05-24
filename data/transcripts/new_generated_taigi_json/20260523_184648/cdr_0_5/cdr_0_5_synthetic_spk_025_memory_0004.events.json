@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_025_memory_0004",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬啊，我年輕時陣常跟著阿爸去菜市仔買物資。那個時候，學校讀冊時間袂長，多數時候都在田裡做工。 [停頓] 農忙時期特別緊張，早出晚歸，食飯都顧勿到。還有，那個鄰居間常常會互相關心，比如誰家有困難，大家就會一起去幫手。啊～想起來就覺得很熱鬧。 [停頓] 嗯...厝內阿母常叫我轉去買些東西，講袂起名字的就是那些常用物資啦。齁，少年時陣的生活就是這樣，雖然辛苦，但充滿回憶。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬啊，我年輕時陣常跟著阿爸去菜市仔買物資。那個時候，學校讀冊時間袂長，多數時候都在田裡做工。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1052
+    },
+    {
+      "type": "speech",
+      "text": "農忙時期特別緊張，早出晚歸，食飯都顧勿到。還有，那個鄰居間常常會互相關心，比如誰家有困難，大家就會一起去幫手。啊～想起來就覺得很熱鬧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯...厝內阿母常叫我轉去買些東西，講袂起名字的就是那些常用物資啦。齁，少年時陣的生活就是這樣，雖然辛苦，但充滿回憶。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2252,
+    "mean_pause_ms": 1126.0,
+    "speech_char_count": 178
+  },
+  "speech_rate_target": 0.92
+}

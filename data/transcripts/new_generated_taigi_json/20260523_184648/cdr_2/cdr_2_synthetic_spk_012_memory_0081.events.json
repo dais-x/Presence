@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_012_memory_0081",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊 [停頓] ，我年輕時攏袂想恁多人啦 [長停頓] 。讀冊時咧，菜市仔走去好多路欲走，阿母講說你要早點起，免誤課啦 [停頓] 。那個時候咧，佇學校讀書，同儕都愛搆我，真無趣啊 [嘆氣] 。按呢想到以前伊講的話，伊就愛講：「毋好搥人」，記憶猶新啦 [長停頓] 。哎呀，今仔日食啥物早餐？ [沉默] 想起以前咧，伊咧厝內有好多菜，真多啊 [咳嗽] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1334
+    },
+    {
+      "type": "speech",
+      "text": "，我年輕時攏袂想恁多人啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4417
+    },
+    {
+      "type": "speech",
+      "text": "。讀冊時咧，菜市仔走去好多路欲走，阿母講說你要早點起，免誤課啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1495
+    },
+    {
+      "type": "speech",
+      "text": "。那個時候咧，佇學校讀書，同儕都愛搆我，真無趣啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1242
+    },
+    {
+      "type": "speech",
+      "text": "。按呢想到以前伊講的話，伊就愛講：「毋好搥人」，記憶猶新啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1815
+    },
+    {
+      "type": "speech",
+      "text": "。哎呀，今仔日食啥物早餐？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3532
+    },
+    {
+      "type": "speech",
+      "text": "想起以前咧，伊咧厝內有好多菜，真多啊"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 866
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12593,
+    "mean_pause_ms": 2518.6,
+    "speech_char_count": 136
+  },
+  "speech_rate_target": 0.75
+}

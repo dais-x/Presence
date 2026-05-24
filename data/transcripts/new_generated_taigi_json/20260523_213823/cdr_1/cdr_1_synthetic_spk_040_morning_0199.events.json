@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先去洗面啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 698
+  },
+  {
+    "type": "speech",
+    "text": "之後就來食飯囉，欲吃啥物呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1536
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊... 等一下咧，要去菜市仔買菜咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1321
+  },
+  {
+    "type": "speech",
+    "text": "嗯，佇厝內整理一陣子物件，彼個... 彼個叫啥，找袂到啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1399
+  },
+  {
+    "type": "speech",
+    "text": "吓，時間也足了，轉去啦。"
+  }
+]

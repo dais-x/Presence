@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_032_clinic_0191",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號咧？我早仔起來食啥物喫緊？ [停頓] 食碗湯粿啦，再配個土司跟咖啡。家裡按呢咋樣？啊，伊阿母無去菜市仔買菜來著。 [停頓] 唉，孫仔咧讀書去啦，囝仔就去上班啊。家裡佇厝內，我閣在灶跤燒飯。啊，足恁簡單按呢。 [嘆氣] 菜色誠清淡，不過也還好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？我早仔起來食啥物喫緊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 647
+    },
+    {
+      "type": "speech",
+      "text": "食碗湯粿啦，再配個土司跟咖啡。家裡按呢咋樣？啊，伊阿母無去菜市仔買菜來著。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 408
+    },
+    {
+      "type": "speech",
+      "text": "唉，孫仔咧讀書去啦，囝仔就去上班啊。家裡佇厝內，我閣在灶跤燒飯。啊，足恁簡單按呢。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1235
+    },
+    {
+      "type": "speech",
+      "text": "菜色誠清淡，不過也還好啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1055,
+    "mean_pause_ms": 527.5,
+    "speech_char_count": 109
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2403
+  },
+  {
+    "type": "speech",
+    "text": "毋知咧，按呢閣足幾時了齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1607
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1716
+  },
+  {
+    "type": "speech",
+    "text": "我無意間想起來囝仔以前咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1335
+  },
+  {
+    "type": "speech",
+    "text": "阿母煮啥菜啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1167
+  },
+  {
+    "type": "speech",
+    "text": "那個... 咳咳..."
+  },
+  {
+    "type": "cough",
+    "duration_ms": 726
+  },
+  {
+    "type": "speech",
+    "text": "今早伊袂來，有無去菜市仔買東西啦。"
+  },
+  {
+    "type": "speech",
+    "text": "菜色好多，阿爸以前咧真會煮飯。"
+  },
+  {
+    "type": "speech",
+    "text": "以前伊誠愛我，咧啦。"
+  }
+]

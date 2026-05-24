@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_010_memory_0029",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好晴朗，叫人想去菜市仔買菜去。我年輕時陣，每日都要起個大早去田裡做工，種米、種菜，還會去山裡摘野果吃。那個...有時阿母會叫我攏去做飯，我就先轉回家去，做好一桌菜等著全家食飯。 [停頓] 那陣兒的學生讀冊都簡單，每日就是跟班仔們一起上學下課。 [停頓] 想袂起來伊叫啥物名字了，那個時候好多朋友啊。齁，講到這我就想起阿爸啦，他會教我識字、講故事給我聽。咧，咱厝內農忙時節，全家人都要幫忙，從早忙到晚，足是辛苦的。嗯...就是這樣啦，按呢的生活都誠過去囝仔時代了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好晴朗，叫人想去菜市仔買菜去。我年輕時陣，每日都要起個大早去田裡做工，種米、種菜，還會去山裡摘野果吃。那個...有時阿母會叫我攏去做飯，我就先轉回家去，做好一桌菜等著全家食飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 844
+    },
+    {
+      "type": "speech",
+      "text": "那陣兒的學生讀冊都簡單，每日就是跟班仔們一起上學下課。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥物名字了，那個時候好多朋友啊。齁，講到這我就想起阿爸啦，他會教我識字、講故事給我聽。咧，咱厝內農忙時節，全家人都要幫忙，從早忙到晚，足是辛苦的。嗯...就是這樣啦，按呢的生活都誠過去囝仔時代了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2044,
+    "mean_pause_ms": 1022.0,
+    "speech_char_count": 224
+  },
+  "speech_rate_target": 0.92
+}

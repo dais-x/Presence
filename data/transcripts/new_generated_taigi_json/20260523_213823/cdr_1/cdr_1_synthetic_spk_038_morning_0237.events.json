@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起我先去洗面，然後就食飯囝。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1128
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後我就去菜市仔買菜去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1472
+  },
+  {
+    "type": "speech",
+    "text": "買菜時候就想到啊，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1214
+  },
+  {
+    "type": "speech",
+    "text": "對哦，欲去準備一下出門的東西咧。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊是啥物啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1186
+  },
+  {
+    "type": "speech",
+    "text": "然後我就轉去啦，攏做好準備再去買菜去齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 777
+  },
+  {
+    "type": "speech",
+    "text": "那個...我欲要去整理一下厝內的物件咧，免得想袂起來東西擺哪兒咧。"
+  }
+]

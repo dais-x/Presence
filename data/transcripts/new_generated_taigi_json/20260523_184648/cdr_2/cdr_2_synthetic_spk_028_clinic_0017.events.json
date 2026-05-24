@@ -1,0 +1,134 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_028_clinic_0017",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 沒有講伊嘛。 [長停頓] 我吃緊稀飯咧。 [沉默] 阿母煮好啦。 [嘆氣] 嗯，就是那個早餐，齁阿母以前都會煮好多種。 [咳嗽] 今仔日幾號啊？ [停頓] 無知幾號。 [長停頓] 沒有講伊嘛。 [沉默] 阿爸閣過世啦，齁我無知幾號。 [嘆氣] [停頓] 啥物咧？ [沉默] 攏無知。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1290
+    },
+    {
+      "type": "speech",
+      "text": "沒有講伊嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3131
+    },
+    {
+      "type": "speech",
+      "text": "我吃緊稀飯咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2807
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮好啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 898
+    },
+    {
+      "type": "speech",
+      "text": "嗯，就是那個早餐，齁阿母以前都會煮好多種。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1152
+    },
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1451
+    },
+    {
+      "type": "speech",
+      "text": "無知幾號。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3858
+    },
+    {
+      "type": "speech",
+      "text": "沒有講伊嘛。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2492
+    },
+    {
+      "type": "speech",
+      "text": "阿爸閣過世啦，齁我無知幾號。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 933
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1392
+    },
+    {
+      "type": "speech",
+      "text": "啥物咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2648
+    },
+    {
+      "type": "speech",
+      "text": "攏無知。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 22,
+    "speech_event_count": 11,
+    "pause_event_count": 8,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 19069,
+    "mean_pause_ms": 2383.62,
+    "speech_char_count": 87
+  },
+  "speech_rate_target": 0.75
+}

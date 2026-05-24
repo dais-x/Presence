@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_002_family_0081",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔跟孫仔有袂來食飯啊， [停頓] 想袂起來彼個叫啥名字啦， [嘆氣] 阿母以前會做好多好吃菜給伊吃，齁，佇菜市仔買的菜咧，恁多種類。 [長停頓] 孫仔小時候還會幫阿公阿媽揀菜去啊，今仔日長大咧， [咳嗽] [停頓] 嗯，轉來厝內食飯，大家坐佇灶跤邊講話啦，好開心啊。那個彼個叫啥物？記袂起來了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔跟孫仔有袂來食飯啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1126
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個叫啥名字啦，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 778
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前會做好多好吃菜給伊吃，齁，佇菜市仔買的菜咧，恁多種類。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1940
+    },
+    {
+      "type": "speech",
+      "text": "孫仔小時候還會幫阿公阿媽揀菜去啊，今仔日長大咧，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 920
+    },
+    {
+      "type": "pause",
+      "duration_ms": 914
+    },
+    {
+      "type": "speech",
+      "text": "嗯，轉來厝內食飯，大家坐佇灶跤邊講話啦，好開心啊。那個彼個叫啥物？記袂起來了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3980,
+    "mean_pause_ms": 1326.67,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.85
+}

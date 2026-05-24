@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早啊... 洗面啦... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3257
+  },
+  {
+    "type": "speech",
+    "text": "啥物欲做？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4058
+  },
+  {
+    "type": "speech",
+    "text": "食飯囝仔，彼個天氣... 冷啦... 老厝閣足東西... 嗯記得... 攚去菜市仔..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3960
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 617
+  }
+]

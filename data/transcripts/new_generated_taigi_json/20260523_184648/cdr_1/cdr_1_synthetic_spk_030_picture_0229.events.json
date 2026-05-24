@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_030_picture_0229",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看咁張圖，咧個是菜市仔啦齁，攏滿多人啊。彼個那個賣菜的伊袂曉想起來咧， [停頓] 買菜囝仔有無來？ [停頓] 那個阿姨咧，按呢在買肉， [咳嗽] 一旁佇著個是賣魚攤啦。彼個那個賣魚的，彼個叫啥物？想袂起來啦。 [嘆氣] 按呢菜市仔真熱鬧啊，孫仔今暝有無轉去食飯啊？ [停頓] 阿母買好多東西回去煮囝仔吃。 [停頓] 嗯...咧個攏好多水果，那個啥物果，嗯想起來啦。 [沉默] 但是看咧就知道，真好玩。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看咁張圖，咧個是菜市仔啦齁，攏滿多人啊。彼個那個賣菜的伊袂曉想起來咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1011
+    },
+    {
+      "type": "speech",
+      "text": "買菜囝仔有無來？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1293
+    },
+    {
+      "type": "speech",
+      "text": "那個阿姨咧，按呢在買肉，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 976
+    },
+    {
+      "type": "speech",
+      "text": "一旁佇著個是賣魚攤啦。彼個那個賣魚的，彼個叫啥物？想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 826
+    },
+    {
+      "type": "speech",
+      "text": "按呢菜市仔真熱鬧啊，孫仔今暝有無轉去食飯啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1179
+    },
+    {
+      "type": "speech",
+      "text": "阿母買好多東西回去煮囝仔吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1498
+    },
+    {
+      "type": "speech",
+      "text": "嗯...咧個攏好多水果，那個啥物果，嗯想起來啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1516
+    },
+    {
+      "type": "speech",
+      "text": "但是看咧就知道，真好玩。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6497,
+    "mean_pause_ms": 1299.4,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.85
+}

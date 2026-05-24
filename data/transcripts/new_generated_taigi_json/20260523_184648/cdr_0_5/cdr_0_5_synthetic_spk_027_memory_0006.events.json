@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_027_memory_0006",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，我年輕時陣，天天早起去菜市仔買菜，那個賣青菜啦、鹹魚咧，還有阿母愛吃的豆乾， [停頓] 然後就回家煮飯給家人食。讀冊時候，學校旁邊有好多田，農忙時候大人會喊我們幫忙割稻，那個手腳都要快啊，不然落日前幹袂完啦。 [嘆氣] 想袂起來伊叫啥名字了，就是鄰居的老公啦，常常來厝內聊天，講話很有趣。 [停頓] 對囉，講到農忙，年輕時大人會喊我們早起搗米，那個搗出來的米粒白白淨淨，煮飯特別香。ㄟ...我講袂清楚，就是那個時候生活簡單啦，但大家在一起很快樂。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，我年輕時陣，天天早起去菜市仔買菜，那個賣青菜啦、鹹魚咧，還有阿母愛吃的豆乾，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1165
+    },
+    {
+      "type": "speech",
+      "text": "然後就回家煮飯給家人食。讀冊時候，學校旁邊有好多田，農忙時候大人會喊我們幫忙割稻，那個手腳都要快啊，不然落日前幹袂完啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 670
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥名字了，就是鄰居的老公啦，常常來厝內聊天，講話很有趣。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "對囉，講到農忙，年輕時大人會喊我們早起搗米，那個搗出來的米粒白白淨淨，煮飯特別香。ㄟ...我講袂清楚，就是那個時候生活簡單啦，但大家在一起很快樂。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2365,
+    "mean_pause_ms": 1182.5,
+    "speech_char_count": 213
+  },
+  "speech_rate_target": 0.92
+}

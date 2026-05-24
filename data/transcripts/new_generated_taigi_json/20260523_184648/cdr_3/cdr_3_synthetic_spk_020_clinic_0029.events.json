@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_020_clinic_0029",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號... [停頓] 毋知啊... 阿母咧？食飯未？ [長停頓] 囝仔去哪囝？ [沉默] 冷啦冷啦... [嘆氣] 無記袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1337
+    },
+    {
+      "type": "speech",
+      "text": "毋知啊... 阿母咧？食飯未？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3212
+    },
+    {
+      "type": "speech",
+      "text": "囝仔去哪囝？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 5679
+    },
+    {
+      "type": "speech",
+      "text": "冷啦冷啦..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1169
+    },
+    {
+      "type": "speech",
+      "text": "無記袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 10228,
+    "mean_pause_ms": 3409.33,
+    "speech_char_count": 42
+  },
+  "speech_rate_target": 0.65
+}

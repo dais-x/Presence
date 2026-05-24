@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_007_market_0026",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個阿母叫我去買個雞蛋同豆乾。遇到老朋友，就講話啦。 [停頓] 那個攤販咧問我最近咋樣齁，我就答應著，說還好啦。 然後那個伊問我有袂有去旅行，想袂起來啦，不過就是講說現在老嘛，足不出戶比較好多。買完菜轉去厝內，阿爸咧等著熱食飯咧，我就先去做個湯。那個... 今仔日買到好多好東西，那個豆乾特別好吃。 做飯時候啊，那個囝仔咧叫我去市場買個啥物，我就是想袂起來啦，就去問隔壁老阿母咧，她才告訴我咧。 [咳嗽] 那個今仔日講好多話，有點累啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個阿母叫我去買個雞蛋同豆乾。遇到老朋友，就講話啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 751
+    },
+    {
+      "type": "speech",
+      "text": "那個攤販咧問我最近咋樣齁，我就答應著，說還好啦。 然後那個伊問我有袂有去旅行，想袂起來啦，不過就是講說現在老嘛，足不出戶比較好多。買完菜轉去厝內，阿爸咧等著熱食飯咧，我就先去做個湯。那個... 今仔日買到好多好東西，那個豆乾特別好吃。 做飯時候啊，那個囝仔咧叫我去市場買個啥物，我就是想袂起來啦，就去問隔壁老阿母咧，她才告訴我咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 488
+    },
+    {
+      "type": "speech",
+      "text": "那個今仔日講好多話，有點累啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 751,
+    "mean_pause_ms": 751.0,
+    "speech_char_count": 216
+  },
+  "speech_rate_target": 0.92
+}

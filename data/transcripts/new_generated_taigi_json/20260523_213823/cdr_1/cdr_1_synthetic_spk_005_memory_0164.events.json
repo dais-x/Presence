@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好，想起來我少年時陣的農忙生活啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 929
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1110
+  },
+  {
+    "type": "speech",
+    "text": "對了，是阿爸叫我們去田裡工作。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1577
+  },
+  {
+    "type": "speech",
+    "text": "伊會講說：「你們咧攏要去，毋可以偷懶。"
+  },
+  {
+    "type": "speech",
+    "text": "」我們就乖乖地去啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那時的菜市仔好多東西啊，想起來真開心。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 685
+  },
+  {
+    "type": "speech",
+    "text": "嗯，還有讀冊的時候，那個囝仔都誠誠實實的。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 564
+  },
+  {
+    "type": "speech",
+    "text": "吃飯時候阿母都會做好多菜，講說：「食飽些啦。"
+  },
+  {
+    "type": "speech",
+    "text": "」 現在想想，按呢個時陣真是美好啊。"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾月幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 479
+  },
+  {
+    "type": "speech",
+    "text": "我早飯食米粉湯，還攏加個蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣轉去菜市仔買菜啦，欲買啥物都無得漏。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊身體還好，毋擔心。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧讀書，誠有功課要做齁。"
+  },
+  {
+    "type": "speech",
+    "text": "今日天氣尚好，欲出去曬太陽啊。"
+  }
+]

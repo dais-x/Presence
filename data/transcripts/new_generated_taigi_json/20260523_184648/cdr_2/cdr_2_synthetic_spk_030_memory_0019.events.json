@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_030_memory_0019",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣還好啊， [停頓] 以前讀冊時，那個老師咧常叫我們背書。 [長停頓] 阿母佇厝內煮飯，我就去菜市仔買菜。 [沉默] 以前常常幫伊揹柴火， [嘆氣] 現在袂有力做啦。 [咳嗽] 以前阿爸農忙時，我跟著去田裡，那個辛苦哦。 [停頓] 啊，今早食啥物？ [長停頓] 欲吃稀飯咧， [停頓] 那個以前孫仔來囝仔厝玩，現在長大咧，長大咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣還好啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1213
+    },
+    {
+      "type": "speech",
+      "text": "以前讀冊時，那個老師咧常叫我們背書。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4478
+    },
+    {
+      "type": "speech",
+      "text": "阿母佇厝內煮飯，我就去菜市仔買菜。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3390
+    },
+    {
+      "type": "speech",
+      "text": "以前常常幫伊揹柴火，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1325
+    },
+    {
+      "type": "speech",
+      "text": "現在袂有力做啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 614
+    },
+    {
+      "type": "speech",
+      "text": "以前阿爸農忙時，我跟著去田裡，那個辛苦哦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1424
+    },
+    {
+      "type": "speech",
+      "text": "啊，今早食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2693
+    },
+    {
+      "type": "speech",
+      "text": "欲吃稀飯咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1235
+    },
+    {
+      "type": "speech",
+      "text": "那個以前孫仔來囝仔厝玩，現在長大咧，長大咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 14433,
+    "mean_pause_ms": 2405.5,
+    "speech_char_count": 119
+  },
+  "speech_rate_target": 0.75
+}

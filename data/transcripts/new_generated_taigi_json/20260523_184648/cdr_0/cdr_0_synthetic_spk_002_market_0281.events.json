@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_002_market_0281",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早上去菜市仔買菜，欲買些東西做午餐。攤販伊咧賣阮好多新鮮菜籃，阮就挑選幾樣阮厝內人愛食的啦。 [停頓] 然後阮轉去厝內，煮飯給阮家人吃，大家都說好嚕嘸？今仔日晚上，阮要準備明天早上的食材，免得今仔日袂有空買菜。阮阿母咧講阮厝內最近要修補一下漏水的房頂， [停頓] 這事佇阮頭腦裡轉來轉去好久啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早上去菜市仔買菜，欲買些東西做午餐。攤販伊咧賣阮好多新鮮菜籃，阮就挑選幾樣阮厝內人愛食的啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 556
+    },
+    {
+      "type": "speech",
+      "text": "然後阮轉去厝內，煮飯給阮家人吃，大家都說好嚕嘸？今仔日晚上，阮要準備明天早上的食材，免得今仔日袂有空買菜。阮阿母咧講阮厝內最近要修補一下漏水的房頂，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 210
+    },
+    {
+      "type": "speech",
+      "text": "這事佇阮頭腦裡轉來轉去好久啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 766,
+    "mean_pause_ms": 383.0,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 1.0
+}

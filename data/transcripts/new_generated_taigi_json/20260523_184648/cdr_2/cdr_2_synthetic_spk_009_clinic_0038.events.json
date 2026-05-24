@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_009_clinic_0038",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我記得伊是月曆咧的。 [長停頓] 按呢早食啥物咧？ [沉默] 食飯啦。 [咳嗽] 佇菜市仔買的。那個孫仔喔，真好笑啊。 [嘆氣] 可惜伊毋知我講啥。 [停頓] 異常欲攏想以前的事。 [長停頓] 阿母煮啥物？ [沉默] 今仔日幾號咧？ 我食飯啦，就這樣啊。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1461
+    },
+    {
+      "type": "speech",
+      "text": "我記得伊是月曆咧的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3091
+    },
+    {
+      "type": "speech",
+      "text": "按呢早食啥物咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3213
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1010
+    },
+    {
+      "type": "speech",
+      "text": "佇菜市仔買的。那個孫仔喔，真好笑啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 741
+    },
+    {
+      "type": "speech",
+      "text": "可惜伊毋知我講啥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1494
+    },
+    {
+      "type": "speech",
+      "text": "異常欲攏想以前的事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3071
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮啥物？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3232
+    },
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？ 我食飯啦，就這樣啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 790
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 18,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 15562,
+    "mean_pause_ms": 2593.67,
+    "speech_char_count": 90
+  },
+  "speech_rate_target": 0.75
+}

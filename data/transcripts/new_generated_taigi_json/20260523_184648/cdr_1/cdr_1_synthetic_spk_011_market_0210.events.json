@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_011_market_0210",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，彼個攤販咧講話啊， [停頓] 有啥物蔬菜欲買呢？那個阿母咧說要去煮飯欲用的啦，想袂起來買啥物好，齁，彼個攤販咧就推薦伊幾樣蔬菜，那個我就買咧，然後轉去厝內。按呢咧菜市仔人滿滿的啊， [長停頓] 有時會講袂清楚伊賣啥物咧， [嘆氣] 想袂起來彼個攤販叫啥名咧，齁，今仔日買到幾樣蔬菜咧，那個阿母應該會很高興啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，彼個攤販咧講話啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1068
+    },
+    {
+      "type": "speech",
+      "text": "有啥物蔬菜欲買呢？那個阿母咧說要去煮飯欲用的啦，想袂起來買啥物好，齁，彼個攤販咧就推薦伊幾樣蔬菜，那個我就買咧，然後轉去厝內。按呢咧菜市仔人滿滿的啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1852
+    },
+    {
+      "type": "speech",
+      "text": "有時會講袂清楚伊賣啥物咧，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1313
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個攤販叫啥名咧，齁，今仔日買到幾樣蔬菜咧，那個阿母應該會很高興啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2920,
+    "mean_pause_ms": 1460.0,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.85
+}

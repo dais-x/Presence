@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2067
+  },
+  {
+    "type": "speech",
+    "text": "欲去買菜... 嗯... 佇厝內啊... 囝仔伊呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1978
+  },
+  {
+    "type": "speech",
+    "text": "據好冷... 菜價袂便宜... 食飯咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1680
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 615
+  }
+]

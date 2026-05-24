@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啦， 想袂起來彼個攤販叫啥名字，伊賣魚咧齁，彼個...彼個魚好好吃，想袂起來彼個魚名，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1363
+  },
+  {
+    "type": "speech",
+    "text": "那個就是紅色的嘛。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 876
+  },
+  {
+    "type": "speech",
+    "text": "買了一點菜轉去厝內食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 991
+  },
+  {
+    "type": "speech",
+    "text": "按呢攏是家常便飯啦，孫仔今暝來食飯齁，佇等著伊咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1447
+  },
+  {
+    "type": "speech",
+    "text": "足足幾天袂有去菜市仔，想起來就欲去咧。"
+  },
+  {
+    "type": "speech",
+    "text": "攤販彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 947
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  }
+]

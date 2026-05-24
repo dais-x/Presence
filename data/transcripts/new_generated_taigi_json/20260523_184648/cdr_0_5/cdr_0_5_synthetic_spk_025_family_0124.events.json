@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_025_family_0124",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，一講話就袂停。那個...阿母準備啦好多菜， [停頓] 大家坐佇灶跤邊，咁久没見到，真是開心齁。孫仔長大咧，按呢個身高都袂比伊矮了，哈哈。 [停頓] 唉，那個時候我們還年輕，想袂起來啦當時的事... [嘆氣] 謎嘛講著講著就轉去以前咧。不過也好，大家聊開來就是好。孫仔問我按呢個菜是怎樣煮的，我就講伊阿母教伊啦，那個...教伊哪一樁？ [停頓] 噗哈哈哈，真是有夠搞笑啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，一講話就袂停。那個...阿母準備啦好多菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1014
+    },
+    {
+      "type": "speech",
+      "text": "大家坐佇灶跤邊，咁久没見到，真是開心齁。孫仔長大咧，按呢個身高都袂比伊矮了，哈哈。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，那個時候我們還年輕，想袂起來啦當時的事..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 702
+    },
+    {
+      "type": "speech",
+      "text": "謎嘛講著講著就轉去以前咧。不過也好，大家聊開來就是好。孫仔問我按呢個菜是怎樣煮的，我就講伊阿母教伊啦，那個...教伊哪一樁？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 950
+    },
+    {
+      "type": "speech",
+      "text": "噗哈哈哈，真是有夠搞笑啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3164,
+    "mean_pause_ms": 1054.67,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.92
+}

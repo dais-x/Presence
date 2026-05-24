@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_007_memory_0166",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣不錯，我講一陣子少年時陣的事給汝聽啊。當時讀冊比較簡單啦，菜市仔裡頭的東西也便宜好多咧。農忙時候啊，整個厝內的人都要去幫忙，從早到晚嘞。阿母跟阿爸閣足人緊啊，會煮飯給大家食，大家都誠誠地做事哦。 [停頓] 孫仔現在讀書應該比較輕鬆啦，啥物年代都變咧齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯，我講一陣子少年時陣的事給汝聽啊。當時讀冊比較簡單啦，菜市仔裡頭的東西也便宜好多咧。農忙時候啊，整個厝內的人都要去幫忙，從早到晚嘞。阿母跟阿爸閣足人緊啊，會煮飯給大家食，大家都誠誠地做事哦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 253
+    },
+    {
+      "type": "speech",
+      "text": "孫仔現在讀書應該比較輕鬆啦，啥物年代都變咧齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 253,
+    "mean_pause_ms": 253.0,
+    "speech_char_count": 125
+  },
+  "speech_rate_target": 1.0
+}

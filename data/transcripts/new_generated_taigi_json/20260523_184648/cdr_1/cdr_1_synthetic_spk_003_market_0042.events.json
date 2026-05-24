@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_003_market_0042",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，彼個青菜啊，彼個那個叫啥，想袂起來了啦。 [停頓] 那個攤販咧，我問佇佢說：「伊有無新鮮的？」伊講有啦。 [停頓] 這陣子啊，阿母講欲吃雞蛋糕，所以我就買一塊給她帶回去。轉去厝內後，孫仔咧，彼個那個叫啥？按呢咧，我跟阿母講，今仔日有無要去菜市仔攏袂知啦。 [嘆氣] 阿爸說毋需要，伊說：「閣等明仔日再去就好。 [咳嗽] 想袂起來彼個菜名啊，真是頭痛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，彼個青菜啊，彼個那個叫啥，想袂起來了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1019
+    },
+    {
+      "type": "speech",
+      "text": "那個攤販咧，我問佇佢說：「伊有無新鮮的？」伊講有啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1203
+    },
+    {
+      "type": "speech",
+      "text": "這陣子啊，阿母講欲吃雞蛋糕，所以我就買一塊給她帶回去。轉去厝內後，孫仔咧，彼個那個叫啥？按呢咧，我跟阿母講，今仔日有無要去菜市仔攏袂知啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1229
+    },
+    {
+      "type": "speech",
+      "text": "阿爸說毋需要，伊說：「閣等明仔日再去就好。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 761
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個菜名啊，真是頭痛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2222,
+    "mean_pause_ms": 1111.0,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.85
+}

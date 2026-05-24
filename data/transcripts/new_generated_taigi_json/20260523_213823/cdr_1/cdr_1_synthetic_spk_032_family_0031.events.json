@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日伊轉來厝內食飯啊，伊欲講伊囝仔跟孫仔咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 933
+  },
+  {
+    "type": "speech",
+    "text": "彼個孫仔才五歲啦，可愛極了齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1529
+  },
+  {
+    "type": "speech",
+    "text": "囝仔咧，咧讀大學咧，真快啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 798
+  },
+  {
+    "type": "speech",
+    "text": "孫仔伊叫啥名字？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1210
+  },
+  {
+    "type": "speech",
+    "text": "有時會講錯話，但大家都笑說無妨啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 402
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔咧，佇學校裡頭最聰明的就是他啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，大家都坐佇灶跤邊講話啦，好熱鬧啊。"
+  }
+]

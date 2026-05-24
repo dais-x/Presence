@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_009_picture_0068",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔看到伊啦，伊攏袂在賣東西齁，坐佇那個椅子咧看人來來往往咧。 [停頓] 有個阿姨推著籃子買菜，那個青菜啊，欲吃飽肚子的囝仔才會想吃。按呢一陣子就有人來問伊要買啥物，伊咧笑咪咪講袂起來啦，那個手啊還是拿著秤子在量米。 [停頓] 有個孫仔跟阿母來買水果，那個香蕉咧，伊誠欲吃，那個阿姨說咧按呢天氣熱，吃香蕉足涼。嗯... 那個圖上面還看到一間厝，閣有人從裡面出來啦，那個灶跤旁邊應該是放著鍋子啦。 [嘆氣] 嗯... 想袂起來咧，不過看咧就開心啦，好像自己去了一趟菜市仔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔看到伊啦，伊攏袂在賣東西齁，坐佇那個椅子咧看人來來往往咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1120
+    },
+    {
+      "type": "speech",
+      "text": "有個阿姨推著籃子買菜，那個青菜啊，欲吃飽肚子的囝仔才會想吃。按呢一陣子就有人來問伊要買啥物，伊咧笑咪咪講袂起來啦，那個手啊還是拿著秤子在量米。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "有個孫仔跟阿母來買水果，那個香蕉咧，伊誠欲吃，那個阿姨說咧按呢天氣熱，吃香蕉足涼。嗯... 那個圖上面還看到一間厝，閣有人從裡面出來啦，那個灶跤旁邊應該是放著鍋子啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1394
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 想袂起來咧，不過看咧就開心啦，好像自己去了一趟菜市仔。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 5,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2320,
+    "mean_pause_ms": 1160.0,
+    "speech_char_count": 222
+  },
+  "speech_rate_target": 0.92
+}

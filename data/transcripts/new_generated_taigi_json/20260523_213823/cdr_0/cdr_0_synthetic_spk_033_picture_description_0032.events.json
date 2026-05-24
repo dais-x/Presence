@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人好多啊，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 414
+  },
+  {
+    "type": "speech",
+    "text": "阿母跟伊去買菜囝仔就來到厝裡頭玩，"
+  },
+  {
+    "type": "speech",
+    "text": "我一轉去看到桌頂上攏擺滿著菜啦，"
+  },
+  {
+    "type": "speech",
+    "text": "還有伊煮飯咧在灶跤，"
+  },
+  {
+    "type": "speech",
+    "text": "那個碗咧有扣著幾隻雞蛋，"
+  },
+  {
+    "type": "speech",
+    "text": "看來今仔日的食飯還會足夠。"
+  }
+]

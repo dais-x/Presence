@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_017_morning_0086",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起睏袂著， [停頓] 洗面啦，食飯啊。 [長停頓] 食啥物啊，那個阿母煮的菜，真好吃。 [沉默] 真想伊咧。 [嘆氣] 攬佇厝裡攏恁久，出門欲去菜市仔。 [咳嗽] 以前啊，有好多朋友，現在嘛，都無了。 [停頓] 咳，孫仔真可愛，又長大啦。 [沉默] [停頓] 要準備啥物咧？包包啦，鑰匙啊，勿知攏擺哪個地方。 那個包包，包包咧，那個鑰匙啊，無知佇厝裡哪個角落。 [長停頓] 變老了啊，記憶力真差。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏袂著，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1413
+    },
+    {
+      "type": "speech",
+      "text": "洗面啦，食飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4450
+    },
+    {
+      "type": "speech",
+      "text": "食啥物啊，那個阿母煮的菜，真好吃。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2810
+    },
+    {
+      "type": "speech",
+      "text": "真想伊咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 877
+    },
+    {
+      "type": "speech",
+      "text": "攬佇厝裡攏恁久，出門欲去菜市仔。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 479
+    },
+    {
+      "type": "speech",
+      "text": "以前啊，有好多朋友，現在嘛，都無了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1492
+    },
+    {
+      "type": "speech",
+      "text": "咳，孫仔真可愛，又長大啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3027
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1261
+    },
+    {
+      "type": "speech",
+      "text": "要準備啥物咧？包包啦，鑰匙啊，勿知攏擺哪個地方。 那個包包，包包咧，那個鑰匙啊，無知佇厝裡哪個角落。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3556
+    },
+    {
+      "type": "speech",
+      "text": "變老了啊，記憶力真差。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1289
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 18009,
+    "mean_pause_ms": 2572.71,
+    "speech_char_count": 147
+  },
+  "speech_rate_target": 0.75
+}

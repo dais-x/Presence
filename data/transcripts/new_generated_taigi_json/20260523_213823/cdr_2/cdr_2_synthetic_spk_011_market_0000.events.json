@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啊，那個攤販咧賣著青菜，按呢天熱齁， 青菜都欲黃啦， 念舊阿母講過袂錯，早點去才攏買到好菜，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2028
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 801
+  },
+  {
+    "type": "speech",
+    "text": "轉去厝內，孫仔咧等食飯， 唉，以前那個早晨咧，伊佇灶跤煮飯，香噴噴的，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1462
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1050
+  },
+  {
+    "type": "speech",
+    "text": "现在啊，閣要自己煮，無力啦。"
+  }
+]

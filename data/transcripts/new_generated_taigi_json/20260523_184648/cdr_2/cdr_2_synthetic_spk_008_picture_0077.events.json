@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_008_picture_0077",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，阿母拎著籃子去菜市仔買青菜。 [停頓] 看到那個賣豬肉的攤販，伊咧擺攤陣等客人買肉。我年輕時候，會自己殺豬刣雞，現在啊，真袂知要吃啥物。 [長停頓] [嘆氣] 那個賣菜的伯公，好幾歲咧還早起做生意，真是辛苦。阿母說她以前也跟著阿爸去市場買菜，講到伊就想到今朝早上的早餐，那個包子啊，真好吃。 [沉默] 其實我袂想講這些老代誌，就是嘛，頭痛欲爆炸，啊，那個孫仔咧呢？ [咳嗽] 在做啥物？ [長停頓] 那個賣水果的攤販，伊佇賣芒果，按呢季節芒果特別甜。 [停頓] 嗯，我年輕時候也喜歡吃芒果。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，阿母拎著籃子去菜市仔買青菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1423
+    },
+    {
+      "type": "speech",
+      "text": "看到那個賣豬肉的攤販，伊咧擺攤陣等客人買肉。我年輕時候，會自己殺豬刣雞，現在啊，真袂知要吃啥物。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4489
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 844
+    },
+    {
+      "type": "speech",
+      "text": "那個賣菜的伯公，好幾歲咧還早起做生意，真是辛苦。阿母說她以前也跟著阿爸去市場買菜，講到伊就想到今朝早上的早餐，那個包子啊，真好吃。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1737
+    },
+    {
+      "type": "speech",
+      "text": "其實我袂想講這些老代誌，就是嘛，頭痛欲爆炸，啊，那個孫仔咧呢？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "text": "在做啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1853
+    },
+    {
+      "type": "speech",
+      "text": "那個賣水果的攤販，伊佇賣芒果，按呢季節芒果特別甜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1422
+    },
+    {
+      "type": "speech",
+      "text": "嗯，我年輕時候也喜歡吃芒果。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 14,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 10924,
+    "mean_pause_ms": 2184.8,
+    "speech_char_count": 210
+  },
+  "speech_rate_target": 0.75
+}

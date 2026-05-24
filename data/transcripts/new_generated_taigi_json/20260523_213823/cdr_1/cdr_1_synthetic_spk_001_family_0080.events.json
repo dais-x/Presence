@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，孫仔咧也來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1114
+  },
+  {
+    "type": "speech",
+    "text": "伊佇灶跤邊等著欲吃，阿母想煮啥物菜給彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 999
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧講話講袂起來，就一直問說「你今仔日幾歲？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 811
+  },
+  {
+    "type": "speech",
+    "text": "」齁，我跟伊講：「你就毋知自己幾歲啊。"
+  },
+  {
+    "type": "speech",
+    "text": "」"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 985
+  },
+  {
+    "type": "speech",
+    "text": "嗯，孫仔咧還小，食飯時候一直問說：「阿嫲，伊要吃啥物菜？"
+  },
+  {
+    "type": "speech",
+    "text": "」彼個就是想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 829
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣好，我欲跟囝仔去菜市仔買菜， 嗯，去公園走一轉。"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_039_family_0158",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來，伊食完飯咧，按呢坐著講話。彼個...彼個叫啥物？啊，囝仔啦！囝仔也來，大家攏佇厝內。 [停頓] 嗯，彼個叫什麼？那個，阿母她做菜，我們就坐灶跤邊等食飯。就是，轉去娘家，伊袂來咧，想袂起來... 那個名字啦。 [停頓] 啊，毋知講啥物，齁，孫仔他啊，按呢在學校唸書囉。 [嘆氣] 孫仔好聰明啊，比阿母強。 [咳嗽] 嗯，大家咧就坐著聊天，食飯啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來，伊食完飯咧，按呢坐著講話。彼個...彼個叫啥物？啊，囝仔啦！囝仔也來，大家攏佇厝內。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1052
+    },
+    {
+      "type": "speech",
+      "text": "嗯，彼個叫什麼？那個，阿母她做菜，我們就坐灶跤邊等食飯。就是，轉去娘家，伊袂來咧，想袂起來... 那個名字啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1474
+    },
+    {
+      "type": "speech",
+      "text": "啊，毋知講啥物，齁，孫仔他啊，按呢在學校唸書囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1116
+    },
+    {
+      "type": "speech",
+      "text": "孫仔好聰明啊，比阿母強。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 879
+    },
+    {
+      "type": "speech",
+      "text": "嗯，大家咧就坐著聊天，食飯啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2526,
+    "mean_pause_ms": 1263.0,
+    "speech_char_count": 156
+  },
+  "speech_rate_target": 0.85
+}

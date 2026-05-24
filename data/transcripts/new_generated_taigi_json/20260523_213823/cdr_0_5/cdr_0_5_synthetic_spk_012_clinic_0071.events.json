@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 885
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1397
+  },
+  {
+    "type": "speech",
+    "text": "早飯吃稀飯啊，加個蛋。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 674
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡無啥代誌啦，那個孫仔咧乖乖讀書。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，誠是問啥子？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，講到孫仔，他今早轉去菜市仔買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "呣知道恁想問啥，就是這樣子啦。"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日一早，阿母欲攏去菜市仔買菜，囝仔咧玩玩具，孫仔欲食飯，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1745
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 659
+  },
+  {
+    "type": "speech",
+    "text": "我以前啊那個，菜市仔袂有咁多人，按呢人咧好多。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1753
+  },
+  {
+    "type": "cough",
+    "duration_ms": 975
+  },
+  {
+    "type": "speech",
+    "text": "我頭頸欲痛，齁，阿爸講伊 以前囝仔時節，欲去溪邊戲水，現在啊，欲攏無力，啦，想食碗麵線湯。"
+  }
+]

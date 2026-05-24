@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_001_family_0200",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯啦，孫仔也跟著來咧。我煮了阿母以前愛吃的菜，大家都說好吃齁。然後大家一起坐佇灶跤邊講話，聊伊們小時候的事，還有按呢幾年發生啥物新事。那個孫仔聽伊爸講故事，笑得很開心啦。 [停頓] 阿爸今晡（晚上）會來嘛？呣知伊幾時到咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯啦，孫仔也跟著來咧。我煮了阿母以前愛吃的菜，大家都說好吃齁。然後大家一起坐佇灶跤邊講話，聊伊們小時候的事，還有按呢幾年發生啥物新事。那個孫仔聽伊爸講故事，笑得很開心啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 642
+    },
+    {
+      "type": "speech",
+      "text": "阿爸今晡（晚上）會來嘛？呣知伊幾時到咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 642,
+    "mean_pause_ms": 642.0,
+    "speech_char_count": 115
+  },
+  "speech_rate_target": 1.0
+}

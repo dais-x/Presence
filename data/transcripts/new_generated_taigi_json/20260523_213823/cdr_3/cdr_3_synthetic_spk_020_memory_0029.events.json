@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "少年時陣... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1934
+  },
+  {
+    "type": "speech",
+    "text": "欲去讀冊... 农忙啊..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1264
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1273
+  },
+  {
+    "type": "speech",
+    "text": "嗯記得伊咧... 食飯時候... 孫仔咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2488
+  },
+  {
+    "type": "speech",
+    "text": "天氣冷啦... 菜市仔... 攚無去..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2048
+  },
+  {
+    "type": "cough",
+    "duration_ms": 433
+  },
+  {
+    "type": "speech",
+    "text": "囝仔嘞..."
+  }
+]

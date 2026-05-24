@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我轉去菜市仔買物資，彼個啥物攏袂記得啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1026
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊叫啥名囝，欲問阮阿母齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1344
+  },
+  {
+    "type": "speech",
+    "text": "阿爸講佇厝咧煮飯咧，孫仔咧玩，桌頂有個鍋子跟幾個碗，按呢就記到按呢。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1234
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1080
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔人袂少，今早天氣誠好啊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 598
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個啥物攏袂記得啦，想袂起來ㄟ。"
+  }
+]

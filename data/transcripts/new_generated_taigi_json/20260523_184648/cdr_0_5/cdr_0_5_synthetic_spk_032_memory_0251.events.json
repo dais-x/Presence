@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_032_memory_0251",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，那個小時啊我們讀冊時光很開心。我阿母會說，去菜市仔買菜，然後佇家裡攏等著食飯。學校課本誠多，但講話跟課本咧袂同。那個時候農忙也很辛苦，不過有厝內一起做工，心情就好啦。 [停頓] 想袂起來伊叫啥物名，不過伊講話真有意思。嗯... 會講一些俚語，我們聽咧哈哈笑。齁，我們讀冊時光很美好，現在回想起來都還記憶猶新。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，那個小時啊我們讀冊時光很開心。我阿母會說，去菜市仔買菜，然後佇家裡攏等著食飯。學校課本誠多，但講話跟課本咧袂同。那個時候農忙也很辛苦，不過有厝內一起做工，心情就好啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 645
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥物名，不過伊講話真有意思。嗯... 會講一些俚語，我們聽咧哈哈笑。齁，我們讀冊時光很美好，現在回想起來都還記憶猶新。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 645,
+    "mean_pause_ms": 645.0,
+    "speech_char_count": 156
+  },
+  "speech_rate_target": 0.92
+}

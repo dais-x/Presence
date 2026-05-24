@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_027_memory_0106",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣不錯啊，我記得以前讀冊陣，菜市仔袂那時還未開大店啦。我們咧就去田裡幫阿爸做農活，那個辛苦嘞，按呢想起來都無奈啦。彼個...彼個叫啥，就是那個種稻的過程啊，想袂起來了 [停頓] 。以前大家在一起講話，就是無手機、電視，就是閒著咧講話，時間就過囉。那個鄰居啊，阿母閣是去拜拜， [停頓] 就是這樣的生活啦。唉，現在回想起來真好啊，當時大家都誠誠的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯啊，我記得以前讀冊陣，菜市仔袂那時還未開大店啦。我們咧就去田裡幫阿爸做農活，那個辛苦嘞，按呢想起來都無奈啦。彼個...彼個叫啥，就是那個種稻的過程啊，想袂起來了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1087
+    },
+    {
+      "type": "speech",
+      "text": "。以前大家在一起講話，就是無手機、電視，就是閒著咧講話，時間就過囉。那個鄰居啊，阿母閣是去拜拜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1417
+    },
+    {
+      "type": "speech",
+      "text": "就是這樣的生活啦。唉，現在回想起來真好啊，當時大家都誠誠的。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2504,
+    "mean_pause_ms": 1252.0,
+    "speech_char_count": 165
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_026_clinic_0185",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我想袂起來啦... 早餐吃啥物咧？我食的是米粥啦，再加個蛋齁，菜市仔買來的啦。 [長停頓] 佇家裡有啥代誌咧？孫仔來訪佇，阿母還說著伊咧，彼個名字叫啥... 停下來想一想啦，就是那個阿母講的那個名字啊... [嘆氣] 那個孫仔啦，來看我們啦。 [停頓] 有啥其它事嘛？按呢就恁樣了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1016
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦... 早餐吃啥物咧？我食的是米粥啦，再加個蛋齁，菜市仔買來的啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1905
+    },
+    {
+      "type": "speech",
+      "text": "佇家裡有啥代誌咧？孫仔來訪佇，阿母還說著伊咧，彼個名字叫啥... 停下來想一想啦，就是那個阿母講的那個名字啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1317
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔啦，來看我們啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1330
+    },
+    {
+      "type": "speech",
+      "text": "有啥其它事嘛？按呢就恁樣了啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 4251,
+    "mean_pause_ms": 1417.0,
+    "speech_char_count": 130
+  },
+  "speech_rate_target": 0.85
+}

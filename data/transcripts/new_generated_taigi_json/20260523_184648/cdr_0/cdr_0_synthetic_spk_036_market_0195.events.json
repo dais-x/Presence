@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_036_market_0195",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早上去菜市仔買菜咧，阿母叫我去買蘿蔔跟豆芽啦，我走去攤販那邊，問伊有無蘿蔔欲賣，佇個攤販說有啊，我就買來咧。然後我又去買些雞蛋跟豬肉，準備午仔日好煮菜吃啦。轉去厝內後，阿母讚我講我買的東西好多欸，那個時候 [停頓] 我想說也還好啦，就是平常買的量而已啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早上去菜市仔買菜咧，阿母叫我去買蘿蔔跟豆芽啦，我走去攤販那邊，問伊有無蘿蔔欲賣，佇個攤販說有啊，我就買來咧。然後我又去買些雞蛋跟豬肉，準備午仔日好煮菜吃啦。轉去厝內後，阿母讚我講我買的東西好多欸，那個時候"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 577
+    },
+    {
+      "type": "speech",
+      "text": "我想說也還好啦，就是平常買的量而已啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 577,
+    "mean_pause_ms": 577.0,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 1.0
+}

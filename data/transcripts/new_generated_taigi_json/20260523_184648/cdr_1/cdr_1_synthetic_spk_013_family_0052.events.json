@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_013_family_0052",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯啊，伊攏袂在講學堂課啦。 [停頓] 孫仔咧跟著跑來，一坐下就開始咿咿呀呀講不停。 母親聽說伊要來，已經準備好多好菜等著囝仔吃。彼個...彼個叫啥？啊就是孫仔啦！ 那陣子母體還在，伊會講：「今暝有客人，咱要做好好飯給佇食。」現在母體足嘞，只有咱自己人啦。 [停頓] 菜市仔去買菜，那個名字想袂起來了，就是彼個賣雞蛋的攤子啊！ [咳嗽] 唉，時間過去好快啊，囝仔都大咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯啊，伊攏袂在講學堂課啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 903
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧跟著跑來，一坐下就開始咿咿呀呀講不停。 母親聽說伊要來，已經準備好多好菜等著囝仔吃。彼個...彼個叫啥？啊就是孫仔啦！ 那陣子母體還在，伊會講：「今暝有客人，咱要做好好飯給佇食。」現在母體足嘞，只有咱自己人啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 822
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去買菜，那個名字想袂起來了，就是彼個賣雞蛋的攤子啊！"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 604
+    },
+    {
+      "type": "speech",
+      "text": "唉，時間過去好快啊，囝仔都大咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1725,
+    "mean_pause_ms": 862.5,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.85
+}

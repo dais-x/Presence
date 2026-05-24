@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我記得以前讀冊時候咧，學校旁邊菜市仔"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1803
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 632
+  },
+  {
+    "type": "speech",
+    "text": "，那個伊欲袂去賣菜啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1290
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去買菜，但佇那陣子我就毋知足啥物"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1542
+  },
+  {
+    "type": "cough",
+    "duration_ms": 986
+  },
+  {
+    "type": "speech",
+    "text": "早年間農忙時節咧，阿爸整天攏在田裡工作，真是辛苦啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 938
+  },
+  {
+    "type": "speech",
+    "text": "啊，我孫仔今朝讀小學啦，時間好快啊"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1317
+  },
+  {
+    "type": "speech",
+    "text": "。 那時候伊誠愛食飯咧，但現在按呢袂恁愛吃了，真不知為啥物。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 512
+  },
+  {
+    "type": "speech",
+    "text": "啊，早起咧我就想著早餐要吃啥物好？"
+  }
+]

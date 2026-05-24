@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 896
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 噗哈哈。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1234
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1076
+  },
+  {
+    "type": "speech",
+    "text": "食個米粥啦，加個蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢咋樣啊？"
+  },
+  {
+    "type": "speech",
+    "text": "伊還好啦，就是最近阿母好像有點憂鬱。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1229
+  },
+  {
+    "type": "speech",
+    "text": "有無去菜市仔買菜啊？"
+  },
+  {
+    "type": "speech",
+    "text": "有啦，買個青菜、豆腐咧。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "對了，冬瓜也買一粒。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 761
+  },
+  {
+    "type": "speech",
+    "text": "畫面足好多事，但就是想袂起來啦。"
+  }
+]

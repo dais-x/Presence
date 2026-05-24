@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "彼個少年時陣啊，我常佇菜市仔邊讀冊啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1002
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個叫啥囝仔嘛，阿母叫伊去買雞蛋咧，彼個囝仔欲去游泳，所以就袂有去買啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 781
+  },
+  {
+    "type": "speech",
+    "text": "然後我呢，常常幫忙田裡工作，種稻、收穫啦，那時很辛苦的啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1549
+  },
+  {
+    "type": "speech",
+    "text": "彼個農忙時期咧，大家攏袂有放假，天天都轉去田裡做活啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1129
+  },
+  {
+    "type": "speech",
+    "text": "那個時候啊，晚上食飯後，我們就聚佇厝內講話，真係是好日子齁。"
+  }
+]

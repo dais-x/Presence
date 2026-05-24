@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾月几號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 252
+  },
+  {
+    "type": "speech",
+    "text": "今早我食的是豆漿跟油條啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣在家裡啦，伊誠足囝仔在讀書啦。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今早有來講話，說學校咧有些啥物活動啦。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母去菜市仔買菜去了啦。"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_004_clinic_0063",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？那個... 我想袂起來啦。醫生，今早我食啥物啊？ [停頓] 唉，那個早餐吃豆漿跟油條啦。最近家裡有啥代誌嗎？按呢就是... 阿母身體還好齁。哎呀，孫仔長大咧，阿爸說要開始準備轉去啦。嗯，那個厝裡有無啥需要幫忙的？我那個想袂起來啦，不過應該都攏好著咧。 [停頓] 嗯... 啊！就是好像伊最近欲學煮飯啦，我也在教佇。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？那個... 我想袂起來啦。醫生，今早我食啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 910
+    },
+    {
+      "type": "speech",
+      "text": "唉，那個早餐吃豆漿跟油條啦。最近家裡有啥代誌嗎？按呢就是... 阿母身體還好齁。哎呀，孫仔長大咧，阿爸說要開始準備轉去啦。嗯，那個厝裡有無啥需要幫忙的？我那個想袂起來啦，不過應該都攏好著咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 啊！就是好像伊最近欲學煮飯啦，我也在教佇。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2110,
+    "mean_pause_ms": 1055.0,
+    "speech_char_count": 152
+  },
+  "speech_rate_target": 0.92
+}

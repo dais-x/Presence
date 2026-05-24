@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_002_picture_0241",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日看這張圖，按呢咧個菜市仔啊，人濟濟的啦。那個攤販賣著菜，有青菜、水果，還有魚啦。那個 [停頓] ，你看那陣母子袂？那個阿母拎著籃子，伊在買菜，伊囝仔就坐在板凳上等著。 [嘆氣] ，今仔日天氣濟熱，按呢個孫仔看起來袂好爽，一直在搥頭啊。攤販咧賣著菜，那個顧客一陣陣的來啦。你看到那陣老公婆袂？伊兩個手拉手在逛菜市仔，看起來好開心啊。菜市仔濟熱鬧，濟有人嚐嘗囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看這張圖，按呢咧個菜市仔啊，人濟濟的啦。那個攤販賣著菜，有青菜、水果，還有魚啦。那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 320
+    },
+    {
+      "type": "speech",
+      "text": "，你看那陣母子袂？那個阿母拎著籃子，伊在買菜，伊囝仔就坐在板凳上等著。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1288
+    },
+    {
+      "type": "speech",
+      "text": "，今仔日天氣濟熱，按呢個孫仔看起來袂好爽，一直在搥頭啊。攤販咧賣著菜，那個顧客一陣陣的來啦。你看到那陣老公婆袂？伊兩個手拉手在逛菜市仔，看起來好開心啊。菜市仔濟熱鬧，濟有人嚐嘗囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 320,
+    "mean_pause_ms": 320.0,
+    "speech_char_count": 170
+  },
+  "speech_rate_target": 1.0
+}

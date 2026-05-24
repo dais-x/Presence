@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_005_morning_0044",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂晚啊，先去洗面咧，然後煮伊食飯。那個飯欲啥菜著？想袂起來啦，就是亂挑兩樣就好。 [停頓] 食完後就轉去整理一下物件，彼個東西，彼個擺哪？想袂起來齁，好像閣在那個櫃仔裡頭咧。然後要準備出門，攏要去菜市仔買些東西，買啥物著？啊，買個雞蛋、蔬菜，還有那個米，對啦。 [長停頓] 嗯，差不多就這樣了，出去逛一陣子，回來再整理一下厝裡頭的東西。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂晚啊，先去洗面咧，然後煮伊食飯。那個飯欲啥菜著？想袂起來啦，就是亂挑兩樣就好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1013
+    },
+    {
+      "type": "speech",
+      "text": "食完後就轉去整理一下物件，彼個東西，彼個擺哪？想袂起來齁，好像閣在那個櫃仔裡頭咧。然後要準備出門，攏要去菜市仔買些東西，買啥物著？啊，買個雞蛋、蔬菜，還有那個米，對啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1583
+    },
+    {
+      "type": "speech",
+      "text": "嗯，差不多就這樣了，出去逛一陣子，回來再整理一下厝裡頭的東西。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2596,
+    "mean_pause_ms": 1298.0,
+    "speech_char_count": 160
+  },
+  "speech_rate_target": 0.85
+}

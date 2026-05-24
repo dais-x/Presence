@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_015_clinic_0194",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我那個... 想袂起來啦。 [嘆氣] 早餐我食阮阿母煮的稀飯咧，欲吃一匙就足了。按呢厝裡頭有啥代誌無？嗯... 嗯，孫仔去菜市仔買菜咧。齁，那個話題嘛，就是今早伊講伊要去學校報到啦。 [停頓] 其實我欲問阮阿爸佇哪裡，那個他一早出去轉去了。 [咳嗽] 無啥啦，醫生。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 876
+    },
+    {
+      "type": "speech",
+      "text": "我那個... 想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1157
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食阮阿母煮的稀飯咧，欲吃一匙就足了。按呢厝裡頭有啥代誌無？嗯... 嗯，孫仔去菜市仔買菜咧。齁，那個話題嘛，就是今早伊講伊要去學校報到啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "其實我欲問阮阿爸佇哪裡，那個他一早出去轉去了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 462
+    },
+    {
+      "type": "speech",
+      "text": "無啥啦，醫生。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2076,
+    "mean_pause_ms": 1038.0,
+    "speech_char_count": 122
+  },
+  "speech_rate_target": 0.92
+}

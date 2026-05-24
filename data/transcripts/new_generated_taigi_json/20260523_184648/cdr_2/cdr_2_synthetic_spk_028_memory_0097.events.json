@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_028_memory_0097",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好熱齁，我以前讀冊時節，阿母叫我去菜市仔買餳仔。 [停頓] 餳仔啊，甜滋滋嘸？那個時候伊袂有冷氣，坐在厝內大汗流。 [長停頓] 嗯～讀冊嘛，就轉去食飯囉。 [沉默] 啊～以前阿爸農忙時節，佷辛苦咧。 [嘆氣] 餳仔，那個餳仔啊…… [咳嗽] 菜市仔有好多攤販，伊袂會無了啦。 [停頓] 唉呀，我今早食啥物？ [長停頓] 阿爸以前農忙時節，佷辛苦咧。 [嘆氣] 無事做，就閒著啊～ [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱齁，我以前讀冊時節，阿母叫我去菜市仔買餳仔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1303
+    },
+    {
+      "type": "speech",
+      "text": "餳仔啊，甜滋滋嘸？那個時候伊袂有冷氣，坐在厝內大汗流。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2057
+    },
+    {
+      "type": "speech",
+      "text": "嗯～讀冊嘛，就轉去食飯囉。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3894
+    },
+    {
+      "type": "speech",
+      "text": "啊～以前阿爸農忙時節，佷辛苦咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 711
+    },
+    {
+      "type": "speech",
+      "text": "餳仔，那個餳仔啊……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 559
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔有好多攤販，伊袂會無了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1254
+    },
+    {
+      "type": "speech",
+      "text": "唉呀，我今早食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2173
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前農忙時節，佷辛苦咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1060
+    },
+    {
+      "type": "speech",
+      "text": "無事做，就閒著啊～"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3408
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 18,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 14089,
+    "mean_pause_ms": 2348.17,
+    "speech_char_count": 144
+  },
+  "speech_rate_target": 0.75
+}

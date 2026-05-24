@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_032_clinic_0061",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號？ [停頓] 那個啊，我毋知啦。早餐食啥物？ [長停頓] 我食阮阿母煮伊咧。 [沉默] 按呢阮孫仔啦。 [嘆氣] 語啊，以前阮袂有電視機，欲聽廣播。 [咳嗽] 嗯，今仔日天氣怎樣？ [停頓] 其實我毋知幾號，那個就是，按呢阮厝咧。 [長停頓] 我欲食早餐啦。 [沉默] 阮囝仔講伊去菜市仔， [停頓] 無有袂知伊買啥物？ 啰，今仔日幾號啊？ [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1281
+    },
+    {
+      "type": "speech",
+      "text": "那個啊，我毋知啦。早餐食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2622
+    },
+    {
+      "type": "speech",
+      "text": "我食阮阿母煮伊咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1882
+    },
+    {
+      "type": "speech",
+      "text": "按呢阮孫仔啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1270
+    },
+    {
+      "type": "speech",
+      "text": "語啊，以前阮袂有電視機，欲聽廣播。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今仔日天氣怎樣？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1328
+    },
+    {
+      "type": "speech",
+      "text": "其實我毋知幾號，那個就是，按呢阮厝咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1837
+    },
+    {
+      "type": "speech",
+      "text": "我欲食早餐啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3023
+    },
+    {
+      "type": "speech",
+      "text": "阮囝仔講伊去菜市仔，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1284
+    },
+    {
+      "type": "speech",
+      "text": "無有袂知伊買啥物？ 啰，今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1226
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 8,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 14483,
+    "mean_pause_ms": 1810.38,
+    "speech_char_count": 119
+  },
+  "speech_rate_target": 0.75
+}

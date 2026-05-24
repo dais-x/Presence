@@ -1,0 +1,56 @@
+{
+  "sample_id": "cdr_1_clinic_0006",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "spoken_transcript": "今仔日啊，我袂知啥個日子咧。 [停頓] 那個，早餐食啥物啊？ [長停頓] 阿母叫我去菜市仔買魚，彼個魚叫啥，想袂起來。 [嘆氣] 齁，今仔日要去厝，有攏要去，足去啦",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日啊，我袂知啥個日子咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1050
+    },
+    {
+      "type": "speech",
+      "text": "那個，早餐食啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2300
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去菜市仔買魚，彼個魚叫啥，想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "齁，今仔日要去厝，有攏要去，足去啦"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 1,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3350,
+    "mean_pause_ms": 1675.0,
+    "speech_char_count": 63
+  },
+  "speech_rate_target": 0.85
+}

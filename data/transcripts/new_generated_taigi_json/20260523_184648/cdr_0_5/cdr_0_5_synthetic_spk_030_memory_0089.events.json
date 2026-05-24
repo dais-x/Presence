@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_030_memory_0089",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好熱，阿母叫我去菜市仔買米跟豆乾。那個...以前袂像現在咁方便，要去很遠的菜市仔。 [停頓] 伊閣農車廂，要拿著籃子走去。 然後回家就幫阿爸準備田裡工作要用的東西，像那些化肥、水壺咧。 阿母會叫我搆飯給囝仔食，按呢時陣佇家裡都是忙著，嗯...誠是辛苦啦，但那個時候歡喜啊，因為跟厝內長輩一起，就有好多樂趣。 [咳嗽] 想袂起來伊叫啥物名咧，就是以前鄰居間常去串門子， [停頓] 噢齁，還有學校讀冊陣的事，像數學啦、國文啦，那個時候的師傅都嚴厲，但按呢時陣想起來，還滿懷念的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱，阿母叫我去菜市仔買米跟豆乾。那個...以前袂像現在咁方便，要去很遠的菜市仔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 952
+    },
+    {
+      "type": "speech",
+      "text": "伊閣農車廂，要拿著籃子走去。 然後回家就幫阿爸準備田裡工作要用的東西，像那些化肥、水壺咧。 阿母會叫我搆飯給囝仔食，按呢時陣佇家裡都是忙著，嗯...誠是辛苦啦，但那個時候歡喜啊，因為跟厝內長輩一起，就有好多樂趣。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 684
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥物名咧，就是以前鄰居間常去串門子，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 685
+    },
+    {
+      "type": "speech",
+      "text": "噢齁，還有學校讀冊陣的事，像數學啦、國文啦，那個時候的師傅都嚴厲，但按呢時陣想起來，還滿懷念的。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1637,
+    "mean_pause_ms": 818.5,
+    "speech_char_count": 224
+  },
+  "speech_rate_target": 0.92
+}

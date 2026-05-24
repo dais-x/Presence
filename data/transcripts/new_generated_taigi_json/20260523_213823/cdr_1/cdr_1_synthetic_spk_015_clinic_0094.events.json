@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1432
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 911
+  },
+  {
+    "type": "speech",
+    "text": "按呢個星期天，我一早就去菜市仔買菜囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 946
+  },
+  {
+    "type": "speech",
+    "text": "買了魯肉飯的材料、還有鹹粥的料。"
+  },
+  {
+    "type": "speech",
+    "text": "那個伊（家裡）有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "我那個孫仔今早來玩啦，他咧學校放假齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 740
+  },
+  {
+    "type": "speech",
+    "text": "有時講話會想袂起來，彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那啥物啦，閣記不起來了。"
+  }
+]

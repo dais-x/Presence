@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 779
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來咧，應該是五月十六齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 643
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，食碗稀飯啦，還有鹹菜跟豆腐乳。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "就是還好啦，無啥代誌。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝有無轉去？"
+  },
+  {
+    "type": "speech",
+    "text": "轉去啊，咧厝讀書。"
+  },
+  {
+    "type": "speech",
+    "text": "那個，好像漏講啥東西了齁，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1066
+  },
+  {
+    "type": "speech",
+    "text": "嗯，無啥啦，無啥啦。"
+  }
+]

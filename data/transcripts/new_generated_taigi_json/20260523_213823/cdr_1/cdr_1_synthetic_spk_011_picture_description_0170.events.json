@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好啊，我欲去菜市仔買東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 993
+  },
+  {
+    "type": "speech",
+    "text": "看到一張圖，人咧煮飯啦，那個鍋子在灶跤上，還有囝仔在那邊玩。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1460
+  },
+  {
+    "type": "speech",
+    "text": "按呢個鍋子，好像有啥物菜在裡頭，但想袂起來是啥菜了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 799
+  },
+  {
+    "type": "speech",
+    "text": "桌頂上攏有東西，不過我欲講的是煮飯這部分啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1331
+  },
+  {
+    "type": "speech",
+    "text": "今早阿母也做飯咧，不過是炒米粉，不是鍋子煮的那種。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1065
+  },
+  {
+    "type": "speech",
+    "text": "炒米粉那個是簡單啊，但是煮飯要比較久。"
+  }
+]

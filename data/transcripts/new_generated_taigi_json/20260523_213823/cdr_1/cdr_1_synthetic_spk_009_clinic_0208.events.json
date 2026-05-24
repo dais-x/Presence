@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1356
+  },
+  {
+    "type": "speech",
+    "text": "我啊，想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1104
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1009
+  },
+  {
+    "type": "speech",
+    "text": "那個...那個...彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1036
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "唉，最近厝裡有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母啊，她還好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，孫仔放假，整天都在這邊玩。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 570
+  },
+  {
+    "type": "speech",
+    "text": "我啊，那個...想說準備準備菜給佇伊吃。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，今天咧就食鹹粥。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，還有其他代誌嘛，也無啥特別的。"
+  },
+  {
+    "type": "speech",
+    "text": "反正就是這樣啦。"
+  }
+]

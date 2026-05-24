@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 559
+  },
+  {
+    "type": "speech",
+    "text": "我那個... 想袂起來，最近阿母有無去菜市仔買菜？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 609
+  },
+  {
+    "type": "speech",
+    "text": "嗯，齁，應該有啦，她每天都會去咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧問我以前阿爸那個工作是啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "我想一想啊，就是那個建築工人啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 718
+  },
+  {
+    "type": "speech",
+    "text": "那個時候大家都很辛苦，不過還是樂在其中。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，齁，轉去講囝仔，他最近有無學新東西？"
+  }
+]

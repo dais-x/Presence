@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_026_memory_0145",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬人，我想到少年時陣讀冊的時光。 [停頓] 當時候學堂還佇鄉下，每天早早就轉去學校。課後咧就同夥伴到菜市仔買東西，當時阿母講說菜市仔袂會太遠，但我們總是欲走去買些小玩意。那個年代啊，農忙時節特別辛苦，全家人都要上山下田，從天亮做到黑暝。 [嘆氣] 現在回想起來，那時候的厝內長輩個個都誠有力，伊們講話態度也比較嚴肅，但是心地好善。 [咳嗽] 阿爸咧會教我們好多事情，像是種稻、插秧，還有煮飯。當時生活雖簡樸，但大家相處和睦，日子過得很踏實。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬人，我想到少年時陣讀冊的時光。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 402
+    },
+    {
+      "type": "speech",
+      "text": "當時候學堂還佇鄉下，每天早早就轉去學校。課後咧就同夥伴到菜市仔買東西，當時阿母講說菜市仔袂會太遠，但我們總是欲走去買些小玩意。那個年代啊，農忙時節特別辛苦，全家人都要上山下田，從天亮做到黑暝。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 734
+    },
+    {
+      "type": "speech",
+      "text": "現在回想起來，那時候的厝內長輩個個都誠有力，伊們講話態度也比較嚴肅，但是心地好善。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1087
+    },
+    {
+      "type": "speech",
+      "text": "阿爸咧會教我們好多事情，像是種稻、插秧，還有煮飯。當時生活雖簡樸，但大家相處和睦，日子過得很踏實。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 402,
+    "mean_pause_ms": 402.0,
+    "speech_char_count": 208
+  },
+  "speech_rate_target": 1.0
+}

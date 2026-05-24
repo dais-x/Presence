@@ -1,0 +1,134 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_025_clinic_0054",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號 [停頓] ？我毋知啦，醫生佇咧齁。早飯食啥物啊 [長停頓] ，欲食麵線凍未？ [嘆氣] 我阿母以前會煮好多菜，真懷念那個味道 [停頓] 。今仔日我有無去菜市仔啊 [長停頓] ？阿爸他咧啦？伊閣足人囝仔時候了齁 [沉默] 。唉，身體袂好，頭會痛欲 [咳嗽] ，以前毋會這樣啦。 [長停頓] 那個啥物？ [停頓] 阿母她煮的湯，真好吃。 [長停頓] 伊咧啦？ [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1495
+    },
+    {
+      "type": "speech",
+      "text": "？我毋知啦，醫生佇咧齁。早飯食啥物啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4090
+    },
+    {
+      "type": "speech",
+      "text": "，欲食麵線凍未？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 875
+    },
+    {
+      "type": "speech",
+      "text": "我阿母以前會煮好多菜，真懷念那個味道"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1412
+    },
+    {
+      "type": "speech",
+      "text": "。今仔日我有無去菜市仔啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3036
+    },
+    {
+      "type": "speech",
+      "text": "？阿爸他咧啦？伊閣足人囝仔時候了齁"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3351
+    },
+    {
+      "type": "speech",
+      "text": "。唉，身體袂好，頭會痛欲"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 477
+    },
+    {
+      "type": "speech",
+      "text": "，以前毋會這樣啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4095
+    },
+    {
+      "type": "speech",
+      "text": "那個啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1247
+    },
+    {
+      "type": "speech",
+      "text": "阿母她煮的湯，真好吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3150
+    },
+    {
+      "type": "speech",
+      "text": "伊咧啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1463
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 22,
+    "speech_event_count": 11,
+    "pause_event_count": 9,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 23339,
+    "mean_pause_ms": 2593.22,
+    "speech_char_count": 119
+  },
+  "speech_rate_target": 0.75
+}

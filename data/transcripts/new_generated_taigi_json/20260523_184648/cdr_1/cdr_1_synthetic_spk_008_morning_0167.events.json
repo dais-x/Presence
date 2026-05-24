@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_008_morning_0167",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起來囉，先去洗面啦，然後就準備食飯囉，那個菜啊，就是放著咧，還沒想袂起來要做啥物， [停頓] 想袂起來的嘛，然後就去整理一下物件啦，包包咧，要出去的東西咧，那個，彼個地方叫啥？就是那個手提袋咧，攏裝好的，準備要去菜市仔買菜囉，阿母叫我去買菜，但是今早袂想到要去買啥物， [長停頓] 那個，就是要去啊，可是又想說先整理一下家裡的東西啦，那個包包咧， [咳嗽] 嗯，準備好就轉去啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來囉，先去洗面啦，然後就準備食飯囉，那個菜啊，就是放著咧，還沒想袂起來要做啥物，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 996
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來的嘛，然後就去整理一下物件啦，包包咧，要出去的東西咧，那個，彼個地方叫啥？就是那個手提袋咧，攏裝好的，準備要去菜市仔買菜囉，阿母叫我去買菜，但是今早袂想到要去買啥物，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1682
+    },
+    {
+      "type": "speech",
+      "text": "那個，就是要去啊，可是又想說先整理一下家裡的東西啦，那個包包咧，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 857
+    },
+    {
+      "type": "speech",
+      "text": "嗯，準備好就轉去啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 6
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2678,
+    "mean_pause_ms": 1339.0,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.85
+}

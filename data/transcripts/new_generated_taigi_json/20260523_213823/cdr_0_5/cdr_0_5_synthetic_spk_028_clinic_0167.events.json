@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 633
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，那個就是啦，醫師你說幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 759
+  },
+  {
+    "type": "speech",
+    "text": "我早飯食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢咧... 早餐嘛，就是水煮蛋同牛奶啦。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，按呢家裡都攏好，阿母無恙，孫仔返學去，那個就是咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 969
+  },
+  {
+    "type": "speech",
+    "text": "佇學校伊讀書啊，誠是乖。"
+  }
+]

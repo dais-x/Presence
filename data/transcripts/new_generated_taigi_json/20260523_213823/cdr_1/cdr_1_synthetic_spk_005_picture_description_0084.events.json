@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好，菜市仔人攏多。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 700
+  },
+  {
+    "type": "speech",
+    "text": "我阿母欲去買菜，但我無去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1340
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個煮飯咧，想袂起來是誰煮的。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 733
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有好多東西，菜啦、碗啦，那個鍋子咧熱騰騰。"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔在厝內玩，孫仔咧笑哈哈。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個阿爸去哪閣？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該去朋友家喝茶。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢我毋知彼個啥物叫啥名，就是想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 761
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔有好多攤位，攤販咧賣菜，顧客咧買，那個聲音很大。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1032
+  },
+  {
+    "type": "speech",
+    "text": "我阿母說要去市場，但我無跟去，應該是伊自己去啦。"
+  }
+]

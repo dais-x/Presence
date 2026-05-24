@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好熱，我年輕時袂是這樣。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2256
+  },
+  {
+    "type": "speech",
+    "text": "那個時候，菜市仔攏袂開，我們自己種菜吃。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1879
+  },
+  {
+    "type": "speech",
+    "text": "我阿母常常喊我去田裡幫忙，我就去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1976
+  },
+  {
+    "type": "speech",
+    "text": "現在伊已經過世啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1671
+  },
+  {
+    "type": "speech",
+    "text": "那個時候讀冊，老師會講好多話。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 974
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "我好想食飯囉。"
+  },
+  {
+    "type": "speech",
+    "text": "以前啊，我們都會自己煮，阿爸就會教佇灶跤邊，現在呢，攏買外面的。"
+  },
+  {
+    "type": "speech",
+    "text": "身體還袂濟，頭頸有點痛。"
+  },
+  {
+    "type": "speech",
+    "text": "唉呀，那個時候身體好足勁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 932
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2343
+  },
+  {
+    "type": "speech",
+    "text": "噐毋知啦，那個按呢咧閣轉去吃早餐囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1901
+  },
+  {
+    "type": "speech",
+    "text": "早飯伊食啥物咧？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 612
+  },
+  {
+    "type": "speech",
+    "text": "無啥代誌，齁，阿母伊咧做菜市仔欲袂足阮攏無曉嘛啉著。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1306
+  },
+  {
+    "type": "speech",
+    "text": "阿爸伊咧足啦，啥時咧就去按呢咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1549
+  },
+  {
+    "type": "speech",
+    "text": "少年時代咧，那個按呢咧閣轉去食米糕咧齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1882
+  },
+  {
+    "type": "speech",
+    "text": "噁，阿母伊無曉煮咧，今仔日阮早飯咧就食魯肉飯咧。"
+  }
+]

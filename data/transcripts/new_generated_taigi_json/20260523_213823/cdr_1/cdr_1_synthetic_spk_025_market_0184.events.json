@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜，彼個青菜彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 719
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1188
+  },
+  {
+    "type": "speech",
+    "text": "那個攤販咧賣雞蛋，我跟伊講話，伊咧跟我講價錢。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1207
+  },
+  {
+    "type": "speech",
+    "text": "然後我就買幾粒雞蛋，還有那個青菜，轉去厝內。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母問我啥物佇？"
+  },
+  {
+    "type": "speech",
+    "text": "我就跟她講今仔日去買啦。"
+  },
+  {
+    "type": "speech",
+    "text": "她就說嗯好啊，你食飯未？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 769
+  },
+  {
+    "type": "speech",
+    "text": "我還沒食，想袂起來今仔日買了啥物。"
+  },
+  {
+    "type": "speech",
+    "text": "那個青菜彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  }
+]

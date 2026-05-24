@@ -1,0 +1,82 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2572
+  },
+  {
+    "type": "speech",
+    "text": "我毋知啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 622
+  },
+  {
+    "type": "speech",
+    "text": "阿母說伊袂曉得。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 805
+  },
+  {
+    "type": "speech",
+    "text": "早仔咧，我食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 906
+  },
+  {
+    "type": "speech",
+    "text": "那個菜市仔有去無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2427
+  },
+  {
+    "type": "speech",
+    "text": "按呢陣時光，伊都在家裡攏毋出去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1346
+  },
+  {
+    "type": "speech",
+    "text": "嗯，以前啊，我跟阿爸一起去買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "誠是稀飯啦齁。"
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔來無？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 660
+  },
+  {
+    "type": "speech",
+    "text": "我想伊應該袂會來。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 身體好嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是說啊..."
+  }
+]

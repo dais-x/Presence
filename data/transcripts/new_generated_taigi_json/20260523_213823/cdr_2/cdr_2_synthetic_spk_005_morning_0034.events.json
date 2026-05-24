@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起啦，去洗面， 嚇到水好冷齁，那個就欲等一下咧，食飯後才洗咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1202
+  },
+  {
+    "type": "speech",
+    "text": "食啥物呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2582
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前做粿，今仔日無做咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1393
+  },
+  {
+    "type": "speech",
+    "text": "伊講話袂清咧，按呢人也老啦，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 789
+  },
+  {
+    "type": "speech",
+    "text": "身體無力。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2294
+  },
+  {
+    "type": "speech",
+    "text": "孫仔好囝仔，誠去菜市仔買菜，伊毋知按怎樣攏會轉去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1396
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前有好多雞，今仔日袂見到雞咧。"
+  },
+  {
+    "type": "speech",
+    "text": "攚來洗面啦，按呢個手無力， 想著以前的事。"
+  }
+]

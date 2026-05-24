@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_clinic_0088",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我欲毋知那個是啥物天，頭腦有點糊。（ [停頓] ）喔！今日是星期三啦。 早粥食啥個？伊咧厝內食的，有花生湯、紅豆粥咧。 [停頓] 那個...有沒有食鹹蛋啊？想袂起來ㄟ。 [嘆氣] 按呢家裡有無發生啥代誌？嗯... 伊最近有攏足誠，孫仔來探望阿母咧。齁，那個就是啦，按呢大家都還好，毋是啥物大事啦。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我欲毋知那個是啥物天，頭腦有點糊。（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 679
+    },
+    {
+      "type": "speech",
+      "text": "）喔！今日是星期三啦。 早粥食啥個？伊咧厝內食的，有花生湯、紅豆粥咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個...有沒有食鹹蛋啊？想袂起來ㄟ。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1131
+    },
+    {
+      "type": "speech",
+      "text": "按呢家裡有無發生啥代誌？嗯... 伊最近有攏足誠，孫仔來探望阿母咧。齁，那個就是啦，按呢大家都還好，毋是啥物大事啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1067
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 1879,
+    "mean_pause_ms": 939.5,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.92
+}

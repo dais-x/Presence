@@ -1,0 +1,56 @@
+{
+  "sample_id": "cdr_1_family_0009",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "spoken_transcript": "今仔日囝仔和孫仔轉來厝內食飯。大家坐佇灶跤邊講話。彼個...彼個叫啥，想袂起來啦 [長停頓] 阿母說伊去菜市仔買菜咧。齁，我記憶不好啊 [長停頓] 囝仔跟孫仔咧真會聊天。嗯，就是，跟以前比起來，大家的話題多很多。彼個...彼個話題講袂完，就想到別的囝仔去遊山玩水嘞 [停頓] 啦，今仔日天氣好爽",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔和孫仔轉來厝內食飯。大家坐佇灶跤邊講話。彼個...彼個叫啥，想袂起來啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "text": "阿母說伊去菜市仔買菜咧。齁，我記憶不好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2300
+    },
+    {
+      "type": "speech",
+      "text": "囝仔跟孫仔咧真會聊天。嗯，就是，跟以前比起來，大家的話題多很多。彼個...彼個話題講袂完，就想到別的囝仔去遊山玩水嘞"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "text": "啦，今仔日天氣好爽"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 3,
+    "semantic_drift_count": 1,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 4700,
+    "mean_pause_ms": 1566.67,
+    "speech_char_count": 127
+  },
+  "speech_rate_target": 0.85
+}

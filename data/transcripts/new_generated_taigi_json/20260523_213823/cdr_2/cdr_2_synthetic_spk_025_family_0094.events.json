@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來食飯齁， 那個孫仔咧按呢啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1869
+  },
+  {
+    "type": "speech",
+    "text": "（咳）阿母佇廚房煮菜啊，我欲去菜市仔買菜啦， 以前啊那個早餐吃啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1393
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 788
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣在啊齁， 當時我們好多囝仔咧，現在袂知伊們咧哪裹啊..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1361
+  },
+  {
+    "type": "cough",
+    "duration_ms": 950
+  },
+  {
+    "type": "speech",
+    "text": "以前厝內有好多菜啊， 今仔日天氣無好啊，我欲去散步啦。"
+  }
+]

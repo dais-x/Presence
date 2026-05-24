@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_032_picture_0031",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日看張相片咧，伊內中有個菜市仔，攏是人在買賣東西啊。有個阿母在秤蔬菜，佇她隔壁那個是賣魚的，伊袂敢停手啦。 [停頓] 唉，伊家裡頭應該有好多孫仔吧，因為今早看到他們拎著籃子來買菜咧。那個阿爸就站在那邊看，好像在等啥物一樣。唉呀，食飯時間到了，我轉去煮飯啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看張相片咧，伊內中有個菜市仔，攏是人在買賣東西啊。有個阿母在秤蔬菜，佇她隔壁那個是賣魚的，伊袂敢停手啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 325
+    },
+    {
+      "type": "speech",
+      "text": "唉，伊家裡頭應該有好多孫仔吧，因為今早看到他們拎著籃子來買菜咧。那個阿爸就站在那邊看，好像在等啥物一樣。唉呀，食飯時間到了，我轉去煮飯啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 325,
+    "mean_pause_ms": 325.0,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 1.0
+}

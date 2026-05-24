@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔跟孫仔轉來厝內食飯，大家坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 881
+  },
+  {
+    "type": "speech",
+    "text": "阿母說彼個...彼個叫啥，想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1476
+  },
+  {
+    "type": "speech",
+    "text": "阿爸就講，「就是伊，齁，彼個做老師咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1089
+  },
+  {
+    "type": "speech",
+    "text": "」孫仔聽伊們講話咧笑，「那個是阿公ㄟ老朋友啊。"
+  },
+  {
+    "type": "speech",
+    "text": "」 今晡晚菜市仔買啥物好？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...想袂起來啦，你去決定就好，我毋知。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 885
+  },
+  {
+    "type": "speech",
+    "text": "阿母欲再講啥，但就欲講出來，閣按呢做咩咧？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 987
+  },
+  {
+    "type": "speech",
+    "text": "我們轉去食飯吧。"
+  }
+]

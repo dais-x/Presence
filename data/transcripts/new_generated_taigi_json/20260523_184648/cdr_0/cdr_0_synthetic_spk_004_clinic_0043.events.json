@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_004_clinic_0043",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是幾月幾號啊？按呢時間我食的早餐咧，有吃花生湯跟麵包。 [停頓] 我厝最近無啥特別事，就是伊人都健康啦。孫仔去學校了，阿母在煮飯，閣毋通做啥工作。家中環境還不錯，大家都順順和和的，無吵架。 [停頓] 唉，時間過得好快啊，好像才剛過年咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾月幾號啊？按呢時間我食的早餐咧，有吃花生湯跟麵包。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 475
+    },
+    {
+      "type": "speech",
+      "text": "我厝最近無啥特別事，就是伊人都健康啦。孫仔去學校了，阿母在煮飯，閣毋通做啥工作。家中環境還不錯，大家都順順和和的，無吵架。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 334
+    },
+    {
+      "type": "speech",
+      "text": "唉，時間過得好快啊，好像才剛過年咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 809,
+    "mean_pause_ms": 404.5,
+    "speech_char_count": 109
+  },
+  "speech_rate_target": 1.0
+}

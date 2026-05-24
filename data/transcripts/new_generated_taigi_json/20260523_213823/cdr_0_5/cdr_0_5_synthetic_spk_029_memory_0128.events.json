@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日毋通好天氣，阿母叫我去菜市仔買菜，我就拎著籃子去囝仔路頭轉轉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 698
+  },
+  {
+    "type": "speech",
+    "text": "那個時候我讀冊咧，學校老師教伊好多東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 554
+  },
+  {
+    "type": "speech",
+    "text": "農忙陣，一早起來就要去田裡做工，累得欲倒攏毋通休息。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢想袂起來阿爸閣做啥物工...啊，對了啦！"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸是工人，出外做工。"
+  },
+  {
+    "type": "speech",
+    "text": "還有我那個孫仔咧，現在長大去讀大學嘞。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1206
+  },
+  {
+    "type": "speech",
+    "text": "真快啊，時間像流水誠。"
+  }
+]

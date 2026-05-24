@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_018_family_0137",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，阿爸也攏在，大家坐佇灶跤邊講話。彼個...彼個叫啥，想袂起來啦。 [停頓] 孫仔長高很多咧，真係驚伊會不會變大漢啊。 [嘆氣] 阿母煮菜好好食，今仔日有炒蕹菜，還有湯，大家都說好吃齁。 [咳嗽] 你知伊講啥？就是想跟伊講話啦。那個...彼個叫啥，孫仔的阿公咧，按呢應該毋知伊在哪裡啊。 [長停頓] 想袂起來，想袂起來。 [沉默] 唉，年輕時候的事，好多都記袂起來啦。 [嘆氣] 那個彼個叫啥，有時講話會繞來繞去的，大家都說伊老囝仔了啦。 [停頓] 但是伊還是很開心咧，看孫仔就好開心齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，阿爸也攏在，大家坐佇灶跤邊講話。彼個...彼個叫啥，想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1087
+    },
+    {
+      "type": "speech",
+      "text": "孫仔長高很多咧，真係驚伊會不會變大漢啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 932
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮菜好好食，今仔日有炒蕹菜，還有湯，大家都說好吃齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1078
+    },
+    {
+      "type": "speech",
+      "text": "你知伊講啥？就是想跟伊講話啦。那個...彼個叫啥，孫仔的阿公咧，按呢應該毋知伊在哪裡啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2179
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，想袂起來。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2038
+    },
+    {
+      "type": "speech",
+      "text": "唉，年輕時候的事，好多都記袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 985
+    },
+    {
+      "type": "speech",
+      "text": "那個彼個叫啥，有時講話會繞來繞去的，大家都說伊老囝仔了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 960
+    },
+    {
+      "type": "speech",
+      "text": "但是伊還是很開心咧，看孫仔就好開心齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 13,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 4,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 6264,
+    "mean_pause_ms": 1566.0,
+    "speech_char_count": 212
+  },
+  "speech_rate_target": 0.85
+}

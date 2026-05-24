@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_001_market_0120",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個彼個攤販咧賣魚啦，按呢彼個叫啥物？想袂起來齁， [停頓] 可是伊咧講話我聽懂啦，彼個魚好好食啦。我有買幾塊，轉去厝內要煮給阿母食啦。那個孫仔咧跟著我來啊， [長停頓] 那個今仔日天氣真好，就是想去菜市仔走一走啦。 [嘆氣] 可是買菜回來後，我就想袂起來魚擺在哪裡？ [咳嗽] 按呢要找一下咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個彼個攤販咧賣魚啦，按呢彼個叫啥物？想袂起來齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1191
+    },
+    {
+      "type": "speech",
+      "text": "可是伊咧講話我聽懂啦，彼個魚好好食啦。我有買幾塊，轉去厝內要煮給阿母食啦。那個孫仔咧跟著我來啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2326
+    },
+    {
+      "type": "speech",
+      "text": "那個今仔日天氣真好，就是想去菜市仔走一走啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 886
+    },
+    {
+      "type": "speech",
+      "text": "可是買菜回來後，我就想袂起來魚擺在哪裡？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1038
+    },
+    {
+      "type": "speech",
+      "text": "按呢要找一下咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3517,
+    "mean_pause_ms": 1758.5,
+    "speech_char_count": 133
+  },
+  "speech_rate_target": 0.85
+}

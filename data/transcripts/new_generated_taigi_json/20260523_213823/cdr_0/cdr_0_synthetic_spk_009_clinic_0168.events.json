@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾月幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 451
+  },
+  {
+    "type": "speech",
+    "text": "我記著袂啦，醫師閣好心問一下咧。"
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食的是鹹粥跟油條，還有個蛋，按呢幾點咧齁。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母今早叫伊幫佇厝裡掃地，但我去菜市仔買菜咧，還沒轉回去咧。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡啥物代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "就是這樣啦。"
+  }
+]

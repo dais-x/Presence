@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1320
+  },
+  {
+    "type": "speech",
+    "text": "我毋知啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2368
+  },
+  {
+    "type": "speech",
+    "text": "早餐咧食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2094
+  },
+  {
+    "type": "speech",
+    "text": "阿母袂在囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1901
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡，伊們都在做啥代誌？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 719
+  },
+  {
+    "type": "speech",
+    "text": "以前咧，我會去菜市仔買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "現在嘛，我就在家裡，無出去。"
+  },
+  {
+    "type": "speech",
+    "text": "我欲食麥片啦。"
+  },
+  {
+    "type": "speech",
+    "text": "你說幾號啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1096
+  },
+  {
+    "type": "speech",
+    "text": "噗... 按呢閣幾號啦？"
+  },
+  {
+    "type": "speech",
+    "text": "唉，無記起囉。"
+  }
+]

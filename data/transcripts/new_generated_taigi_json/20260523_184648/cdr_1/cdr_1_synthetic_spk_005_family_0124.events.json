@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_005_family_0124",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來食飯，孫仔也咧。我欲煮些啥物好啊？ [停頓] 孫仔愛吃魯肉飯，彼個...彼個叫啥啦？（指菜）對了，冬瓜湯。 [長停頓] 阿爸年輕時會煮好多好吃的，但我現在想袂起來那些菜名。 [嘆氣] 囝仔說要去菜市仔買菜，按呢是星期幾啊？齁，星期五啦。孫仔讀書誠辛苦，我講伊要多休息。 [咳嗽] 阿母以前會幫我煮好多好料的湯，但伊現在袂在了。那個... [停頓] 想起來囝仔小時候愛吃糖粿咧。 [長停頓] 嗯，我們坐佇灶跤邊講話啊，多好。（笑）",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來食飯，孫仔也咧。我欲煮些啥物好啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1042
+    },
+    {
+      "type": "speech",
+      "text": "孫仔愛吃魯肉飯，彼個...彼個叫啥啦？（指菜）對了，冬瓜湯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2263
+    },
+    {
+      "type": "speech",
+      "text": "阿爸年輕時會煮好多好吃的，但我現在想袂起來那些菜名。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1067
+    },
+    {
+      "type": "speech",
+      "text": "囝仔說要去菜市仔買菜，按呢是星期幾啊？齁，星期五啦。孫仔讀書誠辛苦，我講伊要多休息。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 552
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前會幫我煮好多好料的湯，但伊現在袂在了。那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1110
+    },
+    {
+      "type": "speech",
+      "text": "想起來囝仔小時候愛吃糖粿咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2255
+    },
+    {
+      "type": "speech",
+      "text": "嗯，我們坐佇灶跤邊講話啊，多好。（笑）"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6670,
+    "mean_pause_ms": 1667.5,
+    "speech_char_count": 183
+  },
+  "speech_rate_target": 0.85
+}

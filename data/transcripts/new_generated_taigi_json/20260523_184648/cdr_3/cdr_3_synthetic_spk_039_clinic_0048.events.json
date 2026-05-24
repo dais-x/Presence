@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_039_clinic_0048",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號... [停頓] 阿母咧？... [長停頓] 嗯... 食飯袂食飽... 囝仔彼個去哪攏？ [沉默] 冷啦冷啦... 袂記得... 阿爸咧？ [嘆氣] 那個啥物... [咳嗽] 譽仔，佇菜市仔？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1309
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3083
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 食飯袂食飽... 囝仔彼個去哪攏？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 6368
+    },
+    {
+      "type": "speech",
+      "text": "冷啦冷啦... 袂記得... 阿爸咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 799
+    },
+    {
+      "type": "speech",
+      "text": "那個啥物..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 912
+    },
+    {
+      "type": "speech",
+      "text": "譽仔，佇菜市仔？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 8,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 10760,
+    "mean_pause_ms": 3586.67,
+    "speech_char_count": 71
+  },
+  "speech_rate_target": 0.65
+}

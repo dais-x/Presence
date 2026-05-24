@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好，我早咧就去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 523
+  },
+  {
+    "type": "speech",
+    "text": "買到個市場攤位，看到一個阿婆正在煮飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 511
+  },
+  {
+    "type": "speech",
+    "text": "她那個灶跤上頭擺著好多碗盤，還有一鍋熱騰騰的湯。"
+  },
+  {
+    "type": "speech",
+    "text": "看著就好想食啊。"
+  },
+  {
+    "type": "speech",
+    "text": "後來我去轉去厝裡啦，囝仔咧玩玩具，孫仔按呢也在笑哈哈。"
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有個啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "對啦，是那個茶壺，還有幾個飯碗，攏擺著咧。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...其他嘛就毋知了，就是這樣啦。"
+  }
+]

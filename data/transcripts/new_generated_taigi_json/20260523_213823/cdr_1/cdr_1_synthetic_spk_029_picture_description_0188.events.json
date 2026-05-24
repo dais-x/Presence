@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好啊，我阿母叫我去菜市仔買東西咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1440
+  },
+  {
+    "type": "speech",
+    "text": "按呢彼個圖畫，看佇那個鍋子內有人在煮飯，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1245
+  },
+  {
+    "type": "speech",
+    "text": "就是那個炒菜的鐵鏟啦！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1402
+  },
+  {
+    "type": "speech",
+    "text": "還有一個人坐在桌頂食飯，伊腳邊有幾個碗。"
+  },
+  {
+    "type": "speech",
+    "text": "還有囝仔咧玩玩具齁，彼個玩具是啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 706
+  },
+  {
+    "type": "speech",
+    "text": "，按呢圖畫看來好熱鬧啊。"
+  }
+]

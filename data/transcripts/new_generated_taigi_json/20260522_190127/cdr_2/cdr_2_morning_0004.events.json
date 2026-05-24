@@ -1,0 +1,80 @@
+{
+  "sample_id": "cdr_2_morning_0004",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "spoken_transcript": "今早起來欲洗面，啊，欲吃飽 [停頓] 按呢毋知該轉去菜市仔買啥物咧 [沉默] 那個早時阿母都會煮一頓好吃的飯，欸，恁日伊有無出去遊囝仔啦？ [長停頓] 拿個包包欲出門，咧，好緊欲 [咳嗽] 就是，那個菜市仔，有好多攤攤 [停頓] 嗯，我欲買青菜咧 [嘆氣] 嗨，我袂知該走去哪？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今早起來欲洗面，啊，欲吃飽"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "text": "按呢毋知該轉去菜市仔買啥物咧"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2500
+    },
+    {
+      "type": "speech",
+      "text": "那個早時阿母都會煮一頓好吃的飯，欸，恁日伊有無出去遊囝仔啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3800
+    },
+    {
+      "type": "speech",
+      "text": "拿個包包欲出門，咧，好緊欲"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "text": "就是，那個菜市仔，有好多攤攤"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯，我欲買青菜咧"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "text": "嗨，我袂知該走去哪？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 3,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 8500,
+    "mean_pause_ms": 2125.0,
+    "speech_char_count": 102
+  },
+  "speech_rate_target": 0.75
+}

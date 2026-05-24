@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好，我記得以前讀冊的時候，彼個...彼個叫啥來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1092
+  },
+  {
+    "type": "speech",
+    "text": "阿母總是要我去菜市仔買菜，但彼個名字就是想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 748
+  },
+  {
+    "type": "speech",
+    "text": "我們那個時候常常幫阿爸做農忙，從早做到晚，真是辛苦啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1412
+  },
+  {
+    "type": "speech",
+    "text": "每日食飯後，伊就會講話給我們聽，講些故事啦，教訓啦，真好聽。"
+  },
+  {
+    "type": "speech",
+    "text": "現在偶爾會想彼個故事內容，但就是想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 695
+  },
+  {
+    "type": "speech",
+    "text": "真是歲月如梭啊。"
+  }
+]

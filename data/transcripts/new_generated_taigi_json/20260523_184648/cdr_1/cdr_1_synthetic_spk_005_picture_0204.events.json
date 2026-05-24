@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_005_picture_0204",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日阿母叫我去菜市仔買物，我看到彼個老闆，彼個老闿咧賣菜按呢， [停頓] 那個，彼個老闿跟伊老婆講話，就是講著講著就笑起來， [長停頓] 然後我看到隔壁攤子，有個年輕人，那個他正在秤香蕉， [嘆氣] 我就想袂起來彼個秤的數字咧是幾， [咳嗽] 啊，按呢有好多菜，那個青菜跟蘿蔔，還有豆腐，伊老婆閣在那裡擺攤， [停頓] 彼個老婆講話聲音好大聲，那個就是，按呢好像有佇市場袂久啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日阿母叫我去菜市仔買物，我看到彼個老闆，彼個老闿咧賣菜按呢，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 919
+    },
+    {
+      "type": "speech",
+      "text": "那個，彼個老闿跟伊老婆講話，就是講著講著就笑起來，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2379
+    },
+    {
+      "type": "speech",
+      "text": "然後我看到隔壁攤子，有個年輕人，那個他正在秤香蕉，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 926
+    },
+    {
+      "type": "speech",
+      "text": "我就想袂起來彼個秤的數字咧是幾，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 991
+    },
+    {
+      "type": "speech",
+      "text": "啊，按呢有好多菜，那個青菜跟蘿蔔，還有豆腐，伊老婆閣在那裡擺攤，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1106
+    },
+    {
+      "type": "speech",
+      "text": "彼個老婆講話聲音好大聲，那個就是，按呢好像有佇市場袂久啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4404,
+    "mean_pause_ms": 1468.0,
+    "speech_char_count": 159
+  },
+  "speech_rate_target": 0.85
+}

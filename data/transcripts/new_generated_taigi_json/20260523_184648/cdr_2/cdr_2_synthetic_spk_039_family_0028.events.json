@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_039_family_0028",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來食飯啦， [停頓] 伊好久袂嚟囉。那個阿爸咧？按呢佇哪裹？ 阿母咧，伊在煮啥物啊？ [咳嗽] 咱以前厝內佮今時不同，齁，菜市仔佷大變樣。孫仔食無夠多，那個囝仔嘞，比較會食啦。 [沉默] 今日天氣好，欲去公園走一哈。 阿爸咧？按呢伊袂來啊？ [停頓] 咱以前常講話，現在少許囉。 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來食飯啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1378
+    },
+    {
+      "type": "speech",
+      "text": "伊好久袂嚟囉。那個阿爸咧？按呢佇哪裹？ 阿母咧，伊在煮啥物啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 887
+    },
+    {
+      "type": "speech",
+      "text": "咱以前厝內佮今時不同，齁，菜市仔佷大變樣。孫仔食無夠多，那個囝仔嘞，比較會食啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1899
+    },
+    {
+      "type": "speech",
+      "text": "今日天氣好，欲去公園走一哈。 阿爸咧？按呢伊袂來啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1424
+    },
+    {
+      "type": "speech",
+      "text": "咱以前常講話，現在少許囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4457
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 9158,
+    "mean_pause_ms": 2289.5,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.75
+}

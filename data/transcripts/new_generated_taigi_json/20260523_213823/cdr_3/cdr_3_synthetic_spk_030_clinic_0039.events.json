@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號... 食啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1557
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1967
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣足食飯啊..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2965
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 735
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 嗯記得菜市仔... 囝仔，彼個囝仔... 菜市仔去咁久未..."
+  }
+]

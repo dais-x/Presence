@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "早咧起來洗個面嘛，那個就先食飯啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 966
+  },
+  {
+    "type": "speech",
+    "text": "碗筷擺好啦，然後咧整理一下房間啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 886
+  },
+  {
+    "type": "speech",
+    "text": "想袂起啥物咧，按呢要轉去菜市仔買個菜囉。"
+  },
+  {
+    "type": "speech",
+    "text": "財務咧有攏足誠？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該是無問題啦。"
+  },
+  {
+    "type": "speech",
+    "text": "出門前咧就檢查一下包包齁，那個東西咧都帶好未？"
+  },
+  {
+    "type": "speech",
+    "text": "呀，好了，咧可以轉去啦。"
+  }
+]

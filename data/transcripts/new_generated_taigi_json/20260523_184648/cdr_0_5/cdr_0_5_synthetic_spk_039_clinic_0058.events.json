@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_039_clinic_0058",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我那個... 想袂起來啦。 [停頓] 我今早食啥物咧？我吃伊那個... 嗯，有飯同鹹鴨蛋啦。 [停頓] 你家裡按呢有啥代誌？哦，阿母昨夜講厝裡蚊子好多，她用電蚊拍打袂完啊。齁，早餐我就吃鹹粥咧，加點魚鬆。那個... 家裡有無佇整理？我那個... 想袂起來啦，就是最近比較懶嘛。 [咳嗽] 請問伊按呢有啥代誌？哦，按呢應該沒有啥特別事啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我那個... 想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1002
+    },
+    {
+      "type": "speech",
+      "text": "我今早食啥物咧？我吃伊那個... 嗯，有飯同鹹鴨蛋啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "你家裡按呢有啥代誌？哦，阿母昨夜講厝裡蚊子好多，她用電蚊拍打袂完啊。齁，早餐我就吃鹹粥咧，加點魚鬆。那個... 家裡有無佇整理？我那個... 想袂起來啦，就是最近比較懶嘛。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 412
+    },
+    {
+      "type": "speech",
+      "text": "請問伊按呢有啥代誌？哦，按呢應該沒有啥特別事啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2202,
+    "mean_pause_ms": 1101.0,
+    "speech_char_count": 157
+  },
+  "speech_rate_target": 0.92
+}

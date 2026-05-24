@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_021_clinic_0000",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我想袂起來啦。那個醫生先生，你毋知今日幾號嗎？早餐咧食啥物？我食飽飽咧齁。厝裡按呢有啥代誌？嗯... 阿母足好，孫仔也誠乖。那個今早咧無啥特別事啦，就是正常樣子。 [停頓] 你說啥物？哦，醫生你問啥物嘛？ [嘆氣] 呃，按呢講到哪個部份咧？ [咳嗽] 啊！醫生先生，你剛有講啥代誌嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 834
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦。那個醫生先生，你毋知今日幾號嗎？早餐咧食啥物？我食飽飽咧齁。厝裡按呢有啥代誌？嗯... 阿母足好，孫仔也誠乖。那個今早咧無啥特別事啦，就是正常樣子。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "你說啥物？哦，醫生你問啥物嘛？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1379
+    },
+    {
+      "type": "speech",
+      "text": "呃，按呢講到哪個部份咧？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 788
+    },
+    {
+      "type": "speech",
+      "text": "啊！醫生先生，你剛有講啥代誌嗎？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2034,
+    "mean_pause_ms": 1017.0,
+    "speech_char_count": 131
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_038_market_0237",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，見到老朋友，伊請我吃豆花，我袂想食，就講毋通啦。那個，攤販有賣好多菜，欲買幾顆蘿蔔跟青江菜，買了轉去厝內。阿母說煮飯要快點，孫仔肚子餓咧，我就趕緊洗菜準備做菜 [停頓] 。做完菜，伊們就來食飯啦，一家人坐著吃，講話很開心。今仔日真好天氣啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，見到老朋友，伊請我吃豆花，我袂想食，就講毋通啦。那個，攤販有賣好多菜，欲買幾顆蘿蔔跟青江菜，買了轉去厝內。阿母說煮飯要快點，孫仔肚子餓咧，我就趕緊洗菜準備做菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 438
+    },
+    {
+      "type": "speech",
+      "text": "。做完菜，伊們就來食飯啦，一家人坐著吃，講話很開心。今仔日真好天氣啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 438,
+    "mean_pause_ms": 438.0,
+    "speech_char_count": 125
+  },
+  "speech_rate_target": 1.0
+}

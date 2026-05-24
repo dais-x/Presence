@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_002_family_0221",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，囝仔也攏轉來咧。大家坐佇灶跤邊講話，那個心情好歡喜啊。 [停頓] 阿母說伊想吃菜市仔買的鹹鴨蛋，伊就去買咧。孫仔嘛咧跟著講話，就是講袂通啦，阿爸就笑伊，說伊還小啦。 想袂起來囝仔讀啥物學校啊...齁，就是那個讀書嘛咧認真啦，大家都讚美伊。 [咳嗽] 今早孫仔想吃麥當勞，不過阿母講厝內煮的飯比較健康，啦～大家都說是咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，囝仔也攏轉來咧。大家坐佇灶跤邊講話，那個心情好歡喜啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 617
+    },
+    {
+      "type": "speech",
+      "text": "阿母說伊想吃菜市仔買的鹹鴨蛋，伊就去買咧。孫仔嘛咧跟著講話，就是講袂通啦，阿爸就笑伊，說伊還小啦。 想袂起來囝仔讀啥物學校啊...齁，就是那個讀書嘛咧認真啦，大家都讚美伊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1070
+    },
+    {
+      "type": "speech",
+      "text": "今早孫仔想吃麥當勞，不過阿母講厝內煮的飯比較健康，啦～大家都說是咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 617,
+    "mean_pause_ms": 617.0,
+    "speech_char_count": 159
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 305
+  },
+  {
+    "type": "speech",
+    "text": "我毋知咧。"
+  },
+  {
+    "type": "speech",
+    "text": "早飯食佇菜市仔，攏是些簡單物事，就是白粥、滷蛋跟豆腐乳啦。"
+  },
+  {
+    "type": "speech",
+    "text": "最近家裡按呢無啥代誌，阿母還好，孫仔讀書去齁，就這樣啦。"
+  },
+  {
+    "type": "speech",
+    "text": "有啥需要講的嗎？"
+  }
+]

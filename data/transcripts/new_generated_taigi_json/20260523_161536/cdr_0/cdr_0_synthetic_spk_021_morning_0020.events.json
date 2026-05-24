@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_021_morning_0020",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起，起來洗面啦。然後就去煮碗麥片粥食飯。 [停頓] 食飽後，就整理一下房間物件。準備欲出門買菜，要去菜市仔咧。那個要攜著袋子，按呢就要出門啦",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起，起來洗面啦。然後就去煮碗麥片粥食飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "食飽後，就整理一下房間物件。準備欲出門買菜，要去菜市仔咧。那個要攜著袋子，按呢就要出門啦"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 500,
+    "mean_pause_ms": 500.0,
+    "speech_char_count": 70
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_031_clinic_0150",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我記毋到啦。 [長停頓] 早飯我食啥物啊？ [嘆氣] 食啥物啊，想袂起來。就是彼個... 彼個叫啥？那個阿母煮咧嘛。 [停頓] 母親她有煮菜給我食。 [停頓] 嗯，今仔日有佇厝囝仔講話嘛。按呢，伊有問我早飯吃啥物。 [咳嗽] 今仔日真好啊，天氣溫暖。 [沉默] 家裡最近有啥代誌？ [長停頓] 我記袂起來了啦。就是，最近... 嗯，最近好像有客人來訪。那個，伊叫啥名字啊？ [停頓] 想袂起來。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1167
+    },
+    {
+      "type": "speech",
+      "text": "我記毋到啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2167
+    },
+    {
+      "type": "speech",
+      "text": "早飯我食啥物啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 702
+    },
+    {
+      "type": "speech",
+      "text": "食啥物啊，想袂起來。就是彼個... 彼個叫啥？那個阿母煮咧嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1148
+    },
+    {
+      "type": "speech",
+      "text": "母親她有煮菜給我食。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1481
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今仔日有佇厝囝仔講話嘛。按呢，伊有問我早飯吃啥物。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 405
+    },
+    {
+      "type": "speech",
+      "text": "今仔日真好啊，天氣溫暖。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2487
+    },
+    {
+      "type": "speech",
+      "text": "家裡最近有啥代誌？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2327
+    },
+    {
+      "type": "speech",
+      "text": "我記袂起來了啦。就是，最近... 嗯，最近好像有客人來訪。那個，伊叫啥名字啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 880
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1016
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 11657,
+    "mean_pause_ms": 1665.29,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 0.85
+}

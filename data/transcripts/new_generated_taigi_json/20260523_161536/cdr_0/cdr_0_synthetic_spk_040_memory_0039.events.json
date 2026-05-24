@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_040_memory_0039",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好晴朗啊，我就想起昔時陣讀冊日子 [停頓] 我跟伊佇菜市仔買物咧，欲歸厝做作工囝仔。當時農忙閣很緊哩，阿母會叫我們早起食飯轉去田裡干活 [停頓] 有時閣要收稻佇嗚，汗水濕個衫袂幹啊。午後按呢就攏著回家吃頓飯休息一下啦。後來我長大就離家出外做工，但總是想念昔日子",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好晴朗啊，我就想起昔時陣讀冊日子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "我跟伊佇菜市仔買物咧，欲歸厝做作工囝仔。當時農忙閣很緊哩，阿母會叫我們早起食飯轉去田裡干活"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "有時閣要收稻佇嗚，汗水濕個衫袂幹啊。午後按呢就攏著回家吃頓飯休息一下啦。後來我長大就離家出外做工，但總是想念昔日子"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 900,
+    "mean_pause_ms": 450.0,
+    "speech_char_count": 123
+  },
+  "speech_rate_target": 1.0
+}

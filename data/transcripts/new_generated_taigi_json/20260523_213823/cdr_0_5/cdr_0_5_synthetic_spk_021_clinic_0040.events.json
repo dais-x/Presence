@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 771
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 嗯，好像五月十三齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 896
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "無啥特別，就是有米粥跟鹹菜那個... 沒啥大代誌啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡頭最近怎樣啊？"
+  },
+  {
+    "type": "speech",
+    "text": "其實也就普普通通的啦，孫仔來拜訪過一次，還滿開心的就是。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1346
+  },
+  {
+    "type": "speech",
+    "text": "攚我啊母說她身體還好，就是有點腰酸，其他都無啥問題。"
+  }
+]

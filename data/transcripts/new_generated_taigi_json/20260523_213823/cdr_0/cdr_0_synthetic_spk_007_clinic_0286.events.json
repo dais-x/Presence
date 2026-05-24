@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是星期幾我毋知，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 224
+  },
+  {
+    "type": "speech",
+    "text": "早上海報咧寫著，"
+  },
+  {
+    "type": "speech",
+    "text": "我起來吃飯啦，"
+  },
+  {
+    "type": "speech",
+    "text": "煮了稀飯跟鹹菜，"
+  },
+  {
+    "type": "speech",
+    "text": "食飽後轉去厝，"
+  },
+  {
+    "type": "speech",
+    "text": "阿母欲搗米，"
+  },
+  {
+    "type": "speech",
+    "text": "我就幫伊搗一下，"
+  },
+  {
+    "type": "speech",
+    "text": "按呢中午啦，"
+  },
+  {
+    "type": "speech",
+    "text": "閣要去菜市仔買些東西，"
+  },
+  {
+    "type": "speech",
+    "text": "最近孫仔唸書壓力大，"
+  },
+  {
+    "type": "speech",
+    "text": "講說好累，"
+  },
+  {
+    "type": "speech",
+    "text": "真袂放心。"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 867
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦...嗯，應該是個禮拜一吧！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 545
+  },
+  {
+    "type": "speech",
+    "text": "早飯我食碗稀飯齁，加點鹹菜咧，簡單就好。"
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢家裡有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，阿母身體還好啦，孫仔唸書也挺順的，誠是這樣啦。"
+  }
+]

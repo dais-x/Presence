@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 912
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 852
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 827
+  },
+  {
+    "type": "speech",
+    "text": "按呢吃啥東西？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢食飯咧，有佇菜市仔買。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧去學校齁，阿母做家務事。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 705
+  },
+  {
+    "type": "speech",
+    "text": "早餐嘛，我食稀飯咧，還有鹹蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊，今仔日幾號啦？"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔買菜，有佇攤販買水果咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 549
+  }
+]

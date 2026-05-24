@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人攏多，我轉去買菜欲做飯著。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 731
+  },
+  {
+    "type": "speech",
+    "text": "彼個阿母咧洗米，彼個囝仔按呢無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 985
+  },
+  {
+    "type": "speech",
+    "text": "喔，伊按呢在玩玩具。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1326
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有好多東西，那個...想袂起來叫啥，齁，應該是碗啦盤子啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 705
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天气好，阿爸咧厝外頭曬衣服。"
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，彼個灶跤無著火，應該要做飯啊。"
+  },
+  {
+    "type": "speech",
+    "text": "呣知道伊欲做啥物。"
+  }
+]

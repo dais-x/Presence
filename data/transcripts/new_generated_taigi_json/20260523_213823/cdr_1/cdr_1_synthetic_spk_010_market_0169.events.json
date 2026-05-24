@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早上去菜市仔買菜啦，買啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 678
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，那個彼個...彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 983
+  },
+  {
+    "type": "speech",
+    "text": "噗，就是阿母要吃青江菜齁，我有去買咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 976
+  },
+  {
+    "type": "speech",
+    "text": "攤販說今仔日人好多，誠足啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 751
+  },
+  {
+    "type": "speech",
+    "text": "買完轉去厝內，孫仔看到就說伊好想伊的巧克力。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 629
+  },
+  {
+    "type": "speech",
+    "text": "我就跟伊講說，吃太多會蛀牙啊，那個要節制一下。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，下次再去買菜時候再想想看齁。"
+  }
+]

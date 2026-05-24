@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_038_market_0007",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "菜市仔... 阿母咧？ [停頓] 噐記得阿母齁... 食飯啦... 囝仔，彼個... [長停頓] 冷啦... 袂有攤販咧？ [沉默] 攤販欲咧齁... 飯時啊... [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔... 阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1319
+    },
+    {
+      "type": "speech",
+      "text": "噐記得阿母齁... 食飯啦... 囝仔，彼個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6364
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 袂有攤販咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 6837
+    },
+    {
+      "type": "speech",
+      "text": "攤販欲咧齁... 飯時啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 966
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 7,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 14520,
+    "mean_pause_ms": 4840.0,
+    "speech_char_count": 63
+  },
+  "speech_rate_target": 0.65
+}

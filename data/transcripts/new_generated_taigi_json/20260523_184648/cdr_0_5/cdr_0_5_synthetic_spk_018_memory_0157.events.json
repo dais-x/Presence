@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_018_memory_0157",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我年輕時陣，菜市仔佇厝後頭，那個好多青草，阿爸叫我去割稻，農忙咧，真是辛苦欲死啦 [停頓] 。讀冊時陣，按呢一早就要起身去學校，阿母煮飯給我食，我今朝想袂起來伊做啥物菜給我吃，齁是個舊事了啦。那個我們厝內好多囝仔孫仔啊，咧一起玩，歡喜得很，現在嘛，偶而會懷念當年 [停頓] ，阿爸說過，做人要誠實，這句話我一直記著。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我年輕時陣，菜市仔佇厝後頭，那個好多青草，阿爸叫我去割稻，農忙咧，真是辛苦欲死啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 867
+    },
+    {
+      "type": "speech",
+      "text": "。讀冊時陣，按呢一早就要起身去學校，阿母煮飯給我食，我今朝想袂起來伊做啥物菜給我吃，齁是個舊事了啦。那個我們厝內好多囝仔孫仔啊，咧一起玩，歡喜得很，現在嘛，偶而會懷念當年"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "，阿爸說過，做人要誠實，這句話我一直記著。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2067,
+    "mean_pause_ms": 1033.5,
+    "speech_char_count": 155
+  },
+  "speech_rate_target": 0.92
+}

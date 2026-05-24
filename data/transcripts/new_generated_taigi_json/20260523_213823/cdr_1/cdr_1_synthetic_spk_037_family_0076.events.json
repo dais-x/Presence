@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日孫仔轉來厝內食飯，伊老爸跟伊一齊來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1369
+  },
+  {
+    "type": "speech",
+    "text": "佇灶跤邊大家坐著講話，我欲講彼個孫仔叫啥啦，想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1430
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個名字嘛是小明，毋知伊老爸叫啥，彼個名字有想起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 966
+  },
+  {
+    "type": "speech",
+    "text": "大家在咑囝仔的往事，阿母說以前佇菜市仔攏有買水果給囝仔食，齁現在孫仔來啦，大家都誠歡喜。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 879
+  },
+  {
+    "type": "speech",
+    "text": "那個時候真好啊，伊老爸咧講話也好多啦。"
+  }
+]

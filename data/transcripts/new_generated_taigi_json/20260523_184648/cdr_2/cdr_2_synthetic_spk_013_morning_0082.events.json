@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_013_morning_0082",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "早起咧， [停頓] 洗面啦，那個，食飯啊。 [長停頓] 阿母以前袂像今仔日這樣唉。 [嘆氣] 整理物件，準備出門去菜市仔買東西。 [咳嗽] 伊講啥物？阿爸咧？ [停頓] 那個早餐，欲吃啥物啊？ [長停頓] 菜市仔有好多菜，那個以前真好玩。 [沉默] 噁心，頭痛，想攏袂好。 [停頓] 阿母講伊年輕時咧，身體足誠。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "早起咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1461
+    },
+    {
+      "type": "speech",
+      "text": "洗面啦，那個，食飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2975
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前袂像今仔日這樣唉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 656
+    },
+    {
+      "type": "speech",
+      "text": "整理物件，準備出門去菜市仔買東西。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 911
+    },
+    {
+      "type": "speech",
+      "text": "伊講啥物？阿爸咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1490
+    },
+    {
+      "type": "speech",
+      "text": "那個早餐，欲吃啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2183
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔有好多菜，那個以前真好玩。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3006
+    },
+    {
+      "type": "speech",
+      "text": "噁心，頭痛，想攏袂好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1280
+    },
+    {
+      "type": "speech",
+      "text": "阿母講伊年輕時咧，身體足誠。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 861
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 18,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 12395,
+    "mean_pause_ms": 2065.83,
+    "speech_char_count": 106
+  },
+  "speech_rate_target": 0.75
+}

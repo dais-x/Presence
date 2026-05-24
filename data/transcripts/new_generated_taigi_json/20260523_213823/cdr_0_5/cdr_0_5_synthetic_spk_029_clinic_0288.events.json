@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子，我嘛想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 500
+  },
+  {
+    "type": "speech",
+    "text": "早晡時食啥物，我也想袂起啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 958
+  },
+  {
+    "type": "speech",
+    "text": "今朝食豆漿跟油條囉，那個菜市仔有好多熱鬧事情咧。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢安平無代誌，孫仔去學校唸書啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁那個...我阿母去年過世了，現在啊滿想念她的啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 608
+  },
+  {
+    "type": "speech",
+    "text": "今朝食完早晡時，我轉去厝囝仔咧等伊下班。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，對了，今仔日是啥日子呢？"
+  }
+]

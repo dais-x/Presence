@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_016_clinic_0025",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日... 食啥？ [停頓] 阿母咧？ [長停頓] 冷啦... 囝仔去哪？ [沉默] 嗯... 食飯囉... [嘆氣] 菜市仔... [咳嗽] 沒去... 啥物今日... 那個... 冷...",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日... 食啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3738
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 囝仔去哪？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3292
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 食飯囉..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 687
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1084
+    },
+    {
+      "type": "speech",
+      "text": "沒去... 啥物今日... 那個... 冷..."
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 9,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 8356,
+    "mean_pause_ms": 2785.33,
+    "speech_char_count": 66
+  },
+  "speech_rate_target": 0.65
+}

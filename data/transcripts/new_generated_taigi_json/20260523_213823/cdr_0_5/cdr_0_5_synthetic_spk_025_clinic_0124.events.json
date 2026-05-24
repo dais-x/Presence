@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 617
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 768
+  },
+  {
+    "type": "speech",
+    "text": "醫生，我早睏起佇菜市仔買豆漿跟油條食，那個孫仔咧厝裡面做功課。"
+  },
+  {
+    "type": "speech",
+    "text": "最近阿母頭疼欲緊，我閣要去診所帶伊轉去。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...今仔日幾號啊？"
+  }
+]

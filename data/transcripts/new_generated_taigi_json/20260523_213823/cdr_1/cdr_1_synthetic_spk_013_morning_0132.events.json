@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，先去洗面啦，然後就食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1262
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後，我去整理一下物件咧，準備要去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 703
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個要記得攜傘啊，因為天氣變啦，有時會下雨。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1458
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來要帶啥物，不過應該毋需要啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後就轉去著衣服，準備出門啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 946
+  },
+  {
+    "type": "speech",
+    "text": "攚要去菜市仔買個幾樣菜就好，毋知要去哪個攤販咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1095
+  },
+  {
+    "type": "speech",
+    "text": "有時會想袂起來要買啥物，就是那個... 那個時候就去問問老闆啦，他們都會幫忙推薦好的食材。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，然後就去囝仔家裡，看孫仔咧。"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_029_morning_0058",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗個面啦，準備食飯咧 [停頓] 。碗筷擺好齁，那個，阿母以前都會講說飯要熱才好吃啊。 [嘆氣] 哎呀，我年輕時身體好多力，現在袂知怎樣了 [沉默] 。嗯... 食完飯就轉去整理一下東西啦，包包準備好咧，要去買菜嘛。 [停頓] 今仔日菜市仔有啥物？那個阿爸以前都會陪我去，他現在在咧？哎呀，我都講過好多次了，就是這樣子。 [咳嗽] 嗯... 身體要顧著啊，年輕時佇田裡種米，現在嘛... [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗個面啦，準備食飯咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1345
+    },
+    {
+      "type": "speech",
+      "text": "。碗筷擺好齁，那個，阿母以前都會講說飯要熱才好吃啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 945
+    },
+    {
+      "type": "speech",
+      "text": "哎呀，我年輕時身體好多力，現在袂知怎樣了"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3741
+    },
+    {
+      "type": "speech",
+      "text": "。嗯... 食完飯就轉去整理一下東西啦，包包準備好咧，要去買菜嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1495
+    },
+    {
+      "type": "speech",
+      "text": "今仔日菜市仔有啥物？那個阿爸以前都會陪我去，他現在在咧？哎呀，我都講過好多次了，就是這樣子。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 533
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 身體要顧著啊，年輕時佇田裡種米，現在嘛..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3818
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 10399,
+    "mean_pause_ms": 2599.75,
+    "speech_char_count": 170
+  },
+  "speech_rate_target": 0.75
+}

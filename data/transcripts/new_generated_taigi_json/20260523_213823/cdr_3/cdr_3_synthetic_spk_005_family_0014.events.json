@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來囝... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2728
+  },
+  {
+    "type": "speech",
+    "text": "欲食飯啊... 冷啦冷啦... 嗯，孫仔按呢咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1447
+  },
+  {
+    "type": "speech",
+    "text": "食飯... 囝仔，彼個天氣袂知... 菜市仔有去無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3730
+  },
+  {
+    "type": "speech",
+    "text": "攏毋知啦..."
+  }
+]

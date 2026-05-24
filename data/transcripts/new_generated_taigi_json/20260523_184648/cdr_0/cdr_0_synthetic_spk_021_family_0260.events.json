@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_021_family_0260",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，伊毋知咧啥物時辰轉去，阿母就叫伊早點轉來啦。囝仔也攏佇厝內等著伊嘞， [停頓] 大家都歡喜咧。我們坐佇灶跤邊講話，孫仔說學校學到新東西欲跟大家講一聲，齁真是可愛啊。阿母就問伊今早食啥物，伊答講是蛋炒飯啦，真聰明。孫仔還攏足誠囝仔來厝內玩，按呢個歡喜咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，伊毋知咧啥物時辰轉去，阿母就叫伊早點轉來啦。囝仔也攏佇厝內等著伊嘞，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 225
+    },
+    {
+      "type": "speech",
+      "text": "大家都歡喜咧。我們坐佇灶跤邊講話，孫仔說學校學到新東西欲跟大家講一聲，齁真是可愛啊。阿母就問伊今早食啥物，伊答講是蛋炒飯啦，真聰明。孫仔還攏足誠囝仔來厝內玩，按呢個歡喜咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 225,
+    "mean_pause_ms": 225.0,
+    "speech_char_count": 132
+  },
+  "speech_rate_target": 1.0
+}

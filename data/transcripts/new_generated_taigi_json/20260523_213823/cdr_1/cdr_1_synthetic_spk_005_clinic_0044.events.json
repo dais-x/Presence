@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1517
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，彼個...彼個叫啥啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1061
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1086
+  },
+  {
+    "type": "speech",
+    "text": "我食豆漿跟麵包囝。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡有啥代誌齁？"
+  },
+  {
+    "type": "speech",
+    "text": "毋知咧...就是最近孫仔來拜訪，阿母好開心啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 662
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣去菜市仔買菜啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 890
+  },
+  {
+    "type": "speech",
+    "text": "伊講欲轉去囝仔家食飯。"
+  }
+]

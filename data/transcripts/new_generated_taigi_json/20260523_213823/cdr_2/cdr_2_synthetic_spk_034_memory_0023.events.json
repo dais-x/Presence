@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我以前讀冊時咧"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1722
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1216
+  },
+  {
+    "type": "speech",
+    "text": "，阿母會叫我去菜市仔買東西啦，那個時候攏是走路去的，現在哪通可以啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1924
+  },
+  {
+    "type": "cough",
+    "duration_ms": 921
+  },
+  {
+    "type": "speech",
+    "text": "。以前跟伊一齊工作，田裡農忙咧，誠辛苦啊，我孫仔現在讀書嘞，按呢時陣講袂出來啊，阿爸啦，佇厝內等著食飯咧齁。"
+  }
+]

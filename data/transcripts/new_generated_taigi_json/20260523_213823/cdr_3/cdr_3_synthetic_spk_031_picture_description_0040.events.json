@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣熱... 阿母佇哪個？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3481
+  },
+  {
+    "type": "speech",
+    "text": "囝仔欲去菜市仔... 煮飯咧... 菜擺攏桌頂..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3298
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1059
+  },
+  {
+    "type": "speech",
+    "text": "想食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3472
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 攤子袂見著..."
+  }
+]

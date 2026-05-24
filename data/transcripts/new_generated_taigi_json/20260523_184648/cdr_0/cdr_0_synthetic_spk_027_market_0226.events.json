@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_027_market_0226",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起去菜市仔買菜，看到阮那個老朋友啦，咧伊賣水果，問我最近有無如何，我就講說足好啦。之後就選幾樣水果攏買回去，轉去厝內後咧，準備食飯啊。 [停頓] 嚐完飯後閣想著要去公園散散步，天氣誠好，毋知啥物時候開始下雨咧，只好留在厝內看電視齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起去菜市仔買菜，看到阮那個老朋友啦，咧伊賣水果，問我最近有無如何，我就講說足好啦。之後就選幾樣水果攏買回去，轉去厝內後咧，準備食飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 353
+    },
+    {
+      "type": "speech",
+      "text": "嚐完飯後閣想著要去公園散散步，天氣誠好，毋知啥物時候開始下雨咧，只好留在厝內看電視齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 353,
+    "mean_pause_ms": 353.0,
+    "speech_char_count": 114
+  },
+  "speech_rate_target": 1.0
+}

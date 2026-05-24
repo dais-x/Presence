@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天气好，我去看菜市仔去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 985
+  },
+  {
+    "type": "speech",
+    "text": "阿母一早就在厝內煮飯啦，灶跤上好多鍋子咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1587
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔在佇桌頂玩積木啊， 想袂起來伊有無攏玩完？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1274
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物嘞？"
+  },
+  {
+    "type": "speech",
+    "text": "呀！"
+  },
+  {
+    "type": "speech",
+    "text": "就是玩具箱啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1174
+  },
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人好多，買菜欲袂來。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧講著要轉去食飯，我也有回去。"
+  },
+  {
+    "type": "speech",
+    "text": "毋知伊有無足誠攏洗好碗？"
+  },
+  {
+    "type": "speech",
+    "text": "啊～想袂起來。"
+  }
+]

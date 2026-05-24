@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_016_picture_0235",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，我去看菜市仔啦。那個攤子賣水果咧，有好多種類，紅蘋果、黃梨，還有啥物來著？想袂起來了 [停頓] 。對喔，龍眼也擺出唎嘛。然後那個阿姨在賣魚，她咧稱魚啊，我跟她講：「那個魚要幾錢？」她說：「五斤一百塊啦。」我想買個菜回去煮飯吃，那個青江菜好像比較新鮮 [停頓] 。還有按呢，那個雞蛋攤子，伊擺很多種類的蛋，有土鳳雞蛋咧，我欲買幾顆回去給孫仔食。嗯... 那個看來圖內阿母應該是在煮飯吧？齁，然後囝仔在那裡玩玩具啦，就是這樣子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，我去看菜市仔啦。那個攤子賣水果咧，有好多種類，紅蘋果、黃梨，還有啥物來著？想袂起來了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 625
+    },
+    {
+      "type": "speech",
+      "text": "。對喔，龍眼也擺出唎嘛。然後那個阿姨在賣魚，她咧稱魚啊，我跟她講：「那個魚要幾錢？」她說：「五斤一百塊啦。」我想買個菜回去煮飯吃，那個青江菜好像比較新鮮"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "。還有按呢，那個雞蛋攤子，伊擺很多種類的蛋，有土鳳雞蛋咧，我欲買幾顆回去給孫仔食。嗯... 那個看來圖內阿母應該是在煮飯吧？齁，然後囝仔在那裡玩玩具啦，就是這樣子。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1825,
+    "mean_pause_ms": 912.5,
+    "speech_char_count": 209
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_025_family_0094",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔有轉來囝仔，按呢坐佇灶跤邊食飯。 [停頓] 阿母以前講話袂欲這樣囉嗦。 早咧食啥物？ [沉默] 無知足伊欲食什麼。 [嘆氣] 孫仔咧誠乖，按呢講話欲聽無。 [咳嗽] 嗯，阿爸以前早咧有去菜市仔買東西。 [長停頓] 食飯時間咧按呢才來。 [沉默] 孫仔咧食啥物？ 啊，就是這樣。 菜市仔今仔日好像無開攏。 [咳嗽] 嗯，早咧有去買菜啦。 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔有轉來囝仔，按呢坐佇灶跤邊食飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1411
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前講話袂欲這樣囉嗦。 早咧食啥物？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4370
+    },
+    {
+      "type": "speech",
+      "text": "無知足伊欲食什麼。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 981
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧誠乖，按呢講話欲聽無。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 869
+    },
+    {
+      "type": "speech",
+      "text": "嗯，阿爸以前早咧有去菜市仔買東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1847
+    },
+    {
+      "type": "speech",
+      "text": "食飯時間咧按呢才來。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3878
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧食啥物？ 啊，就是這樣。 菜市仔今仔日好像無開攏。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 497
+    },
+    {
+      "type": "speech",
+      "text": "嗯，早咧有去買菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3570
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 2,
+    "pause_total_ms": 15076,
+    "mean_pause_ms": 3015.2,
+    "speech_char_count": 129
+  },
+  "speech_rate_target": 0.75
+}

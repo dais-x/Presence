@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_037_memory_0256",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，我年輕時陣，那個天天都要去菜市仔買東西，伊母咧喫啥物，有時候就自己煮飯。讀冊嘛，學校裡老師講話袂通華語，都是用台語。農忙時節閣真辛苦，那個早早就出門做工，一直做到日頭落山才轉去。厝內長輩啦，阿母咧常常叮囝仔要勤儉，毋可以浪費東西。就是想袂起來伊講過啥樣的話，不過按呢講著講著就想起來了。 [停頓] 那個時候生活簡單，但是很開心。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，我年輕時陣，那個天天都要去菜市仔買東西，伊母咧喫啥物，有時候就自己煮飯。讀冊嘛，學校裡老師講話袂通華語，都是用台語。農忙時節閣真辛苦，那個早早就出門做工，一直做到日頭落山才轉去。厝內長輩啦，阿母咧常常叮囝仔要勤儉，毋可以浪費東西。就是想袂起來伊講過啥樣的話，不過按呢講著講著就想起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1081
+    },
+    {
+      "type": "speech",
+      "text": "那個時候生活簡單，但是很開心。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1081,
+    "mean_pause_ms": 1081.0,
+    "speech_char_count": 166
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號囝？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1983
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1160
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2390
+  },
+  {
+    "type": "speech",
+    "text": "阿母煮伊愛吃嘸？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 950
+  },
+  {
+    "type": "speech",
+    "text": "異處我按呢去？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1356
+  },
+  {
+    "type": "speech",
+    "text": "啊，孫仔今早來探望阿母。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1002
+  },
+  {
+    "type": "speech",
+    "text": "攚恁毋知伊幾歲？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，閣足以前咧，伊讀書時。"
+  },
+  {
+    "type": "speech",
+    "text": "我身體最近欲有啥物代誌齁。"
+  }
+]

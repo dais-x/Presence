@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好，我想到少年時陣讀冊的事。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1548
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1437
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我伊去菜市仔買餚仔，但是彼個名字想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1214
+  },
+  {
+    "type": "speech",
+    "text": "然後阿爸教我種田，收成的時候咧真開心。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢農忙時候閣足人攏來幫手，大家咧一起食飯，轉去厝內休息。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，當時生活簡簡單單，但是好滿足啊。"
+  }
+]

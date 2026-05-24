@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_022_memory_0221",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我想到以前讀冊時光啦。彼個...彼個叫啥物？ [停頓] 阿母咧いつも搗衣會講說要好好讀册，免以後變無知囝仔。 [長停頓] 唉，農忙時期就袂容易讀册啦，那個時候要幫阿爸種稻。 [嘆氣] 稻田咧水好多啊，我們要去灌溉。想袂起來彼個機器叫啥名？ [停頓] 挺重要的嘛，就是用來抽水的嘞。 [咳嗽] 那時節假日啦，我們會去菜市仔買東西，阿母會準備食飯囝仔吃啦。 [停頓] 現在想起來，按呢陣子好多事情咧都袂知道了，彼個...彼個啥物？ [停頓] 攜手共度的時光啊，真好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我想到以前讀冊時光啦。彼個...彼個叫啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 970
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧いつも搗衣會講說要好好讀册，免以後變無知囝仔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1820
+    },
+    {
+      "type": "speech",
+      "text": "唉，農忙時期就袂容易讀册啦，那個時候要幫阿爸種稻。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 615
+    },
+    {
+      "type": "speech",
+      "text": "稻田咧水好多啊，我們要去灌溉。想袂起來彼個機器叫啥名？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 908
+    },
+    {
+      "type": "speech",
+      "text": "挺重要的嘛，就是用來抽水的嘞。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 594
+    },
+    {
+      "type": "speech",
+      "text": "那時節假日啦，我們會去菜市仔買東西，阿母會準備食飯囝仔吃啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1440
+    },
+    {
+      "type": "speech",
+      "text": "現在想起來，按呢陣子好多事情咧都袂知道了，彼個...彼個啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1182
+    },
+    {
+      "type": "speech",
+      "text": "攜手共度的時光啊，真好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6320,
+    "mean_pause_ms": 1264.0,
+    "speech_char_count": 197
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_015_clinic_0234",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 我想袂起來，那個醫師閣有講無？齁，我早辰時食啥物啊？就是食粥啦，再加個蛋而已，簡單啦。按呢家裡有啥代誌？阿母還好啦，那個孫仔今早去菜市仔買菜咧， [停頓] 想袂起來講啥物了，齁，反正就是伊自己會處理啦。 [嘆氣] 嗯... 今日咧好像還有啥事體，想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1075
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來，那個醫師閣有講無？齁，我早辰時食啥物啊？就是食粥啦，再加個蛋而已，簡單啦。按呢家裡有啥代誌？阿母還好啦，那個孫仔今早去菜市仔買菜咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來講啥物了，齁，反正就是伊自己會處理啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1286
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 今日咧好像還有啥事體，想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2275,
+    "mean_pause_ms": 1137.5,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 0.92
+}

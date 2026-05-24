@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_018_morning_0097",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早起睏醒，先去洗面， [停頓] 然後就食飯囉。 [長停頓] 食完飯後，準備出去買菜啦。 [沉默] 菜市仔啊，欲去的那個地方，按呢袂記得叫啥物名囉。 [嘆氣] 唔通講，想袂起來。 [咳嗽] 但說按呢就走去咧，攏會記得的啦。然後咧，要去轉去厝，洗衫啦，做家事啦。那個阿母以前教我咧，今仔日依舊要去做囉。 [停頓] 那個孫仔咧，今仔日足誠乖囉，毋知咧按呢時候要去學校啊。 [停頓] 嗯，轉去以後，要準備出門的物件，雨傘啦、錢包啦、鑰匙啦，攏要做好準備囉。 [沉默] 然後就轉出去買菜囉。 [嘆氣] 想袂起來彼個地方叫啥物名啦，但說按呢就走去咧就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏醒，先去洗面，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1119
+    },
+    {
+      "type": "speech",
+      "text": "然後就食飯囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2439
+    },
+    {
+      "type": "speech",
+      "text": "食完飯後，準備出去買菜啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1845
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔啊，欲去的那個地方，按呢袂記得叫啥物名囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1177
+    },
+    {
+      "type": "speech",
+      "text": "唔通講，想袂起來。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 442
+    },
+    {
+      "type": "speech",
+      "text": "但說按呢就走去咧，攏會記得的啦。然後咧，要去轉去厝，洗衫啦，做家事啦。那個阿母以前教我咧，今仔日依舊要去做囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 814
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧，今仔日足誠乖囉，毋知咧按呢時候要去學校啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1366
+    },
+    {
+      "type": "speech",
+      "text": "嗯，轉去以後，要準備出門的物件，雨傘啦、錢包啦、鑰匙啦，攏要做好準備囉。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1546
+    },
+    {
+      "type": "speech",
+      "text": "然後就轉出去買菜囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1256
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個地方叫啥物名啦，但說按呢就走去咧就好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 9129,
+    "mean_pause_ms": 1521.5,
+    "speech_char_count": 219
+  },
+  "speech_rate_target": 0.85
+}

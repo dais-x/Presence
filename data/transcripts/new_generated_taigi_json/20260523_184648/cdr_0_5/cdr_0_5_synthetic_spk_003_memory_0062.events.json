@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_memory_0062",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，年輕時陣我們都要去田裡幫阿爸做農活。那個...水稻咧，早起晚睡，常常袂想食飯哦。 [停頓] 伊講說讀冊時間袂多，學校放假都要轉去做工。當時的菜市仔，呀籤菜攤，還有賣鹹魚、鹹菜的，啦，阿母要去買菜，我跟著去，那個時候真好玩啊。 [停頓] 想袂起來以前讀過啥物冊子了，那個...應該有讀過《水滸傳》咧，但現在想袂起來內容啦。 [嘆氣] 話說回來，伊講農忙時期，厝內長輩都要搥搗搧搨，整天無停哦。就是這樣啦，年輕時陣生活真的辛苦，不過也挺開心的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，年輕時陣我們都要去田裡幫阿爸做農活。那個...水稻咧，早起晚睡，常常袂想食飯哦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 989
+    },
+    {
+      "type": "speech",
+      "text": "伊講說讀冊時間袂多，學校放假都要轉去做工。當時的菜市仔，呀籤菜攤，還有賣鹹魚、鹹菜的，啦，阿母要去買菜，我跟著去，那個時候真好玩啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來以前讀過啥物冊子了，那個...應該有讀過《水滸傳》咧，但現在想袂起來內容啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 666
+    },
+    {
+      "type": "speech",
+      "text": "話說回來，伊講農忙時期，厝內長輩都要搥搗搧搨，整天無停哦。就是這樣啦，年輕時陣生活真的辛苦，不過也挺開心的。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2189,
+    "mean_pause_ms": 1094.5,
+    "speech_char_count": 211
+  },
+  "speech_rate_target": 0.92
+}

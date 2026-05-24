@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1326
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1537
+  },
+  {
+    "type": "speech",
+    "text": "按呢個... 按呢個就是說，伊是稀飯，再加個水煮蛋齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 676
+  },
+  {
+    "type": "speech",
+    "text": "家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 啥物代誌嘞？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 712
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇菜市仔買菜咧，阿爸按呢攏好著厝內，按呢個那個叫啥... 想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "無啥特別代誌啊。"
+  }
+]

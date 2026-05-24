@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_015_morning_0134",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日起早袂早，洗面後就食飯囉。 [停頓] 食完飯後，我會去整理一下厝裡的物件，像是一些紙張、信件咧，都要整理好。然後就準備出門啦，先拿個包包，再檢查一下有無漏攏東西。 [停頓] 按呢要去菜市仔買菜，買菜後回家準備中飯。今日天氣袂錯，適合出外活動啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日起早袂早，洗面後就食飯囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 457
+    },
+    {
+      "type": "speech",
+      "text": "食完飯後，我會去整理一下厝裡的物件，像是一些紙張、信件咧，都要整理好。然後就準備出門啦，先拿個包包，再檢查一下有無漏攏東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 670
+    },
+    {
+      "type": "speech",
+      "text": "按呢要去菜市仔買菜，買菜後回家準備中飯。今日天氣袂錯，適合出外活動啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1127,
+    "mean_pause_ms": 563.5,
+    "speech_char_count": 113
+  },
+  "speech_rate_target": 1.0
+}

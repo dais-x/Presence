@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_032_picture_0031",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日咧，看那張圖，袂知是誰的照片，好似佇菜市仔，那個攤販，賣魚肉的 [停頓] 還有一個老阿母，在攤子旁邊買東西。想說伊應該是去轉菜，欲準備午頓的菜餚",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日咧，看那張圖，袂知是誰的照片，好似佇菜市仔，那個攤販，賣魚肉的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "還有一個老阿母，在攤子旁邊買東西。想說伊應該是去轉菜，欲準備午頓的菜餚"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 500,
+    "mean_pause_ms": 500.0,
+    "speech_char_count": 69
+  },
+  "speech_rate_target": 1.0
+}

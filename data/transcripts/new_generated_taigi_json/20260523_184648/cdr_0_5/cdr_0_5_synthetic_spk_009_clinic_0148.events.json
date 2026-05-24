@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_009_clinic_0148",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日是幾號啊？我咧講袂清，那個... 想袂起來啦。 [停頓] 早上海撥啥物咧？吃啦個什麼早餐？那個... 我食啦碗鹹粥，再加個菜脯蛋，齁，簡單啦。 [停頓] 那個阿母呢佇家裡啊？她今仔日去菜市仔買菜，回來就煮飯，咧講伊會炒個蒜苗跟冬粉。按呢厝內有啥物代誌啊？就是... 沒啥物啦，孫仔今天有無去學校，那個... 毋知咧。 [嘆氣] 阿爸咧今仔日好像有點頭疼，但我咧講伊應該毋會太嚴重齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾號啊？我咧講袂清，那個... 想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1059
+    },
+    {
+      "type": "speech",
+      "text": "早上海撥啥物咧？吃啦個什麼早餐？那個... 我食啦碗鹹粥，再加個菜脯蛋，齁，簡單啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母呢佇家裡啊？她今仔日去菜市仔買菜，回來就煮飯，咧講伊會炒個蒜苗跟冬粉。按呢厝內有啥物代誌啊？就是... 沒啥物啦，孫仔今天有無去學校，那個... 毋知咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 675
+    },
+    {
+      "type": "speech",
+      "text": "阿爸咧今仔日好像有點頭疼，但我咧講伊應該毋會太嚴重齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2259,
+    "mean_pause_ms": 1129.5,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.92
+}

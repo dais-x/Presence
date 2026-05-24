@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 778
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 那個早餐我食啥咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 974
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 菜市仔去買菜齁，攏未想起來..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1188
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔今早來看我咧，按呢足誠好心的囝仔。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 475
+  },
+  {
+    "type": "speech",
+    "text": "他說阿母叫佇電話，要伊轉去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1307
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 我厝裡頭好好的。"
+  }
+]

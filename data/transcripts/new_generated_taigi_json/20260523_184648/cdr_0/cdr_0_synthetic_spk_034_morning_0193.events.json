@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_034_morning_0193",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂晚，洗個面就著緊食飯囉。 [停頓] 食了碗稀飯咧，有配點鹹菜跟豆腐乳。然後啦，轉去房間整理一下物件，拿個包包準備出門。包包裡頭放著鑰匙、紙巾啊、手機。那個，今仔日要去買些東西咧，菜市仔按呢就無開，要去大賣場啦。 [停頓] 嗯，然後咧騎機車去，要戴安全帽，穿個反光背心，阿爸就常講說要注意交通安全啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂晚，洗個面就著緊食飯囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 699
+    },
+    {
+      "type": "speech",
+      "text": "食了碗稀飯咧，有配點鹹菜跟豆腐乳。然後啦，轉去房間整理一下物件，拿個包包準備出門。包包裡頭放著鑰匙、紙巾啊、手機。那個，今仔日要去買些東西咧，菜市仔按呢就無開，要去大賣場啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 609
+    },
+    {
+      "type": "speech",
+      "text": "嗯，然後咧騎機車去，要戴安全帽，穿個反光背心，阿爸就常講說要注意交通安全啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1308,
+    "mean_pause_ms": 654.0,
+    "speech_char_count": 143
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_018_clinic_0277",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？那個... 想袂起來咧。醫師閣問啥物代誌齁？ [停頓] 我早食啥物啊？嗯... 食碗稀飯啦，還有個蛋湯。那個菜市仔未去買菜，所以就吃恁簡單啦。 [停頓] 家裡按呢有啥物代誌啊？伊佇看孫仔咧，無出去遊。阿母佇厝內準備午食，閣在做啥物啦。 [停頓] 那個... 今早天氣不錯ㄟ，想說出去散散步。但袂敢遠走，怕迷路啦。醫師閣問啥物代誌？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？那個... 想袂起來咧。醫師閣問啥物代誌齁？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 617
+    },
+    {
+      "type": "speech",
+      "text": "我早食啥物啊？嗯... 食碗稀飯啦，還有個蛋湯。那個菜市仔未去買菜，所以就吃恁簡單啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 914
+    },
+    {
+      "type": "speech",
+      "text": "家裡按呢有啥物代誌啊？伊佇看孫仔咧，無出去遊。阿母佇厝內準備午食，閣在做啥物啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個... 今早天氣不錯ㄟ，想說出去散散步。但袂敢遠走，怕迷路啦。醫師閣問啥物代誌？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2731,
+    "mean_pause_ms": 910.33,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 0.92
+}

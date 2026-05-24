@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，我去洗面，然後去廚房食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1999
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔買菜來，那個阿母以前都會做好多好味道"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1120
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1088
+  },
+  {
+    "type": "speech",
+    "text": "。我講伊咧，啥物攏袂記得，欲想著以前的事啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1782
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1081
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧，咧讀書啊，我有無去學校？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 916
+  },
+  {
+    "type": "speech",
+    "text": "想起以前，那個食早餐，阿爸會煮好多菜，今仔日食緊啥"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 692
+  },
+  {
+    "type": "speech",
+    "text": "，按呢足毋知囉。"
+  }
+]

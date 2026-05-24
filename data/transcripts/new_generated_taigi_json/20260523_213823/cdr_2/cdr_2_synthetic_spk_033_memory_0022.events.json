@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好好啊，我年輕時陣，天天去菜市仔買菜，那個時候攏袂那樣方便齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2590
+  },
+  {
+    "type": "speech",
+    "text": "畫冊讀冊，伊也愛做田裡工作，早起做工，晚轉去食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2293
+  },
+  {
+    "type": "cough",
+    "duration_ms": 963
+  },
+  {
+    "type": "speech",
+    "text": "阿母阿爸都好囝仔誠誠，孫仔咧多足啊， 今時陣想著以前的生活就是，那個時候真快樂齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2151
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 886
+  },
+  {
+    "type": "speech",
+    "text": "我今早有無食早餐呀？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2176
+  },
+  {
+    "type": "speech",
+    "text": "唉，時間恁久咧，記袂清啦。"
+  }
+]

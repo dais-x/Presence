@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_036_memory_0045",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "菜市仔... 阿母咧？ [長停頓] 嗯... 冬季啦... 囝仔呀... [長停頓] 食飯未？ [沉默] 暖和點... 菜青啊... [嘆氣] 無知伊... 攚記著... [咳嗽] 昨日... 冷齁...",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔... 阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1995
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 冬季啦... 囝仔呀..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2789
+    },
+    {
+      "type": "speech",
+      "text": "食飯未？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4055
+    },
+    {
+      "type": "speech",
+      "text": "暖和點... 菜青啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 951
+    },
+    {
+      "type": "speech",
+      "text": "無知伊... 攚記著..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1143
+    },
+    {
+      "type": "speech",
+      "text": "昨日... 冷齁..."
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 10,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 8839,
+    "mean_pause_ms": 2946.33,
+    "speech_char_count": 70
+  },
+  "speech_rate_target": 0.65
+}

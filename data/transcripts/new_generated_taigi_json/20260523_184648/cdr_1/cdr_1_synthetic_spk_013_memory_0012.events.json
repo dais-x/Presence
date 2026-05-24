@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_013_memory_0012",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，想起我少年時陣，阿爸叫我去菜市仔買東西，彼個彼個叫做啥？ [停頓] 想袂起來啦。當時伊講要幫厝內煮飯，但我去晚咧， [長停頓] 煮袂完就食飯嘞。 [嘆氣] 那時候佇田裡工作，農忙時陣特別辛苦啊，那個那個菜嘛就要割啊。後來讀冊啦，那個就是學校齁，讀完後就轉去工廠做伙，彼個叫啥？嗯... 想袂起來啦。 [咳嗽] 記得阿母常講伊年輕時很能幹，但現在我老咧，好多事都記袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，想起我少年時陣，阿爸叫我去菜市仔買東西，彼個彼個叫做啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1129
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。當時伊講要幫厝內煮飯，但我去晚咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1872
+    },
+    {
+      "type": "speech",
+      "text": "煮袂完就食飯嘞。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 730
+    },
+    {
+      "type": "speech",
+      "text": "那時候佇田裡工作，農忙時陣特別辛苦啊，那個那個菜嘛就要割啊。後來讀冊啦，那個就是學校齁，讀完後就轉去工廠做伙，彼個叫啥？嗯... 想袂起來啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1086
+    },
+    {
+      "type": "speech",
+      "text": "記得阿母常講伊年輕時很能幹，但現在我老咧，好多事都記袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3001,
+    "mean_pause_ms": 1500.5,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.85
+}

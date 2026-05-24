@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣熱咧，我欲去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 901
+  },
+  {
+    "type": "speech",
+    "text": "咱厝今早阿母欲煮飯，伊在灶跤搥米。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 484
+  },
+  {
+    "type": "speech",
+    "text": "那個...囝仔咧玩，佇地板上摳玩具。"
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有個碗，按呢還有一個壺。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來，啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "哦，對了，還有個菜刀在砧板上。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，齁，就是這樣啦。"
+  }
+]

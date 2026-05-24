@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_006_family_0065",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。 [停頓] 呀，那個孫仔真會玩，講著講著就跑去隔壁鄰居家借玩具咧。 我說啥物囝仔啊，怎麼恁愛動？就是齁，今早還叫伊去菜市仔買東西，伊講袂欲去啦。 [咳嗽] 那個，孫仔有時候真不懂事，不過也無奈啦。哎呀，那個時間都過咧，我們轉去吃飯吧。阿母一陣子袂見到囝仔，應該想起來欲做啥物好吃的啦。 唔知伊今仔日會煮啥物，不過應該不會錯的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 652
+    },
+    {
+      "type": "speech",
+      "text": "呀，那個孫仔真會玩，講著講著就跑去隔壁鄰居家借玩具咧。 我說啥物囝仔啊，怎麼恁愛動？就是齁，今早還叫伊去菜市仔買東西，伊講袂欲去啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 976
+    },
+    {
+      "type": "speech",
+      "text": "那個，孫仔有時候真不懂事，不過也無奈啦。哎呀，那個時間都過咧，我們轉去吃飯吧。阿母一陣子袂見到囝仔，應該想起來欲做啥物好吃的啦。 唔知伊今仔日會煮啥物，不過應該不會錯的啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 652,
+    "mean_pause_ms": 652.0,
+    "speech_char_count": 179
+  },
+  "speech_rate_target": 0.92
+}

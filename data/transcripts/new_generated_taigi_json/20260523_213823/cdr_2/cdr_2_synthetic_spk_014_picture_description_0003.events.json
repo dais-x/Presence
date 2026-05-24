@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "人咧厝裡頭，今仔日欲煮飯啦， 桌頂有碗， 伊以前常攏來看我煮飯啊，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2375
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1274
+  },
+  {
+    "type": "speech",
+    "text": "阿母說要吃啥物，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2139
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1039
+  },
+  {
+    "type": "speech",
+    "text": "咱囝仔咧玩， 該去菜市仔買菜齁， 吃完飯要去轉去啦。"
+  }
+]

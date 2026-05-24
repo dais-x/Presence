@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我欲去菜市仔買物資，看到好多攤販，彼個...彼個賣青菜咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1125
+  },
+  {
+    "type": "speech",
+    "text": "咱家按呢在煮飯，阿母佇灶跤，孫仔就在閣樓玩玩具，囝仔就咧外面踢足球。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1422
+  },
+  {
+    "type": "speech",
+    "text": "我欲請問你，彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1227
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1243
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 905
+  },
+  {
+    "type": "speech",
+    "text": "那個菜市仔有好多攤販賣著蔬菜水果，按呢是買菜的地方啊。"
+  }
+]

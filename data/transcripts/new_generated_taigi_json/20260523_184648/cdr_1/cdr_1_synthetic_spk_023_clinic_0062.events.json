@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_023_clinic_0062",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號？ [停頓] 我欲袂知，醫生你毋知嗎？ [長停頓] 今早我食啥？我記得我有去菜市仔買粿條，就是後來嘛講漏囉。 [嘆氣] 阿母咧打電話問伊說按呢怎樣，但我阿母閣在台北，她無來，那個... 啥物？ [停頓] 我今早食粿條，加豆芽跟蛋，齁，有袂好想起來。 家裡按呢咋樣？孫仔咧，他去學校啦。 [長停頓] 囝仔咧，他毋知去哪，但我記得伊要去辦啥事，就是... 叫啥名字的那個店？彼個... 彼個叫啥？ [嘆氣] 我想袂起來。 醫生你有無聽我講？ [咳嗽] 那個話題咋樣？我今早食飯之後就轉去厝裡坐著。 [長停頓] 按呢講啥物？ [沉默] 嗯... 那個孫仔咧，他有袂好乖，但我無怎樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 956
+    },
+    {
+      "type": "speech",
+      "text": "我欲袂知，醫生你毋知嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2113
+    },
+    {
+      "type": "speech",
+      "text": "今早我食啥？我記得我有去菜市仔買粿條，就是後來嘛講漏囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1217
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧打電話問伊說按呢怎樣，但我阿母閣在台北，她無來，那個... 啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1167
+    },
+    {
+      "type": "speech",
+      "text": "我今早食粿條，加豆芽跟蛋，齁，有袂好想起來。 家裡按呢咋樣？孫仔咧，他去學校啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2072
+    },
+    {
+      "type": "speech",
+      "text": "囝仔咧，他毋知去哪，但我記得伊要去辦啥事，就是... 叫啥名字的那個店？彼個... 彼個叫啥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 770
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來。 醫生你有無聽我講？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1106
+    },
+    {
+      "type": "speech",
+      "text": "那個話題咋樣？我今早食飯之後就轉去厝裡坐著。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2109
+    },
+    {
+      "type": "speech",
+      "text": "按呢講啥物？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1859
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 那個孫仔咧，他有袂好乖，但我無怎樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 10276,
+    "mean_pause_ms": 1712.67,
+    "speech_char_count": 237
+  },
+  "speech_rate_target": 0.85
+}

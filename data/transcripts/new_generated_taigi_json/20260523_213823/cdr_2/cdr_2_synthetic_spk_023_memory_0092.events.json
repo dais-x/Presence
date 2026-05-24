@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，以前我讀冊時光頭家農忙咧，阿母叫我去菜市仔買東西啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2274
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1037
+  },
+  {
+    "type": "speech",
+    "text": "那個時候啊，厝內人多攏誠齊心ㄟ。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 996
+  },
+  {
+    "type": "speech",
+    "text": "哎，我現在食飯都吃袂好多，以前早餐會吃米糕跟豆花，那個味道真好啊"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 969
+  },
+  {
+    "type": "speech",
+    "text": "你知伊今仔日做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1605
+  },
+  {
+    "type": "speech",
+    "text": "少年時陣，阿爸會教我種田咧，說是學會自己照顧自己啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2217
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，講到這個我就想起來以前囝仔時候的那些事，真係好多啊"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1107
+  },
+  {
+    "type": "speech",
+    "text": "。"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊帶佇孫仔來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 922
+  },
+  {
+    "type": "speech",
+    "text": "孫仔好可愛啦，真會笑。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 710
+  },
+  {
+    "type": "speech",
+    "text": "那個... 阿母有煮好多菜，在菜市仔買咧。"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔講說要攏吃光光。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，孫仔坐佇灶跤邊，阿爸就陪伊玩。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧叫著「阿公、阿婆」啦，大家都好開心。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，想袂起來那個玩具是啥物... 唉，就是這樣子啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 837
+  },
+  {
+    "type": "speech",
+    "text": "無論啦，今仔日大家有聚在一起就好。"
+  }
+]

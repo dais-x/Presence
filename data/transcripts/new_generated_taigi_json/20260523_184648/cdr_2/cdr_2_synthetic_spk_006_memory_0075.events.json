@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_006_memory_0075",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天气好啊 [停頓] ，我年輕時陣常常去菜市仔買菜啦。那個時候阿母叫我做工啦，田裡農忙咧 [長停頓] [嘆氣] ，哎呀，那時真辛苦。 [沉默] 我記得唸冊時陣，老師教我們好多知識啦，就是現在都記不大起來了啊。 [停頓] 早餐吃啥物好呢？阿爸以前會煮粥給我們吃咧，那個味道真好。 [長停頓] [咳嗽] 今仔日食飯時間到了嗎？ [沉默] 哎呀，我那個孫仔長大啦，轉去當兵了齁，真是快啊。 [停頓] 以前的日子好像就在眼前一樣，現在頭腦裡就是常常想著那些事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1342
+    },
+    {
+      "type": "speech",
+      "text": "，我年輕時陣常常去菜市仔買菜啦。那個時候阿母叫我做工啦，田裡農忙咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1842
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 917
+    },
+    {
+      "type": "speech",
+      "text": "，哎呀，那時真辛苦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1823
+    },
+    {
+      "type": "speech",
+      "text": "我記得唸冊時陣，老師教我們好多知識啦，就是現在都記不大起來了啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1461
+    },
+    {
+      "type": "speech",
+      "text": "早餐吃啥物好呢？阿爸以前會煮粥給我們吃咧，那個味道真好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2332
+    },
+    {
+      "type": "cough",
+      "duration_ms": 559
+    },
+    {
+      "type": "speech",
+      "text": "今仔日食飯時間到了嗎？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3697
+    },
+    {
+      "type": "speech",
+      "text": "哎呀，我那個孫仔長大啦，轉去當兵了齁，真是快啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1367
+    },
+    {
+      "type": "speech",
+      "text": "以前的日子好像就在眼前一樣，現在頭腦裡就是常常想著那些事。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 8,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 13864,
+    "mean_pause_ms": 1980.57,
+    "speech_char_count": 174
+  },
+  "speech_rate_target": 0.75
+}

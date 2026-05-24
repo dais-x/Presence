@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_clinic_0174",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 我想袂起來啦... 那個 今天是幾號？嗯... [停頓] 医師，那個 今仔日几號啊？ 早餐有啥物吃著咧？我食的是稀飯跟菜脯蛋。 [停頓] 嗯，咧厝裡頭，媽媽做的是稀飯攏加菜脯蛋。 你家按呢有啥代誌嗎？嗯... [停頓] 家裡就普通啦，那個 無啥代誌。阿母昨天還講著要洗衣服，但是她又想袂起來咧。 [咳嗽] 医師，我今仔日無什麼特別事，就是來檢查一下身體啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 514
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦... 那個 今天是幾號？嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "医師，那個 今仔日几號啊？ 早餐有啥物吃著咧？我食的是稀飯跟菜脯蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1049
+    },
+    {
+      "type": "speech",
+      "text": "嗯，咧厝裡頭，媽媽做的是稀飯攏加菜脯蛋。 你家按呢有啥代誌嗎？嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "家裡就普通啦，那個 無啥代誌。阿母昨天還講著要洗衣服，但是她又想袂起來咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 865
+    },
+    {
+      "type": "speech",
+      "text": "医師，我今仔日無什麼特別事，就是來檢查一下身體啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 3963,
+    "mean_pause_ms": 990.75,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.92
+}

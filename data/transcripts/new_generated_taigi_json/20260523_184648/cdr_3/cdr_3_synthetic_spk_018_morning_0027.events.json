@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_018_morning_0027",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "洗面... 嗯... 阿母咧？ [長停頓] 冷啦... 囝仔啊，彼個囝仔... [長停頓] 食飯齁... 菜市仔去欲袂？ [沉默] 冷啦... [咳嗽] 冷啦...",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "洗面... 嗯... 阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2369
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 囝仔啊，彼個囝仔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6733
+    },
+    {
+      "type": "speech",
+      "text": "食飯齁... 菜市仔去欲袂？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3707
+    },
+    {
+      "type": "speech",
+      "text": "冷啦..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 523
+    },
+    {
+      "type": "speech",
+      "text": "冷啦..."
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 7,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 12809,
+    "mean_pause_ms": 4269.67,
+    "speech_char_count": 56
+  },
+  "speech_rate_target": 0.65
+}

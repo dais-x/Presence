@@ -1,0 +1,22 @@
+[
+  {
+    "type": "speech",
+    "text": "人咧煮飯... 阿母去菜市仔啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2032
+  },
+  {
+    "type": "speech",
+    "text": "... 囝仔欲去公園... 冷啊... 食飯時候到啦... 天氣變啦... 袂知無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2718
+  },
+  {
+    "type": "speech",
+    "text": "... 嗯..."
+  }
+]

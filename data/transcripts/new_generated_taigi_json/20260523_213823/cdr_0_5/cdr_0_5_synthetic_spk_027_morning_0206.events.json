@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先去洗面，然後做早餐囝。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 780
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔欲要去買個物事，可是那個包包嘛咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 706
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，那個包包應該佇厝裡頭。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食完飯後，整理一下物件，準備出門。"
+  },
+  {
+    "type": "speech",
+    "text": "忘記攏是啥物囉，那個筆記簿咧？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，包包裡頭有無？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個包包，要去菜市仔買個東西。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，轉去拿包包啦。"
+  }
+]

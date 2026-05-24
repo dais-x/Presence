@@ -1,0 +1,64 @@
+{
+  "sample_id": "cdr_1_memory_0007",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "spoken_transcript": "今仔日天氣真好，我記得當年讀冊的時候， [停頓] 彼個...彼個叫啥？阿母講伊做農忙咧。 [沉默] 我們一早就要攏轉去菜市仔買菜，然後回到家裡洗米煮飯啦。啊， [長停頓] 那個時候好多囝仔都愛聽大人講古事，就是伊會講好多有趣的故事。今仔日想起來，真係是好時光。彼個... [長停頓] 彼個名字叫啥？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，我記得當年讀冊的時候，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個叫啥？阿母講伊做農忙咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "text": "我們一早就要攏轉去菜市仔買菜，然後回到家裡洗米煮飯啦。啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "text": "那個時候好多囝仔都愛聽大人講古事，就是伊會講好多有趣的故事。今仔日想起來，真係是好時光。彼個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2500
+    },
+    {
+      "type": "speech",
+      "text": "彼個名字叫啥？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 6000,
+    "mean_pause_ms": 1500.0,
+    "speech_char_count": 123
+  },
+  "speech_rate_target": 0.85
+}

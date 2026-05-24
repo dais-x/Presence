@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 944
+  },
+  {
+    "type": "speech",
+    "text": "我那個記袂起來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 559
+  },
+  {
+    "type": "speech",
+    "text": "（）今早食啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我食阮阿母煮的鹼粽啦，好好吃。"
+  },
+  {
+    "type": "speech",
+    "text": "（）說著就要想起阮孫仔唀，咁嘛可愛ㄟ囝仔。"
+  },
+  {
+    "type": "speech",
+    "text": "（"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 993
+  },
+  {
+    "type": "speech",
+    "text": "）對哦，醫師問啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "就是講今早食啥啦，齁，我今早食鹼粽。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡有無發生啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...那個按呢咧一切平順，毋有啥特別事體欲報告。"
+  }
+]

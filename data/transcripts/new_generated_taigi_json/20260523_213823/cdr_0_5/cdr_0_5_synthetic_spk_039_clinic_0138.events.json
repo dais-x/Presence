@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 726
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來... 那個是幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 945
+  },
+  {
+    "type": "speech",
+    "text": "（醫師：今天是12月5號）哦，12月5號對嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物無？"
+  },
+  {
+    "type": "speech",
+    "text": "我食白粥跟鹹菜，有時會加個蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 貓咪跑外頭去，我幾時袂知伊咧，齁，阿母喊我去尋伊。"
+  },
+  {
+    "type": "speech",
+    "text": "（医师：您家最近有发生什麼事情吗？"
+  },
+  {
+    "type": "speech",
+    "text": "）哦，就是貓咪走失了，我們在找牠。"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好晴朗，我去看菜市仔去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1040
+  },
+  {
+    "type": "speech",
+    "text": "彼個菜市仔人好多，賣啥物咧都有。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1492
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個攤販叫啥名，彼個賣青菜伊咧， 看見一個囝仔咧玩陀螺，轉去轉來轉袂歇。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1303
+  },
+  {
+    "type": "speech",
+    "text": "我欲講說「欸，小心點」，但想袂起來彼個字，就咧那邊看著。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1198
+  },
+  {
+    "type": "speech",
+    "text": "那個菜市仔真熱鬧啊。"
+  }
+]

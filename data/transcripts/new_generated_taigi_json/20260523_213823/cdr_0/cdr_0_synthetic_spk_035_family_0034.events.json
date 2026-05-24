@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊攏來咧，孫仔也攏來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 403
+  },
+  {
+    "type": "speech",
+    "text": "大家坐佇灶跤邊，講話嗨嗨的。"
+  },
+  {
+    "type": "speech",
+    "text": "我欲煮些啥物好著？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母你說啥？"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸你也說嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "大家毋知要吃啥，我就煮碗湯面啦。"
+  },
+  {
+    "type": "speech",
+    "text": "伊閣足食飯咧齁，轉去休息一下子吧。"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1106
+  },
+  {
+    "type": "speech",
+    "text": "咱厝今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1267
+  },
+  {
+    "type": "speech",
+    "text": "啊母講佇菜市仔買囝仔欲食嘸？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1384
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個...彼個叫啥，想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 902
+  },
+  {
+    "type": "speech",
+    "text": "今朝有去轉去拜訪阿公伊啊， 阿公伊講佇厝內閣好攏安穩。"
+  },
+  {
+    "type": "speech",
+    "text": "咱厝按呢咧有啥物代誌嗎？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 713
+  }
+]

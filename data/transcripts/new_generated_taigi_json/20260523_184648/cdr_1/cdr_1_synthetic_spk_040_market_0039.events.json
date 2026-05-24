@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_040_market_0039",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，彼個賣雞蛋的攤販咧，我欲買幾顆雞蛋，那個 [停頓] ，想袂起來欲買幾顆，就先買幾顆齁，後頭再去買囉。然後啊，轉去厝內，伊（阿母）欲食飯啦，我就準備一下材料咧。彼個...彼個叫啥物菜啊？ [長停頓] 想袂起來了，不過按呢毋擔心啦，下次再去市場買就好啦。啊，今仔日天氣好曬，攤販有講話說今仔日是個好好去市場的天氣咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，彼個賣雞蛋的攤販咧，我欲買幾顆雞蛋，那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1055
+    },
+    {
+      "type": "speech",
+      "text": "，想袂起來欲買幾顆，就先買幾顆齁，後頭再去買囉。然後啊，轉去厝內，伊（阿母）欲食飯啦，我就準備一下材料咧。彼個...彼個叫啥物菜啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2422
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來了，不過按呢毋擔心啦，下次再去市場買就好啦。啊，今仔日天氣好曬，攤販有講話說今仔日是個好好去市場的天氣咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3477,
+    "mean_pause_ms": 1738.5,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 0.85
+}

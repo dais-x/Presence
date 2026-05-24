@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 945
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦...那個是星期幾咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 803
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物呢？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...我就食飯啦，有菜市仔買的菜。"
+  },
+  {
+    "type": "speech",
+    "text": "厝裡按呢嘛無啥代誌齁。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝轉去囝仔家咧，所以就是比較清靜啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1151
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊也還好啦，就是偶而會講幾句那個老話，我們就笑笑就好啦。"
+  }
+]

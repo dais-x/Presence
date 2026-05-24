@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 718
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 891
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1447
+  },
+  {
+    "type": "speech",
+    "text": "我食豆漿跟油條。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母無恙，佇菜市仔買東西去。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣在家，應該在看報紙。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 635
+  },
+  {
+    "type": "speech",
+    "text": "今日天氣好啊，想說後頭要去公園走一陣。"
+  },
+  {
+    "type": "speech",
+    "text": "你說幾號咧，彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...啦，想袂起來。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 529
+  }
+]

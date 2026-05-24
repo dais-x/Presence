@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起，先洗面，然後食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 604
+  },
+  {
+    "type": "speech",
+    "text": "欲去菜市仔買點東西，整理一下厝內物事咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 686
+  },
+  {
+    "type": "speech",
+    "text": "那個包包啊，應該袂要忘，攏準備好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "要去阿母那裡一趟，講伊最近如何。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔都大啦，誠是足個職員囝仔。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...按呢先轉去買菜，那個食料啦，齁。"
+  }
+]

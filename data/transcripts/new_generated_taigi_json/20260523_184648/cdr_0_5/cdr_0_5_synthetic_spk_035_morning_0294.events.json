@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_morning_0294",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起來，先去洗面， [停頓] 然後煮個飯食，那個...菜啊就簡單幾樣。整理一下厝裡物件，準備轉去菜市仔買菜咧。 [停頓] 想袂起來要買啥物，那個...嗯...就隨便啦。買完菜回來就要洗碗，準備午飯。 [咳嗽] 按呢閣要去鄰居家閒話桑，有啥事無？齁，咧講著去菜市仔買菜的事嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來，先去洗面，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 952
+    },
+    {
+      "type": "speech",
+      "text": "然後煮個飯食，那個...菜啊就簡單幾樣。整理一下厝裡物件，準備轉去菜市仔買菜咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來要買啥物，那個...嗯...就隨便啦。買完菜回來就要洗碗，準備午飯。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 681
+    },
+    {
+      "type": "speech",
+      "text": "按呢閣要去鄰居家閒話桑，有啥事無？齁，咧講著去菜市仔買菜的事嘛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2152,
+    "mean_pause_ms": 1076.0,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 0.92
+}

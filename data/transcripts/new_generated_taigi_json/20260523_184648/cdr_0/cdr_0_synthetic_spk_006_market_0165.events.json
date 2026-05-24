@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_006_market_0165",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早上去菜市仔買菜咧，買了幾樣蔬菜啦，有青江菜、高麗菜，還有那個地瓜。攤販賣我伊人好親切齁，問我欲袂欲多買一些菜回去。我說毋知要煮啥物菜啊，就先買這些好了。轉去厝內咧，阿母問我菜有無買足夠，我就跟她說有啦。 [停頓] 灶跤上已經擺好幾盤洗乾淨的蔬菜，看伊誠愛吃青江菜。孫仔今暝應該會回來食飯，我就先煮個湯給佇啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早上去菜市仔買菜咧，買了幾樣蔬菜啦，有青江菜、高麗菜，還有那個地瓜。攤販賣我伊人好親切齁，問我欲袂欲多買一些菜回去。我說毋知要煮啥物菜啊，就先買這些好了。轉去厝內咧，阿母問我菜有無買足夠，我就跟她說有啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 539
+    },
+    {
+      "type": "speech",
+      "text": "灶跤上已經擺好幾盤洗乾淨的蔬菜，看伊誠愛吃青江菜。孫仔今暝應該會回來食飯，我就先煮個湯給佇啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 539,
+    "mean_pause_ms": 539.0,
+    "speech_char_count": 152
+  },
+  "speech_rate_target": 1.0
+}

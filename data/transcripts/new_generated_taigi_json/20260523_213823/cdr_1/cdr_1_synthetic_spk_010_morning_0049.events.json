@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先去洗面，然後就食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 982
+  },
+  {
+    "type": "speech",
+    "text": "欲轉去菜市仔買菜，佇厝裡整理一下物件，彼個...彼個叫啥啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1040
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，就是那個包包啦，攏要帶著出門。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1261
+  },
+  {
+    "type": "speech",
+    "text": "有時候會忘記攏講啥物咧，齁，就這樣子囝。"
+  },
+  {
+    "type": "speech",
+    "text": "要去菜市仔買些蔬菜水果，然後轉去朋友家咧。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，今早應該要去啦。"
+  }
+]

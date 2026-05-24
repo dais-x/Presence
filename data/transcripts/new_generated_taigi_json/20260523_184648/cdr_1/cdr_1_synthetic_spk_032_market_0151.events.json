@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_032_market_0151",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，彼個攤販ㄟ雞肉好乾淨齁，我就想袂起來那個啥物叫？ [停頓] 那個雞腿咧，我買兩隻啊，一隻留著按呢，一隻去給阿母食。 [長停頓] 佇家裡頭，孫仔啦，他今早有無轉去學校啊？ [嘆氣] 我想袂起來伊今早有無轉去，那個彼個...彼個叫啥？ [咳嗽] 想袂起來啦。菜市仔咧我去買菜啦，阿爸ㄟ時候，佇家裡頭，孫仔啦，他今早有無轉去學校啊？ [長停頓] 嗯，想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，彼個攤販ㄟ雞肉好乾淨齁，我就想袂起來那個啥物叫？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1134
+    },
+    {
+      "type": "speech",
+      "text": "那個雞腿咧，我買兩隻啊，一隻留著按呢，一隻去給阿母食。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2174
+    },
+    {
+      "type": "speech",
+      "text": "佇家裡頭，孫仔啦，他今早有無轉去學校啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1088
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來伊今早有無轉去，那個彼個...彼個叫啥？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1066
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。菜市仔咧我去買菜啦，阿爸ㄟ時候，佇家裡頭，孫仔啦，他今早有無轉去學校啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1608
+    },
+    {
+      "type": "speech",
+      "text": "嗯，想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4916,
+    "mean_pause_ms": 1638.67,
+    "speech_char_count": 158
+  },
+  "speech_rate_target": 0.85
+}

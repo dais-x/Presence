@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_029_market_0248",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個阿母講著伊要去買阮食飯的料咧。攤販賣魚咧，伊說伊欲買個虱目魚做湯給孫仔吃。 [停頓] 那個...想袂起來昨日有無買到好料。那個攤販聽伊講虱目魚咧，就推薦伊去後街那間賣較便宜的。那個...嗯，阮去啦，結果咧，菜市仔人好多，阿爸講著說要去轉去等一下子再來。齁，買完啦，今仔日做的菜還不錯啦。 [嘆氣] 那個...按呢就轉去厝內做飯囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個阿母講著伊要去買阮食飯的料咧。攤販賣魚咧，伊說伊欲買個虱目魚做湯給孫仔吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 646
+    },
+    {
+      "type": "speech",
+      "text": "那個...想袂起來昨日有無買到好料。那個攤販聽伊講虱目魚咧，就推薦伊去後街那間賣較便宜的。那個...嗯，阮去啦，結果咧，菜市仔人好多，阿爸講著說要去轉去等一下子再來。齁，買完啦，今仔日做的菜還不錯啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1179
+    },
+    {
+      "type": "speech",
+      "text": "那個...按呢就轉去厝內做飯囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 646,
+    "mean_pause_ms": 646.0,
+    "speech_char_count": 166
+  },
+  "speech_rate_target": 0.92
+}

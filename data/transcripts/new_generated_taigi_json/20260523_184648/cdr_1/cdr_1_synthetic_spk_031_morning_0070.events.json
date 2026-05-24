@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_031_morning_0070",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來囉，先去洗面，然後煮飯食， [停頓] 那個菜啊，就是想袂起來，那個啥物，對啦，青江菜，青江菜就攏有咧，再來就是整理一下包包，準備要出門，去菜市仔買菜，包包裡頭按呢都攏有備妥囉， [停頓] 早餐吃啥，吃稀飯啦，加個蛋，那個，對啦，蛋，蛋咧，今早有煮咧，就是想袂起來，那個菜啊，就恁樣子準備好，然後轉去菜市仔買菜， [長停頓] 找袂到伊，是說包包裡頭的東西，包包咧，按呢都攏有啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來囉，先去洗面，然後煮飯食，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1003
+    },
+    {
+      "type": "speech",
+      "text": "那個菜啊，就是想袂起來，那個啥物，對啦，青江菜，青江菜就攏有咧，再來就是整理一下包包，準備要出門，去菜市仔買菜，包包裡頭按呢都攏有備妥囉，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 960
+    },
+    {
+      "type": "speech",
+      "text": "早餐吃啥，吃稀飯啦，加個蛋，那個，對啦，蛋，蛋咧，今早有煮咧，就是想袂起來，那個菜啊，就恁樣子準備好，然後轉去菜市仔買菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1770
+    },
+    {
+      "type": "speech",
+      "text": "找袂到伊，是說包包裡頭的東西，包包咧，按呢都攏有啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 7,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 5
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3733,
+    "mean_pause_ms": 1244.33,
+    "speech_char_count": 177
+  },
+  "speech_rate_target": 0.85
+}

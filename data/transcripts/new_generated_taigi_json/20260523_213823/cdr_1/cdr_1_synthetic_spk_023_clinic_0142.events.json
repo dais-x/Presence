@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1336
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 695
+  },
+  {
+    "type": "speech",
+    "text": "那個啥物來著咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1083
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1170
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，那個就是... 有食飯啦齁，應該是。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "佇厝裡頭，孫仔咧學講話咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1061
+  },
+  {
+    "type": "speech",
+    "text": "阿母說伊誠可愛哦，阿爸閣在菜市仔買菜去嘞。"
+  },
+  {
+    "type": "speech",
+    "text": "其他嘛...就這樣啦。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  }
+]

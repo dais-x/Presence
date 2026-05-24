@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_018_market_0217",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，彼個...彼個阿婆叫啥物？ [停頓] 想袂起來啦，就是賣青菜伊齁。我講伊菜好好吃，伊咧笑著給我多加幾根蔥，說免錢嘸？齁，我就謝謝伊咧。然後我又去買魚，彼個阿伯咧賣魚，他問我要啥物？我就講要一條虱目魚啦，就是要做咸魚配飯食，齁，然後我就轉去厝內，準備做午頓飯囉。 [長停頓] 唉，今仔日買的菜好多啊，明天應該毋需要再去菜市仔了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，彼個...彼個阿婆叫啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 937
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，就是賣青菜伊齁。我講伊菜好好吃，伊咧笑著給我多加幾根蔥，說免錢嘸？齁，我就謝謝伊咧。然後我又去買魚，彼個阿伯咧賣魚，他問我要啥物？我就講要一條虱目魚啦，就是要做咸魚配飯食，齁，然後我就轉去厝內，準備做午頓飯囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1972
+    },
+    {
+      "type": "speech",
+      "text": "唉，今仔日買的菜好多啊，明天應該毋需要再去菜市仔了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2909,
+    "mean_pause_ms": 1454.5,
+    "speech_char_count": 162
+  },
+  "speech_rate_target": 0.85
+}

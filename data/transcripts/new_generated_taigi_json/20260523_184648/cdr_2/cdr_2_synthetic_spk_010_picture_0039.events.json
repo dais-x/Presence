@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_010_picture_0039",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日菜市仔人袂多，那個阿母攏去咧。 [停頓] 阿母欲買菜，可是佇家裡頭閣有菜。 [長停頓] 嗑嗽... 炒米粉好食齁，今朝早伊就吃恁一盤。 [嘆氣] 按呢孫仔佢幾大咧？ [沉默] 阿母以前袂知做飯，現在學會啦。 [停頓] 噁，頭痛欲死，那個阿爸無攏來看我。 [長停頓] 今朝早伊吃啥物？按呢啊... [停頓] 攝影機咧有佇家裡頭，伊去拿著相本啦。 [沉默] 阿母以前恁愛講故事，現在講袂出來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日菜市仔人袂多，那個阿母攏去咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1449
+    },
+    {
+      "type": "speech",
+      "text": "阿母欲買菜，可是佇家裡頭閣有菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4103
+    },
+    {
+      "type": "speech",
+      "text": "嗑嗽... 炒米粉好食齁，今朝早伊就吃恁一盤。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1150
+    },
+    {
+      "type": "speech",
+      "text": "按呢孫仔佢幾大咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4340
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前袂知做飯，現在學會啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1288
+    },
+    {
+      "type": "speech",
+      "text": "噁，頭痛欲死，那個阿爸無攏來看我。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3772
+    },
+    {
+      "type": "speech",
+      "text": "今朝早伊吃啥物？按呢啊..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1285
+    },
+    {
+      "type": "speech",
+      "text": "攝影機咧有佇家裡頭，伊去拿著相本啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3505
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前恁愛講故事，現在講袂出來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 19742,
+    "mean_pause_ms": 2820.29,
+    "speech_char_count": 147
+  },
+  "speech_rate_target": 0.75
+}

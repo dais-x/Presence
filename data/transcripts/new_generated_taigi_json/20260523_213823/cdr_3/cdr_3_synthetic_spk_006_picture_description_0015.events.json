@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 阿母閣欲去囝仔厝？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3931
+  },
+  {
+    "type": "speech",
+    "text": "按呢咧煮飯啊..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3179
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1253
+  },
+  {
+    "type": "speech",
+    "text": "囝仔，彼個食飯未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3725
+  },
+  {
+    "type": "speech",
+    "text": "天氣袂好... 冷啦... 應該著厚衫才對... 蔬菜價錢高... 阿母毋知伊攏欲去哪呢..."
+  }
+]

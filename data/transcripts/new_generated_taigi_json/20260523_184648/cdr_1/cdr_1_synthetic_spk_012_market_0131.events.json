@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_012_market_0131",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，彼個攤販咧賣青菜，彼個啥物？想袂起來啦，就是那個綠色的蔬菜齁。 [停頓] 買佇伊那攤，伊閣誠好好講話，問我欲食啥東西，我就說今晡晚想吃青菜湯，伊就給我揀好几種青菜。買好咧轉去厝內，伊啦，孫仔來拜訪我， [長停頓] 那個彼個叫啥？孫仔的阿母齁，那個彼個叫啥？啊，記袂起來啦。 [嘆氣] 那個彼個叫啥？就講到一半想袂起來啦，攏欲這樣，頭腦越來越壞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，彼個攤販咧賣青菜，彼個啥物？想袂起來啦，就是那個綠色的蔬菜齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1148
+    },
+    {
+      "type": "speech",
+      "text": "買佇伊那攤，伊閣誠好好講話，問我欲食啥東西，我就說今晡晚想吃青菜湯，伊就給我揀好几種青菜。買好咧轉去厝內，伊啦，孫仔來拜訪我，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1696
+    },
+    {
+      "type": "speech",
+      "text": "那個彼個叫啥？孫仔的阿母齁，那個彼個叫啥？啊，記袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 632
+    },
+    {
+      "type": "speech",
+      "text": "那個彼個叫啥？就講到一半想袂起來啦，攏欲這樣，頭腦越來越壞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 14,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2844,
+    "mean_pause_ms": 1422.0,
+    "speech_char_count": 163
+  },
+  "speech_rate_target": 0.85
+}

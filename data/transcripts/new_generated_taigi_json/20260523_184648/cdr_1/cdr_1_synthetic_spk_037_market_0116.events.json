@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_037_market_0116",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啊，那個攤販賣著蔬菜咧，我就問伊番茄幾錢一斤啦。彼個...彼個叫啥物來？ [停頓] 想袂起來啦，就是那個豆子咧。攤販講說豆子兩百塊一斤啦，我買了一斤咧。然後我去肉攤，阿婆賣著豬肉啊，我就講說給我切幾塊瘦肉啦。今仔日菜市仔人真多啊，好多人都在買菜啦。 [停頓] 我轉去厝內，就開始準備食飯啦。 [嘆氣] 阿母講說她想吃阿婆賣的豬肉啦，我就留幾塊給伊嚕。然後我就在灶跤煮湯咧，那個味道真好啊。今仔日買菜真的很愉快啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啊，那個攤販賣著蔬菜咧，我就問伊番茄幾錢一斤啦。彼個...彼個叫啥物來？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1020
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，就是那個豆子咧。攤販講說豆子兩百塊一斤啦，我買了一斤咧。然後我去肉攤，阿婆賣著豬肉啊，我就講說給我切幾塊瘦肉啦。今仔日菜市仔人真多啊，好多人都在買菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1474
+    },
+    {
+      "type": "speech",
+      "text": "我轉去厝內，就開始準備食飯啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 870
+    },
+    {
+      "type": "speech",
+      "text": "阿母講說她想吃阿婆賣的豬肉啦，我就留幾塊給伊嚕。然後我就在灶跤煮湯咧，那個味道真好啊。今仔日買菜真的很愉快啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2494,
+    "mean_pause_ms": 1247.0,
+    "speech_char_count": 198
+  },
+  "speech_rate_target": 0.85
+}

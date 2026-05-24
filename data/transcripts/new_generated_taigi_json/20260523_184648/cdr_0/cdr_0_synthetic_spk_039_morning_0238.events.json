@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_039_morning_0238",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_039",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗面，然後就去菜市仔買點東西來著。回來後先準備一下要帶出去的東西，包包咧放攏啦。 [停頓] 食飯時候是簡單吃幾口，因為中午要去朋友家拜訪嘛。出門前有再檢查一下包包，確定無漏掉啥物重要嘍。欲去公園走一陣子，跟老友聚會一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗面，然後就去菜市仔買點東西來著。回來後先準備一下要帶出去的東西，包包咧放攏啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 461
+    },
+    {
+      "type": "speech",
+      "text": "食飯時候是簡單吃幾口，因為中午要去朋友家拜訪嘛。出門前有再檢查一下包包，確定無漏掉啥物重要嘍。欲去公園走一陣子，跟老友聚會一下。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 461,
+    "mean_pause_ms": 461.0,
+    "speech_char_count": 112
+  },
+  "speech_rate_target": 1.0
+}

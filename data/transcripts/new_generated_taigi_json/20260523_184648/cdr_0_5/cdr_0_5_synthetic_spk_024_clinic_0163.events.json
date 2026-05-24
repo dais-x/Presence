@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_024_clinic_0163",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？那個...想袂起來啦。早飯有食啥物？喔，食了碗稀飯加鹹蛋咧。阿母佇厝齁，按呢個時候應該要轉去做菜囉。那個伊有無出去買菜？嗯，好像有去菜市仔買菜啦。 [停頓] 家裡有無發生啥代誌？喔，就是孫仔放假返來探望伊老祖公咧。 [停頓] 啊，今早孫仔還攏袂忘記帶個禮物給阿母。誠好，今天就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？那個...想袂起來啦。早飯有食啥物？喔，食了碗稀飯加鹹蛋咧。阿母佇厝齁，按呢個時候應該要轉去做菜囉。那個伊有無出去買菜？嗯，好像有去菜市仔買菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1175
+    },
+    {
+      "type": "speech",
+      "text": "家裡有無發生啥代誌？喔，就是孫仔放假返來探望伊老祖公咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "啊，今早孫仔還攏袂忘記帶個禮物給阿母。誠好，今天就這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2375,
+    "mean_pause_ms": 1187.5,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.92
+}

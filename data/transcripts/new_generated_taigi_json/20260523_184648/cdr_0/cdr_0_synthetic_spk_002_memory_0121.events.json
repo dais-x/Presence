@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_002_memory_0121",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我心想著以前少年時陣的生活就袂停歎息。當年我讀冊嘞時候，天天都欲早起去菜市仔買菜，那個時候阿母咧總是叫我去幫伊拿東西。農忙的時候，厝內長輩閣會一起去田裡做工，大家攏誠實做工，互相幫忙。 [停頓] 我還記得當年伊們咧講話都袂那麼快，慢慢來，仔細聽伊講的話。啊，那個時候的生活真好，雖然辛苦啦，但是大家都足攏在一起。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我心想著以前少年時陣的生活就袂停歎息。當年我讀冊嘞時候，天天都欲早起去菜市仔買菜，那個時候阿母咧總是叫我去幫伊拿東西。農忙的時候，厝內長輩閣會一起去田裡做工，大家攏誠實做工，互相幫忙。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 408
+    },
+    {
+      "type": "speech",
+      "text": "我還記得當年伊們咧講話都袂那麼快，慢慢來，仔細聽伊講的話。啊，那個時候的生活真好，雖然辛苦啦，但是大家都足攏在一起。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 408,
+    "mean_pause_ms": 408.0,
+    "speech_char_count": 159
+  },
+  "speech_rate_target": 1.0
+}

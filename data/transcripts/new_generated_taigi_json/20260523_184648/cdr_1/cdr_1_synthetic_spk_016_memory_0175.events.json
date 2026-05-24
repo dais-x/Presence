@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_016_memory_0175",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，我記得少年時陣，每早五點就起來做工啦。按呢彼個農忙時期，伊阿爸會叫我去菜市仔幫佇攤販看顧咧。彼個地名我講袂出來齁，想袂起來啦。 [停頓] 當然囝仔時陣有讀冊唸書啊，不過彼個...彼個學校我忘記囉。按呢伊常會去幫阿母炊飯，菜市仔佇厝邊口咧。 [長停頓] 想起來彼個孫仔還小啦，現在應該大囝了齁。 [嘆氣] 那個時陣真快，彼個年代講袂出來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，我記得少年時陣，每早五點就起來做工啦。按呢彼個農忙時期，伊阿爸會叫我去菜市仔幫佇攤販看顧咧。彼個地名我講袂出來齁，想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1140
+    },
+    {
+      "type": "speech",
+      "text": "當然囝仔時陣有讀冊唸書啊，不過彼個...彼個學校我忘記囉。按呢伊常會去幫阿母炊飯，菜市仔佇厝邊口咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1647
+    },
+    {
+      "type": "speech",
+      "text": "想起來彼個孫仔還小啦，現在應該大囝了齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1380
+    },
+    {
+      "type": "speech",
+      "text": "那個時陣真快，彼個年代講袂出來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2787,
+    "mean_pause_ms": 1393.5,
+    "speech_char_count": 159
+  },
+  "speech_rate_target": 0.85
+}

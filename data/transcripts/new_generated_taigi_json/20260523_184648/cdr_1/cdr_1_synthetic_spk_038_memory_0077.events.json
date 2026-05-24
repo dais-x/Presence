@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_038_memory_0077",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣誠好啊，我想到少年時陣嘸。彼個時候唸冊咧，每天早早就起來去菜市仔買菜，因為阿母會叫我去買。當時伊袂在，我就攏自己做。彼個...彼個老闆娘咧，那個賣肉的，伊人緣誠好，大家都叫伊「肉阿姨」啦。想袂起來伊長啥樣，但記憶中伊咧笑靨靨儂的。 [停頓] 認識好多朋友啊，大家會一起玩。還有農忙時候咧，全家人都要去田裡做工，那個辛苦嘸，但是想到今仔日生活，當初那陣子都算簡單啦。那個...彼個阿爸閣有啥事體做？就是講伊會去攤販市場擺攤，賣些啥物小吃。 [長停頓] 想袂起來咧，不過誠久以前的事囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣誠好啊，我想到少年時陣嘸。彼個時候唸冊咧，每天早早就起來去菜市仔買菜，因為阿母會叫我去買。當時伊袂在，我就攏自己做。彼個...彼個老闆娘咧，那個賣肉的，伊人緣誠好，大家都叫伊「肉阿姨」啦。想袂起來伊長啥樣，但記憶中伊咧笑靨靨儂的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1149
+    },
+    {
+      "type": "speech",
+      "text": "認識好多朋友啊，大家會一起玩。還有農忙時候咧，全家人都要去田裡做工，那個辛苦嘸，但是想到今仔日生活，當初那陣子都算簡單啦。那個...彼個阿爸閣有啥事體做？就是講伊會去攤販市場擺攤，賣些啥物小吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1854
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來咧，不過誠久以前的事囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3003,
+    "mean_pause_ms": 1501.5,
+    "speech_char_count": 233
+  },
+  "speech_rate_target": 0.85
+}

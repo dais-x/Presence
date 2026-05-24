@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_family_0218",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯，孫仔也來咧，大家都坐佇灶跤邊講話。伊們聊著學校跟工作的事，我阿母就講起以前的生活。 [停頓] 我說：「恁阮那個時候，沒有那麼多東西可以玩，但是大家還是很開心啊。」囝仔聽了就笑說：「現在的科技真是方便好多啦！」孫仔則是問我當年吃啥物早餐，我就講：「當時就是簡單食幾口飯跟菜唄，不像現在有那麼多選擇。」孫仔咧點頭，說：「阿公，今後要記得常常來我們家食飯啊。 [停頓] 我就答應伊啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯，孫仔也來咧，大家都坐佇灶跤邊講話。伊們聊著學校跟工作的事，我阿母就講起以前的生活。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 222
+    },
+    {
+      "type": "speech",
+      "text": "我說：「恁阮那個時候，沒有那麼多東西可以玩，但是大家還是很開心啊。」囝仔聽了就笑說：「現在的科技真是方便好多啦！」孫仔則是問我當年吃啥物早餐，我就講：「當時就是簡單食幾口飯跟菜唄，不像現在有那麼多選擇。」孫仔咧點頭，說：「阿公，今後要記得常常來我們家食飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 562
+    },
+    {
+      "type": "speech",
+      "text": "我就答應伊啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 784,
+    "mean_pause_ms": 392.0,
+    "speech_char_count": 189
+  },
+  "speech_rate_target": 1.0
+}

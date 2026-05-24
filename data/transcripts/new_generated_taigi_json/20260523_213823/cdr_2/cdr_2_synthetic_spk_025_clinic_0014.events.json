@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1288
+  },
+  {
+    "type": "speech",
+    "text": "我記無了啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1191
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2462
+  },
+  {
+    "type": "speech",
+    "text": "那個…"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1226
+  },
+  {
+    "type": "speech",
+    "text": "炒麵囝仔阿母煮咧，好吃齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1920
+  },
+  {
+    "type": "speech",
+    "text": "嚟厝啦，孫仔伊來拜望我，誠歡喜。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 720
+  },
+  {
+    "type": "speech",
+    "text": "阿爸他咧？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，過世啦。"
+  },
+  {
+    "type": "speech",
+    "text": "以前阿爸還活著，咱會去菜市仔買菜，攏共行。"
+  },
+  {
+    "type": "speech",
+    "text": "無啥代誌，無啥代誌。"
+  },
+  {
+    "type": "speech",
+    "text": "我今早食飯袂餓，恁知足嘛？"
+  }
+]

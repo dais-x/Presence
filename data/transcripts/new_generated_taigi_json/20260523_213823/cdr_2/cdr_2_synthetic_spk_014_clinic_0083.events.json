@@ -1,0 +1,74 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1676
+  },
+  {
+    "type": "speech",
+    "text": "按呢毋知啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2586
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1370
+  },
+  {
+    "type": "speech",
+    "text": "伊去菜市仔欲買物資。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1406
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 957
+  },
+  {
+    "type": "speech",
+    "text": "有花生粥，那個阿爸愛吃。"
+  },
+  {
+    "type": "speech",
+    "text": "攚啦，以前佇鄉下，早起就搥米。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1034
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧無去學校啊？"
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢，食飯要去哪攏去，厝裡無人煮。"
+  },
+  {
+    "type": "speech",
+    "text": "閣足阿爸來煮，但伊無會煮啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 944
+  },
+  {
+    "type": "speech",
+    "text": "攚啦，就是以前有好多囝仔，現在無啦。"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_038_clinic_0197",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我無特別記著。（ [停頓] ）早晡時有去菜市仔買菜囉。食早飯時有吃粥咧，還有花生湯。按呢安厝裡頭嘛，啥物代誌都還好啦。孫仔前一陣子來過一次，說是有唸書壓力，叫伊多休息一下就好。（ [停頓] ）唉，阿爸最近好像有點兒感冒，有去藥局買藥咧。我咧，就是每天煮飯、做家務，生活嘛還算順利啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我無特別記著。（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 370
+    },
+    {
+      "type": "speech",
+      "text": "）早晡時有去菜市仔買菜囉。食早飯時有吃粥咧，還有花生湯。按呢安厝裡頭嘛，啥物代誌都還好啦。孫仔前一陣子來過一次，說是有唸書壓力，叫伊多休息一下就好。（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "text": "）唉，阿爸最近好像有點兒感冒，有去藥局買藥咧。我咧，就是每天煮飯、做家務，生活嘛還算順利啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 970,
+    "mean_pause_ms": 485.0,
+    "speech_char_count": 136
+  },
+  "speech_rate_target": 1.0
+}

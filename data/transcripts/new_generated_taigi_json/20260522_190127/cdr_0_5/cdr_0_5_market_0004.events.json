@@ -1,0 +1,48 @@
+{
+  "sample_id": "cdr_0_5_market_0004",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "spoken_transcript": "今仔日我轉去菜市仔買菜，那個攤販咧賣啥物我都想袂起來啦 [停頓] 就是伊賣的菜很新鮮，按呢我就買了幾樣回家。嗯，我有袂記得要買什麼，可是買到一半又想起啦 [停頓] 齁，轉去厝內，食飯咧也很方便",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我轉去菜市仔買菜，那個攤販咧賣啥物我都想袂起來啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "text": "就是伊賣的菜很新鮮，按呢我就買了幾樣回家。嗯，我有袂記得要買什麼，可是買到一半又想起啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "齁，轉去厝內，食飯咧也很方便"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1200,
+    "mean_pause_ms": 600.0,
+    "speech_char_count": 84
+  },
+  "speech_rate_target": 0.92
+}

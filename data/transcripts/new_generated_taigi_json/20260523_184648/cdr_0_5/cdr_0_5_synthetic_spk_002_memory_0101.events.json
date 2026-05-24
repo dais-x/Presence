@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_002_memory_0101",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，那個我年輕時陣咧，每天早早就起床去菜市仔買菜，然後回家煮飯給阿爸食。學校下課後，就返家做功課，有時會幫阿母搧風扇、洗碗。暑假啦就去田裡割稻，那個農忙的時節袂好過啊，整天都在曬太陽咧，想袂起來伊叫啥物來著... [停頓] 那個就是田裡幹活嘛啦，還要做好多家務，不過閣開心啦。學校讀冊也有趣，那個數學題目難到我頭痛，英文老師咧總是講一堆規矩，唉～ [嘆氣] 還有那個鄰居阿婆，常叫我去她厝內聊天，說些八卦話啦，那個時光真是好懷念啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，那個我年輕時陣咧，每天早早就起床去菜市仔買菜，然後回家煮飯給阿爸食。學校下課後，就返家做功課，有時會幫阿母搧風扇、洗碗。暑假啦就去田裡割稻，那個農忙的時節袂好過啊，整天都在曬太陽咧，想袂起來伊叫啥物來著..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "那個就是田裡幹活嘛啦，還要做好多家務，不過閣開心啦。學校讀冊也有趣，那個數學題目難到我頭痛，英文老師咧總是講一堆規矩，唉～"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 970
+    },
+    {
+      "type": "speech",
+      "text": "還有那個鄰居阿婆，常叫我去她厝內聊天，說些八卦話啦，那個時光真是好懷念啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1030,
+    "mean_pause_ms": 1030.0,
+    "speech_char_count": 210
+  },
+  "speech_rate_target": 0.92
+}

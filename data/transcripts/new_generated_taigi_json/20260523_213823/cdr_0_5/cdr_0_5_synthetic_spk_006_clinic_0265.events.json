@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 744
+  },
+  {
+    "type": "speech",
+    "text": "咱早頭食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 682
+  },
+  {
+    "type": "speech",
+    "text": "按呢個月咱家裡發生啥代誌咧？"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 那個早頭，咱食白飯配鹹菜，啦，再加點豆腐乳。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢個月，阿母身體不太好，伊要去看醫生， 噗，就是這樣子。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，今仔日幾號啊？"
+  }
+]

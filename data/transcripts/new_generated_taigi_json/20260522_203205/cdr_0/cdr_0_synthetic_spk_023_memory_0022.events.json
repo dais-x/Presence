@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_023_memory_0022",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日無啥物好想著，講到以前唸冊那陣的事才想起來。我阿母個厝佇鄉下，阿爸每日都要去菜市仔買菜。恁時辰讀冊時間長咧，有時同鄰居個囝仔一齊去學校，那個時候老師會叫我們做功課，講故事。 [停頓] 農忙的時候我就要去田裡幫忙，種稻榖、割稻，很辛苦的啦。放假後有時也會跟朋友去河裡戲水，真是好多好記憶齁",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日無啥物好想著，講到以前唸冊那陣的事才想起來。我阿母個厝佇鄉下，阿爸每日都要去菜市仔買菜。恁時辰讀冊時間長咧，有時同鄰居個囝仔一齊去學校，那個時候老師會叫我們做功課，講故事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "text": "農忙的時候我就要去田裡幫忙，種稻榖、割稻，很辛苦的啦。放假後有時也會跟朋友去河裡戲水，真是好多好記憶齁"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 450,
+    "mean_pause_ms": 450.0,
+    "speech_char_count": 140
+  },
+  "speech_rate_target": 1.0
+}

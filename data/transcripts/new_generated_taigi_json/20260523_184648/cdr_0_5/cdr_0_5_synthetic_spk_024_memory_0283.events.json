@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_024_memory_0283",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好，我就好想著年輕時陣的事情。那個時候啊，阿母叫我去菜市仔買菜，我就跟伊講說欲去讀冊囝仔會的。 [停頓] 然後呢，就去學校咧，老師教我們好多東西。那個農忙時期，早起晚睡，天剛亮就要到田裡做工。 [停頓] 那個時候啊，伊們幾個朋友一起做工，講話無間，好快活。然後呢，放假時陣，就跑去公園同鄰居的囝仔玩飛盤。啊，那個飛盤咧，現在都無看袂到了。 [嘆氣] 就是這樣啦，歲月真是快過。 [咳嗽] 那個時候，阿爸會教我們種菜，菜園裡頭種好多蔬菜，自家食袂完咧，就拿去賣給鄰居。齁，現在人少，農忙時陣都無那樣熱鬧了。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，我就好想著年輕時陣的事情。那個時候啊，阿母叫我去菜市仔買菜，我就跟伊講說欲去讀冊囝仔會的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1043
+    },
+    {
+      "type": "speech",
+      "text": "然後呢，就去學校咧，老師教我們好多東西。那個農忙時期，早起晚睡，天剛亮就要到田裡做工。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啊，伊們幾個朋友一起做工，講話無間，好快活。然後呢，放假時陣，就跑去公園同鄰居的囝仔玩飛盤。啊，那個飛盤咧，現在都無看袂到了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1394
+    },
+    {
+      "type": "speech",
+      "text": "就是這樣啦，歲月真是快過。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 757
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，阿爸會教我們種菜，菜園裡頭種好多蔬菜，自家食袂完咧，就拿去賣給鄰居。齁，現在人少，農忙時陣都無那樣熱鬧了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 859
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3102,
+    "mean_pause_ms": 1034.0,
+    "speech_char_count": 233
+  },
+  "speech_rate_target": 0.92
+}

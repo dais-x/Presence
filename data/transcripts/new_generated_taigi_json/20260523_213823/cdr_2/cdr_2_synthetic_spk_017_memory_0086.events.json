@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天色真好啊，我年輕時陣常跟阿爸去菜市仔買菜"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2116
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1384
+  },
+  {
+    "type": "speech",
+    "text": "，那個時候袂有手機咧，欲想伊就只能等伊回來囝。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1037
+  },
+  {
+    "type": "speech",
+    "text": "我讀冊時陣天天早起，煮飯吃飽才會去學堂唸書啊"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 968
+  },
+  {
+    "type": "cough",
+    "duration_ms": 416
+  },
+  {
+    "type": "speech",
+    "text": "。以前農忙時期攏要帮忙做田工作，現在人老啦，手腳都不俐落啦"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 846
+  },
+  {
+    "type": "speech",
+    "text": "，那個時候食飯真香，菜也多，今仔日就袂知道了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1106
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會煮好多好吃的，現在都吃不到齁"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 611
+  },
+  {
+    "type": "speech",
+    "text": "，那個時候真好啊。"
+  }
+]

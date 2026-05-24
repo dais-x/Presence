@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_022_memory_0181",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，我記得少年時陣農忙時候袂輕鬆。每天早早就轉去田裡做工，菜市仔買米買菜也是個辛苦事體。中午就在田裡簡單食飯攏閣回去，晚上阿母煮飯，一家子圍著食飯講話。讀冊嘛，學校講華語，我們就用台語聊八卦啦、閒話啦。今仔日日子好多事情變咧，但那些時光還真懷念啊。 [停頓] 那時候的人心誠，跟現在不一樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，我記得少年時陣農忙時候袂輕鬆。每天早早就轉去田裡做工，菜市仔買米買菜也是個辛苦事體。中午就在田裡簡單食飯攏閣回去，晚上阿母煮飯，一家子圍著食飯講話。讀冊嘛，學校講華語，我們就用台語聊八卦啦、閒話啦。今仔日日子好多事情變咧，但那些時光還真懷念啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 204
+    },
+    {
+      "type": "speech",
+      "text": "那時候的人心誠，跟現在不一樣。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 204,
+    "mean_pause_ms": 204.0,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 1.0
+}

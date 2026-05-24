@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_017_family_0076",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來食飯，阿母煮了好多菜，囝仔咧笑眯眯講著好想伊。 [停頓] 阿爸欲去菜市仔買魚，那個...買啥物好吃嘸？ [停頓] 想袂起來，不過阿媽應該會安排啦。孫仔咧講話聲很大，真可愛啊！ [咳嗽] 有時想袂起詞來，嗯，就是那個，但是大家還是一樣歡樂。今仔日厝內熱鬧咧，大家都攏開心齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來食飯，阿母煮了好多菜，囝仔咧笑眯眯講著好想伊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 502
+    },
+    {
+      "type": "speech",
+      "text": "阿爸欲去菜市仔買魚，那個...買啥物好吃嘸？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，不過阿媽應該會安排啦。孫仔咧講話聲很大，真可愛啊！"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 861
+    },
+    {
+      "type": "speech",
+      "text": "有時想袂起詞來，嗯，就是那個，但是大家還是一樣歡樂。今仔日厝內熱鬧咧，大家都攏開心齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1702,
+    "mean_pause_ms": 851.0,
+    "speech_char_count": 125
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔跟孫仔轉來厝內食飯，大家都坐佇灶跤邊講話咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1459
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1054
+  },
+  {
+    "type": "speech",
+    "text": "啊，是阿母咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 664
+  },
+  {
+    "type": "speech",
+    "text": "阿爸有無來？"
+  },
+  {
+    "type": "speech",
+    "text": "毋知啦，按呢閣未想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔說要去菜市仔買東西，孫仔就攏在厝內等著。"
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，轉去講啥物話嘞？"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔有講好多話，就是咧。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，今仔日天氣不錯，想去公園遛鳥。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 974
+  },
+  {
+    "type": "speech",
+    "text": "嗯，啦，孫仔想袂起來叫啥個名，按呢咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 492
+  }
+]

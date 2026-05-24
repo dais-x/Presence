@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2371
+  },
+  {
+    "type": "speech",
+    "text": "噐毋知咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1281
+  },
+  {
+    "type": "speech",
+    "text": "按呢食啥物早飯？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 928
+  },
+  {
+    "type": "speech",
+    "text": "伊誠阮阿母煮好食。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2408
+  },
+  {
+    "type": "speech",
+    "text": "阮以前囝仔時候，菜市仔欲攏閣足攤子賣菜。"
+  },
+  {
+    "type": "speech",
+    "text": "那個齁，阮今朝袂曉食啥物，按呢就食粥啦。"
+  },
+  {
+    "type": "speech",
+    "text": "噐無頭緒咧。"
+  },
+  {
+    "type": "speech",
+    "text": "聽說伊轉去阿爸厝咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 863
+  },
+  {
+    "type": "speech",
+    "text": "以前伊袂會這樣。"
+  },
+  {
+    "type": "speech",
+    "text": "真懷念啊。"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久咧，先去洗個面， 想想欲食啥東西，就煮碗稀飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1334
+  },
+  {
+    "type": "speech",
+    "text": "唉，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 737
+  },
+  {
+    "type": "speech",
+    "text": "對囝仔講過，想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 791
+  },
+  {
+    "type": "speech",
+    "text": "乾淨衣服攏有擺好咧，要去菜市仔買個物資啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1186
+  },
+  {
+    "type": "speech",
+    "text": "那個包包閣無整理好齁，要去轉去拿一下啦。"
+  },
+  {
+    "type": "speech",
+    "text": "唉呀，今早欲做啥事情？"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1080
+  },
+  {
+    "type": "speech",
+    "text": "莫管囉，就先出門去就好啦。"
+  }
+]

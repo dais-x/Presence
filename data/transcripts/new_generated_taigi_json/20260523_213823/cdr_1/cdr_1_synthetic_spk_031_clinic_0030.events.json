@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 871
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1482
+  },
+  {
+    "type": "speech",
+    "text": "早飯我食豆漿跟油條囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1540
+  },
+  {
+    "type": "speech",
+    "text": "按呢個星期伊厝裡無啥特別代誌，就是孫仔來過一次咧。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥名字啊，那個孫仔。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 812
+  },
+  {
+    "type": "speech",
+    "text": "阿母講伊無有來過啦，但我記得伊有來過齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1000
+  },
+  {
+    "type": "speech",
+    "text": "其實我也毋知啦，就是這樣子啦。"
+  }
+]

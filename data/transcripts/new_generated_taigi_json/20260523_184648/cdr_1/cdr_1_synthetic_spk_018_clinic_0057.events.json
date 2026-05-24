@@ -1,0 +1,142 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_018_clinic_0057",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_018",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 想袂起來啦。那個是啥物咧？ [停頓] 那個週一、週二...想袂起來啊。早飯食啥？ [停頓] 有無去菜市仔買東西？ [長停頓] [嘆氣] 彼個彼個叫啥，那個水果攤嘞，伊在未咧？ [停頓] 想袂起來啦。按呢厝有無啥代誌？ [停頓] 孫仔來未咧？ [長停頓] 今朝袂見到伊啊。 [咳嗽] 阿母好未咧？ [停頓] 她咧，她應該是在洗衣服齁，那個是啥物咧？ [停頓] 想袂起來啦，就是彼個彼個叫啥，那個是啥物嘞？ [長停頓] [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 982
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。那個是啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1297
+    },
+    {
+      "type": "speech",
+      "text": "那個週一、週二...想袂起來啊。早飯食啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1135
+    },
+    {
+      "type": "speech",
+      "text": "有無去菜市仔買東西？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1879
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 879
+    },
+    {
+      "type": "speech",
+      "text": "彼個彼個叫啥，那個水果攤嘞，伊在未咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 863
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。按呢厝有無啥代誌？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 988
+    },
+    {
+      "type": "speech",
+      "text": "孫仔來未咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2094
+    },
+    {
+      "type": "speech",
+      "text": "今朝袂見到伊啊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 809
+    },
+    {
+      "type": "speech",
+      "text": "阿母好未咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1180
+    },
+    {
+      "type": "speech",
+      "text": "她咧，她應該是在洗衣服齁，那個是啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1025
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，就是彼個彼個叫啥，那個是啥物嘞？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1991
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 947
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 15,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 24,
+    "speech_event_count": 11,
+    "pause_event_count": 10,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 13434,
+    "mean_pause_ms": 1343.4,
+    "speech_char_count": 147
+  },
+  "speech_rate_target": 0.85
+}

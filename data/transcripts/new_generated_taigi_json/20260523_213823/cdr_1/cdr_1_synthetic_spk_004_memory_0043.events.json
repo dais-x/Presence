@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，我阿母叫我去菜市仔買菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1119
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊時候，每早都要起來幫阿爸割稻子咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1308
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個農忙陣，田裡工作好多，伊袂知講啥物咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 681
+  },
+  {
+    "type": "speech",
+    "text": "那時節天天都要轉去學校唸書，那個辛苦啊，就是想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "有時節跟鄰居囝仔一齊玩，按呢個時候最開心齁。"
+  },
+  {
+    "type": "speech",
+    "text": "今早起來就想到以前那些事情，唉呀，真好笑。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 908
+  },
+  {
+    "type": "speech",
+    "text": "那時節阿母煮的飯特別好吃，每次都食好多咧。"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_006_clinic_0125",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我也想袂起來啦。早飯我食啥咧？ [長停頓] 那個菜市仔去欲無呀？那個攤子彼個... 彼個叫啥？想袂起來啦。 [嘆氣] 家裡有啥代誌嘛？孫仔有來欲無？按呢伊咧，按呢伊就轉去齁。孫仔有帶來些什麼咧？嗯... 我也記袂起來啦。 [咳嗽] 今早有食菜粿咧，那個攤子彼個叫啥？想袂起來啦。 [停頓] 那個孫仔咧，按呢閣足幾歲咧？ [長停頓] 誠是幾歲啊？我記袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 871
+    },
+    {
+      "type": "speech",
+      "text": "我也想袂起來啦。早飯我食啥咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1871
+    },
+    {
+      "type": "speech",
+      "text": "那個菜市仔去欲無呀？那個攤子彼個... 彼個叫啥？想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1227
+    },
+    {
+      "type": "speech",
+      "text": "家裡有啥代誌嘛？孫仔有來欲無？按呢伊咧，按呢伊就轉去齁。孫仔有帶來些什麼咧？嗯... 我也記袂起來啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 726
+    },
+    {
+      "type": "speech",
+      "text": "今早有食菜粿咧，那個攤子彼個叫啥？想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 883
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧，按呢閣足幾歲咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2004
+    },
+    {
+      "type": "speech",
+      "text": "誠是幾歲啊？我記袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 12,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5629,
+    "mean_pause_ms": 1407.25,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 0.85
+}

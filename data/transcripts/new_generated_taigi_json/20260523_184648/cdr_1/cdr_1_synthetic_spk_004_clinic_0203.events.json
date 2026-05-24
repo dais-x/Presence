@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_004_clinic_0203",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 嗯，想袂起來，醫師你講一下啦。 [停頓] 早飯食啥物？ [沉默] 那個... 食米粥啊，有菜。 那個菜記得袂清，就是青菜啦。 按呢家裡有啥代誌？ [嘆氣] 佇咧，孫仔放學拉，去菜市仔買東西。 那個，阿母無去，她足欲去。 [咳嗽] 彼個... 彼個叫啥，醫生你知影嗎？ 就是，想袂起來啦，按呢家裡就這樣齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 911
+    },
+    {
+      "type": "speech",
+      "text": "嗯，想袂起來，醫師你講一下啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1315
+    },
+    {
+      "type": "speech",
+      "text": "早飯食啥物？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1643
+    },
+    {
+      "type": "speech",
+      "text": "那個... 食米粥啊，有菜。 那個菜記得袂清，就是青菜啦。 按呢家裡有啥代誌？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1115
+    },
+    {
+      "type": "speech",
+      "text": "佇咧，孫仔放學拉，去菜市仔買東西。 那個，阿母無去，她足欲去。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 696
+    },
+    {
+      "type": "speech",
+      "text": "彼個... 彼個叫啥，醫生你知影嗎？ 就是，想袂起來啦，按呢家裡就這樣齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3869,
+    "mean_pause_ms": 1289.67,
+    "speech_char_count": 135
+  },
+  "speech_rate_target": 0.85
+}

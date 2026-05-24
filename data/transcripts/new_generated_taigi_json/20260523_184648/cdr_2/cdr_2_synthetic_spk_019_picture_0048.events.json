@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_019_picture_0048",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣不錯啊，菜市仔人很多咧，那個按呢伊在買啥物？ [停頓] 以前阿母袂常來菜市仔，都是買好便當回來。 [長停頓] 那個現在想食啥？ [沉默] 豬肝粥咧，那個豬肝粥誠好好吃啊。 [嘆氣] 嚐啦，以前伊攏愛食豬肝粥。 [咳嗽] 阿爸閣在囝仔時候就愛食。 [停頓] 啊，阿母袂知伊在哪裡。 [長停頓] 那個今仔日要轉去厝邊吃飯哦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯啊，菜市仔人很多咧，那個按呢伊在買啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1244
+    },
+    {
+      "type": "speech",
+      "text": "以前阿母袂常來菜市仔，都是買好便當回來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3298
+    },
+    {
+      "type": "speech",
+      "text": "那個現在想食啥？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1980
+    },
+    {
+      "type": "speech",
+      "text": "豬肝粥咧，那個豬肝粥誠好好吃啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1394
+    },
+    {
+      "type": "speech",
+      "text": "嚐啦，以前伊攏愛食豬肝粥。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 642
+    },
+    {
+      "type": "speech",
+      "text": "阿爸閣在囝仔時候就愛食。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1307
+    },
+    {
+      "type": "speech",
+      "text": "啊，阿母袂知伊在哪裡。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3908
+    },
+    {
+      "type": "speech",
+      "text": "那個今仔日要轉去厝邊吃飯哦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 11737,
+    "mean_pause_ms": 2347.4,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.75
+}

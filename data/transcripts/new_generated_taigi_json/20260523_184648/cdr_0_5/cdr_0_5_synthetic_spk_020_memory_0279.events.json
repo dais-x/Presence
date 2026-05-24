@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_020_memory_0279",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣真好，我年輕時陣農忙啊，那個時候每天早早就起囝仔就去田裡做工啦。中午回家食飯，吃完再轉去。當時讀冊也是晚上才做，因為白天要幫阿母做事嘛。 [停頓] 阿爸他咧個話最愛講就是「毋好偷懶」啦。那個...現在想袂起來我小時陣有無幫阿母摘菜啊？應該是有的啦，因為厝內田多啊，菜市仔買菜也不常去。唉呀，讀冊時節真愉快，同學咧個人都很好，就是講話都用台語啦。 [停頓] 噗～ [嘆氣] 現在想想就懷念。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，我年輕時陣農忙啊，那個時候每天早早就起囝仔就去田裡做工啦。中午回家食飯，吃完再轉去。當時讀冊也是晚上才做，因為白天要幫阿母做事嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 870
+    },
+    {
+      "type": "speech",
+      "text": "阿爸他咧個話最愛講就是「毋好偷懶」啦。那個...現在想袂起來我小時陣有無幫阿母摘菜啊？應該是有的啦，因為厝內田多啊，菜市仔買菜也不常去。唉呀，讀冊時節真愉快，同學咧個人都很好，就是講話都用台語啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "噗～"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1047
+    },
+    {
+      "type": "speech",
+      "text": "現在想想就懷念。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2070,
+    "mean_pause_ms": 1035.0,
+    "speech_char_count": 181
+  },
+  "speech_rate_target": 0.92
+}

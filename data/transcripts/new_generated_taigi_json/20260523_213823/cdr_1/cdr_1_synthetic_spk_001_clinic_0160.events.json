@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早晡，我食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1486
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 糖粿咧，再者攏是鹼粽啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 854
+  },
+  {
+    "type": "speech",
+    "text": "彼個彼個叫啥，毋知囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1470
+  },
+  {
+    "type": "speech",
+    "text": "伊欲來著去菜市仔買菜，結果袂有去啦。"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，阿母咧，佇厝裡嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...閣佇呀。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧無攏毋知。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1028
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢是幾月啊？"
+  },
+  {
+    "type": "speech",
+    "text": "二月咧，就是這樣啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 565
+  }
+]

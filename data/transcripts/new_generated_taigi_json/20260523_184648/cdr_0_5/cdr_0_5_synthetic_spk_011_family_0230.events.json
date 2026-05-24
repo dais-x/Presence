@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_011_family_0230",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話。個阿母問伊孫仔欲吃啥物菜，那個... 孫仔說想食湯麵，我教伊怎麼煮啦。 [停頓] 囉個囝仔就咧講話，好像有啥事想著，就是想袂起來齁。 [停頓] 那個時候阿母就跟伊講故事，大家聽著就笑齁。孫仔誠可愛，阿爸說下次要帶伊去菜市仔買材料，按呢陣子天氣好，轉出去散散步也好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話。個阿母問伊孫仔欲吃啥物菜，那個... 孫仔說想食湯麵，我教伊怎麼煮啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 595
+    },
+    {
+      "type": "speech",
+      "text": "囉個囝仔就咧講話，好像有啥事想著，就是想袂起來齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個時候阿母就跟伊講故事，大家聽著就笑齁。孫仔誠可愛，阿爸說下次要帶伊去菜市仔買材料，按呢陣子天氣好，轉出去散散步也好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1795,
+    "mean_pause_ms": 897.5,
+    "speech_char_count": 145
+  },
+  "speech_rate_target": 0.92
+}

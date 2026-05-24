@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_clinic_0058",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？嗯...（ [停頓] ）今天是五月二十五號啦。早餐我食碗稀飯，配個蛋湯，還有幾塊豆腐乳。（）家裡按呢還好啦，阿母無恙，孫仔咧也放假回家來看伊。最近菜市仔的蔬菜價錢袂便宜，買菜的時候要特別注意一下，免得花太多錢啦。 [嘆氣] 那個...嗯...（ [停頓] ）啊，啥物？就是這樣子啦，恁有啥問題要問我咧嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？嗯...（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 201
+    },
+    {
+      "type": "speech",
+      "text": "）今天是五月二十五號啦。早餐我食碗稀飯，配個蛋湯，還有幾塊豆腐乳。（）家裡按呢還好啦，阿母無恙，孫仔咧也放假回家來看伊。最近菜市仔的蔬菜價錢袂便宜，買菜的時候要特別注意一下，免得花太多錢啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1339
+    },
+    {
+      "type": "speech",
+      "text": "那個...嗯...（"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 648
+    },
+    {
+      "type": "speech",
+      "text": "）啊，啥物？就是這樣子啦，恁有啥問題要問我咧嗎？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 849,
+    "mean_pause_ms": 424.5,
+    "speech_char_count": 141
+  },
+  "speech_rate_target": 1.0
+}

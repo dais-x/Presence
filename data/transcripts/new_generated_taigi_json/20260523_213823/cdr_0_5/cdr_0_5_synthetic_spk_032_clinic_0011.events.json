@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 453
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦...那個是哪個星期咧，好像週三齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 645
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 791
+  },
+  {
+    "type": "speech",
+    "text": "我食碗稀飯，加點鹹菜就好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢嘛有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "家裡都攏平順，孫仔去學校囝仔就轉去補習班。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...最近好像無啥特別事體咧。"
+  }
+]

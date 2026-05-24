@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_027_family_0186",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。彼個...彼個叫啥？那個伊是阿母娘家的囝仔咧，按呢轉來，大家就很開心。我欲講伊的孫仔啊，那個孫仔很乖，學什麼都很快，就是會問問題嘛。 [停頓] 彼個有啥物給伊食哦，有買菜去菜市仔啦。今早起來就開始準備啦。嗯...菜色咧足種類，欲讓大家吃得開心啊。孫仔咧誠可愛的，阿母講說伊咧很會笑。 [停頓] 想袂起來彼個孫仔的名字了，就是有啥物叫法？ [嘆氣] 齁，今早囝仔講伊要準備考試啦，真不知道時間怎麼過去的。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，大家都坐佇灶跤邊講話啦。彼個...彼個叫啥？那個伊是阿母娘家的囝仔咧，按呢轉來，大家就很開心。我欲講伊的孫仔啊，那個孫仔很乖，學什麼都很快，就是會問問題嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1077
+    },
+    {
+      "type": "speech",
+      "text": "彼個有啥物給伊食哦，有買菜去菜市仔啦。今早起來就開始準備啦。嗯...菜色咧足種類，欲讓大家吃得開心啊。孫仔咧誠可愛的，阿母講說伊咧很會笑。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1323
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個孫仔的名字了，就是有啥物叫法？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 670
+    },
+    {
+      "type": "speech",
+      "text": "齁，今早囝仔講伊要準備考試啦，真不知道時間怎麼過去的。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 883
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2400,
+    "mean_pause_ms": 1200.0,
+    "speech_char_count": 210
+  },
+  "speech_rate_target": 0.85
+}

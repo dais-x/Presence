@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_morning_0223",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早起袂久，就起來洗面，然後 [停頓] 煮飯吃啦。食完飯後，欲去整理一下厝內物件，彼個...彼個叫啥來著？想袂起來啦。那個梳子咧，摀到啦。然後轉去準備出門，拿包包，還有呢個手錶，戴上去。 [長停頓] 要去菜市仔買菜啊，買菜就是喽，做飯材料要補足嘛。那個昨天伊有講啥來著？記袂起來了啦。齁，先去做菜吧。 [咳嗽] 做完菜後，就去菜市仔買菜嘞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂久，就起來洗面，然後"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1003
+    },
+    {
+      "type": "speech",
+      "text": "煮飯吃啦。食完飯後，欲去整理一下厝內物件，彼個...彼個叫啥來著？想袂起來啦。那個梳子咧，摀到啦。然後轉去準備出門，拿包包，還有呢個手錶，戴上去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1690
+    },
+    {
+      "type": "speech",
+      "text": "要去菜市仔買菜啊，買菜就是喽，做飯材料要補足嘛。那個昨天伊有講啥來著？記袂起來了啦。齁，先去做菜吧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 965
+    },
+    {
+      "type": "speech",
+      "text": "做完菜後，就去菜市仔買菜嘞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2693,
+    "mean_pause_ms": 1346.5,
+    "speech_char_count": 153
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_memory_0138",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，我記得少年時陣，每早伊都要起來種田囝，菜市仔袂開就自己攏要去摘菜來賣。讀冊的時候誠辛苦，書包足重，又無汽車可坐，都係走路去學校。阿母常叫我去幫忙煮飯，灶跤佇厝內閣，食飯咧伊講要等全家按呢才吃。 [停頓] 農忙時候更辛苦，從早到晚都在田裡工作，偶爾會跟鄰居們一起聊天解悶。現在回想起來，那些日子誠是美好啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，我記得少年時陣，每早伊都要起來種田囝，菜市仔袂開就自己攏要去摘菜來賣。讀冊的時候誠辛苦，書包足重，又無汽車可坐，都係走路去學校。阿母常叫我去幫忙煮飯，灶跤佇厝內閣，食飯咧伊講要等全家按呢才吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 234
+    },
+    {
+      "type": "speech",
+      "text": "農忙時候更辛苦，從早到晚都在田裡工作，偶爾會跟鄰居們一起聊天解悶。現在回想起來，那些日子誠是美好啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 234,
+    "mean_pause_ms": 234.0,
+    "speech_char_count": 154
+  },
+  "speech_rate_target": 1.0
+}

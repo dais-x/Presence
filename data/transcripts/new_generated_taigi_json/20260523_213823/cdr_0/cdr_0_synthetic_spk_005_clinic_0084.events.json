@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 293
+  },
+  {
+    "type": "speech",
+    "text": "按呢今早袂想食飯啦。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母昨日跟孫仔去菜市仔買菜咧，孫仔欲吃啥物，阿母就買佇嗚。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢閣好著，無啥代誌啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個，今仔日天氣袂怎樣啊？"
+  },
+  {
+    "type": "speech",
+    "text": "呣是雨啊？"
+  }
+]

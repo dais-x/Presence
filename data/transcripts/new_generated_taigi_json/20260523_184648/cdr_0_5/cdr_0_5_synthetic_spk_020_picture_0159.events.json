@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_020_picture_0159",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日看張圖，咧好多大人攏佇菜市仔買菜。那個 [停頓] 伊阿母袂在講話，閣轉頭望伊孫仔咧。孫仔欲食冰淇淋，按呢就問伊阿母說可以毋可以？ [停頓] 伊阿母想袂起來要答嘛，就拍拍佇伊肩，叫佷囝仔等一下再買啦。齁看起來好似圖內人攏在講代誌，就是那個孫仔講話最明顯啦。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看張圖，咧好多大人攏佇菜市仔買菜。那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 905
+    },
+    {
+      "type": "speech",
+      "text": "伊阿母袂在講話，閣轉頭望伊孫仔咧。孫仔欲食冰淇淋，按呢就問伊阿母說可以毋可以？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "伊阿母想袂起來要答嘛，就拍拍佇伊肩，叫佷囝仔等一下再買啦。齁看起來好似圖內人攏在講代誌，就是那個孫仔講話最明顯啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 608
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 6,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2105,
+    "mean_pause_ms": 1052.5,
+    "speech_char_count": 118
+  },
+  "speech_rate_target": 0.92
+}

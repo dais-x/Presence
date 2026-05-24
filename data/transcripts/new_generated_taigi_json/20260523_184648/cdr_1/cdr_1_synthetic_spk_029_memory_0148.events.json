@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_029_memory_0148",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天气好啊，我想到年轻时阵啦。那时候菜市仔还没现在大咧，我们走去買菜都是走路去啦。 [停頓] 彼個...彼個老师叫啥？就是教我们读册的那個啦。想袂起來啦，那個名字。 [長停頓] 嗯，那個时候家里阿母很辛苦，每天都要煮飯、洗衣服啊。我有时候帮忙割稻子，农忙阵真的很累的啦。 [嘆氣] 那时候朋友很多，常常一起出去玩，现在都不见了。彼個...想袂起來的名字就是那個老师啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气好啊，我想到年轻时阵啦。那时候菜市仔还没现在大咧，我们走去買菜都是走路去啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1142
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個老师叫啥？就是教我们读册的那個啦。想袂起來啦，那個名字。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2287
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個时候家里阿母很辛苦，每天都要煮飯、洗衣服啊。我有时候帮忙割稻子，农忙阵真的很累的啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 831
+    },
+    {
+      "type": "speech",
+      "text": "那时候朋友很多，常常一起出去玩，现在都不见了。彼個...想袂起來的名字就是那個老师啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3429,
+    "mean_pause_ms": 1714.5,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.85
+}

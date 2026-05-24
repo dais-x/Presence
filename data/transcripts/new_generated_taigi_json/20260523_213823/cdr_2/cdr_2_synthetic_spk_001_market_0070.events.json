@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啊，那個攤販咧賣菜好多啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1236
+  },
+  {
+    "type": "speech",
+    "text": "我欲買些青菜咧，但是佇厝內閣足菜齁"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1804
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1186
+  },
+  {
+    "type": "speech",
+    "text": "。伊那個說啥物菜新鮮，我就買咯"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 949
+  },
+  {
+    "type": "speech",
+    "text": "轉去時陣，阿母咧做好食飯啊，真好吃啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1571
+  },
+  {
+    "type": "speech",
+    "text": "以前伊個時候，我欲早起咧搥米糕，現在袂會了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1965
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧今仔日咋樣啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 753
+  },
+  {
+    "type": "speech",
+    "text": "，我那個想伊嘞。"
+  }
+]

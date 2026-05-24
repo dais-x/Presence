@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，伊跟著孫仔咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 733
+  },
+  {
+    "type": "speech",
+    "text": "大家坐佇灶跤邊講話，孫仔問伊阿母說啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1246
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個名字啦，按呢欲再講一遍。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1329
+  },
+  {
+    "type": "speech",
+    "text": "阿爸說過嘸？"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔就答應齁，就是那個誰咧。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，記起來啦，阿母叫小玲，伊是孫仔的嫤嫤啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 741
+  },
+  {
+    "type": "speech",
+    "text": "孫仔轉去學校前有想食啥物零食咧，今早伊咧菜市仔買好來咧。"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣誠好啊，大家食飯心情也誠好。"
+  }
+]

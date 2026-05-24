@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_035_market_0194",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，彼個攤販賣蔬菜咧，彼個...彼個叫啥？想袂起來啦。 [停頓] 那個陳伯啦，對齁，去佇伊那邊買幾塊青菜，還有那個紅蘿蔔啊，嗯，還買了幾顆地瓜，那個地瓜真甜齁。 轉去厝內咧，阿母講說食飯啦，嗯，就準備食飯。彼個菜很好吃，就是那個蔬菜，嗯， [停頓] 想袂起來伊叫啥名子。阿爸講說，食飽著去公園散散步也好，齁。對嘛，今仔日天氣好，適合出去走走。 [嘆氣] 嗯，有時會想以前的事，那個時候真快樂啊，就是，唉，現在嘛，嗯... [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，彼個攤販賣蔬菜咧，彼個...彼個叫啥？想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 914
+    },
+    {
+      "type": "speech",
+      "text": "那個陳伯啦，對齁，去佇伊那邊買幾塊青菜，還有那個紅蘿蔔啊，嗯，還買了幾顆地瓜，那個地瓜真甜齁。 轉去厝內咧，阿母講說食飯啦，嗯，就準備食飯。彼個菜很好吃，就是那個蔬菜，嗯，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1207
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥名子。阿爸講說，食飽著去公園散散步也好，齁。對嘛，今仔日天氣好，適合出去走走。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1374
+    },
+    {
+      "type": "speech",
+      "text": "嗯，有時會想以前的事，那個時候真快樂啊，就是，唉，現在嘛，嗯..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1523
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 13,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 3644,
+    "mean_pause_ms": 1214.67,
+    "speech_char_count": 201
+  },
+  "speech_rate_target": 0.85
+}

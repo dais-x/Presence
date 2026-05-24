@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_002_picture_0021",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看個圖啊，咧擺個攤子，賣啥物菜青 呀那個... 想袂起來，應該是豆芽跟蘿蔔啦齁，伊在那裡講話咧， [停頓] 買菜的那位婆婆呢，拎著籃子欲去買菜去菜市仔啦。 [停頓] 那個... 有個阿母攏在教囝仔讀書唸書啊，那個地方應該是厝內ㄟ閣有張桌子齁。 [嘆氣] 應該還會有人咧煮飯，食飯啊，那個... 念著伊講話好像就講袂完，就是那個菜市仔跟攤子啦。 [咳嗽] 那個那位婆婆應該是欲去買菜，因為拎著籃子齁，按呢想起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看個圖啊，咧擺個攤子，賣啥物菜青 呀那個... 想袂起來，應該是豆芽跟蘿蔔啦齁，伊在那裡講話咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 849
+    },
+    {
+      "type": "speech",
+      "text": "買菜的那位婆婆呢，拎著籃子欲去買菜去菜市仔啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個... 有個阿母攏在教囝仔讀書唸書啊，那個地方應該是厝內ㄟ閣有張桌子齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "應該還會有人咧煮飯，食飯啊，那個... 念著伊講話好像就講袂完，就是那個菜市仔跟攤子啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 901
+    },
+    {
+      "type": "speech",
+      "text": "那個那位婆婆應該是欲去買菜，因為拎著籃子齁，按呢想起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 5,
+    "repair_count": 3,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2049,
+    "mean_pause_ms": 1024.5,
+    "speech_char_count": 185
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_034_clinic_0113",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日是幾月幾號啊？我記得是上禮拜才去菜市仔買菜，早食我有煮碗稀飯吃，還有配點鹹菜。家裡按呢都佇正常咧，伊阿母還好，就是有時會腰痛，不過也無啥大礙。孫仔今仔日有轉去學校啦，那個誠是念中學咧齁。 [停頓] 最近厝裡有做些整理，灶跤邊的衛生也比較注意啦，畢竟食飯的地方一定要乾淨啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾月幾號啊？我記得是上禮拜才去菜市仔買菜，早食我有煮碗稀飯吃，還有配點鹹菜。家裡按呢都佇正常咧，伊阿母還好，就是有時會腰痛，不過也無啥大礙。孫仔今仔日有轉去學校啦，那個誠是念中學咧齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 436
+    },
+    {
+      "type": "speech",
+      "text": "最近厝裡有做些整理，灶跤邊的衛生也比較注意啦，畢竟食飯的地方一定要乾淨啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 436,
+    "mean_pause_ms": 436.0,
+    "speech_char_count": 133
+  },
+  "speech_rate_target": 1.0
+}

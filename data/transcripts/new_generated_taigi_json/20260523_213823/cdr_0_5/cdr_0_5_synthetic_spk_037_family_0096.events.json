@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，攏坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 849
+  },
+  {
+    "type": "speech",
+    "text": "那個...伊同孫仔都好久未見到咧，大家講的話好多齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 879
+  },
+  {
+    "type": "speech",
+    "text": "孫仔長大好多啦，阿母看著就心歡喜。"
+  },
+  {
+    "type": "speech",
+    "text": "我問伊學校生活怎樣？"
+  },
+  {
+    "type": "speech",
+    "text": "伊就答說好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啥物話咧，那個..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1371
+  },
+  {
+    "type": "speech",
+    "text": "唉，就是講些家庭日常嘛，大家聊著也愉快。"
+  }
+]

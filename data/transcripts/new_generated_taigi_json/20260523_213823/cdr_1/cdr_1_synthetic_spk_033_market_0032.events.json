@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早辰我去菜市仔買菜，欲買個什麼啦，就是想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 906
+  },
+  {
+    "type": "speech",
+    "text": "那個攤販咧問我：「阿母要啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1467
+  },
+  {
+    "type": "speech",
+    "text": "」 我就講：「彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 828
+  },
+  {
+    "type": "speech",
+    "text": "」「啊，欲吃魚囝。"
+  },
+  {
+    "type": "speech",
+    "text": "」 想袂起來啦，那個什麼名字，就是想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 733
+  },
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔人好多，攤販咧賣著好多蔬菜。"
+  },
+  {
+    "type": "speech",
+    "text": "買完轉去厝內，佇灶跤上煮飯吃，孫仔來囝，就講：「阿母好啊？"
+  },
+  {
+    "type": "speech",
+    "text": "」 我講：「好啦，有啥物事？"
+  },
+  {
+    "type": "speech",
+    "text": "」「無啥啦，就是來看閣吃伊ㄟ。"
+  },
+  {
+    "type": "speech",
+    "text": "」"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 953
+  }
+]

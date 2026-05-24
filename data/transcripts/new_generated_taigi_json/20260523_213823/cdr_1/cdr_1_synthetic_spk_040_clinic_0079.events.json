@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1414
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 唉，彼個日曆佇啥地方攏想袂起。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 693
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1193
+  },
+  {
+    "type": "speech",
+    "text": "食番粿汁囝仔啦... 粿汁咧，好香齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母還好啦... 但彼個孫仔伊讀書欲緊張。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個孫仔伊讀書咧， 彼個學校佇哪裡啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 真的想袂起來。"
+  }
+]

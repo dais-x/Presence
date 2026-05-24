@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_002_market_0201",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊， [停頓] 彼個賣蘿蔔的攤販咧，那個名字想袂起來啦，就是跟伊講話，買個蘿蔔， [長停頓] 然後嘞，佇攤販邊看到有人在買鹹魚，鹹魚齁，彼個...彼個叫啥？ [嘆氣] 咱阿母以前愛吃個，那個名字想袂起來啦。 [咳嗽] 買菜轉去厝內咧，準備晚上食飯囝仔啊，孫仔咧也會來， [停頓] 就是想著咱家灶跤邊掛伊張照片，彼個...彼個叫啥？哎呀，恁毋知我講啥啦。 [停頓] 那個名字袂記得啦，閣去查一下資料也好啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "text": "彼個賣蘿蔔的攤販咧，那個名字想袂起來啦，就是跟伊講話，買個蘿蔔，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2416
+    },
+    {
+      "type": "speech",
+      "text": "然後嘞，佇攤販邊看到有人在買鹹魚，鹹魚齁，彼個...彼個叫啥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 634
+    },
+    {
+      "type": "speech",
+      "text": "咱阿母以前愛吃個，那個名字想袂起來啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 857
+    },
+    {
+      "type": "speech",
+      "text": "買菜轉去厝內咧，準備晚上食飯囝仔啊，孫仔咧也會來，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1106
+    },
+    {
+      "type": "speech",
+      "text": "就是想著咱家灶跤邊掛伊張照片，彼個...彼個叫啥？哎呀，恁毋知我講啥啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1299
+    },
+    {
+      "type": "speech",
+      "text": "那個名字袂記得啦，閣去查一下資料也好啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 14,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5672,
+    "mean_pause_ms": 1418.0,
+    "speech_char_count": 174
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1323
+  },
+  {
+    "type": "speech",
+    "text": "我嘛想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1060
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 721
+  },
+  {
+    "type": "speech",
+    "text": "食稀飯咧，還有花生湯。"
+  },
+  {
+    "type": "speech",
+    "text": "嘛有去菜市仔買菜， 菜價袂變，按呢個月來講，還好啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 746
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝有無轉厝？"
+  },
+  {
+    "type": "speech",
+    "text": "伊那個...彼個啥時辰轉去？"
+  },
+  {
+    "type": "speech",
+    "text": "我嘛知。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母最近健康毋錯，阿爸咧就還好啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 979
+  },
+  {
+    "type": "speech",
+    "text": "那個按呢日嘛有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "按這陣子就是那個，生活嘛是這樣過啦。"
+  }
+]

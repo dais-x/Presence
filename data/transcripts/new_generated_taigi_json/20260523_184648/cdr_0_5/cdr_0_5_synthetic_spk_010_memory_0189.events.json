@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_010_memory_0189",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，以前我讀冊時陣，天天都要幫阿母去菜市仔買菜，那個菜市仔喔，人好多，雜七雜八的東西都攤開來賣。有時候袂曉得要買啥物，就會問阿母要買啥物，阿母會講說：「你先去拿菜就好啦。 [停頓] 等到農忙時陣咧，整個田裡都是人，大家一齊做工，那個時候的伙食也簡單，可是吃得飽足誠，現在想起來還真懷念。那個... 那個少年時陣的事情好多，就是想袂起來啦，但是一講起來就好有感覺。 [停頓] 唉，歲月真是快啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，以前我讀冊時陣，天天都要幫阿母去菜市仔買菜，那個菜市仔喔，人好多，雜七雜八的東西都攤開來賣。有時候袂曉得要買啥物，就會問阿母要買啥物，阿母會講說：「你先去拿菜就好啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1130
+    },
+    {
+      "type": "speech",
+      "text": "等到農忙時陣咧，整個田裡都是人，大家一齊做工，那個時候的伙食也簡單，可是吃得飽足誠，現在想起來還真懷念。那個... 那個少年時陣的事情好多，就是想袂起來啦，但是一講起來就好有感覺。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，歲月真是快啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2330,
+    "mean_pause_ms": 1165.0,
+    "speech_char_count": 191
+  },
+  "speech_rate_target": 0.92
+}

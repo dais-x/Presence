@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_011_picture_0170",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，看這張圖袂是菜市仔嗎？伊個阿姨戴著籃子正在買青菜咧，看過去還有一個伯公在賣水果，好多攤販攏擺設攤位。那個阿母牽著孫仔的手欲過馬路啦，孫仔看起來好可愛齁。按呢個菜市仔真是熱鬧滾滾，大家都誠絡絡買東西，伊個阿姨今早一定要去市場買菜咧。 [停頓] 想起來我家樓下那個早餐店，阿爸常常去那裡吃早餐，真香啊！",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，看這張圖袂是菜市仔嗎？伊個阿姨戴著籃子正在買青菜咧，看過去還有一個伯公在賣水果，好多攤販攏擺設攤位。那個阿母牽著孫仔的手欲過馬路啦，孫仔看起來好可愛齁。按呢個菜市仔真是熱鬧滾滾，大家都誠絡絡買東西，伊個阿姨今早一定要去市場買菜咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 344
+    },
+    {
+      "type": "speech",
+      "text": "想起來我家樓下那個早餐店，阿爸常常去那裡吃早餐，真香啊！"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 344,
+    "mean_pause_ms": 344.0,
+    "speech_char_count": 152
+  },
+  "speech_rate_target": 1.0
+}

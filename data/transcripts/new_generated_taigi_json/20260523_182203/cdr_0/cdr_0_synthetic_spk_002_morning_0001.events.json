@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_002_morning_0001",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日一早睜開眼就洗面啦，然後煮個飯來食食，轉去菜市仔買點菜回去。整理一下厝內物件，準備好要攏出門去。 [停頓] 手機咧拿袂，怕會漏接電話啊，那個包包也要帶去。今天氣溫還好嘛，穿著薄外套就足夠了。阿母叫我去買個雞蛋跟豆腐來，說是中午要做羹湯囝仔吃。就是這樣啦，準備一下就出門去菜市仔逛逛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日一早睜開眼就洗面啦，然後煮個飯來食食，轉去菜市仔買點菜回去。整理一下厝內物件，準備好要攏出門去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 579
+    },
+    {
+      "type": "speech",
+      "text": "手機咧拿袂，怕會漏接電話啊，那個包包也要帶去。今天氣溫還好嘛，穿著薄外套就足夠了。阿母叫我去買個雞蛋跟豆腐來，說是中午要做羹湯囝仔吃。就是這樣啦，準備一下就出門去菜市仔逛逛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 579,
+    "mean_pause_ms": 579.0,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 1.0
+}

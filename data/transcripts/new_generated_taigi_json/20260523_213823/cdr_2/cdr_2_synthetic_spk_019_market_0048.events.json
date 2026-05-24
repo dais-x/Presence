@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早上去菜市仔買菜啊，那個攤販咧賣好多菜，欲說啥物價袂漲齁， 拾緊錢袋子就轉去囝仔厝內啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1987
+  },
+  {
+    "type": "speech",
+    "text": "唉呀，以前我年輕時節咧，早餐食啥物嘞？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1376
+  },
+  {
+    "type": "cough",
+    "duration_ms": 451
+  },
+  {
+    "type": "speech",
+    "text": "阿母誠煮伊愛吃米苔目， 我今仔日咧買菜欲買啥物啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1285
+  },
+  {
+    "type": "speech",
+    "text": "真是，講到話來袂知咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1362
+  },
+  {
+    "type": "speech",
+    "text": "攤販咧賣好多菜，我今仔日袂曉得要買啥物， 以前的早餐咧，伊愛吃啥物嘞？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2206
+  },
+  {
+    "type": "speech",
+    "text": "讚伊阿母誠會煮菜啊。"
+  }
+]

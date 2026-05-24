@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_011_picture_0130",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日看著彼個相片，彼個是阿母咧，彼個就是我老豆 [停頓] 。彼個那個在菜市仔攤子上，欲賣啥物啊？ [長停頓] 想袂起來啦。彼個應該是水果攤子齁，攏有好多水果咧。今仔日去菜市仔欲買東西食，但毋知要買啥物 [停頓] 。彼個那個在搥檸檬齁，搥檸檬欲做啥呢？ [長停頓] 咳嗽咳。彼個應該是搥成檸檬水啦。阿母閣在攤子上咧，伊誠好笑啦，因為彼個頭戴著那個紅色帽子 [長停頓] 。彼個叫啥名字啊？想袂起來啦。 [嘆氣] 那個相片是好多年前的事啦，彼個時候我們還小，今仔日看咧就回憶起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看著彼個相片，彼個是阿母咧，彼個就是我老豆"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 887
+    },
+    {
+      "type": "speech",
+      "text": "。彼個那個在菜市仔攤子上，欲賣啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2273
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。彼個應該是水果攤子齁，攏有好多水果咧。今仔日去菜市仔欲買東西食，但毋知要買啥物"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1122
+    },
+    {
+      "type": "speech",
+      "text": "。彼個那個在搥檸檬齁，搥檸檬欲做啥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2469
+    },
+    {
+      "type": "speech",
+      "text": "咳嗽咳。彼個應該是搥成檸檬水啦。阿母閣在攤子上咧，伊誠好笑啦，因為彼個頭戴著那個紅色帽子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1978
+    },
+    {
+      "type": "speech",
+      "text": "。彼個叫啥名字啊？想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 751
+    },
+    {
+      "type": "speech",
+      "text": "那個相片是好多年前的事啦，彼個時候我們還小，今仔日看咧就回憶起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 18,
+    "repetition_count": 0,
+    "repair_count": 2,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 8729,
+    "mean_pause_ms": 1745.8,
+    "speech_char_count": 200
+  },
+  "speech_rate_target": 0.85
+}

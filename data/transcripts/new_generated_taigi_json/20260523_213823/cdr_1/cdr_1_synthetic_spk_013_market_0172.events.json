@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日啊，我轉去菜市仔買菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1427
+  },
+  {
+    "type": "speech",
+    "text": "那個攤販咧，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1372
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1130
+  },
+  {
+    "type": "speech",
+    "text": "齁，那個賣菜的，有著一籃子青菜，我就問伊，「這青菜新鮮無？"
+  },
+  {
+    "type": "speech",
+    "text": "」伊講「新鮮啊」，我就買幾把回去啦。"
+  },
+  {
+    "type": "speech",
+    "text": "回到厝內咧，阿母閣在灶跤煮飯，我講，「今仔日買來的菜咧，有幾種是伊推薦的啦。"
+  },
+  {
+    "type": "speech",
+    "text": "」"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1083
+  },
+  {
+    "type": "speech",
+    "text": "阿母聽咧就笑說，「佇就好想袂起來，伊推薦啥樣的菜？"
+  },
+  {
+    "type": "speech",
+    "text": "」 我想袂起來咧，阿母就幫我唸出那些菜名來，我也才記起伊講啥啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 542
+  },
+  {
+    "type": "speech",
+    "text": "嗯，那個攤販有講，要選葉子綠色靚麗的青菜，我就買幾把回去囉。"
+  }
+]

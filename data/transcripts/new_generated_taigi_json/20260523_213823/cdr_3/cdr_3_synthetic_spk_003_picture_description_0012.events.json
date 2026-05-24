@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "灶跤咧炊火... 阿母佇哪攏？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3783
+  },
+  {
+    "type": "speech",
+    "text": "囝仔咧玩... 菜市仔去未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2147
+  },
+  {
+    "type": "speech",
+    "text": "冷啦，毋知要加衫..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1478
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 740
+  },
+  {
+    "type": "speech",
+    "text": "食飯時嚕..."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 526
+  },
+  {
+    "type": "speech",
+    "text": "知啦，你查一下曆咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 610
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物無？"
+  },
+  {
+    "type": "speech",
+    "text": "我今早食粿條，加個雞蛋，那個，就是簡單食啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那伊最近咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "伊按呢還好，不過阿母她有時會想袂起來要買啥東西。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1165
+  },
+  {
+    "type": "speech",
+    "text": "家裡咧還有啥代誌無？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是攏安啦。"
+  }
+]

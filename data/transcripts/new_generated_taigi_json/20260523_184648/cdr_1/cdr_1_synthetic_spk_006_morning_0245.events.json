@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_006_morning_0245",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早起啦，先去洗面，然後就去廚房煮飯啦。那個飯欲怎麼做咧？ [停頓] 想袂起來啊，就是彼個...彼個叫啥物來著？就是炒個青菜咧，還有豆乾，齁，做好了以後就食飯啦。然後整理一下厝內的東西，準備轉去菜市仔買個食材咧。那個包包裡頭要裝啥物咧？ [停頓] 想袂起來，啊，隨便攏好啦。轉去時候記得帶個手機跟鑰匙，免得會忘記。 [嘆氣] 唉，年紀大了，越來越想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起啦，先去洗面，然後就去廚房煮飯啦。那個飯欲怎麼做咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1003
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啊，就是彼個...彼個叫啥物來著？就是炒個青菜咧，還有豆乾，齁，做好了以後就食飯啦。然後整理一下厝內的東西，準備轉去菜市仔買個食材咧。那個包包裡頭要裝啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 840
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，啊，隨便攏好啦。轉去時候記得帶個手機跟鑰匙，免得會忘記。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 982
+    },
+    {
+      "type": "speech",
+      "text": "唉，年紀大了，越來越想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1843,
+    "mean_pause_ms": 921.5,
+    "speech_char_count": 163
+  },
+  "speech_rate_target": 0.85
+}

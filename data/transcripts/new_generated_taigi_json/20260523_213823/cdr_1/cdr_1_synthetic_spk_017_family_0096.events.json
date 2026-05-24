@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，我咧灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1162
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1222
+  },
+  {
+    "type": "speech",
+    "text": "阿母啦，伊毋知佇哪裡。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1503
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠乖，阿爸講伊會讀書。"
+  },
+  {
+    "type": "speech",
+    "text": "那個囝仔咧學校，想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1145
+  },
+  {
+    "type": "speech",
+    "text": "想著以前菜市仔攏袂有恁多車子。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 635
+  },
+  {
+    "type": "speech",
+    "text": "现在交通好複雜。"
+  },
+  {
+    "type": "speech",
+    "text": "今晡暝轉去，伊欲早點睡。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，我講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔啦，伊誠可愛。"
+  }
+]

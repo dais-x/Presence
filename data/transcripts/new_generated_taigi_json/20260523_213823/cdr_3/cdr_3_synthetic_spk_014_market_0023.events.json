@@ -1,0 +1,22 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 阿母欲食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2860
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯啦... 囝仔佇哪攏？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2753
+  },
+  {
+    "type": "speech",
+    "text": "彼個... 冷啦... 袂記得買青菜... 嗯，買菜轉去厝內..."
+  }
+]

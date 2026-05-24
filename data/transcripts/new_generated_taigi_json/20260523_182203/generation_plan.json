@@ -1,0 +1,37 @@
+{
+  "recommended_distribution": {
+    "0": 300,
+    "0.5": 300,
+    "1": 250,
+    "2": 100,
+    "3": 50
+  },
+  "requested_cdr_counts": {
+    "0.0": 300,
+    "0.5": 300,
+    "1.0": 250,
+    "2.0": 100,
+    "3.0": 50
+  },
+  "speaker_count": 40,
+  "scenario_weights": {
+    "clinic": 250,
+    "memory": 200,
+    "morning": 150,
+    "market": 150,
+    "family": 150,
+    "picture": 100
+  },
+  "language_profile_weights": {
+    "taigi_dominant": 60,
+    "mixed_taigi_mandarin": 30,
+    "mandarin_dominant_mixed": 10
+  },
+  "acoustic_condition_weights": {
+    "clean": 40,
+    "clinic_room_noise": 25,
+    "home_background_noise": 20,
+    "phone_mic_degraded": 15
+  },
+  "total_samples": 1000
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2224
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1061
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧按呢？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 608
+  },
+  {
+    "type": "speech",
+    "text": "唉，伊已故囝仔。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1821
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1659
+  },
+  {
+    "type": "speech",
+    "text": "毋知道。"
+  },
+  {
+    "type": "speech",
+    "text": "灶跤菜市仔買來的啊。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧？"
+  },
+  {
+    "type": "speech",
+    "text": "忘記了。"
+  },
+  {
+    "type": "speech",
+    "text": "攒著以前咧，阿爸伊還活著啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個……"
+  },
+  {
+    "type": "speech",
+    "text": "唉，身體袂好。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 738
+  }
+]

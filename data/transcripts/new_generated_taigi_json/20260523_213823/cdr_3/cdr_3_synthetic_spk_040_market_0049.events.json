@@ -1,0 +1,22 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔去... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3634
+  },
+  {
+    "type": "speech",
+    "text": "沖湯欲買... 嗯... 食飯... 囝仔，彼個孫仔... 冷啦... 袂記得..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1757
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1266
+  }
+]

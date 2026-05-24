@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_family_0022",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔都轉來厝內食飯囉，大家都攏坐佇灶跤邊講話啦。那個...阿母說伊想袂起來伊去年買啥物禮拜報紙咧，齁孫仔就笑伊，伊說孫仔你毋知啦，就是阿母以前會收好多報紙， [停頓] 收到厝內滿滿的啦。今仔日啊，報紙都沒有囉，那個...大家講講話，食食飯，時間就過咧齁，轉眼間又晚晡了嘛。 [停頓] 阿爸說伊要去買菜去菜市仔，阿母問伊要我去袂啦？就是伊想袂起來要去袂啦，後來決定毋去啦。孫仔就講：「阿母，恁攏無啥事體做，恁就好好坐著嘛。 [咳嗽] 阿母聽伊講咧，啊就笑囉，齁，大家又繼續講話啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔都轉來厝內食飯囉，大家都攏坐佇灶跤邊講話啦。那個...阿母說伊想袂起來伊去年買啥物禮拜報紙咧，齁孫仔就笑伊，伊說孫仔你毋知啦，就是阿母以前會收好多報紙，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 608
+    },
+    {
+      "type": "speech",
+      "text": "收到厝內滿滿的啦。今仔日啊，報紙都沒有囉，那個...大家講講話，食食飯，時間就過咧齁，轉眼間又晚晡了嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "阿爸說伊要去買菜去菜市仔，阿母問伊要我去袂啦？就是伊想袂起來要去袂啦，後來決定毋去啦。孫仔就講：「阿母，恁攏無啥事體做，恁就好好坐著嘛。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 770
+    },
+    {
+      "type": "speech",
+      "text": "阿母聽伊講咧，啊就笑囉，齁，大家又繼續講話啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 7,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 1808,
+    "mean_pause_ms": 904.0,
+    "speech_char_count": 227
+  },
+  "speech_rate_target": 0.92
+}

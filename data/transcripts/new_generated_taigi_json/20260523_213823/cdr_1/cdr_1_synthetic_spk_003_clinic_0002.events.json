@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1541
+  },
+  {
+    "type": "speech",
+    "text": "我毋知彼個日子嘛，頭好亂。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 996
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 702
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1473
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫伊去菜市仔買攏，但伊無去，按呢就食粥咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1364
+  },
+  {
+    "type": "speech",
+    "text": "家裡有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，孫仔講佇學校有讀書，誠足乖啦。"
+  },
+  {
+    "type": "speech",
+    "text": "但我彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "名字想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該是叫小明齁。"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 967
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 那個醫生你咧看時鐘齁，你就曉得咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1122
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1112
+  },
+  {
+    "type": "speech",
+    "text": "我早食飯啦，有鹹蛋跟豆腐。"
+  },
+  {
+    "type": "speech",
+    "text": "那個豆腐是昨日阿母買來的。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡攏安好嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "都足啦，伊袂講啥物。"
+  },
+  {
+    "type": "speech",
+    "text": "但我有聽說隔壁鄰居咧搬新厝啦，彼個...彼個叫啥，想袂起來齁，就是隔壁那位啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 675
+  },
+  {
+    "type": "speech",
+    "text": "醫生，我孫仔今朝有去菜市仔買菜啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我那個孫仔誠乖，有攏幫著做家務。"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_027_memory_0226",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日阿母叫我去菜市仔買東西， [停頓] 買啥物啊？想袂起來了。彼個彼個叫啥，就是那個青菜， [長停頓] 對喔，還有豆腐、魚乾。講到魚乾就想起以前農忙時陣，伊（老爸）攏要去田裡做工，我跟阿姐誠佇家裡煮飯，做無啥事體咧。阿母就說：「仔細看厝內長輩啊，毋可以偷懶。 [嘆氣] 現在想起來好像袂久以前的事，但實在是好久以前了。 [咳嗽] 當時讀冊也是伊（老師）講啥我就寫啥，無啥特別的記憶咧，彼個...彼個叫啥，就是那個字，想袂起來啦。 [長停頓] 哎呀，時間真快啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日阿母叫我去菜市仔買東西，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 957
+    },
+    {
+      "type": "speech",
+      "text": "買啥物啊？想袂起來了。彼個彼個叫啥，就是那個青菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1735
+    },
+    {
+      "type": "speech",
+      "text": "對喔，還有豆腐、魚乾。講到魚乾就想起以前農忙時陣，伊（老爸）攏要去田裡做工，我跟阿姐誠佇家裡煮飯，做無啥事體咧。阿母就說：「仔細看厝內長輩啊，毋可以偷懶。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 968
+    },
+    {
+      "type": "speech",
+      "text": "現在想起來好像袂久以前的事，但實在是好久以前了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 925
+    },
+    {
+      "type": "speech",
+      "text": "當時讀冊也是伊（老師）講啥我就寫啥，無啥特別的記憶咧，彼個...彼個叫啥，就是那個字，想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2218
+    },
+    {
+      "type": "speech",
+      "text": "哎呀，時間真快啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4910,
+    "mean_pause_ms": 1636.67,
+    "speech_char_count": 199
+  },
+  "speech_rate_target": 0.85
+}

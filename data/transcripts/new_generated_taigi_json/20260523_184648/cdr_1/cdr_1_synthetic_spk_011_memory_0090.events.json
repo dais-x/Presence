@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_011_memory_0090",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，我記得小時陣啊，阿母叫我去菜市仔買菜，那個時候比較窮啦，常常就著幾塊錢要買好多東西。然後咧，我就想到讀冊的時候，學校裡頭有個老師，彼個...彼個叫啥物？想袂起來啦。 [停頓] 但是教我們的課文啊，都很有趣，就是會講一些古早的故事，那個時候啊，大家都很認真唸書。 [停頓] 還有農忙的時候，全家人都要去田裡工作，我阿爸咧就很辛苦，每天早早就起來做工，那個時候生活雖然簡單啦，但是大家都有好多朋友，一起做事情也很快樂。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，我記得小時陣啊，阿母叫我去菜市仔買菜，那個時候比較窮啦，常常就著幾塊錢要買好多東西。然後咧，我就想到讀冊的時候，學校裡頭有個老師，彼個...彼個叫啥物？想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1193
+    },
+    {
+      "type": "speech",
+      "text": "但是教我們的課文啊，都很有趣，就是會講一些古早的故事，那個時候啊，大家都很認真唸書。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1464
+    },
+    {
+      "type": "speech",
+      "text": "還有農忙的時候，全家人都要去田裡工作，我阿爸咧就很辛苦，每天早早就起來做工，那個時候生活雖然簡單啦，但是大家都有好多朋友，一起做事情也很快樂。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 5
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2657,
+    "mean_pause_ms": 1328.5,
+    "speech_char_count": 203
+  },
+  "speech_rate_target": 0.85
+}

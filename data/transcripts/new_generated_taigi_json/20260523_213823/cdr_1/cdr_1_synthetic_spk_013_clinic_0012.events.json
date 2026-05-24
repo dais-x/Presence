@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 714
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊，那個是啥個星期咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1300
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1493
+  },
+  {
+    "type": "speech",
+    "text": "伊阿母叫我煮稀飯啦，我欲是煮咧，可是米佇哪個攏想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 826
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是孫仔轉來看阿公阿媽齁，伊誠乖啦，不過今仔日伊就轉去學校囉。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥咧？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇厝啊，伊無出菜市仔去買菜。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1063
+  }
+]

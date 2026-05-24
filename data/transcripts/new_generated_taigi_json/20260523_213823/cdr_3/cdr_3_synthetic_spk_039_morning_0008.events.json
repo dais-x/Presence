@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "洗面... 阿母食飯囝仔去學校未啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2755
+  },
+  {
+    "type": "speech",
+    "text": "天氣冷啦，嗯要多穿著。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3533
+  },
+  {
+    "type": "speech",
+    "text": "母親呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2206
+  },
+  {
+    "type": "speech",
+    "text": "今仔日欲做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3245
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔... 食飯囝仔去哪個？"
+  }
+]

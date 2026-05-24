@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_037_family_0176",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_037",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日孫仔有轉來厝內食飯啊，咱家囝仔也攏在，大家都坐佇灶跤邊講話咧。那個... 伊阿母有煮一頓好好吃湯面線，我有食足一碗。 [停頓] 唉，想袂起來伊叫啥名來？ [停頓] 就是啦，無關緊嘛。大家有講著菜市仔買啥物菜，還有孫仔今早去學校咧。那個... 那個話題好像跟咱厝以前阿爸帶囝仔出去玩有關，齁，咱阿爸以前會帶我們去公園，那時候真開心啊。 [嘆氣] 就是啦，現在時光都過啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔有轉來厝內食飯啊，咱家囝仔也攏在，大家都坐佇灶跤邊講話咧。那個... 伊阿母有煮一頓好好吃湯面線，我有食足一碗。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1098
+    },
+    {
+      "type": "speech",
+      "text": "唉，想袂起來伊叫啥名來？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "就是啦，無關緊嘛。大家有講著菜市仔買啥物菜，還有孫仔今早去學校咧。那個... 那個話題好像跟咱厝以前阿爸帶囝仔出去玩有關，齁，咱阿爸以前會帶我們去公園，那時候真開心啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1253
+    },
+    {
+      "type": "speech",
+      "text": "就是啦，現在時光都過啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2298,
+    "mean_pause_ms": 1149.0,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.92
+}

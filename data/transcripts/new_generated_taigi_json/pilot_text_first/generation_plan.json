@@ -1,0 +1,1202 @@
+[
+  {
+    "sample_id": "cdr_0_synthetic_spk_001_clinic_0000",
+    "cdr_level": 0.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 0
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_002_morning_0001",
+    "cdr_level": 0.0,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "home_background_noise",
+    "index": 1
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_003_market_0002",
+    "cdr_level": 0.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 2
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_004_family_0003",
+    "cdr_level": 0.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 3
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_005_memory_0004",
+    "cdr_level": 0.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 4
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_006_picture_description_0005",
+    "cdr_level": 0.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 5
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_007_memory_0006",
+    "cdr_level": 0.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 6
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_008_family_0007",
+    "cdr_level": 0.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 7
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_009_picture_description_0008",
+    "cdr_level": 0.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 8
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_010_clinic_0009",
+    "cdr_level": 0.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 9
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_001_memory_0010",
+    "cdr_level": 0.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 10
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_002_picture_description_0011",
+    "cdr_level": 0.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 11
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_003_memory_0012",
+    "cdr_level": 0.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 12
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_004_family_0013",
+    "cdr_level": 0.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 13
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_005_clinic_0014",
+    "cdr_level": 0.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 14
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_006_clinic_0015",
+    "cdr_level": 0.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 15
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_007_family_0016",
+    "cdr_level": 0.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 16
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_008_clinic_0017",
+    "cdr_level": 0.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 17
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_009_family_0018",
+    "cdr_level": 0.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 18
+  },
+  {
+    "sample_id": "cdr_0_synthetic_spk_010_memory_0019",
+    "cdr_level": 0.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 19
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_001_picture_description_0000",
+    "cdr_level": 0.5,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 0
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_002_clinic_0001",
+    "cdr_level": 0.5,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "home_background_noise",
+    "index": 1
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_003_morning_0002",
+    "cdr_level": 0.5,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 2
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_004_market_0003",
+    "cdr_level": 0.5,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 3
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_005_family_0004",
+    "cdr_level": 0.5,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 4
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_006_memory_0005",
+    "cdr_level": 0.5,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 5
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_007_morning_0006",
+    "cdr_level": 0.5,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 6
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_008_morning_0007",
+    "cdr_level": 0.5,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 7
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_009_morning_0008",
+    "cdr_level": 0.5,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 8
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_010_market_0009",
+    "cdr_level": 0.5,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 9
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_001_clinic_0010",
+    "cdr_level": 0.5,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "home_background_noise",
+    "index": 10
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_002_market_0011",
+    "cdr_level": 0.5,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 11
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_003_picture_description_0012",
+    "cdr_level": 0.5,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 12
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_004_memory_0013",
+    "cdr_level": 0.5,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 13
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_005_family_0014",
+    "cdr_level": 0.5,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 14
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_006_family_0015",
+    "cdr_level": 0.5,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 15
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_007_market_0016",
+    "cdr_level": 0.5,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 16
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_008_morning_0017",
+    "cdr_level": 0.5,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 17
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_009_picture_description_0018",
+    "cdr_level": 0.5,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 18
+  },
+  {
+    "sample_id": "cdr_0_5_synthetic_spk_010_family_0019",
+    "cdr_level": 0.5,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 19
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_001_memory_0000",
+    "cdr_level": 1.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 0
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_002_picture_description_0001",
+    "cdr_level": 1.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 1
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_003_clinic_0002",
+    "cdr_level": 1.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 2
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_004_morning_0003",
+    "cdr_level": 1.0,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 3
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_005_market_0004",
+    "cdr_level": 1.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "clean",
+    "index": 4
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_006_family_0005",
+    "cdr_level": 1.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 5
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_007_memory_0006",
+    "cdr_level": 1.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 6
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_008_market_0007",
+    "cdr_level": 1.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 7
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_009_market_0008",
+    "cdr_level": 1.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 8
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_010_memory_0009",
+    "cdr_level": 1.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 9
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_001_picture_description_0010",
+    "cdr_level": 1.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 10
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_002_market_0011",
+    "cdr_level": 1.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 11
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_003_morning_0012",
+    "cdr_level": 1.0,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 12
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_004_clinic_0013",
+    "cdr_level": 1.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 13
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_005_clinic_0014",
+    "cdr_level": 1.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 14
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_006_clinic_0015",
+    "cdr_level": 1.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 15
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_007_clinic_0016",
+    "cdr_level": 1.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 16
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_008_family_0017",
+    "cdr_level": 1.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 17
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_009_memory_0018",
+    "cdr_level": 1.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 18
+  },
+  {
+    "sample_id": "cdr_1_synthetic_spk_010_market_0019",
+    "cdr_level": 1.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 19
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_001_market_0000",
+    "cdr_level": 2.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 0
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_002_family_0001",
+    "cdr_level": 2.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 1
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_003_memory_0002",
+    "cdr_level": 2.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 2
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_004_picture_description_0003",
+    "cdr_level": 2.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 3
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_005_clinic_0004",
+    "cdr_level": 2.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 4
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_006_morning_0005",
+    "cdr_level": 2.0,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clean",
+    "index": 5
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_007_picture_description_0006",
+    "cdr_level": 2.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 6
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_008_picture_description_0007",
+    "cdr_level": 2.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 7
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_009_market_0008",
+    "cdr_level": 2.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 8
+  },
+  {
+    "sample_id": "cdr_2_synthetic_spk_010_clinic_0009",
+    "cdr_level": 2.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 9
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_001_clinic_0000",
+    "cdr_level": 3.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_001",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 0
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_002_morning_0001",
+    "cdr_level": 3.0,
+    "scenario": "morning",
+    "speaker": {
+      "speaker_id": "synthetic_spk_002",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 1
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_003_market_0002",
+    "cdr_level": 3.0,
+    "scenario": "market",
+    "speaker": {
+      "speaker_id": "synthetic_spk_003",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 2
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_004_family_0003",
+    "cdr_level": 3.0,
+    "scenario": "family",
+    "speaker": {
+      "speaker_id": "synthetic_spk_004",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 3
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_005_memory_0004",
+    "cdr_level": 3.0,
+    "scenario": "memory",
+    "speaker": {
+      "speaker_id": "synthetic_spk_005",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "mixed_taigi_mandarin",
+    "acoustic_condition": "clean",
+    "index": 4
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_006_picture_description_0005",
+    "cdr_level": 3.0,
+    "scenario": "picture_description",
+    "speaker": {
+      "speaker_id": "synthetic_spk_006",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 5
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_007_clinic_0006",
+    "cdr_level": 3.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_007",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "val"
+    },
+    "split": "val",
+    "language_profile": "mandarin_dominant_mixed",
+    "acoustic_condition": "clean",
+    "index": 6
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_008_clinic_0007",
+    "cdr_level": 3.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_008",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "home_background_noise",
+    "index": 7
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_009_clinic_0008",
+    "cdr_level": 3.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_009",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "train"
+    },
+    "split": "train",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "phone_mic_degraded",
+    "index": 8
+  },
+  {
+    "sample_id": "cdr_3_synthetic_spk_010_clinic_0009",
+    "cdr_level": 3.0,
+    "scenario": "clinic",
+    "speaker": {
+      "speaker_id": "synthetic_spk_010",
+      "speaker_group": "older_female_taigi_dominant",
+      "description": "女性長輩，台語優勢，65-85歲。",
+      "split": "test"
+    },
+    "split": "test",
+    "language_profile": "taigi_dominant",
+    "acoustic_condition": "clinic_room_noise",
+    "index": 9
+  }
+]

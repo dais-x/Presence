@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 813
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 714
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "我食兩顆水煎包就好。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母最近身體無恙，就是伊常講著過去的事。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，那個今仔日天氣還不錯齁，好多人都出來曬太陽。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 817
+  },
+  {
+    "type": "speech",
+    "text": "我轉去菜市仔買菜咧。"
+  }
+]

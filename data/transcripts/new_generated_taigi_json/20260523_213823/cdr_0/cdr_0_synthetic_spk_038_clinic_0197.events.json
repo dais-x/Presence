@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾月幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 317
+  },
+  {
+    "type": "speech",
+    "text": "我無記啦。"
+  },
+  {
+    "type": "speech",
+    "text": "早飯我食了兩碗粥，再加個雞蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡啥代誌也沒有，都好著咧。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇菜市仔買菜去咧。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸在家洗厝，伊有時會說腰痛，不過今朝還好。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔去學校未轉來。"
+  },
+  {
+    "type": "speech",
+    "text": "我今早轉去診所拿藥，醫生問啥問題啊？"
+  }
+]

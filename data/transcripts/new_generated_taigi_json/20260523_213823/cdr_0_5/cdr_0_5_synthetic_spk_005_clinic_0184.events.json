@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日咧是幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 511
+  },
+  {
+    "type": "speech",
+    "text": "我早飯有食咧，有無去菜市仔買菜囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 551
+  },
+  {
+    "type": "speech",
+    "text": "那個...今天伊有來看我齁，咧厝裡頭。"
+  },
+  {
+    "type": "speech",
+    "text": "早餐有啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "我有煮粿、湯，還有豆漿。"
+  },
+  {
+    "type": "speech",
+    "text": "那個，孫仔今朝有無轉去阿母家啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，按呢時候是幾點啦？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 912
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔伊有好多攤販，賣啥物咧都有。"
+  }
+]

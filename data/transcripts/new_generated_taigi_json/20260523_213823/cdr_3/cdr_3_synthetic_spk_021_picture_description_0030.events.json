@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "人咧煮飯... 噐是菜市仔？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1790
+  },
+  {
+    "type": "speech",
+    "text": "阿母，彼個... 今仔日冷啦... 囝仔，去哪攏？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4119
+  },
+  {
+    "type": "speech",
+    "text": "蔬菜..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2831
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1001
+  },
+  {
+    "type": "speech",
+    "text": "沒有買啊... 食飯時間啦..."
+  }
+]

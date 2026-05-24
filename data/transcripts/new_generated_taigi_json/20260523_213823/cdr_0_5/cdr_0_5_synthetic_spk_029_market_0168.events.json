@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我轉去菜市仔買菜，那個陳阿姨咧賣菜，我就過去講：「阿母你好啊！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 996
+  },
+  {
+    "type": "speech",
+    "text": "」她就問我說要啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 579
+  },
+  {
+    "type": "speech",
+    "text": "我就講我要青江菜、那個白萝卜，還有豆腐。"
+  },
+  {
+    "type": "speech",
+    "text": "攤販說現在蔬菜價格袂便宜，唉！"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 614
+  },
+  {
+    "type": "speech",
+    "text": "那個話講著講著，我欲買的菜都買足了，轉去厝內啦。"
+  },
+  {
+    "type": "speech",
+    "text": "在厝內，阿爸問我：「佇哪攏去？"
+  },
+  {
+    "type": "speech",
+    "text": "」我就答咧：「今仔日去菜市仔買菜啊。"
+  },
+  {
+    "type": "speech",
+    "text": "」 噢，那個說伊要去市場看戲，齁我也想去看ㄟ，但伊袂去，我就沒去啦。"
+  }
+]

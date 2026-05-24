@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我轉去菜市仔買菜，欲看佇攤子頭一粒蛋彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1196
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 894
+  },
+  {
+    "type": "speech",
+    "text": "好啦，反正無差別啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 966
+  },
+  {
+    "type": "speech",
+    "text": "然後就看到阿母咧厝裡煮飯，囝仔一則在那邊玩陀螺，一則搭積木。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 859
+  },
+  {
+    "type": "speech",
+    "text": "嗯，桌頂上頭有一個水壺，還有一個菜籃，那個菜籃...裡面有好多菜啊。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，還有啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "就是啦，無啥子啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 839
+  }
+]

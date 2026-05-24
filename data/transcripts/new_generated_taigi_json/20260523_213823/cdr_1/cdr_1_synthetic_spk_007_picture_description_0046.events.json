@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔啦，看到很多攤販，彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1104
+  },
+  {
+    "type": "speech",
+    "text": "（）啊，無關緊要啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 725
+  },
+  {
+    "type": "speech",
+    "text": "看伊們在賣阮吃物咧，有魚、肉、蔬菜，還有好多東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1570
+  },
+  {
+    "type": "speech",
+    "text": "然後我就想著說要去買個什麼咧，但就是想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "（）阿母欲煮飯，她咧準備材料，灶跤上頭熱騰騰的，食飯時間快到了啦。"
+  },
+  {
+    "type": "speech",
+    "text": "還有囝仔在那邊玩，按呢一陣子就這樣過去嘞。"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1181
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知，醫生你誠袂？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 910
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐咧，我食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2027
+  },
+  {
+    "type": "speech",
+    "text": "按呢啦，伊有無轉去菜市仔買菜？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 702
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1097
+  },
+  {
+    "type": "speech",
+    "text": "以前啊，我阿母會煮好多好吃的東西，現在嘛... 嗯，孫仔啦，佇學校袂好，閣要關心一哈。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1223
+  },
+  {
+    "type": "speech",
+    "text": "我今早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "那個手啊，有時候袂太靈活。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1389
+  }
+]

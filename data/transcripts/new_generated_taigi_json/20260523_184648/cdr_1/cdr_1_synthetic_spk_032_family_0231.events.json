@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_032_family_0231",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯啊，孫仔咧也來啦。大家坐佇灶跤邊講話，那個熱鬧喔。彼個...彼個叫啥名字？想袂起來啦，欸，就是阿明的囝仔齁。伊跟孫仔講古，伊就講學校的事，講伊以前讀書時候的事咧， [停頓] 想起以前囝時，那個日子啊，好快樂，好多朋友啊。 [長停頓] 阿母說伊年輕時候袂像現在這樣，阿母話伊袂會想那麼多啦，就是簡簡單單過生活，齁，今仔日講到這裡，大家都覺得很感動啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯啊，孫仔咧也來啦。大家坐佇灶跤邊講話，那個熱鬧喔。彼個...彼個叫啥名字？想袂起來啦，欸，就是阿明的囝仔齁。伊跟孫仔講古，伊就講學校的事，講伊以前讀書時候的事咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1168
+    },
+    {
+      "type": "speech",
+      "text": "想起以前囝時，那個日子啊，好快樂，好多朋友啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2055
+    },
+    {
+      "type": "speech",
+      "text": "阿母說伊年輕時候袂像現在這樣，阿母話伊袂會想那麼多啦，就是簡簡單單過生活，齁，今仔日講到這裡，大家都覺得很感動啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3223,
+    "mean_pause_ms": 1611.5,
+    "speech_char_count": 172
+  },
+  "speech_rate_target": 0.85
+}

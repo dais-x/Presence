@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_036_clinic_0055",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我袂知啦，醫師你講一下就好。早餐咧食啥物？那個... 我食了個蛋跟一包麵包，阿母有無同我來著？她轉去菜市仔買菜了，按呢就毋見。 [停頓] 今早伊有打電話過來說要煮湯給我們食，但我欲問伊咧啥物材料要去買，那個... 想袂起來啦。齁，家裡最近有無啥代誌？嗯，就是孫仔咧足誠，讀書也攏好，阿爸閣在厝內看新聞。 [停頓] 嗯，好像就這樣子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我袂知啦，醫師你講一下就好。早餐咧食啥物？那個... 我食了個蛋跟一包麵包，阿母有無同我來著？她轉去菜市仔買菜了，按呢就毋見。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1046
+    },
+    {
+      "type": "speech",
+      "text": "今早伊有打電話過來說要煮湯給我們食，但我欲問伊咧啥物材料要去買，那個... 想袂起來啦。齁，家裡最近有無啥代誌？嗯，就是孫仔咧足誠，讀書也攏好，阿爸閣在厝內看新聞。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯，好像就這樣子。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2246,
+    "mean_pause_ms": 1123.0,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.92
+}

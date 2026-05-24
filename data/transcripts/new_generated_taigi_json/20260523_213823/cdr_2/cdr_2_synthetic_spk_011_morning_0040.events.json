@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起啦，洗面咧， 食飯欲食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1293
+  },
+  {
+    "type": "speech",
+    "text": "畫紙攏亂擺，整理一下咧，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 670
+  },
+  {
+    "type": "speech",
+    "text": "出門去菜市仔，那個阿母有講袂知去哪個攤子買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1404
+  },
+  {
+    "type": "speech",
+    "text": "唉，以前伊佇學校讀書時，早起也是這樣啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1471
+  },
+  {
+    "type": "speech",
+    "text": "齁，今日想食啥物？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1224
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔，那個好可愛啊，咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2042
+  },
+  {
+    "type": "speech",
+    "text": "那個厝裡頭的東西好多，按呢袂知哪個是自己的。"
+  },
+  {
+    "type": "speech",
+    "text": "以前伊食飯，那個都是阿爸煮，齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 895
+  }
+]

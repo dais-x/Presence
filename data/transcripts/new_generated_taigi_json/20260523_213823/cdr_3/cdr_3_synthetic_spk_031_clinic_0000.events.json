@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2744
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇家裡啊... 早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3959
+  },
+  {
+    "type": "speech",
+    "text": "沒有欲食... 囝仔咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3677
+  },
+  {
+    "type": "speech",
+    "text": "天氣冷啦... 菜市仔去袂啦... 我阿爸誠如何？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3669
+  },
+  {
+    "type": "speech",
+    "text": "攚記得..."
+  }
+]

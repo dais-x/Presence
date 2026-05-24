@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_001_market_0260",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個雞蛋欲著哪個攤販買啊？ [停頓] 噗，想袂起來伊是賣啥物咧... 那個鴨肉攤販齁，按呢就買來食飯囉。那個芥菜咧，阿母說要多買幾斤咧，欸，那個白米咧，嗯，就是要去轉去超市買，那個菜市仔佇厝附近袂有賣啊。 [停頓] 唉，今早同伊講話，伊講咧... 噗，那個啥物咧，按呢就回去囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個雞蛋欲著哪個攤販買啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1177
+    },
+    {
+      "type": "speech",
+      "text": "噗，想袂起來伊是賣啥物咧... 那個鴨肉攤販齁，按呢就買來食飯囉。那個芥菜咧，阿母說要多買幾斤咧，欸，那個白米咧，嗯，就是要去轉去超市買，那個菜市仔佇厝附近袂有賣啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，今早同伊講話，伊講咧... 噗，那個啥物咧，按呢就回去囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2377,
+    "mean_pause_ms": 1188.5,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 0.92
+}

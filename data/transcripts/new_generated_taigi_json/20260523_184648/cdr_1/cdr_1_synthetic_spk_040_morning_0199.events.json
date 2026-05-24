@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_040_morning_0199",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂久就起來洗面啦，然後食飯囝仔叫我準備些東西帶出門去，我講好啦就是要去菜市仔買物資咧，那個彼個...彼個叫啥？想袂起來 [停頓] ，啊，應該是說紙巾齁。還有佇厝內整理一下物件，按呢閣足啦，轉去食飯啦。孫仔講欲跟我一起去，但我講我今早先去就好啦，毋知佷後有無時間咧。 [停頓] 然後就出門，順便去看個朋友齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂久就起來洗面啦，然後食飯囝仔叫我準備些東西帶出門去，我講好啦就是要去菜市仔買物資咧，那個彼個...彼個叫啥？想袂起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1192
+    },
+    {
+      "type": "speech",
+      "text": "，啊，應該是說紙巾齁。還有佇厝內整理一下物件，按呢閣足啦，轉去食飯啦。孫仔講欲跟我一起去，但我講我今早先去就好啦，毋知佷後有無時間咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1232
+    },
+    {
+      "type": "speech",
+      "text": "然後就出門，順便去看個朋友齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2424,
+    "mean_pause_ms": 1212.0,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,64 @@
+{
+  "sample_id": "cdr_1_family_0004",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "spoken_transcript": "今仔日阿母轉來食飯囝仔叫啥物？彼個...彼個叫啥咧？ [停頓] 我欲講出嚟啊 [停頓] 想袂起來啦。孫仔攏佇啊，閣足一齊坐厝內灶跤邊聊天齁。 [長停頓] 那個有講話咧，伊就講「阿母今早起晚囝！ [沉默] 今早彼個啥時辰起啊？我毋知咧",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日阿母轉來食飯囝仔叫啥物？彼個...彼個叫啥咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "我欲講出嚟啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 950
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。孫仔攏佇啊，閣足一齊坐厝內灶跤邊聊天齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1800
+    },
+    {
+      "type": "speech",
+      "text": "那個有講話咧，伊就講「阿母今早起晚囝！"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2300
+    },
+    {
+      "type": "speech",
+      "text": "今早彼個啥時辰起啊？我毋知咧"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 1,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 6250,
+    "mean_pause_ms": 1562.5,
+    "speech_char_count": 91
+  },
+  "speech_rate_target": 0.85
+}

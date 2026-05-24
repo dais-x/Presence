@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1114
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1029
+  },
+  {
+    "type": "speech",
+    "text": "我食稀飯跟鹹菜啊... 家裡按呢好無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1336
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇家攏好，孫仔去學校喇... 那個彼個...彼個叫啥啊，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 738
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 797
+  },
+  {
+    "type": "speech",
+    "text": "我想講啥代誌咧？"
+  },
+  {
+    "type": "speech",
+    "text": "噗哈哈哈，那個就是按呢無啥啦。"
+  }
+]

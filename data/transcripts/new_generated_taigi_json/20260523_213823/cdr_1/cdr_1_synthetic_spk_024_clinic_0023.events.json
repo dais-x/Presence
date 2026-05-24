@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 751
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊...彼個是幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1352
+  },
+  {
+    "type": "speech",
+    "text": "呀，早飯我食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1026
+  },
+  {
+    "type": "speech",
+    "text": "我食麵線糊啦！"
+  },
+  {
+    "type": "speech",
+    "text": "齁，麥當勞也有賣咧。"
+  },
+  {
+    "type": "speech",
+    "text": "那個厝裡按呢無啥代誌，伊人都好著嘞。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 771
+  },
+  {
+    "type": "speech",
+    "text": "阿母還好，阿爸也安穩。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝有去學校齁。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...我說啥物嘞？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢是幾號啊？"
+  },
+  {
+    "type": "speech",
+    "text": "呀，毋知著啦。"
+  }
+]

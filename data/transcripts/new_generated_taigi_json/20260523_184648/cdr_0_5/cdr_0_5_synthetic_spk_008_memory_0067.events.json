@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_008_memory_0067",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣真好，我想到少年時陣佇田裡幫阿爸耕作。那個...伊教我怎麼插秧，一早起厝就轉去菜市仔買菜。午後就來到稻田， [停頓] 劉子咧是跟著長輩學，農忙時節特別緊張。 [嘆氣] 那個時候的農活好辛苦啊，不過跟鄰居們一起工作也挺開心的。現在想想，那個...好多事都袂知道了，好像時間過得很快嘛啦。當初讀冊的時候，每天返厝都要先幫阿母做家務， [停頓] 每天這樣來來回回，生活簡單卻也足夠。嗯，講到農忙，不免就會想起來少年時陣的光景。齁，我們那個時候真的很辛苦，但也覺得無所謂啦，因為都是為了家庭嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好，我想到少年時陣佇田裡幫阿爸耕作。那個...伊教我怎麼插秧，一早起厝就轉去菜市仔買菜。午後就來到稻田，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1071
+    },
+    {
+      "type": "speech",
+      "text": "劉子咧是跟著長輩學，農忙時節特別緊張。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1382
+    },
+    {
+      "type": "speech",
+      "text": "那個時候的農活好辛苦啊，不過跟鄰居們一起工作也挺開心的。現在想想，那個...好多事都袂知道了，好像時間過得很快嘛啦。當初讀冊的時候，每天返厝都要先幫阿母做家務，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "每天這樣來來回回，生活簡單卻也足夠。嗯，講到農忙，不免就會想起來少年時陣的光景。齁，我們那個時候真的很辛苦，但也覺得無所謂啦，因為都是為了家庭嘛。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2271,
+    "mean_pause_ms": 1135.5,
+    "speech_char_count": 230
+  },
+  "speech_rate_target": 0.92
+}

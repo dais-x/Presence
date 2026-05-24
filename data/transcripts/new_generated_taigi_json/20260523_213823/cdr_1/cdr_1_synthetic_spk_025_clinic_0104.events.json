@@ -1,0 +1,78 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1253
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 噁，彼個叫啥來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1060
+  },
+  {
+    "type": "speech",
+    "text": "醫生閣問啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1186
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥咧？"
+  },
+  {
+    "type": "speech",
+    "text": "食飯啦，還有豆漿齁。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔買菜咧，買啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "那個，想袂起來啦..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 849
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去買米，還有油啊。"
+  },
+  {
+    "type": "speech",
+    "text": "今早伊有無去公園遛鳥？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢那個，伊今早去公園瞭齁。"
+  },
+  {
+    "type": "speech",
+    "text": "但彼個鳥名嘛，彼個叫啥來著？"
+  },
+  {
+    "type": "speech",
+    "text": "醫生，伊有無食飯啦？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 846
+  },
+  {
+    "type": "speech",
+    "text": "食啦，食飯咧。"
+  }
+]

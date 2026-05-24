@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1117
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1378
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1553
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去買菜，可是我無去。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 779
+  },
+  {
+    "type": "speech",
+    "text": "嗯…"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1395
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔遇到伊，那個伊講伊也袂知幾號。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1855
+  },
+  {
+    "type": "speech",
+    "text": "異囝仔時候咧，我們會一起去溪邊戲水。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1127
+  },
+  {
+    "type": "speech",
+    "text": "那個早食我食豆漿跟油條啦，就是現在無人會做啦。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前會做，可是他閣過世了。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 975
+  }
+]

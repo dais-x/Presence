@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_009_family_0008",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日囝仔轉來厝內食飯，我跟伊講話講袂通，彼個...彼個叫啥物啊？ [停頓] 那個孫仔咧，真可愛啦！按呢有沒有買菜去菜市仔啊？ [長停頓] 想袂起來，彼個名字就是想袂起來。 [嘆氣] 今仔日欲煮啥好食啊？ [咳嗽] 灶跤邊坐著講話，那個孫仔咧，會不會喊阿母齁？ [停頓] 那個囝仔啦，跟伊講話講袂通，彼個叫啥物啊？ [長停頓] 今仔日有無食飽飯？ [沉默] 想想看，按呢有無去市場買菜？ [停頓] 那個名字咧，就是叫袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔轉來厝內食飯，我跟伊講話講袂通，彼個...彼個叫啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 997
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧，真可愛啦！按呢有沒有買菜去菜市仔啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1781
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，彼個名字就是想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 858
+    },
+    {
+      "type": "speech",
+      "text": "今仔日欲煮啥好食啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1141
+    },
+    {
+      "type": "speech",
+      "text": "灶跤邊坐著講話，那個孫仔咧，會不會喊阿母齁？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1136
+    },
+    {
+      "type": "speech",
+      "text": "那個囝仔啦，跟伊講話講袂通，彼個叫啥物啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2434
+    },
+    {
+      "type": "speech",
+      "text": "今仔日有無食飽飯？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2394
+    },
+    {
+      "type": "speech",
+      "text": "想想看，按呢有無去市場買菜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 876
+    },
+    {
+      "type": "speech",
+      "text": "那個名字咧，就是叫袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 12,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 9618,
+    "mean_pause_ms": 1603.0,
+    "speech_char_count": 162
+  },
+  "speech_rate_target": 0.85
+}

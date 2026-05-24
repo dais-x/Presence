@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_029_clinic_0098",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 按呢袂知啦。那個今早食啥物咧？我今早食鹼粽。鹼粽齁好吃。 [長停頓] 那個阿母以前袂吃鹹粽，她喜憨鹹粽。 [嘆氣] 今早有無攏食飯啊？就是伊咧都食啦。 [沉默] 阿爸以前會煮好心多菜，現在佇厝裡閣足人。 [咳嗽] 按呢阿母去菜市仔買菜，我欲去。孫仔咧讀書未？按呢袂知咧。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1360
+    },
+    {
+      "type": "speech",
+      "text": "按呢袂知啦。那個今早食啥物咧？我今早食鹼粽。鹼粽齁好吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3165
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母以前袂吃鹹粽，她喜憨鹹粽。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 723
+    },
+    {
+      "type": "speech",
+      "text": "今早有無攏食飯啊？就是伊咧都食啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3695
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前會煮好心多菜，現在佇厝裡閣足人。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 766
+    },
+    {
+      "type": "speech",
+      "text": "按呢阿母去菜市仔買菜，我欲去。孫仔咧讀書未？按呢袂知咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1306
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 9526,
+    "mean_pause_ms": 2381.5,
+    "speech_char_count": 117
+  },
+  "speech_rate_target": 0.75
+}

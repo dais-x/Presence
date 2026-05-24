@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_013_clinic_0092",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 想袂起來...彼個...彼個叫啥，醫生知無？ [長停頓] 啥物咧，今早食啥東西？ [嘆氣] 阿母講毋通去菜市仔買米，但伊有買菜。 [停頓] 佇家裡頭，孫仔啦，囝仔啦，大家都食飯，我也是。 [長停頓] 那個...按呢是幾號？齁，今早袂曉得吃啥，就是食了嘛。 [咳嗽] 真的想袂起來，彼個時間記無攏。 [停頓] 有啥代誌咧？嗯，好像有啥事體，但想袂起來。 [長停頓] 那個時候啦，就是這樣子啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 878
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來...彼個...彼個叫啥，醫生知無？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1822
+    },
+    {
+      "type": "speech",
+      "text": "啥物咧，今早食啥東西？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 768
+    },
+    {
+      "type": "speech",
+      "text": "阿母講毋通去菜市仔買米，但伊有買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 882
+    },
+    {
+      "type": "speech",
+      "text": "佇家裡頭，孫仔啦，囝仔啦，大家都食飯，我也是。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1860
+    },
+    {
+      "type": "speech",
+      "text": "那個...按呢是幾號？齁，今早袂曉得吃啥，就是食了嘛。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1126
+    },
+    {
+      "type": "speech",
+      "text": "真的想袂起來，彼個時間記無攏。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 915
+    },
+    {
+      "type": "speech",
+      "text": "有啥代誌咧？嗯，好像有啥事體，但想袂起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1908
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啦，就是這樣子啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 8265,
+    "mean_pause_ms": 1377.5,
+    "speech_char_count": 157
+  },
+  "speech_rate_target": 0.85
+}

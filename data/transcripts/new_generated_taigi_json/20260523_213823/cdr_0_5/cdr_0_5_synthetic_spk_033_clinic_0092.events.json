@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 880
+  },
+  {
+    "type": "speech",
+    "text": "那個... 我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 848
+  },
+  {
+    "type": "speech",
+    "text": "那個頭一日咧是啥個日呢？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，我早食了一碗稀飯跟鹹菜囉。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔佇厝內攏足齁，大家都食飽了，誠毋來問我咧。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢倒沒有啥物代誌啦，那個... 嗯，就是伊們都好著啊。"
+  }
+]

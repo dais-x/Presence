@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1536
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來啦... 今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "我食包粿啦，還攏有豆漿齁... 家裡按呢咋樣？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1338
+  },
+  {
+    "type": "speech",
+    "text": "按呢伊都佇家齁，我孫仔咧也足啦... 那個彼個... 彼個叫啥名字啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1090
+  },
+  {
+    "type": "speech",
+    "text": "嗯～想袂起來啦... 但我阿母閣健在的啦，她還欲去菜市仔買菜嘞。"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 838
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 628
+  },
+  {
+    "type": "speech",
+    "text": "按呢吃個啥物早餐？"
+  },
+  {
+    "type": "speech",
+    "text": "誠早轉去菜市仔買個米糕咧，食了個。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母講伊欲洗衫，我就幫佇伊。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...孫仔咧讀書啊，按呢放學未？"
+  },
+  {
+    "type": "speech",
+    "text": "那個想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "今早有無轉去厝？"
+  },
+  {
+    "type": "speech",
+    "text": "轉去咧，食個早餐後就來診所齁。"
+  }
+]

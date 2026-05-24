@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_009_family_0188",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，真好笑，按呢伊阿母講著伊囝仔，那個...講到一半想袂起來啦， [停頓] 嗯，就是講伊囝仔讀書咧。伊爸爸咧，講著以前的事，齁，有時會提到我阿爸，那個時候啊，大家食飯都坐佇灶跤邊。孫仔呢，就問啥物個問題，真可愛，按呢講到以前菜市仔去買菜，那個年代，菜價廉價， [停頓] 想袂起來啦，齁，那些事阿，現在想來咧好像很久以前的樣貌，唉... [嘆氣] 嗯，就是這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，真好笑，按呢伊阿母講著伊囝仔，那個...講到一半想袂起來啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1170
+    },
+    {
+      "type": "speech",
+      "text": "嗯，就是講伊囝仔讀書咧。伊爸爸咧，講著以前的事，齁，有時會提到我阿爸，那個時候啊，大家食飯都坐佇灶跤邊。孫仔呢，就問啥物個問題，真可愛，按呢講到以前菜市仔去買菜，那個年代，菜價廉價，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，齁，那些事阿，現在想來咧好像很久以前的樣貌，唉..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1101
+    },
+    {
+      "type": "speech",
+      "text": "嗯，就是這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2370,
+    "mean_pause_ms": 1185.0,
+    "speech_char_count": 173
+  },
+  "speech_rate_target": 0.92
+}

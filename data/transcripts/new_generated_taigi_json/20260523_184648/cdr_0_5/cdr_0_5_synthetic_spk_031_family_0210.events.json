@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_031_family_0210",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，真開心啊。那個阿母有講說孫仔讀書好辛苦，講到我心想齁，以前我們讀書時哪有這麼多功課囉。 [停頓] 然後今早去菜市仔買菜，看到好多攤販都在擺櫻桃，看起來好甜啊。回想到以前那個，阿爸會載我去市場買水果吃，那個時候真開心。講到那個孫仔咧，我說伊讀書太辛苦啦，要多休息一下。 [停頓] 嗯... 孫仔轉來厝內，大家都坐佇灶跤邊講話，真的好熱鬧啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，真開心啊。那個阿母有講說孫仔讀書好辛苦，講到我心想齁，以前我們讀書時哪有這麼多功課囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1025
+    },
+    {
+      "type": "speech",
+      "text": "然後今早去菜市仔買菜，看到好多攤販都在擺櫻桃，看起來好甜啊。回想到以前那個，阿爸會載我去市場買水果吃，那個時候真開心。講到那個孫仔咧，我說伊讀書太辛苦啦，要多休息一下。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 孫仔轉來厝內，大家都坐佇灶跤邊講話，真的好熱鬧啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2225,
+    "mean_pause_ms": 1112.5,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.92
+}

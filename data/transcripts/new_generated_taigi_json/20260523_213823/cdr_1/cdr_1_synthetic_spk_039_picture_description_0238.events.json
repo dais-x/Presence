@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日咧菜市仔欲去買物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1276
+  },
+  {
+    "type": "speech",
+    "text": "彼個老闆娘咧叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1555
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 那個賣魚的攤子，伊頭前擺著好多魚啊，按呢個地方人來來往往的很多。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 738
+  },
+  {
+    "type": "speech",
+    "text": "那個囝仔咧玩著沙子，真可愛齁。"
+  },
+  {
+    "type": "speech",
+    "text": "食飯時間咧，厝內閣有人在煮飯，香噴噴的嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "那張桌子頂咧有啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...攏是碗盤咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧咧講：「阿母，我欲吃糖！"
+  },
+  {
+    "type": "speech",
+    "text": "」"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 532
+  },
+  {
+    "type": "speech",
+    "text": "喔！"
+  },
+  {
+    "type": "speech",
+    "text": "彼個孫仔咧講話真歡欣啊，就是可愛啦。"
+  }
+]

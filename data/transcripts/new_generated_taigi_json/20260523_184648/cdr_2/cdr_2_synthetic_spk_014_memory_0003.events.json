@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_014_memory_0003",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_014",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣熱啊 [停頓] ，以前我讀冊時陣，學校附近有個菜市仔 [長停頓] ，阿母叫我去買菜， [沉默] 伊講袂知啥物欲買。那個時候我們會攏去田裡工作，農忙咧，真辛苦啊 [嘆氣] 。今早食飯時，孫仔講話我聽袂清 [停頓] ，耳朵壞啦 [咳嗽] ，按呢日頭曬的，以前伊在學校讀冊，應該開心才對，齁， [停頓] 現在講袂知為啥煩惱，那個時候真好啊。 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣熱啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1239
+    },
+    {
+      "type": "speech",
+      "text": "，以前我讀冊時陣，學校附近有個菜市仔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2725
+    },
+    {
+      "type": "speech",
+      "text": "，阿母叫我去買菜，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2165
+    },
+    {
+      "type": "speech",
+      "text": "伊講袂知啥物欲買。那個時候我們會攏去田裡工作，農忙咧，真辛苦啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1177
+    },
+    {
+      "type": "speech",
+      "text": "。今早食飯時，孫仔講話我聽袂清"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1323
+    },
+    {
+      "type": "speech",
+      "text": "，耳朵壞啦"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 980
+    },
+    {
+      "type": "speech",
+      "text": "，按呢日頭曬的，以前伊在學校讀冊，應該開心才對，齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1399
+    },
+    {
+      "type": "speech",
+      "text": "現在講袂知為啥煩惱，那個時候真好啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4273
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 13124,
+    "mean_pause_ms": 2187.33,
+    "speech_char_count": 129
+  },
+  "speech_rate_target": 0.75
+}

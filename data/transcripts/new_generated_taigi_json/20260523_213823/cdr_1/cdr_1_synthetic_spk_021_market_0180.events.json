@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我去菜市仔買菜，遇到老朋友啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1297
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥名字來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1177
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1238
+  },
+  {
+    "type": "speech",
+    "text": "齁，彼個賣菜的阿伯咧，有話伊說今天菜價袂便宜啊。"
+  },
+  {
+    "type": "speech",
+    "text": "我聽伊講，嗯，就買幾樣菜回去食飯囉。"
+  },
+  {
+    "type": "speech",
+    "text": "轉去厝內，孫仔看到我就喊「阿公！"
+  },
+  {
+    "type": "speech",
+    "text": "」「阿公！"
+  },
+  {
+    "type": "speech",
+    "text": "」「哎呀，孫仔長高啦！"
+  },
+  {
+    "type": "speech",
+    "text": "」彼個那個...啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "對了，灶跤上我煮好湯咧，準備等會兒叫家人來食飯囉。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，今仔日天氣還真好嘞。"
+  }
+]

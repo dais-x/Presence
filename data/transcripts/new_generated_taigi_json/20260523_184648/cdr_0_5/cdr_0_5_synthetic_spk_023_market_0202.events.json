@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_023_market_0202",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個攤販咧賣青菜很新鮮，我就講說要一斤啦。 [停頓] 嗯...青菜啊，我上次買袂到，想袂起來叫啥物來著？就是阿母以前愛講的那個菜啦。齁，還有咧，去買魚，魚販子咧講說伊有新進來一箱虱目魚，我講欸，好嘛，要幾斤啊？ [停頓] 嗯... 那個今仔日攏是買滿多的菜，轉去厝內，阿爸咧講說伊想食虱目魚湯。然後我就準備啦。齁，今仔日有無雨，天氣好，所以我去菜市仔咧，心情也很好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個攤販咧賣青菜很新鮮，我就講說要一斤啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 502
+    },
+    {
+      "type": "speech",
+      "text": "嗯...青菜啊，我上次買袂到，想袂起來叫啥物來著？就是阿母以前愛講的那個菜啦。齁，還有咧，去買魚，魚販子咧講說伊有新進來一箱虱目魚，我講欸，好嘛，要幾斤啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 那個今仔日攏是買滿多的菜，轉去厝內，阿爸咧講說伊想食虱目魚湯。然後我就準備啦。齁，今仔日有無雨，天氣好，所以我去菜市仔咧，心情也很好啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1702,
+    "mean_pause_ms": 851.0,
+    "speech_char_count": 182
+  },
+  "speech_rate_target": 0.92
+}

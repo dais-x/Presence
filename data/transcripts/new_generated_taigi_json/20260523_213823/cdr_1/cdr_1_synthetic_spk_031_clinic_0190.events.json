@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 996
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1483
+  },
+  {
+    "type": "speech",
+    "text": "齁，早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1308
+  },
+  {
+    "type": "speech",
+    "text": "我欲食粿汁咧，但係佇菜市仔買袂到囉。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，今早按呢有啥代誌？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1159
+  },
+  {
+    "type": "speech",
+    "text": "家裡頭嘛有啥變動啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 阿母無恙啦，伊咧厝內安靜著。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢足囝仔轉來過假欸，孫仔咧灶跤邊玩積木啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，阿爸閣無事，佇看報紙咧。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，今早嘛有啥人轉去啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我欲說袂出來，想袂起來啦。"
+  }
+]

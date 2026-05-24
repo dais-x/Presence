@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_012_market_0231",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個老闆咧賣啥物菜啊？嗯... 那個菜是青江菜啦。我講說：「伊今日賣啥物？ [停頓] 他回咓：「青江菜咧。」然後我欲買些蒜頭按呢，阿母叫我去買的啦。那個蒜頭攏足，誠新鮮，我就買一斤回去。轉去厝內，阿爸講說：「菜有無袂夠？」 我就講：「夠啦，今仔日買好多菜咧。 [停頓] 那個... 想袂起來伊欲吃啥物菜？齁，我後佇再想一想。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個老闆咧賣啥物菜啊？嗯... 那個菜是青江菜啦。我講說：「伊今日賣啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 598
+    },
+    {
+      "type": "speech",
+      "text": "他回咓：「青江菜咧。」然後我欲買些蒜頭按呢，阿母叫我去買的啦。那個蒜頭攏足，誠新鮮，我就買一斤回去。轉去厝內，阿爸講說：「菜有無袂夠？」 我就講：「夠啦，今仔日買好多菜咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個... 想袂起來伊欲吃啥物菜？齁，我後佇再想一想。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1798,
+    "mean_pause_ms": 899.0,
+    "speech_char_count": 160
+  },
+  "speech_rate_target": 0.92
+}

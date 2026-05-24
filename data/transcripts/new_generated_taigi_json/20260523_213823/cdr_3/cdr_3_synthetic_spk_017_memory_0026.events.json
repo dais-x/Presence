@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣... 阿母有無食飯？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3517
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 农忙啊... 嗯记得啦... 囝仔彼個時候... 菜市仔去欲咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1590
+  },
+  {
+    "type": "speech",
+    "text": "那個啥物..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3363
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 939
+  },
+  {
+    "type": "speech",
+    "text": "攚去讀冊啊... 阿爸咧？"
+  }
+]

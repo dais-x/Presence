@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_016_market_0095",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，攤販賣伊菜咧，彼個...彼個叫啥？想袂起來啦， [停頓] 那個蔬菜，啊，那個青菜啦，買咧一大袋回去啦。轉去厝內，阿母講伊煮好食飯咧，我欲吃，但毋知為啥無胃口，齁，那個話題，就是說，今仔日天氣還滿好的，攤販咧有個伯公，咧咧講伊孫仔， [長停頓] 想袂起來啦，彼個叫啥？孫仔啊，齁，我買菜咧也想到伊，就講伊咧咧幾大咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，攤販賣伊菜咧，彼個...彼個叫啥？想袂起來啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 955
+    },
+    {
+      "type": "speech",
+      "text": "那個蔬菜，啊，那個青菜啦，買咧一大袋回去啦。轉去厝內，阿母講伊煮好食飯咧，我欲吃，但毋知為啥無胃口，齁，那個話題，就是說，今仔日天氣還滿好的，攤販咧有個伯公，咧咧講伊孫仔，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2458
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，彼個叫啥？孫仔啊，齁，我買菜咧也想到伊，就講伊咧咧幾大咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3413,
+    "mean_pause_ms": 1706.5,
+    "speech_char_count": 155
+  },
+  "speech_rate_target": 0.85
+}

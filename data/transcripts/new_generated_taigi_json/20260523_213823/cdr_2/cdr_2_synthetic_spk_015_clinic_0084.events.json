@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1217
+  },
+  {
+    "type": "speech",
+    "text": "忘記咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1464
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐有食阮阿母煮的菜粿，好飽。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1071
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 阮孫仔咧學校唸書，伊讀五年級啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 754
+  },
+  {
+    "type": "speech",
+    "text": "以前啊，咱厝頭有間大菜園子，種好多蔬菜，現在袂有了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1286
+  },
+  {
+    "type": "speech",
+    "text": "沒啥代誌，就是阮阿爸過世已經好久咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2384
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐食啥？"
+  },
+  {
+    "type": "speech",
+    "text": "記著伊... 菜粿啦，還有豆漿。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 當時阮還小，現在變老啦。"
+  }
+]

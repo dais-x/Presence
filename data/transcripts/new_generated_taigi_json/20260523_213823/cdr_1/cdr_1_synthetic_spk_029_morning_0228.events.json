@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起來啦，洗個面咧，食飯啊，欲去菜市仔買些東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 739
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個包包咧放哪裡了，應該佇房間內某個地方。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1479
+  },
+  {
+    "type": "speech",
+    "text": "嗯...要攏準備好出門囉，就是按呢時間要去會朋友。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1348
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，彼個記憶力真有問題啊，那個包包咧找袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1330
+  },
+  {
+    "type": "speech",
+    "text": "啊，誠毋知伊叫啥物，欲說出來，想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "噗哈哈哈... 阿母講過按呢時候會這樣子。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 855
+  },
+  {
+    "type": "speech",
+    "text": "攜著手機就好啦，去菜市仔買些食材。"
+  }
+]

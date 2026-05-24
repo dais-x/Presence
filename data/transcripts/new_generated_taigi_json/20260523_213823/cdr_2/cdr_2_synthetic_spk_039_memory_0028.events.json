@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣袂太好，按呢我欲轉去菜市仔買菜，那個以前讀冊時陣，伊阿母袂知咧幾辛苦，齁學校遠得很，要走路好多哩，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1938
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1207
+  },
+  {
+    "type": "speech",
+    "text": "現在人老啦，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2596
+  },
+  {
+    "type": "cough",
+    "duration_ms": 744
+  },
+  {
+    "type": "speech",
+    "text": "食飯無力氣，以前厝內佇田裡做農忙，一早起睏，孫仔讀書咧，欲毋知會不會有好結果，啊。"
+  }
+]

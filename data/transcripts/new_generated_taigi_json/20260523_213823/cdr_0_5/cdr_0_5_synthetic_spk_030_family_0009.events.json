@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，孫仔也攏來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 502
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇灶跤煮菜，阿爸坐著等著食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 544
+  },
+  {
+    "type": "speech",
+    "text": "我跟伊講話，問伊學校咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 想袂起來最近有無放假咧。"
+  },
+  {
+    "type": "speech",
+    "text": "然後孫仔就過來欲聽，說啥物好玩的啊。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，大家坐佇一起啦，熱鬧齁。"
+  }
+]

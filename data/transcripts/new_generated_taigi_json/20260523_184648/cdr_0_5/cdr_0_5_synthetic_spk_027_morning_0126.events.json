@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_027_morning_0126",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起睏咧，先洗個面， [停頓] 梳一下頭髮，整個人清爽一點。食飯啦，去菜市仔買菜，準備中午的料。那個...要去哪咧？想袂起來，就是去轉轉唄，嗯，然後啊，整理一下厝裡的東西。 [停頓] 好像漏啥物了，那個包包咧，按呢有帶嗎？攏在那邊，閣去拿來，足可以啦。孫仔咧，誠有講過要去哪裡遊玩嗎？齁，先準備好出門就好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起睏咧，先洗個面，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 647
+    },
+    {
+      "type": "speech",
+      "text": "梳一下頭髮，整個人清爽一點。食飯啦，去菜市仔買菜，準備中午的料。那個...要去哪咧？想袂起來，就是去轉轉唄，嗯，然後啊，整理一下厝裡的東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "好像漏啥物了，那個包包咧，按呢有帶嗎？攏在那邊，閣去拿來，足可以啦。孫仔咧，誠有講過要去哪裡遊玩嗎？齁，先準備好出門就好啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1847,
+    "mean_pause_ms": 923.5,
+    "speech_char_count": 145
+  },
+  "speech_rate_target": 0.92
+}

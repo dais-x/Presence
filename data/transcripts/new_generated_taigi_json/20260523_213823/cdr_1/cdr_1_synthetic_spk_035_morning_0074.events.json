@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久，就去洗面咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1273
+  },
+  {
+    "type": "speech",
+    "text": "洗完面後欲食飯，飯米佇電鍋內，，按呢個時候毋知是幾點啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1323
+  },
+  {
+    "type": "speech",
+    "text": "噗！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1499
+  },
+  {
+    "type": "speech",
+    "text": "準備好行李，欲出門走去菜市仔買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個袋子咧，袋內有啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，就是那個包包啦。"
+  },
+  {
+    "type": "speech",
+    "text": "食過飯後，就轉去準備一下，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 426
+  },
+  {
+    "type": "speech",
+    "text": "，攏要帶著走的物件好像攏有準備好了齁。"
+  },
+  {
+    "type": "speech",
+    "text": "今早出去，欲去看阿母，伊住在隔壁厝咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧講欲來看我，，就是不知道幾時到啦。"
+  }
+]

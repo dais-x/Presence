@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_014_memory_0053",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_014",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，講到以前少年時陣，伊會袂啦？按呢時陣農忙咧，每日早早就起來，去田裡做工，種稻榖、菜類。彼個...彼個叫啥來著，阿母講毋知彼個名字，欲是鄰舍仔那個老伯伯啊。 [停頓] 嗯，當時學冊子也緊張咧，讀國小，天天去學校，伊咧教室裡頭講課，就是老師啦。然後放假時陣就幫忙家裡做事情，像搿個洗米、煮飯。 [長停頓] [嘆氣] 想袂起來攏是以前的事情啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，講到以前少年時陣，伊會袂啦？按呢時陣農忙咧，每日早早就起來，去田裡做工，種稻榖、菜類。彼個...彼個叫啥來著，阿母講毋知彼個名字，欲是鄰舍仔那個老伯伯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "text": "嗯，當時學冊子也緊張咧，讀國小，天天去學校，伊咧教室裡頭講課，就是老師啦。然後放假時陣就幫忙家裡做事情，像搿個洗米、煮飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1846
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 917
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來攏是以前的事情啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 6,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2667,
+    "mean_pause_ms": 1333.5,
+    "speech_char_count": 160
+  },
+  "speech_rate_target": 0.85
+}

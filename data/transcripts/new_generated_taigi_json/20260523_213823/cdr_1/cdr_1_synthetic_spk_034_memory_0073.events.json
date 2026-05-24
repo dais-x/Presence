@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好熱啊，我年輕時陣常愛去田裡幫阿爸做農工，彼個...彼個名字叫啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1341
+  },
+  {
+    "type": "speech",
+    "text": "是阿母的弟弟啦，他會教我種菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1308
+  },
+  {
+    "type": "speech",
+    "text": "按呢一早，我們就袂敢遲，早早起來就轉去菜市仔買東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1220
+  },
+  {
+    "type": "speech",
+    "text": "然後回家煮飯，煮好後全家人都聚攏來食飯。"
+  },
+  {
+    "type": "speech",
+    "text": "當時的農忙季節，真是辛苦啊，但大家咧都很開心，因為可以一起工作。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥物啦？"
+  },
+  {
+    "type": "speech",
+    "text": "是鄰居阿伯，他教我好多東西。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1228
+  },
+  {
+    "type": "speech",
+    "text": "現在想起來，那段日子實在是很美好。"
+  }
+]

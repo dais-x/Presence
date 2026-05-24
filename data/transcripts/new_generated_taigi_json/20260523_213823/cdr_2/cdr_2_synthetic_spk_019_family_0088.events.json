@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，孫仔也攏來啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2444
+  },
+  {
+    "type": "cough",
+    "duration_ms": 445
+  },
+  {
+    "type": "speech",
+    "text": "，大家坐佇灶跤邊講話咧，我阿母以前做菜好手藝ㄟ，那個就是很香齁"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2489
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1011
+  },
+  {
+    "type": "speech",
+    "text": "你知伊去哪囉？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2005
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物早餐啊，毋知啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1344
+  },
+  {
+    "type": "speech",
+    "text": "以前我們厝內很大咧，好多兄弟姐妹，現在袂見到啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 849
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠乖巧，阿爸說佇以前很像伊"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 839
+  },
+  {
+    "type": "speech",
+    "text": "。我頭痛啊，想攏毋去菜市仔買菜啦，那個以前想去咧，現在無力囉。"
+  }
+]

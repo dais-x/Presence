@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_009_family_0208",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話。伊阿母袂在家，伊就自己煮一頓好好味的湯麵。 [停頓] 孫仔真愛吃，食到一半咧還想加菜。 [嘆氣] 我呢個孫仔啊，食得好多，不過也好會說笑話，大家都哈哈大笑啦。 [咳嗽] 囝仔講說今暝伊要加班，所以只有中午來厝內食飯，晚間就要轉去公司咧。阿母說最近身體還好，就是有點累。我呢個孫仔啊，真像伊老爸，長得帥，也很會講話。 [停頓] 嗯，真是快樂的一天齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話。伊阿母袂在家，伊就自己煮一頓好好味的湯麵。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 595
+    },
+    {
+      "type": "speech",
+      "text": "孫仔真愛吃，食到一半咧還想加菜。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 885
+    },
+    {
+      "type": "speech",
+      "text": "我呢個孫仔啊，食得好多，不過也好會說笑話，大家都哈哈大笑啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 759
+    },
+    {
+      "type": "speech",
+      "text": "囝仔講說今暝伊要加班，所以只有中午來厝內食飯，晚間就要轉去公司咧。阿母說最近身體還好，就是有點累。我呢個孫仔啊，真像伊老爸，長得帥，也很會講話。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 528
+    },
+    {
+      "type": "speech",
+      "text": "嗯，真是快樂的一天齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 1123,
+    "mean_pause_ms": 561.5,
+    "speech_char_count": 175
+  },
+  "speech_rate_target": 1.0
+}

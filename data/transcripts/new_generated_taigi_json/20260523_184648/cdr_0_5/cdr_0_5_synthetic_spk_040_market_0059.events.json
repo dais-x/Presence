@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_040_market_0059",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜，那個青菜咧便宜好多啊。跟攤販講話，伊說菜價會袂起漲啦。 [停頓] 想袂起來要買啥物菜， [停頓] 那個肉鬆咧，孫仔很愛吃。然後就轉去厝內囉，阿母問我買啥物菜，我就講伊今早咧有買啦。想袂起來明天要去哪陣做嘛，那個時候再決定齁。 [嘆氣] 其實欲去朋友家坐一會兒，但足未決定。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜，那個青菜咧便宜好多啊。跟攤販講話，伊說菜價會袂起漲啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1087
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來要買啥物菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個肉鬆咧，孫仔很愛吃。然後就轉去厝內囉，阿母問我買啥物菜，我就講伊今早咧有買啦。想袂起來明天要去哪陣做嘛，那個時候再決定齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1080
+    },
+    {
+      "type": "speech",
+      "text": "其實欲去朋友家坐一會兒，但足未決定。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2287,
+    "mean_pause_ms": 1143.5,
+    "speech_char_count": 128
+  },
+  "speech_rate_target": 0.92
+}

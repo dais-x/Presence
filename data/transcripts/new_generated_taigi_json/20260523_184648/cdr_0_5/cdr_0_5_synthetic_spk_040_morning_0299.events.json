@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_040_morning_0299",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗面啦，食完早餐後就跟阿母講要去菜市仔買個東西。 [停頓] 那個...準備一下就轉去，買完之後回家整理一下物件咧。按呢要出門買菜啊，那個...有啥物要記得帶著。 [停頓] 想袂起來啦，不過應該毋會忘記啦就是。買了菜回來，阿母就會在厝裡等著我食飯囉。 [嘆氣] 嗯...阿爸咧講說他要去朋友家，那個...我就去菜市仔就好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗面啦，食完早餐後就跟阿母講要去菜市仔買個東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1108
+    },
+    {
+      "type": "speech",
+      "text": "那個...準備一下就轉去，買完之後回家整理一下物件咧。按呢要出門買菜啊，那個...有啥物要記得帶著。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，不過應該毋會忘記啦就是。買了菜回來，阿母就會在厝裡等著我食飯囉。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1073
+    },
+    {
+      "type": "speech",
+      "text": "嗯...阿爸咧講說他要去朋友家，那個...我就去菜市仔就好啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2308,
+    "mean_pause_ms": 1154.0,
+    "speech_char_count": 151
+  },
+  "speech_rate_target": 0.92
+}

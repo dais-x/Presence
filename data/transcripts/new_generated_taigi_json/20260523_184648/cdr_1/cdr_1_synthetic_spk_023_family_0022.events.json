@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_023_family_0022",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯啊，伊講袂起來欲去菜市仔買阮菜攏要用啥物？ [停頓] 想袂起來啦，彼個...彼個叫啥？ [長停頓] [嘆氣] 阿爸以前會教伊咧，伊阿學緊無學緊？ [咳嗽] 孫仔講伊要去買，阮囝仔就去攜佇一起去。 [停頓] 今仔日大家坐佇灶跤邊食飯，伊欲聽阮講古，齁我講啥物呢？ [沉默] 唉，想袂起來啦。 阿爸以前教我好多事體，伊叫啥個名字咧？ [停頓] 想袂起來啦，彼個...彼個叫啥？ [咳嗽] 攜阮孫仔去買菜，今仔日要去啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯啊，伊講袂起來欲去菜市仔買阮菜攏要用啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 919
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，彼個...彼個叫啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2293
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 844
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前會教伊咧，伊阿學緊無學緊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 716
+    },
+    {
+      "type": "speech",
+      "text": "孫仔講伊要去買，阮囝仔就去攜佇一起去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1040
+    },
+    {
+      "type": "speech",
+      "text": "今仔日大家坐佇灶跤邊食飯，伊欲聽阮講古，齁我講啥物呢？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2425
+    },
+    {
+      "type": "speech",
+      "text": "唉，想袂起來啦。 阿爸以前教我好多事體，伊叫啥個名字咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 899
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，彼個...彼個叫啥？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 776
+    },
+    {
+      "type": "speech",
+      "text": "攜阮孫仔去買菜，今仔日要去啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 2,
+    "pause_total_ms": 7576,
+    "mean_pause_ms": 1515.2,
+    "speech_char_count": 170
+  },
+  "speech_rate_target": 0.85
+}

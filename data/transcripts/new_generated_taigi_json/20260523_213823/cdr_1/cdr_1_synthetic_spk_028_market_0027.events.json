@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜，彼個攤販咧賣菜，我欲問佇伊，彼個空心菜幾錢一斤？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1261
+  },
+  {
+    "type": "speech",
+    "text": "嗯，伊咧講幾錢幾錢，講袂清楚啊，我就想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 671
+  },
+  {
+    "type": "speech",
+    "text": "那個菜啦，阿母閣等著食飯，轉去厝內齁，按呢攏要買足。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1054
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔今仔日人好多，欲買啥物菜咧，彼個那個名字啊... 嗯，叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 701
+  },
+  {
+    "type": "speech",
+    "text": "總之啦，今仔日有買到菜，但是講話時候想袂起來，就是這樣子啦。"
+  }
+]

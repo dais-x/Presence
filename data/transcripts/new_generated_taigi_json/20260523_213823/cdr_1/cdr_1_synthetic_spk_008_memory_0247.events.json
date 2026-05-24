@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好睏，我想到少年時陣啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 815
+  },
+  {
+    "type": "speech",
+    "text": "彼個時候讀冊喔，菜市仔袂那時代，阿母叫我去幫伊揹米，彼個袋子咧真重啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 980
+  },
+  {
+    "type": "speech",
+    "text": "還有一個暑假，按呢閣農忙咧，天天早起去田裡做工，伊誠辛苦啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1376
+  },
+  {
+    "type": "speech",
+    "text": "欲想起來有個孫仔咧講過，說伊毋知彼個時候的困苦啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 768
+  },
+  {
+    "type": "speech",
+    "text": "，當時的生活真的很簡單，但也很滿足咧。"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日的人嘛，生活好多了，不過按呢袂是以前那個樣子啦。"
+  }
+]

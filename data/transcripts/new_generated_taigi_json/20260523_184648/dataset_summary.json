@@ -1,0 +1,36 @@
+{
+  "total_samples": 1000,
+  "by_cdr": {
+    "0": 300,
+    "0.5": 300,
+    "1": 250,
+    "2": 100,
+    "3": 50
+  },
+  "by_split": {
+    "test": 150,
+    "train": 700,
+    "val": 150
+  },
+  "by_scenario": {
+    "clinic": 250,
+    "market": 150,
+    "memory": 200,
+    "morning": 150,
+    "picture": 100,
+    "family": 150
+  },
+  "by_language_profile": {
+    "taigi_dominant": 600,
+    "mandarin_dominant_mixed": 100,
+    "mixed_taigi_mandarin": 300
+  },
+  "by_acoustic_condition": {
+    "clean": 400,
+    "clinic_room_noise": 250,
+    "phone_mic_degraded": 150,
+    "home_background_noise": 200
+  },
+  "speaker_count": 40,
+  "split_is_speaker_independent": true
+}

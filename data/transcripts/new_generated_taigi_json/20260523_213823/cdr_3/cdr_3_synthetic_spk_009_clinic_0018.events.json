@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日... 啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2963
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊欲怎樣？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1934
+  },
+  {
+    "type": "speech",
+    "text": "... 食飯啦... 囝仔去哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1638
+  },
+  {
+    "type": "speech",
+    "text": "天氣冷啦... 菜市仔袂有去... 按呢足誠食啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1594
+  },
+  {
+    "type": "speech",
+    "text": "冷啊..."
+  }
+]

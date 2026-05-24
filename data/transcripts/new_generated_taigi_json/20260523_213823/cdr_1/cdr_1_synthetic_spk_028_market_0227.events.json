@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好，我轉去菜市仔買菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1112
+  },
+  {
+    "type": "speech",
+    "text": "攤販賣伊擺著好多蔬菜，彼個...彼個叫啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 826
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1570
+  },
+  {
+    "type": "speech",
+    "text": "那個是大白菜咧，嗯，伊閣足青菜，還有豆芽菜咧。"
+  },
+  {
+    "type": "speech",
+    "text": "比較難記得那個名字啦，買完菜轉去厝內，就按呢樣子放著囝仔阿母會煮好食飯給我。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 675
+  },
+  {
+    "type": "speech",
+    "text": "嗰個攤販真親切，常常講話咧，就是想袂起來彼個叫啥物，齁。"
+  }
+]

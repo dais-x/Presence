@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 999
+  },
+  {
+    "type": "speech",
+    "text": "噐知伊幾號啊... 我想袂起來啦... 那個早餐食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1434
+  },
+  {
+    "type": "speech",
+    "text": "按呢早佇菜市仔買個油條跟豆漿，還攏有買個水果。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1147
+  },
+  {
+    "type": "speech",
+    "text": "家裡頭有發生啥代誌啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 819
+  },
+  {
+    "type": "speech",
+    "text": "我那個孫仔今朝轉去學校啦... 才剛才按呢個時候咧。"
+  },
+  {
+    "type": "speech",
+    "text": "啥物米有啥特別的，就是這樣子齁。"
+  }
+]

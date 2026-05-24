@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起睏袂著，起來先去洗個面。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1261
+  },
+  {
+    "type": "speech",
+    "text": "食飯時阿母準備啥物來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1198
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 666
+  },
+  {
+    "type": "speech",
+    "text": "然後就去菜市仔買菜，攏有要整理一下厝內物件。"
+  },
+  {
+    "type": "speech",
+    "text": "那個包包咧放著？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "找一下，啊，在那裡。"
+  },
+  {
+    "type": "speech",
+    "text": "轉去拿佇，準備出門。"
+  },
+  {
+    "type": "speech",
+    "text": "今早要去拜訪鄰居，伊叫啥來著？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個隔壁的阿伯。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，要帶些禮物過去，禮物咧有裝好無？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來，再去檢查一下齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1111
+  },
+  {
+    "type": "speech",
+    "text": "喔～"
+  }
+]

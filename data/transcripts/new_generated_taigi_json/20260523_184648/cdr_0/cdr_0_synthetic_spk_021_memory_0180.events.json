@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_021_memory_0180",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好好，我欲去菜市仔買些蔬菜。記得當年我少年時陣，每日都要幫阿爸做農忙，從早到晚都攏袂停歇。讀冊時間就比較少，不過有啥物不懂會問伊，伊都會細心講給我聽。 [停頓] 後來長大咧，才知當年伊教我的道理誠重要。現在嚐嚐想起，頭腦還清清楚楚。按呢厝內阿母閣在做飯囝仔食飯，孫仔都轉去學校唸書嘞。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好好，我欲去菜市仔買些蔬菜。記得當年我少年時陣，每日都要幫阿爸做農忙，從早到晚都攏袂停歇。讀冊時間就比較少，不過有啥物不懂會問伊，伊都會細心講給我聽。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 487
+    },
+    {
+      "type": "speech",
+      "text": "後來長大咧，才知當年伊教我的道理誠重要。現在嚐嚐想起，頭腦還清清楚楚。按呢厝內阿母閣在做飯囝仔食飯，孫仔都轉去學校唸書嘞。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 487,
+    "mean_pause_ms": 487.0,
+    "speech_char_count": 141
+  },
+  "speech_rate_target": 1.0
+}

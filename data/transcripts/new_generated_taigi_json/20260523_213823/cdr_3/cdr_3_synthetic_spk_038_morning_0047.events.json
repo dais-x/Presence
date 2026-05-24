@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起... 洗面... 食飯囝仔時光..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3632
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1338
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3760
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 菜市仔去攏毋知... 囝仔，伊咧按呢啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3230
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 袂記得足個啥物..."
+  }
+]

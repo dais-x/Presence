@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來食飯，孫仔咧笑， 阿母欲煮啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2162
+  },
+  {
+    "type": "speech",
+    "text": "毋知啦，按呢閣幾時轉去？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2414
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 766
+  },
+  {
+    "type": "speech",
+    "text": "昔日我還小，菜市仔欲去攤子吃麵線。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1512
+  },
+  {
+    "type": "cough",
+    "duration_ms": 802
+  },
+  {
+    "type": "speech",
+    "text": "孫仔誠可愛，咧跟阿公講話， 阿爸以前袂食早飯齁， 現在每天都要食。"
+  }
+]

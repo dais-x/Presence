@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1509
+  },
+  {
+    "type": "speech",
+    "text": "比較毋知。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2479
+  },
+  {
+    "type": "speech",
+    "text": "那個我早飯吃啥物啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1491
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前做菜很好食，咧菜市仔買菜，講著好多話。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 705
+  },
+  {
+    "type": "speech",
+    "text": "兄弟佇哪攏？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2343
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我記得伊以前愛吃豆漿配油條，那個真好吃啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 830
+  },
+  {
+    "type": "speech",
+    "text": "那個我今仔日袂曉得咧，好無記性齁。"
+  }
+]

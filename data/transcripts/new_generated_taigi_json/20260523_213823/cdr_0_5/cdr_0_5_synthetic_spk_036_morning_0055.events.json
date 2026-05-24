@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起來洗面咧，然後去菜市仔買個菜來煮飯食。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 758
+  },
+  {
+    "type": "speech",
+    "text": "那個...啊，準備好啦就轉去整理一下厝內物件，拿那些東西出去。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1230
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來要帶啥物去，就是那個包包攏有咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 865
+  },
+  {
+    "type": "speech",
+    "text": "嗯，食完飯後欲出門逛逛，孫仔咧講要去買書本，所以啊就要載佇學校附近等著伊。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧今早無出去，說是想休息一下。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 982
+  },
+  {
+    "type": "speech",
+    "text": "啊，按呢就準備好了，轉去啦。"
+  }
+]

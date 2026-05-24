@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 653
+  },
+  {
+    "type": "speech",
+    "text": "我那個記袂起來了啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 527
+  },
+  {
+    "type": "speech",
+    "text": "早飯咧有無食？"
+  },
+  {
+    "type": "speech",
+    "text": "無嘛無啦，因為早起袂到，就轉去睡一會兒齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "就是伊最近身體有點不適啦，醫生講要多休息，那個我欲幫佇煮東西吃，但又想袂起來今仔日幾號咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1006
+  },
+  {
+    "type": "speech",
+    "text": "毋知該煮啥物好，就先買個便當回來囉。"
+  }
+]

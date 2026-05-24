@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_033_morning_0032",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起囝，先去洗面咧。然後就準備食飯啦，菜色啊，就是簡單啦，有米苔目、滷蛋咧，還有個啥物來著？想袂起來 [停頓] 。然後整理一下厝裡頭物件，彼個...彼個叫啥？嗯，那個包包要收好啊，免得阿母找袂到。準備準備就去菜市仔買東西啦，伊說要去轉去丈母娘家咧，那個啥物要記得攜著 [停頓] ，想袂起來，就是那個，那個包包咧。唉，頭腦真是老了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起囝，先去洗面咧。然後就準備食飯啦，菜色啊，就是簡單啦，有米苔目、滷蛋咧，還有個啥物來著？想袂起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 870
+    },
+    {
+      "type": "speech",
+      "text": "。然後整理一下厝裡頭物件，彼個...彼個叫啥？嗯，那個包包要收好啊，免得阿母找袂到。準備準備就去菜市仔買東西啦，伊說要去轉去丈母娘家咧，那個啥物要記得攜著"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1278
+    },
+    {
+      "type": "speech",
+      "text": "，想袂起來，就是那個，那個包包咧。唉，頭腦真是老了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2148,
+    "mean_pause_ms": 1074.0,
+    "speech_char_count": 158
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起來洗面啦，然後就準備去菜市仔買菜咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1175
+  },
+  {
+    "type": "speech",
+    "text": "那個買啥物呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1470
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1015
+  },
+  {
+    "type": "speech",
+    "text": "然後就食飯啦，不過我講佇阿母耳邊，她講說不必吃太多齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1417
+  },
+  {
+    "type": "speech",
+    "text": "然後就整理一下物件，準備出門咧，但是彼個包包啊，彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個拿去菜市仔的包包啦，想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，那個包包嘞。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 772
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就攏好了，然後轉出去買菜咧。"
+  }
+]

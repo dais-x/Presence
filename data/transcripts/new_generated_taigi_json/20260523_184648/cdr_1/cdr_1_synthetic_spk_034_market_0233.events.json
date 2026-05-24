@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_034_market_0233",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個攤販咧賣著好多蔬菜，彼個...彼個叫啥來著？ [停頓] 想袂起來， [嘆氣] 那個青江菜跟小白菜咧都有，那個青江菜啊，比較嫩些，就買一包啦。按呢講到攤販，他有講說今仔日生意不錯，就齁，我咧也跟他講話啦，講著講著就跟彼個賣肉的攤販講話啦。 [長停頓] 今仔日買菜轉去厝內，阿母就會問伊講：「買啥物？」我就跟她講說買啦一包青江菜啦，齁，還有幾樣東西啦。 [咳嗽] 那個今仔日啊，就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個攤販咧賣著好多蔬菜，彼個...彼個叫啥來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1091
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "text": "那個青江菜跟小白菜咧都有，那個青江菜啊，比較嫩些，就買一包啦。按呢講到攤販，他有講說今仔日生意不錯，就齁，我咧也跟他講話啦，講著講著就跟彼個賣肉的攤販講話啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2222
+    },
+    {
+      "type": "speech",
+      "text": "今仔日買菜轉去厝內，阿母就會問伊講：「買啥物？」我就跟她講說買啦一包青江菜啦，齁，還有幾樣東西啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 963
+    },
+    {
+      "type": "speech",
+      "text": "那個今仔日啊，就這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3313,
+    "mean_pause_ms": 1656.5,
+    "speech_char_count": 180
+  },
+  "speech_rate_target": 0.85
+}

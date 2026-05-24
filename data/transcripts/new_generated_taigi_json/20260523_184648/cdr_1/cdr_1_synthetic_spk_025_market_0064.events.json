@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_025_market_0064",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，我有去菜市仔買菜。 [停頓] 那個彼個...彼個青菜咧賣啥價？攤販講說袂貴啦。我買咧幾把回家去煮啊。 [長停頓] 囝仔今早有無起床食飯？阿母叫伊轉去學校，伊說想袂起來。 [嘆氣] 哥哥咧按呢？按呢個時候應該佇公司齁。 [咳嗽] 我講欲再出去買點東西，你毋知去袂去啊？菜市仔今早人攏多啦。 [停頓] 彼個...彼個啥物，想袂起來了。 [長停頓] 那個青菜咧很綠齁，食著誠好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，我有去菜市仔買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1022
+    },
+    {
+      "type": "speech",
+      "text": "那個彼個...彼個青菜咧賣啥價？攤販講說袂貴啦。我買咧幾把回家去煮啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1762
+    },
+    {
+      "type": "speech",
+      "text": "囝仔今早有無起床食飯？阿母叫伊轉去學校，伊說想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1254
+    },
+    {
+      "type": "speech",
+      "text": "哥哥咧按呢？按呢個時候應該佇公司齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 458
+    },
+    {
+      "type": "speech",
+      "text": "我講欲再出去買點東西，你毋知去袂去啊？菜市仔今早人攏多啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 838
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個啥物，想袂起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2031
+    },
+    {
+      "type": "speech",
+      "text": "那個青菜咧很綠齁，食著誠好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 5653,
+    "mean_pause_ms": 1413.25,
+    "speech_char_count": 156
+  },
+  "speech_rate_target": 0.85
+}

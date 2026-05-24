@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3356
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯啦... 囝仔在佇哪裡啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2233
+  },
+  {
+    "type": "speech",
+    "text": "... 菜要買啦... 天氣冷啦..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2651
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1234
+  },
+  {
+    "type": "speech",
+    "text": "攚不記得當年讀冊事體..."
+  }
+]

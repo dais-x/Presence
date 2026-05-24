@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣還好，咱少年時陣常常攏去菜市仔買東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1344
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阿母叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1450
+  },
+  {
+    "type": "speech",
+    "text": "欲袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1098
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧是農忙，伊攏袂有空給我讀冊。"
+  },
+  {
+    "type": "speech",
+    "text": "我記得自己咧厝內幫忙，那個灶跤咧真髒，誠無辦法清凈。"
+  },
+  {
+    "type": "speech",
+    "text": "想一陣子又忘掉啦，齁那個時陣佇學校發生啥事？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...彼個老師叫啥物名字？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1222
+  },
+  {
+    "type": "speech",
+    "text": "毋知恁多囝仔，自己咧也幫伊們讀冊，教伊們認字。"
+  },
+  {
+    "type": "speech",
+    "text": "今仔日想起來還會笑，那個時候真快樂。"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1415
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阿母欲煮一桌菜，伊說袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 666
+  },
+  {
+    "type": "speech",
+    "text": "噗嗤（笑聲），想袂起來伊叫啥，就是那個煮飯的啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1015
+  },
+  {
+    "type": "speech",
+    "text": "按呢孫仔咧讀書，還未轉去上班。"
+  },
+  {
+    "type": "speech",
+    "text": "伊食飯閣足囝仔同孫仔，大家攏誠，齁，真好。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 859
+  },
+  {
+    "type": "speech",
+    "text": "我們講話講著講著就笑起來啦，因為伊有啥物趣事咧講，就是那個，嗯...想袂起來了，齁，就是這樣。"
+  }
+]

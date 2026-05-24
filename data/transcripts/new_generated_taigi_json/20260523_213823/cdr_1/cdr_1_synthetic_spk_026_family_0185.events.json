@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日孫仔轉來厝內食飯，我叫佮囝仔一齊坐著灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1049
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1544
+  },
+  {
+    "type": "speech",
+    "text": "是阿母咧，伊叫孫仔食飽。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1131
+  },
+  {
+    "type": "speech",
+    "text": "我講袂起來欲想啊， 那個名字，想袂起來嘛齁，孫仔咧誠乖。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢，囝仔說要去菜市仔買菜，我跟著去。"
+  },
+  {
+    "type": "speech",
+    "text": "轉去厝內，佇灶跤邊伊就開始講話，彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，啊就是，想袂起來嘛，孫仔咧誠乖。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 620
+  }
+]

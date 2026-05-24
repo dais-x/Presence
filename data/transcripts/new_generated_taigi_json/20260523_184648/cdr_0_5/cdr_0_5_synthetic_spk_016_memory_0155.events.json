@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_016_memory_0155",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣還袂冷啦，我阿母會叫我去菜市仔買東西。那個時候啊，我個頭佇田裡幫伊們農忙，真是辛苦按呢。想起來少年時陣讀冊的日子，講到讀冊啊，就會想起伊阿爸常常教我唸古文。 [停頓] 那個... 嗯，伊講說唸書要仔細聽老師的話，毋通亂講話咧。就是後來長大了，農忙的時候就比較了解伊啦。齁，那些日子真是好時光啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣還袂冷啦，我阿母會叫我去菜市仔買東西。那個時候啊，我個頭佇田裡幫伊們農忙，真是辛苦按呢。想起來少年時陣讀冊的日子，講到讀冊啊，就會想起伊阿爸常常教我唸古文。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 890
+    },
+    {
+      "type": "speech",
+      "text": "那個... 嗯，伊講說唸書要仔細聽老師的話，毋通亂講話咧。就是後來長大了，農忙的時候就比較了解伊啦。齁，那些日子真是好時光啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 890,
+    "mean_pause_ms": 890.0,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.92
+}

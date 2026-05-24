@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起啊，先去洗面咧，然後就去菜市仔買個菜啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 479
+  },
+  {
+    "type": "speech",
+    "text": "那個，回家煮飯啊，嗯... 做啥物來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 497
+  },
+  {
+    "type": "speech",
+    "text": "對了，整理一下厝裡的東西啦。"
+  },
+  {
+    "type": "speech",
+    "text": "準備轉出去講話，那個包包有袂帶好？"
+  },
+  {
+    "type": "speech",
+    "text": "哎呀，想袂起來伊擺在哪裡咧， 那個包包啊，應該是在灶跤附近吧！"
+  },
+  {
+    "type": "speech",
+    "text": "食飯後就去朋友家啦。"
+  }
+]

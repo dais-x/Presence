@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3514
+  },
+  {
+    "type": "speech",
+    "text": "囝仔在啥物地方啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2196
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊... 按呢不曉得... 农忙啦，誠足攏閣做袂完... 天氣好冷..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4055
+  },
+  {
+    "type": "cough",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "食飯時候咧？"
+  }
+]

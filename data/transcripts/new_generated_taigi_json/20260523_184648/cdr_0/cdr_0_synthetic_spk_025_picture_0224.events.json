@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_025_picture_0224",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好晴朗，我去看菜市仔啦。看到好多攤販咧，買了些青菜欲回家煮湯。看到阿柑在那邊賣魚，她人真好，每次都幫佇稱量妥當。 [停頓] 隔壁的阿伯還在修車，應該是伊今早騎腳踏車出去閒逛時摔到啦。我問佮伊有無無事，伊說腳有點痛咧，不過無礙，會慢慢好起來。然後看到囝仔們在玩飛盤，笑得很開心。真是個好日子啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好晴朗，我去看菜市仔啦。看到好多攤販咧，買了些青菜欲回家煮湯。看到阿柑在那邊賣魚，她人真好，每次都幫佇稱量妥當。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 568
+    },
+    {
+      "type": "speech",
+      "text": "隔壁的阿伯還在修車，應該是伊今早騎腳踏車出去閒逛時摔到啦。我問佮伊有無無事，伊說腳有點痛咧，不過無礙，會慢慢好起來。然後看到囝仔們在玩飛盤，笑得很開心。真是個好日子啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 568,
+    "mean_pause_ms": 568.0,
+    "speech_char_count": 145
+  },
+  "speech_rate_target": 1.0
+}

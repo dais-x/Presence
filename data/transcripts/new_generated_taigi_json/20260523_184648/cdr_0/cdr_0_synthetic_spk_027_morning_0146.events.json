@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_027_morning_0146",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗面囉，食完飯後就整理一下厝內物件啦。準備好要去菜市仔買菜咧，那個阿母有講著要我去幫佇拿幾樣東西齁。 [停頓] 我咧轉去拿傘，今天天氣看起會下雨嘸？ [停頓] 啊，攏是按呢這樣啦，我要出門囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗面囉，食完飯後就整理一下厝內物件啦。準備好要去菜市仔買菜咧，那個阿母有講著要我去幫佇拿幾樣東西齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 530
+    },
+    {
+      "type": "speech",
+      "text": "我咧轉去拿傘，今天天氣看起會下雨嘸？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 353
+    },
+    {
+      "type": "speech",
+      "text": "啊，攏是按呢這樣啦，我要出門囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 883,
+    "mean_pause_ms": 441.5,
+    "speech_char_count": 92
+  },
+  "speech_rate_target": 1.0
+}

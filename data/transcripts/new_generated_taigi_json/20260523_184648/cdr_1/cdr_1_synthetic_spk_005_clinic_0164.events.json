@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_005_clinic_0164",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我欲想袂起來... 那個按呢是啥週啊？ [長停頓] 早餐我食啥咧，彼個...彼個叫啥？ [嘆氣] 有吃稀飯跟菜嘛。 [咳嗽] 菜是阿母煮的啦。 家中按呢好著，孫仔今早來拜訪我齁。 [停頓] 孫仔咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1018
+    },
+    {
+      "type": "speech",
+      "text": "我欲想袂起來... 那個按呢是啥週啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2255
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食啥咧，彼個...彼個叫啥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 935
+    },
+    {
+      "type": "speech",
+      "text": "有吃稀飯跟菜嘛。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 488
+    },
+    {
+      "type": "speech",
+      "text": "菜是阿母煮的啦。 家中按呢好著，孫仔今早來拜訪我齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1005
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧咧"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4278,
+    "mean_pause_ms": 1426.0,
+    "speech_char_count": 110
+  },
+  "speech_rate_target": 0.85
+}

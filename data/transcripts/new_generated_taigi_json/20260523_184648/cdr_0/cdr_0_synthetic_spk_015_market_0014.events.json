@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_015_market_0014",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早上去菜市仔買菜，遇到老朋友。 [停頓] 伊問我最近好不好，我就講說還好啦。然後伊就給我介紹新攤販，我聽伊講話嘛去逛一下咧。那個青菜看起來不錯，我就挑幾樣買囉。回來時欲轉去厝內食飯，想著阿母會歡迎我帶啥物回家，就多買點水果咧。 [停頓] 回到家伊問我有無順便買米，我就講說袂有啦，下次再去買就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早上去菜市仔買菜，遇到老朋友。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 509
+    },
+    {
+      "type": "speech",
+      "text": "伊問我最近好不好，我就講說還好啦。然後伊就給我介紹新攤販，我聽伊講話嘛去逛一下咧。那個青菜看起來不錯，我就挑幾樣買囉。回來時欲轉去厝內食飯，想著阿母會歡迎我帶啥物回家，就多買點水果咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 335
+    },
+    {
+      "type": "speech",
+      "text": "回到家伊問我有無順便買米，我就講說袂有啦，下次再去買就好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 844,
+    "mean_pause_ms": 422.0,
+    "speech_char_count": 139
+  },
+  "speech_rate_target": 1.0
+}

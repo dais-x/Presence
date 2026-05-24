@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 911
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 903
+  },
+  {
+    "type": "speech",
+    "text": "哔！"
+  },
+  {
+    "type": "speech",
+    "text": "食啥物早餐咧？"
+  },
+  {
+    "type": "speech",
+    "text": "我食豆漿跟油條啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢個有無去菜市仔買菜？"
+  },
+  {
+    "type": "speech",
+    "text": "有，我去買啦，但是那個忘記攏欲袂曉得買啥東西齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡今早發生啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 我孫仔咧食飯啦，阿母講佇說要轉去學校，那個就是啦。"
+  }
+]

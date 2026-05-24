@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥日子咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1026
+  },
+  {
+    "type": "speech",
+    "text": "噐想袂起來啦... 早餐食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1596
+  },
+  {
+    "type": "speech",
+    "text": "食飽飽咧，齁，菜市仔有去無？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1466
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個名字啦，彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1308
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢啥代誌啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 909
+  },
+  {
+    "type": "speech",
+    "text": "孫仔來無啊？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦... 攚恁時有無食飯咧？"
+  },
+  {
+    "type": "speech",
+    "text": "噐想袂起來啦，齁，今仔日是星期幾咧？"
+  },
+  {
+    "type": "speech",
+    "text": "噦想袂起來啦，齁，毋知是啥日子咧。"
+  }
+]

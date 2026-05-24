@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1393
+  },
+  {
+    "type": "speech",
+    "text": "我小時候讀冊咧，農忙時節袂讀啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1340
+  },
+  {
+    "type": "speech",
+    "text": "阿母喊佇菜市仔買米，那個時候攏是自己挑來去。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1002
+  },
+  {
+    "type": "speech",
+    "text": "以前伊會煮好多飯給我們食，今仔日呢就食少許，毋知為啥物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2094
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣講話啦？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 917
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣欲返厝咧，早餐食啥物啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1622
+  },
+  {
+    "type": "speech",
+    "text": "我小時候跟孫仔玩囝仔時陣的遊戲，伊咧學校學啥物啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1068
+  },
+  {
+    "type": "speech",
+    "text": "那個時候真歡喜啊。"
+  }
+]

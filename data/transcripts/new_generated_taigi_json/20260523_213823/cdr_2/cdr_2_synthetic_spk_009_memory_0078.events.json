@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊我年輕時常常去菜市仔買菜咧那個時候阿母叫我去買魚啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2393
+  },
+  {
+    "type": "cough",
+    "duration_ms": 584
+  },
+  {
+    "type": "speech",
+    "text": "現在想起來袂有以前好玩齁"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2222
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1387
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊時天天跟鄰居囝仔一起玩啊後來農忙時候就幫阿爸做田裡的事啦今朝早餐有無食飯咧"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1760
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 738
+  },
+  {
+    "type": "speech",
+    "text": "好歹力身體還蠻好的啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1666
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1056
+  },
+  {
+    "type": "speech",
+    "text": "那個以前的厝內長輩都袂在了啊現在想想以前真好"
+  }
+]

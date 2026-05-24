@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早啊，我食佇那個... 餐廳咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 761
+  },
+  {
+    "type": "speech",
+    "text": "其實嘛，我就攏是在厝內食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 537
+  },
+  {
+    "type": "speech",
+    "text": "沒啥特別代誌齁，那個孫仔有轉去學校囝仔，伊母袂在著咧就無啥事按呢。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1176
+  },
+  {
+    "type": "speech",
+    "text": "嗯，就是今早食啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我欲想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 早餐嘛就是簡單買個麵包跟茶咧。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，那個，診間咧有啥代誌嗎？"
+  }
+]

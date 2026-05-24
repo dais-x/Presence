@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_030_picture_0059",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊 [停頓] ，看著圖內那個賣菜伯公，想起來以前阿母也去菜市仔，攏是早起去咧 [停頓] 。伊有時會跟鄰居講話啦 [停頓] ，就是說些啥物代誌，好像話著話就忘了按呢在講啥 [嘆氣] 。 那個，今早我食飯袂吃多啊 [停頓] ，胃有點痛咧 [咳嗽] 。以前伊有時會煮個稀飯給我們囝仔食啦 [長停頓] ，現在想起來真懷念 [沉默] 。 唉呀，講到這我就想起那個孫仔啦， [停頓] 他今早好像也有去菜市買東西啊 [停頓] 。 [嘆氣] 就是恁時光好快，伊都長大咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1448
+    },
+    {
+      "type": "speech",
+      "text": "，看著圖內那個賣菜伯公，想起來以前阿母也去菜市仔，攏是早起去咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1375
+    },
+    {
+      "type": "speech",
+      "text": "。伊有時會跟鄰居講話啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1224
+    },
+    {
+      "type": "speech",
+      "text": "，就是說些啥物代誌，好像話著話就忘了按呢在講啥"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 647
+    },
+    {
+      "type": "speech",
+      "text": "。 那個，今早我食飯袂吃多啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1250
+    },
+    {
+      "type": "speech",
+      "text": "，胃有點痛咧"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1041
+    },
+    {
+      "type": "speech",
+      "text": "。以前伊有時會煮個稀飯給我們囝仔食啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3382
+    },
+    {
+      "type": "speech",
+      "text": "，現在想起來真懷念"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1566
+    },
+    {
+      "type": "speech",
+      "text": "。 唉呀，講到這我就想起那個孫仔啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1263
+    },
+    {
+      "type": "speech",
+      "text": "他今早好像也有去菜市買東西啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1280
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1051
+    },
+    {
+      "type": "speech",
+      "text": "就是恁時光好快，伊都長大咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 23,
+    "speech_event_count": 12,
+    "pause_event_count": 8,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 12788,
+    "mean_pause_ms": 1598.5,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.75
+}

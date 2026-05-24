@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_031_family_0190",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔攏轉來厝內食飯啊，孫仔咧也跟來咧。 [停頓] 我阿母欲煮啥物菜給佇？彼個...彼個叫啥？就是那個魚啦，想袂起來齁。 [長停頓] 阿爸他以前閣常常幫我切菜ㄟ，今仔日是誰攏幫伊做咧？ [嘆氣] 嗯，以前的時陣啊，囝仔佇小時候咧，常來厝內玩，今仔日他們也攏轉來了。 [咳嗽] 那個孫仔咧，他食飯閣會搆菜給阿公吃啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔攏轉來厝內食飯啊，孫仔咧也跟來咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1029
+    },
+    {
+      "type": "speech",
+      "text": "我阿母欲煮啥物菜給佇？彼個...彼個叫啥？就是那個魚啦，想袂起來齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1973
+    },
+    {
+      "type": "speech",
+      "text": "阿爸他以前閣常常幫我切菜ㄟ，今仔日是誰攏幫伊做咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 984
+    },
+    {
+      "type": "speech",
+      "text": "嗯，以前的時陣啊，囝仔佇小時候咧，常來厝內玩，今仔日他們也攏轉來了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 482
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧，他食飯閣會搆菜給阿公吃啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3002,
+    "mean_pause_ms": 1501.0,
+    "speech_char_count": 134
+  },
+  "speech_rate_target": 0.85
+}

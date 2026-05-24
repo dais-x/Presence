@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_001_family_0010",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "菜市仔... [長停頓] 阿母咧？ [沉默] 囝仔轉來了齁... [咳嗽] 冷啦... [長停頓] 欲吃啥物？嗯... 攏毋知... 食飯時候到了啦... [長停頓] 袂袂想食啊... 啊那個... 孫仔咧？ [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "菜市仔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4292
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2663
+    },
+    {
+      "type": "speech",
+      "text": "囝仔轉來了齁..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 939
+    },
+    {
+      "type": "speech",
+      "text": "冷啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2178
+    },
+    {
+      "type": "speech",
+      "text": "欲吃啥物？嗯... 攏毋知... 食飯時候到了啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2505
+    },
+    {
+      "type": "speech",
+      "text": "袂袂想食啊... 啊那個... 孫仔咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 5217
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 9,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 5,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 16855,
+    "mean_pause_ms": 3371.0,
+    "speech_char_count": 71
+  },
+  "speech_rate_target": 0.65
+}

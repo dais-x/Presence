@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_017_memory_0136",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我講佇少年時陣，讀冊時期，每天早上袂得遲到，老師咧等著我們囝仔啦。 [停頓] 農忙時候，阿母閣阿爸會叫我去菜市仔買菜，攏是自個兒去，現在想起來還真辛苦啊。彼個...彼個叫啥？對了，厝內的老嫲講話總是很溫和，講來講去就是教我們做人道理，那個時候的光景，真是好懷念啊。 [長停頓] 今仔日有啥事體咧？呣知怎樣講，好像欲講的事體都飛到頭頂上去啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我講佇少年時陣，讀冊時期，每天早上袂得遲到，老師咧等著我們囝仔啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1065
+    },
+    {
+      "type": "speech",
+      "text": "農忙時候，阿母閣阿爸會叫我去菜市仔買菜，攏是自個兒去，現在想起來還真辛苦啊。彼個...彼個叫啥？對了，厝內的老嫲講話總是很溫和，講來講去就是教我們做人道理，那個時候的光景，真是好懷念啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1624
+    },
+    {
+      "type": "speech",
+      "text": "今仔日有啥事體咧？呣知怎樣講，好像欲講的事體都飛到頭頂上去啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2689,
+    "mean_pause_ms": 1344.5,
+    "speech_char_count": 166
+  },
+  "speech_rate_target": 0.85
+}

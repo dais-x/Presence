@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早就起來洗面，然後食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 732
+  },
+  {
+    "type": "speech",
+    "text": "那個碗筷擺好咧，準備轉去菜市仔買個東西。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 460
+  },
+  {
+    "type": "speech",
+    "text": "欲說啥物，想袂起來了，那個就是先出去一下唄。"
+  },
+  {
+    "type": "speech",
+    "text": "攏收拾好了齁，就著裝咧，準備出門囉。"
+  }
+]

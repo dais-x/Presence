@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 810
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 755
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "唉，有無去菜市仔買菜呢？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個阿母做菜給伊食。"
+  },
+  {
+    "type": "speech",
+    "text": "那個家裡按呢嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "大家都攏好足齁。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧轉去學校唻，阿爸誠出門做工啦。"
+  },
+  {
+    "type": "speech",
+    "text": "今早有無食啥特別物事啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...就是食湯圓啦。"
+  }
+]

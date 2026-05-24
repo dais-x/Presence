@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_031_clinic_0190",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_031",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日袂是週末啊，早食我食飽飯咧，有米糕跟豆腐乳。按呢在家裡好無啥代誌啦，孫仔去學校了，囝仔去上班，阿母洗衫衫，閣我做家事。 [停頓] 那個時間咧，厝內都袂吵鬧齁。最近身體還好嘛，就是醫生交代的藥按時吃咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日袂是週末啊，早食我食飽飯咧，有米糕跟豆腐乳。按呢在家裡好無啥代誌啦，孫仔去學校了，囝仔去上班，阿母洗衫衫，閣我做家事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 252
+    },
+    {
+      "type": "speech",
+      "text": "那個時間咧，厝內都袂吵鬧齁。最近身體還好嘛，就是醫生交代的藥按時吃咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 252,
+    "mean_pause_ms": 252.0,
+    "speech_char_count": 97
+  },
+  "speech_rate_target": 1.0
+}

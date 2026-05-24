@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_026_morning_0165",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起來洗面啦，然後就準備食飯囉。 [停頓] 那個... 米飯咧倒出來就好吃啦，那個菜嘛... 想袂起來了。 [停頓] 唉呀，就是講到哪去了？齁，整理一下包包啦，出門要去買菜去。那個包裡面的東西咧，準備一陣子才有辦法攏放好。 [嘆氣] 阿母叫我去買些水果給阿爸吃咧，他最近身體不太好嘛。 [咳嗽] 嗯... 這個包包裡面有個紙摺好的，應該是錢啦，那個要帶過去菜市仔用。嗯... 又想到啥物？齁，整理一下就好啦。按呢就轉去囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來洗面啦，然後就準備食飯囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1161
+    },
+    {
+      "type": "speech",
+      "text": "那個... 米飯咧倒出來就好吃啦，那個菜嘛... 想袂起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉呀，就是講到哪去了？齁，整理一下包包啦，出門要去買菜去。那個包裡面的東西咧，準備一陣子才有辦法攏放好。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 916
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去買些水果給阿爸吃咧，他最近身體不太好嘛。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 這個包包裡面有個紙摺好的，應該是錢啦，那個要帶過去菜市仔用。嗯... 又想到啥物？齁，整理一下就好啦。按呢就轉去囉。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 7,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2361,
+    "mean_pause_ms": 1180.5,
+    "speech_char_count": 192
+  },
+  "speech_rate_target": 0.92
+}

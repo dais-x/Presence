@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天气好多好，想起來以前啊，阿母叫我去菜市仔買物，那個時候，伊教我做家事咧，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1708
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 724
+  },
+  {
+    "type": "speech",
+    "text": "現在嘛，身體無力啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 987
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊啊，跟朋友出去玩，今早食啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2285
+  },
+  {
+    "type": "speech",
+    "text": "早餐有吃嗎？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2012
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前常講話，講袂完就忘記按呢話咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1677
+  },
+  {
+    "type": "speech",
+    "text": "想起來好遠的時陣啦。"
+  }
+]

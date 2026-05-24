@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_007_picture_0086",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日看個圖啦，彼個圖中有好多囝仔啊，那個... [停頓] 想袂起來彼個叫啥，不過應該是孫仔齁。彼個孫仔咧攏在菜市仔，伊媽媽應該是在買菜， [長停頓] 今早我阿母也是去菜市仔買菜啦。按呢想起來，彼個孫仔好像有個籃子，伊拿著籃子去買青菜、水果啊。 [嘆氣] 那個菜市仔真熱鬧，好多攤販咧在賣東西，我年輕時也是常常去買菜的啦。那個... [停頓] 按呢想起來，彼個孫仔好像還有個阿爸咧陪伊，彼個阿爸應該是下班轉去接伊，啊 [停頓] 嗯，今早我也看到好多爸爸帶囝仔去菜市仔的代誌。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看個圖啦，彼個圖中有好多囝仔啊，那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1010
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來彼個叫啥，不過應該是孫仔齁。彼個孫仔咧攏在菜市仔，伊媽媽應該是在買菜，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2038
+    },
+    {
+      "type": "speech",
+      "text": "今早我阿母也是去菜市仔買菜啦。按呢想起來，彼個孫仔好像有個籃子，伊拿著籃子去買青菜、水果啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1188
+    },
+    {
+      "type": "speech",
+      "text": "那個菜市仔真熱鬧，好多攤販咧在賣東西，我年輕時也是常常去買菜的啦。那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 837
+    },
+    {
+      "type": "speech",
+      "text": "按呢想起來，彼個孫仔好像還有個阿爸咧陪伊，彼個阿爸應該是下班轉去接伊，啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今早我也看到好多爸爸帶囝仔去菜市仔的代誌。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 5,
+    "repair_count": 3,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 5341,
+    "mean_pause_ms": 1335.25,
+    "speech_char_count": 206
+  },
+  "speech_rate_target": 0.85
+}

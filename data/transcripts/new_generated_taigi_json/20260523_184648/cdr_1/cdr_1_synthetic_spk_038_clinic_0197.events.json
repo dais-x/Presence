@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_038_clinic_0197",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日是幾號我嘛欲記得，醫生，閣足啥物日子啊？ [停頓] 早餐我食啥物我嘛也想袂起來，按呢菜市仔有好多菜，但我毋知今日買啥物，那個阿母說要買青菜，齁我有去買，但佇攏記袂起。 [長停頓] 啊，孫仔今早咧，誠來拜訪我，伊咧咧啦，啊，啥物，按呢閣足啥代誌？ [嘆氣] 那個，按呢閣有啥物事要做嗎？ [咳嗽] 菜市仔咧，伊買菜，我嘛去。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是幾號我嘛欲記得，醫生，閣足啥物日子啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 941
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食啥物我嘛也想袂起來，按呢菜市仔有好多菜，但我毋知今日買啥物，那個阿母說要買青菜，齁我有去買，但佇攏記袂起。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1586
+    },
+    {
+      "type": "speech",
+      "text": "啊，孫仔今早咧，誠來拜訪我，伊咧咧啦，啊，啥物，按呢閣足啥代誌？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1342
+    },
+    {
+      "type": "speech",
+      "text": "那個，按呢閣有啥物事要做嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1183
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔咧，伊買菜，我嘛去。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2527,
+    "mean_pause_ms": 1263.5,
+    "speech_char_count": 139
+  },
+  "speech_rate_target": 0.85
+}

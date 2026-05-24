@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好啊，想起來我少年時陣阿爸叫我去菜市仔買東西咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1243
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個當時好像袂是放假，應該是讀冊啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1109
+  },
+  {
+    "type": "speech",
+    "text": "不過我們厝內農忙時候多，常要做工。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1347
+  },
+  {
+    "type": "speech",
+    "text": "按呢那個，伊講說要去田裡幫忙種米，但我閣想去玩啦。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個叫啥物咧，應該是什麼工具啊。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯...就是常常攏會這樣子囝仔，讀冊也讀袂認真啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1378
+  },
+  {
+    "type": "speech",
+    "text": "阿母講說要轉去洗碗，我今仔日無事做啦。"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_memory_0298",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好曬，阿爸叫我去菜市仔買青菜。買完後我就轉去讀冊啦，學校講的是華話，但我跟鄰居的小囝仔就愛講台語，按呢時陣大家都還袂會講手機咧。農忙時候最辛苦，阿母每日早起煮飯做菜，厝內人人都要幫忙，伊閣足誠做緊啊。 [停頓] 那個少年時陣真美好，學好多東西，現在想起來就歡喜。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬，阿爸叫我去菜市仔買青菜。買完後我就轉去讀冊啦，學校講的是華話，但我跟鄰居的小囝仔就愛講台語，按呢時陣大家都還袂會講手機咧。農忙時候最辛苦，阿母每日早起煮飯做菜，厝內人人都要幫忙，伊閣足誠做緊啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 367
+    },
+    {
+      "type": "speech",
+      "text": "那個少年時陣真美好，學好多東西，現在想起來就歡喜。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 367,
+    "mean_pause_ms": 367.0,
+    "speech_char_count": 130
+  },
+  "speech_rate_target": 1.0
+}

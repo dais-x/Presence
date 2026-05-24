@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_005_picture_0104",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我去看菜市仔去，那個賣水果攤子，伊擺滿好多芒果咧。 [停頓] 呀！阿母叫我去買雞蛋，那個雞蛋要多著咧。還有啦，看到鄰居老張，伊講伊孫仔今仔日無學，按呢就來菜市仔踅踅。 [停頓] 那個... 想袂起來講啥物，齁，我阿爸以前常去那個市場買魚，伊說魚要選肥啦，肉質才好。嗯... 嗯，啊，那個就是嘛... 菜市仔真熱鬧，好多代誌咧。 [嘆氣] 感覺時間過得快，好像昨日還年輕著咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我去看菜市仔去，那個賣水果攤子，伊擺滿好多芒果咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 529
+    },
+    {
+      "type": "speech",
+      "text": "呀！阿母叫我去買雞蛋，那個雞蛋要多著咧。還有啦，看到鄰居老張，伊講伊孫仔今仔日無學，按呢就來菜市仔踅踅。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個... 想袂起來講啥物，齁，我阿爸以前常去那個市場買魚，伊說魚要選肥啦，肉質才好。嗯... 嗯，啊，那個就是嘛... 菜市仔真熱鬧，好多代誌咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "text": "感覺時間過得快，好像昨日還年輕著咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1729,
+    "mean_pause_ms": 864.5,
+    "speech_char_count": 178
+  },
+  "speech_rate_target": 0.92
+}

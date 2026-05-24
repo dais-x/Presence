@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日伊人咧灶跤食飯，菜市仔佇啦，阿母欲轉去買菜啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1352
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧煮東西，囝仔那個在玩玩具齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1879
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 976
+  },
+  {
+    "type": "speech",
+    "text": "兒時咧，咱厝後面有棵大樹，可以爬上袂。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1029
+  },
+  {
+    "type": "speech",
+    "text": "今早伊食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1348
+  },
+  {
+    "type": "speech",
+    "text": "早餐重要啦，毋知伊有無食飽啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1173
+  },
+  {
+    "type": "speech",
+    "text": "嗯，我記不大清了，齁。"
+  }
+]

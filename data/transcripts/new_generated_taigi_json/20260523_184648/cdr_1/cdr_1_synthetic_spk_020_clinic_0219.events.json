@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_020_clinic_0219",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日咧，我起來食早餐，佇菜市仔買番薯跟豆花。 [停頓] 那個早餐啊，我就吃豆花啦。 我想袂起來是幾號，但應該是星期幾啥物。 家裡按呢嘛安好，伊無特別代誌咧。孫仔咧讀書，阿母誠在煮飯。 [咳嗽] 菜市仔今早人好多啊，彼個...彼個叫啥？對啦，水果攤彼個老闆袂見到。 [停頓] 我想講啥物來著？就是伊無在咧齁。 嗯，我食完早餐就轉去。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日咧，我起來食早餐，佇菜市仔買番薯跟豆花。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1100
+    },
+    {
+      "type": "speech",
+      "text": "那個早餐啊，我就吃豆花啦。 我想袂起來是幾號，但應該是星期幾啥物。 家裡按呢嘛安好，伊無特別代誌咧。孫仔咧讀書，阿母誠在煮飯。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1141
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔今早人好多啊，彼個...彼個叫啥？對啦，水果攤彼個老闆袂見到。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1143
+    },
+    {
+      "type": "speech",
+      "text": "我想講啥物來著？就是伊無在咧齁。 嗯，我食完早餐就轉去。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2243,
+    "mean_pause_ms": 1121.5,
+    "speech_char_count": 148
+  },
+  "speech_rate_target": 0.85
+}

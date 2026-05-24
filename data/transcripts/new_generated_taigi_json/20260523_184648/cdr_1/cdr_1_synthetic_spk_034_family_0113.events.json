@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_034_family_0113",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔有轉來厝內食飯啊， [停頓] 大家坐佇灶跤邊講話咧。彼個...彼個叫啥？是阿母欲煮菜，囝仔說要幫手，孫仔就在一旁看咧。 [長停頓] 就是常常這樣啦， [嘆氣] 以前伊還小時候，伊會跟著我學做菜，想袂起來伊現在幾歲了。 [咳嗽] 齁，今仔日大家都講話講到晚，孫仔聽伊阿公講古，好像有聽不懂的樣子。就是這樣啦，按呢厝內熱鬧很多。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔有轉來厝內食飯啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 957
+    },
+    {
+      "type": "speech",
+      "text": "大家坐佇灶跤邊講話咧。彼個...彼個叫啥？是阿母欲煮菜，囝仔說要幫手，孫仔就在一旁看咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2218
+    },
+    {
+      "type": "speech",
+      "text": "就是常常這樣啦，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 623
+    },
+    {
+      "type": "speech",
+      "text": "以前伊還小時候，伊會跟著我學做菜，想袂起來伊現在幾歲了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 492
+    },
+    {
+      "type": "speech",
+      "text": "齁，今仔日大家都講話講到晚，孫仔聽伊阿公講古，好像有聽不懂的樣子。就是這樣啦，按呢厝內熱鬧很多。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3175,
+    "mean_pause_ms": 1587.5,
+    "speech_char_count": 145
+  },
+  "speech_rate_target": 0.85
+}

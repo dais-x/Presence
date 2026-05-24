@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_034_market_0293",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個阿母叫我去買豆乾、滷蛋咧。 [停頓] 滷肉那個啥物啊？想袂起來了。按呢走去攤販那邊，伊問我欲毋欲買魚，我就講說無啦，今早食過了。 [停頓] 那個菜價袂貴齁，那個大白菜咧一塊錢一個，便宜啦。轉去厝內時候，阿母就在等著，伊問我有無買到啥物，我就講說買到了啦，那個豆乾攏在這裡，滷蛋咧也在。 [咳嗽] 阿爸跟孫仔咧都在看電視吼，食飯時候再叫佇來吃唄。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個阿母叫我去買豆乾、滷蛋咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 950
+    },
+    {
+      "type": "speech",
+      "text": "滷肉那個啥物啊？想袂起來了。按呢走去攤販那邊，伊問我欲毋欲買魚，我就講說無啦，今早食過了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個菜價袂貴齁，那個大白菜咧一塊錢一個，便宜啦。轉去厝內時候，阿母就在等著，伊問我有無買到啥物，我就講說買到了啦，那個豆乾攏在這裡，滷蛋咧也在。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 880
+    },
+    {
+      "type": "speech",
+      "text": "阿爸跟孫仔咧都在看電視吼，食飯時候再叫佇來吃唄。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2150,
+    "mean_pause_ms": 1075.0,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.92
+}

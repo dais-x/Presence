@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_019_family_0218",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日孫仔同囝仔轉來厝內食飯啦，按呢咧大家都坐佇灶跤邊講話齁。 [停頓] 伊母子兩個人袂有幾久没見到囝仔啦， [長停頓] 就開始講以前的事啊。彼個...彼個叫啥物？對了，就是那個彼個老朋友啦， [嘆氣] 想袂起來他咧叫啥。 [咳嗽] 今時今日咧，大家都講好多話，孫仔咧聽囝仔講故事齁。 [停頓] 說著說著就轉去講以前咧菜市仔買菜的事啦，彼個攏記袂起來伊母子兩個人咧菜市仔相逢的故事了啊。 [長停頓] 就是嘛，年輕時光咧， [沉默] 現在想起來都好美好， [嘆氣] 現在咧孫仔都大咧咧了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔同囝仔轉來厝內食飯啦，按呢咧大家都坐佇灶跤邊講話齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1144
+    },
+    {
+      "type": "speech",
+      "text": "伊母子兩個人袂有幾久没見到囝仔啦，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2438
+    },
+    {
+      "type": "speech",
+      "text": "就開始講以前的事啊。彼個...彼個叫啥物？對了，就是那個彼個老朋友啦，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1217
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來他咧叫啥。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 440
+    },
+    {
+      "type": "speech",
+      "text": "今時今日咧，大家都講好多話，孫仔咧聽囝仔講故事齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 837
+    },
+    {
+      "type": "speech",
+      "text": "說著說著就轉去講以前咧菜市仔買菜的事啦，彼個攏記袂起來伊母子兩個人咧菜市仔相逢的故事了啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1585
+    },
+    {
+      "type": "speech",
+      "text": "就是嘛，年輕時光咧，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2323
+    },
+    {
+      "type": "speech",
+      "text": "現在想起來都好美好，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1379
+    },
+    {
+      "type": "speech",
+      "text": "現在咧孫仔都大咧咧了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 5,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 8327,
+    "mean_pause_ms": 1665.4,
+    "speech_char_count": 193
+  },
+  "speech_rate_target": 0.85
+}

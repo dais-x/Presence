@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1497
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1114
+  },
+  {
+    "type": "speech",
+    "text": "彼個...按呢是啥週幾？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1058
+  },
+  {
+    "type": "speech",
+    "text": "啊，今早我去菜市仔買菜，攏是平常事體啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐我有食番薯粥跟鹹蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡最近無啥代誌啊，伊阿母健康就好。"
+  },
+  {
+    "type": "speech",
+    "text": "你問啥子？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1023
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 我想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 747
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔咧講話攏是人聲鼎沸齁，我買完菜就轉去囝仔家嘞，伊有孫仔在等著我來抱。"
+  },
+  {
+    "type": "speech",
+    "text": "攚是昨天咧，按呢... 嗯... 我想袂起來啦，昨天咧發生啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，無啥啦，就是平常就好。"
+  }
+]

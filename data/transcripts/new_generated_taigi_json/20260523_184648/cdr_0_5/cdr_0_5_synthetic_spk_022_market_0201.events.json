@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_022_market_0201",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日一早起來就去菜市仔買菜啦，那個賣雞蛋的攤販伊咧跟伊講話，伊說最近雞價袂貴齁，我欲講啥物也想袂起來， [停頓] 就嗯，買完菜轉去厝內啦。到厝內按呢就先洗個手，準備食飯，今仔日中午吃啥物好呢？那個，應該就是煮些簡單的就好啦。 [停頓] 唉呀，孫仔咧幾時來啊，好久袂見伊囝了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日一早起來就去菜市仔買菜啦，那個賣雞蛋的攤販伊咧跟伊講話，伊說最近雞價袂貴齁，我欲講啥物也想袂起來，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 712
+    },
+    {
+      "type": "speech",
+      "text": "就嗯，買完菜轉去厝內啦。到厝內按呢就先洗個手，準備食飯，今仔日中午吃啥物好呢？那個，應該就是煮些簡單的就好啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉呀，孫仔咧幾時來啊，好久袂見伊囝了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1912,
+    "mean_pause_ms": 956.0,
+    "speech_char_count": 126
+  },
+  "speech_rate_target": 0.92
+}

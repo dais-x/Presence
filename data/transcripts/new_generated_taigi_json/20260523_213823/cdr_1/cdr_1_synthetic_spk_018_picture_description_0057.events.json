@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日彼個圖啊，人咧灶跤上煮飯，菜市仔買回來的菜嘛在那裡擺著。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 970
+  },
+  {
+    "type": "speech",
+    "text": "囝仔咧地板上玩模型車，伊那個玩具滿多啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1087
+  },
+  {
+    "type": "speech",
+    "text": "按呢桌上頭有碗咧、筷子咧，還有那個蒜頭咧砧板上準備好欲切啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 970
+  },
+  {
+    "type": "speech",
+    "text": "彼個孫仔咧一旁看伊阿母煮飯，那個那個笑得很開心。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個鍋子裡頭好像有湯在滾著。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1025
+  },
+  {
+    "type": "speech",
+    "text": "彼個是說囝仔啊，那個今仔日來家裡玩的外甥仔。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 497
+  },
+  {
+    "type": "speech",
+    "text": "按呢按呢就是這樣啦，你聽懂袂啦？"
+  }
+]

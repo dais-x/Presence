@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1258
+  },
+  {
+    "type": "speech",
+    "text": "呀想袂起來啦... 那個啥物週嘛，齁昨天是禮拜六咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1169
+  },
+  {
+    "type": "speech",
+    "text": "早飯食啥啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1043
+  },
+  {
+    "type": "speech",
+    "text": "應該是麥片跟牛奶啊，那個麥片伊好吃的嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "厝裡頭有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 阿母她今仔日還好啦，就是無去菜市仔，按呢佇家裡頭。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個... 我孫仔咧，他講要去學校的嘛。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 692
+  },
+  {
+    "type": "speech",
+    "text": "伊欲去，但我毋知幾時可以轉去啊。"
+  },
+  {
+    "type": "speech",
+    "text": "我阿爸咧，伊還好啦，就是有點咳嗽。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1029
+  },
+  {
+    "type": "speech",
+    "text": "要去看醫生齁。"
+  }
+]

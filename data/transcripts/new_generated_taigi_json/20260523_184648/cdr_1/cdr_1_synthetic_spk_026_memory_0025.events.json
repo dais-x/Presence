@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_026_memory_0025",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好多雲阿，想起少年時陣伊讀冊時光囝仔啦。按呢彼個...彼個叫啥物？ [停頓] 那時候農忙咧，厝內長輩都袂好閒著齁。菜市仔去買菜，那個攏要自己挑選啊。阿母說做伙毋知辛苦，現在還欲記得啦。彼個彼個...彼個叫啥物？ [嘆氣] 少年時陣伊讀冊那陣子，按呢閣足好多事情想袂起來，誠是咧。 [長停頓] 那時候阿爸講佇田裡做伙攏要緊啊，但是彼個...彼個叫啥物？ [咳嗽] 嗯，那個田裡工作真的袂簡單啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好多雲阿，想起少年時陣伊讀冊時光囝仔啦。按呢彼個...彼個叫啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 928
+    },
+    {
+      "type": "speech",
+      "text": "那時候農忙咧，厝內長輩都袂好閒著齁。菜市仔去買菜，那個攏要自己挑選啊。阿母說做伙毋知辛苦，現在還欲記得啦。彼個彼個...彼個叫啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "text": "少年時陣伊讀冊那陣子，按呢閣足好多事情想袂起來，誠是咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2184
+    },
+    {
+      "type": "speech",
+      "text": "那時候阿爸講佇田裡做伙攏要緊啊，但是彼個...彼個叫啥物？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 780
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個田裡工作真的袂簡單啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 14,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3112,
+    "mean_pause_ms": 1556.0,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.85
+}

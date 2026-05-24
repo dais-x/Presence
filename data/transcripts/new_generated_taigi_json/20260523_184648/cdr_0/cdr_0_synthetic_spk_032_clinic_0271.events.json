@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_032_clinic_0271",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？我今早食飯時有吃些豆腐跟稀飯啦。 [停頓] 那個，最近家裡無啥代誌，阿母還好，就是偶而會講說腰酸背痛的。孫仔來過一次，帶來好多零食齁。厝內按呢都平順著咧。你有啥問題想問我啊？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？我今早食飯時有吃些豆腐跟稀飯啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 466
+    },
+    {
+      "type": "speech",
+      "text": "那個，最近家裡無啥代誌，阿母還好，就是偶而會講說腰酸背痛的。孫仔來過一次，帶來好多零食齁。厝內按呢都平順著咧。你有啥問題想問我啊？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 466,
+    "mean_pause_ms": 466.0,
+    "speech_char_count": 88
+  },
+  "speech_rate_target": 1.0
+}

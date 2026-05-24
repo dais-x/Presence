@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來... 阿母咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2824
+  },
+  {
+    "type": "speech",
+    "text": "伊毋知... 孫仔好可愛啊... 食飯咧齁... 天氣袂好啦... 菜市仔欲去未啊... 囝仔，彼個菜..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2180
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1218
+  },
+  {
+    "type": "speech",
+    "text": "冷啦... 嗯记得..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 4675
+  }
+]

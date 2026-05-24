@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啊，那個攤販咧賣啥物菜來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1973
+  },
+  {
+    "type": "speech",
+    "text": "阿母啦，她以前愛吃青江菜的，齁佇厝內咧，孫仔啦，他阿爸咧去哪個？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2376
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1197
+  },
+  {
+    "type": "speech",
+    "text": "今早食飯吃啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2169
+  },
+  {
+    "type": "cough",
+    "duration_ms": 891
+  },
+  {
+    "type": "speech",
+    "text": "當時我啊，那個伊咧讀書時候，學校隔壁有間麵店，齁好香的，現在想起來欲嘴饞。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2188
+  },
+  {
+    "type": "speech",
+    "text": "兩顆蘋果啦，買兩顆來著，阿爸閣在屋內等著咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 574
+  },
+  {
+    "type": "speech",
+    "text": "以前啊，那個伊咧去菜市仔，看到好多魚啦，虱目魚齁大條的，現在袂有以前那麼多了。"
+  }
+]

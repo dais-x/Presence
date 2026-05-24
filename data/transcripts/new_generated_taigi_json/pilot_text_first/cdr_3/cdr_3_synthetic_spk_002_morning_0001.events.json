@@ -1,0 +1,22 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起... 洗面，食飯啊... 阿母伊咋樣啦？..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1210
+  },
+  {
+    "type": "speech",
+    "text": "囝仔佇哪？... 冷齁... 菜市仔欲去嘛..."
+  },
+  {
+    "type": "cough",
+    "duration_ms": 879
+  },
+  {
+    "type": "speech",
+    "text": "啥物攏足咧？... 讚啦..."
+  }
+]

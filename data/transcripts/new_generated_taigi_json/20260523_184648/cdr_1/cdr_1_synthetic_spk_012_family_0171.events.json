@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_012_family_0171",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔同孫仔都轉來厝內食飯，大家坐佇灶跤邊講話。彼個孫仔咧好可愛，想袂起來彼個名字啦。 [停頓] 阿母說伊是老大，阿爸則是老二。 [長停頓] 噗呼... [咳嗽] 然後呢，那個孫仔咧跟囝仔一起玩，大家都很开心。今早去菜市仔買菜，欲好多菜攏袂知叫啥物，齁，想袂起來。 [嘆氣] 阿母說伊要幫阿爸準備食飯，就是這樣啦。 [沉默] 攚來講話，大家有時會講到以前的事情，彼個時候，大家都還年輕啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔同孫仔都轉來厝內食飯，大家坐佇灶跤邊講話。彼個孫仔咧好可愛，想袂起來彼個名字啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 860
+    },
+    {
+      "type": "speech",
+      "text": "阿母說伊是老大，阿爸則是老二。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2153
+    },
+    {
+      "type": "speech",
+      "text": "噗呼..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 714
+    },
+    {
+      "type": "speech",
+      "text": "然後呢，那個孫仔咧跟囝仔一起玩，大家都很开心。今早去菜市仔買菜，欲好多菜攏袂知叫啥物，齁，想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 763
+    },
+    {
+      "type": "speech",
+      "text": "阿母說伊要幫阿爸準備食飯，就是這樣啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1915
+    },
+    {
+      "type": "speech",
+      "text": "攚來講話，大家有時會講到以前的事情，彼個時候，大家都還年輕啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4928,
+    "mean_pause_ms": 1642.67,
+    "speech_char_count": 165
+  },
+  "speech_rate_target": 0.85
+}

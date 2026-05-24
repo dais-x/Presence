@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2556
+  },
+  {
+    "type": "speech",
+    "text": "那個我毋知，醫師啊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 493
+  },
+  {
+    "type": "speech",
+    "text": "我今早食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1013
+  },
+  {
+    "type": "speech",
+    "text": "拉麵啦，齁好吃。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1122
+  },
+  {
+    "type": "speech",
+    "text": "以前我阿母會煮好多菜，那個現在就無了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1828
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧，伊讀書去未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1170
+  },
+  {
+    "type": "speech",
+    "text": "我想食鹹粥啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 856
+  },
+  {
+    "type": "speech",
+    "text": "當時我們厝裡頭有好多囝仔，咧就剩老阮一個了。"
+  },
+  {
+    "type": "speech",
+    "text": "那個我身體無力，醫生你毋知袂啊？"
+  }
+]

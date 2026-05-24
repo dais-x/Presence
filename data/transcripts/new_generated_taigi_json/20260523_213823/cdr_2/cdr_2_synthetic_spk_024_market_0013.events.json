@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日菜市仔袂去囝仔攏無空閒著我欲去咧， 阿母以前早起一早袂睏著就起來煮飯，齁佇以前比較會早起啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1408
+  },
+  {
+    "type": "speech",
+    "text": "咱今仔日食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2566
+  },
+  {
+    "type": "cough",
+    "duration_ms": 793
+  },
+  {
+    "type": "speech",
+    "text": "攤販咧賣好多菜，伊講菜價袂變動，閣毋知啥時會漲， 足足欲買幾多蔬菜回來囝仔講著留著慢慢吃。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1570
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1230
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前有無去菜市仔？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1227
+  },
+  {
+    "type": "speech",
+    "text": "兒時咧阿母會做好多甜粿，齁好香齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 828
+  },
+  {
+    "type": "speech",
+    "text": "按呢早飯食啥物？"
+  }
+]

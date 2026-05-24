@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_030_family_0029",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日囝仔攏轉來厝內食飯，伊們一早袂有去菜市仔，就著午頓前無先買菜。我們坐佇灶跤邊吃飯，講話拉拉家常事。 [停頓] 孫仔咧叫阿母喂伊食碗湯，伊說湯熱欲吹涼一下再喝。 按呢時陣閣足大家在一起，真好",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔攏轉來厝內食飯，伊們一早袂有去菜市仔，就著午頓前無先買菜。我們坐佇灶跤邊吃飯，講話拉拉家常事。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧叫阿母喂伊食碗湯，伊說湯熱欲吹涼一下再喝。 按呢時陣閣足大家在一起，真好"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 400,
+    "mean_pause_ms": 400.0,
+    "speech_char_count": 91
+  },
+  "speech_rate_target": 1.0
+}

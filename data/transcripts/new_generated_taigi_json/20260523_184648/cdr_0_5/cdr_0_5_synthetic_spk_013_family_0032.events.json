@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_013_family_0032",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_013",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，大家坐佇灶跤邊講話。那個... [停頓] 孫仔問我囝仔以前攏袂敢來菜市仔，因為伊誠驚人多啦。我心想，按呢個時候囝仔就愛跟著我去買菜，齁，現在變大人咧。 [嘆氣] 嗯，今仔日大家食飯時講到以前的事，那個... 很久以前啊，大家都說阿母煮的湯好喝啦。 [停頓] 想袂起來伊是怎麼做的呢，就是好像加好多草藥齁，記憶袂很清楚啦。孫仔咧聽了就說囝仔以前愛吃啥物？我講伊愛吃甜食啦，那個... 今仔日大家講話真歡喜。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，大家坐佇灶跤邊講話。那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 863
+    },
+    {
+      "type": "speech",
+      "text": "孫仔問我囝仔以前攏袂敢來菜市仔，因為伊誠驚人多啦。我心想，按呢個時候囝仔就愛跟著我去買菜，齁，現在變大人咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 864
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今仔日大家食飯時講到以前的事，那個... 很久以前啊，大家都說阿母煮的湯好喝啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊是怎麼做的呢，就是好像加好多草藥齁，記憶袂很清楚啦。孫仔咧聽了就說囝仔以前愛吃啥物？我講伊愛吃甜食啦，那個... 今仔日大家講話真歡喜。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 686
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 8,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2063,
+    "mean_pause_ms": 1031.5,
+    "speech_char_count": 196
+  },
+  "speech_rate_target": 0.92
+}

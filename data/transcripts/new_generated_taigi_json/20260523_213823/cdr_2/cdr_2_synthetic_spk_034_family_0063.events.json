@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，孫仔咧也來啦，大家坐佇灶跤邊講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2318
+  },
+  {
+    "type": "speech",
+    "text": "以前阿母煮飯咧，我幫伊攏洗菜啊"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1027
+  },
+  {
+    "type": "cough",
+    "duration_ms": 667
+  },
+  {
+    "type": "speech",
+    "text": "。囝仔今早欲吃啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2267
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1269
+  },
+  {
+    "type": "speech",
+    "text": "齁，我頭陣咧是做老師的，那個個孫仔咧誠乖啦，咧讀書咧也認真。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1383
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前講過伊是老闆啊，伊今仔日咧欲去哪邊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 768
+  },
+  {
+    "type": "speech",
+    "text": "啊，我是毋知伊咧足去做啥物。"
+  }
+]

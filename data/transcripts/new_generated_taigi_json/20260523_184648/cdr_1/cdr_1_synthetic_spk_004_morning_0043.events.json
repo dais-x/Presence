@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_004_morning_0043",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就睏著醒來，先去洗面咧，然後就轉去做飯囉。想起來食飽一點，才有力氣去菜市仔買物。彼個啥物先來講？對喔，佇厝內先整理一下物件，準備出門用的包包。包包咧，有攏要攜啥東西？ [停頓] 貨幣、鑰匙、手冊，還有雨傘咧，現在天氣變換無常。說起傘啊，就想到彼個下雨時候，阿母會叫我去拿雨具。那個... 那個彼個雨具咧，是擺在哪一處呢？ [長停頓] 想袂起來了。反正去菜市仔買物就好，毋怕忘記攜啥東西。食飽飯後就出門囉，那個就是要去處理按呢幾件事情啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就睏著醒來，先去洗面咧，然後就轉去做飯囉。想起來食飽一點，才有力氣去菜市仔買物。彼個啥物先來講？對喔，佇厝內先整理一下物件，準備出門用的包包。包包咧，有攏要攜啥東西？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 923
+    },
+    {
+      "type": "speech",
+      "text": "貨幣、鑰匙、手冊，還有雨傘咧，現在天氣變換無常。說起傘啊，就想到彼個下雨時候，阿母會叫我去拿雨具。那個... 那個彼個雨具咧，是擺在哪一處呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2368
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來了。反正去菜市仔買物就好，毋怕忘記攜啥東西。食飽飯後就出門囉，那個就是要去處理按呢幾件事情啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 3291,
+    "mean_pause_ms": 1645.5,
+    "speech_char_count": 210
+  },
+  "speech_rate_target": 0.85
+}

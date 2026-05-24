@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂久就起來洗面啦，食飯咧，準備要去菜市仔買個東西啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 694
+  },
+  {
+    "type": "speech",
+    "text": "那個包包欲攏無啥物，想袂起來裡頭有啥。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1070
+  },
+  {
+    "type": "speech",
+    "text": "佇厝裡頭轉去檢查一下，看看有無漏掉啥物。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1023
+  },
+  {
+    "type": "speech",
+    "text": "按呢先準備好，免得去到菜市仔才驚著缺東缺西。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1338
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會咧講袂忘攏顧，現在我自己也想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 848
+  },
+  {
+    "type": "speech",
+    "text": "想著要去買個米啊，還有啥物嘞？"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是那個乾貨嘛，想袂起來名字囉。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，先去菜市仔看看咧，應該會記得啦。"
+  }
+]

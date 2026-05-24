@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 987
+  },
+  {
+    "type": "speech",
+    "text": "我咧菜市仔買菜去，那個早飯食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 739
+  },
+  {
+    "type": "speech",
+    "text": "我欲說袂起來，就是早間轉厝裡，阿母說伊佇灶跤煮湯麵，我就食碗湯麵囝。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有啥代誌啦？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1341
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 想袂起來，那個按呢日頭無甚麼特別事，齁就是這樣子。"
+  }
+]

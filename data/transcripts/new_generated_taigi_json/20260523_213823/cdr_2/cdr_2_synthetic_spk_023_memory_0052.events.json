@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣真好啊，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1557
+  },
+  {
+    "type": "speech",
+    "text": "小時候伊袂會像恁這樣子，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1484
+  },
+  {
+    "type": "speech",
+    "text": "以前讀冊時，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2222
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔咧好多好玩的事，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1021
+  },
+  {
+    "type": "speech",
+    "text": "那個當時我阿母煮飯咧，"
+  },
+  {
+    "type": "speech",
+    "text": "佇灶跤攏在那邊忙。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 694
+  },
+  {
+    "type": "speech",
+    "text": "現在呢，伊袂會有恁多事情啦，以前啊，伊都轉去學校，讀冊咧。"
+  },
+  {
+    "type": "speech",
+    "text": "那個我阿爸，以前農忙時，佇田裡攏在那邊工作，現在伊不會像恁這樣子啦。"
+  }
+]

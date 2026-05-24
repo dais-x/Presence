@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_memory_0102",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣不錯啊，我講起少年時陣的事啦。那個時候家裡農忙囝仔們都要去田裡幫手咧。阿母早早就喊我們起來，說是去菜市仔買菜，其實是叫我們一起去工作啦。 [停頓] 那個田裡工作辛苦咧，但是跟伊拉一起做事也很快樂啊。還有學校讀冊的時候，老師會講古，好像聽故事一樣，真有趣。那個時候的厝內生活好多好回憶，想袂起來的是啥物事情呢？啊，農忙完後，大家轉去灶跤食飯，一家人坐著聊天啦。 [嘆氣] 嗯，那個時候真歡樂。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯啊，我講起少年時陣的事啦。那個時候家裡農忙囝仔們都要去田裡幫手咧。阿母早早就喊我們起來，說是去菜市仔買菜，其實是叫我們一起去工作啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1137
+    },
+    {
+      "type": "speech",
+      "text": "那個田裡工作辛苦咧，但是跟伊拉一起做事也很快樂啊。還有學校讀冊的時候，老師會講古，好像聽故事一樣，真有趣。那個時候的厝內生活好多好回憶，想袂起來的是啥物事情呢？啊，農忙完後，大家轉去灶跤食飯，一家人坐著聊天啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1374
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個時候真歡樂。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1137,
+    "mean_pause_ms": 1137.0,
+    "speech_char_count": 188
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_021_family_0090",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "囝仔轉來食飯啊，孫仔也來咧。 [停頓] 今早伊講啥物？按呢佇厝內欲去菜市仔買菜齁， [長停頓] 阿母說要攏去。那個早餐吃嘛？ [沉默] 噁，我以前有袂？ [咳嗽] 按時阿爸閣在啊，伊講啥物咧？ [停頓] 今早孫仔欲吃啥物？按呢， [長停頓] 孫仔欲吃啥物？ [嘆氣] 菜市仔菜價袂貴啦。 [沉默] 阿母說要攏去，那個早餐吃嘛？ [停頓] 噁，我以前有袂？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "囝仔轉來食飯啊，孫仔也來咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1388
+    },
+    {
+      "type": "speech",
+      "text": "今早伊講啥物？按呢佇厝內欲去菜市仔買菜齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3923
+    },
+    {
+      "type": "speech",
+      "text": "阿母說要攏去。那個早餐吃嘛？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3520
+    },
+    {
+      "type": "speech",
+      "text": "噁，我以前有袂？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1191
+    },
+    {
+      "type": "speech",
+      "text": "按時阿爸閣在啊，伊講啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1300
+    },
+    {
+      "type": "speech",
+      "text": "今早孫仔欲吃啥物？按呢，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4500
+    },
+    {
+      "type": "speech",
+      "text": "孫仔欲吃啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1159
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔菜價袂貴啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2504
+    },
+    {
+      "type": "speech",
+      "text": "阿母說要攏去，那個早餐吃嘛？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1277
+    },
+    {
+      "type": "speech",
+      "text": "噁，我以前有袂？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 18412,
+    "mean_pause_ms": 2630.29,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.75
+}

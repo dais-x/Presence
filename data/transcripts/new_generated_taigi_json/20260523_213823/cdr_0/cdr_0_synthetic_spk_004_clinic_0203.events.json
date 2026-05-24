@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早咧，我食飽飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 430
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇厝內等著我去菜市仔買菜去。"
+  },
+  {
+    "type": "speech",
+    "text": "說是伊要做午餐給家人吃。"
+  },
+  {
+    "type": "speech",
+    "text": "我說好啦，會轉回去買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡啥代誌嘛，按呢閣無啥特別事體咧。"
+  }
+]

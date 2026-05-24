@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_1_morning_0000",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "spoken_transcript": "今仔日早起，先去洗面 [停頓] 然後欲食飯啦，菜市仔買伊來做。 [長停頓] 彼個...彼個叫啥，想袂起來。 [嘆氣] 然後欲攏收拾好，準備轉去市場。 [沉默] 那個包包咧拿著，包包閣有什麼物？啊，有佇呀，錢啦、鑰匙咧。 [咳嗽] 好了，可以出門了",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起，先去洗面"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "然後欲食飯啦，菜市仔買伊來做。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2300
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個叫啥，想袂起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "然後欲攏收拾好，準備轉去市場。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個包包咧拿著，包包閣有什麼物？啊，有佇呀，錢啦、鑰匙咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "好了，可以出門了"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 1,
+    "repair_count": 3,
+    "semantic_drift_count": 1,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4700,
+    "mean_pause_ms": 1566.67,
+    "speech_char_count": 92
+  },
+  "speech_rate_target": 0.85
+}

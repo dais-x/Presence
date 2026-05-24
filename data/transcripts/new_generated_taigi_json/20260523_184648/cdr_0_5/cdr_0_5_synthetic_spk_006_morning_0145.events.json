@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_006_morning_0145",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來囉，洗個臉，然後去煮飯吃。那個，菜啊好像講袂起來， [停頓] ，就是昨天買的青江菜，還有那個雞蛋，煎個兩個雞蛋。食完飯後嘛，就轉去整理一下桌椅，準備出門啦。 我今早要去菜市仔買些東西，那個，想袂起來要買啥物咧，不過應該要去看看阿母叫我去買的那個薑跟蒜頭。 [停頓] 那個藥膏也快要用完了，記得去拿一罐。 嗯，啦，準備一下包包，攜帶傘也有攬著，就出門囉。那個，今天天氣好像會下雨，所以要帶傘啦。 [嘆氣] 唔通咧，我今早要去買菜兼看看醫生，伊約好了啦。 按呢，準備好了，就可以轉去菜市仔囉。那個，啊，就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來囉，洗個臉，然後去煮飯吃。那個，菜啊好像講袂起來，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1124
+    },
+    {
+      "type": "speech",
+      "text": "，就是昨天買的青江菜，還有那個雞蛋，煎個兩個雞蛋。食完飯後嘛，就轉去整理一下桌椅，準備出門啦。 我今早要去菜市仔買些東西，那個，想袂起來要買啥物咧，不過應該要去看看阿母叫我去買的那個薑跟蒜頭。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個藥膏也快要用完了，記得去拿一罐。 嗯，啦，準備一下包包，攜帶傘也有攬著，就出門囉。那個，今天天氣好像會下雨，所以要帶傘啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1234
+    },
+    {
+      "type": "speech",
+      "text": "唔通咧，我今早要去買菜兼看看醫生，伊約好了啦。 按呢，準備好了，就可以轉去菜市仔囉。那個，啊，就這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2324,
+    "mean_pause_ms": 1162.0,
+    "speech_char_count": 244
+  },
+  "speech_rate_target": 0.92
+}

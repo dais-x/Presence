@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早早起咧，洗個面嘛去食飯囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 774
+  },
+  {
+    "type": "speech",
+    "text": "那個...啊，想袂起來欲食啥物來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 903
+  },
+  {
+    "type": "speech",
+    "text": "無關緊啦，先將碗筷擺好就好。"
+  },
+  {
+    "type": "speech",
+    "text": "然後整理一下厝內，衣物啦、雜物啦，都放攏乾淨點。"
+  },
+  {
+    "type": "speech",
+    "text": "準備出門咧，包包裡面有足沒有？"
+  },
+  {
+    "type": "speech",
+    "text": "那個皮夾子、鑰匙咧？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，好像攏有，閣可以轉去菜市仔買些菜來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1143
+  },
+  {
+    "type": "speech",
+    "text": "唉，孫仔放假咧，要煮多一點囉。"
+  }
+]

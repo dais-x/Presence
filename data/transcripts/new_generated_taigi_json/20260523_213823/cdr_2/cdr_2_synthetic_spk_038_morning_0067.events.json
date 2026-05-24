@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂晚， 洗個面啦，食飯咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2542
+  },
+  {
+    "type": "speech",
+    "text": "那個早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2260
+  },
+  {
+    "type": "speech",
+    "text": "噗嚕～"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 882
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前做給我食，好吃齁。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1375
+  },
+  {
+    "type": "speech",
+    "text": "攏欲準備出門去菜市仔，買個東西啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2590
+  },
+  {
+    "type": "speech",
+    "text": "伊講著以前囝仔時候，那個厝後面有棵大樹，好高哦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1347
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣足食飯，轉去咧？"
+  },
+  {
+    "type": "speech",
+    "text": "身體袂太好啊，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1150
+  },
+  {
+    "type": "speech",
+    "text": "攏欲去菜市仔啦。"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1877
+  },
+  {
+    "type": "speech",
+    "text": "我毋知囉"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1016
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2232
+  },
+  {
+    "type": "speech",
+    "text": "食飽飽咧"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1068
+  },
+  {
+    "type": "speech",
+    "text": "佇菜市仔買菜，伊阿欲去啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1308
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧讀書啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2448
+  },
+  {
+    "type": "speech",
+    "text": "以前我家好多田，現在無啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我頭痛，阿母咧講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸咧講毋通講囉"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 887
+  },
+  {
+    "type": "speech",
+    "text": "。今早食飯咧，孫仔欲來看我啊。"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_030_picture_0099",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_030",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "伊今仔日攏袂好啊， [停頓] 真的欲去菜市仔買菜啦。那個伊欲問伊老相伙，佇哪個攤子咧？ 以前袂知幾時，伊袂曉講啥物話拉。 阿母今早有無食飯囝仔啊？ [咳嗽] 噗，伊欲去轉去吃碗湯。 [沉默] 湯咧，伊說湯要熱熱的，就是齁... [停頓] 忒好飲啦。 阿爸今早叫伊去買菜，伊袂曉要去哪個攤子。 噗，那個地方伊袂知哪個地方咧。 [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "伊今仔日攏袂好啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1280
+    },
+    {
+      "type": "speech",
+      "text": "真的欲去菜市仔買菜啦。那個伊欲問伊老相伙，佇哪個攤子咧？ 以前袂知幾時，伊袂曉講啥物話拉。 阿母今早有無食飯囝仔啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1102
+    },
+    {
+      "type": "speech",
+      "text": "噗，伊欲去轉去吃碗湯。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2746
+    },
+    {
+      "type": "speech",
+      "text": "湯咧，伊說湯要熱熱的，就是齁..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1220
+    },
+    {
+      "type": "speech",
+      "text": "忒好飲啦。 阿爸今早叫伊去買菜，伊袂曉要去哪個攤子。 噗，那個地方伊袂知哪個地方咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2380
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 4,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 7626,
+    "mean_pause_ms": 1906.5,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.75
+}

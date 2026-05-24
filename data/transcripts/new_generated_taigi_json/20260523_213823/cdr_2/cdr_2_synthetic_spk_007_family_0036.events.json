@@ -1,0 +1,70 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日孫仔轉來食飯啊，那個…………"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2314
+  },
+  {
+    "type": "speech",
+    "text": "伊坐佇灶跤邊講話咧，……"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1317
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會煮啥物菜，齁，現在袂曉了，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1028
+  },
+  {
+    "type": "speech",
+    "text": "……以前囝仔時候欲去菜市仔買菜，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 555
+  },
+  {
+    "type": "speech",
+    "text": "孫仔食緊飯啦，那個……"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1740
+  },
+  {
+    "type": "speech",
+    "text": "身體無力啊，……"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1927
+  },
+  {
+    "type": "speech",
+    "text": "阿爸以前咧好壯，現在閣老喽，……"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔又轉去學校啦，真快，齁，早餐伊愛吃油條，……"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔好多攤子，齁，今早欲買青菜，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 822
+  },
+  {
+    "type": "speech",
+    "text": "……啊，毋知。"
+  }
+]

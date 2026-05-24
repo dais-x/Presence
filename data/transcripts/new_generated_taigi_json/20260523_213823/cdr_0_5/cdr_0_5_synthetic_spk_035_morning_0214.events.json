@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先洗面，然後就食飯啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 791
+  },
+  {
+    "type": "speech",
+    "text": "飯後我就整理一下厝內物件，準備要去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 778
+  },
+  {
+    "type": "speech",
+    "text": "那個，買啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來了，啊對啦，要買菜去煮晝飯。"
+  },
+  {
+    "type": "speech",
+    "text": "攏是準備一下，轉去就出門囉。"
+  }
+]

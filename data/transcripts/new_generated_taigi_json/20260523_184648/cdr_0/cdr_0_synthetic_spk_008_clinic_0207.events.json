@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_008_clinic_0207",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？按呢是五月十三號齁。早飯我食豆漿跟油條啦。菜市仔頭買菜回來啊，看到鄰居伊也攏去買菜。伊跟你說說，伊孫仔今朝放學早，所以伊先帶佇公園遊玩一下咧。厝裡按呢一切都好，無啥特別代誌啦。 [停頓] 嗯～有啥其他要問我嘸？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？按呢是五月十三號齁。早飯我食豆漿跟油條啦。菜市仔頭買菜回來啊，看到鄰居伊也攏去買菜。伊跟你說說，伊孫仔今朝放學早，所以伊先帶佇公園遊玩一下咧。厝裡按呢一切都好，無啥特別代誌啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 298
+    },
+    {
+      "type": "speech",
+      "text": "嗯～有啥其他要問我嘸？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 298,
+    "mean_pause_ms": 298.0,
+    "speech_char_count": 106
+  },
+  "speech_rate_target": 1.0
+}

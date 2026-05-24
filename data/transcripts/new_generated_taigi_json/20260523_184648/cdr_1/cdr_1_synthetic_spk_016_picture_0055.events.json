@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_016_picture_0055",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_016",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好，我去看菜市仔。看到好多攤販賣水果，彼個...彼個叫啥？ [停頓] 想袂起來啦。那個阿婆在賣菜，她咧喊著說青江菜新鮮。 [停頓] 哇，有個伯公拎著籃子買東西，欲去煮飯吃。按呢個伯母，伊在跟人家講話，應該是講家庭代誌啦。我記憶力不好，好多事情想袂起來，不過看到菜市仔就想起年輕時的光景。 [嘆氣] 那時候大家咧攏齊來買東西，熱鬧得很。今仔日人比較少啊，就是有點寂寞齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好，我去看菜市仔。看到好多攤販賣水果，彼個...彼個叫啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 929
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。那個阿婆在賣菜，她咧喊著說青江菜新鮮。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1274
+    },
+    {
+      "type": "speech",
+      "text": "哇，有個伯公拎著籃子買東西，欲去煮飯吃。按呢個伯母，伊在跟人家講話，應該是講家庭代誌啦。我記憶力不好，好多事情想袂起來，不過看到菜市仔就想起年輕時的光景。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1371
+    },
+    {
+      "type": "speech",
+      "text": "那時候大家咧攏齊來買東西，熱鬧得很。今仔日人比較少啊，就是有點寂寞齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2203,
+    "mean_pause_ms": 1101.5,
+    "speech_char_count": 171
+  },
+  "speech_rate_target": 0.85
+}

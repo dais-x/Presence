@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_007_memory_0036",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊 [停頓] ，我年輕時陣常去菜市仔買菜咧 [長停頓] ，那時候伊還小啦，我阿母就叫我去買菜 [沉默] ，那個時候我袂知幾大咧 [嘆氣] 。啊，以前讀冊時陣，老師講啥物我都聽不懂 [咳嗽] ，那個時候真辛苦啊 [停頓] 。嗯，現在天亮啦，要去煮飯囉。啊，阿爸伊年輕時陣很會種田咧，我袂記得伊咧 [長停頓] ，以前伊還好啊。唉，今仔日食啥物啊？ [沉默] 嗯，那個時候真懷念啊 [嘆氣] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1398
+    },
+    {
+      "type": "speech",
+      "text": "，我年輕時陣常去菜市仔買菜咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4003
+    },
+    {
+      "type": "speech",
+      "text": "，那時候伊還小啦，我阿母就叫我去買菜"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3107
+    },
+    {
+      "type": "speech",
+      "text": "，那個時候我袂知幾大咧"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1201
+    },
+    {
+      "type": "speech",
+      "text": "。啊，以前讀冊時陣，老師講啥物我都聽不懂"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 516
+    },
+    {
+      "type": "speech",
+      "text": "，那個時候真辛苦啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1378
+    },
+    {
+      "type": "speech",
+      "text": "。嗯，現在天亮啦，要去煮飯囉。啊，阿爸伊年輕時陣很會種田咧，我袂記得伊咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2941
+    },
+    {
+      "type": "speech",
+      "text": "，以前伊還好啊。唉，今仔日食啥物啊？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3375
+    },
+    {
+      "type": "speech",
+      "text": "嗯，那個時候真懷念啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1232
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 10,
+    "pause_event_count": 6,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 16202,
+    "mean_pause_ms": 2700.33,
+    "speech_char_count": 145
+  },
+  "speech_rate_target": 0.75
+}

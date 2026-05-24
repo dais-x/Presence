@@ -1,0 +1,130 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_029_memory_0018",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天色好啊 [停頓] 少年時陣我讀冊咧 嚐緊菜市仔欲攏去 [長停頓] 阿母叫我去買阮 [停頓] 啥物菜啊那個 [沉默] 那時候伊袂知阮欲做啥 [嘆氣] 按呢閣足那麼辛苦啦 以前咧我有個阿姐 嚐緊佇厝內幫忙 [長停頓] 現在阮頭腦壞啦 我毋知自己講啥物 [咳嗽] 就是 阿母以前叫我去煮飯 [停頓] 啊那個 嗯 今早食啥物咧 我欲吃稀飯啊 欲吃稀飯 [長停頓] 那時候阮佇田裡做工 很辛苦啦 嚐緊伊有無去菜市仔 [停頓] 阿爸以前叫我去買菜 現在阮頭腦壞了 我毋知自己講啥物 欲吃稀飯 嗯 啊",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天色好啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1401
+    },
+    {
+      "type": "speech",
+      "text": "少年時陣我讀冊咧 嚐緊菜市仔欲攏去"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2995
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去買阮"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1258
+    },
+    {
+      "type": "speech",
+      "text": "啥物菜啊那個"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3809
+    },
+    {
+      "type": "speech",
+      "text": "那時候伊袂知阮欲做啥"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 804
+    },
+    {
+      "type": "speech",
+      "text": "按呢閣足那麼辛苦啦 以前咧我有個阿姐 嚐緊佇厝內幫忙"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3925
+    },
+    {
+      "type": "speech",
+      "text": "現在阮頭腦壞啦 我毋知自己講啥物"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 958
+    },
+    {
+      "type": "speech",
+      "text": "就是 阿母以前叫我去煮飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1292
+    },
+    {
+      "type": "speech",
+      "text": "啊那個 嗯 今早食啥物咧 我欲吃稀飯啊 欲吃稀飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4292
+    },
+    {
+      "type": "speech",
+      "text": "那時候阮佇田裡做工 很辛苦啦 嚐緊伊有無去菜市仔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1481
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前叫我去買菜 現在阮頭腦壞了 我毋知自己講啥物 欲吃稀飯 嗯 啊"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 21,
+    "speech_event_count": 11,
+    "pause_event_count": 8,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 20453,
+    "mean_pause_ms": 2556.62,
+    "speech_char_count": 184
+  },
+  "speech_rate_target": 0.75
+}

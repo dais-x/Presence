@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "早起睏咧醒來啦，先洗面拉，然後就去準備食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 680
+  },
+  {
+    "type": "speech",
+    "text": "今仔日吃啥物好啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 602
+  },
+  {
+    "type": "speech",
+    "text": "那個...想袂起來，隨便就好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "吃完後整理一下厝內物件，攏是日常事體。"
+  },
+  {
+    "type": "speech",
+    "text": "準備要出門啦，拎著籃子要去菜市仔買些東西咧。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，說到這，有無漏掉啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該就足啦吧，那個包包裡頭有錢，可以去轉去買啦。"
+  }
+]

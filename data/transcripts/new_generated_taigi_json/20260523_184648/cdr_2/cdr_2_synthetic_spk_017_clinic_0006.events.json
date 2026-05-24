@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_017_clinic_0006",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 那個我早飯食啥物咧？ [長停頓] 我欲講伊啦，就是我阿母齁。她以前會做好多好吃嘸？ [沉默] 咳嗽... [停頓] 佇菜市仔買菜啦，那個菜啊，那個雞蛋啊，按呢買啦。 [停頓] 那個早餐食啥物咧？就是那個紅豆粥啦。 [長停頓] 我欲講伊啦，以前我囝仔咧，就著緊他去學校。 [沉默] 嗯... [嘆氣] 我身體袂好，頭痛欲炸開來。 [停頓] 那個以前啊，我們一家人坐佇厝內食飯，真幸福齁。 [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1243
+    },
+    {
+      "type": "speech",
+      "text": "那個我早飯食啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4033
+    },
+    {
+      "type": "speech",
+      "text": "我欲講伊啦，就是我阿母齁。她以前會做好多好吃嘸？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2709
+    },
+    {
+      "type": "speech",
+      "text": "咳嗽..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "text": "佇菜市仔買菜啦，那個菜啊，那個雞蛋啊，按呢買啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1237
+    },
+    {
+      "type": "speech",
+      "text": "那個早餐食啥物咧？就是那個紅豆粥啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1836
+    },
+    {
+      "type": "speech",
+      "text": "我欲講伊啦，以前我囝仔咧，就著緊他去學校。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2597
+    },
+    {
+      "type": "speech",
+      "text": "嗯..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 757
+    },
+    {
+      "type": "speech",
+      "text": "我身體袂好，頭痛欲炸開來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1394
+    },
+    {
+      "type": "speech",
+      "text": "那個以前啊，我們一家人坐佇厝內食飯，真幸福齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4415
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 9,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 20790,
+    "mean_pause_ms": 2310.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.75
+}

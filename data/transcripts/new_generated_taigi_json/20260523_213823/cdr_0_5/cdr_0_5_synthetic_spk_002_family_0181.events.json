@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日阿母轉來厝內食飯，伊攏帶阮囝仔跟孫仔咧，大家坐佇灶跤邊聊天。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 985
+  },
+  {
+    "type": "speech",
+    "text": "那個...話說起阮孫仔啦，伊讀書誠辛苦啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 839
+  },
+  {
+    "type": "speech",
+    "text": "欲講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "噢，對了，阮囝仔今早去菜市仔買菜，那個...買啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1394
+  },
+  {
+    "type": "speech",
+    "text": "齁，總之就是大家有攏在一起食飯啦。"
+  }
+]

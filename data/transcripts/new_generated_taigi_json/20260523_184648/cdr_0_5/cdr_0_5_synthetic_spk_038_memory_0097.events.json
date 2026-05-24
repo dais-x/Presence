@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_038_memory_0097",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_038",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，我年輕時陣常去田裡幫忙阿爸種稻米咧。那個時候讀冊時間比較少，整天都佇厝內做家務或著跟鄰居玩。阿母會教我們煮飯、洗衣服咧，學得好多生活技能。那個農曆新年啊，大家會一起做粿，好熱鬧。 [停頓] 有時跟鄰居去菜市仔買菜，碰到熟人就會聊個幾句話啦。讀冊嘛，就是學校裡老師教數字、漢字咧。現在回想起來，感覺時間過得好快齁，那個年歲好多事情都忘記袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，我年輕時陣常去田裡幫忙阿爸種稻米咧。那個時候讀冊時間比較少，整天都佇厝內做家務或著跟鄰居玩。阿母會教我們煮飯、洗衣服咧，學得好多生活技能。那個農曆新年啊，大家會一起做粿，好熱鬧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 758
+    },
+    {
+      "type": "speech",
+      "text": "有時跟鄰居去菜市仔買菜，碰到熟人就會聊個幾句話啦。讀冊嘛，就是學校裡老師教數字、漢字咧。現在回想起來，感覺時間過得好快齁，那個年歲好多事情都忘記袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 758,
+    "mean_pause_ms": 758.0,
+    "speech_char_count": 173
+  },
+  "speech_rate_target": 0.92
+}

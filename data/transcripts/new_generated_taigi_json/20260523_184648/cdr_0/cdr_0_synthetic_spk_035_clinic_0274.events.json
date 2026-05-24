@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_035_clinic_0274",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日袂是週末囉，醫師問我啥物代誌？ [停頓] 我食了粒土司，加杯牛奶咧，簡單噯！按呢厝裡無啥子特別事體啦，孫仔來過咧，阿母說伊要去菜市仔買菜。 [停頓] 你問我今仔日幾號啊？那個我就毋知囉，手機閣掛著咧，攏袂看齁。唉呀，医师問啥物呢？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日袂是週末囉，醫師問我啥物代誌？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 241
+    },
+    {
+      "type": "speech",
+      "text": "我食了粒土司，加杯牛奶咧，簡單噯！按呢厝裡無啥子特別事體啦，孫仔來過咧，阿母說伊要去菜市仔買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 270
+    },
+    {
+      "type": "speech",
+      "text": "你問我今仔日幾號啊？那個我就毋知囉，手機閣掛著咧，攏袂看齁。唉呀，医师問啥物呢？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 511,
+    "mean_pause_ms": 255.5,
+    "speech_char_count": 106
+  },
+  "speech_rate_target": 1.0
+}

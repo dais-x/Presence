@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣袂壞，以前啊，我年輕時陣，讀冊去菜市仔買菜，那個時候阿母叫我去煮飯，我欲說咧，現在食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1193
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 928
+  },
+  {
+    "type": "speech",
+    "text": "伊講你欲吃啥物咧，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2252
+  },
+  {
+    "type": "cough",
+    "duration_ms": 642
+  },
+  {
+    "type": "speech",
+    "text": "我就講早餐啊，有無米煮粥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1518
+  },
+  {
+    "type": "speech",
+    "text": "以前啊，那個囝仔時陣咧，阿爸帶我去田裡收稻子，現在想起來就頭痛啦。"
+  }
+]

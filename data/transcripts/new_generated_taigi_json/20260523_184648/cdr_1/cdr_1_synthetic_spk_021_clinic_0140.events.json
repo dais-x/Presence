@@ -1,0 +1,130 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_021_clinic_0140",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_021",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我想袂起來啦。那個早飯我食啥咧？ [長停頓] 那個... 阿母做的是啥物菜啊？ [嘆氣] 想袂起來ㄟ，彼個...彼個叫啥？ [咳嗽] 今仔日是星期幾啊？ [停頓] 我想講的是啥咧？按呢厝有無人？ [長停頓] 嗯，我記不得啦。 [沉默] 阿爸去菜市仔袂去咧？ [嘆氣] 那個阿母做的是啥物菜啊？ [停頓] 我講錯了齁，今仔日是幾號啊？ [長停頓] 嗯...我想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 952
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦。那個早飯我食啥咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1791
+    },
+    {
+      "type": "speech",
+      "text": "那個... 阿母做的是啥物菜啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1321
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來ㄟ，彼個...彼個叫啥？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 612
+    },
+    {
+      "type": "speech",
+      "text": "今仔日是星期幾啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1153
+    },
+    {
+      "type": "speech",
+      "text": "我想講的是啥咧？按呢厝有無人？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2201
+    },
+    {
+      "type": "speech",
+      "text": "嗯，我記不得啦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1824
+    },
+    {
+      "type": "speech",
+      "text": "阿爸去菜市仔袂去咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1091
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母做的是啥物菜啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 978
+    },
+    {
+      "type": "speech",
+      "text": "我講錯了齁，今仔日是幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2347
+    },
+    {
+      "type": "speech",
+      "text": "嗯...我想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 21,
+    "speech_event_count": 11,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 11246,
+    "mean_pause_ms": 1606.57,
+    "speech_char_count": 134
+  },
+  "speech_rate_target": 0.85
+}

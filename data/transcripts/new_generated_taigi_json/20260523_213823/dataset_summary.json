@@ -1,0 +1,27 @@
+{
+  "record_count": 1000,
+  "plan_count": 1000,
+  "by_cdr": {
+    "0.0": 300,
+    "0.5": 300,
+    "1.0": 250,
+    "2.0": 100,
+    "3.0": 50
+  },
+  "by_split": {
+    "train": 700,
+    "val": 150,
+    "test": 150
+  },
+  "by_language_profile": {
+    "taigi_dominant": 606,
+    "mixed_taigi_mandarin": 292,
+    "mandarin_dominant_mixed": 102
+  },
+  "by_acoustic_condition": {
+    "clean": 402,
+    "clinic_room_noise": 249,
+    "home_background_noise": 206,
+    "phone_mic_degraded": 143
+  }
+}

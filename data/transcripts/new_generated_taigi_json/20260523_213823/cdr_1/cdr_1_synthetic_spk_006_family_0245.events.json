@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊帶著孫仔一齊來，我好想袂起來彼個孫仔叫啥物名。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1582
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧等佇灶跤邊煮湯，伊欲講話就講到彼個孫仔長大好多，那個伊都看得到。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1539
+  },
+  {
+    "type": "speech",
+    "text": "我說：「阿母，彼個孫仔咧讀幾班啦？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 706
+  },
+  {
+    "type": "speech",
+    "text": "」"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1114
+  },
+  {
+    "type": "speech",
+    "text": "嗯，伊說伊毋知，但伊講伊想袂起來，齁，就這樣講著話，大家都笑起來啦。"
+  }
+]

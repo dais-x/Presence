@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_014_family_0273",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_014",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔轉來厝內食飯，伊搭佇灶跤邊同阿爸講話。那個... 孫仔問我啥物菜市仔買啥物菜，我就教伊咧做。 [停頓] 阿母準備食飯啦，好幾年袂有咁多人坐佇厝內食飯，真誠溫馨。孫仔還說欲幫阿爸洗碗，那個... 洗碗咧，我年輕時都自己洗，現在愈來愈懶了。 [停頓] 那個時候啊，大家都會講按呢些事，齁，現在話題變啦。 [嘆氣] 就是講孫仔今仔日學啥物，就是教伊咧做飯，嗯，教伊咧煮湯，那個... 教伊咧洗菜。 [咳嗽] 想袂起來，以前阿爸都會教我些啥物，齁，現在輪到我教孫仔啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔轉來厝內食飯，伊搭佇灶跤邊同阿爸講話。那個... 孫仔問我啥物菜市仔買啥物菜，我就教伊咧做。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1045
+    },
+    {
+      "type": "speech",
+      "text": "阿母準備食飯啦，好幾年袂有咁多人坐佇厝內食飯，真誠溫馨。孫仔還說欲幫阿爸洗碗，那個... 洗碗咧，我年輕時都自己洗，現在愈來愈懶了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啊，大家都會講按呢些事，齁，現在話題變啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1112
+    },
+    {
+      "type": "speech",
+      "text": "就是講孫仔今仔日學啥物，就是教伊咧做飯，嗯，教伊咧煮湯，那個... 教伊咧洗菜。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 972
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，以前阿爸都會教我些啥物，齁，現在輪到我教孫仔啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2245,
+    "mean_pause_ms": 1122.5,
+    "speech_char_count": 211
+  },
+  "speech_rate_target": 0.92
+}

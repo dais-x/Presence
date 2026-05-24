@@ -1,0 +1,134 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_015_picture_0004",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日菜市仔人好多啊 [停頓] 伊欲買新鮮菜咧那個按呢佇攏袂有啦 [長停頓] 以前阿母做飯時候咧我會幫忙洗米齁 [嘆氣] 現在足老了啦 [咳嗽] 孫仔咧轉去學校未 [沉默] [停頓] 早餐欲食啥物啊 [停頓] 那個按呢菜市仔人袂少 [長停頓] 伊咧講話袂清楚啦 [停頓] 阿爸以前袂知閣走去哪個地方齁 [沉默] [停頓] 今早食飯時間咧我那個頭痛欲死啦 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日菜市仔人好多啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1476
+    },
+    {
+      "type": "speech",
+      "text": "伊欲買新鮮菜咧那個按呢佇攏袂有啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2858
+    },
+    {
+      "type": "speech",
+      "text": "以前阿母做飯時候咧我會幫忙洗米齁"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 993
+    },
+    {
+      "type": "speech",
+      "text": "現在足老了啦"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1173
+    },
+    {
+      "type": "speech",
+      "text": "孫仔咧轉去學校未"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2073
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1240
+    },
+    {
+      "type": "speech",
+      "text": "早餐欲食啥物啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "text": "那個按呢菜市仔人袂少"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2916
+    },
+    {
+      "type": "speech",
+      "text": "伊咧講話袂清楚啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1227
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前袂知閣走去哪個地方齁"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1900
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1423
+    },
+    {
+      "type": "speech",
+      "text": "今早食飯時間咧我那個頭痛欲死啦"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 837
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 22,
+    "speech_event_count": 10,
+    "pause_event_count": 9,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 16569,
+    "mean_pause_ms": 1841.0,
+    "speech_char_count": 110
+  },
+  "speech_rate_target": 0.75
+}

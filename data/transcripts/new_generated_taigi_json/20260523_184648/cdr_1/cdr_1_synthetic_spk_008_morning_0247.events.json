@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_008_morning_0247",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起來啦，先去洗面，然後準備食飯。 [停頓] 食完之後就想去整理一下厝內的物件，可是彼個...彼個叫啥？就是那個抽屜啊，想袂起來。 [長停頓] [嘆氣] 先放著咧，再說啦。 [咳嗽] 想轉去菜市仔買些東西來，可是菜價袂知調整欸，所以按呢暫時毋想去，等幾日看看就好。 [停頓] 嗯，今仔日就先這樣啦，後面看情況再決定好不好？",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起來啦，先去洗面，然後準備食飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1089
+    },
+    {
+      "type": "speech",
+      "text": "食完之後就想去整理一下厝內的物件，可是彼個...彼個叫啥？就是那個抽屜啊，想袂起來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1698
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1313
+    },
+    {
+      "type": "speech",
+      "text": "先放著咧，再說啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 631
+    },
+    {
+      "type": "speech",
+      "text": "想轉去菜市仔買些東西來，可是菜價袂知調整欸，所以按呢暫時毋想去，等幾日看看就好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 953
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今仔日就先這樣啦，後面看情況再決定好不好？"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3740,
+    "mean_pause_ms": 1246.67,
+    "speech_char_count": 136
+  },
+  "speech_rate_target": 0.85
+}

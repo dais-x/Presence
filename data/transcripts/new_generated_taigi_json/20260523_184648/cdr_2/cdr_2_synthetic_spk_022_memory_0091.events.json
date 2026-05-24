@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_022_memory_0091",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "少年時陣，菜市仔去買物欲食啥物， [停頓] 阿母叫我去買菜，按呢個時陣，伊有無記？ [長停頓] 按呢個時陣，我阿爸欲農忙，咧個時候佷辛苦。 [沉默] [嘆氣] 無啦，講著講著就講到以前的事，就是那個時候，真係袂知時間過得恁快。 [咳嗽] 阿母叫我去買菜，伊叫我去買菜，欲去買菜。 [停頓] 今仔日睏意佷重，頭欲痛。 [長停頓] 嗯，以前讀冊時陣，咧個時候， [停頓] 教室內講啥事？ [沉默] [咳嗽] 阿母叫我去買菜啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "少年時陣，菜市仔去買物欲食啥物，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1203
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去買菜，按呢個時陣，伊有無記？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3179
+    },
+    {
+      "type": "speech",
+      "text": "按呢個時陣，我阿爸欲農忙，咧個時候佷辛苦。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1597
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 838
+    },
+    {
+      "type": "speech",
+      "text": "無啦，講著講著就講到以前的事，就是那個時候，真係袂知時間過得恁快。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 954
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去買菜，伊叫我去買菜，欲去買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1377
+    },
+    {
+      "type": "speech",
+      "text": "今仔日睏意佷重，頭欲痛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4104
+    },
+    {
+      "type": "speech",
+      "text": "嗯，以前讀冊時陣，咧個時候，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1204
+    },
+    {
+      "type": "speech",
+      "text": "教室內講啥事？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2872
+    },
+    {
+      "type": "cough",
+      "duration_ms": 401
+    },
+    {
+      "type": "speech",
+      "text": "阿母叫我去買菜啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 19,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 2,
+    "pause_total_ms": 15536,
+    "mean_pause_ms": 2219.43,
+    "speech_char_count": 151
+  },
+  "speech_rate_target": 0.75
+}

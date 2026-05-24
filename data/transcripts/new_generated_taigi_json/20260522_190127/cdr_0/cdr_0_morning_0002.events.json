@@ -1,0 +1,48 @@
+{
+  "sample_id": "cdr_0_morning_0002",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "spoken_transcript": "今仔日早起，欲去洗面。轉去浴室咧，先擱好毛巾、肥皂、牙膏、刷子。 [停頓] 洗面後欲去食飯，阿母已經煮妥了麥片。食完後準備要出門，包包裡的東西有攏塞好了。 [停頓] 欲去菜市仔買些青菜，啊，那個手機要不要帶？按呢閣去啦",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起，欲去洗面。轉去浴室咧，先擱好毛巾、肥皂、牙膏、刷子。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "洗面後欲去食飯，阿母已經煮妥了麥片。食完後準備要出門，包包裡的東西有攏塞好了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "text": "欲去菜市仔買些青菜，啊，那個手機要不要帶？按呢閣去啦"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1050,
+    "mean_pause_ms": 525.0,
+    "speech_char_count": 97
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好嘛，我欲去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1581
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阿母咧煮飯啦，伊手袂停攏在做菜啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1367
+  },
+  {
+    "type": "speech",
+    "text": "佇灶跤旁邊有幾個碗， 想袂起來彼個叫啥名，是擺著等洗的嘛。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 959
+  },
+  {
+    "type": "speech",
+    "text": "然後桌頂上按呢有幾樣東西咧，好像有個鍋子跟一疋布。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1075
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧在玩啊，伊欲轉去厝囝，但我毋知伊要去哪。"
+  },
+  {
+    "type": "speech",
+    "text": "那個...今早我買菜咧，看到好多菜攤，彼個攤販咧賣魚啦，彼個又賣菜，彼個叫啥，想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，對囉，是水果攤。"
+  }
+]

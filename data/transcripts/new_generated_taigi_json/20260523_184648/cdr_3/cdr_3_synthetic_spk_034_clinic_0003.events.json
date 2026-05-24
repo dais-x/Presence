@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_034_clinic_0003",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日... 嗯... 食飯啊？ [長停頓] 阿母咧？ [長停頓] 冷啦... 囝仔食飯未？ [沉默] 欲食啥物？ [咳嗽] 菜市仔去未？ [嘆氣] 攚不欲去... [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日... 嗯... 食飯啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2008
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6564
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 囝仔食飯未？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2741
+    },
+    {
+      "type": "speech",
+      "text": "欲食啥物？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去未？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1299
+    },
+    {
+      "type": "speech",
+      "text": "攚不欲去..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2073
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 13386,
+    "mean_pause_ms": 3346.5,
+    "speech_char_count": 50
+  },
+  "speech_rate_target": 0.65
+}

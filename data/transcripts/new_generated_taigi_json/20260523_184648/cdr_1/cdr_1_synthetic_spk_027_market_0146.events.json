@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_027_market_0146",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊，那個阮阿母叫阮伊攜青菜跟豆腐啦。 [停頓] 彼個...彼個攤販咧有講啥物，阮就欲袂知是啥物齁， [停頓] 想袂起來啊。然後就買來青菜跟豆腐咧，轉去厝內啊，阿爸說：「伊怎麼欲吃魚？ [停頓] 阮就說：「按呢個阮毋知啦」，那個彼個阮有攜去市場著的，阮就轉去囝仔家。 [咳嗽] 今仔日天氣熱咧，買菜欲袂愛走去啊，不過青菜嘛要吃啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，那個阮阿母叫阮伊攜青菜跟豆腐啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 939
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個攤販咧有講啥物，阮就欲袂知是啥物齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1481
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啊。然後就買來青菜跟豆腐咧，轉去厝內啊，阿爸說：「伊怎麼欲吃魚？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 855
+    },
+    {
+      "type": "speech",
+      "text": "阮就說：「按呢個阮毋知啦」，那個彼個阮有攜去市場著的，阮就轉去囝仔家。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1030
+    },
+    {
+      "type": "speech",
+      "text": "今仔日天氣熱咧，買菜欲袂愛走去啊，不過青菜嘛要吃啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 3275,
+    "mean_pause_ms": 1091.67,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日想著少年時陣的事，彼個...彼個叫啥來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 890
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫伊去菜市仔買東西，佇當時咧阿母常叫我去幫忙，那個...農忙季節咧就特別緊張，攏要做工囝仔， 吃飯時間到咧，阿爸就會喊伊食飯，彼個...是哪個？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1558
+  },
+  {
+    "type": "speech",
+    "text": "哦，我啦！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1200
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 699
+  },
+  {
+    "type": "speech",
+    "text": "那陣時光好快樂，就是想袂起來當時幾歲， 但是記得天天都歡天喜地。"
+  }
+]

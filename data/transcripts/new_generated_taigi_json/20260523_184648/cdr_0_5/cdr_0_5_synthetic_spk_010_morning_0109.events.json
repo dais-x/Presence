@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_010_morning_0109",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起啊，先去洗面，然後煮飯吃。那個... 要準備一下去菜市仔買菜啦。 [停頓] 想袂起來伊有無講過啥物菜要去買？那個... 有無寫佇紙上咧？ [停頓] 唉，記性愈來愈差。就是啊，先整理一下厝內，攏要帶去市場的東西都放好。然後包包準備好，出門前檢查一下啦。 [嘆氣] 想袂起來有無帶錢包咧？那個... 那個包包咧！齁，要去買菜嘞，不要忘記按呢幾點要轉去囝仔家啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起啊，先去洗面，然後煮飯吃。那個... 要準備一下去菜市仔買菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 657
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊有無講過啥物菜要去買？那個... 有無寫佇紙上咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "唉，記性愈來愈差。就是啊，先整理一下厝內，攏要帶去市場的東西都放好。然後包包準備好，出門前檢查一下啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1333
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來有無帶錢包咧？那個... 那個包包咧！齁，要去買菜嘞，不要忘記按呢幾點要轉去囝仔家啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 5,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1857,
+    "mean_pause_ms": 928.5,
+    "speech_char_count": 165
+  },
+  "speech_rate_target": 0.92
+}

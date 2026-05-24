@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是啥天？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1328
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知今仔日是幾號啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 867
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食的是稀飯咧，還有小菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1307
+  },
+  {
+    "type": "speech",
+    "text": "家裡有啥代誌啦？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢啊，按呢閣無啥變動。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1065
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔我去欲咧，買個東西。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，孫仔來過咧，轉去學校拉。"
+  },
+  {
+    "type": "speech",
+    "text": "囝仔咧，佇哪裡呢，阿母啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我那個，想袂起來啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 493
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個...彼個叫啥，按呢閣無啥特別事體。"
+  }
+]

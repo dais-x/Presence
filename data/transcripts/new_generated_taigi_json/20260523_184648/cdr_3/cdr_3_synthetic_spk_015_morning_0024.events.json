@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_015_morning_0024",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早... 食飯啦？ [長停頓] 菜市仔去未？ [長停頓] 阿母咧？佇家裡啊？ [沉默] 洗面... 噸洗面... [嘆氣] 冷啦... 囝仔，彼個囝仔... 攚袂曉... [咳嗽] 菜市仔欲去... 想著阿母... [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早... 食飯啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1959
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去未？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 5624
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？佇家裡啊？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 5526
+    },
+    {
+      "type": "speech",
+      "text": "洗面... 噸洗面..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 囝仔，彼個囝仔... 攚袂曉..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 856
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔欲去... 想著阿母..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2865
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 8,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 15974,
+    "mean_pause_ms": 3993.5,
+    "speech_char_count": 78
+  },
+  "speech_rate_target": 0.65
+}

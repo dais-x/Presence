@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_clinic_0014",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？按呢是五月十三號啦。早飯我食啥物咧？ [停頓] 我食包穀片啦，還有個那個...茶啊。 [停頓] 家裡最近有啥代誌嗎？阿母她身體還好啦，就是孫仔唸書有點緊張啦。嗯... [嘆氣] 那個伊今早講袂起來啦，說是壓力很大啦。齁，那個按呢就這樣啦，無啥特別的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？按呢是五月十三號啦。早飯我食啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 819
+    },
+    {
+      "type": "speech",
+      "text": "我食包穀片啦，還有個那個...茶啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "家裡最近有啥代誌嗎？阿母她身體還好啦，就是孫仔唸書有點緊張啦。嗯..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1006
+    },
+    {
+      "type": "speech",
+      "text": "那個伊今早講袂起來啦，說是壓力很大啦。齁，那個按呢就這樣啦，無啥特別的啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2019,
+    "mean_pause_ms": 1009.5,
+    "speech_char_count": 115
+  },
+  "speech_rate_target": 0.92
+}

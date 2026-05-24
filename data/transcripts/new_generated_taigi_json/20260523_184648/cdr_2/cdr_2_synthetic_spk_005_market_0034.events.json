@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_005_market_0034",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊，那個攤販賣蔬菜咧，按呢個青江菜好多綠色蔬菜齁 [停頓] ，欲買啥物啦？按呢個青江菜誠好，買來煮湯，那個 [長停頓] ，佇厝內食飯咧。 [沉默] 阿母以前愛吃青江菜咧，早仔晨起頭就去買菜，伊做便當，現在伊閣無啦，哎 [嘆氣] ，按呢個青江菜誠好，欲買好多 [停頓] ，那個青江菜誠好，早就應該來買。 [長停頓] 那個孫仔咧，阿母以前愛吃青江菜咧，現在伊閣無啦。 [咳嗽] 今仔日天氣袂太熱齁，早仔晨起頭就出去囝仔厝內，那個 [長停頓] ，按呢個青江菜誠好，欲買好多，那個青江菜誠好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，那個攤販賣蔬菜咧，按呢個青江菜好多綠色蔬菜齁"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1309
+    },
+    {
+      "type": "speech",
+      "text": "，欲買啥物啦？按呢個青江菜誠好，買來煮湯，那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2342
+    },
+    {
+      "type": "speech",
+      "text": "，佇厝內食飯咧。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2640
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前愛吃青江菜咧，早仔晨起頭就去買菜，伊做便當，現在伊閣無啦，哎"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1370
+    },
+    {
+      "type": "speech",
+      "text": "，按呢個青江菜誠好，欲買好多"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1232
+    },
+    {
+      "type": "speech",
+      "text": "，那個青江菜誠好，早就應該來買。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3864
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧，阿母以前愛吃青江菜咧，現在伊閣無啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 504
+    },
+    {
+      "type": "speech",
+      "text": "今仔日天氣袂太熱齁，早仔晨起頭就出去囝仔厝內，那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3699
+    },
+    {
+      "type": "speech",
+      "text": "，按呢個青江菜誠好，欲買好多，那個青江菜誠好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 17,
+    "speech_event_count": 9,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 15086,
+    "mean_pause_ms": 2514.33,
+    "speech_char_count": 200
+  },
+  "speech_rate_target": 0.75
+}

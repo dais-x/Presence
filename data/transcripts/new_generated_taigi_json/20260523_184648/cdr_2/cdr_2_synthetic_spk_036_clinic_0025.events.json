@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_036_clinic_0025",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號？ [停頓] 知咧。阿母叫伊早飽未食？ [長停頓] 食咧啦。那個菜市仔買米糕，真香齁。 [嘆氣] 以前我佇學校，老師講啥物話？ [沉默] 忘記了啊。 [咳嗽] 我肚子有點疼，頭也昏。今早有無食飯？ [停頓] 食咧啦。孫仔來未？ [長停頓] 咩知咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1428
+    },
+    {
+      "type": "speech",
+      "text": "知咧。阿母叫伊早飽未食？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3032
+    },
+    {
+      "type": "speech",
+      "text": "食咧啦。那個菜市仔買米糕，真香齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "text": "以前我佇學校，老師講啥物話？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3396
+    },
+    {
+      "type": "speech",
+      "text": "忘記了啊。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1190
+    },
+    {
+      "type": "speech",
+      "text": "我肚子有點疼，頭也昏。今早有無食飯？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "text": "食咧啦。孫仔來未？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2117
+    },
+    {
+      "type": "speech",
+      "text": "咩知咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 11429,
+    "mean_pause_ms": 2285.8,
+    "speech_char_count": 85
+  },
+  "speech_rate_target": 0.75
+}

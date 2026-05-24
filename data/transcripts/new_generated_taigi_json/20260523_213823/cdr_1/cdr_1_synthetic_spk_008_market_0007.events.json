@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜，彼個攤販咧賣好多青菜，想袂起來伊叫啥名子。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1416
+  },
+  {
+    "type": "speech",
+    "text": "買了幾包菜啦，那個，還有豆乾，阿母說要做滷味。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1338
+  },
+  {
+    "type": "speech",
+    "text": "然後轉去厝內，按呢閣足好多菜擺咧，啊，那個，準備晚餐。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 918
+  },
+  {
+    "type": "speech",
+    "text": "今仔日天氣袂錯，想去公園蹓躂一下，就是想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1288
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔攤販彼個咧講話，我聽袂懂伊講啥物， 忘記伊叫啥名子了啦。"
+  }
+]

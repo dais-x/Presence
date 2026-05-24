@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_001_morning_0160",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早早就起床囉，洗面咧 [停頓] ，然後食飯啦。碗筷整佇好閣轉去菜市仔買菜囉。買啥物菜咧？那個雞蛋、青菜、魚啦，都要攏買著。準備好就出門啦，拿傘袂會淋雨齁。阿母說早起鳥兒有蟲食啊，所以要早早起來做事情啦。轉去菜市仔跟鄰居聊聊天，心情就會愉快啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起床囉，洗面咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 626
+    },
+    {
+      "type": "speech",
+      "text": "，然後食飯啦。碗筷整佇好閣轉去菜市仔買菜囉。買啥物菜咧？那個雞蛋、青菜、魚啦，都要攏買著。準備好就出門啦，拿傘袂會淋雨齁。阿母說早起鳥兒有蟲食啊，所以要早早起來做事情啦。轉去菜市仔跟鄰居聊聊天，心情就會愉快啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 626,
+    "mean_pause_ms": 626.0,
+    "speech_char_count": 118
+  },
+  "speech_rate_target": 1.0
+}

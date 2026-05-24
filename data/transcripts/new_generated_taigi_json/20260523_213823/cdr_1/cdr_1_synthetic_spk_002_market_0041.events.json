@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我去菜市仔買菜啦，攤販賣著好多新鮮蔬菜咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1394
+  },
+  {
+    "type": "speech",
+    "text": "彼個青江菜啊，彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1452
+  },
+  {
+    "type": "speech",
+    "text": "（）想袂起來了。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1580
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 青江菜咧，買一籃子回去阿母會開心啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個肉粽啊，也買幾包攏足，因為按呢家裡人多嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "轉去囝仔說伊要食啥？"
+  },
+  {
+    "type": "speech",
+    "text": "（）彼個就是... 沒想起來了。"
+  },
+  {
+    "type": "speech",
+    "text": "ㄟ，反正先做伊愛吃的就好啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，要去煮飯咧。"
+  }
+]

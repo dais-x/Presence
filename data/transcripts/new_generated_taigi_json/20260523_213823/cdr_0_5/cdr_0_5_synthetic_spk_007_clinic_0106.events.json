@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 588
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 922
+  },
+  {
+    "type": "speech",
+    "text": "早粥食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "那個... 食米糕齁。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母佇厝內，阿爸去菜市仔嘞。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔按呢咧？"
+  },
+  {
+    "type": "speech",
+    "text": "誠轉去學校了。"
+  },
+  {
+    "type": "speech",
+    "text": "有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "就是這樣啦，毋啥特別事體。"
+  }
+]

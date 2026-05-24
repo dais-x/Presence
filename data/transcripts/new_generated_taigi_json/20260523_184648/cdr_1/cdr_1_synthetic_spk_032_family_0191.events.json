@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_032_family_0191",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日孫仔同囝仔一齊轉來厝內食飯啊，坐佇灶跤邊講話咧。彼個...彼個叫啥 [停頓] ，想袂起來啦。伊講著以前阿母煮菜的事，那個時候大家吃好多東西，齁現在菜市仔買不到咁多種類的菜 [長停頓] 。孫仔聽了就笑，問說孫子閣要學做菜𠲎？ [咳嗽] 啊，對呀，伊應該學咧，免佇外面吃太多外食，身體不好啦。 [嘆氣] 唉，以前伊阿母教伊煮飯的那些日子，現在想起來好像昨天才發生的事一樣，就是恁多回憶啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日孫仔同囝仔一齊轉來厝內食飯啊，坐佇灶跤邊講話咧。彼個...彼個叫啥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1149
+    },
+    {
+      "type": "speech",
+      "text": "，想袂起來啦。伊講著以前阿母煮菜的事，那個時候大家吃好多東西，齁現在菜市仔買不到咁多種類的菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2304
+    },
+    {
+      "type": "speech",
+      "text": "。孫仔聽了就笑，問說孫子閣要學做菜𠲎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 536
+    },
+    {
+      "type": "speech",
+      "text": "啊，對呀，伊應該學咧，免佇外面吃太多外食，身體不好啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1269
+    },
+    {
+      "type": "speech",
+      "text": "唉，以前伊阿母教伊煮飯的那些日子，現在想起來好像昨天才發生的事一樣，就是恁多回憶啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3453,
+    "mean_pause_ms": 1726.5,
+    "speech_char_count": 170
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "菜市仔... 個雞母福咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2895
+  },
+  {
+    "type": "speech",
+    "text": "食飯啦... 囝仔佇哪裹啊... 冷啦... 菜買袂完欲轉去... 阿爸咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1387
+  },
+  {
+    "type": "speech",
+    "text": "沒啥物..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 3504
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 920
+  },
+  {
+    "type": "speech",
+    "text": "毋知伊講啥物..."
+  }
+]

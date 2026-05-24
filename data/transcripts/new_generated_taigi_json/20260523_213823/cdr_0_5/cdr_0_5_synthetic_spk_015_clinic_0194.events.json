@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 720
+  },
+  {
+    "type": "speech",
+    "text": "嗯...想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 652
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我今早食白飯搭鹹膩菜，那個好像叫滷蛋咧。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢阿母健康，孫仔讀書去，閣足攏安好。"
+  },
+  {
+    "type": "speech",
+    "text": "說著早餐，我就想起啦，伊咧菜市仔買菜時，聽到鄰居講啥物，想袂起來啦...齁，問醫生幾號就好啦。"
+  }
+]

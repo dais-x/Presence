@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好熱啊，我少年時陣常去田裡幫阿爸種菜，那個時候菜市仔還袂那麼方便啦"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2089
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1114
+  },
+  {
+    "type": "speech",
+    "text": "，早仔起就要起來煮飯咧，有時會想說毋知伊今仔日來袂來食啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2112
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔現在讀冊都用電腦齁，以前我們都是拿筆寫"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1215
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1056
+  },
+  {
+    "type": "speech",
+    "text": "，那個時候生活簡單好多啦，就是今仔日人愈來愈忙，早仔起搆未醒來頭就開始憂慮事情咧"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1250
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 772
+  },
+  {
+    "type": "speech",
+    "text": "，唉，我阿母以前煮的菜真好吃啊。"
+  }
+]

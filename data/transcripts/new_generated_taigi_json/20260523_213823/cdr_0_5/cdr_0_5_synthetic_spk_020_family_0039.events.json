@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啊，伊帶著孫仔來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 894
+  },
+  {
+    "type": "speech",
+    "text": "那個... 孫仔咧才幾歲啊，阿母說他愈長愈帥啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 803
+  },
+  {
+    "type": "speech",
+    "text": "嚴重是講啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，講佇菜市仔買菜的事情啊。"
+  },
+  {
+    "type": "speech",
+    "text": "還說要轉去市場買些新鮮的菜給孫仔吃。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 711
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來伊咧以前常來我厝內坐著講話，現在嘛... 那個... 啦，大家就攏圍著灶跤食飯啦。"
+  }
+]

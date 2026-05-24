@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_029_family_0188",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_029",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日阿孫咧轉來厝內食飯啊，彼個彼個叫啥？ [停頓] 唉，想袂起來，不過毋關緊要啦。囝仔也攏來啦，大家坐佇灶跤邊講話。彼個彼個...彼個是誰啊？ [停頓] [嘆氣] 阿母閣去菜市仔買菜咧，伊欲早點轉來準備飯桌。按呢就等伊轉來囉。啦啦啦，大家有啥物想講就講一陣子齁。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日阿孫咧轉來厝內食飯啊，彼個彼個叫啥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 892
+    },
+    {
+      "type": "speech",
+      "text": "唉，想袂起來，不過毋關緊要啦。囝仔也攏來啦，大家坐佇灶跤邊講話。彼個彼個...彼個是誰啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1477
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1384
+    },
+    {
+      "type": "speech",
+      "text": "阿母閣去菜市仔買菜咧，伊欲早點轉來準備飯桌。按呢就等伊轉來囉。啦啦啦，大家有啥物想講就講一陣子齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1056
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2369,
+    "mean_pause_ms": 1184.5,
+    "speech_char_count": 115
+  },
+  "speech_rate_target": 0.85
+}

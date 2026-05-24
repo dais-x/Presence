@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_2_market_0002",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "spoken_transcript": "今仔日去菜市仔買菜 欲買啥物咧 [停頓] 噗 阿母講要吃飽 [長停頓] 按呢欲轉去厝內 攤販說菜價袂便宜 啰 囝仔小時佇阿婆家食飯 [長停頓] 伊誠會做菜 無知 菜市場無人 今早有無起來食早餐 [沉默] 阿爸以前騎腳踏車 嗯 我轉去啦 啰 啰 攤販咧講啥物 [長停頓] 要買嘸",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜 欲買啥物咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "噗 阿母講要吃飽"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3500
+    },
+    {
+      "type": "speech",
+      "text": "按呢欲轉去厝內 攤販說菜價袂便宜 啰 囝仔小時佇阿婆家食飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4500
+    },
+    {
+      "type": "speech",
+      "text": "伊誠會做菜 無知 菜市場無人 今早有無起來食早餐"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1800
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前騎腳踏車 嗯 我轉去啦 啰 啰 攤販咧講啥物"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2500
+    },
+    {
+      "type": "speech",
+      "text": "要買嘸"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 1,
+    "semantic_drift_count": 2,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 5,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 13500,
+    "mean_pause_ms": 2700.0,
+    "speech_char_count": 105
+  },
+  "speech_rate_target": 0.75
+}

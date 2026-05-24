@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 703
+  },
+  {
+    "type": "speech",
+    "text": "我欲想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 779
+  },
+  {
+    "type": "speech",
+    "text": "咱厝今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1409
+  },
+  {
+    "type": "speech",
+    "text": "我阿母煮好毋知，我就食佇個飯啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢有啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "伊講說孫仔來看阿公，但我又想袂起是啥時候咧。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 871
+  },
+  {
+    "type": "speech",
+    "text": "嗯，我今早轉去菜市仔買菜，欲講給醫生聽，但話頭就忘啦。"
+  }
+]

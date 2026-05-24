@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_036_clinic_0195",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早睏醒食啥物？ [停頓] 佇菜市仔欲買個雞蛋， [長停頓] 想袂起來伊叫啥，那個...按呢咧閣足啦， [咳嗽] 該是恁按這廂講雞蛋。 [停頓] 阿母問我今早食啥物， [長停頓] 我就答應佇說食飯， [停頓] 不過袂知今仔日幾號，那個... 停一下想想。 [嘆氣] [沉默] 想袂起來，彼個啥啦？ [停頓] 那個按呢咧是早上的事， [長停頓] 現在想袂起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早睏醒食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 952
+    },
+    {
+      "type": "speech",
+      "text": "佇菜市仔欲買個雞蛋，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2148
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥，那個...按呢咧閣足啦，"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1089
+    },
+    {
+      "type": "speech",
+      "text": "該是恁按這廂講雞蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1168
+    },
+    {
+      "type": "speech",
+      "text": "阿母問我今早食啥物，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2315
+    },
+    {
+      "type": "speech",
+      "text": "我就答應佇說食飯，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1017
+    },
+    {
+      "type": "speech",
+      "text": "不過袂知今仔日幾號，那個... 停一下想想。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1144
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1888
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來，彼個啥啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 917
+    },
+    {
+      "type": "speech",
+      "text": "那個按呢咧是早上的事，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1706
+    },
+    {
+      "type": "speech",
+      "text": "現在想袂起來。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 8,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12111,
+    "mean_pause_ms": 1513.88,
+    "speech_char_count": 119
+  },
+  "speech_rate_target": 0.85
+}

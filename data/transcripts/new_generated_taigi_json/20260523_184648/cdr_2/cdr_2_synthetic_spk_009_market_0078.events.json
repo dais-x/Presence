@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_009_market_0078",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個攤販賣著青江菜啊， [停頓] 嚐伊問幾錢一斤咧，伊說五塊， [長停頓] 我就袂敢講太多話了，因為我頭痛欲暈， [沉默] 那個菜好貴齁，以前才三塊咧， [嘆氣] 想起我阿母做早飯，她會煮稀飯，那個味道真好好， [停頓] 今仔日食啥物？ [長停頓] 菜市仔那麼多人，我袂敢去啊，按呢就轉厝內就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個攤販賣著青江菜啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1259
+    },
+    {
+      "type": "speech",
+      "text": "嚐伊問幾錢一斤咧，伊說五塊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3357
+    },
+    {
+      "type": "speech",
+      "text": "我就袂敢講太多話了，因為我頭痛欲暈，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4007
+    },
+    {
+      "type": "speech",
+      "text": "那個菜好貴齁，以前才三塊咧，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1223
+    },
+    {
+      "type": "speech",
+      "text": "想起我阿母做早飯，她會煮稀飯，那個味道真好好，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1228
+    },
+    {
+      "type": "speech",
+      "text": "今仔日食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2766
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔那麼多人，我袂敢去啊，按呢就轉厝內就好。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 12617,
+    "mean_pause_ms": 2523.4,
+    "speech_char_count": 121
+  },
+  "speech_rate_target": 0.75
+}

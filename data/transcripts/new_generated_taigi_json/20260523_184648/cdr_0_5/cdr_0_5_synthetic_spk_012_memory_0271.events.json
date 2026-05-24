@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_012_memory_0271",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_012",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好曬啊，記憶力袂如年輕時陣啦。我讀冊那陣子啊，天天早起去菜市仔買菜，然後回家煮飯。那個時候阿母會叫我去厝後頭幫伊收稻米， [停頓] 農忙時節真的很辛苦咧。後來唸完書，就轉去做工廠囝仔啦。那個...想袂起來我小時候有無學過啥物課啊？齁，現在回想起來呀，好多事情都已經模糊啦。讀冊時代真好啊，跟厝內長輩在一起的時光，咧也是特別珍貴。 [嘆氣] 哎，時間真是快。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬啊，記憶力袂如年輕時陣啦。我讀冊那陣子啊，天天早起去菜市仔買菜，然後回家煮飯。那個時候阿母會叫我去厝後頭幫伊收稻米，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 940
+    },
+    {
+      "type": "speech",
+      "text": "農忙時節真的很辛苦咧。後來唸完書，就轉去做工廠囝仔啦。那個...想袂起來我小時候有無學過啥物課啊？齁，現在回想起來呀，好多事情都已經模糊啦。讀冊時代真好啊，跟厝內長輩在一起的時光，咧也是特別珍貴。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 779
+    },
+    {
+      "type": "speech",
+      "text": "哎，時間真是快。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 940,
+    "mean_pause_ms": 940.0,
+    "speech_char_count": 171
+  },
+  "speech_rate_target": 0.92
+}

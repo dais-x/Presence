@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_015_memory_0054",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日天氣好曬啊，我年輕時陣每早袂想食飯就攏會去菜市仔轉去買伊欲吃的菜。 [停頓] 記得讀冊時陣，阿母常叫我去農忙。學校咧讀課文，放假咧就要幫阿爸種田，真辛苦呀。 [停頓] 那個時候，家裡人多手足就袂足用。我有個兄長誠比佇我大，每次他會攜著我一齊去菜市仔買東西。今仔日的年輕人無知啦，毋知當時生活有多困難。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好曬啊，我年輕時陣每早袂想食飯就攏會去菜市仔轉去買伊欲吃的菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "text": "記得讀冊時陣，阿母常叫我去農忙。學校咧讀課文，放假咧就要幫阿爸種田，真辛苦呀。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "那個時候，家裡人多手足就袂足用。我有個兄長誠比佇我大，每次他會攜著我一齊去菜市仔買東西。今仔日的年輕人無知啦，毋知當時生活有多困難。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 900,
+    "mean_pause_ms": 450.0,
+    "speech_char_count": 141
+  },
+  "speech_rate_target": 1.0
+}

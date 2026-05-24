@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_007_memory_0106",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，我年輕時陣常去菜市仔買菜，那個... 想袂起來有啥物攏叫啥名。按呢阿母會叫我去轉去拿冊仔讀，讀冊真有趣，咧還會講故事，像鄭成功啦、那些歷史人物。 [停頓] 那個時候農忙時期很辛苦，伊們都起大早去做工，做袂完又要做，誠有時午後就跑去阿公厝食飯。 現在回想起來真美好，那個... 少年時陣的事就是好多啦，齁現在想袂起來咧就問我囝仔孫仔啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，我年輕時陣常去菜市仔買菜，那個... 想袂起來有啥物攏叫啥名。按呢阿母會叫我去轉去拿冊仔讀，讀冊真有趣，咧還會講故事，像鄭成功啦、那些歷史人物。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 917
+    },
+    {
+      "type": "speech",
+      "text": "那個時候農忙時期很辛苦，伊們都起大早去做工，做袂完又要做，誠有時午後就跑去阿公厝食飯。 現在回想起來真美好，那個... 少年時陣的事就是好多啦，齁現在想袂起來咧就問我囝仔孫仔啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 917,
+    "mean_pause_ms": 917.0,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.92
+}

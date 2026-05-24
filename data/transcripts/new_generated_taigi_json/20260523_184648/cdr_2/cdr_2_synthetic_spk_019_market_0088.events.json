@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_019_market_0088",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊，那個攤販賣伊的菜咧 [停頓] ，我欲買冬瓜跟青江菜 [長停頓] 。冬瓜啦伊說好重，袂知伊是講啥物。 [嘆氣] 我阿母以前做飯很好吃啊，按呢佇厝內也沒啥人會煮飯。那個今早食的飯咧，齁真簡單就是鹹粥啦，可是好飽。 [沉默] 我孫仔咧，他讀書足誠嗎？(那個)菜市仔的人好多呀，以前伊閣袂像現在這樣。 [停頓] 唉，伊講啥物來著啊，想起來袂知。 [咳嗽] 早點去菜市仔好啦，按呢人多熱。阿爸以前是賣肉粽咧，我咧幫伊包葉子，那時候真快樂 [長停頓] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，那個攤販賣伊的菜咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1235
+    },
+    {
+      "type": "speech",
+      "text": "，我欲買冬瓜跟青江菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3405
+    },
+    {
+      "type": "speech",
+      "text": "。冬瓜啦伊說好重，袂知伊是講啥物。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 889
+    },
+    {
+      "type": "speech",
+      "text": "我阿母以前做飯很好吃啊，按呢佇厝內也沒啥人會煮飯。那個今早食的飯咧，齁真簡單就是鹹粥啦，可是好飽。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2772
+    },
+    {
+      "type": "speech",
+      "text": "我孫仔咧，他讀書足誠嗎？(那個)菜市仔的人好多呀，以前伊閣袂像現在這樣。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1367
+    },
+    {
+      "type": "speech",
+      "text": "唉，伊講啥物來著啊，想起來袂知。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 488
+    },
+    {
+      "type": "speech",
+      "text": "早點去菜市仔好啦，按呢人多熱。阿爸以前是賣肉粽咧，我咧幫伊包葉子，那時候真快樂"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3765
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 12544,
+    "mean_pause_ms": 2508.8,
+    "speech_char_count": 188
+  },
+  "speech_rate_target": 0.75
+}

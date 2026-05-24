@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣好曬啊，我咧菜市仔買東西，看到好多攤販在賣菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1122
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個攤販在賣雞母豆花，真香喲！"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1437
+  },
+  {
+    "type": "speech",
+    "text": "那個隔壁攤販在賣鹹粿啦，伊也好好吃。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 938
+  },
+  {
+    "type": "speech",
+    "text": "那個我買完東西咧轉去，阿母說她欲煮飯食，我看到灶跤有好多碗盤擺著，還有一個鍋子在燒水。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 囝仔咧玩積木，佇地板上疊很高哦！"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧笑哈哈的，看起來好開心。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1051
+  },
+  {
+    "type": "speech",
+    "text": "真是好家庭的一天啊。"
+  }
+]

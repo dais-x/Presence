@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日啥時咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2238
+  },
+  {
+    "type": "speech",
+    "text": "按呢欲早囝仔還未起來吃飯啊。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1612
+  },
+  {
+    "type": "speech",
+    "text": "然後阿母說伊煮粿條給佇我食，但我袂曉知伊有無煮好，"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 952
+  },
+  {
+    "type": "speech",
+    "text": "想著以前伊會煮好多好吃嘸？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1142
+  },
+  {
+    "type": "speech",
+    "text": "齁，今朝阿爸咧咧又去菜市仔買菜，那個啥物料啊，阿爸講按呢天氣涼爽欲多穿衣服。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1265
+  },
+  {
+    "type": "speech",
+    "text": "今早我食花生牛奶，那個有無好營養？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，以前阿母會叫我多吃豆乾，伊說豆乾好吃，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 736
+  },
+  {
+    "type": "speech",
+    "text": "然後那個現在佷少見到豆乾咧， 語氣。"
+  }
+]

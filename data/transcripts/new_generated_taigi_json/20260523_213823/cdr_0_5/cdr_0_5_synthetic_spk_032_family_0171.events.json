@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯啦，阿母袂有想袂起來伊幾時會來齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 952
+  },
+  {
+    "type": "speech",
+    "text": "轉去咧菜市仔買菜，那個... 有啥物佇碗裡嗎？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 555
+  },
+  {
+    "type": "speech",
+    "text": "嗯，應該是放著啦。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧也來了欸，大家都坐佇灶跤邊講話。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢才像個家嘛，團圓就是好啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1253
+  },
+  {
+    "type": "speech",
+    "text": "攏毋知伊啥時會再轉來，想起來袂有好多時間咧。"
+  }
+]

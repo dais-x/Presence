@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣不錯，我早早就起來菜市仔買菜去。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 616
+  },
+  {
+    "type": "speech",
+    "text": "回家後就開始準備煮飯啦，那個...湯跟鹹魚飯咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 631
+  },
+  {
+    "type": "speech",
+    "text": "桌頂有個碗咧，還有幾盤青菜擺著。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧玩積木，攏坐在厝內角落。"
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊在洗衣服，我呢就幫忙切菜。"
+  },
+  {
+    "type": "speech",
+    "text": "啊！"
+  },
+  {
+    "type": "speech",
+    "text": "對了，還差火鍋料未煮，那個...要記得加豆腐跟肉丸子。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 842
+  },
+  {
+    "type": "speech",
+    "text": "話說起來啦，今早買菜時碰到鄰居啦，講著話頭就拐到以前的童玩咧，就是那些木馬跟鐵圈啦。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，對了，火鍋料要準備好，等下就可以開動囉。"
+  }
+]

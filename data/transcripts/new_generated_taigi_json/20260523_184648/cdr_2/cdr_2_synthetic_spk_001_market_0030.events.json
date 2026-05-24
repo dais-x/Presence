@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_001_market_0030",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個賣魚攤販欲袂知伊咧？ [停頓] 阿母以前都會做碗糕給我食啊，好吃咧齁，今早無吃飯咧，阿爸咧？ [長停頓] 唉，伊去年已經過世了嘛。 [嘆氣] 按呢菜青青的咧，欲買啥物好啊？ [咳嗽] 阿母以前袂知幾會煮飯，現在我也無力啦，那個今早食啥物？ [停頓] 今早無吃東西咧，頭好痛。 [長停頓] 攤販咧講伊咧菜青青的咧，按呢要去買啊。 [沉默] 我今仔日欲轉去厝內，孫仔咧等我啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個賣魚攤販欲袂知伊咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1211
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前都會做碗糕給我食啊，好吃咧齁，今早無吃飯咧，阿爸咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2905
+    },
+    {
+      "type": "speech",
+      "text": "唉，伊去年已經過世了嘛。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1263
+    },
+    {
+      "type": "speech",
+      "text": "按呢菜青青的咧，欲買啥物好啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 511
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前袂知幾會煮飯，現在我也無力啦，那個今早食啥物？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1284
+    },
+    {
+      "type": "speech",
+      "text": "今早無吃東西咧，頭好痛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2499
+    },
+    {
+      "type": "speech",
+      "text": "攤販咧講伊咧菜青青的咧，按呢要去買啊。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3613
+    },
+    {
+      "type": "speech",
+      "text": "我今仔日欲轉去厝內，孫仔咧等我啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 15,
+    "speech_event_count": 8,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 11512,
+    "mean_pause_ms": 2302.4,
+    "speech_char_count": 155
+  },
+  "speech_rate_target": 0.75
+}

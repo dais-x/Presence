@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "人咧灶跤煮飯 灶跤佇後面 桌頂有啥物 阿母那個以前啊 很會做菜"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2155
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 743
+  },
+  {
+    "type": "speech",
+    "text": "咱今仔日食緊的"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1552
+  },
+  {
+    "type": "cough",
+    "duration_ms": 735
+  },
+  {
+    "type": "speech",
+    "text": "是啥咧 那個早餐咧 以前的囝仔啊 現在都成大人啦 身體咧 不如年輕時啊 想伊講啥物嘞"
+  }
+]

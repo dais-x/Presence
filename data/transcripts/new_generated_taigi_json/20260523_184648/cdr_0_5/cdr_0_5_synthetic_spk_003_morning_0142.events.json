@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_morning_0142",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早起咧，先去洗面，然後食飯，準備要去菜市仔買菜。那個包包啊， [停頓] 個包包在啥地方？啊，應該是閣佇房內啊，我去搆一下。嗯，食完飯後，就要攏要出門了啦。那個...想袂起來ㄟ，包包有無準備好？要去買菜咧嘛，總要有個包包載東西啦。 [嘆氣] 阿母以前就會說，「去菜市仔前，先檢查一下包包，免得漏東漏西的」。就是這樣，今早也要記得做。嗯...咧，先準備好包包，再去搆個傘，那個天候變換無常嘛，有傘比較穩當啦。 [停頓] 哟，好像還欲搆件上衣，去厝內轉去一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起咧，先去洗面，然後食飯，準備要去菜市仔買菜。那個包包啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "text": "個包包在啥地方？啊，應該是閣佇房內啊，我去搆一下。嗯，食完飯後，就要攏要出門了啦。那個...想袂起來ㄟ，包包有無準備好？要去買菜咧嘛，總要有個包包載東西啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1143
+    },
+    {
+      "type": "speech",
+      "text": "阿母以前就會說，「去菜市仔前，先檢查一下包包，免得漏東漏西的」。就是這樣，今早也要記得做。嗯...咧，先準備好包包，再去搆個傘，那個天候變換無常嘛，有傘比較穩當啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "哟，好像還欲搆件上衣，去厝內轉去一下。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 8,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1950,
+    "mean_pause_ms": 975.0,
+    "speech_char_count": 212
+  },
+  "speech_rate_target": 0.92
+}

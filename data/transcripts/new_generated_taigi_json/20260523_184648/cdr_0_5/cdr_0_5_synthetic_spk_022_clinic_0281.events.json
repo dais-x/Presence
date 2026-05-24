@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_022_clinic_0281",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 想袂起來啦... 嗯，那個星期幾啊？ 醫師問啥物代誌，我毋知咧。 早餐有無食？ [停頓] 我有去菜市仔買餻粿，那個紅豆餻粿齁，甜緊！ 最近家裡有啥代誌没？ [嘆氣] 囝仔娶親了啦，按呢孫仔都大咧。 [咳嗽] 阿母講厝裡那些傢俱要整理一下，但我袂想動手啦。 嗯... 今早有無食飯？ [停頓] 我有攏，誠幾碗稀飯啊，那個鹹菜齁。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 905
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦... 嗯，那個星期幾啊？ 醫師問啥物代誌，我毋知咧。 早餐有無食？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "我有去菜市仔買餻粿，那個紅豆餻粿齁，甜緊！ 最近家裡有啥代誌没？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1363
+    },
+    {
+      "type": "speech",
+      "text": "囝仔娶親了啦，按呢孫仔都大咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 747
+    },
+    {
+      "type": "speech",
+      "text": "阿母講厝裡那些傢俱要整理一下，但我袂想動手啦。 嗯... 今早有無食飯？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 726
+    },
+    {
+      "type": "speech",
+      "text": "我有攏，誠幾碗稀飯啊，那個鹹菜齁。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2831,
+    "mean_pause_ms": 943.67,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.92
+}

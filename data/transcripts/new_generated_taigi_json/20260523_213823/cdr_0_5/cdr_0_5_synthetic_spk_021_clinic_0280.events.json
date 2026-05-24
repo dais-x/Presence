@@ -1,0 +1,34 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 902
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來咧，好像過一週啦... 那個，早餐我食豆漿跟油條囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 803
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，孫仔今早來伊阿母叫伊去菜市仔買東西啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，那個，咧厝裡頭還無啥特別的啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 675
+  }
+]

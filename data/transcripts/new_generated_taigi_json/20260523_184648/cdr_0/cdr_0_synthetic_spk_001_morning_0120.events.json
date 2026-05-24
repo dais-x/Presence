@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_001_morning_0120",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日早起就洗面啦，食飯後就整理一下厝內物件咧。欲去菜市仔買些東西攏準備好齁， [停頓] 包包也攜出嚕。然後檢查一下門窗有無關緊，閣轉去灶跤煮個湯羹當午餐。恁知佇講啥物？就是這樣簡單啦，毋想太多事體咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起就洗面啦，食飯後就整理一下厝內物件咧。欲去菜市仔買些東西攏準備好齁，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 285
+    },
+    {
+      "type": "speech",
+      "text": "包包也攜出嚕。然後檢查一下門窗有無關緊，閣轉去灶跤煮個湯羹當午餐。恁知佇講啥物？就是這樣簡單啦，毋想太多事體咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 285,
+    "mean_pause_ms": 285.0,
+    "speech_char_count": 95
+  },
+  "speech_rate_target": 1.0
+}

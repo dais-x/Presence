@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_009_memory_0268",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我年輕時陣，厝內農忙咧，阿母叫我去菜市仔買米跟醬油，那個... 那時候袂懂錢幾多，按呢買啥物都要算計緊。一暝講起讀冊的時陣，老師會叫我們唸古文，那個... 古人講的話嘛，今仔日聽起來就是很奇怪啦。 [停頓] 想袂起來伊係哪個學校教我嘞，不過閣學到好多字咧。 [嘆氣] 少年時陣真快樂，現在想起來還會笑啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我年輕時陣，厝內農忙咧，阿母叫我去菜市仔買米跟醬油，那個... 那時候袂懂錢幾多，按呢買啥物都要算計緊。一暝講起讀冊的時陣，老師會叫我們唸古文，那個... 古人講的話嘛，今仔日聽起來就是很奇怪啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 716
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊係哪個學校教我嘞，不過閣學到好多字咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1385
+    },
+    {
+      "type": "speech",
+      "text": "少年時陣真快樂，現在想起來還會笑啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 716,
+    "mean_pause_ms": 716.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.92
+}

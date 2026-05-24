@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天早袂無鳥叫啊，我睏到晚。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1691
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會起來煮豆漿咧，但我毋知怎樣做。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1932
+  },
+  {
+    "type": "speech",
+    "text": "我欲洗面啦，那個水好乾淨，阿爸以前買水咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1166
+  },
+  {
+    "type": "cough",
+    "duration_ms": 695
+  },
+  {
+    "type": "speech",
+    "text": "然後我要食飯囝仔講要吃花生米啊，我袂想吃，但佇菜市仔有賣啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1822
+  },
+  {
+    "type": "speech",
+    "text": "以前學校隔壁有間小厝，伊誠好看，閣足樹。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2465
+  },
+  {
+    "type": "speech",
+    "text": "我欲去買菜咧，但腳好酸。"
+  },
+  {
+    "type": "speech",
+    "text": "那個孫仔有無食完早餐啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 475
+  },
+  {
+    "type": "speech",
+    "text": "可惜伊袂來看我啦。"
+  }
+]

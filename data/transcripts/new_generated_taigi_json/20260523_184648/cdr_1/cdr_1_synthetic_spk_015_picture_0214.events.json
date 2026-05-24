@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_015_picture_0214",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣真好啊，我去看菜市仔，彼個...彼個攤販賣鹹鴨蛋，想袂起來他叫啥名咧。隔壁那個是賣水果的，彼個阿婆頭上戴個斗笠，攏在擺攤。 [停頓] 看到佇那邊買菜的人絡繹不絕，伊欲去買冬粉啦，但我閣未決定要袂要去買。 [長停頓] 那個囝仔在玩石頭，彼個石頭咧好多顏色。 [咳嗽] 嗯，我今早有去厝後面轉轉，看到阿母煮飯咧。就是想起來伊以前常來菜市仔，現在嘛， [嘆氣] 想袂起來伊叫啥名字啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣真好啊，我去看菜市仔，彼個...彼個攤販賣鹹鴨蛋，想袂起來他叫啥名咧。隔壁那個是賣水果的，彼個阿婆頭上戴個斗笠，攏在擺攤。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 829
+    },
+    {
+      "type": "speech",
+      "text": "看到佇那邊買菜的人絡繹不絕，伊欲去買冬粉啦，但我閣未決定要袂要去買。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2351
+    },
+    {
+      "type": "speech",
+      "text": "那個囝仔在玩石頭，彼個石頭咧好多顏色。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 822
+    },
+    {
+      "type": "speech",
+      "text": "嗯，我今早有去厝後面轉轉，看到阿母煮飯咧。就是想起來伊以前常來菜市仔，現在嘛，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1026
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊叫啥名字啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 3180,
+    "mean_pause_ms": 1590.0,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.85
+}

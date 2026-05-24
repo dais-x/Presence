@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_020_morning_0219",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起咧，先洗個面， [停頓] 然後就食飯囉。飯後我就整理一下厝內的物件，準備要出門去菜市仔買菜。 [嘆氣] 阿母喊我說要去買啥物？我就講袂有啥欲買啦，不過閣會去轉個轉。按呢佇厝內整理一陣子咧，孫仔就來報到，講伊要阿公陪伊去公園玩。那個，今早時間還多著啦，我就答應伊了。 [咳嗽] 唉，真想年輕時候的樣子啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起咧，先洗個面，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 551
+    },
+    {
+      "type": "speech",
+      "text": "然後就食飯囉。飯後我就整理一下厝內的物件，準備要出門去菜市仔買菜。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1336
+    },
+    {
+      "type": "speech",
+      "text": "阿母喊我說要去買啥物？我就講袂有啥欲買啦，不過閣會去轉個轉。按呢佇厝內整理一陣子咧，孫仔就來報到，講伊要阿公陪伊去公園玩。那個，今早時間還多著啦，我就答應伊了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1159
+    },
+    {
+      "type": "speech",
+      "text": "唉，真想年輕時候的樣子啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 1,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 551,
+    "mean_pause_ms": 551.0,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 1.0
+}

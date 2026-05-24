@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔同孫仔轉來厝內食飯，大家坐佇灶跤邊講話咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 936
+  },
+  {
+    "type": "speech",
+    "text": "那個...伊阿母講，最近天氣變好多。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 524
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧問伊，學校有學啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啊，好像有學英文跟數學啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 850
+  },
+  {
+    "type": "speech",
+    "text": "噗～～齁，話說回來，今早我欲去菜市仔買菜，那個...那個攤子的菜比較新鮮，我就買咧啦。"
+  },
+  {
+    "type": "speech",
+    "text": "沒啥啦，就是講講而已啦。"
+  }
+]

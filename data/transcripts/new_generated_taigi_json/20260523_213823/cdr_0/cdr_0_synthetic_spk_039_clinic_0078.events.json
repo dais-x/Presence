@@ -1,0 +1,26 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 236
+  },
+  {
+    "type": "speech",
+    "text": "今仔日是十月十號啦。"
+  },
+  {
+    "type": "speech",
+    "text": "早餐袂吃啥物，我食稀飯咧，加個蛋，還有豆腐乾。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡頭嘛，無啥代誌啦，孫仔去學校去咧，阿爸誠在厝內休息。"
+  },
+  {
+    "type": "speech",
+    "text": "有啥事咧？"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啦，彼個攤販叫啥名字咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 708
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1027
+  },
+  {
+    "type": "speech",
+    "text": "彼個賣水果的那個，按呢咧，有無柑橘咧齁，欲買兩斤。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1501
+  },
+  {
+    "type": "speech",
+    "text": "然後轉去厝內啦，孫仔食飯未啊？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 638
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧，閣在灶跤煮飯啦，菜色足誠飽滿。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阿爸咧，按呢咧，今早有無去運動啊？"
+  },
+  {
+    "type": "speech",
+    "text": "那個就是啦，想袂起來。"
+  }
+]

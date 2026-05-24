@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔攏轉來厝內食飯，孫仔咧歡喜個樣，那個...阿母煮啥物吃呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 888
+  },
+  {
+    "type": "speech",
+    "text": "噗，想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 829
+  },
+  {
+    "type": "speech",
+    "text": "就是伊欲吃啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "齁，孫仔誠愛吃菜市仔買咧魚乾。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，大家坐佇灶跤邊講話，那個...好像有啥物事漏掉啦，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1145
+  },
+  {
+    "type": "speech",
+    "text": "沒啥物關係，反正囝仔轉來就好歡喜。"
+  }
+]

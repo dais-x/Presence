@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_040_picture_0079",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日天氣不錯，我一早去菜市仔買菜，看到很多人咧。按呢張圖內，那位阿母攜個籃子欲買菜去，伊誠是個善良人啊。隔壁那家囝仔在擺攤賣水果，他咧個香蕉足夠熟齁，應該會賣得不錯啦。 [停頓] 我買完菜就回家煮飯，午餐有吃素雞還有青江菜，阿爸食了也講說好吃。傍晚時分，孫仔轉去阿公厝玩，我就跟伊講故事咧。今仔日過得好安逸啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯，我一早去菜市仔買菜，看到很多人咧。按呢張圖內，那位阿母攜個籃子欲買菜去，伊誠是個善良人啊。隔壁那家囝仔在擺攤賣水果，他咧個香蕉足夠熟齁，應該會賣得不錯啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 265
+    },
+    {
+      "type": "speech",
+      "text": "我買完菜就回家煮飯，午餐有吃素雞還有青江菜，阿爸食了也講說好吃。傍晚時分，孫仔轉去阿公厝玩，我就跟伊講故事咧。今仔日過得好安逸啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 265,
+    "mean_pause_ms": 265.0,
+    "speech_char_count": 150
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_036_market_0175",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_036",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，那個攤販咧講話真有趣，賣啥物的我忘袂起來，不過那個按呢欲講的毋是那個攤販，就是隔壁那個水果攤，伊賣的芒果真甜齁。那個 [停頓] ，講到水果想起來，阿母今仔日要吃什麼果子咧？那個 [停頓] ，對了啦，她要去菜市仔買菜嘛，我去幫伊帶一籃回來，轉去厝內咧，孫仔等著食飯咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，那個攤販咧講話真有趣，賣啥物的我忘袂起來，不過那個按呢欲講的毋是那個攤販，就是隔壁那個水果攤，伊賣的芒果真甜齁。那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 877
+    },
+    {
+      "type": "speech",
+      "text": "，講到水果想起來，阿母今仔日要吃什麼果子咧？那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "，對了啦，她要去菜市仔買菜嘛，我去幫伊帶一籃回來，轉去厝內咧，孫仔等著食飯咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 0,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2077,
+    "mean_pause_ms": 1038.5,
+    "speech_char_count": 132
+  },
+  "speech_rate_target": 0.92
+}

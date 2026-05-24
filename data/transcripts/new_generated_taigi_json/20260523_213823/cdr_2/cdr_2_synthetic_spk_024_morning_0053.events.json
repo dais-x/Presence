@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "早仔起來洗面啊， 然後食飯啦，欲著去菜市仔買物資咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2235
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前袂好做家務，那個伊閣欲著我幫伊整理物件咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1375
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1387
+  },
+  {
+    "type": "speech",
+    "text": "我今仔日欲轉去老家，阿爸誠啊， 以前佷歡喜食阿媽煮的飯，現在佷少啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1995
+  },
+  {
+    "type": "cough",
+    "duration_ms": 491
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔菜真多，買啥物好呢？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2075
+  },
+  {
+    "type": "speech",
+    "text": "阿爸誠袂曉得咧。"
+  }
+]

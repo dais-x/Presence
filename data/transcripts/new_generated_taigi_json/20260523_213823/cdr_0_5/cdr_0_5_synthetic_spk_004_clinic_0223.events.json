@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 923
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 873
+  },
+  {
+    "type": "speech",
+    "text": "今早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "阿母煮粿條同雞蛋湯。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢在家裡，孫仔欲來玩，可是伊去學校啦。"
+  },
+  {
+    "type": "speech",
+    "text": "噗"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1273
+  },
+  {
+    "type": "speech",
+    "text": "，最近厝裡有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 那個那個，姪女結婚咧！"
+  },
+  {
+    "type": "speech",
+    "text": "齁，就是這樣啦。"
+  }
+]

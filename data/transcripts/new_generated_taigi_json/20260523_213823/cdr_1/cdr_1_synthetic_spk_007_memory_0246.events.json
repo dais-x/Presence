@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日無啥事體，想著以前讀冊時陣的事。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1180
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個阿母咧教我識字，阿爸閣去菜市仔買米糧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 806
+  },
+  {
+    "type": "speech",
+    "text": "當時農忙，佇田裡攏要幫伊幹活，那個時候食飯都很簡單，就是炒青菜跟煮湯麺啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 961
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來彼個鄰居叫啥物名囝仔咧，按呢長大啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 727
+  },
+  {
+    "type": "speech",
+    "text": "啊，時光飛逝，今仔日變老囉。"
+  }
+]

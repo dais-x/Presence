@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_market_0134",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，那個攤販咧講話袂認真聽我講，想袂起來他賣啥物東西齁。然後我就問佇伊，「那個雞蛋咧？」「哦，啊在那裡， [停頓] 那個就買了一點飼料跟菜啦。轉去厝內，阿母說要我再買一包鹽，嗯... 想袂起來怎麼個會漏掉，齁，下次要去注意一下啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，那個攤販咧講話袂認真聽我講，想袂起來他賣啥物東西齁。然後我就問佇伊，「那個雞蛋咧？」「哦，啊在那裡，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個就買了一點飼料跟菜啦。轉去厝內，阿母說要我再買一包鹽，嗯... 想袂起來怎麼個會漏掉，齁，下次要去注意一下啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1200,
+    "mean_pause_ms": 1200.0,
+    "speech_char_count": 119
+  },
+  "speech_rate_target": 0.92
+}

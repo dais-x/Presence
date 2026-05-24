@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 707
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 686
+  },
+  {
+    "type": "speech",
+    "text": "那個醫師啊，我食啥東西咧？"
+  },
+  {
+    "type": "speech",
+    "text": "早餐嘛... 食個鹹麵線啦齁。"
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔去無啊？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢閣未去啦，伊說要去咧，但攏未去。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧，足乖囝仔，誠是可愛啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 913
+  },
+  {
+    "type": "speech",
+    "text": "阿母咧，那個阿母啊，毋知在厝內閣嘞。"
+  },
+  {
+    "type": "speech",
+    "text": "那個啥代誌... 台語講袂起來啦。"
+  }
+]

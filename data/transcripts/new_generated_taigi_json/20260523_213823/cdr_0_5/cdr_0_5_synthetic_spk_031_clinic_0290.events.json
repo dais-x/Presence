@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 810
+  },
+  {
+    "type": "speech",
+    "text": "我那個想袂起來，醫生先生。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 674
+  },
+  {
+    "type": "speech",
+    "text": "早餐食啥物啊？"
+  },
+  {
+    "type": "speech",
+    "text": "我今早食豆漿跟油條啦，齁佇菜市仔買的。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢有啥代誌嘛？"
+  },
+  {
+    "type": "speech",
+    "text": "那個...阿母講孫仔轉去探望伊啦， 伊咧厝等著咧。"
+  },
+  {
+    "type": "speech",
+    "text": "ㄟ真好聽說，齁孫仔誠孝順。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1221
+  },
+  {
+    "type": "speech",
+    "text": "那個想袂起來，醫生先生。"
+  }
+]

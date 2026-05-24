@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_025_clinic_0024",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？ [停頓] 我毋知... 想袂起來啦。 [長停頓] 咱食早餐𠤚咧？ [停頓] 今早我有無食，想袂起來齁。 [嘆氣] 阿母欲問伊今早食啥物，但我聽袂清啦。那個... 我厝頭最近攏好安靜，毋是吵熱鬧熱。 [長停頓] 可是我又想起啥代誌？彼個彼個叫啥？ [咳嗽] 想袂起來。 [沉默] 那個菜市仔咧有無去？ [停頓] 去啦，但佇邊買啥物我忘啦。 [長停頓] 毋是今早咧有無食飯？那個... 我想袂起來啊。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1198
+    },
+    {
+      "type": "speech",
+      "text": "我毋知... 想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1982
+    },
+    {
+      "type": "speech",
+      "text": "咱食早餐𠤚咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1057
+    },
+    {
+      "type": "speech",
+      "text": "今早我有無食，想袂起來齁。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1140
+    },
+    {
+      "type": "speech",
+      "text": "阿母欲問伊今早食啥物，但我聽袂清啦。那個... 我厝頭最近攏好安靜，毋是吵熱鬧熱。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2057
+    },
+    {
+      "type": "speech",
+      "text": "可是我又想起啥代誌？彼個彼個叫啥？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 565
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2336
+    },
+    {
+      "type": "speech",
+      "text": "那個菜市仔咧有無去？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 902
+    },
+    {
+      "type": "speech",
+      "text": "去啦，但佇邊買啥物我忘啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2438
+    },
+    {
+      "type": "speech",
+      "text": "毋是今早咧有無食飯？那個... 我想袂起來啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 741
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 11,
+    "repetition_count": 4,
+    "repair_count": 2,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 11970,
+    "mean_pause_ms": 1710.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.85
+}

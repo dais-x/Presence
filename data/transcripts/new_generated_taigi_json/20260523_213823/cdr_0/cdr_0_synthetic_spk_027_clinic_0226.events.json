@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日是幾月幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 227
+  },
+  {
+    "type": "speech",
+    "text": "我嘛記無了。"
+  },
+  {
+    "type": "speech",
+    "text": "早晡食我吃飽飽啦，食碗稀飯同鹹菜咧。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢在家裡嘛有一點啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "就是說，阿母閣佇家裡，伊有準備午餐著咧。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔今朝袂來，伊去學校齁。"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_clinic_0262",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我那個想袂起來啦。 [停頓] 今早食啥物啊？我有無攏早餐咧，我有吃粿條同豆漿。按呢閣啥代誌齁，阿母佇厝裡無好啦，她好像有點感冒欲，我叫伊多休息一下。那個，醫生先生，我今仔日轉去時要買些菜去菜市仔啊，青菜跟肉咧都要買。 [停頓] 那個啥物... 菜名我都想袂起來啦。 [嘆氣] 你講啥物？齁，那個就是有嘛代誌啦，我阿爸今早有煮湯給伊喝，說是有益身體。呣是嘛樣咧，醫生先生，我就講伊些事啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我那個想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 720
+    },
+    {
+      "type": "speech",
+      "text": "今早食啥物啊？我有無攏早餐咧，我有吃粿條同豆漿。按呢閣啥代誌齁，阿母佇厝裡無好啦，她好像有點感冒欲，我叫伊多休息一下。那個，醫生先生，我今仔日轉去時要買些菜去菜市仔啊，青菜跟肉咧都要買。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個啥物... 菜名我都想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 953
+    },
+    {
+      "type": "speech",
+      "text": "你講啥物？齁，那個就是有嘛代誌啦，我阿爸今早有煮湯給伊喝，說是有益身體。呣是嘛樣咧，醫生先生，我就講伊些事啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1920,
+    "mean_pause_ms": 960.0,
+    "speech_char_count": 182
+  },
+  "speech_rate_target": 0.92
+}

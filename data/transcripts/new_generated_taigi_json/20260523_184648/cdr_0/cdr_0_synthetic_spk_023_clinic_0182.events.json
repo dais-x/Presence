@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_023_clinic_0182",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我早飯食番兩顆蛋啦，還有個小籠包齁。按呢厝裡無啥代誌，伊都好好的咧。 [停頓] 阿母佇菜市仔買菜去咧，應該快轉來囉。孫仔今朝學校有活動，早早就出門了。呣知你問啥啦？就是這樣子啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我早飯食番兩顆蛋啦，還有個小籠包齁。按呢厝裡無啥代誌，伊都好好的咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 257
+    },
+    {
+      "type": "speech",
+      "text": "阿母佇菜市仔買菜去咧，應該快轉來囉。孫仔今朝學校有活動，早早就出門了。呣知你問啥啦？就是這樣子啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 257,
+    "mean_pause_ms": 257.0,
+    "speech_char_count": 90
+  },
+  "speech_rate_target": 1.0
+}

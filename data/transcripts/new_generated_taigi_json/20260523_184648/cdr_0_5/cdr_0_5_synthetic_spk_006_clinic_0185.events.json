@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_006_clinic_0185",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_006",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？我記袂起來了啦。今早食啥物咧？ [停頓] 食個水煎包那個，還有豆漿啦。我孫仔按呢放假中齁，伊佇家裡玩啦。那個最近阿母身體咋樣？ [停頓] 嗯... 想袂起來了啦。 [嘆氣] 有無去菜市仔買菜啊？嗯，有去啦。那個說啥物來著？醫師問啥代誌咧？哦，今早那啥嘛。早餐吃完後，我轉去厝裡啦。 [咳嗽] 那個咋樣咧？就是這樣子啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？我記袂起來了啦。今早食啥物咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 638
+    },
+    {
+      "type": "speech",
+      "text": "食個水煎包那個，還有豆漿啦。我孫仔按呢放假中齁，伊佇家裡玩啦。那個最近阿母身體咋樣？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "嗯... 想袂起來了啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1064
+    },
+    {
+      "type": "speech",
+      "text": "有無去菜市仔買菜啊？嗯，有去啦。那個說啥物來著？醫師問啥代誌咧？哦，今早那啥嘛。早餐吃完後，我轉去厝裡啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 779
+    },
+    {
+      "type": "speech",
+      "text": "那個咋樣咧？就是這樣子啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 1838,
+    "mean_pause_ms": 919.0,
+    "speech_char_count": 142
+  },
+  "speech_rate_target": 0.92
+}

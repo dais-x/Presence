@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_010_clinic_0269",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_010",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日是啥日咧？ [停頓] 想袂起來ㄟ... 那個醫生先生，按呢是幾號啦？ [停頓] 曉得ㄟ... 早餐我食的是稀飯跟菜，那個菜嘛就是青菜啦。 [停頓] 按呢天氣好，孫仔來拜訪咧，伊說要煮些啥物給阿母吃。 按呢啊，家裡没啥代誌齁... 嗯，那個有時咧伊要去菜市仔買菜，那個菜市仔人好多。 [嘆氣] 按呢就是這樣啦。 [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是啥日咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 640
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來ㄟ... 那個醫生先生，按呢是幾號啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "曉得ㄟ... 早餐我食的是稀飯跟菜，那個菜嘛就是青菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "text": "按呢天氣好，孫仔來拜訪咧，伊說要煮些啥物給阿母吃。 按呢啊，家裡没啥代誌齁... 嗯，那個有時咧伊要去菜市仔買菜，那個菜市仔人好多。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 935
+    },
+    {
+      "type": "speech",
+      "text": "按呢就是這樣啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 522
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2636,
+    "mean_pause_ms": 878.67,
+    "speech_char_count": 133
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_027_market_0026",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啦，伊攤販阿伯咧跟我講話齁，伊問我幾時有空來吃飯啊。 [停頓] 一陣子袂有啥物特別事情，就轉去厝內囉。厝裡按呢還好，孫仔今早食飯後出門去學校了。菜買啦好多，晚晡可以煮個湯咧。最近天氣變冷，記得著厚衫啊。那個...攤販阿伯有講說要送我個籃子，下次去時拿就好咧。 [停頓] 真是好心ㄟ。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啦，伊攤販阿伯咧跟我講話齁，伊問我幾時有空來吃飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 543
+    },
+    {
+      "type": "speech",
+      "text": "一陣子袂有啥物特別事情，就轉去厝內囉。厝裡按呢還好，孫仔今早食飯後出門去學校了。菜買啦好多，晚晡可以煮個湯咧。最近天氣變冷，記得著厚衫啊。那個...攤販阿伯有講說要送我個籃子，下次去時拿就好咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 336
+    },
+    {
+      "type": "speech",
+      "text": "真是好心ㄟ。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 879,
+    "mean_pause_ms": 439.5,
+    "speech_char_count": 138
+  },
+  "speech_rate_target": 1.0
+}

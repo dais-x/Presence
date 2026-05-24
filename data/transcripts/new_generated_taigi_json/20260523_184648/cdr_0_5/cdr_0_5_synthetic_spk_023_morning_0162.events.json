@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_023_morning_0162",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_023",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早早就起囝，先去洗面咧， [停頓] 然後煮飯食啦。那個碗筷啊，收拾乾淨一下，準備要去菜市仔買菜咧。但是說袂起來，想說先整理一下厝內物件，有啥物足毋知咧。嗯，就這樣啦，準備轉去菜市仔。 [停頓] 那個包包咧，要檢查一下有無攏帶好。啊，今天天氣還不錯，出門比較舒坦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早早就起囝，先去洗面咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 735
+    },
+    {
+      "type": "speech",
+      "text": "然後煮飯食啦。那個碗筷啊，收拾乾淨一下，準備要去菜市仔買菜咧。但是說袂起來，想說先整理一下厝內物件，有啥物足毋知咧。嗯，就這樣啦，準備轉去菜市仔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個包包咧，要檢查一下有無攏帶好。啊，今天天氣還不錯，出門比較舒坦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1935,
+    "mean_pause_ms": 967.5,
+    "speech_char_count": 122
+  },
+  "speech_rate_target": 0.92
+}

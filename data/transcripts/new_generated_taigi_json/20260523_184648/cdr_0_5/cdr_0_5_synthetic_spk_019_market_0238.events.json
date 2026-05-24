@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_019_market_0238",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日去菜市仔買菜啊，欲買啥物？那個...青江菜咧，還有啦，蒜頭咧，還有就是那個豆芽菜啦。 [停頓] 嗯，去到攤販那裡講話啦，攤販問我，「最近有無好？」我就說「還好啦」，然後就買了一袋青江菜，一包蒜頭，轉去厝內咧。 [停頓] 其實想袂起來買啥物，那個...阿母叫我去買的啦，所以嘛，就會跟著她講的話去做啊。轉去厝內以後，阿母咧說我應該要買啥物，那個...我就跟她講已經買來咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日去菜市仔買菜啊，欲買啥物？那個...青江菜咧，還有啦，蒜頭咧，還有就是那個豆芽菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 933
+    },
+    {
+      "type": "speech",
+      "text": "嗯，去到攤販那裡講話啦，攤販問我，「最近有無好？」我就說「還好啦」，然後就買了一袋青江菜，一包蒜頭，轉去厝內咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "其實想袂起來買啥物，那個...阿母叫我去買的啦，所以嘛，就會跟著她講的話去做啊。轉去厝內以後，阿母咧說我應該要買啥物，那個...我就跟她講已經買來咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2133,
+    "mean_pause_ms": 1066.5,
+    "speech_char_count": 176
+  },
+  "speech_rate_target": 0.92
+}

@@ -1,0 +1,86 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_007_morning_0016",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早... 洗面... 食飯啦... [長停頓] 阿母咧？ [長停頓] 冷啦... 攬欲出門... 囝仔伊咧？ [沉默] 菜市仔去無？ [嘆氣] 噁... 啰... 擺厝... [咳嗽]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早... 洗面... 食飯啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1725
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3385
+    },
+    {
+      "type": "speech",
+      "text": "冷啦... 攬欲出門... 囝仔伊咧？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2510
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔去無？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 649
+    },
+    {
+      "type": "speech",
+      "text": "噁... 啰... 擺厝..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 795
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 8,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 10,
+    "speech_event_count": 5,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 7620,
+    "mean_pause_ms": 2540.0,
+    "speech_char_count": 64
+  },
+  "speech_rate_target": 0.65
+}

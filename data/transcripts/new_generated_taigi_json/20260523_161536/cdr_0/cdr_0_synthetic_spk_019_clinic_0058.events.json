@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_019_clinic_0058",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日是星期幾啊？ [停頓] 我今早食了個稀飯配豆腐乳。按呢伊還欲去菜市仔買菜，結果在路上遇著個老朋友就講話講了好一陣子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日是星期幾啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "text": "我今早食了個稀飯配豆腐乳。按呢伊還欲去菜市仔買菜，結果在路上遇著個老朋友就講話講了好一陣子。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 500,
+    "mean_pause_ms": 500.0,
+    "speech_char_count": 55
+  },
+  "speech_rate_target": 1.0
+}

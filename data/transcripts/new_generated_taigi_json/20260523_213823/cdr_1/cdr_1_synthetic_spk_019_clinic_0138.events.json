@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 782
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，那個彼個...彼個叫啥，是幾號啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1078
+  },
+  {
+    "type": "speech",
+    "text": "咱早上食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1259
+  },
+  {
+    "type": "speech",
+    "text": "就是我有去菜市仔買菜，不過想袂起來買啥。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1375
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢好嘛？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1001
+  },
+  {
+    "type": "speech",
+    "text": "阿母伊還是在厝內，孫仔伊來訪，咧足歡喜。"
+  },
+  {
+    "type": "speech",
+    "text": "(那個)誠閣有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "就是好像無啥，齁，(嗯) 今早我食飯時袂知為啥想袂起來講啥物， 嗯...欲去轉去，不過無去。"
+  }
+]

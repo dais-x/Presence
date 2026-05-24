@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_005_memory_0224",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_005",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天气好啊，我年輕時陣常去菜市仔買菜，那個...農忙時候就袂敢放假囉。阿爸會叫我們幫著割稻，按呢個辛苦啦！讀冊的時候比較簡單，就是每天要去学校，跟伊那些同学一起玩。想袂起來以前那個老师的名字啦，齁，教我们的国语老师咧，常常要我们背书的。 [停頓] 現在回想起來，時間真的很快哦，那個小時咋樣都還記得，但是有些事情就欲想袂起了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天气好啊，我年輕時陣常去菜市仔買菜，那個...農忙時候就袂敢放假囉。阿爸會叫我們幫著割稻，按呢個辛苦啦！讀冊的時候比較簡單，就是每天要去学校，跟伊那些同学一起玩。想袂起來以前那個老师的名字啦，齁，教我们的国语老师咧，常常要我们背书的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 847
+    },
+    {
+      "type": "speech",
+      "text": "現在回想起來，時間真的很快哦，那個小時咋樣都還記得，但是有些事情就欲想袂起了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 847,
+    "mean_pause_ms": 847.0,
+    "speech_char_count": 159
+  },
+  "speech_rate_target": 0.92
+}

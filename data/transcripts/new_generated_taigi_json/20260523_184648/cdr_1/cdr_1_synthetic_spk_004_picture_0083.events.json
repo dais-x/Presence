@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_004_picture_0083",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看個圖，咧有個阿母攏菜市仔買東西。彼個...彼個叫啥，想袂起來囉。 [停頓] 伊拎著籃子，攏欲買菜去煮飯啊。 [長停頓] 彼個...彼個孫仔咧跟著阿母，按呢個乖巧ㄟ。 [嘆氣] 孫仔欲幫忙，攏拿個東西。就是那個，想袂起來啦。 [咳嗽] 伊咧有個囝仔，應該是去工作嗚。今仔日天氣好，適合出去菜市仔買東西啊。 [停頓] 那個孫仔咧愛跟阿母去，攏學著做家務事啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看個圖，咧有個阿母攏菜市仔買東西。彼個...彼個叫啥，想袂起來囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1039
+    },
+    {
+      "type": "speech",
+      "text": "伊拎著籃子，攏欲買菜去煮飯啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2329
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個孫仔咧跟著阿母，按呢個乖巧ㄟ。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 732
+    },
+    {
+      "type": "speech",
+      "text": "孫仔欲幫忙，攏拿個東西。就是那個，想袂起來啦。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1026
+    },
+    {
+      "type": "speech",
+      "text": "伊咧有個囝仔，應該是去工作嗚。今仔日天氣好，適合出去菜市仔買東西啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 844
+    },
+    {
+      "type": "speech",
+      "text": "那個孫仔咧愛跟阿母去，攏學著做家務事啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 9,
+    "repetition_count": 2,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 3,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4212,
+    "mean_pause_ms": 1404.0,
+    "speech_char_count": 150
+  },
+  "speech_rate_target": 0.85
+}

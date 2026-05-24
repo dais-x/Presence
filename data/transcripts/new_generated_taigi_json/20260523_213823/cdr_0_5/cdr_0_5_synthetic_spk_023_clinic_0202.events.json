@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 862
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，那個就是醫生，你毋知個日期齁。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 728
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢早我食了碗稀飯啦，還有一個雞蛋。"
+  },
+  {
+    "type": "speech",
+    "text": "那個家裡最近有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢嘛...孫仔來厝裡玩一下午咧，伊誠可愛的。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，那個其他嘛就這樣齁。"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂晚啊，先去洗面，然後準備食飯囝。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1020
+  },
+  {
+    "type": "speech",
+    "text": "欲食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1042
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1230
+  },
+  {
+    "type": "speech",
+    "text": "然後整理一下厝內物件，準備出門去菜市仔買菜。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥嘞？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1260
+  },
+  {
+    "type": "speech",
+    "text": "阿母常去那個地方。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，阿母有時候會帶我去，但今仔日我欲自個兒去一下。"
+  },
+  {
+    "type": "speech",
+    "text": "攏要去啊，閣要去啦。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 775
+  },
+  {
+    "type": "speech",
+    "text": "唉，時間袂夠咧，要快點轉去囝。"
+  }
+]

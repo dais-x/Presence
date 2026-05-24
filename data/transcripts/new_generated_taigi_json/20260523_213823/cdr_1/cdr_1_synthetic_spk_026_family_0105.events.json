@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來食飯啊，還攏帶袂孫仔咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1055
+  },
+  {
+    "type": "speech",
+    "text": "阿母好興奮啦，一早就去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1541
+  },
+  {
+    "type": "speech",
+    "text": "然後伊就煮好多菜，想說大家會講講話。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 967
+  },
+  {
+    "type": "speech",
+    "text": "我呢，坐佇灶跤邊等著咧。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥？"
+  },
+  {
+    "type": "speech",
+    "text": "就是孫仔啊，伊來咧，我就跟伊講話啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 680
+  },
+  {
+    "type": "speech",
+    "text": "有時候想袂起來講啥，就一直講食飯的事情啦。"
+  },
+  {
+    "type": "speech",
+    "text": "齁，大家坐佇一起，真的很開心。"
+  }
+]

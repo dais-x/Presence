@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_019_clinic_0018",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_019",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 想袂起來啦... [長停頓] 按呢閣吃啥物早餐咧？我今早食飯欲用花生醬，但是彼個... 彼個叫啥，就是放醬料嗚那個咧，我找袂著。 [嘆氣] 有佇厝裡啊，誠是袂知咧。 伊去菜市仔啦？ [長停頓] 沒去，閣佇家裡。孫仔來看囝仔，他倆在房間玩遊戲。 [咳嗽] 啥物代誌？按呢就是伊的生日咧，但是彼個... 彼個禮物啊，我毋知袂想起來啦。 [停頓] 嗯，應該是買書啦，就是那個... 想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 819
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1889
+    },
+    {
+      "type": "speech",
+      "text": "按呢閣吃啥物早餐咧？我今早食飯欲用花生醬，但是彼個... 彼個叫啥，就是放醬料嗚那個咧，我找袂著。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1384
+    },
+    {
+      "type": "speech",
+      "text": "有佇厝裡啊，誠是袂知咧。 伊去菜市仔啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2465
+    },
+    {
+      "type": "speech",
+      "text": "沒去，閣佇家裡。孫仔來看囝仔，他倆在房間玩遊戲。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 534
+    },
+    {
+      "type": "speech",
+      "text": "啥物代誌？按呢就是伊的生日咧，但是彼個... 彼個禮物啊，我毋知袂想起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1105
+    },
+    {
+      "type": "speech",
+      "text": "嗯，應該是買書啦，就是那個... 想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 10,
+    "repetition_count": 4,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 5
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6278,
+    "mean_pause_ms": 1569.5,
+    "speech_char_count": 169
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_032_picture_0231",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看一張菜市仔的照片，咧有好多攤子擺著水果蔬菜，還有袂少人來買物。那個其中一個攤子上有個阿母在秤東西給顧客，伊頭上戴著個竹 篱帽，身穿白衫子，看起來誠乾淨又勤快。 [停頓] 那個旁邊還有個青年攔著一部腳踏車，咧跟著一位老伯買菜，兩佇聊天，好像講得有勁。今仔日的市場熱鬧得很，大家都誠歡喜來逛攤子，買伊欲買嘅物事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看一張菜市仔的照片，咧有好多攤子擺著水果蔬菜，還有袂少人來買物。那個其中一個攤子上有個阿母在秤東西給顧客，伊頭上戴著個竹 篱帽，身穿白衫子，看起來誠乾淨又勤快。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 354
+    },
+    {
+      "type": "speech",
+      "text": "那個旁邊還有個青年攔著一部腳踏車，咧跟著一位老伯買菜，兩佇聊天，好像講得有勁。今仔日的市場熱鬧得很，大家都誠歡喜來逛攤子，買伊欲買嘅物事。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 354,
+    "mean_pause_ms": 354.0,
+    "speech_char_count": 152
+  },
+  "speech_rate_target": 1.0
+}

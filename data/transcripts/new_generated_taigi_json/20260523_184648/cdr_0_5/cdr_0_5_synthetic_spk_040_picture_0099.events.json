@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_040_picture_0099",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_040",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣不錯，我去看菜市仔去。那個賣攤攤咧好多物事，有青菜、水果咧，還有海鮮。那個...那個阿姨在秤斤兩，好像買魚。 [停頓] 那個阿伯牽著孫仔，孫仔手裡拿著糖果。哎呀，想袂起來那個孫仔幾歲了。齁，按呢看去好似菜市仔熱鬧得很，攤販咧叫囝仔來試吃水果咧。 [停頓] 想袂起來隔壁阿婆有無轉厝去食飯？那個...按呢先講到瞭這嘛，明天再繼續講其他代誌啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣不錯，我去看菜市仔去。那個賣攤攤咧好多物事，有青菜、水果咧，還有海鮮。那個...那個阿姨在秤斤兩，好像買魚。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 913
+    },
+    {
+      "type": "speech",
+      "text": "那個阿伯牽著孫仔，孫仔手裡拿著糖果。哎呀，想袂起來那個孫仔幾歲了。齁，按呢看去好似菜市仔熱鬧得很，攤販咧叫囝仔來試吃水果咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來隔壁阿婆有無轉厝去食飯？那個...按呢先講到瞭這嘛，明天再繼續講其他代誌啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 8,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2113,
+    "mean_pause_ms": 1056.5,
+    "speech_char_count": 163
+  },
+  "speech_rate_target": 0.92
+}

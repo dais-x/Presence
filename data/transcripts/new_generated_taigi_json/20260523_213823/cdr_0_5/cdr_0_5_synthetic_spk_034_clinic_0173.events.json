@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 901
+  },
+  {
+    "type": "speech",
+    "text": "我欲毋知，那個... 噗！"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 880
+  },
+  {
+    "type": "speech",
+    "text": "按呢早我食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 798
+  },
+  {
+    "type": "speech",
+    "text": "我食阮阿母煮袂起的乾糧同鹹粥啦。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡有無發生啥代誌啊？"
+  },
+  {
+    "type": "speech",
+    "text": "講毋通，就是想袂起來，那個... 家裡佇按呢個月閣轉去好多孫仔來拜訪咧。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1090
+  },
+  {
+    "type": "speech",
+    "text": "可愛喔，齁，我欲毋知今仔日幾號啦。"
+  }
+]

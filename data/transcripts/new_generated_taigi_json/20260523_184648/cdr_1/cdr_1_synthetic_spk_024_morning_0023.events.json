@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_morning_0023",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起後，先去洗面囝。 [停頓] 然後就食飯啦。食完飯就轉去菜市仔買個東西。 [長停頓] 有啥物要準備啊？那個包包咧有佇哪按呢？想袂起來啦。包包內有錢、鑰匙，還有手機齁。 [咳嗽] 手機咧有帶著嘛？有攏有攏。然後就出門去買東西囝。買了菜回家後就要準備午飯啊。那個午飯要做啥物呢？ [停頓] 想袂起來啦，那個炒麵咧好做，簡單又好吃。 [嘆氣] 炒麵咧有啥物材料咧？豆乾、筍乾、肉鬆，還有個蛋嘛。 [長停頓] 今仔日要去菜市仔，然後回家就要準備午飯囝。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起後，先去洗面囝。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1147
+    },
+    {
+      "type": "speech",
+      "text": "然後就食飯啦。食完飯就轉去菜市仔買個東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2368
+    },
+    {
+      "type": "speech",
+      "text": "有啥物要準備啊？那個包包咧有佇哪按呢？想袂起來啦。包包內有錢、鑰匙，還有手機齁。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "text": "手機咧有帶著嘛？有攏有攏。然後就出門去買東西囝。買了菜回家後就要準備午飯啊。那個午飯要做啥物呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1036
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦，那個炒麵咧好做，簡單又好吃。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1387
+    },
+    {
+      "type": "speech",
+      "text": "炒麵咧有啥物材料咧？豆乾、筍乾、肉鬆，還有個蛋嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1777
+    },
+    {
+      "type": "speech",
+      "text": "今仔日要去菜市仔，然後回家就要準備午飯囝。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6328,
+    "mean_pause_ms": 1582.0,
+    "speech_char_count": 188
+  },
+  "speech_rate_target": 0.85
+}

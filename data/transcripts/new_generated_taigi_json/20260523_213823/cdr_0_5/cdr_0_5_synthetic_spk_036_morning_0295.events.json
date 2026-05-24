@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起咧，先去洗面，再來食飯。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 823
+  },
+  {
+    "type": "speech",
+    "text": "食完飯後就整理一下厝內物件，準備出去買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 584
+  },
+  {
+    "type": "speech",
+    "text": "那個...要去菜市仔攬一攬，欲看看有啥物新鮮菜。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1193
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，那個包包咧？"
+  },
+  {
+    "type": "speech",
+    "text": "應該是掛佇灶跤邊齁。"
+  },
+  {
+    "type": "speech",
+    "text": "啊，攏記起啦！"
+  },
+  {
+    "type": "speech",
+    "text": "轉去拿包包，準備出門去。"
+  }
+]

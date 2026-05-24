@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_008_clinic_0267",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_008",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號囉？我那個... 想袂起來咧。 [停頓] 那個早餐吃啥物啊？我食飯啦，就是有米糕同鹹蛋。家裡按呢欲怎樣？齁，阿母昨暝轉厝囝仔就去菜市仔買菜，伊說今早要煮湯。 [停頓] 噗... 那個那個啥物咧... [嘆氣] 我想袂起來啦。按呢就是這樣子啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號囉？我那個... 想袂起來咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 507
+    },
+    {
+      "type": "speech",
+      "text": "那個早餐吃啥物啊？我食飯啦，就是有米糕同鹹蛋。家裡按呢欲怎樣？齁，阿母昨暝轉厝囝仔就去菜市仔買菜，伊說今早要煮湯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "噗... 那個那個啥物咧..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 908
+    },
+    {
+      "type": "speech",
+      "text": "我想袂起來啦。按呢就是這樣子啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 1707,
+    "mean_pause_ms": 853.5,
+    "speech_char_count": 108
+  },
+  "speech_rate_target": 0.92
+}

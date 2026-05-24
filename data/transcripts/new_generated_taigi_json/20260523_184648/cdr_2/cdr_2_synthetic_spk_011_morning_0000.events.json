@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_011_morning_0000",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "morning",
+  "speaker": {
+    "speaker_id": "synthetic_spk_011",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日早起袂有幾早啊，洗面咧， [停頓] 食飯啦，那個碗啦杯啦都擺好，準備出門去菜市仔買東西， [長停頓] 可是伊（我）袂曉得要去哪個菜市仔，那個阿母以前去的那個菜市仔啊。 [嘆氣] 以前伊（我）咧還年輕，早起去買菜，煮飯啦，可是現在嘛， [沉默] 想不到啥物，碗啦筷啦都擺錯地方了。 [咳嗽] 阿爸以前是個好人，那個早餐啊，伊（他）會煮豆漿跟油條給我吃， [停頓] 可是我袂曉得現在要去哪裡買，那個豆漿跟油條咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早起袂有幾早啊，洗面咧，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1228
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦，那個碗啦杯啦都擺好，準備出門去菜市仔買東西，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4108
+    },
+    {
+      "type": "speech",
+      "text": "可是伊（我）袂曉得要去哪個菜市仔，那個阿母以前去的那個菜市仔啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 609
+    },
+    {
+      "type": "speech",
+      "text": "以前伊（我）咧還年輕，早起去買菜，煮飯啦，可是現在嘛，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4378
+    },
+    {
+      "type": "speech",
+      "text": "想不到啥物，碗啦筷啦都擺錯地方了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 575
+    },
+    {
+      "type": "speech",
+      "text": "阿爸以前是個好人，那個早餐啊，伊（他）會煮豆漿跟油條給我吃，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1242
+    },
+    {
+      "type": "speech",
+      "text": "可是我袂曉得現在要去哪裡買，那個豆漿跟油條咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 10956,
+    "mean_pause_ms": 2739.0,
+    "speech_char_count": 170
+  },
+  "speech_rate_target": 0.75
+}

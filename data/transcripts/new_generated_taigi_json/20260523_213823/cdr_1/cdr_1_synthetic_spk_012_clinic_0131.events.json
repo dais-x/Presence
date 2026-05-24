@@ -1,0 +1,74 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 812
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來...彼個啥個叫來？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1022
+  },
+  {
+    "type": "speech",
+    "text": "现在是几月啦？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 936
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1031
+  },
+  {
+    "type": "speech",
+    "text": "食飯啊，就是粥啦，還有豆漿。"
+  },
+  {
+    "type": "speech",
+    "text": "有沒有吃個啥？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "厝裡按呢咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "啰囝仔咧？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1135
+  },
+  {
+    "type": "speech",
+    "text": "我孫仔去學校啦，阿爸閣去工作，阿母誠在家煮飯。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡有無發生啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "沒啥特別事，就是按呢樣子啊。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1024
+  }
+]

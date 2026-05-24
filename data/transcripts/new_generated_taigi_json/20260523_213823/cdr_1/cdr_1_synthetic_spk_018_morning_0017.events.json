@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早起袂晚，先去洗面啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1079
+  },
+  {
+    "type": "speech",
+    "text": "然後就去準備食飯啊，想起來菜市仔買啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1251
+  },
+  {
+    "type": "speech",
+    "text": "那個彼個...彼個叫啥來著？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1410
+  },
+  {
+    "type": "speech",
+    "text": "那個阿母常買的蔬菜咧，嗯... 想袂起來齁。"
+  },
+  {
+    "type": "speech",
+    "text": "好啦，先整理一下厝內的東西啦，準備轉去菜市仔。"
+  },
+  {
+    "type": "speech",
+    "text": "攏要帶什麼？"
+  },
+  {
+    "type": "speech",
+    "text": "就是水跟袋子啊，還有錢啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1360
+  },
+  {
+    "type": "speech",
+    "text": "今早有好多事情想袂起來，不過應該毋會忘記重要物事咧。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 953
+  },
+  {
+    "type": "speech",
+    "text": "攚足了再出門就好啦。"
+  }
+]

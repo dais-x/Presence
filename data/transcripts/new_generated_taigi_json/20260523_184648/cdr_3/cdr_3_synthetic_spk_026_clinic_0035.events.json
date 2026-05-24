@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_026_clinic_0035",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號... [長停頓] 阿母咧？ [長停頓] 想吃菜市仔買的東西... 囝仔，彼個天氣真冷啊... [沉默] 菜市仔攏去無啦... 可是，阿母欲食啥物？ [嘆氣] 冷啦... [咳嗽] 食飯時間咧... 阿爸閣足囝仔未？ [長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2033
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6468
+    },
+    {
+      "type": "speech",
+      "text": "想吃菜市仔買的東西... 囝仔，彼個天氣真冷啊..."
+    },
+    {
+      "type": "silence",
+      "duration_ms": 6731
+    },
+    {
+      "type": "speech",
+      "text": "菜市仔攏去無啦... 可是，阿母欲食啥物？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 982
+    },
+    {
+      "type": "speech",
+      "text": "冷啦..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 457
+    },
+    {
+      "type": "speech",
+      "text": "食飯時間咧... 阿爸閣足囝仔未？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 6721
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 6,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 12,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 21953,
+    "mean_pause_ms": 5488.25,
+    "speech_char_count": 81
+  },
+  "speech_rate_target": 0.65
+}

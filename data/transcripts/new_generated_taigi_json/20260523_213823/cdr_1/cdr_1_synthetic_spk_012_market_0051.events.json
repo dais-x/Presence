@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我去菜市仔買菜啦，那個青菜欲袂欲吃？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1090
+  },
+  {
+    "type": "speech",
+    "text": "嗯，彼個紅蘿蔔咧，我記得伊擺攤販那邊，不過我講話講到一半就忘記伊叫啥名囉。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 751
+  },
+  {
+    "type": "speech",
+    "text": "那個雞蛋啊，伊足毋知有無過期啦，我就買少許啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1462
+  },
+  {
+    "type": "speech",
+    "text": "轉去厝內，阿母問我買啥物，我就說咧，可是我講袂完整，我頭疼欲死，想袂起來。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1219
+  },
+  {
+    "type": "speech",
+    "text": "攤販咧，伊那個名字啊，就是叫啥來著？"
+  },
+  {
+    "type": "speech",
+    "text": "那個菜啦，我買足一籃子啦，攏好吃齁。"
+  }
+]

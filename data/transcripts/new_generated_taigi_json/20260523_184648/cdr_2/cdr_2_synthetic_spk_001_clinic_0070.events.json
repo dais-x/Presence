@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_001_clinic_0070",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_001",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 阿母咧講袂知啦…… [長停頓] 咱早食啥物啊？米糕咧，齁，那個伊是阿爸買來的嗎？ [停頓] 以前伊去菜市仔買菜，現在嘛無法去啦。 [嘆氣] 那個今早食飯袂想食，頭尾有按呢啊？ [沉默] 嗯……我孫仔咧講話像鳥叫，哈！ [咳嗽] 身體好多事欲顧無來，齁…… [停頓] 以前伊還會煮米糕嘞。 [長停頓] 阿爸閣佇喔，按呢袂佢啦…… [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1345
+    },
+    {
+      "type": "speech",
+      "text": "阿母咧講袂知啦……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4328
+    },
+    {
+      "type": "speech",
+      "text": "咱早食啥物啊？米糕咧，齁，那個伊是阿爸買來的嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1213
+    },
+    {
+      "type": "speech",
+      "text": "以前伊去菜市仔買菜，現在嘛無法去啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1274
+    },
+    {
+      "type": "speech",
+      "text": "那個今早食飯袂想食，頭尾有按呢啊？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2735
+    },
+    {
+      "type": "speech",
+      "text": "嗯……我孫仔咧講話像鳥叫，哈！"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 610
+    },
+    {
+      "type": "speech",
+      "text": "身體好多事欲顧無來，齁……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1465
+    },
+    {
+      "type": "speech",
+      "text": "以前伊還會煮米糕嘞。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 3985
+    },
+    {
+      "type": "speech",
+      "text": "阿爸閣佇喔，按呢袂佢啦……"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3587
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 18,
+    "speech_event_count": 9,
+    "pause_event_count": 7,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 18658,
+    "mean_pause_ms": 2665.43,
+    "speech_char_count": 126
+  },
+  "speech_rate_target": 0.75
+}

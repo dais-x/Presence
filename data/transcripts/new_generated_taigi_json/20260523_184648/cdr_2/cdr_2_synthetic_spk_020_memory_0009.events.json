@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_020_memory_0009",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_020",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好多雲啊， [停頓] 以前我讀冊時陣，天天早起去菜市仔買菜。阿母煮飯咧，那個味道真香。 [長停頓] 以前阿公佇田裡種稻，我跟著伊去。 [沉默] 後來我就毋知伊在哪囝。齁，當年我們好多朋友啦，就是現在都袂有了啊。 [嘆氣] 今早食飯咧，怎麼頭痛欲死。 [咳嗽] 以前讀冊時陣，那個課本真多，每頁都寫滿字。 [停頓] 唉，現在看書袂會了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好多雲啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1408
+    },
+    {
+      "type": "speech",
+      "text": "以前我讀冊時陣，天天早起去菜市仔買菜。阿母煮飯咧，那個味道真香。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1923
+    },
+    {
+      "type": "speech",
+      "text": "以前阿公佇田裡種稻，我跟著伊去。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 1607
+    },
+    {
+      "type": "speech",
+      "text": "後來我就毋知伊在哪囝。齁，當年我們好多朋友啦，就是現在都袂有了啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 691
+    },
+    {
+      "type": "speech",
+      "text": "今早食飯咧，怎麼頭痛欲死。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 762
+    },
+    {
+      "type": "speech",
+      "text": "以前讀冊時陣，那個課本真多，每頁都寫滿字。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1483
+    },
+    {
+      "type": "speech",
+      "text": "唉，現在看書袂會了。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6421,
+    "mean_pause_ms": 1605.25,
+    "speech_char_count": 135
+  },
+  "speech_rate_target": 0.75
+}

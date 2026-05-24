@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_032_family_0021",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "synthetic_spk_032",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日囝仔跟孫仔轉來厝內食飯啊， [停頓] 坐佇灶跤邊講話咧。個孫仔愈長愈大啦， [沉默] 好像以前個樣子袂見到齁。阿母以前煮早餐給大家吃，那個時候真好啊。 [嘆氣] 現在身體有點不適，食唔攏東西。孫仔轉來，會不會想我？ [停頓] 伊今早有無起來？按呢個孫仔咧，就是好像跟著時間走啊，長大了就袂見到以前個樣子啦。 [長停頓] 孫仔有無轉來？ [咳嗽] 阿母煮早餐給大家吃，那個時候真好啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日囝仔跟孫仔轉來厝內食飯啊，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1278
+    },
+    {
+      "type": "speech",
+      "text": "坐佇灶跤邊講話咧。個孫仔愈長愈大啦，"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 4429
+    },
+    {
+      "type": "speech",
+      "text": "好像以前個樣子袂見到齁。阿母以前煮早餐給大家吃，那個時候真好啊。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1033
+    },
+    {
+      "type": "speech",
+      "text": "現在身體有點不適，食唔攏東西。孫仔轉來，會不會想我？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1393
+    },
+    {
+      "type": "speech",
+      "text": "伊今早有無起來？按呢個孫仔咧，就是好像跟著時間走啊，長大了就袂見到以前個樣子啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1802
+    },
+    {
+      "type": "speech",
+      "text": "孫仔有無轉來？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 859
+    },
+    {
+      "type": "speech",
+      "text": "阿母煮早餐給大家吃，那個時候真好啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 8902,
+    "mean_pause_ms": 2225.5,
+    "speech_char_count": 157
+  },
+  "speech_rate_target": 0.75
+}

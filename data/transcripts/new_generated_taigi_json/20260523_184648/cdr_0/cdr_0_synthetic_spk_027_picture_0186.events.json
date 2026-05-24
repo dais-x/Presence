@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_027_picture_0186",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_027",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜，看到阮厝後頭那個老鄰居攏咧。伊袂識到我，但我喊伊，伊聽見就轉過來。伊問我說，阮家按呢咋樣？我就講，我家按呢誠好啊，阿爸阿母身體都無啥問題，囝仔孫仔也都健康。 [停頓] 嗯，最近有無去廟仔拜拜咧？齁，我去過啦。菜市仔人好多，攤販賣菜聲嘈嘈熱鬧。你說伊咧，今仔日天氣還不錯，適合出門遊走一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜，看到阮厝後頭那個老鄰居攏咧。伊袂識到我，但我喊伊，伊聽見就轉過來。伊問我說，阮家按呢咋樣？我就講，我家按呢誠好啊，阿爸阿母身體都無啥問題，囝仔孫仔也都健康。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 221
+    },
+    {
+      "type": "speech",
+      "text": "嗯，最近有無去廟仔拜拜咧？齁，我去過啦。菜市仔人好多，攤販賣菜聲嘈嘈熱鬧。你說伊咧，今仔日天氣還不錯，適合出門遊走一下。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 221,
+    "mean_pause_ms": 221.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 1.0
+}

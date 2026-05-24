@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_003_picture_0222",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "picture",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日看到這張圖，我想到以前菜市仔的情景啊。那個攤販都袂認識，但一講話就熟啦。你看，那個賣菜的婆婆，頭頂著好多籃子，還在跟顧客講價咧。 [停頓] 然後那個賣魚的阿伯，手裡拿著刀，準備要殺魚給客人啊。我年輕時也常去買菜，現在嘛，自己煮飯都少啦，去市場看人聊天就很開心齁。 [停頓] 那個圖上面還有個小孩在搗亂，按呢應該是跟阿母出來買東西吧。孫仔咧，真是可愛啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日看到這張圖，我想到以前菜市仔的情景啊。那個攤販都袂認識，但一講話就熟啦。你看，那個賣菜的婆婆，頭頂著好多籃子，還在跟顧客講價咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1166
+    },
+    {
+      "type": "speech",
+      "text": "然後那個賣魚的阿伯，手裡拿著刀，準備要殺魚給客人啊。我年輕時也常去買菜，現在嘛，自己煮飯都少啦，去市場看人聊天就很開心齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個圖上面還有個小孩在搗亂，按呢應該是跟阿母出來買東西吧。孫仔咧，真是可愛啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 1,
+    "repair_count": 1,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 2366,
+    "mean_pause_ms": 1183.0,
+    "speech_char_count": 167
+  },
+  "speech_rate_target": 0.92
+}

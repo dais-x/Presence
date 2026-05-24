@@ -1,0 +1,150 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_026_memory_0095",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_026",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣咧好熱齁 [停頓] 我年輕時陣啦去菜市仔買菜啊 [長停頓] 那個阿母叫我去買菜咧 [沉默] 以前讀冊時陣伊講說要做功課啦 [嘆氣] 做農忙時陣咧袂想起來啊 [咳嗽] 以前咧跟著大人佇田裡做工咧 [停頓] 那個時候啊現在儂知阮厝內有誰啊 [長停頓] [沉默] 今仔日早餐吃啥物啦 [嘆氣] 以前咧食飯時陣阿爸都會講話咧 [停頓] 伊講說要做人要誠實啊 [咳嗽] [停頓] 那個時候咧現在身體無力咧 [長停頓] 以前跟囝仔玩咧 [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣咧好熱齁"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1268
+    },
+    {
+      "type": "speech",
+      "text": "我年輕時陣啦去菜市仔買菜啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 4110
+    },
+    {
+      "type": "speech",
+      "text": "那個阿母叫我去買菜咧"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3115
+    },
+    {
+      "type": "speech",
+      "text": "以前讀冊時陣伊講說要做功課啦"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 676
+    },
+    {
+      "type": "speech",
+      "text": "做農忙時陣咧袂想起來啊"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1006
+    },
+    {
+      "type": "speech",
+      "text": "以前咧跟著大人佇田裡做工咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1490
+    },
+    {
+      "type": "speech",
+      "text": "那個時候啊現在儂知阮厝內有誰啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1755
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3281
+    },
+    {
+      "type": "speech",
+      "text": "今仔日早餐吃啥物啦"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1278
+    },
+    {
+      "type": "speech",
+      "text": "以前咧食飯時陣阿爸都會講話咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1266
+    },
+    {
+      "type": "speech",
+      "text": "伊講說要做人要誠實啊"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 642
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1349
+    },
+    {
+      "type": "speech",
+      "text": "那個時候咧現在身體無力咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2569
+    },
+    {
+      "type": "speech",
+      "text": "以前跟囝仔玩咧"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2790
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 3,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 26,
+    "speech_event_count": 12,
+    "pause_event_count": 10,
+    "sigh_count": 2,
+    "cough_count": 2,
+    "pause_total_ms": 22993,
+    "mean_pause_ms": 2299.3,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.75
+}

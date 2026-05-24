@@ -1,0 +1,30 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日天氣袂好... 阿母佇哪？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2463
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食飯咧齁... 囝仔彼個時候... 按呢是啥物囝仔咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2271
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔欲去... 今早無去... 冷啦啦..."
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2673
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 967
+  }
+]

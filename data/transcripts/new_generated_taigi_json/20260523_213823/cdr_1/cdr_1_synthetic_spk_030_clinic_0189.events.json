@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 786
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，醫生先生。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 695
+  },
+  {
+    "type": "speech",
+    "text": "我今早食啥物咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1010
+  },
+  {
+    "type": "speech",
+    "text": "阿母叫我去菜市仔買餻仔，但我去伊家著按呢？"
+  },
+  {
+    "type": "speech",
+    "text": "我欲問問伊，彼個...彼個叫啥，我都想袂起來啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1374
+  },
+  {
+    "type": "speech",
+    "text": "我厝今早食啥啊？"
+  },
+  {
+    "type": "speech",
+    "text": "毋知咧，應該是豆漿跟油條吧，就是說，阿爸喜歡吃那個。"
+  },
+  {
+    "type": "speech",
+    "text": "孫仔咧，按呢佇學校齁。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 740
+  }
+]

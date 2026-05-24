@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 938
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來，那個醫師ㄟ話我聽袂清。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 456
+  },
+  {
+    "type": "speech",
+    "text": "早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢個月頭阿母病緊，我整暝都佇醫院。"
+  },
+  {
+    "type": "speech",
+    "text": "啥物啦，講到早餐，我就記得今早食碗稀飯配鹹菜，簡單ㄟ嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "家裡有無啥代誌？"
+  },
+  {
+    "type": "speech",
+    "text": "家裡按呢安穩咧，就是伊母煩心事比較多啦，啊我倒沒啥特別事情。"
+  }
+]

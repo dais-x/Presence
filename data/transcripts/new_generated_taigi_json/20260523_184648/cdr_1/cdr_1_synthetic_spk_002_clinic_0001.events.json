@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_002_clinic_0001",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_002",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我欲毋知啦。早飯我食兩碗白粥咧，加豆漿齁。豆漿好飲ㄟ。 [長停頓] 佇菜市仔買菜去，欲袂敢走去囉。那個彼個...彼個叫啥？啊，攏想袂起來啦。 [嘆氣] 我阿母在咧喔，她毋會煮飯啦。我轉去看看，她有無好啊。孫仔咧來看伊ㄟ，按呢。 [咳嗽] 嗯，今早有無去公園散步？ [停頓] 想袂起來啦。 [長停頓] 我欲回去囝仔厝瞭，阿爸會等著我。嗯，要去買菜啊。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "text": "我欲毋知啦。早飯我食兩碗白粥咧，加豆漿齁。豆漿好飲ㄟ。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2121
+    },
+    {
+      "type": "speech",
+      "text": "佇菜市仔買菜去，欲袂敢走去囉。那個彼個...彼個叫啥？啊，攏想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1185
+    },
+    {
+      "type": "speech",
+      "text": "我阿母在咧喔，她毋會煮飯啦。我轉去看看，她有無好啊。孫仔咧來看伊ㄟ，按呢。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1067
+    },
+    {
+      "type": "speech",
+      "text": "嗯，今早有無去公園散步？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 896
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1858
+    },
+    {
+      "type": "speech",
+      "text": "我欲回去囝仔厝瞭，阿爸會等著我。嗯，要去買菜啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1109
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 14,
+    "speech_event_count": 7,
+    "pause_event_count": 5,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 6805,
+    "mean_pause_ms": 1361.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.85
+}

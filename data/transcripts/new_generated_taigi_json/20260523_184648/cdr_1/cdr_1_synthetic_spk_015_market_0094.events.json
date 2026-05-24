@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_015_market_0094",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_015",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日我咧菜市仔，欲買些東西回去煮啊。彼個攤販伊咧賣青菜，那個青菜還好啦，我就買了一點。還有嘞魚攤，彼個魚按呢很新鮮齁，就是想袂起來咧叫啥名。 [停頓] 呀，是鱈魚嘛，然後就帶回去咧。轉去後面咧，阿母咧等著我，她欲食飯啦。今仔日買菜咧還順便咧買了些水果，按呢攏足甜齁。剛才咧講啥啦？ [長停頓] 噗哧 [咳嗽] ，啊，就是菜市仔伊人很多啦，那個攤販咧講話袂清楚，我聽袂懂啦。 [嘆氣] 然後就轉去厝內，阿母咧咧問我買了啥物，我就咧講伊咧啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我咧菜市仔，欲買些東西回去煮啊。彼個攤販伊咧賣青菜，那個青菜還好啦，我就買了一點。還有嘞魚攤，彼個魚按呢很新鮮齁，就是想袂起來咧叫啥名。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1082
+    },
+    {
+      "type": "speech",
+      "text": "呀，是鱈魚嘛，然後就帶回去咧。轉去後面咧，阿母咧等著我，她欲食飯啦。今仔日買菜咧還順便咧買了些水果，按呢攏足甜齁。剛才咧講啥啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1762
+    },
+    {
+      "type": "speech",
+      "text": "噗哧"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 528
+    },
+    {
+      "type": "speech",
+      "text": "，啊，就是菜市仔伊人很多啦，那個攤販咧講話袂清楚，我聽袂懂啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1240
+    },
+    {
+      "type": "speech",
+      "text": "然後就轉去厝內，阿母咧咧問我買了啥物，我就咧講伊咧啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 4
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2844,
+    "mean_pause_ms": 1422.0,
+    "speech_char_count": 195
+  },
+  "speech_rate_target": 0.85
+}

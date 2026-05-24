@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_003_clinic_0082",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_003",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 15,
+    "description": "手機或低品質麥克風，頻寬較窄、些微壓縮感。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我欲毋知咧。 [長停頓] 那個早囝仔食啥物啊？我有食稀飯，加點鹹菜。 [停頓] 佇菜市仔買到伊。那個按呢咧？ [嘆氣] 嗯，阿母說伊想來著咧。 [長停頓] 那個今早有無人來看我啊？ [咳嗽] 啊，就是講啦，彼個...彼個叫啥啊？ [停頓] 就是隔壁鄰居啦。 [長停頓] 嗯，佇厝裡有無發生啥代誌？ [停頓] 沒有啦，就是按呢咧。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 862
+    },
+    {
+      "type": "speech",
+      "text": "我欲毋知咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1611
+    },
+    {
+      "type": "speech",
+      "text": "那個早囝仔食啥物啊？我有食稀飯，加點鹹菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 871
+    },
+    {
+      "type": "speech",
+      "text": "佇菜市仔買到伊。那個按呢咧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 842
+    },
+    {
+      "type": "speech",
+      "text": "嗯，阿母說伊想來著咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2211
+    },
+    {
+      "type": "speech",
+      "text": "那個今早有無人來看我啊？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 426
+    },
+    {
+      "type": "speech",
+      "text": "啊，就是講啦，彼個...彼個叫啥啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 984
+    },
+    {
+      "type": "speech",
+      "text": "就是隔壁鄰居啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2334
+    },
+    {
+      "type": "speech",
+      "text": "嗯，佇厝裡有無發生啥代誌？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1093
+    },
+    {
+      "type": "speech",
+      "text": "沒有啦，就是按呢咧。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 977
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 7,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 20,
+    "speech_event_count": 10,
+    "pause_event_count": 7,
+    "sigh_count": 2,
+    "cough_count": 1,
+    "pause_total_ms": 9966,
+    "mean_pause_ms": 1423.71,
+    "speech_char_count": 120
+  },
+  "speech_rate_target": 0.85
+}

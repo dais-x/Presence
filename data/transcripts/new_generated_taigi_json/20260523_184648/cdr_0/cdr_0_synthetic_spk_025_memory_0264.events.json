@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_025_memory_0264",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_025",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好熱啊，我記得少年時陣，菜市仔裡頭的水果特別多，阿母叫我去買西瓜，我騎著 去買啦。 [停頓] 那時候讀冊時間很少，因為要幫忙農忙，田裡的工作真辛苦，一早就要起床去田裡做工，到晚上才轉去。 [停頓] 每天都要搆攪水車給稻米澆水，現在年輕人哪會知道這些事啊，那個時代真是跟現在不一樣啦。阿爸說做人要勤儉，這話我記一輩子咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好熱啊，我記得少年時陣，菜市仔裡頭的水果特別多，阿母叫我去買西瓜，我騎著 去買啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 586
+    },
+    {
+      "type": "speech",
+      "text": "那時候讀冊時間很少，因為要幫忙農忙，田裡的工作真辛苦，一早就要起床去田裡做工，到晚上才轉去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 656
+    },
+    {
+      "type": "speech",
+      "text": "每天都要搆攪水車給稻米澆水，現在年輕人哪會知道這些事啊，那個時代真是跟現在不一樣啦。阿爸說做人要勤儉，這話我記一輩子咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1242,
+    "mean_pause_ms": 621.0,
+    "speech_char_count": 152
+  },
+  "speech_rate_target": 1.0
+}

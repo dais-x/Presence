@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_022_clinic_0241",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_022",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號咧？我講袂起來ㄟ...那個按呢是星期幾啦？ [停頓] 早飯食啥物？我今早食花生米跟稀飯，還好啦。 伊有無去菜市仔買東西？去啊，買些青菜跟肉回去。 [停頓] 厝裡最近有無啥代誌？按呢就普通啦，孫仔返學校唸書。 那個...我阿母前幾日身體不太好，醫生講要多休息一下。 [咳嗽] 齁，今早食完飯咧轉去公園散散步。誠是不錯的活動啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號咧？我講袂起來ㄟ...那個按呢是星期幾啦？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1172
+    },
+    {
+      "type": "speech",
+      "text": "早飯食啥物？我今早食花生米跟稀飯，還好啦。 伊有無去菜市仔買東西？去啊，買些青菜跟肉回去。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "厝裡最近有無啥代誌？按呢就普通啦，孫仔返學校唸書。 那個...我阿母前幾日身體不太好，醫生講要多休息一下。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 629
+    },
+    {
+      "type": "speech",
+      "text": "齁，今早食完飯咧轉去公園散散步。誠是不錯的活動啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 1,
+    "pause_total_ms": 2372,
+    "mean_pause_ms": 1186.0,
+    "speech_char_count": 149
+  },
+  "speech_rate_target": 0.92
+}

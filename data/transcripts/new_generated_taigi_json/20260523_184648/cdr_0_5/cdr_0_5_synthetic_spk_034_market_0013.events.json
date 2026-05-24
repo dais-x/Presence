@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_034_market_0013",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_034",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日我去菜市仔買菜啦，那個青菜咧好多，按呢個肉咧貴齁。跟攤販講話，佇伊那裡買雞蛋、豆腐啊，那個鴨腳木咧欲有，想袂起來啥物替代。 [停頓] 唉呀，轉去厝內就煮飯囝仔食啦，阿母說要多準備些菜，因為孫仔會來玩。嗯...按呢閣要去買個魚，那個魚湯咧好喝齁。 [停頓] 那個...今早有聽到鄰居講話，說是啥物活動咧快開始啦，想起來要去參加。轉去厝內就先煮飯咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日我去菜市仔買菜啦，那個青菜咧好多，按呢個肉咧貴齁。跟攤販講話，佇伊那裡買雞蛋、豆腐啊，那個鴨腳木咧欲有，想袂起來啥物替代。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 610
+    },
+    {
+      "type": "speech",
+      "text": "唉呀，轉去厝內就煮飯囝仔食啦，阿母說要多準備些菜，因為孫仔會來玩。嗯...按呢閣要去買個魚，那個魚湯咧好喝齁。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個...今早有聽到鄰居講話，說是啥物活動咧快開始啦，想起來要去參加。轉去厝內就先煮飯咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 1
+  },
+  "event_stats": {
+    "event_count": 5,
+    "speech_event_count": 3,
+    "pause_event_count": 2,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1810,
+    "mean_pause_ms": 905.0,
+    "speech_char_count": 164
+  },
+  "speech_rate_target": 0.92
+}

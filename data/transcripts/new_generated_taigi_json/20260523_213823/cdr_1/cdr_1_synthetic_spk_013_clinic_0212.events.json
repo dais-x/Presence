@@ -1,0 +1,62 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 726
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1337
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1302
+  },
+  {
+    "type": "speech",
+    "text": "忘記啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1254
+  },
+  {
+    "type": "speech",
+    "text": "那個菜市仔我去欲，買菜咧。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢家裡有啥代誌嘛？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 458
+  },
+  {
+    "type": "speech",
+    "text": "佇講伊孫仔，足誠讀書攏很用功，閣足誠阿母會煮飯給佝吃。"
+  },
+  {
+    "type": "speech",
+    "text": "彼個...彼個叫啥名字來著？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我今早有去菜市仔買菜啊，菜價袂便宜，通通袂是以前的價格。"
+  }
+]

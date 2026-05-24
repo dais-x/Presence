@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日我一早起來，欲去菜市仔買菜。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 520
+  },
+  {
+    "type": "speech",
+    "text": "彼個市場好多攤子，賣魚賣肉咧，也有種菜那個。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 968
+  },
+  {
+    "type": "speech",
+    "text": "我看伊們在煮飯，鍋子閣熱騰騰啊。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起啥物要買啦。"
+  },
+  {
+    "type": "speech",
+    "text": "然後看到囝仔咧玩，拿著球欲去拍啦。"
+  },
+  {
+    "type": "speech",
+    "text": "我阿母以前一早也是起來做伙食，桌頂有好多碗盤，還有一個那個菜籃子，咧攏整齊擺著。"
+  },
+  {
+    "type": "speech",
+    "text": "那個是說啥物來著？"
+  },
+  {
+    "type": "speech",
+    "text": "啊，就是煮飯啦，轉去煮飯。"
+  }
+]

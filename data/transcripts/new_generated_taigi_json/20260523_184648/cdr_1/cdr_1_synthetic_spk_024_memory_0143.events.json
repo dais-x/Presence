@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_024_memory_0143",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_024",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日天氣好啊，我年輕時陣常愛攏去菜市仔買東西。彼個...彼個叫啥，阿母講袂起來啦。 [停頓] 想袂起來伊姓啥名，但毋會忘記當時生活咧。厝內農忙時陣，我們會一起去田裡工作。佷辛苦啊，日頭熱晒晒。 [停頓] 那時候讀冊攏是自己去圖書館借，那個圖書館位址也想袂起來啦。 [嘆氣] 攚早我阿爸教伊農事咧，現在伊咧哪裡呢？ [咳嗽] 思量伊年輕時陣故事，就會講袂完就停下來想啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日天氣好啊，我年輕時陣常愛攏去菜市仔買東西。彼個...彼個叫啥，阿母講袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 947
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊姓啥名，但毋會忘記當時生活咧。厝內農忙時陣，我們會一起去田裡工作。佷辛苦啊，日頭熱晒晒。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1361
+    },
+    {
+      "type": "speech",
+      "text": "那時候讀冊攏是自己去圖書館借，那個圖書館位址也想袂起來啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 954
+    },
+    {
+      "type": "speech",
+      "text": "攚早我阿爸教伊農事咧，現在伊咧哪裡呢？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 852
+    },
+    {
+      "type": "speech",
+      "text": "思量伊年輕時陣故事，就會講袂完就停下來想啊。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 9,
+    "speech_event_count": 5,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 2308,
+    "mean_pause_ms": 1154.0,
+    "speech_char_count": 161
+  },
+  "speech_rate_target": 0.85
+}

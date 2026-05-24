@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 813
+  },
+  {
+    "type": "speech",
+    "text": "我想袂起來啦... 今早我食啥物啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 681
+  },
+  {
+    "type": "speech",
+    "text": "食個鹹粥啊，毋知幾時啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 796
+  },
+  {
+    "type": "speech",
+    "text": "兄弟伊來探囝仔咧，按呢孫仔足乖誠。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸伊袂在啦，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1295
+  },
+  {
+    "type": "speech",
+    "text": "想起伊彼個...彼個叫啥物？"
+  },
+  {
+    "type": "speech",
+    "text": "記不起來啦，齁... 啥代誌咧，嗯，無啥啦，好著ㄟ。"
+  }
+]

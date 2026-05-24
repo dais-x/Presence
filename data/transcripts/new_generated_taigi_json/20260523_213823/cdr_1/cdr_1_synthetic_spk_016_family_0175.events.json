@@ -1,0 +1,42 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊帶孫仔來咧。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 803
+  },
+  {
+    "type": "speech",
+    "text": "孫仔真可愛啊，會講好多話啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1211
+  },
+  {
+    "type": "speech",
+    "text": "嗯，那個彼個...彼個叫啥？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1394
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，孫仔跟囝仔坐佇灶跤邊講話，阿母在廚房裡頭煮飯。"
+  },
+  {
+    "type": "speech",
+    "text": "我叫伊去幫忙，伊卻講毋知要做啥。"
+  },
+  {
+    "type": "speech",
+    "text": "嚐，阿爸今早咧啊，講要去菜市仔買東西，還沒回來齁。"
+  }
+]

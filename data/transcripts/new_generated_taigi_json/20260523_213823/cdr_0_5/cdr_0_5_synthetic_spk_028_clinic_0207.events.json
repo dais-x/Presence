@@ -1,0 +1,54 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 543
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 684
+  },
+  {
+    "type": "speech",
+    "text": "那個醫生，今早食啥物咧？"
+  },
+  {
+    "type": "speech",
+    "text": "按呢個星期六齁，應該是六月二十五號。"
+  },
+  {
+    "type": "speech",
+    "text": "我今早有去菜市仔買菜，然後煮粥來食飯。"
+  },
+  {
+    "type": "speech",
+    "text": "嗯，今天天氣好熱啊，厝內（家裡）都足夠涼快。"
+  },
+  {
+    "type": "speech",
+    "text": "那個最近孫仔佇學校咋樣？"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啦，好像就是說要轉去上課咧。"
+  },
+  {
+    "type": "speech",
+    "text": "就是，今早我有跟阿母講起啥物，但是想袂起來了。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 626
+  },
+  {
+    "type": "speech",
+    "text": "嗯，還是先回答醫生問題比較好齁。"
+  }
+]

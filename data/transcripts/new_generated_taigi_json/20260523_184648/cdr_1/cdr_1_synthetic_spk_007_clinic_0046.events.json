@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_1_synthetic_spk_007_clinic_0046",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_007",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號？ [停頓] 早飯嘛食了囝仔咧。 [長停頓] 呀！伊叫啥名字啊？ [嘆氣] 彼個...彼個是阿母，想袂起來啦。按呢厝有無人哦？ [咳嗽] 攏在菜市仔買菜，攬佇家裡吃飯咧。 [長停頓] 呀！伊叫啥名字啊？ [嘆氣] 彼個...彼個是孫仔，我毋知他叫啥啦。 [停頓] 今早食啥？ [沉默] 想袂起來啦。 [停頓] 攏在菜市仔買菜，攬佇家裡吃飯咧。 [停頓] 呀！伊叫啥名字啊？ [嘆氣] 彼個...彼個是阿爸，想袂起來啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1069
+    },
+    {
+      "type": "speech",
+      "text": "早飯嘛食了囝仔咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2314
+    },
+    {
+      "type": "speech",
+      "text": "呀！伊叫啥名字啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1119
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個是阿母，想袂起來啦。按呢厝有無人哦？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 919
+    },
+    {
+      "type": "speech",
+      "text": "攏在菜市仔買菜，攬佇家裡吃飯咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2334
+    },
+    {
+      "type": "speech",
+      "text": "呀！伊叫啥名字啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 620
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個是孫仔，我毋知他叫啥啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 999
+    },
+    {
+      "type": "speech",
+      "text": "今早食啥？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2394
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1040
+    },
+    {
+      "type": "speech",
+      "text": "攏在菜市仔買菜，攬佇家裡吃飯咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1289
+    },
+    {
+      "type": "speech",
+      "text": "呀！伊叫啥名字啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1250
+    },
+    {
+      "type": "speech",
+      "text": "彼個...彼個是阿爸，想袂起來啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 14,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 23,
+    "speech_event_count": 12,
+    "pause_event_count": 7,
+    "sigh_count": 3,
+    "cough_count": 1,
+    "pause_total_ms": 11439,
+    "mean_pause_ms": 1634.14,
+    "speech_char_count": 146
+  },
+  "speech_rate_target": 0.85
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔攏轉來厝內食飯啦， 伊欲去菜市仔買菜， 按呢孫仔咧做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1649
+  },
+  {
+    "type": "speech",
+    "text": "阿母以前會煮好多早餐給我食齁，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1649
+  },
+  {
+    "type": "cough",
+    "duration_ms": 537
+  },
+  {
+    "type": "speech",
+    "text": "现在身体不如以前啊。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 870
+  },
+  {
+    "type": "speech",
+    "text": "囝仔袂來，阿爸閣去哪裹啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2464
+  },
+  {
+    "type": "speech",
+    "text": "噗，記著伊是轉去囝仔家啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1725
+  },
+  {
+    "type": "speech",
+    "text": "那個時候，大家攏坐佇灶跤邊講話，"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1344
+  },
+  {
+    "type": "speech",
+    "text": "现在也没人讲话了。"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_synthetic_spk_009_memory_0008",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "memory",
+  "speaker": {
+    "speaker_id": "synthetic_spk_009",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "test"
+  },
+  "split": "test",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日無風颳，天氣好。我年輕時陣啊，常常去菜市仔買東西。伊時陣啊，我們讀冊唸書，比較辛苦啦。阿母叫我去幫忙耕田，袂想理伊咧，但還是要去。農忙時候啊，整個厝內人都忙著種田，收成好多蔬菜水果。按呢時候啦，比較輕鬆些，可以跟朋友去玩。 [停頓] 那個時代啊，真係好懷念。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日無風颳，天氣好。我年輕時陣啊，常常去菜市仔買東西。伊時陣啊，我們讀冊唸書，比較辛苦啦。阿母叫我去幫忙耕田，袂想理伊咧，但還是要去。農忙時候啊，整個厝內人都忙著種田，收成好多蔬菜水果。按呢時候啦，比較輕鬆些，可以跟朋友去玩。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 559
+    },
+    {
+      "type": "speech",
+      "text": "那個時代啊，真係好懷念。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 1,
+    "repetition_count": 1,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 559,
+    "mean_pause_ms": 559.0,
+    "speech_char_count": 126
+  },
+  "speech_rate_target": 1.0
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_035_clinic_0094",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_035",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "taigi_dominant",
+  "language_profile_info": {
+    "weight": 60,
+    "description": "台語為主，約80-90%台語，只有少量自然台式華語詞。",
+    "taigi_ratio_prompt": "80-90%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？那個... 我欲毋知咧 [停頓] 。早飯我有食啦，食啥物呢？嗯... 那個菜市仔我去買菜去，伊佇厝附近，攏袂遠啦。我家按呢啥代誌？就是說，孫仔來拜訪阿母啦，齁，真好啊。 [停頓] 想袂起來伊有無食飯咧... 啊，應該有啦，因為伊轉去時陣子，我有見到佇灶跤旁邊食飯嘞。 [嘆氣] 嗯，按呢就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？那個... 我欲毋知咧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1007
+    },
+    {
+      "type": "speech",
+      "text": "。早飯我有食啦，食啥物呢？嗯... 那個菜市仔我去買菜去，伊佇厝附近，攏袂遠啦。我家按呢啥代誌？就是說，孫仔來拜訪阿母啦，齁，真好啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "想袂起來伊有無食飯咧... 啊，應該有啦，因為伊轉去時陣子，我有見到佇灶跤旁邊食飯嘞。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1278
+    },
+    {
+      "type": "speech",
+      "text": "嗯，按呢就這樣啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 4,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 7,
+    "speech_event_count": 4,
+    "pause_event_count": 2,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 2207,
+    "mean_pause_ms": 1103.5,
+    "speech_char_count": 137
+  },
+  "speech_rate_target": 0.92
+}

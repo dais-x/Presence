@@ -1,0 +1,50 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2276
+  },
+  {
+    "type": "speech",
+    "text": "我毋知咧... 阿母早佷啦... 早餐食啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1401
+  },
+  {
+    "type": "cough",
+    "duration_ms": 857
+  },
+  {
+    "type": "speech",
+    "text": "菜市仔欲去，孫仔無去... 嗯，那個... 那個囝仔咧？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2340
+  },
+  {
+    "type": "speech",
+    "text": "噢，以前伊袂來著啊... 阿爸早佷啦... 今早食飯未？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 999
+  },
+  {
+    "type": "speech",
+    "text": "齁，無足胃口，食袂下..."
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1212
+  },
+  {
+    "type": "speech",
+    "text": "還是想阿母... 按呢閣欲去菜市仔..."
+  }
+]

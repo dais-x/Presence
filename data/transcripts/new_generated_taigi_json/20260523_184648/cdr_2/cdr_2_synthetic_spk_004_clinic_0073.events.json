@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_synthetic_spk_004_clinic_0073",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_004",
+    "speaker_group": "older_female_taigi_dominant",
+    "description": "女性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日幾號啊 [停頓] ？我早食啥物？那個... [長停頓] 。 [嘆氣] 我阿母以前咧會做豆花，甜的鹹的都有啦。 [停頓] 我今早有食飯啊，但無知幾時要轉去診所。 [沉默] 醫生啊，我頭好痛，那個按呢？ [咳嗽] 我孫仔今早有來看我，咧講伊學校的事。我欲講啥物啦... [停頓] 。我阿爸以前攏袂這樣，現在輪到我啦。今早有無食飽啊？ [沉默]",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1470
+    },
+    {
+      "type": "speech",
+      "text": "？我早食啥物？那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1549
+    },
+    {
+      "type": "speech",
+      "text": "。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 969
+    },
+    {
+      "type": "speech",
+      "text": "我阿母以前咧會做豆花，甜的鹹的都有啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1362
+    },
+    {
+      "type": "speech",
+      "text": "我今早有食飯啊，但無知幾時要轉去診所。"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 2040
+    },
+    {
+      "type": "speech",
+      "text": "醫生啊，我頭好痛，那個按呢？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "text": "我孫仔今早有來看我，咧講伊學校的事。我欲講啥物啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1491
+    },
+    {
+      "type": "speech",
+      "text": "。我阿爸以前攏袂這樣，現在輪到我啦。今早有無食飽啊？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3223
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 2,
+    "repetition_count": 2,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 16,
+    "speech_event_count": 8,
+    "pause_event_count": 6,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 11135,
+    "mean_pause_ms": 1855.83,
+    "speech_char_count": 124
+  },
+  "speech_rate_target": 0.75
+}

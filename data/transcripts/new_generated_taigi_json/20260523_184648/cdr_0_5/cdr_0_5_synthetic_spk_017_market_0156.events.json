@@ -1,0 +1,58 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_017_market_0156",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "speaker": {
+    "speaker_id": "synthetic_spk_017",
+    "speaker_group": "older_male_taigi_dominant",
+    "description": "男性長輩，台語優勢，65-85歲。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mixed_taigi_mandarin",
+  "language_profile_info": {
+    "weight": 30,
+    "description": "台語與台式華語自然混合，約55-70%台語，允許日常華語插入。",
+    "taigi_ratio_prompt": "55-70%"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "家裡背景音，例如電視、風扇、家人遠處講話。"
+  },
+  "spoken_transcript": "今仔日早辰我去菜市仔買菜啦，那個攤販咧講話真熱絡，一轉去就看到阿公伊在那裡賣鹹魚，我就過去按呢問伊欲毋欲紅豆湯料，伊說有啊，那個我買來啦。然後我又走去隔壁那個攤子買菜，那個老闆娘咧講話超有趣，她講說今仔日天氣真好，嗯，按呢就講起以前阿母伊講的話，就是天晴會曬到人干爽啦。 [停頓] 那個我後來轉去厝內，飯都還沒煮著，我就先整理一下菜啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日早辰我去菜市仔買菜啦，那個攤販咧講話真熱絡，一轉去就看到阿公伊在那裡賣鹹魚，我就過去按呢問伊欲毋欲紅豆湯料，伊說有啊，那個我買來啦。然後我又走去隔壁那個攤子買菜，那個老闆娘咧講話超有趣，她講說今仔日天氣真好，嗯，按呢就講起以前阿母伊講的話，就是天晴會曬到人干爽啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1085
+    },
+    {
+      "type": "speech",
+      "text": "那個我後來轉去厝內，飯都還沒煮著，我就先整理一下菜啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 5,
+    "repetition_count": 0,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 2
+  },
+  "event_stats": {
+    "event_count": 3,
+    "speech_event_count": 2,
+    "pause_event_count": 1,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 1085,
+    "mean_pause_ms": 1085.0,
+    "speech_char_count": 162
+  },
+  "speech_rate_target": 0.92
+}

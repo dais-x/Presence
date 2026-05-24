@@ -1,0 +1,86 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日去菜市仔買菜啦，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1911
+  },
+  {
+    "type": "speech",
+    "text": "那個攤販咧賣好多菜啊，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1174
+  },
+  {
+    "type": "speech",
+    "text": "我欲問伊青江豆幾錢一斤，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1932
+  },
+  {
+    "type": "speech",
+    "text": "伊袂曉講啥物，"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 1858
+  },
+  {
+    "type": "speech",
+    "text": "我就想說那個阿母以前會自己種菜，"
+  },
+  {
+    "type": "speech",
+    "text": "唉"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1156
+  },
+  {
+    "type": "speech",
+    "text": "，那個孫仔咧現在都毋知買菜嗚。"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 936
+  },
+  {
+    "type": "speech",
+    "text": "轉去厝內啦，"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸閣在食飯咧，"
+  },
+  {
+    "type": "speech",
+    "text": "我就想說早餐應該吃個蛋啊，"
+  },
+  {
+    "type": "speech",
+    "text": "以前我們囝仔時候早餐都會吃個鹹蛋配稀飯，"
+  },
+  {
+    "type": "speech",
+    "text": "齁，"
+  },
+  {
+    "type": "speech",
+    "text": "現在哎，"
+  },
+  {
+    "type": "speech",
+    "text": "身體都無力啦，"
+  },
+  {
+    "type": "speech",
+    "text": "真不知怎樣。"
+  }
+]

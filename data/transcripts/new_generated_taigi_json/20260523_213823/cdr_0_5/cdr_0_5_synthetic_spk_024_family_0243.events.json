@@ -1,0 +1,38 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日囝仔轉來厝內食飯，伊攏攜孫仔一齊來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 755
+  },
+  {
+    "type": "speech",
+    "text": "大家坐佇灶跤邊啦，話題就一大堆。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 951
+  },
+  {
+    "type": "speech",
+    "text": "那個... 我跟阿母講說，孫仔咧長大拉，按呢個時候欲開始學煮飯啊。"
+  },
+  {
+    "type": "speech",
+    "text": "阿爸就講說，以前伊讀書時，阿母就會教伊煮菜。"
+  },
+  {
+    "type": "speech",
+    "text": "想袂起來啥物先學起，齁就是從簡單的做起啦。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1343
+  },
+  {
+    "type": "speech",
+    "text": "唉，時間真快啊。"
+  }
+]

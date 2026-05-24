@@ -1,0 +1,98 @@
+{
+  "sample_id": "cdr_0_5_synthetic_spk_028_clinic_0207",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_028",
+    "speaker_group": "older_female_mixed",
+    "description": "女性長輩，台語與台式華語混合。",
+    "split": "val"
+  },
+  "split": "val",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間/候診室輕微環境噪音。"
+  },
+  "spoken_transcript": "今仔日幾號啊？ [停頓] 我欲毋知咧... 想袂起來啦。那個是週幾呢？ [停頓] 早餐我食啥物啊，就是有買豆漿跟油條啊。那個還有講到厝裡按呢咋樣啊？ [嘆氣] 阿母按呢還好啦，就是腳有點酸齁。咧轉去菜市仔時看到阿爸咧，伊說要去修理電器咧。 [咳嗽] 噗... 然後囝仔足來講有啥新代誌啊。孫仔今早有畫圖哦，誠畫得好可愛啦。 [停頓] 那個按呢要嘛去買菜還是怎樣？ [停頓] 那個按呢就看看咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 678
+    },
+    {
+      "type": "speech",
+      "text": "我欲毋知咧... 想袂起來啦。那個是週幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "早餐我食啥物啊，就是有買豆漿跟油條啊。那個還有講到厝裡按呢咋樣啊？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "text": "阿母按呢還好啦，就是腳有點酸齁。咧轉去菜市仔時看到阿爸咧，伊說要去修理電器咧。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 529
+    },
+    {
+      "type": "speech",
+      "text": "噗... 然後囝仔足來講有啥新代誌啊。孫仔今早有畫圖哦，誠畫得好可愛啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 931
+    },
+    {
+      "type": "speech",
+      "text": "那個按呢要嘛去買菜還是怎樣？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "text": "那個按呢就看看咧。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 6,
+    "repetition_count": 3,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 3
+  },
+  "event_stats": {
+    "event_count": 13,
+    "speech_event_count": 7,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 1,
+    "pause_total_ms": 4009,
+    "mean_pause_ms": 1002.25,
+    "speech_char_count": 160
+  },
+  "speech_rate_target": 0.92
+}

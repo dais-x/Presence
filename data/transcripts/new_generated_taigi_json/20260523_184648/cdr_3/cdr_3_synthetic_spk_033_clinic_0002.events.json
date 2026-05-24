@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_3_synthetic_spk_033_clinic_0002",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "speaker": {
+    "speaker_id": "synthetic_spk_033",
+    "speaker_group": "older_male_mixed",
+    "description": "男性長輩，台語與台式華語混合。",
+    "split": "train"
+  },
+  "split": "train",
+  "language_profile": "mandarin_dominant_mixed",
+  "language_profile_info": {
+    "weight": 10,
+    "description": "台式華語較多，但仍保留台語詞、語氣詞與家庭/市場相關台語詞。",
+    "taigi_ratio_prompt": "25-45%"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 40,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "spoken_transcript": "今仔日... [停頓] 無知啥代誌... 阿母咧？ [長停頓] 咳嗽... 囝仔去哪攏？ [沉默] 啥物時間？ [嘆氣] 食飯啦，阿爸。 [長停頓] 冷啦，冷啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "今仔日..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1388
+    },
+    {
+      "type": "speech",
+      "text": "無知啥代誌... 阿母咧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 5216
+    },
+    {
+      "type": "speech",
+      "text": "咳嗽... 囝仔去哪攏？"
+    },
+    {
+      "type": "silence",
+      "duration_ms": 3503
+    },
+    {
+      "type": "speech",
+      "text": "啥物時間？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 643
+    },
+    {
+      "type": "speech",
+      "text": "食飯啦，阿爸。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 2144
+    },
+    {
+      "type": "speech",
+      "text": "冷啦，冷啦。"
+    }
+  ],
+  "impairment_labels": {
+    "word_finding_count": 0,
+    "repetition_count": 4,
+    "repair_count": 0,
+    "semantic_drift_count": 0,
+    "orientation_error": false,
+    "code_switch_count": 0
+  },
+  "event_stats": {
+    "event_count": 11,
+    "speech_event_count": 6,
+    "pause_event_count": 4,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "pause_total_ms": 12251,
+    "mean_pause_ms": 3062.75,
+    "speech_char_count": 49
+  },
+  "speech_rate_target": 0.65
+}

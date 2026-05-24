@@ -1,0 +1,66 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日早上去菜市仔，那個攤販咧賣青菜欲緊，我買了一籃子回來。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2376
+  },
+  {
+    "type": "speech",
+    "text": "阿母年輕時會做啥物？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2294
+  },
+  {
+    "type": "speech",
+    "text": "齁，轉去厝內啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2217
+  },
+  {
+    "type": "speech",
+    "text": "孫仔昨晡夜睡著沒？"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 962
+  },
+  {
+    "type": "speech",
+    "text": "講起以前咧，那個咱小時候囝仔好多朋友，一起出去玩。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 2545
+  },
+  {
+    "type": "speech",
+    "text": "早咧食啥物啊？"
+  },
+  {
+    "type": "cough",
+    "duration_ms": 1092
+  },
+  {
+    "type": "speech",
+    "text": "現在頭腦不太清，想袂起來啦。"
+  },
+  {
+    "type": "speech",
+    "text": "唉，阿爸以前煮飯好手藝。"
+  },
+  {
+    "type": "speech",
+    "text": "今朝天氣真好，想去公園轉轉去。"
+  },
+  {
+    "type": "sigh",
+    "duration_ms": 1390
+  }
+]

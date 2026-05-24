@@ -1,0 +1,46 @@
+[
+  {
+    "type": "speech",
+    "text": "今仔日幾號啊？"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 710
+  },
+  {
+    "type": "speech",
+    "text": "我記袂起來啦。"
+  },
+  {
+    "type": "pause",
+    "duration_ms": 495
+  },
+  {
+    "type": "speech",
+    "text": "醫生，你知無咧？"
+  },
+  {
+    "type": "speech",
+    "text": "早餐我食啥物呢？"
+  },
+  {
+    "type": "speech",
+    "text": "嗯... 食花生湯啦。"
+  },
+  {
+    "type": "speech",
+    "text": "那個阿母做給我食，齁香嘛。"
+  },
+  {
+    "type": "speech",
+    "text": "按呢厝裡有啥代誌嗎？"
+  },
+  {
+    "type": "speech",
+    "text": "噗哈哈哈，想袂起來囉。"
+  },
+  {
+    "type": "speech",
+    "text": "就是今天無啥特別代誌啦。"
+  }
+]
