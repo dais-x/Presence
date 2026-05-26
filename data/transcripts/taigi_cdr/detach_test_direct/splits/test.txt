@@ -1,0 +1,5 @@
+data/transcripts/taigi_cdr/detach_test_direct/cdr_0/cdr_0_market_0000.txt
+data/transcripts/taigi_cdr/detach_test_direct/cdr_0_5/cdr_0_5_family_0000.txt
+data/transcripts/taigi_cdr/detach_test_direct/cdr_1/cdr_1_morning_0000.txt
+data/transcripts/taigi_cdr/detach_test_direct/cdr_2/cdr_2_clinic_0000.txt
+data/transcripts/taigi_cdr/detach_test_direct/cdr_3/cdr_3_memory_0000.txt

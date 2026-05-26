@@ -1,0 +1,1001 @@
+sample_id,text_path,scenario,assigned_cdr,assigned_label,heuristic_cdr,cdr_alignment,language_quality,review_flags,char_count,sentence_count,pause_count,long_pause_count,silence_count,sigh_count,cough_count,uncertainty_count,orientation_terms,topic_terms,drift_terms,fragment_ratio,taiwanese_ratio,mandarin_ratio,num_switches
+cdr_0_clinic_0003,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0003.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,95,8,1,0,0,0,0,1,5,5,0,0.375,0.441,0.559,30
+cdr_0_clinic_0008,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0008.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,131,5,1,0,0,0,0,1,7,4,0,0.2,0.248,0.752,30
+cdr_0_clinic_0013,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0013.txt,clinic,0,normal,0,match,pass,,106,6,1,0,0,0,0,0,7,4,0,0.167,0.336,0.664,38
+cdr_0_clinic_0018,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0018.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:几,96,6,1,0,0,0,0,1,4,7,0,0.167,0.32,0.68,28
+cdr_0_clinic_0023,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0023.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:俺,114,7,1,0,0,0,0,1,7,4,0,0.286,0.305,0.695,26
+cdr_0_clinic_0028,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0028.txt,clinic,0,normal,0,match,pass,,100,2,1,0,0,0,0,0,2,4,0,0.0,0.232,0.768,22
+cdr_0_clinic_0033,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0033.txt,clinic,0,normal,0,match,pass,,85,4,1,0,0,0,0,0,2,3,0,0.0,0.22,0.78,24
+cdr_0_clinic_0038,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0038.txt,clinic,0,normal,0,match,pass,,108,6,1,0,0,0,0,0,1,6,0,0.167,0.292,0.708,34
+cdr_0_clinic_0043,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0043.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,107,7,1,0,0,0,0,1,1,5,0,0.286,0.229,0.771,30
+cdr_0_clinic_0048,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0048.txt,clinic,0,normal,0,match,review,orthography_review:嘸|佷,107,6,1,0,0,0,0,0,6,7,0,0.5,0.469,0.531,40
+cdr_0_clinic_0053,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0053.txt,clinic,0,normal,0,match,pass,,107,7,1,0,0,0,0,0,5,5,0,0.286,0.306,0.694,32
+cdr_0_clinic_0058,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0058.txt,clinic,0,normal,0,match,pass,,133,5,1,0,0,0,0,0,4,6,0,0.2,0.276,0.724,44
+cdr_0_clinic_0063,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0063.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,86,6,1,0,0,0,0,1,4,6,0,0.167,0.364,0.636,28
+cdr_0_clinic_0068,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0068.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:係,82,6,1,0,0,0,0,1,5,4,0,0.333,0.366,0.634,26
+cdr_0_clinic_0073,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0073.txt,clinic,0,normal,0,match,pass,,118,7,1,0,0,0,0,0,4,4,0,0.286,0.265,0.735,38
+cdr_0_clinic_0078,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0078.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,114,4,1,0,0,0,0,1,3,4,0,0.0,0.259,0.741,38
+cdr_0_clinic_0083,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0083.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,97,7,1,0,0,0,0,1,4,4,0,0.429,0.333,0.667,36
+cdr_0_clinic_0088,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0088.txt,clinic,0,normal,0,match,pass,,113,5,1,0,0,0,0,0,3,6,0,0.2,0.283,0.717,32
+cdr_0_clinic_0093,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0093.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,120,5,1,0,0,0,0,1,5,6,0,0.4,0.414,0.586,40
+cdr_0_clinic_0098,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0098.txt,clinic,0,normal,0,match,pass,,104,4,1,0,0,0,0,0,1,5,0,0.0,0.206,0.794,22
+cdr_0_clinic_0103,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0103.txt,clinic,0,normal,0,match,pass,,111,3,1,0,0,0,0,0,1,5,0,0.0,0.275,0.725,36
+cdr_0_clinic_0108,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0108.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,92,6,1,0,0,0,0,1,5,2,0,0.167,0.304,0.696,28
+cdr_0_clinic_0113,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0113.txt,clinic,0,normal,0,match,pass,,101,6,1,0,0,0,0,0,3,4,0,0.167,0.277,0.723,28
+cdr_0_clinic_0118,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0118.txt,clinic,0,normal,0,match,pass,,98,9,1,0,0,0,0,0,3,7,0,0.333,0.374,0.626,36
+cdr_0_clinic_0123,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0123.txt,clinic,0,normal,0,match,pass,,69,2,1,0,0,0,0,0,2,1,0,0.5,0.227,0.773,16
+cdr_0_clinic_0128,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0128.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,106,6,1,0,0,0,0,1,4,3,0,0.333,0.298,0.702,36
+cdr_0_clinic_0133,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0133.txt,clinic,0,normal,0,match,pass,,105,9,1,0,0,0,0,0,5,5,0,0.444,0.337,0.663,36
+cdr_0_clinic_0138,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0138.txt,clinic,0,normal,0,match,pass,,102,8,1,0,0,0,0,0,6,2,0,0.375,0.277,0.723,30
+cdr_0_clinic_0143,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0143.txt,clinic,0,normal,0,match,review,orthography_review:係,116,8,1,0,0,0,0,0,4,5,0,0.375,0.342,0.658,32
+cdr_0_clinic_0148,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0148.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,157,8,1,0,0,0,0,1,5,4,0,0.0,0.237,0.763,42
+cdr_0_clinic_0153,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0153.txt,clinic,0,normal,0,match,pass,,92,6,1,0,0,0,0,0,4,5,0,0.333,0.319,0.681,28
+cdr_0_clinic_0158,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0158.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:ㄟ,116,5,1,0,0,0,0,1,3,5,0,0.2,0.379,0.621,28
+cdr_0_clinic_0163,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0163.txt,clinic,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,110,3,1,0,0,0,0,0,2,3,0,0.0,0.159,0.841,22
+cdr_0_clinic_0168,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0168.txt,clinic,0,normal,0,match,pass,,109,8,1,0,0,0,0,0,3,4,0,0.375,0.243,0.757,30
+cdr_0_clinic_0173,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0173.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,104,6,1,0,0,0,0,1,7,6,0,0.0,0.24,0.76,30
+cdr_0_clinic_0178,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0178.txt,clinic,0,normal,0,match,pass,,88,8,1,0,0,0,0,0,6,3,0,0.5,0.244,0.756,28
+cdr_0_clinic_0183,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0183.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,87,4,1,0,0,0,0,1,3,6,0,0.0,0.333,0.667,24
+cdr_0_clinic_0188,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0188.txt,clinic,0,normal,0,match,pass,,82,3,1,0,0,0,0,0,3,6,0,0.0,0.333,0.667,30
+cdr_0_clinic_0193,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0193.txt,clinic,0,normal,0.5,review,review,heuristic_cdr_0.5,108,6,1,0,0,0,0,1,5,5,0,0.167,0.312,0.688,34
+cdr_0_clinic_0198,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_clinic_0198.txt,clinic,0,normal,0,match,pass,,90,4,1,0,0,0,0,0,4,4,0,0.0,0.256,0.744,34
+cdr_0_family_0001,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0001.txt,family,0,normal,0,match,pass,,86,4,1,0,0,0,0,0,1,5,0,0.0,0.473,0.527,30
+cdr_0_family_0006,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0006.txt,family,0,normal,0,match,pass,,142,7,1,0,0,0,0,0,1,8,0,0.0,0.354,0.646,54
+cdr_0_family_0011,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0011.txt,family,0,normal,0,match,review,orthography_review:佷,144,5,1,0,0,0,0,0,2,7,0,0.0,0.428,0.572,58
+cdr_0_family_0016,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0016.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,98,3,1,0,0,0,0,1,1,6,0,0.0,0.543,0.457,42
+cdr_0_family_0021,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0021.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,121,5,1,0,0,0,0,1,1,10,0,0.0,0.515,0.485,52
+cdr_0_family_0026,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0026.txt,family,0,normal,0,match,review,orthography_review:係,115,3,1,0,0,0,0,0,1,7,0,0.0,0.378,0.622,38
+cdr_0_family_0031,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0031.txt,family,0,normal,0,match,pass,,141,7,1,0,0,0,0,0,2,8,0,0.0,0.361,0.639,50
+cdr_0_family_0036,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0036.txt,family,0,normal,0,match,pass,,165,10,1,0,0,0,0,0,3,8,0,0.0,0.308,0.692,54
+cdr_0_family_0041,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0041.txt,family,0,normal,0,match,pass,,127,5,1,0,0,0,0,0,1,7,0,0.0,0.349,0.651,56
+cdr_0_family_0046,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0046.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:嘸,118,4,1,0,0,0,0,1,1,6,0,0.0,0.39,0.61,44
+cdr_0_family_0051,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0051.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,177,7,1,0,0,0,0,1,2,8,0,0.0,0.35,0.65,66
+cdr_0_family_0056,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0056.txt,family,0,normal,0,match,pass,,119,6,1,0,0,0,0,0,1,7,0,0.0,0.446,0.554,56
+cdr_0_family_0061,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0061.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:嘸,146,6,1,0,0,0,0,1,1,8,0,0.0,0.389,0.611,60
+cdr_0_family_0066,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0066.txt,family,0,normal,0,match,pass,,165,5,1,0,0,0,0,0,1,8,0,0.0,0.303,0.697,56
+cdr_0_family_0071,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0071.txt,family,0,normal,0,match,pass,,114,6,1,0,0,0,0,0,1,5,0,0.0,0.368,0.632,40
+cdr_0_family_0076,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0076.txt,family,0,normal,0,match,pass,,99,5,1,0,0,0,0,0,1,8,0,0.0,0.431,0.569,36
+cdr_0_family_0081,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0081.txt,family,0,normal,0,match,review,orthography_review:嘸,147,6,1,0,0,0,0,0,1,6,0,0.333,0.275,0.725,42
+cdr_0_family_0086,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0086.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:係,134,6,1,0,0,0,0,1,2,8,0,0.0,0.399,0.601,56
+cdr_0_family_0091,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0091.txt,family,0,normal,0,match,pass,,136,7,1,0,0,0,0,0,1,5,0,0.143,0.283,0.717,42
+cdr_0_family_0096,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0096.txt,family,0,normal,0,match,pass,,134,4,1,0,0,0,0,0,2,8,0,0.0,0.289,0.711,42
+cdr_0_family_0101,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0101.txt,family,0,normal,0,match,pass,,116,5,1,0,0,0,0,0,2,7,0,0.0,0.388,0.612,44
+cdr_0_family_0106,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0106.txt,family,0,normal,0,match,pass,,141,7,1,0,0,0,0,0,2,9,0,0.0,0.49,0.51,62
+cdr_0_family_0111,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0111.txt,family,0,normal,0,match,pass,,198,8,1,0,0,0,0,0,1,8,0,0.125,0.397,0.603,68
+cdr_0_family_0116,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0116.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,147,6,1,0,0,0,0,2,1,11,0,0.0,0.412,0.588,52
+cdr_0_family_0121,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0121.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,122,5,1,0,0,0,0,1,2,8,0,0.0,0.341,0.659,42
+cdr_0_family_0126,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0126.txt,family,0,normal,0,match,review,orthography_review:係,126,6,1,0,0,0,0,0,2,9,0,0.0,0.394,0.606,44
+cdr_0_family_0131,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0131.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,134,5,1,0,0,0,0,1,1,9,0,0.0,0.409,0.591,64
+cdr_0_family_0136,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0136.txt,family,0,normal,0,match,review,orthography_review:係,108,5,1,0,0,0,0,0,1,6,0,0.0,0.416,0.584,40
+cdr_0_family_0141,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0141.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:嘸,153,6,1,0,0,0,0,1,1,7,0,0.0,0.363,0.637,62
+cdr_0_family_0146,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0146.txt,family,0,normal,0,match,pass,,133,4,1,0,0,0,0,0,2,8,0,0.0,0.418,0.582,46
+cdr_0_family_0151,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0151.txt,family,0,normal,0,match,review,orthography_review:ㄟ,130,7,1,0,0,1,0,0,2,7,0,0.286,0.333,0.667,40
+cdr_0_family_0156,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0156.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,129,4,1,0,0,0,0,1,1,9,0,0.0,0.467,0.533,56
+cdr_0_family_0161,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0161.txt,family,0,normal,0,match,pass,,175,7,1,0,0,0,0,0,1,6,0,0.0,0.241,0.759,54
+cdr_0_family_0166,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0166.txt,family,0,normal,0,match,pass,,122,5,1,0,0,0,0,0,1,8,0,0.0,0.336,0.664,44
+cdr_0_family_0171,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0171.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,111,5,1,0,0,0,0,1,2,6,0,0.2,0.479,0.521,40
+cdr_0_family_0176,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0176.txt,family,0,normal,0,match,review,orthography_review:係,104,5,1,0,0,0,0,0,1,3,0,0.0,0.368,0.632,40
+cdr_0_family_0181,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0181.txt,family,0,normal,0.5,review,review,heuristic_cdr_0.5,145,5,1,0,0,0,0,3,2,9,0,0.0,0.425,0.575,56
+cdr_0_family_0186,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0186.txt,family,0,normal,0,match,pass,,138,5,1,0,0,0,0,0,1,8,0,0.0,0.383,0.617,56
+cdr_0_family_0191,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0191.txt,family,0,normal,0,match,pass,,101,3,1,0,0,0,0,0,1,7,0,0.0,0.421,0.579,36
+cdr_0_family_0196,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_family_0196.txt,family,0,normal,0,match,pass,,121,6,1,0,0,0,0,0,1,7,0,0.167,0.39,0.61,56
+cdr_0_market_0000,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0000.txt,market,0,normal,0,match,pass,,111,5,1,0,0,0,0,0,2,3,0,0.0,0.227,0.773,28
+cdr_0_market_0005,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0005.txt,market,0,normal,0,match,review,orthography_review:ㄟ,167,3,1,0,0,0,0,0,2,6,0,0.0,0.282,0.718,48
+cdr_0_market_0010,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0010.txt,market,0,normal,0,match,pass,,141,3,1,0,0,0,0,0,1,4,0,0.0,0.312,0.688,42
+cdr_0_market_0015,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0015.txt,market,0,normal,0,match,pass,,143,6,1,0,0,0,0,0,1,4,0,0.0,0.232,0.768,36
+cdr_0_market_0020,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0020.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5,164,5,1,0,0,0,0,1,2,5,0,0.0,0.295,0.705,50
+cdr_0_market_0025,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0025.txt,market,0,normal,0,match,pass,,100,4,1,0,0,0,0,0,1,6,0,0.25,0.4,0.6,32
+cdr_0_market_0030,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0030.txt,market,0,normal,0,match,review,orthography_review:佷,146,6,1,0,0,0,0,0,1,4,0,0.0,0.245,0.755,36
+cdr_0_market_0035,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0035.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5,164,5,1,0,0,0,0,1,1,7,0,0.0,0.382,0.618,52
+cdr_0_market_0040,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0040.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5,124,3,1,0,0,0,0,1,1,3,0,0.0,0.302,0.698,36
+cdr_0_market_0045,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0045.txt,market,0,normal,0,match,review,orthography_review:嘸,148,5,1,0,0,0,0,0,4,4,0,0.0,0.377,0.623,50
+cdr_0_market_0050,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0050.txt,market,0,normal,0,match,pass,,129,6,1,0,0,0,0,0,1,4,0,0.333,0.391,0.609,50
+cdr_0_market_0055,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0055.txt,market,0,normal,0,match,pass,,127,5,1,0,0,0,0,0,2,4,0,0.0,0.267,0.733,26
+cdr_0_market_0060,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0060.txt,market,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,165,6,1,0,0,0,0,0,2,2,0,0.0,0.167,0.833,36
+cdr_0_market_0065,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0065.txt,market,0,normal,0,match,review,orthography_review:佷,104,6,1,0,0,0,0,0,2,3,0,0.167,0.291,0.709,32
+cdr_0_market_0070,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0070.txt,market,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:嘸|佷,113,6,1,0,0,0,0,0,2,2,0,0.0,0.174,0.826,28
+cdr_0_market_0075,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0075.txt,market,0,normal,0,match,pass,,123,5,1,0,0,0,0,0,1,3,0,0.0,0.254,0.746,38
+cdr_0_market_0080,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0080.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:佷,138,6,1,0,0,0,0,1,1,5,0,0.0,0.304,0.696,46
+cdr_0_market_0085,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0085.txt,market,0,normal,0,match,review,orthography_review:嘸|佷,148,4,1,0,0,0,0,0,2,5,0,0.0,0.27,0.73,46
+cdr_0_market_0090,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0090.txt,market,0,normal,0,match,pass,,123,3,1,0,0,0,0,0,1,7,0,0.0,0.435,0.565,36
+cdr_0_market_0095,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0095.txt,market,0,normal,0,match,pass,,143,6,1,0,0,0,0,0,2,2,0,0.0,0.239,0.761,40
+cdr_0_market_0100,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0100.txt,market,0,normal,0,match,pass,,112,4,1,0,0,0,0,0,1,3,0,0.0,0.312,0.688,40
+cdr_0_market_0105,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0105.txt,market,0,normal,0,match,review,orthography_review:佷|係,135,4,1,0,0,0,0,0,2,3,0,0.0,0.343,0.657,46
+cdr_0_market_0110,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0110.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:ㄟ,155,5,1,0,0,0,0,1,2,5,0,0.0,0.278,0.722,34
+cdr_0_market_0115,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0115.txt,market,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,149,6,1,0,0,0,0,0,2,3,0,0.0,0.176,0.824,26
+cdr_0_market_0120,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0120.txt,market,0,normal,0,match,review,orthography_review:佷|係,129,3,1,0,0,0,0,0,2,5,0,0.0,0.264,0.736,34
+cdr_0_market_0125,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0125.txt,market,0,normal,0,match,pass,,129,5,1,0,0,0,0,0,1,4,0,0.0,0.227,0.773,28
+cdr_0_market_0130,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0130.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5,125,3,1,0,0,0,0,1,2,3,0,0.0,0.299,0.701,34
+cdr_0_market_0135,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0135.txt,market,0,normal,0,match,pass,,117,3,1,0,0,0,0,0,1,4,0,0.0,0.224,0.776,30
+cdr_0_market_0140,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0140.txt,market,0,normal,0,match,pass,,130,4,1,0,0,0,0,0,2,3,0,0.0,0.285,0.715,44
+cdr_0_market_0145,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0145.txt,market,0,normal,0,match,review,orthography_review:係,171,7,1,0,0,0,0,0,3,5,0,0.0,0.324,0.676,44
+cdr_0_market_0150,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0150.txt,market,0,normal,0,match,pass,,152,8,1,0,0,0,0,0,1,6,0,0.0,0.284,0.716,40
+cdr_0_market_0155,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0155.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5,114,5,1,0,0,0,0,1,2,3,0,0.0,0.234,0.766,28
+cdr_0_market_0160,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0160.txt,market,0,normal,0,match,pass,,125,5,1,0,0,0,0,0,2,5,0,0.0,0.264,0.736,30
+cdr_0_market_0165,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0165.txt,market,0,normal,0,match,review,orthography_review:嘸|係,145,5,1,0,0,0,0,0,1,5,0,0.0,0.259,0.741,34
+cdr_0_market_0170,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0170.txt,market,0,normal,0,match,pass,,136,6,1,0,0,0,0,0,2,2,0,0.0,0.2,0.8,34
+cdr_0_market_0175,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0175.txt,market,0,normal,0,match,pass,,138,4,1,0,0,0,0,0,1,4,0,0.0,0.273,0.727,42
+cdr_0_market_0180,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0180.txt,market,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,147,7,1,0,0,0,0,0,1,4,0,0.0,0.186,0.814,28
+cdr_0_market_0185,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0185.txt,market,0,normal,0,match,pass,,153,7,1,0,0,0,0,0,1,4,0,0.0,0.23,0.77,44
+cdr_0_market_0190,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0190.txt,market,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio,145,6,1,0,0,0,0,1,1,3,0,0.0,0.193,0.807,30
+cdr_0_market_0195,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_market_0195.txt,market,0,normal,0,match,review,orthography_review:佷,108,3,1,0,0,0,0,0,1,4,0,0.0,0.269,0.731,30
+cdr_0_memory_0004,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0004.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:ㄟ|係,135,5,1,0,0,0,0,0,1,3,0,0.0,0.158,0.842,22
+cdr_0_memory_0009,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0009.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,200,5,1,0,0,0,0,0,1,3,0,0.0,0.141,0.859,34
+cdr_0_memory_0014,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0014.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,148,3,1,0,0,0,0,0,2,3,0,0.0,0.192,0.808,38
+cdr_0_memory_0019,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0019.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,177,5,1,0,0,0,0,0,1,2,0,0.0,0.134,0.866,36
+cdr_0_memory_0024,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0024.txt,memory,0,normal,0,match,review,orthography_review:𠲎|係,129,5,0,0,0,0,0,0,2,4,0,0.0,0.333,0.667,40
+cdr_0_memory_0029,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0029.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5,176,7,1,0,0,0,0,1,2,4,0,0.0,0.304,0.696,52
+cdr_0_memory_0034,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0034.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,138,6,1,0,0,0,0,0,1,3,0,0.0,0.181,0.819,24
+cdr_0_memory_0039,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0039.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,152,6,1,0,0,0,0,0,2,3,0,0.0,0.154,0.846,28
+cdr_0_memory_0044,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0044.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,153,4,1,0,0,0,0,0,1,2,0,0.0,0.172,0.828,34
+cdr_0_memory_0049,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0049.txt,memory,0,normal,0,match,review,orthography_review:係,126,3,1,0,0,0,0,0,1,4,0,0.0,0.244,0.756,30
+cdr_0_memory_0054,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0054.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,116,3,1,0,0,0,0,0,1,1,0,0.0,0.158,0.842,20
+cdr_0_memory_0059,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0059.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,177,7,1,0,0,0,0,0,1,4,0,0.0,0.173,0.827,40
+cdr_0_memory_0064,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0064.txt,memory,0,normal,0,match,review,orthography_review:係,142,5,1,0,0,0,0,0,1,6,0,0.0,0.207,0.793,38
+cdr_0_memory_0069,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0069.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,174,7,1,0,0,0,0,0,1,3,0,0.0,0.164,0.836,38
+cdr_0_memory_0074,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0074.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5,143,6,1,0,0,0,0,1,1,6,0,0.0,0.285,0.715,44
+cdr_0_memory_0079,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0079.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio,148,6,1,0,0,0,0,1,2,3,0,0.0,0.172,0.828,34
+cdr_0_memory_0084,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0084.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:係,179,5,1,0,0,0,0,0,1,4,0,0.0,0.153,0.847,34
+cdr_0_memory_0089,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0089.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,165,6,1,0,0,0,0,0,2,3,0,0.0,0.16,0.84,34
+cdr_0_memory_0094,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0094.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio;orthography_review:係,163,5,1,0,0,0,0,1,1,2,0,0.0,0.15,0.85,32
+cdr_0_memory_0099,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0099.txt,memory,0,normal,0,match,review,orthography_review:嘸|佷,176,6,1,0,0,0,0,0,1,5,0,0.0,0.235,0.765,44
+cdr_0_memory_0104,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0104.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,172,6,1,0,0,0,0,0,1,4,0,0.0,0.175,0.825,40
+cdr_0_memory_0109,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0109.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio,140,5,1,0,0,0,0,1,1,3,0,0.0,0.159,0.841,24
+cdr_0_memory_0114,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0114.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:佷,154,4,1,0,0,0,0,1,1,4,0,0.0,0.23,0.77,48
+cdr_0_memory_0119,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0119.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5,176,7,1,0,0,0,0,1,1,3,0,0.0,0.239,0.761,50
+cdr_0_memory_0124,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0124.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,160,6,1,0,0,0,0,0,1,4,0,0.0,0.171,0.829,34
+cdr_0_memory_0129,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0129.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:嘸|係,167,6,1,0,0,0,0,0,2,5,0,0.0,0.159,0.841,38
+cdr_0_memory_0134,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0134.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,151,5,1,0,0,0,0,0,1,4,0,0.0,0.181,0.819,32
+cdr_0_memory_0139,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0139.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,150,6,1,0,0,0,0,0,1,2,0,0.0,0.169,0.831,30
+cdr_0_memory_0144,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0144.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5,136,5,1,0,0,0,0,1,1,4,0,0.0,0.23,0.77,34
+cdr_0_memory_0149,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0149.txt,memory,0,normal,0,match,pass,,135,6,1,0,0,0,0,0,1,5,0,0.0,0.243,0.757,30
+cdr_0_memory_0154,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0154.txt,memory,0,normal,0,match,review,orthography_review:係,155,7,1,0,0,0,0,0,1,6,0,0.143,0.276,0.724,44
+cdr_0_memory_0159,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0159.txt,memory,0,normal,0,match,pass,,136,4,1,0,0,0,0,0,1,3,0,0.0,0.204,0.796,26
+cdr_0_memory_0164,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0164.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,135,5,1,0,0,0,0,0,2,3,0,0.0,0.173,0.827,32
+cdr_0_memory_0169,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0169.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio;orthography_review:佷,139,5,1,0,0,0,0,1,1,3,0,0.2,0.178,0.822,34
+cdr_0_memory_0174,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0174.txt,memory,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:係,114,4,1,0,0,0,0,1,2,3,0,0.0,0.254,0.746,32
+cdr_0_memory_0179,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0179.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,163,5,1,0,0,0,0,0,1,2,0,0.0,0.101,0.899,24
+cdr_0_memory_0184,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0184.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,148,7,1,0,0,0,0,0,1,3,0,0.0,0.164,0.836,32
+cdr_0_memory_0189,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0189.txt,memory,0,normal,0,match,pass,,150,7,1,0,0,0,0,0,2,4,0,0.0,0.233,0.767,34
+cdr_0_memory_0194,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0194.txt,memory,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,156,6,1,0,0,0,0,0,1,4,0,0.0,0.188,0.812,32
+cdr_0_memory_0199,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_memory_0199.txt,memory,0,normal,0,match,review,orthography_review:係,144,5,1,0,0,0,0,0,1,4,0,0.0,0.226,0.774,32
+cdr_0_morning_0002,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0002.txt,morning,0,normal,0.5,review,review,heuristic_cdr_0.5;low_taigi_ratio;high_mandarin_ratio,178,6,1,0,0,0,0,1,1,4,0,0.0,0.132,0.868,32
+cdr_0_morning_0007,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0007.txt,morning,0,normal,0,match,pass,,108,5,1,0,0,0,0,0,1,3,0,0.0,0.243,0.757,26
+cdr_0_morning_0012,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0012.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,126,4,1,0,0,0,0,0,1,5,0,0.0,0.172,0.828,28
+cdr_0_morning_0017,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0017.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,100,4,1,0,0,0,0,0,1,2,0,0.0,0.177,0.823,22
+cdr_0_morning_0022,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0022.txt,morning,0,normal,0,match,pass,,106,4,1,0,0,0,0,0,1,2,0,0.0,0.212,0.788,24
+cdr_0_morning_0027,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0027.txt,morning,0,normal,0,match,pass,,106,4,1,0,0,0,0,0,1,4,0,0.0,0.212,0.788,24
+cdr_0_morning_0032,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0032.txt,morning,0,normal,0,match,pass,,100,5,1,0,0,0,0,0,1,4,0,0.0,0.235,0.765,26
+cdr_0_morning_0037,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0037.txt,morning,0,normal,0,match,pass,,116,5,1,0,0,0,0,0,1,6,0,0.0,0.241,0.759,38
+cdr_0_morning_0042,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0042.txt,morning,0,normal,0,match,pass,,101,3,1,0,0,0,0,0,1,3,0,0.0,0.255,0.745,34
+cdr_0_morning_0047,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0047.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,116,4,1,0,0,0,0,0,1,4,0,0.0,0.186,0.814,24
+cdr_0_morning_0052,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0052.txt,morning,0,normal,0,match,pass,,132,5,1,0,0,0,0,0,1,4,0,0.0,0.221,0.779,32
+cdr_0_morning_0057,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0057.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,99,4,1,0,0,0,0,0,1,3,0,0.0,0.189,0.811,22
+cdr_0_morning_0062,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0062.txt,morning,0,normal,0,match,pass,,91,4,1,0,0,0,0,0,1,3,0,0.0,0.23,0.77,26
+cdr_0_morning_0067,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0067.txt,morning,0,normal,0,match,pass,,101,3,1,0,0,0,0,0,1,2,0,0.0,0.2,0.8,22
+cdr_0_morning_0072,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0072.txt,morning,0,normal,0,match,pass,,103,4,1,0,0,0,0,0,1,3,0,0.0,0.265,0.735,32
+cdr_0_morning_0077,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0077.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,135,6,1,0,0,0,0,0,1,3,0,0.0,0.197,0.803,34
+cdr_0_morning_0082,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0082.txt,morning,0,normal,0,match,pass,,119,3,1,0,0,0,0,0,1,7,0,0.0,0.308,0.692,36
+cdr_0_morning_0087,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0087.txt,morning,0,normal,0,match,pass,,131,4,1,0,0,0,0,0,1,5,0,0.0,0.202,0.798,30
+cdr_0_morning_0092,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0092.txt,morning,0,normal,0,match,pass,,96,4,1,0,0,0,0,0,1,2,0,0.0,0.245,0.755,28
+cdr_0_morning_0097,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0097.txt,morning,0,normal,0.5,review,review,heuristic_cdr_0.5,120,4,1,0,0,0,0,1,1,1,0,0.0,0.287,0.713,34
+cdr_0_morning_0102,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0102.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,159,6,1,0,0,0,0,0,1,2,0,0.0,0.154,0.846,36
+cdr_0_morning_0107,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0107.txt,morning,0,normal,0.5,review,review,heuristic_cdr_0.5,92,3,1,0,0,0,0,1,1,2,0,0.0,0.2,0.8,18
+cdr_0_morning_0112,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0112.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,119,7,1,0,0,0,0,0,1,2,0,0.143,0.19,0.81,28
+cdr_0_morning_0117,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0117.txt,morning,0,normal,0,match,pass,,98,4,1,0,0,0,0,0,1,4,0,0.0,0.278,0.722,24
+cdr_0_morning_0122,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0122.txt,morning,0,normal,0,match,pass,,93,3,1,0,0,0,0,0,1,4,0,0.0,0.228,0.772,20
+cdr_0_morning_0127,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0127.txt,morning,0,normal,0,match,pass,,88,6,1,0,0,0,0,0,1,2,0,0.167,0.244,0.756,28
+cdr_0_morning_0132,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0132.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,97,4,1,0,0,0,0,0,1,3,0,0.0,0.161,0.839,22
+cdr_0_morning_0137,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0137.txt,morning,0,normal,0,match,pass,,147,5,1,0,0,0,0,0,1,3,0,0.0,0.234,0.766,46
+cdr_0_morning_0142,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0142.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,94,3,1,0,0,0,0,0,1,2,0,0.0,0.146,0.854,18
+cdr_0_morning_0147,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0147.txt,morning,0,normal,0.5,review,review,heuristic_cdr_0.5,101,4,1,0,0,0,0,1,1,3,0,0.0,0.232,0.768,24
+cdr_0_morning_0152,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0152.txt,morning,0,normal,0,match,review,low_taigi_ratio;high_mandarin_ratio,125,5,1,0,0,0,0,0,1,2,0,0.2,0.177,0.823,24
+cdr_0_morning_0157,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0157.txt,morning,0,normal,0,match,pass,,119,6,1,0,0,0,0,0,1,4,0,0.0,0.306,0.694,36
+cdr_0_morning_0162,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0162.txt,morning,0,normal,0,match,pass,,102,4,1,0,0,0,0,0,1,2,0,0.0,0.212,0.788,30
+cdr_0_morning_0167,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0167.txt,morning,0,normal,0,match,pass,,94,4,1,0,0,0,0,0,1,3,0,0.0,0.209,0.791,26
+cdr_0_morning_0172,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0172.txt,morning,0,normal,0,match,pass,,90,5,1,0,0,0,0,0,1,5,0,0.2,0.333,0.667,28
+cdr_0_morning_0177,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0177.txt,morning,0,normal,0,match,pass,,110,5,1,0,0,0,0,0,1,3,0,0.2,0.248,0.752,32
+cdr_0_morning_0182,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0182.txt,morning,0,normal,0,match,pass,,118,5,1,0,0,0,0,0,1,5,0,0.0,0.224,0.776,32
+cdr_0_morning_0187,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0187.txt,morning,0,normal,0.5,review,review,heuristic_cdr_0.5;orthography_review:係,119,5,1,0,0,0,0,1,1,2,0,0.0,0.333,0.667,30
+cdr_0_morning_0192,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0192.txt,morning,0,normal,0,match,pass,,117,7,1,0,0,0,0,0,1,3,0,0.0,0.35,0.65,32
+cdr_0_morning_0197,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0/cdr_0_morning_0197.txt,morning,0,normal,0,match,pass,,142,5,1,0,0,0,0,0,1,2,0,0.0,0.254,0.746,44
+cdr_0_5_clinic_0002,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0002.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,127,8,1,1,0,0,0,2,5,5,0,0.25,0.287,0.713,30
+cdr_0_5_clinic_0007,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0007.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,200,10,1,1,0,0,0,2,7,7,0,0.3,0.226,0.774,48
+cdr_0_5_clinic_0012,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0012.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,156,7,2,1,0,0,0,2,4,6,0,0.286,0.247,0.753,36
+cdr_0_5_clinic_0017,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0017.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,171,9,1,1,0,0,0,3,1,3,0,0.111,0.235,0.765,44
+cdr_0_5_clinic_0022,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0022.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:佷,180,10,2,1,1,1,0,1,8,6,0,0.3,0.242,0.758,38
+cdr_0_5_clinic_0027,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0027.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,158,6,3,1,0,1,1,1,3,6,0,0.167,0.321,0.679,34
+cdr_0_5_clinic_0032,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0032.txt,clinic,0.5,questionable impairment,0.5,match,pass,,143,8,1,0,0,0,0,1,3,6,0,0.25,0.295,0.705,42
+cdr_0_5_clinic_0037,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0037.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,141,8,1,1,0,0,0,2,5,5,0,0.375,0.246,0.754,36
+cdr_0_5_clinic_0042,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0042.txt,clinic,0.5,questionable impairment,0.5,match,pass,,166,8,1,0,0,0,0,2,4,4,0,0.125,0.232,0.768,48
+cdr_0_5_clinic_0047,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0047.txt,clinic,0.5,questionable impairment,0.5,match,pass,,89,7,1,0,0,0,0,1,3,4,0,0.429,0.311,0.689,22
+cdr_0_5_clinic_0052,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0052.txt,clinic,0.5,questionable impairment,0.5,match,pass,,144,8,2,0,0,0,0,1,5,4,0,0.25,0.324,0.676,34
+cdr_0_5_clinic_0057,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0057.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,161,9,2,2,0,1,0,1,7,6,0,0.222,0.278,0.722,46
+cdr_0_5_clinic_0062,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0062.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:几,199,12,1,1,0,0,0,3,3,5,0,0.25,0.247,0.753,38
+cdr_0_5_clinic_0067,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0067.txt,clinic,0.5,questionable impairment,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,110,3,1,0,0,0,0,0,4,2,0,0.333,0.291,0.709,36
+cdr_0_5_clinic_0072,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0072.txt,clinic,0.5,questionable impairment,0.5,match,pass,,170,7,1,0,0,0,0,1,1,8,0,0.0,0.314,0.686,54
+cdr_0_5_clinic_0077,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0077.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,157,8,1,1,0,0,0,2,4,6,0,0.25,0.253,0.747,46
+cdr_0_5_clinic_0082,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0082.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,152,9,1,1,0,1,0,3,6,4,0,0.333,0.237,0.763,34
+cdr_0_5_clinic_0087,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0087.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,159,9,1,1,0,0,0,2,4,6,0,0.111,0.303,0.697,44
+cdr_0_5_clinic_0092,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0092.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,146,9,1,1,1,1,0,1,5,7,0,0.333,0.271,0.729,32
+cdr_0_5_clinic_0097,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0097.txt,clinic,0.5,questionable impairment,0.5,match,pass,,137,10,1,0,0,0,0,2,3,5,0,0.4,0.295,0.705,42
+cdr_0_5_clinic_0102,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0102.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,174,11,1,1,0,0,0,2,4,6,0,0.545,0.265,0.735,50
+cdr_0_5_clinic_0107,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0107.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,184,11,1,1,1,1,0,2,4,6,0,0.364,0.241,0.759,46
+cdr_0_5_clinic_0112,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0112.txt,clinic,0.5,questionable impairment,0.5,match,pass,,105,7,1,0,0,0,0,1,3,3,0,0.286,0.265,0.735,32
+cdr_0_5_clinic_0117,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0117.txt,clinic,0.5,questionable impairment,0.5,match,pass,,158,8,3,0,0,0,0,2,4,4,0,0.25,0.262,0.738,40
+cdr_0_5_clinic_0122,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0122.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,158,8,1,1,0,1,0,2,3,6,0,0.25,0.325,0.675,46
+cdr_0_5_clinic_0127,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0127.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,193,10,1,1,0,0,0,1,11,6,0,0.3,0.245,0.755,54
+cdr_0_5_clinic_0132,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0132.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,132,9,1,1,0,1,0,1,4,4,0,0.333,0.296,0.704,36
+cdr_0_5_clinic_0137,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0137.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,101,6,2,1,0,0,0,1,3,4,0,0.167,0.303,0.697,28
+cdr_0_5_clinic_0142,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0142.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:几,129,9,1,1,0,0,0,2,4,5,0,0.333,0.252,0.748,30
+cdr_0_5_clinic_0147,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0147.txt,clinic,0.5,questionable impairment,0.5,match,pass,,141,8,1,0,0,0,0,1,5,9,0,0.25,0.282,0.718,42
+cdr_0_5_clinic_0152,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0152.txt,clinic,0.5,questionable impairment,0.5,match,pass,,151,5,1,0,0,0,0,1,5,4,0,0.0,0.22,0.78,38
+cdr_0_5_clinic_0157,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0157.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,165,12,1,1,0,1,1,2,4,8,0,0.417,0.255,0.745,40
+cdr_0_5_clinic_0162,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0162.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,220,11,2,1,0,1,0,3,4,7,0,0.273,0.283,0.717,58
+cdr_0_5_clinic_0167,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0167.txt,clinic,0.5,questionable impairment,0.5,match,review,orthography_review:ㄟ,156,10,1,0,0,0,0,1,1,6,0,0.1,0.258,0.742,38
+cdr_0_5_clinic_0172,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0172.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,159,10,1,1,0,0,0,1,3,4,0,0.3,0.308,0.692,46
+cdr_0_5_clinic_0177,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0177.txt,clinic,0.5,questionable impairment,0,review,review,heuristic_cdr_0,145,9,1,0,0,0,0,0,3,7,0,0.444,0.241,0.759,38
+cdr_0_5_clinic_0182,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0182.txt,clinic,0.5,questionable impairment,0.5,match,pass,,122,7,1,0,0,0,0,1,3,5,0,0.286,0.279,0.721,36
+cdr_0_5_clinic_0187,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0187.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,162,8,1,1,0,1,0,2,4,5,0,0.25,0.247,0.753,42
+cdr_0_5_clinic_0192,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0192.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,173,13,2,1,0,1,0,3,9,4,0,0.462,0.261,0.739,46
+cdr_0_5_clinic_0197,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_clinic_0197.txt,clinic,0.5,questionable impairment,1,review,review,heuristic_cdr_1,146,10,1,1,0,1,0,2,2,3,0,0.1,0.222,0.778,34
+cdr_0_5_family_0000,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0000.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,184,6,1,1,0,1,0,3,1,7,0,0.0,0.385,0.615,66
+cdr_0_5_family_0005,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0005.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,212,9,1,1,0,1,0,1,1,6,0,0.0,0.212,0.788,56
+cdr_0_5_family_0010,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0010.txt,family,0.5,questionable impairment,0.5,match,review,orthography_review:係,152,7,2,0,0,0,0,1,2,6,0,0.143,0.347,0.653,54
+cdr_0_5_family_0015,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0015.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,134,6,1,1,0,0,0,1,1,7,0,0.0,0.453,0.547,44
+cdr_0_5_family_0020,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0020.txt,family,0.5,questionable impairment,0.5,match,pass,,150,4,1,0,0,1,0,1,1,8,0,0.0,0.412,0.588,48
+cdr_0_5_family_0025,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0025.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,185,5,1,1,0,2,0,3,1,7,0,0.0,0.42,0.58,62
+cdr_0_5_family_0030,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0030.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:佷,160,6,1,1,0,0,0,2,1,5,0,0.167,0.32,0.68,54
+cdr_0_5_family_0035,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0035.txt,family,0.5,questionable impairment,0,review,review,heuristic_cdr_0;orthography_review:係,174,6,1,1,0,0,0,0,1,7,0,0.0,0.271,0.729,44
+cdr_0_5_family_0040,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0040.txt,family,0.5,questionable impairment,0.5,match,pass,,218,4,2,0,0,1,0,2,2,6,0,0.0,0.252,0.748,62
+cdr_0_5_family_0045,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0045.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,164,8,1,1,0,0,0,1,1,6,0,0.0,0.312,0.688,66
+cdr_0_5_family_0050,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0050.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:嘸,207,7,1,2,0,2,1,2,1,8,0,0.0,0.348,0.652,74
+cdr_0_5_family_0055,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0055.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,217,7,1,1,0,1,0,3,1,8,0,0.143,0.393,0.607,78
+cdr_0_5_family_0060,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0060.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,156,9,1,1,0,0,0,1,1,7,0,0.111,0.355,0.645,62
+cdr_0_5_family_0065,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0065.txt,family,0.5,questionable impairment,0.5,match,pass,,174,5,2,0,0,1,0,1,2,5,0,0.0,0.322,0.678,54
+cdr_0_5_family_0070,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0070.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,177,9,1,1,0,1,0,1,1,7,0,0.0,0.299,0.701,60
+cdr_0_5_family_0075,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0075.txt,family,0.5,questionable impairment,0.5,match,pass,,214,8,1,0,0,0,1,1,3,9,0,0.0,0.255,0.745,72
+cdr_0_5_family_0080,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0080.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,154,7,1,1,0,1,0,1,1,6,0,0.0,0.38,0.62,48
+cdr_0_5_family_0085,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0085.txt,family,0.5,questionable impairment,0.5,match,pass,,180,6,2,0,0,0,0,2,1,8,0,0.0,0.372,0.628,68
+cdr_0_5_family_0090,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0090.txt,family,0.5,questionable impairment,0.5,match,pass,,139,5,1,0,0,1,0,1,1,5,0,0.0,0.367,0.633,46
+cdr_0_5_family_0095,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0095.txt,family,0.5,questionable impairment,0.5,match,pass,,159,7,1,0,0,0,0,1,1,6,0,0.143,0.349,0.651,56
+cdr_0_5_family_0100,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0100.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,185,8,1,1,0,1,1,1,2,7,0,0.125,0.341,0.659,62
+cdr_0_5_family_0105,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0105.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,172,8,1,1,0,1,0,2,1,6,0,0.0,0.329,0.671,60
+cdr_0_5_family_0110,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0110.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,167,9,1,1,0,0,0,1,2,5,0,0.111,0.367,0.633,60
+cdr_0_5_family_0115,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0115.txt,family,0.5,questionable impairment,0,review,review,heuristic_cdr_0,185,7,1,1,0,0,0,0,1,7,0,0.143,0.301,0.699,60
+cdr_0_5_family_0120,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0120.txt,family,0.5,questionable impairment,0.5,match,pass,,139,7,1,0,0,0,0,2,1,5,0,0.143,0.324,0.676,56
+cdr_0_5_family_0125,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0125.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:嘸,204,8,1,1,0,1,0,1,1,5,0,0.125,0.275,0.725,68
+cdr_0_5_family_0130,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0130.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,173,7,1,1,0,1,0,2,1,9,0,0.0,0.434,0.566,62
+cdr_0_5_family_0135,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0135.txt,family,0.5,questionable impairment,0.5,match,pass,,144,5,1,0,0,0,0,2,1,8,0,0.0,0.354,0.646,56
+cdr_0_5_family_0140,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0140.txt,family,0.5,questionable impairment,0.5,match,pass,,169,6,1,0,0,1,0,1,2,9,0,0.0,0.388,0.612,68
+cdr_0_5_family_0145,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0145.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,161,6,1,1,0,0,0,1,1,6,0,0.0,0.31,0.69,46
+cdr_0_5_family_0150,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0150.txt,family,0.5,questionable impairment,0.5,match,pass,,158,7,2,0,0,1,0,1,2,5,0,0.0,0.351,0.649,62
+cdr_0_5_family_0155,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0155.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,134,5,1,1,0,0,0,1,1,8,1,0.0,0.382,0.618,54
+cdr_0_5_family_0160,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0160.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,193,7,1,1,0,1,0,1,1,9,0,0.0,0.367,0.633,72
+cdr_0_5_family_0165,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0165.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,199,8,1,1,0,1,0,2,1,8,0,0.0,0.356,0.644,84
+cdr_0_5_family_0170,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0170.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,192,6,2,1,0,1,0,1,1,7,0,0.0,0.291,0.709,62
+cdr_0_5_family_0175,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0175.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,157,7,1,1,0,0,0,1,1,6,0,0.0,0.321,0.679,48
+cdr_0_5_family_0180,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0180.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,184,7,2,1,0,0,0,2,2,7,0,0.0,0.328,0.672,66
+cdr_0_5_family_0185,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0185.txt,family,0.5,questionable impairment,1,review,review,heuristic_cdr_1,220,9,1,1,0,0,0,2,1,7,0,0.0,0.267,0.733,68
+cdr_0_5_family_0190,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0190.txt,family,0.5,questionable impairment,0.5,match,pass,,175,8,1,0,0,0,0,1,2,8,0,0.0,0.335,0.665,74
+cdr_0_5_family_0195,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_family_0195.txt,family,0.5,questionable impairment,0.5,match,pass,,188,7,2,0,0,0,0,2,1,10,0,0.0,0.275,0.725,62
+cdr_0_5_market_0004,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0004.txt,market,0.5,questionable impairment,0.5,match,pass,,156,8,1,0,0,1,0,1,3,2,0,0.125,0.208,0.792,40
+cdr_0_5_market_0009,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0009.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:几,140,5,1,1,0,0,0,2,2,5,0,0.2,0.348,0.652,42
+cdr_0_5_market_0014,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0014.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,195,3,1,1,0,1,0,2,2,5,0,0.0,0.289,0.711,52
+cdr_0_5_market_0019,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0019.txt,market,0.5,questionable impairment,0.5,match,review,orthography_review:ㄟ,137,7,1,0,0,0,0,1,2,5,0,0.0,0.326,0.674,52
+cdr_0_5_market_0024,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0024.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:佷,173,8,1,1,0,0,0,1,1,6,0,0.0,0.25,0.75,44
+cdr_0_5_market_0029,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0029.txt,market,0.5,questionable impairment,0,review,review,heuristic_cdr_0,168,5,1,1,0,1,0,0,3,4,0,0.0,0.287,0.713,40
+cdr_0_5_market_0034,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0034.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,169,6,1,1,0,0,0,1,2,8,0,0.0,0.289,0.711,36
+cdr_0_5_market_0039,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0039.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,141,6,1,1,0,0,0,1,1,4,0,0.167,0.287,0.713,36
+cdr_0_5_market_0044,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0044.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,175,3,1,1,0,0,0,2,1,4,0,0.0,0.327,0.673,62
+cdr_0_5_market_0049,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0049.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,203,7,1,1,0,0,0,2,2,6,0,0.0,0.299,0.701,58
+cdr_0_5_market_0054,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0054.txt,market,0.5,questionable impairment,0.5,match,review,orthography_review:係,154,8,1,0,0,1,0,1,2,4,0,0.0,0.228,0.772,34
+cdr_0_5_market_0059,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0059.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,146,7,1,1,0,1,0,2,2,4,0,0.286,0.331,0.669,38
+cdr_0_5_market_0064,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0064.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,199,10,1,1,0,1,0,1,2,6,0,0.0,0.337,0.663,58
+cdr_0_5_market_0069,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0069.txt,market,0.5,questionable impairment,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,240,11,1,2,0,1,1,0,3,6,0,0.091,0.291,0.709,74
+cdr_0_5_market_0074,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0074.txt,market,0.5,questionable impairment,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio;orthography_review:佷,178,6,1,1,0,0,0,0,2,6,0,0.0,0.193,0.807,34
+cdr_0_5_market_0079,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0079.txt,market,0.5,questionable impairment,0.5,match,review,orthography_review:佷,211,8,2,0,0,0,0,3,2,5,0,0.25,0.246,0.754,50
+cdr_0_5_market_0084,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0084.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,135,4,1,1,0,0,0,1,1,3,0,0.0,0.269,0.731,40
+cdr_0_5_market_0089,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0089.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,180,4,1,1,0,1,0,1,2,5,0,0.0,0.345,0.655,46
+cdr_0_5_market_0094,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0094.txt,market,0.5,questionable impairment,0.5,match,review,orthography_review:係,160,7,1,0,0,1,0,1,1,4,0,0.0,0.308,0.692,50
+cdr_0_5_market_0099,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0099.txt,market,0.5,questionable impairment,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,169,7,1,1,0,0,0,0,1,5,0,0.0,0.255,0.745,46
+cdr_0_5_market_0104,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0104.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ|係,312,8,1,1,0,0,0,4,4,8,0,0.0,0.347,0.653,84
+cdr_0_5_market_0109,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0109.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,130,5,1,1,0,0,0,2,1,5,0,0.0,0.331,0.669,44
+cdr_0_5_market_0114,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0114.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,171,7,1,1,0,0,0,1,1,3,0,0.0,0.236,0.764,42
+cdr_0_5_market_0119,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0119.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,184,7,1,1,0,1,0,1,2,4,0,0.0,0.282,0.718,50
+cdr_0_5_market_0124,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0124.txt,market,0.5,questionable impairment,0.5,match,pass,,168,5,1,0,0,0,0,1,2,3,0,0.0,0.22,0.78,36
+cdr_0_5_market_0129,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0129.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,139,4,1,1,0,0,0,2,1,2,0,0.25,0.226,0.774,30
+cdr_0_5_market_0134,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0134.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,235,10,1,1,1,0,1,3,3,7,0,0.0,0.298,0.702,54
+cdr_0_5_market_0139,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0139.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,199,9,1,1,0,1,0,1,2,5,0,0.0,0.246,0.754,50
+cdr_0_5_market_0144,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0144.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,157,7,1,1,0,0,0,1,1,3,0,0.0,0.303,0.697,42
+cdr_0_5_market_0149,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0149.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:几,231,10,1,1,0,0,0,2,1,6,0,0.1,0.319,0.681,68
+cdr_0_5_market_0154,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0154.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,158,7,1,1,0,0,0,2,1,5,0,0.0,0.273,0.727,50
+cdr_0_5_market_0159,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0159.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,174,4,1,1,0,0,0,1,1,4,0,0.0,0.268,0.732,52
+cdr_0_5_market_0164,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0164.txt,market,0.5,questionable impairment,0.5,match,pass,,157,5,1,0,0,1,0,1,2,6,0,0.0,0.261,0.739,38
+cdr_0_5_market_0169,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0169.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,157,8,1,1,0,1,0,1,2,6,0,0.125,0.308,0.692,50
+cdr_0_5_market_0174,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0174.txt,market,0.5,questionable impairment,0.5,match,pass,,126,1,1,0,0,0,0,1,2,2,0,0.0,0.202,0.798,30
+cdr_0_5_market_0179,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0179.txt,market,0.5,questionable impairment,0.5,match,pass,,134,2,1,0,0,0,0,1,1,3,0,0.0,0.307,0.693,40
+cdr_0_5_market_0184,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0184.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,154,5,1,1,0,0,0,1,2,4,0,0.0,0.305,0.695,44
+cdr_0_5_market_0189,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0189.txt,market,0.5,questionable impairment,1,review,review,heuristic_cdr_1,188,6,1,1,0,1,1,1,3,7,0,0.0,0.358,0.642,56
+cdr_0_5_market_0194,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0194.txt,market,0.5,questionable impairment,0.5,match,pass,,108,2,1,0,0,0,0,1,2,4,0,0.0,0.333,0.667,32
+cdr_0_5_market_0199,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_market_0199.txt,market,0.5,questionable impairment,0.5,match,pass,,157,4,1,0,0,0,0,1,1,3,0,0.0,0.245,0.755,40
+cdr_0_5_memory_0003,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0003.txt,memory,0.5,questionable impairment,0.5,match,pass,,173,7,1,0,0,0,0,1,1,4,0,0.0,0.224,0.776,40
+cdr_0_5_memory_0008,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0008.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,151,7,1,0,0,0,0,1,1,3,0,0.0,0.205,0.795,36
+cdr_0_5_memory_0013,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0013.txt,memory,0.5,questionable impairment,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio;orthography_review:ㄟ,239,10,1,1,0,0,0,0,1,4,0,0.0,0.101,0.899,34
+cdr_0_5_memory_0018,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0018.txt,memory,0.5,questionable impairment,0.5,match,pass,,158,6,1,0,0,0,0,1,1,5,0,0.0,0.335,0.665,56
+cdr_0_5_memory_0023,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0023.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,185,7,1,1,0,0,0,2,1,4,0,0.0,0.272,0.728,46
+cdr_0_5_memory_0028,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0028.txt,memory,0.5,questionable impairment,0.5,match,pass,,220,8,1,0,0,1,0,1,1,4,0,0.0,0.201,0.799,52
+cdr_0_5_memory_0033,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0033.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:佷,144,5,1,0,0,1,0,1,1,3,0,0.0,0.207,0.793,34
+cdr_0_5_memory_0038,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0038.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,207,7,1,1,0,1,0,1,1,3,0,0.143,0.187,0.813,50
+cdr_0_5_memory_0043,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0043.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,212,7,1,1,0,1,1,3,1,2,0,0.0,0.157,0.843,42
+cdr_0_5_memory_0048,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0048.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,175,4,1,0,0,0,0,1,1,5,0,0.0,0.231,0.769,54
+cdr_0_5_memory_0053,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0053.txt,memory,0.5,questionable impairment,0.5,match,pass,,164,5,1,0,0,0,0,1,1,4,0,0.0,0.207,0.793,38
+cdr_0_5_memory_0058,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0058.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,213,9,1,0,0,0,0,1,1,4,0,0.0,0.187,0.813,54
+cdr_0_5_memory_0063,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0063.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,192,8,1,0,0,0,0,1,1,5,0,0.0,0.168,0.832,44
+cdr_0_5_memory_0068,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0068.txt,memory,0.5,questionable impairment,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,164,7,1,0,0,1,0,0,1,3,0,0.143,0.158,0.842,32
+cdr_0_5_memory_0073,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0073.txt,memory,0.5,questionable impairment,0.5,match,pass,,164,7,1,0,0,0,0,1,1,6,0,0.0,0.248,0.752,40
+cdr_0_5_memory_0078,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0078.txt,memory,0.5,questionable impairment,0,review,review,heuristic_cdr_0,176,7,1,0,0,0,0,0,1,4,0,0.0,0.217,0.783,46
+cdr_0_5_memory_0083,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0083.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,199,7,1,0,0,0,0,1,1,5,0,0.0,0.196,0.804,46
+cdr_0_5_memory_0088,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0088.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,181,6,1,0,0,1,0,2,1,3,0,0.0,0.2,0.8,52
+cdr_0_5_memory_0093,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0093.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,223,5,1,1,0,0,0,2,2,4,0,0.0,0.215,0.785,54
+cdr_0_5_memory_0098,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0098.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,186,4,1,1,0,0,0,2,1,4,0,0.0,0.231,0.769,46
+cdr_0_5_memory_0103,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0103.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,184,7,1,0,0,0,0,1,1,1,0,0.0,0.165,0.835,40
+cdr_0_5_memory_0108,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0108.txt,memory,0.5,questionable impairment,0.5,match,pass,,163,6,1,0,0,0,0,2,2,5,0,0.0,0.371,0.629,52
+cdr_0_5_memory_0113,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0113.txt,memory,0.5,questionable impairment,0.5,match,pass,,186,7,1,0,0,0,0,1,1,3,0,0.0,0.266,0.734,56
+cdr_0_5_memory_0118,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0118.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:係,225,8,1,0,0,0,0,2,1,4,0,0.0,0.161,0.839,38
+cdr_0_5_memory_0123,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0123.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,153,3,1,1,0,0,0,3,1,3,0,0.0,0.297,0.703,52
+cdr_0_5_memory_0128,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0128.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,193,7,1,0,0,0,0,1,1,6,0,0.0,0.259,0.741,48
+cdr_0_5_memory_0133,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0133.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,182,6,1,1,0,0,0,1,1,4,0,0.0,0.2,0.8,40
+cdr_0_5_memory_0138,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0138.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,199,7,1,1,0,0,0,1,1,5,0,0.0,0.263,0.737,56
+cdr_0_5_memory_0143,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0143.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,152,5,1,0,0,0,0,1,1,3,0,0.0,0.161,0.839,30
+cdr_0_5_memory_0148,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0148.txt,memory,0.5,questionable impairment,0.5,match,pass,,184,7,1,0,0,0,0,1,2,4,0,0.0,0.266,0.734,52
+cdr_0_5_memory_0153,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0153.txt,memory,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,185,6,1,0,0,0,0,1,1,3,0,0.0,0.148,0.852,34
+cdr_0_5_memory_0158,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0158.txt,memory,0.5,questionable impairment,0.5,match,pass,,219,4,1,0,0,0,0,3,1,4,0,0.0,0.261,0.739,58
+cdr_0_5_memory_0163,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0163.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,226,8,1,1,0,0,0,1,2,4,0,0.0,0.16,0.84,38
+cdr_0_5_memory_0168,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0168.txt,memory,0.5,questionable impairment,0.5,match,pass,,230,9,0,0,0,0,0,1,1,7,0,0.0,0.249,0.751,68
+cdr_0_5_memory_0173,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0173.txt,memory,0.5,questionable impairment,0,review,review,heuristic_cdr_0;orthography_review:係,170,5,1,0,0,0,0,0,1,4,0,0.0,0.216,0.784,40
+cdr_0_5_memory_0178,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0178.txt,memory,0.5,questionable impairment,1,review,review,heuristic_cdr_1,174,7,1,1,0,0,0,1,1,4,0,0.0,0.205,0.795,40
+cdr_0_5_memory_0183,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0183.txt,memory,0.5,questionable impairment,0.5,match,pass,,141,6,1,0,0,0,0,1,1,3,0,0.0,0.225,0.775,36
+cdr_0_5_memory_0188,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0188.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,181,7,1,0,0,1,0,2,1,4,0,0.0,0.209,0.791,50
+cdr_0_5_memory_0193,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0193.txt,memory,0.5,questionable impairment,0.5,match,review,orthography_review:係,183,9,1,0,0,1,0,1,2,4,0,0.0,0.219,0.781,48
+cdr_0_5_memory_0198,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_memory_0198.txt,memory,0.5,questionable impairment,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,150,4,1,0,0,0,0,0,1,2,0,0.0,0.137,0.863,30
+cdr_0_5_morning_0001,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0001.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,166,10,1,1,0,0,0,1,1,4,0,0.2,0.313,0.687,54
+cdr_0_5_morning_0006,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0006.txt,morning,0.5,questionable impairment,0.5,match,pass,,129,4,1,0,0,0,0,1,1,4,0,0.0,0.277,0.723,36
+cdr_0_5_morning_0011,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0011.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,142,9,1,1,0,0,1,1,1,2,0,0.111,0.288,0.712,38
+cdr_0_5_morning_0016,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0016.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,187,7,1,1,0,1,0,1,1,4,0,0.0,0.242,0.758,54
+cdr_0_5_morning_0021,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0021.txt,morning,0.5,questionable impairment,0.5,match,pass,,147,6,1,0,0,0,0,1,1,5,0,0.0,0.253,0.747,42
+cdr_0_5_morning_0026,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0026.txt,morning,0.5,questionable impairment,0.5,match,pass,,118,5,1,0,0,0,0,1,1,4,0,0.0,0.248,0.752,28
+cdr_0_5_morning_0031,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0031.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,148,4,1,1,0,0,0,3,1,4,0,0.0,0.308,0.692,50
+cdr_0_5_morning_0036,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0036.txt,morning,0.5,questionable impairment,0.5,match,pass,,149,7,1,0,0,0,0,1,2,6,0,0.0,0.255,0.745,36
+cdr_0_5_morning_0041,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0041.txt,morning,0.5,questionable impairment,0.5,match,pass,,135,6,1,0,0,0,0,1,1,2,0,0.0,0.212,0.788,36
+cdr_0_5_morning_0046,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0046.txt,morning,0.5,questionable impairment,0,review,review,heuristic_cdr_0,139,7,1,0,0,1,0,0,1,2,0,0.286,0.224,0.776,34
+cdr_0_5_morning_0051,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0051.txt,morning,0.5,questionable impairment,0.5,match,pass,,124,5,1,0,0,0,0,1,1,2,0,0.0,0.246,0.754,36
+cdr_0_5_morning_0056,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0056.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,209,9,2,1,0,1,0,1,1,5,0,0.0,0.234,0.766,52
+cdr_0_5_morning_0061,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0061.txt,morning,0.5,questionable impairment,0.5,match,pass,,127,6,1,0,0,0,0,1,1,3,0,0.0,0.218,0.782,36
+cdr_0_5_morning_0066,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0066.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,163,8,1,1,0,0,0,1,2,2,0,0.25,0.201,0.799,40
+cdr_0_5_morning_0071,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0071.txt,morning,0.5,questionable impairment,0.5,match,review,orthography_review:ㄟ,107,6,1,0,0,0,0,1,1,1,0,0.0,0.302,0.698,34
+cdr_0_5_morning_0076,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0076.txt,morning,0.5,questionable impairment,0.5,match,pass,,127,6,1,0,0,0,0,1,1,4,0,0.167,0.246,0.754,34
+cdr_0_5_morning_0081,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0081.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,159,5,2,1,1,1,0,2,1,4,0,0.0,0.303,0.697,40
+cdr_0_5_morning_0086,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0086.txt,morning,0.5,questionable impairment,0.5,match,pass,,164,7,1,0,0,0,0,2,1,4,0,0.0,0.245,0.755,44
+cdr_0_5_morning_0091,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0091.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,167,9,1,1,0,0,0,1,1,5,0,0.222,0.278,0.722,60
+cdr_0_5_morning_0096,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0096.txt,morning,0.5,questionable impairment,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,185,15,1,1,0,1,0,0,1,2,0,0.533,0.159,0.841,40
+cdr_0_5_morning_0101,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0101.txt,morning,0.5,questionable impairment,0,review,review,heuristic_cdr_0,179,6,1,0,0,1,0,0,2,4,0,0.0,0.207,0.793,44
+cdr_0_5_morning_0106,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0106.txt,morning,0.5,questionable impairment,0,review,review,heuristic_cdr_0,190,9,2,1,0,1,1,0,2,4,0,0.111,0.298,0.702,56
+cdr_0_5_morning_0111,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0111.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,151,7,1,1,0,1,0,1,1,4,0,0.143,0.175,0.825,26
+cdr_0_5_morning_0116,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0116.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,166,4,1,1,0,0,0,1,1,3,0,0.0,0.223,0.777,46
+cdr_0_5_morning_0121,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0121.txt,morning,0.5,questionable impairment,0.5,match,pass,,128,7,1,0,0,1,0,1,1,4,0,0.143,0.288,0.712,28
+cdr_0_5_morning_0126,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0126.txt,morning,0.5,questionable impairment,0.5,match,pass,,127,5,2,0,0,0,0,1,2,3,0,0.0,0.24,0.76,36
+cdr_0_5_morning_0131,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0131.txt,morning,0.5,questionable impairment,0.5,match,pass,,165,9,1,0,0,1,0,2,2,4,0,0.0,0.238,0.762,44
+cdr_0_5_morning_0136,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0136.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,132,5,1,1,0,1,0,1,1,3,0,0.0,0.266,0.734,34
+cdr_0_5_morning_0141,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0141.txt,morning,0.5,questionable impairment,0.5,match,review,low_taigi_ratio;high_mandarin_ratio,190,7,1,0,0,0,0,2,1,3,0,0.0,0.193,0.807,48
+cdr_0_5_morning_0146,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0146.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:係,137,4,1,1,0,0,0,2,1,4,1,0.0,0.343,0.657,36
+cdr_0_5_morning_0151,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0151.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,162,5,1,1,0,0,0,2,1,5,0,0.0,0.291,0.709,46
+cdr_0_5_morning_0156,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0156.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,172,5,1,1,0,1,0,1,1,4,0,0.0,0.221,0.779,38
+cdr_0_5_morning_0161,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0161.txt,morning,0.5,questionable impairment,0.5,match,pass,,114,5,1,0,0,0,0,1,1,3,0,0.0,0.252,0.748,44
+cdr_0_5_morning_0166,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0166.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,160,6,1,1,0,0,0,1,1,6,0,0.0,0.38,0.62,46
+cdr_0_5_morning_0171,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0171.txt,morning,0.5,questionable impairment,0.5,match,pass,,174,8,1,0,0,1,0,3,1,4,0,0.0,0.256,0.744,50
+cdr_0_5_morning_0176,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0176.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,167,9,1,1,0,0,0,2,1,2,0,0.111,0.196,0.804,44
+cdr_0_5_morning_0181,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0181.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,167,7,2,1,0,0,0,2,1,5,0,0.143,0.308,0.692,46
+cdr_0_5_morning_0186,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0186.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,159,9,2,1,0,0,0,2,1,5,0,0.111,0.357,0.643,50
+cdr_0_5_morning_0191,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0191.txt,morning,0.5,questionable impairment,1,review,review,heuristic_cdr_1,151,7,1,1,0,1,0,1,1,6,0,0.0,0.25,0.75,38
+cdr_0_5_morning_0196,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_0_5/cdr_0_5_morning_0196.txt,morning,0.5,questionable impairment,0.5,match,pass,,117,6,1,0,0,0,0,2,1,3,0,0.0,0.2,0.8,26
+cdr_1_clinic_0001,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0001.txt,clinic,1,mild dementia,1,match,pass,,264,15,3,2,0,2,1,1,10,12,0,0.4,0.299,0.701,64
+cdr_1_clinic_0006,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0006.txt,clinic,1,mild dementia,1,match,pass,,140,8,2,2,0,1,1,2,3,6,0,0.25,0.316,0.684,36
+cdr_1_clinic_0011,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0011.txt,clinic,1,mild dementia,1,match,pass,,134,6,1,1,0,1,0,3,3,4,0,0.333,0.411,0.589,46
+cdr_1_clinic_0016,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0016.txt,clinic,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,137,8,2,0,0,1,0,2,3,5,0,0.25,0.478,0.522,50
+cdr_1_clinic_0021,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0021.txt,clinic,1,mild dementia,1,match,pass,,195,17,2,1,1,1,1,4,5,5,0,0.588,0.347,0.653,54
+cdr_1_clinic_0026,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0026.txt,clinic,1,mild dementia,1,match,review,orthography_review:ㄟ,162,9,2,1,0,1,1,1,6,4,0,0.222,0.255,0.745,40
+cdr_1_clinic_0031,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0031.txt,clinic,1,mild dementia,1,match,review,orthography_review:ㄟ,195,9,1,1,0,1,1,3,4,7,0,0.111,0.273,0.727,54
+cdr_1_clinic_0036,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0036.txt,clinic,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,148,3,3,0,0,0,1,1,3,5,0,0.333,0.302,0.698,38
+cdr_1_clinic_0041,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0041.txt,clinic,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,137,8,0,0,1,1,1,1,4,5,0,0.375,0.357,0.643,40
+cdr_1_clinic_0046,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0046.txt,clinic,1,mild dementia,1,match,pass,,159,7,1,1,1,1,0,1,6,4,0,0.0,0.259,0.741,38
+cdr_1_clinic_0051,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0051.txt,clinic,1,mild dementia,1,match,pass,,152,7,2,2,0,1,0,1,6,4,0,0.286,0.225,0.775,30
+cdr_1_clinic_0056,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0056.txt,clinic,1,mild dementia,2,review,review,heuristic_cdr_2;orthography_review:ㄟ,241,16,3,2,1,1,1,2,3,4,0,0.438,0.344,0.656,60
+cdr_1_clinic_0061,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0061.txt,clinic,1,mild dementia,1,match,pass,,194,11,4,2,1,1,1,1,7,6,0,0.273,0.296,0.704,50
+cdr_1_clinic_0066,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0066.txt,clinic,1,mild dementia,1,match,pass,,132,6,2,1,0,1,1,2,3,2,0,0.167,0.255,0.745,32
+cdr_1_clinic_0071,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0071.txt,clinic,1,mild dementia,1,match,pass,,159,5,2,1,0,1,1,6,6,7,0,0.2,0.385,0.615,50
+cdr_1_clinic_0076,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0076.txt,clinic,1,mild dementia,1,match,review,orthography_review:ㄟ|佷,194,12,2,1,0,1,0,2,4,10,0,0.5,0.31,0.69,44
+cdr_1_clinic_0081,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0081.txt,clinic,1,mild dementia,1,match,pass,,182,9,2,1,0,1,1,2,4,6,0,0.111,0.29,0.71,46
+cdr_1_clinic_0086,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0086.txt,clinic,1,mild dementia,2,review,review,heuristic_cdr_2,179,9,3,2,1,1,1,2,3,5,0,0.222,0.42,0.58,42
+cdr_1_clinic_0091,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0091.txt,clinic,1,mild dementia,1,match,review,orthography_review:佷,161,7,1,1,1,1,0,3,4,4,0,0.286,0.303,0.697,58
+cdr_1_clinic_0096,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0096.txt,clinic,1,mild dementia,1,match,pass,,170,15,2,1,0,1,0,4,1,6,0,0.6,0.4,0.6,48
+cdr_1_clinic_0101,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0101.txt,clinic,1,mild dementia,1,match,pass,,209,12,2,2,0,1,1,3,3,5,0,0.25,0.306,0.694,56
+cdr_1_clinic_0106,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0106.txt,clinic,1,mild dementia,0.5,review,review,heuristic_cdr_0.5;orthography_review:ㄟ,205,12,1,0,0,0,0,2,7,5,0,0.25,0.282,0.718,68
+cdr_1_clinic_0111,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0111.txt,clinic,1,mild dementia,1,match,review,orthography_review:ㄟ,144,9,2,2,0,1,0,3,3,5,0,0.444,0.398,0.602,38
+cdr_1_clinic_0116,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0116.txt,clinic,1,mild dementia,1,match,pass,,197,15,4,2,1,1,1,1,7,7,0,0.467,0.345,0.655,56
+cdr_1_clinic_0121,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0121.txt,clinic,1,mild dementia,1,match,pass,,184,10,4,2,0,2,1,3,3,4,0,0.4,0.259,0.741,32
+cdr_1_clinic_0126,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0126.txt,clinic,1,mild dementia,1,match,pass,,138,9,1,1,0,1,0,1,5,5,0,0.222,0.354,0.646,44
+cdr_1_clinic_0131,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0131.txt,clinic,1,mild dementia,1,match,pass,,163,8,3,2,0,1,0,2,1,6,0,0.375,0.311,0.689,46
+cdr_1_clinic_0136,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0136.txt,clinic,1,mild dementia,3,review,review,heuristic_cdr_3,140,8,1,1,1,1,0,4,3,4,0,0.25,0.372,0.628,42
+cdr_1_clinic_0141,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0141.txt,clinic,1,mild dementia,2,review,review,heuristic_cdr_2,167,11,3,2,1,1,0,3,6,5,0,0.273,0.388,0.612,48
+cdr_1_clinic_0146,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0146.txt,clinic,1,mild dementia,1,match,pass,,158,12,2,2,0,2,1,2,3,6,0,0.5,0.458,0.542,52
+cdr_1_clinic_0151,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0151.txt,clinic,1,mild dementia,1,match,pass,,136,13,1,1,0,1,0,2,5,5,0,0.615,0.439,0.561,46
+cdr_1_clinic_0156,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0156.txt,clinic,1,mild dementia,1,match,pass,,227,11,2,1,0,1,1,3,4,5,0,0.182,0.263,0.737,58
+cdr_1_clinic_0161,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0161.txt,clinic,1,mild dementia,1,match,pass,,170,9,2,1,1,1,1,3,3,6,0,0.222,0.322,0.678,48
+cdr_1_clinic_0166,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0166.txt,clinic,1,mild dementia,1,match,pass,,164,10,2,2,0,1,1,1,5,8,0,0.3,0.321,0.679,38
+cdr_1_clinic_0171,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0171.txt,clinic,1,mild dementia,1,match,pass,,188,7,2,1,0,1,1,3,3,8,0,0.143,0.32,0.68,58
+cdr_1_clinic_0176,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0176.txt,clinic,1,mild dementia,1,match,review,orthography_review:几,147,9,1,1,0,1,0,2,7,4,0,0.333,0.309,0.691,36
+cdr_1_clinic_0181,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0181.txt,clinic,1,mild dementia,1,match,review,orthography_review:佷,164,10,2,1,0,1,0,2,1,3,0,0.3,0.34,0.66,58
+cdr_1_clinic_0186,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0186.txt,clinic,1,mild dementia,1,match,pass,,144,8,1,1,1,1,0,2,3,5,0,0.25,0.446,0.554,52
+cdr_1_clinic_0191,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0191.txt,clinic,1,mild dementia,1,match,review,orthography_review:几,180,9,2,1,1,1,1,4,6,4,0,0.222,0.235,0.765,40
+cdr_1_clinic_0196,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_clinic_0196.txt,clinic,1,mild dementia,1,match,pass,,182,11,1,1,0,1,0,3,3,2,0,0.364,0.302,0.698,56
+cdr_1_family_0004,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0004.txt,family,1,mild dementia,1,match,pass,,171,9,1,1,0,0,0,2,2,8,0,0.0,0.367,0.633,70
+cdr_1_family_0009,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0009.txt,family,1,mild dementia,1,match,pass,,165,7,2,1,0,1,0,2,1,5,0,0.143,0.429,0.571,60
+cdr_1_family_0014,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0014.txt,family,1,mild dementia,1,match,pass,,192,7,1,1,0,1,1,3,2,7,0,0.0,0.385,0.615,68
+cdr_1_family_0019,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0019.txt,family,1,mild dementia,1,match,pass,,159,7,1,1,0,1,0,1,1,7,0,0.143,0.4,0.6,52
+cdr_1_family_0024,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0024.txt,family,1,mild dementia,1,match,pass,,173,11,2,2,0,1,1,3,1,5,0,0.455,0.401,0.599,58
+cdr_1_family_0029,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0029.txt,family,1,mild dementia,1,match,pass,,221,9,2,1,0,1,0,2,3,8,0,0.111,0.373,0.627,80
+cdr_1_family_0034,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0034.txt,family,1,mild dementia,1,match,pass,,177,11,1,1,0,1,1,2,2,8,0,0.182,0.462,0.538,66
+cdr_1_family_0039,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0039.txt,family,1,mild dementia,1,match,review,orthography_review:係,162,8,1,1,0,1,0,1,1,7,0,0.125,0.397,0.603,54
+cdr_1_family_0044,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0044.txt,family,1,mild dementia,1,match,pass,,137,7,1,1,0,0,0,1,2,10,0,0.0,0.418,0.582,56
+cdr_1_family_0049,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0049.txt,family,1,mild dementia,1,match,pass,,186,10,1,1,0,1,0,3,1,8,0,0.1,0.331,0.669,56
+cdr_1_family_0054,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0054.txt,family,1,mild dementia,1,match,pass,,178,7,1,1,0,0,1,1,1,10,0,0.143,0.433,0.567,66
+cdr_1_family_0059,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0059.txt,family,1,mild dementia,1,match,pass,,207,15,1,1,1,1,1,3,2,13,0,0.4,0.503,0.497,84
+cdr_1_family_0064,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0064.txt,family,1,mild dementia,1,match,pass,,153,9,1,1,1,1,0,2,2,7,0,0.222,0.44,0.56,58
+cdr_1_family_0069,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0069.txt,family,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,174,8,1,0,0,0,0,3,3,10,0,0.125,0.451,0.549,78
+cdr_1_family_0074,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0074.txt,family,1,mild dementia,1,match,pass,,204,14,1,1,1,1,1,4,3,6,0,0.214,0.389,0.611,80
+cdr_1_family_0079,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0079.txt,family,1,mild dementia,1,match,pass,,204,6,1,1,1,1,1,1,2,9,0,0.0,0.376,0.624,80
+cdr_1_family_0084,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0084.txt,family,1,mild dementia,1,match,pass,,222,9,2,1,0,1,0,3,3,10,0,0.222,0.419,0.581,78
+cdr_1_family_0089,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0089.txt,family,1,mild dementia,1,match,review,orthography_review:嘸,162,8,1,1,0,0,0,2,1,5,0,0.125,0.327,0.673,52
+cdr_1_family_0094,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0094.txt,family,1,mild dementia,1,match,pass,,156,5,1,1,0,0,0,1,2,7,0,0.0,0.463,0.537,60
+cdr_1_family_0099,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0099.txt,family,1,mild dementia,1,match,pass,,193,9,1,1,1,1,0,4,2,6,0,0.222,0.396,0.604,74
+cdr_1_family_0104,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0104.txt,family,1,mild dementia,1,match,pass,,176,10,1,1,0,1,0,2,1,7,0,0.1,0.413,0.587,74
+cdr_1_family_0109,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0109.txt,family,1,mild dementia,1,match,review,orthography_review:佷,177,11,2,2,0,1,0,2,2,10,0,0.273,0.464,0.536,60
+cdr_1_family_0114,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0114.txt,family,1,mild dementia,1,match,pass,,212,9,1,1,0,1,0,1,2,11,1,0.0,0.371,0.629,88
+cdr_1_family_0119,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0119.txt,family,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,174,7,1,0,0,1,1,2,2,7,0,0.143,0.37,0.63,60
+cdr_1_family_0124,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0124.txt,family,1,mild dementia,1,match,review,orthography_review:ㄟ,226,9,4,1,0,2,0,3,2,11,0,0.0,0.389,0.611,76
+cdr_1_family_0129,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0129.txt,family,1,mild dementia,2,review,review,heuristic_cdr_2,239,11,2,2,1,1,1,3,4,9,0,0.091,0.394,0.606,88
+cdr_1_family_0134,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0134.txt,family,1,mild dementia,1,match,pass,,176,10,1,1,0,1,0,2,1,6,1,0.0,0.374,0.626,60
+cdr_1_family_0139,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0139.txt,family,1,mild dementia,1,match,pass,,180,8,1,1,0,0,0,2,1,7,0,0.0,0.339,0.661,58
+cdr_1_family_0144,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0144.txt,family,1,mild dementia,1,match,pass,,155,10,1,1,0,0,0,2,2,4,0,0.3,0.484,0.516,64
+cdr_1_family_0149,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0149.txt,family,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,155,7,1,0,0,0,1,4,3,7,0,0.0,0.447,0.553,54
+cdr_1_family_0154,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0154.txt,family,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,169,9,2,0,0,0,0,2,1,6,0,0.111,0.494,0.506,78
+cdr_1_family_0159,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0159.txt,family,1,mild dementia,1,match,pass,,164,10,1,1,0,1,0,2,1,7,0,0.3,0.439,0.561,72
+cdr_1_family_0164,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0164.txt,family,1,mild dementia,1,match,pass,,180,12,2,1,0,1,1,2,2,6,0,0.167,0.419,0.581,52
+cdr_1_family_0169,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0169.txt,family,1,mild dementia,1,match,pass,,162,10,1,1,0,1,1,2,2,6,0,0.3,0.412,0.588,56
+cdr_1_family_0174,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0174.txt,family,1,mild dementia,1,match,pass,,232,13,1,2,0,1,1,3,2,8,0,0.231,0.344,0.656,64
+cdr_1_family_0179,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0179.txt,family,1,mild dementia,1,match,pass,,172,10,1,1,1,1,0,2,2,5,0,0.2,0.366,0.634,60
+cdr_1_family_0184,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0184.txt,family,1,mild dementia,1,match,pass,,163,8,1,1,1,1,0,3,1,6,0,0.125,0.388,0.612,62
+cdr_1_family_0189,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0189.txt,family,1,mild dementia,1,match,pass,,171,10,1,1,0,1,0,3,1,5,0,0.1,0.387,0.613,60
+cdr_1_family_0194,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0194.txt,family,1,mild dementia,1,match,pass,,236,13,3,2,0,1,1,3,3,10,0,0.308,0.481,0.519,104
+cdr_1_family_0199,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_family_0199.txt,family,1,mild dementia,1,match,pass,,179,8,1,1,1,1,1,3,1,6,0,0.0,0.352,0.648,62
+cdr_1_market_0003,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0003.txt,market,1,mild dementia,1,match,pass,,188,12,1,1,1,1,1,3,2,5,0,0.25,0.372,0.628,62
+cdr_1_market_0008,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0008.txt,market,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,204,14,2,0,0,0,0,4,1,5,0,0.357,0.35,0.65,70
+cdr_1_market_0013,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0013.txt,market,1,mild dementia,1,match,pass,,168,6,1,1,0,1,0,1,1,6,0,0.167,0.302,0.698,42
+cdr_1_market_0018,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0018.txt,market,1,mild dementia,2,review,review,heuristic_cdr_2,255,10,2,3,1,1,1,2,3,8,0,0.1,0.359,0.641,78
+cdr_1_market_0023,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0023.txt,market,1,mild dementia,1,match,pass,,214,11,3,2,1,1,1,1,2,8,0,0.273,0.397,0.603,66
+cdr_1_market_0028,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0028.txt,market,1,mild dementia,1,match,review,orthography_review:ㄟ|嘸,143,6,1,1,0,0,0,2,1,4,0,0.0,0.456,0.544,60
+cdr_1_market_0033,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0033.txt,market,1,mild dementia,1,match,pass,,193,4,1,1,0,0,0,3,3,4,0,0.0,0.332,0.668,66
+cdr_1_market_0038,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0038.txt,market,1,mild dementia,0,review,review,heuristic_cdr_0,177,8,1,1,0,1,1,0,1,6,0,0.0,0.302,0.698,52
+cdr_1_market_0043,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0043.txt,market,1,mild dementia,1,match,pass,,165,6,1,1,0,1,0,1,1,4,0,0.0,0.338,0.662,54
+cdr_1_market_0048,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0048.txt,market,1,mild dementia,1,match,pass,,216,10,1,2,0,1,1,2,3,5,0,0.1,0.311,0.689,64
+cdr_1_market_0053,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0053.txt,market,1,mild dementia,1,match,pass,,140,2,1,1,0,1,0,2,2,4,0,0.0,0.368,0.632,40
+cdr_1_market_0058,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0058.txt,market,1,mild dementia,1,match,pass,,162,8,1,1,0,1,1,2,1,5,0,0.125,0.406,0.594,58
+cdr_1_market_0063,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0063.txt,market,1,mild dementia,1,match,pass,,156,3,1,1,0,1,0,2,1,5,0,0.0,0.452,0.548,50
+cdr_1_market_0068,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0068.txt,market,1,mild dementia,1,match,review,orthography_review:係,158,5,1,1,0,0,0,1,1,5,0,0.2,0.257,0.743,44
+cdr_1_market_0073,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0073.txt,market,1,mild dementia,1,match,pass,,175,6,2,1,0,0,0,2,2,4,0,0.0,0.32,0.68,50
+cdr_1_market_0078,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0078.txt,market,1,mild dementia,0,review,review,heuristic_cdr_0,165,3,1,1,0,1,0,0,2,6,0,0.0,0.367,0.633,64
+cdr_1_market_0083,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0083.txt,market,1,mild dementia,1,match,pass,,196,9,2,1,0,1,0,2,2,5,0,0.111,0.277,0.723,54
+cdr_1_market_0088,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0088.txt,market,1,mild dementia,1,match,pass,,242,7,2,1,1,1,1,1,2,5,0,0.143,0.369,0.631,78
+cdr_1_market_0093,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0093.txt,market,1,mild dementia,1,match,pass,,172,9,1,1,0,0,0,1,2,6,0,0.222,0.268,0.732,44
+cdr_1_market_0098,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0098.txt,market,1,mild dementia,1,match,pass,,159,8,1,1,0,0,0,2,1,3,0,0.125,0.331,0.669,52
+cdr_1_market_0103,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0103.txt,market,1,mild dementia,1,match,pass,,244,7,1,2,0,1,0,1,2,6,0,0.0,0.333,0.667,72
+cdr_1_market_0108,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0108.txt,market,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,166,7,1,0,1,2,0,3,1,5,0,0.143,0.392,0.608,56
+cdr_1_market_0113,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0113.txt,market,1,mild dementia,1,match,pass,,142,4,1,1,0,0,0,1,2,3,0,0.0,0.42,0.58,54
+cdr_1_market_0118,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0118.txt,market,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,151,4,1,0,0,0,0,1,2,4,0,0.0,0.233,0.767,42
+cdr_1_market_0123,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0123.txt,market,1,mild dementia,1,match,pass,,220,5,1,1,0,1,0,2,5,6,0,0.0,0.35,0.65,72
+cdr_1_market_0128,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0128.txt,market,1,mild dementia,1,match,pass,,138,6,1,2,0,1,0,3,1,5,0,0.167,0.274,0.726,38
+cdr_1_market_0133,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0133.txt,market,1,mild dementia,1,match,pass,,192,5,1,1,0,0,0,2,3,4,0,0.0,0.323,0.677,74
+cdr_1_market_0138,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0138.txt,market,1,mild dementia,1,match,review,orthography_review:嘸|佷,212,11,2,1,0,0,0,4,3,6,0,0.091,0.329,0.671,70
+cdr_1_market_0143,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0143.txt,market,1,mild dementia,1,match,review,orthography_review:佷,262,6,1,1,0,1,0,3,2,7,0,0.0,0.253,0.747,78
+cdr_1_market_0148,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0148.txt,market,1,mild dementia,1,match,pass,,192,13,1,1,1,1,0,2,2,3,0,0.308,0.315,0.685,58
+cdr_1_market_0153,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0153.txt,market,1,mild dementia,1,match,pass,,181,8,1,1,0,1,0,1,2,4,0,0.0,0.325,0.675,56
+cdr_1_market_0158,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0158.txt,market,1,mild dementia,1,match,pass,,184,12,1,1,0,1,0,2,2,6,0,0.167,0.306,0.694,62
+cdr_1_market_0163,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0163.txt,market,1,mild dementia,1,match,pass,,214,6,2,1,0,1,1,1,4,6,0,0.0,0.291,0.709,54
+cdr_1_market_0168,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0168.txt,market,1,mild dementia,1,match,pass,,192,7,2,1,0,1,1,3,4,5,0,0.0,0.399,0.601,68
+cdr_1_market_0173,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0173.txt,market,1,mild dementia,1,match,pass,,181,5,1,1,0,1,0,1,2,3,0,0.0,0.404,0.596,54
+cdr_1_market_0178,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0178.txt,market,1,mild dementia,1,match,pass,,129,6,1,1,0,1,1,1,3,4,1,0.167,0.362,0.638,40
+cdr_1_market_0183,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0183.txt,market,1,mild dementia,1,match,pass,,192,6,1,1,0,1,0,4,2,5,0,0.167,0.392,0.608,66
+cdr_1_market_0188,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0188.txt,market,1,mild dementia,1,match,review,orthography_review:係,225,4,2,1,0,1,1,2,3,5,0,0.0,0.343,0.657,78
+cdr_1_market_0193,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0193.txt,market,1,mild dementia,1,match,pass,,200,14,1,1,1,1,0,2,1,6,0,0.214,0.382,0.618,72
+cdr_1_market_0198,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_market_0198.txt,market,1,mild dementia,1,match,pass,,172,7,1,1,0,1,0,2,2,5,0,0.143,0.314,0.686,46
+cdr_1_memory_0002,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0002.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,144,5,1,0,0,0,0,2,1,1,1,0.0,0.347,0.653,50
+cdr_1_memory_0007,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0007.txt,memory,1,mild dementia,1,match,pass,,196,10,1,1,1,1,1,3,1,4,0,0.2,0.39,0.61,60
+cdr_1_memory_0012,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0012.txt,memory,1,mild dementia,1,match,pass,,183,10,1,1,0,0,0,2,2,5,0,0.2,0.358,0.642,56
+cdr_1_memory_0017,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0017.txt,memory,1,mild dementia,1,match,pass,,195,8,1,1,1,1,0,4,2,5,0,0.25,0.289,0.711,52
+cdr_1_memory_0022,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0022.txt,memory,1,mild dementia,1,match,pass,,174,6,1,1,0,1,0,3,1,5,0,0.0,0.405,0.595,68
+cdr_1_memory_0027,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0027.txt,memory,1,mild dementia,1,match,review,orthography_review:ㄟ,194,6,2,2,0,1,1,3,2,5,0,0.167,0.326,0.674,54
+cdr_1_memory_0032,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0032.txt,memory,1,mild dementia,1,match,pass,,165,6,1,1,0,0,0,1,1,2,0,0.0,0.256,0.744,46
+cdr_1_memory_0037,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0037.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,203,8,1,0,0,1,0,2,1,4,0,0.0,0.27,0.73,58
+cdr_1_memory_0042,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0042.txt,memory,1,mild dementia,1,match,pass,,184,2,1,1,0,0,0,3,1,4,0,0.0,0.261,0.739,52
+cdr_1_memory_0047,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0047.txt,memory,1,mild dementia,1,match,pass,,157,8,2,2,0,1,1,3,2,4,0,0.375,0.314,0.686,40
+cdr_1_memory_0052,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0052.txt,memory,1,mild dementia,1,match,pass,,232,10,1,1,1,1,0,5,1,3,0,0.1,0.33,0.67,74
+cdr_1_memory_0057,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0057.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,145,7,1,0,0,1,0,1,1,3,0,0.143,0.298,0.702,46
+cdr_1_memory_0062,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0062.txt,memory,1,mild dementia,1,match,review,orthography_review:佷,172,7,1,1,0,0,0,1,1,3,0,0.0,0.212,0.788,40
+cdr_1_memory_0067,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0067.txt,memory,1,mild dementia,1,match,review,low_taigi_ratio;high_mandarin_ratio;orthography_review:係,190,8,1,1,0,1,0,2,1,4,0,0.125,0.199,0.801,46
+cdr_1_memory_0072,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0072.txt,memory,1,mild dementia,1,match,pass,,206,8,2,1,0,1,0,2,3,4,0,0.125,0.246,0.754,48
+cdr_1_memory_0077,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0077.txt,memory,1,mild dementia,1,match,pass,,178,8,1,1,0,1,0,2,2,2,0,0.125,0.223,0.777,36
+cdr_1_memory_0082,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0082.txt,memory,1,mild dementia,1,match,review,low_taigi_ratio;high_mandarin_ratio,213,5,1,1,0,0,0,2,1,2,0,0.2,0.197,0.803,46
+cdr_1_memory_0087,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0087.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,140,4,1,0,0,0,0,1,1,4,0,0.0,0.42,0.58,60
+cdr_1_memory_0092,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0092.txt,memory,1,mild dementia,1,match,pass,,117,7,1,1,0,1,0,1,1,1,0,0.143,0.339,0.661,36
+cdr_1_memory_0097,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0097.txt,memory,1,mild dementia,1,match,review,orthography_review:佷,164,7,1,1,0,1,0,2,2,4,0,0.0,0.333,0.667,44
+cdr_1_memory_0102,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0102.txt,memory,1,mild dementia,1,match,review,orthography_review:佷,217,6,2,1,0,0,0,3,1,7,0,0.0,0.338,0.662,64
+cdr_1_memory_0107,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0107.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,138,3,1,0,0,1,0,2,2,4,0,0.0,0.37,0.63,40
+cdr_1_memory_0112,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0112.txt,memory,1,mild dementia,1,match,pass,,162,9,1,1,0,1,0,2,1,2,0,0.111,0.23,0.77,46
+cdr_1_memory_0117,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0117.txt,memory,1,mild dementia,1,match,pass,,182,6,2,1,0,1,0,3,3,4,0,0.167,0.389,0.611,48
+cdr_1_memory_0122,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0122.txt,memory,1,mild dementia,1,match,pass,,162,7,1,1,0,0,0,3,1,1,0,0.0,0.301,0.699,54
+cdr_1_memory_0127,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0127.txt,memory,1,mild dementia,1,match,review,orthography_review:ㄟ,161,7,1,1,0,0,0,2,1,2,0,0.0,0.304,0.696,46
+cdr_1_memory_0132,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0132.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5;orthography_review:佷,191,7,2,0,0,1,0,3,2,4,0,0.0,0.269,0.731,46
+cdr_1_memory_0137,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0137.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,132,6,1,0,0,1,0,2,1,2,0,0.0,0.238,0.762,38
+cdr_1_memory_0142,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0142.txt,memory,1,mild dementia,1,match,pass,,176,6,2,1,0,1,0,2,1,3,0,0.0,0.358,0.642,62
+cdr_1_memory_0147,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0147.txt,memory,1,mild dementia,1,match,review,orthography_review:係,195,8,1,1,0,1,0,3,2,5,0,0.125,0.337,0.663,60
+cdr_1_memory_0152,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0152.txt,memory,1,mild dementia,1,match,review,low_taigi_ratio;high_mandarin_ratio,195,7,1,1,0,0,0,2,1,3,0,0.0,0.144,0.856,28
+cdr_1_memory_0157,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0157.txt,memory,1,mild dementia,1,match,review,orthography_review:嘸|係,286,10,2,1,0,1,1,2,2,4,0,0.1,0.251,0.749,84
+cdr_1_memory_0162,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0162.txt,memory,1,mild dementia,1,match,pass,,245,6,2,1,1,1,0,2,2,3,0,0.0,0.206,0.794,60
+cdr_1_memory_0167,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0167.txt,memory,1,mild dementia,1,match,pass,,168,4,1,1,0,0,0,1,2,4,0,0.0,0.312,0.688,44
+cdr_1_memory_0172,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0172.txt,memory,1,mild dementia,1,match,pass,,173,8,1,1,0,1,0,1,1,3,0,0.125,0.279,0.721,40
+cdr_1_memory_0177,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0177.txt,memory,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,131,6,1,0,0,1,0,3,2,2,0,0.0,0.27,0.73,42
+cdr_1_memory_0182,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0182.txt,memory,1,mild dementia,1,match,pass,,178,5,1,1,0,1,1,2,2,4,0,0.0,0.247,0.753,38
+cdr_1_memory_0187,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0187.txt,memory,1,mild dementia,1,match,review,orthography_review:係,175,6,2,1,0,1,0,2,2,2,0,0.0,0.333,0.667,52
+cdr_1_memory_0192,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0192.txt,memory,1,mild dementia,1,match,review,orthography_review:ㄟ,175,8,1,1,0,0,0,2,1,2,0,0.125,0.202,0.798,40
+cdr_1_memory_0197,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_memory_0197.txt,memory,1,mild dementia,1,match,pass,,181,6,2,1,0,1,0,2,2,4,0,0.167,0.315,0.685,54
+cdr_1_morning_0000,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0000.txt,morning,1,mild dementia,1,match,pass,,230,14,2,1,0,1,0,3,2,7,0,0.071,0.338,0.662,90
+cdr_1_morning_0005,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0005.txt,morning,1,mild dementia,1,match,pass,,185,9,1,1,0,1,1,1,1,3,0,0.111,0.351,0.649,60
+cdr_1_morning_0010,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0010.txt,morning,1,mild dementia,1,match,pass,,168,4,2,1,0,1,0,1,1,3,0,0.0,0.261,0.739,44
+cdr_1_morning_0015,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0015.txt,morning,1,mild dementia,1,match,pass,,168,8,1,1,0,0,0,2,1,4,0,0.0,0.265,0.735,52
+cdr_1_morning_0020,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0020.txt,morning,1,mild dementia,1,match,pass,,182,5,1,1,0,0,0,1,1,4,0,0.0,0.315,0.685,40
+cdr_1_morning_0025,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0025.txt,morning,1,mild dementia,1,match,pass,,200,5,1,1,0,1,0,3,2,4,0,0.2,0.275,0.725,58
+cdr_1_morning_0030,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0030.txt,morning,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,143,6,2,0,1,0,0,1,1,5,0,0.0,0.292,0.708,40
+cdr_1_morning_0035,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0035.txt,morning,1,mild dementia,1,match,pass,,211,4,1,1,0,0,0,2,1,4,0,0.0,0.22,0.78,54
+cdr_1_morning_0040,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0040.txt,morning,1,mild dementia,0.5,review,review,heuristic_cdr_0.5,171,7,1,0,0,1,0,3,1,4,0,0.0,0.274,0.726,40
+cdr_1_morning_0045,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0045.txt,morning,1,mild dementia,1,match,pass,,249,10,1,1,0,1,0,1,2,9,0,0.1,0.313,0.687,80
+cdr_1_morning_0050,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0050.txt,morning,1,mild dementia,1,match,pass,,144,7,1,1,0,0,0,3,1,3,0,0.0,0.237,0.763,42
+cdr_1_morning_0055,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0055.txt,morning,1,mild dementia,1,match,pass,,182,8,1,1,0,1,1,1,1,6,0,0.0,0.295,0.705,48
+cdr_1_morning_0060,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0060.txt,morning,1,mild dementia,1,match,pass,,175,11,2,2,0,1,1,1,1,4,0,0.091,0.241,0.759,42
+cdr_1_morning_0065,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0065.txt,morning,1,mild dementia,0.5,review,review,heuristic_cdr_0.5;orthography_review:係,156,6,1,0,0,1,0,2,1,4,0,0.0,0.227,0.773,44
+cdr_1_morning_0070,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0070.txt,morning,1,mild dementia,1,match,pass,,197,12,2,1,0,1,1,2,2,4,0,0.25,0.35,0.65,60
+cdr_1_morning_0075,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0075.txt,morning,1,mild dementia,1,match,pass,,190,12,1,1,0,1,1,2,1,3,0,0.167,0.272,0.728,56
+cdr_1_morning_0080,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0080.txt,morning,1,mild dementia,1,match,pass,,153,10,2,1,0,1,1,3,1,3,0,0.4,0.356,0.644,46
+cdr_1_morning_0085,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0085.txt,morning,1,mild dementia,1,match,pass,,183,9,2,1,0,1,0,1,1,5,0,0.111,0.349,0.651,58
+cdr_1_morning_0090,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0090.txt,morning,1,mild dementia,1,match,pass,,208,12,2,1,0,1,1,4,1,7,0,0.167,0.328,0.672,62
+cdr_1_morning_0095,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0095.txt,morning,1,mild dementia,1,match,review,orthography_review:ㄟ,212,9,2,1,0,0,0,4,1,4,0,0.111,0.316,0.684,66
+cdr_1_morning_0100,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0100.txt,morning,1,mild dementia,1,match,pass,,197,8,2,1,0,1,0,2,1,3,0,0.0,0.256,0.744,52
+cdr_1_morning_0105,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0105.txt,morning,1,mild dementia,1,match,pass,,173,9,1,1,0,1,0,4,1,4,0,0.333,0.244,0.756,38
+cdr_1_morning_0110,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0110.txt,morning,1,mild dementia,1,match,pass,,152,6,1,1,0,1,1,1,1,3,0,0.0,0.369,0.631,46
+cdr_1_morning_0115,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0115.txt,morning,1,mild dementia,1,match,pass,,211,8,1,1,1,1,0,3,3,2,0,0.0,0.315,0.685,64
+cdr_1_morning_0120,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0120.txt,morning,1,mild dementia,1,match,review,orthography_review:ㄟ,200,12,1,1,0,1,0,2,1,2,0,0.333,0.273,0.727,58
+cdr_1_morning_0125,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0125.txt,morning,1,mild dementia,1,match,pass,,220,7,1,1,0,1,1,3,1,3,1,0.143,0.292,0.708,58
+cdr_1_morning_0130,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0130.txt,morning,1,mild dementia,1,match,pass,,199,9,1,1,0,1,0,3,1,4,0,0.0,0.209,0.791,42
+cdr_1_morning_0135,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0135.txt,morning,1,mild dementia,1,match,pass,,153,7,1,1,0,1,0,2,1,4,0,0.143,0.315,0.685,50
+cdr_1_morning_0140,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0140.txt,morning,1,mild dementia,1,match,review,orthography_review:ㄟ,166,10,1,1,0,0,0,2,1,4,0,0.3,0.298,0.702,58
+cdr_1_morning_0145,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0145.txt,morning,1,mild dementia,1,match,pass,,149,7,1,1,0,0,0,3,1,3,0,0.0,0.241,0.759,38
+cdr_1_morning_0150,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0150.txt,morning,1,mild dementia,1,match,pass,,165,8,1,1,0,1,1,1,1,2,0,0.125,0.248,0.752,36
+cdr_1_morning_0155,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0155.txt,morning,1,mild dementia,1,match,pass,,229,10,2,1,1,1,1,1,3,5,0,0.1,0.307,0.693,66
+cdr_1_morning_0160,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0160.txt,morning,1,mild dementia,1,match,pass,,156,8,1,1,0,0,0,1,1,5,0,0.25,0.267,0.733,38
+cdr_1_morning_0165,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0165.txt,morning,1,mild dementia,1,match,pass,,172,8,1,1,0,1,0,2,1,3,0,0.0,0.262,0.738,42
+cdr_1_morning_0170,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0170.txt,morning,1,mild dementia,2,review,review,heuristic_cdr_2;orthography_review:嘸,186,11,3,3,0,1,1,3,1,2,0,0.182,0.265,0.735,44
+cdr_1_morning_0175,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0175.txt,morning,1,mild dementia,1,match,pass,,267,17,2,1,0,1,1,1,3,5,0,0.118,0.207,0.793,66
+cdr_1_morning_0180,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0180.txt,morning,1,mild dementia,1,match,pass,,180,3,3,2,0,0,1,1,1,6,0,0.0,0.312,0.688,44
+cdr_1_morning_0185,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0185.txt,morning,1,mild dementia,1,match,pass,,188,9,1,1,0,1,1,1,1,6,0,0.0,0.225,0.775,50
+cdr_1_morning_0190,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0190.txt,morning,1,mild dementia,1,match,pass,,232,9,1,2,0,1,1,2,2,5,0,0.0,0.293,0.707,64
+cdr_1_morning_0195,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_1/cdr_1_morning_0195.txt,morning,1,mild dementia,1,match,pass,,185,8,1,1,0,1,0,1,3,2,0,0.0,0.213,0.787,50
+cdr_2_clinic_0000,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0000.txt,clinic,2,moderate dementia,2,match,review,orthography_review:海報,161,12,2,3,3,2,1,4,3,6,0,0.667,0.411,0.589,32
+cdr_2_clinic_0005,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0005.txt,clinic,2,moderate dementia,0,review,review,heuristic_cdr_0,149,14,1,3,1,1,1,0,6,7,0,0.857,0.5,0.5,38
+cdr_2_clinic_0010,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0010.txt,clinic,2,moderate dementia,2,match,pass,,176,11,0,5,2,3,1,0,10,6,0,0.545,0.414,0.586,38
+cdr_2_clinic_0015,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0015.txt,clinic,2,moderate dementia,2,match,pass,,183,14,0,4,2,1,1,1,3,8,0,0.571,0.416,0.584,52
+cdr_2_clinic_0020,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0020.txt,clinic,2,moderate dementia,2,match,pass,,239,16,1,4,3,1,1,2,6,12,0,0.562,0.466,0.534,60
+cdr_2_clinic_0025,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0025.txt,clinic,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,148,14,1,1,1,1,0,2,5,5,0,0.857,0.364,0.636,40
+cdr_2_clinic_0030,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0030.txt,clinic,2,moderate dementia,1,review,review,heuristic_cdr_1,148,10,1,2,1,1,0,1,6,5,0,0.5,0.519,0.481,40
+cdr_2_clinic_0035,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0035.txt,clinic,2,moderate dementia,2,match,pass,,212,14,1,4,3,2,2,1,1,7,0,0.5,0.455,0.545,52
+cdr_2_clinic_0040,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0040.txt,clinic,2,moderate dementia,2,match,pass,,176,17,1,2,1,1,0,3,3,3,0,0.706,0.411,0.589,46
+cdr_2_clinic_0045,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0045.txt,clinic,2,moderate dementia,0,review,review,heuristic_cdr_0,168,9,1,2,2,0,1,0,7,4,0,0.111,0.428,0.572,42
+cdr_2_clinic_0050,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0050.txt,clinic,2,moderate dementia,2,match,pass,,148,9,2,2,1,1,1,2,3,5,0,0.444,0.336,0.664,32
+cdr_2_clinic_0055,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0055.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,129,10,1,2,1,1,1,2,6,5,0,0.5,0.369,0.631,26
+cdr_2_clinic_0060,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0060.txt,clinic,2,moderate dementia,2,match,pass,,176,14,0,5,2,2,1,3,3,3,0,0.714,0.426,0.574,50
+cdr_2_clinic_0065,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0065.txt,clinic,2,moderate dementia,2,match,pass,,162,11,3,5,2,1,1,0,3,5,0,0.636,0.438,0.562,26
+cdr_2_clinic_0070,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0070.txt,clinic,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:ㄟ,178,12,1,3,2,1,1,1,2,6,0,0.417,0.364,0.636,48
+cdr_2_clinic_0075,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0075.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,137,9,2,3,2,2,1,1,4,5,0,0.556,0.391,0.609,30
+cdr_2_clinic_0080,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0080.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,97,8,0,1,1,1,1,1,6,4,0,0.875,0.293,0.707,24
+cdr_2_clinic_0085,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0085.txt,clinic,2,moderate dementia,2,match,pass,,163,10,0,5,1,1,1,2,3,4,0,0.4,0.29,0.71,34
+cdr_2_clinic_0090,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0090.txt,clinic,2,moderate dementia,2,match,pass,,163,11,2,5,2,2,1,1,3,4,0,0.727,0.352,0.648,32
+cdr_2_clinic_0095,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0095.txt,clinic,2,moderate dementia,2,match,pass,,197,13,0,8,2,1,1,0,3,5,0,0.615,0.325,0.675,32
+cdr_2_clinic_0100,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0100.txt,clinic,2,moderate dementia,1,review,review,heuristic_cdr_1,148,8,0,6,2,2,0,1,1,2,0,0.25,0.457,0.543,36
+cdr_2_clinic_0105,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0105.txt,clinic,2,moderate dementia,2,match,pass,,192,17,0,5,2,1,1,0,3,5,0,0.824,0.297,0.703,42
+cdr_2_clinic_0110,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0110.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,129,8,1,2,1,1,1,1,6,7,0,0.5,0.462,0.538,40
+cdr_2_clinic_0115,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0115.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,109,6,1,2,1,0,1,1,3,4,0,0.5,0.424,0.576,24
+cdr_2_clinic_0120,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0120.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,131,7,1,3,2,1,1,0,1,2,0,0.143,0.46,0.54,34
+cdr_2_clinic_0125,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0125.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3;orthography_review:嘸,137,8,2,2,3,0,1,0,6,2,0,0.75,0.353,0.647,30
+cdr_2_clinic_0130,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0130.txt,clinic,2,moderate dementia,2,match,review,orthography_review:佷,185,5,0,4,3,1,1,3,5,7,0,0.2,0.5,0.5,44
+cdr_2_clinic_0135,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0135.txt,clinic,2,moderate dementia,0,review,review,heuristic_cdr_0,162,11,1,3,2,1,0,0,3,9,0,0.364,0.386,0.614,48
+cdr_2_clinic_0140,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0140.txt,clinic,2,moderate dementia,2,match,pass,,224,14,3,4,2,1,1,0,3,5,0,0.5,0.399,0.601,52
+cdr_2_clinic_0145,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0145.txt,clinic,2,moderate dementia,2,match,review,orthography_review:佷|係,203,18,1,3,2,1,1,1,5,8,0,0.778,0.457,0.543,58
+cdr_2_clinic_0150,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0150.txt,clinic,2,moderate dementia,2,match,pass,,179,11,0,6,2,1,1,1,3,5,0,0.455,0.211,0.789,32
+cdr_2_clinic_0155,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0155.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,119,4,0,3,2,1,1,1,3,4,0,0.0,0.356,0.644,26
+cdr_2_clinic_0160,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0160.txt,clinic,2,moderate dementia,1,review,review,heuristic_cdr_1,147,9,2,3,1,1,1,1,3,4,0,0.444,0.414,0.586,46
+cdr_2_clinic_0165,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0165.txt,clinic,2,moderate dementia,2,match,pass,,161,11,1,4,2,0,0,1,5,5,0,0.545,0.373,0.627,44
+cdr_2_clinic_0170,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0170.txt,clinic,2,moderate dementia,2,match,pass,,161,4,0,2,2,0,1,3,5,4,0,0.0,0.424,0.576,39
+cdr_2_clinic_0175,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0175.txt,clinic,2,moderate dementia,0,review,review,heuristic_cdr_0,157,10,1,4,2,1,1,0,3,5,0,0.3,0.442,0.558,36
+cdr_2_clinic_0180,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0180.txt,clinic,2,moderate dementia,3,review,review,heuristic_cdr_3,138,11,0,3,1,1,0,1,3,4,0,0.455,0.304,0.696,36
+cdr_2_clinic_0185,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0185.txt,clinic,2,moderate dementia,0,review,review,heuristic_cdr_0,230,12,3,11,2,1,1,0,4,7,0,0.417,0.346,0.654,60
+cdr_2_clinic_0190,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0190.txt,clinic,2,moderate dementia,2,match,pass,,186,13,1,4,2,2,1,3,4,6,0,0.615,0.324,0.676,48
+cdr_2_clinic_0195,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_clinic_0195.txt,clinic,2,moderate dementia,2,match,pass,,156,8,0,6,2,1,1,1,3,4,0,0.5,0.324,0.676,36
+cdr_2_family_0003,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0003.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,191,7,1,4,2,2,1,1,1,5,0,0.143,0.393,0.607,57
+cdr_2_family_0008,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0008.txt,family,2,moderate dementia,2,match,pass,,177,9,2,1,2,0,1,3,1,6,0,0.333,0.351,0.649,53
+cdr_2_family_0013,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0013.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,200,12,1,3,2,1,1,0,1,6,0,0.167,0.423,0.577,69
+cdr_2_family_0018,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0018.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,212,8,1,3,2,1,1,1,1,11,0,0.25,0.398,0.602,67
+cdr_2_family_0023,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0023.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,148,8,1,3,2,1,1,1,1,9,0,0.125,0.437,0.563,37
+cdr_2_family_0028,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0028.txt,family,2,moderate dementia,2,match,pass,,195,9,0,5,2,2,1,3,2,5,0,0.111,0.4,0.6,56
+cdr_2_family_0033,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0033.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,170,8,2,3,2,2,0,1,0,7,0,0.25,0.372,0.628,41
+cdr_2_family_0038,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0038.txt,family,2,moderate dementia,2,match,pass,,201,12,0,4,2,2,1,2,1,11,0,0.083,0.488,0.512,59
+cdr_2_family_0043,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0043.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,205,6,2,3,2,1,1,1,2,9,0,0.0,0.453,0.547,70
+cdr_2_family_0048,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0048.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,176,2,0,5,2,1,1,1,2,7,0,0.0,0.396,0.604,50
+cdr_2_family_0053,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0053.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,181,5,1,3,1,1,1,0,1,11,0,0.2,0.453,0.547,61
+cdr_2_family_0058,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0058.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:嘸,238,12,0,10,3,1,1,1,1,13,0,0.333,0.486,0.514,69
+cdr_2_family_0063,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0063.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,188,1,0,3,1,0,0,1,2,7,0,0.0,0.352,0.648,74
+cdr_2_family_0068,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0068.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,175,10,1,1,3,0,1,1,2,8,0,0.4,0.378,0.622,46
+cdr_2_family_0073,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0073.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,178,10,3,1,3,0,2,0,1,11,0,0.5,0.399,0.601,46
+cdr_2_family_0078,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0078.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,178,9,0,3,2,1,1,1,2,11,0,0.444,0.528,0.472,55
+cdr_2_family_0083,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0083.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,225,11,1,3,3,2,1,1,2,12,0,0.0,0.396,0.604,65
+cdr_2_family_0088,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0088.txt,family,2,moderate dementia,0.5,review,review,heuristic_cdr_0.5,203,13,0,0,2,0,1,2,2,9,0,0.308,0.426,0.574,69
+cdr_2_family_0093,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0093.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,168,4,0,4,2,2,0,1,2,5,0,0.0,0.39,0.61,47
+cdr_2_family_0098,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0098.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,184,7,0,3,2,1,1,0,2,6,0,0.0,0.451,0.549,57
+cdr_2_family_0103,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0103.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,149,9,0,3,2,1,1,0,1,7,0,0.444,0.512,0.488,49
+cdr_2_family_0108,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0108.txt,family,2,moderate dementia,0.5,review,review,heuristic_cdr_0.5,186,9,2,0,2,0,1,1,2,10,0,0.222,0.43,0.57,61
+cdr_2_family_0113,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0113.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,221,4,0,2,1,1,1,0,1,13,0,0.0,0.467,0.533,85
+cdr_2_family_0118,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0118.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,223,15,0,0,2,0,1,0,2,17,0,0.133,0.45,0.55,75
+cdr_2_family_0123,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0123.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,188,6,3,3,2,1,1,1,1,9,0,0.0,0.5,0.5,52
+cdr_2_family_0128,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0128.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,174,10,1,1,2,0,1,1,1,7,0,0.4,0.436,0.564,53
+cdr_2_family_0133,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0133.txt,family,2,moderate dementia,2,match,pass,,167,11,1,3,2,1,1,1,2,9,0,0.455,0.482,0.518,51
+cdr_2_family_0138,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0138.txt,family,2,moderate dementia,2,match,pass,,162,11,0,4,2,1,1,2,1,6,0,0.273,0.492,0.508,52
+cdr_2_family_0143,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0143.txt,family,2,moderate dementia,2,match,pass,,172,12,2,3,3,1,1,1,3,7,0,0.667,0.466,0.534,47
+cdr_2_family_0148,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0148.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,227,16,0,6,2,1,1,0,1,14,0,0.375,0.495,0.505,57
+cdr_2_family_0153,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0153.txt,family,2,moderate dementia,0.5,review,review,heuristic_cdr_0.5,186,11,2,0,0,1,1,2,2,10,0,0.091,0.348,0.652,61
+cdr_2_family_0158,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0158.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0,159,10,0,3,2,1,1,0,1,9,0,0.4,0.423,0.577,45
+cdr_2_family_0163,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0163.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,170,10,1,1,2,0,2,1,1,10,0,0.2,0.44,0.56,56
+cdr_2_family_0168,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0168.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,188,11,2,4,3,2,1,0,1,10,0,0.273,0.496,0.504,53
+cdr_2_family_0173,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0173.txt,family,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,175,5,1,2,2,1,1,0,1,8,0,0.0,0.317,0.683,46
+cdr_2_family_0178,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0178.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,194,9,2,2,2,1,1,1,2,9,0,0.0,0.335,0.665,54
+cdr_2_family_0183,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0183.txt,family,2,moderate dementia,2,match,pass,,182,10,0,3,1,1,1,2,1,9,0,0.2,0.494,0.506,49
+cdr_2_family_0188,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0188.txt,family,2,moderate dementia,2,match,pass,,179,11,2,4,2,1,1,3,1,11,0,0.273,0.482,0.518,48
+cdr_2_family_0193,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0193.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,178,10,0,5,2,1,1,1,2,10,0,0.2,0.385,0.615,38
+cdr_2_family_0198,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_family_0198.txt,family,2,moderate dementia,1,review,review,heuristic_cdr_1,217,10,1,4,1,1,1,1,3,11,0,0.1,0.403,0.597,74
+cdr_2_market_0002,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0002.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,208,10,0,1,1,1,1,4,1,9,0,0.1,0.424,0.576,74
+cdr_2_market_0007,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0007.txt,market,2,moderate dementia,2,match,pass,,213,3,0,5,2,1,1,2,1,6,0,0.0,0.323,0.677,58
+cdr_2_market_0012,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0012.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,154,10,0,3,1,1,1,0,1,6,0,0.4,0.377,0.623,56
+cdr_2_market_0017,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0017.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,175,7,1,4,2,2,1,1,1,8,0,0.143,0.414,0.586,42
+cdr_2_market_0022,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0022.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,187,12,1,3,1,1,1,0,1,6,0,0.417,0.391,0.609,54
+cdr_2_market_0027,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0027.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:ㄟ,243,10,1,2,1,1,0,0,2,7,0,0.0,0.258,0.742,64
+cdr_2_market_0032,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0032.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,209,11,3,3,2,2,1,1,2,8,0,0.273,0.35,0.65,54
+cdr_2_market_0037,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0037.txt,market,2,moderate dementia,2,match,pass,,196,11,1,3,2,2,1,2,2,7,0,0.273,0.364,0.636,46
+cdr_2_market_0042,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0042.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,195,12,1,3,2,1,1,1,2,6,0,0.25,0.427,0.573,62
+cdr_2_market_0047,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0047.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,277,13,1,4,2,2,1,0,1,9,0,0.154,0.389,0.611,78
+cdr_2_market_0052,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0052.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,197,12,1,1,2,0,1,0,1,11,1,0.25,0.324,0.676,52
+cdr_2_market_0057,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0057.txt,market,2,moderate dementia,2,match,review,orthography_review:佷,211,10,1,2,2,1,1,2,4,4,0,0.1,0.286,0.714,60
+cdr_2_market_0062,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0062.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,181,9,1,3,2,2,1,0,2,4,0,0.0,0.317,0.683,52
+cdr_2_market_0067,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0067.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,164,8,1,1,2,0,1,1,3,5,0,0.125,0.39,0.61,58
+cdr_2_market_0072,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0072.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,175,10,1,4,1,2,1,1,1,5,0,0.3,0.479,0.521,54
+cdr_2_market_0077,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0077.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,147,11,0,2,1,1,1,1,2,7,0,0.455,0.435,0.565,50
+cdr_2_market_0082,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0082.txt,market,2,moderate dementia,2,match,pass,,214,11,0,3,2,1,1,2,2,9,0,0.182,0.443,0.557,62
+cdr_2_market_0087,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0087.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,208,9,0,4,2,1,1,1,1,7,0,0.111,0.296,0.704,58
+cdr_2_market_0092,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0092.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,161,8,0,3,2,1,1,1,1,7,0,0.125,0.389,0.611,50
+cdr_2_market_0097,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0097.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,146,8,1,1,2,1,1,1,2,5,0,0.0,0.405,0.595,44
+cdr_2_market_0102,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0102.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,229,9,1,5,2,2,1,1,1,10,0,0.0,0.449,0.551,66
+cdr_2_market_0107,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0107.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,223,11,0,3,2,1,1,1,4,8,0,0.364,0.396,0.604,64
+cdr_2_market_0112,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0112.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,238,10,0,3,1,1,1,1,1,9,0,0.0,0.385,0.615,94
+cdr_2_market_0117,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0117.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:嘸,210,12,1,3,2,1,2,1,1,6,0,0.417,0.413,0.587,56
+cdr_2_market_0122,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0122.txt,market,2,moderate dementia,2,match,pass,,229,16,2,7,3,1,1,1,2,6,0,0.562,0.293,0.707,52
+cdr_2_market_0127,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0127.txt,market,2,moderate dementia,2,match,review,orthography_review:佷,273,8,2,7,3,1,1,2,4,9,0,0.0,0.365,0.635,62
+cdr_2_market_0132,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0132.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,193,7,1,4,2,1,1,0,3,6,0,0.143,0.509,0.491,46
+cdr_2_market_0137,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0137.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,224,12,3,4,2,1,1,1,1,7,0,0.25,0.412,0.588,56
+cdr_2_market_0142,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0142.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,156,6,1,2,2,1,0,1,2,4,0,0.0,0.402,0.598,48
+cdr_2_market_0147,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0147.txt,market,2,moderate dementia,2,match,pass,,266,14,1,3,2,2,1,3,1,8,0,0.071,0.362,0.638,88
+cdr_2_market_0152,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0152.txt,market,2,moderate dementia,2,match,pass,,189,9,2,3,2,1,1,2,1,6,0,0.111,0.416,0.584,54
+cdr_2_market_0157,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0157.txt,market,2,moderate dementia,0,review,review,heuristic_cdr_0,172,8,1,3,2,2,1,0,1,6,0,0.0,0.412,0.588,46
+cdr_2_market_0162,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0162.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,199,10,1,2,2,2,1,1,2,6,0,0.0,0.352,0.648,60
+cdr_2_market_0167,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0167.txt,market,2,moderate dementia,2,match,pass,,194,7,1,2,1,1,1,4,1,4,0,0.0,0.298,0.702,44
+cdr_2_market_0172,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0172.txt,market,2,moderate dementia,2,match,review,orthography_review:佷,159,9,3,2,1,1,1,2,1,5,0,0.333,0.427,0.573,54
+cdr_2_market_0177,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0177.txt,market,2,moderate dementia,2,match,pass,,180,8,1,2,2,1,1,3,2,4,0,0.25,0.34,0.66,46
+cdr_2_market_0182,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0182.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,190,10,0,3,2,1,1,1,1,7,0,0.2,0.416,0.584,64
+cdr_2_market_0187,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0187.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1,225,8,0,3,2,1,1,1,1,8,0,0.125,0.305,0.695,64
+cdr_2_market_0192,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0192.txt,market,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,148,7,1,2,1,2,1,1,1,5,0,0.0,0.386,0.614,42
+cdr_2_market_0197,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_market_0197.txt,market,2,moderate dementia,2,match,pass,,174,8,0,2,1,1,1,2,2,5,0,0.25,0.474,0.526,52
+cdr_2_memory_0001,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0001.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:𠲎,229,1,3,7,3,3,1,0,1,5,1,0.0,0.359,0.641,35
+cdr_2_memory_0006,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0006.txt,memory,2,moderate dementia,2,match,pass,,196,2,1,7,3,1,1,2,1,6,0,0.0,0.539,0.461,50
+cdr_2_memory_0011,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0011.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,204,12,1,3,2,1,1,0,1,5,0,0.25,0.146,0.854,30
+cdr_2_memory_0016,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0016.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,234,5,1,6,2,1,0,1,1,5,0,0.2,0.372,0.628,62
+cdr_2_memory_0021,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0021.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,164,7,2,2,2,1,1,0,2,2,0,0.0,0.197,0.803,28
+cdr_2_memory_0026,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0026.txt,memory,2,moderate dementia,2,match,review,orthography_review:ㄟ,177,1,1,5,2,1,0,3,1,5,0,0.0,0.423,0.577,56
+cdr_2_memory_0031,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0031.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:係,203,9,0,3,3,2,1,1,2,5,0,0.111,0.312,0.688,54
+cdr_2_memory_0036,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0036.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,247,10,2,4,2,1,1,1,1,2,0,0.0,0.157,0.843,48
+cdr_2_memory_0041,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0041.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio;orthography_review:ㄟ,242,12,0,3,2,1,1,0,1,5,0,0.167,0.132,0.868,36
+cdr_2_memory_0046,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0046.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,190,5,0,2,1,1,0,1,1,6,0,0.0,0.391,0.609,68
+cdr_2_memory_0051,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0051.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,212,5,0,1,0,1,1,2,3,7,0,0.0,0.293,0.707,62
+cdr_2_memory_0056,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0056.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,144,3,3,2,2,1,1,1,3,2,0,0.0,0.3,0.7,32
+cdr_2_memory_0061,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0061.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio;orthography_review:佷,221,3,3,3,2,2,1,0,1,5,0,0.0,0.188,0.812,34
+cdr_2_memory_0066,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0066.txt,memory,2,moderate dementia,2,match,review,orthography_review:佷,181,10,1,3,2,1,1,2,2,3,0,0.4,0.299,0.701,34
+cdr_2_memory_0071,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0071.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,297,12,2,5,3,1,2,1,3,4,0,0.167,0.179,0.821,46
+cdr_2_memory_0076,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0076.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,166,10,0,4,2,2,1,0,2,6,0,0.2,0.38,0.62,40
+cdr_2_memory_0081,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0081.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,275,13,1,5,3,2,1,0,2,6,0,0.077,0.249,0.751,56
+cdr_2_memory_0086,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0086.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,318,13,2,5,3,2,1,0,1,6,0,0.308,0.141,0.859,44
+cdr_2_memory_0091,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0091.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,194,1,3,5,2,1,1,0,1,3,0,0.0,0.192,0.808,30
+cdr_2_memory_0096,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0096.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;low_taigi_ratio;high_mandarin_ratio,190,5,1,1,2,2,1,0,1,2,0,0.2,0.117,0.883,24
+cdr_2_memory_0101,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0101.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,165,7,0,2,1,1,1,0,3,4,0,0.143,0.336,0.664,44
+cdr_2_memory_0106,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0106.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,219,12,1,4,2,2,1,1,2,4,0,0.167,0.259,0.741,42
+cdr_2_memory_0111,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0111.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,227,11,2,4,2,1,1,1,1,4,0,0.091,0.193,0.807,40
+cdr_2_memory_0116,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0116.txt,memory,2,moderate dementia,2,match,pass,,237,9,2,0,3,0,0,2,2,3,0,0.0,0.288,0.712,72
+cdr_2_memory_0121,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0121.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,251,8,1,3,2,2,1,1,2,4,0,0.0,0.385,0.615,78
+cdr_2_memory_0126,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0126.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:係,206,8,1,3,2,1,1,1,2,5,1,0.0,0.268,0.732,58
+cdr_2_memory_0131,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0131.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,185,6,1,4,2,1,1,0,1,5,0,0.0,0.275,0.725,48
+cdr_2_memory_0136,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0136.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio;orthography_review:佷,202,13,2,2,2,0,0,1,1,3,0,0.308,0.182,0.818,32
+cdr_2_memory_0141,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0141.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,189,8,2,2,2,2,1,1,1,4,0,0.375,0.344,0.656,40
+cdr_2_memory_0146,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0146.txt,memory,2,moderate dementia,3,review,review,heuristic_cdr_3,124,8,0,1,1,0,1,2,2,5,0,0.375,0.426,0.574,36
+cdr_2_memory_0151,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0151.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,214,9,2,1,2,2,1,0,1,3,0,0.0,0.204,0.796,40
+cdr_2_memory_0156,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0156.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,173,7,1,2,2,1,1,0,2,4,0,0.286,0.203,0.797,40
+cdr_2_memory_0161,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0161.txt,memory,2,moderate dementia,2,match,review,orthography_review:佷,203,9,0,4,2,1,1,2,1,6,0,0.0,0.315,0.685,44
+cdr_2_memory_0166,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0166.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,185,8,0,4,2,1,1,0,1,5,0,0.0,0.333,0.667,36
+cdr_2_memory_0171,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0171.txt,memory,2,moderate dementia,1,review,review,heuristic_cdr_1,225,6,1,4,2,1,1,1,2,4,0,0.0,0.274,0.726,52
+cdr_2_memory_0176,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0176.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,197,6,1,4,2,1,1,0,2,4,0,0.0,0.292,0.708,44
+cdr_2_memory_0181,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0181.txt,memory,2,moderate dementia,2,match,pass,,216,12,1,3,3,2,1,2,3,5,0,0.167,0.266,0.734,50
+cdr_2_memory_0186,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0186.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0,228,3,3,5,4,3,1,0,2,7,1,0.0,0.256,0.744,36
+cdr_2_memory_0191,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0191.txt,memory,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:佷,236,6,0,4,1,1,1,0,2,10,0,0.167,0.318,0.682,78
+cdr_2_memory_0196,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_memory_0196.txt,memory,2,moderate dementia,2,match,pass,,201,13,4,4,2,1,1,1,2,3,0,0.462,0.25,0.75,34
+cdr_2_morning_0004,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0004.txt,morning,2,moderate dementia,3,review,review,heuristic_cdr_3,123,8,1,1,2,0,1,1,1,3,0,0.625,0.422,0.578,36
+cdr_2_morning_0009,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0009.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,159,13,2,1,2,0,1,1,2,7,0,0.538,0.361,0.639,46
+cdr_2_morning_0014,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0014.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0;orthography_review:係,151,7,2,2,2,0,1,0,1,3,0,0.286,0.452,0.548,46
+cdr_2_morning_0019,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0019.txt,morning,2,moderate dementia,2,match,pass,,201,7,2,2,2,1,1,3,2,7,0,0.0,0.478,0.522,64
+cdr_2_morning_0024,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0024.txt,morning,2,moderate dementia,2,match,review,orthography_review:ㄟ,216,16,2,6,3,2,3,0,1,4,0,0.688,0.42,0.58,52
+cdr_2_morning_0029,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0029.txt,morning,2,moderate dementia,2,match,review,orthography_review:嘸,166,9,2,3,1,0,1,2,2,7,0,0.111,0.316,0.684,46
+cdr_2_morning_0034,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0034.txt,morning,2,moderate dementia,2,match,review,orthography_review:ㄟ,225,14,4,4,3,2,2,1,2,4,0,0.643,0.265,0.735,42
+cdr_2_morning_0039,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0039.txt,morning,2,moderate dementia,2,match,pass,,186,8,1,3,1,1,1,2,2,2,0,0.0,0.344,0.656,50
+cdr_2_morning_0044,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0044.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,151,2,2,2,3,2,1,1,1,4,0,0.0,0.496,0.504,34
+cdr_2_morning_0049,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0049.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,226,9,5,4,3,3,1,0,1,5,0,0.222,0.335,0.665,54
+cdr_2_morning_0054,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0054.txt,morning,2,moderate dementia,2,match,pass,,187,4,1,3,2,1,0,1,2,10,0,0.5,0.41,0.59,50
+cdr_2_morning_0059,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0059.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,187,5,1,3,2,1,1,1,1,8,0,0.0,0.391,0.609,52
+cdr_2_morning_0064,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0064.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,167,12,0,2,1,1,1,1,1,7,0,0.5,0.376,0.624,56
+cdr_2_morning_0069,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0069.txt,morning,2,moderate dementia,2,match,pass,,159,9,1,2,2,1,1,2,1,7,0,0.111,0.478,0.522,54
+cdr_2_morning_0074,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0074.txt,morning,2,moderate dementia,2,match,pass,,252,7,2,4,3,1,1,2,2,9,0,0.0,0.483,0.517,80
+cdr_2_morning_0079,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0079.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1;low_taigi_ratio;high_mandarin_ratio,238,5,2,4,2,2,0,1,2,2,0,0.2,0.164,0.836,28
+cdr_2_morning_0084,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0084.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,167,10,2,3,2,2,1,0,1,6,0,0.4,0.556,0.444,46
+cdr_2_morning_0089,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0089.txt,morning,2,moderate dementia,2,match,pass,,181,14,2,3,2,0,1,0,1,6,0,0.5,0.359,0.641,50
+cdr_2_morning_0094,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0094.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,199,14,1,2,1,0,0,1,1,7,0,0.214,0.302,0.698,60
+cdr_2_morning_0099,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0099.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,196,3,4,3,2,2,1,0,2,8,0,0.0,0.421,0.579,44
+cdr_2_morning_0104,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0104.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,185,8,2,3,1,1,0,0,1,6,0,0.0,0.338,0.662,54
+cdr_2_morning_0109,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0109.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1;orthography_review:佷,226,8,1,3,2,1,0,1,4,10,0,0.0,0.489,0.511,70
+cdr_2_morning_0114,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0114.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,202,9,1,4,2,2,1,0,1,5,0,0.222,0.331,0.669,38
+cdr_2_morning_0119,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0119.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,244,13,0,4,3,2,1,1,1,7,0,0.308,0.237,0.763,54
+cdr_2_morning_0124,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0124.txt,morning,2,moderate dementia,2,match,pass,,229,12,2,8,3,2,1,2,1,9,0,0.25,0.38,0.62,44
+cdr_2_morning_0129,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0129.txt,morning,2,moderate dementia,2,match,pass,,252,6,1,4,2,1,1,2,3,8,0,0.0,0.361,0.639,70
+cdr_2_morning_0134,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0134.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,246,7,0,3,2,1,1,0,3,5,0,0.0,0.287,0.713,56
+cdr_2_morning_0139,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0139.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,158,2,2,1,3,0,1,0,1,6,0,0.0,0.514,0.486,52
+cdr_2_morning_0144,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0144.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,144,4,1,2,1,1,1,0,1,5,0,0.25,0.339,0.661,46
+cdr_2_morning_0149,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0149.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,171,11,2,3,2,1,1,1,1,8,0,0.273,0.383,0.617,42
+cdr_2_morning_0154,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0154.txt,morning,2,moderate dementia,2,match,review,orthography_review:嘸,200,7,2,2,3,0,1,2,1,7,0,0.0,0.337,0.663,58
+cdr_2_morning_0159,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0159.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,198,9,0,3,1,1,1,1,1,8,0,0.111,0.314,0.686,58
+cdr_2_morning_0164,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0164.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,184,11,0,5,2,1,1,0,1,5,0,0.273,0.331,0.669,50
+cdr_2_morning_0169,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0169.txt,morning,2,moderate dementia,2,match,review,orthography_review:ㄟ,215,10,0,3,2,2,1,2,4,7,0,0.1,0.351,0.649,58
+cdr_2_morning_0174,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0174.txt,morning,2,moderate dementia,2,match,pass,,176,12,2,4,2,2,1,3,2,6,0,0.417,0.47,0.53,44
+cdr_2_morning_0179,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0179.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,200,6,4,4,2,1,1,1,1,8,0,0.0,0.446,0.554,54
+cdr_2_morning_0184,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0184.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,188,9,1,3,2,1,1,1,2,5,0,0.0,0.279,0.721,46
+cdr_2_morning_0189,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0189.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,200,12,2,4,1,1,1,1,2,5,0,0.25,0.352,0.648,50
+cdr_2_morning_0194,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0194.txt,morning,2,moderate dementia,0,review,review,heuristic_cdr_0,180,10,1,4,2,1,1,0,1,4,0,0.1,0.413,0.587,42
+cdr_2_morning_0199,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_2/cdr_2_morning_0199.txt,morning,2,moderate dementia,1,review,review,heuristic_cdr_1,240,9,2,3,4,3,1,1,1,5,0,0.0,0.319,0.681,74
+cdr_3_clinic_0004,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0004.txt,clinic,3,severe dementia,3,match,pass,,85,4,0,2,1,0,0,1,1,3,2,0.5,0.333,0.667,16
+cdr_3_clinic_0009,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0009.txt,clinic,3,severe dementia,3,match,pass,,73,4,1,2,1,0,0,1,3,4,1,0.25,0.436,0.564,14
+cdr_3_clinic_0014,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0014.txt,clinic,3,severe dementia,3,match,pass,,108,3,0,2,1,1,1,0,1,3,1,0.0,0.321,0.679,20
+cdr_3_clinic_0019,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0019.txt,clinic,3,severe dementia,3,match,pass,,72,2,0,2,1,0,0,1,1,2,1,0.0,0.37,0.63,16
+cdr_3_clinic_0024,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0024.txt,clinic,3,severe dementia,3,match,pass,,74,3,0,2,1,1,0,1,3,1,1,0.333,0.308,0.692,12
+cdr_3_clinic_0029,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0029.txt,clinic,3,severe dementia,3,match,pass,,88,3,0,3,1,1,0,1,1,3,1,0.0,0.431,0.569,20
+cdr_3_clinic_0034,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0034.txt,clinic,3,severe dementia,3,match,pass,,78,1,0,2,1,1,0,0,3,4,1,0.0,0.37,0.63,18
+cdr_3_clinic_0039,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0039.txt,clinic,3,severe dementia,3,match,pass,,78,4,0,1,1,1,0,1,1,3,1,0.5,0.393,0.607,18
+cdr_3_clinic_0044,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0044.txt,clinic,3,severe dementia,3,match,pass,,65,3,0,1,1,0,0,1,3,2,1,0.0,0.375,0.625,14
+cdr_3_clinic_0049,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0049.txt,clinic,3,severe dementia,3,match,pass,,72,5,0,2,1,0,0,1,3,1,1,0.4,0.271,0.729,18
+cdr_3_clinic_0054,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0054.txt,clinic,3,severe dementia,3,match,pass,,80,3,1,1,1,0,0,1,1,3,0,0.0,0.328,0.672,22
+cdr_3_clinic_0059,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0059.txt,clinic,3,severe dementia,3,match,pass,,77,2,0,2,1,0,0,2,3,2,1,0.0,0.459,0.541,18
+cdr_3_clinic_0064,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0064.txt,clinic,3,severe dementia,3,match,pass,,80,3,0,2,1,0,0,0,3,5,1,0.0,0.415,0.585,16
+cdr_3_clinic_0069,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0069.txt,clinic,3,severe dementia,3,match,pass,,77,2,0,2,1,1,0,0,3,3,0,0.0,0.308,0.692,12
+cdr_3_clinic_0074,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0074.txt,clinic,3,severe dementia,3,match,pass,,99,4,0,2,1,1,0,2,1,3,2,0.5,0.468,0.532,22
+cdr_3_clinic_0079,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0079.txt,clinic,3,severe dementia,3,match,pass,,80,4,0,1,1,1,0,1,3,2,1,0.25,0.369,0.631,18
+cdr_3_clinic_0084,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0084.txt,clinic,3,severe dementia,3,match,pass,,76,4,0,2,1,0,0,2,1,2,1,0.0,0.364,0.636,16
+cdr_3_clinic_0089,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0089.txt,clinic,3,severe dementia,3,match,pass,,88,3,1,2,1,0,0,0,1,3,1,0.0,0.448,0.552,22
+cdr_3_clinic_0094,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0094.txt,clinic,3,severe dementia,3,match,pass,,75,3,0,1,1,1,0,1,1,3,1,0.0,0.431,0.569,24
+cdr_3_clinic_0099,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0099.txt,clinic,3,severe dementia,3,match,pass,,84,4,0,2,1,1,0,1,3,3,1,0.25,0.383,0.617,18
+cdr_3_clinic_0104,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0104.txt,clinic,3,severe dementia,3,match,pass,,76,3,0,2,1,1,0,1,1,2,1,0.0,0.5,0.5,18
+cdr_3_clinic_0109,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0109.txt,clinic,3,severe dementia,3,match,pass,,87,3,0,2,1,0,0,0,3,2,2,0.0,0.333,0.667,18
+cdr_3_clinic_0114,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0114.txt,clinic,3,severe dementia,3,match,pass,,78,5,1,2,1,1,0,1,3,2,1,0.8,0.36,0.64,18
+cdr_3_clinic_0119,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0119.txt,clinic,3,severe dementia,3,match,pass,,69,4,0,2,1,0,0,1,3,3,1,0.25,0.509,0.491,14
+cdr_3_clinic_0124,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0124.txt,clinic,3,severe dementia,3,match,pass,,79,3,1,1,1,1,0,1,1,2,0,0.333,0.283,0.717,12
+cdr_3_clinic_0129,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0129.txt,clinic,3,severe dementia,3,match,pass,,111,7,1,1,1,0,0,1,5,4,1,0.429,0.396,0.604,30
+cdr_3_clinic_0134,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0134.txt,clinic,3,severe dementia,3,match,pass,,82,2,0,2,1,1,0,1,3,3,0,0.0,0.281,0.719,16
+cdr_3_clinic_0139,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0139.txt,clinic,3,severe dementia,3,match,pass,,84,4,0,2,1,1,0,1,3,3,1,0.25,0.361,0.639,14
+cdr_3_clinic_0144,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0144.txt,clinic,3,severe dementia,3,match,pass,,71,2,1,1,1,0,0,0,3,1,1,0.0,0.364,0.636,16
+cdr_3_clinic_0149,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0149.txt,clinic,3,severe dementia,3,match,pass,,70,3,1,2,1,0,0,1,1,1,1,0.0,0.261,0.739,10
+cdr_3_clinic_0154,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0154.txt,clinic,3,severe dementia,3,match,pass,,88,2,0,2,1,0,0,1,1,4,0,0.0,0.353,0.647,24
+cdr_3_clinic_0159,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0159.txt,clinic,3,severe dementia,3,match,pass,,84,3,0,2,1,0,0,2,3,2,0,0.0,0.297,0.703,16
+cdr_3_clinic_0164,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0164.txt,clinic,3,severe dementia,3,match,pass,,76,4,0,2,1,1,0,1,3,3,1,0.25,0.396,0.604,20
+cdr_3_clinic_0169,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0169.txt,clinic,3,severe dementia,3,match,pass,,83,3,2,3,1,0,0,0,1,4,0,0.333,0.362,0.638,12
+cdr_3_clinic_0174,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0174.txt,clinic,3,severe dementia,3,match,pass,,75,3,1,2,1,0,0,1,1,3,0,0.0,0.415,0.585,14
+cdr_3_clinic_0179,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0179.txt,clinic,3,severe dementia,3,match,pass,,86,3,0,1,1,1,0,0,3,3,0,0.667,0.375,0.625,18
+cdr_3_clinic_0184,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0184.txt,clinic,3,severe dementia,3,match,pass,,71,5,0,2,1,1,0,1,1,2,2,0.6,0.582,0.418,14
+cdr_3_clinic_0189,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0189.txt,clinic,3,severe dementia,3,match,pass,,81,3,0,2,1,0,0,1,3,4,0,0.0,0.333,0.667,16
+cdr_3_clinic_0194,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0194.txt,clinic,3,severe dementia,3,match,pass,,58,3,1,1,1,0,0,1,1,2,1,0.0,0.375,0.625,14
+cdr_3_clinic_0199,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_clinic_0199.txt,clinic,3,severe dementia,3,match,pass,,94,1,1,2,1,1,0,1,1,5,0,0.0,0.333,0.667,20
+cdr_3_family_0002,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0002.txt,family,3,severe dementia,3,match,pass,,91,3,0,2,1,1,0,0,0,4,1,0.0,0.441,0.559,19
+cdr_3_family_0007,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0007.txt,family,3,severe dementia,3,match,review,orthography_review:嘸,86,3,0,2,1,0,0,1,0,4,0,0.0,0.433,0.567,21
+cdr_3_family_0012,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0012.txt,family,3,severe dementia,3,match,review,orthography_review:佷,96,2,1,1,1,1,1,1,0,5,1,0.0,0.391,0.609,19
+cdr_3_family_0017,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0017.txt,family,3,severe dementia,3,match,pass,,86,4,1,2,1,1,0,1,0,5,1,0.25,0.417,0.583,19
+cdr_3_family_0022,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0022.txt,family,3,severe dementia,3,match,pass,,75,3,0,2,1,0,0,0,0,4,1,0.0,0.368,0.632,15
+cdr_3_family_0027,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0027.txt,family,3,severe dementia,3,match,pass,,87,5,1,2,1,1,0,1,0,4,1,0.4,0.443,0.557,21
+cdr_3_family_0032,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0032.txt,family,3,severe dementia,3,match,pass,,80,4,0,2,1,1,0,1,0,4,1,0.25,0.362,0.638,17
+cdr_3_family_0037,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0037.txt,family,3,severe dementia,3,match,pass,,81,3,1,2,1,1,0,0,0,4,1,0.0,0.481,0.519,17
+cdr_3_family_0042,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0042.txt,family,3,severe dementia,3,match,pass,,71,5,1,1,1,0,0,0,0,4,1,0.4,0.491,0.509,19
+cdr_3_family_0047,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0047.txt,family,3,severe dementia,3,match,pass,,84,3,2,1,1,0,0,0,0,4,0,0.333,0.305,0.695,17
+cdr_3_family_0052,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0052.txt,family,3,severe dementia,3,match,pass,,72,3,0,1,1,1,0,1,0,3,0,0.0,0.377,0.623,17
+cdr_3_family_0057,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0057.txt,family,3,severe dementia,3,match,pass,,85,2,0,2,1,0,0,0,0,5,2,0.0,0.435,0.565,21
+cdr_3_family_0062,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0062.txt,family,3,severe dementia,3,match,pass,,101,2,0,2,1,1,0,2,1,4,0,0.0,0.342,0.658,21
+cdr_3_family_0067,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0067.txt,family,3,severe dementia,3,match,pass,,73,2,0,2,1,0,0,0,0,4,1,0.0,0.393,0.607,17
+cdr_3_family_0072,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0072.txt,family,3,severe dementia,3,match,pass,,68,3,0,2,1,0,0,1,0,3,0,0.333,0.347,0.653,13
+cdr_3_family_0077,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0077.txt,family,3,severe dementia,3,match,pass,,78,3,0,2,1,0,0,0,0,6,0,0.0,0.484,0.516,15
+cdr_3_family_0082,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0082.txt,family,3,severe dementia,3,match,pass,,73,2,1,2,1,0,0,0,0,4,1,0.0,0.42,0.58,15
+cdr_3_family_0087,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0087.txt,family,3,severe dementia,3,match,pass,,68,3,0,2,1,0,0,0,0,3,1,0.333,0.463,0.537,13
+cdr_3_family_0092,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0092.txt,family,3,severe dementia,3,match,pass,,116,3,0,2,2,1,0,1,0,6,0,0.0,0.36,0.64,25
+cdr_3_family_0097,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0097.txt,family,3,severe dementia,3,match,pass,,83,2,0,2,1,1,0,0,1,4,0,0.0,0.426,0.574,17
+cdr_3_family_0102,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0102.txt,family,3,severe dementia,3,match,pass,,90,4,0,2,1,1,1,1,0,4,0,0.25,0.391,0.609,13
+cdr_3_family_0107,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0107.txt,family,3,severe dementia,3,match,pass,,72,4,1,2,1,0,0,1,0,3,0,0.0,0.347,0.653,15
+cdr_3_family_0112,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0112.txt,family,3,severe dementia,3,match,pass,,88,4,1,2,1,0,0,1,0,2,1,0.0,0.308,0.692,13
+cdr_3_family_0117,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0117.txt,family,3,severe dementia,3,match,pass,,81,2,1,2,1,0,0,1,0,4,2,0.0,0.532,0.468,19
+cdr_3_family_0122,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0122.txt,family,3,severe dementia,3,match,pass,,76,3,1,2,1,1,0,0,0,3,1,0.0,0.438,0.562,15
+cdr_3_family_0127,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0127.txt,family,3,severe dementia,3,match,pass,,85,3,0,2,1,0,0,0,1,4,0,0.0,0.391,0.609,19
+cdr_3_family_0132,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0132.txt,family,3,severe dementia,3,match,pass,,86,2,0,1,1,1,0,1,0,4,1,0.0,0.362,0.638,21
+cdr_3_family_0137,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0137.txt,family,3,severe dementia,3,match,pass,,90,4,1,2,1,0,0,0,2,4,1,0.25,0.441,0.559,23
+cdr_3_family_0142,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0142.txt,family,3,severe dementia,3,match,pass,,67,3,0,2,1,1,0,0,0,4,0,0.333,0.409,0.591,13
+cdr_3_family_0147,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0147.txt,family,3,severe dementia,3,match,pass,,85,5,1,2,1,0,0,0,0,4,1,0.4,0.485,0.515,21
+cdr_3_family_0152,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0152.txt,family,3,severe dementia,3,match,pass,,91,3,0,2,1,1,0,1,0,3,1,0.0,0.379,0.621,25
+cdr_3_family_0157,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0157.txt,family,3,severe dementia,3,match,pass,,93,5,0,3,1,1,1,0,0,3,1,0.2,0.466,0.534,21
+cdr_3_family_0162,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0162.txt,family,3,severe dementia,3,match,pass,,76,2,0,2,1,0,0,0,0,4,1,0.0,0.327,0.673,15
+cdr_3_family_0167,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0167.txt,family,3,severe dementia,3,match,pass,,120,3,0,2,2,1,1,2,1,4,1,0.0,0.36,0.64,27
+cdr_3_family_0172,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0172.txt,family,3,severe dementia,3,match,pass,,82,4,0,2,1,1,0,0,0,4,1,0.0,0.492,0.508,17
+cdr_3_family_0177,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0177.txt,family,3,severe dementia,3,match,pass,,75,4,0,2,1,1,0,0,0,5,1,0.25,0.471,0.529,21
+cdr_3_family_0182,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0182.txt,family,3,severe dementia,3,match,pass,,99,3,0,2,1,1,0,2,1,4,1,0.0,0.413,0.587,27
+cdr_3_family_0187,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0187.txt,family,3,severe dementia,3,match,pass,,81,2,0,2,1,1,0,2,0,4,1,0.0,0.448,0.552,15
+cdr_3_family_0192,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0192.txt,family,3,severe dementia,3,match,pass,,81,3,0,2,1,0,0,0,0,5,1,0.0,0.391,0.609,17
+cdr_3_family_0197,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_family_0197.txt,family,3,severe dementia,3,match,pass,,93,3,0,2,1,1,0,0,0,2,2,0.333,0.425,0.575,21
+cdr_3_market_0001,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0001.txt,market,3,severe dementia,3,match,pass,,83,2,0,2,1,0,0,1,0,4,1,0.0,0.424,0.576,21
+cdr_3_market_0006,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0006.txt,market,3,severe dementia,3,match,pass,,71,4,0,2,1,0,0,1,1,3,1,0.5,0.536,0.464,17
+cdr_3_market_0011,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0011.txt,market,3,severe dementia,3,match,pass,,68,4,1,2,1,0,0,0,0,4,2,0.25,0.604,0.396,15
+cdr_3_market_0016,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0016.txt,market,3,severe dementia,3,match,pass,,83,5,0,1,1,1,0,2,0,3,1,0.2,0.544,0.456,23
+cdr_3_market_0021,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0021.txt,market,3,severe dementia,3,match,pass,,80,4,0,2,1,1,0,0,0,4,1,0.25,0.508,0.492,19
+cdr_3_market_0026,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0026.txt,market,3,severe dementia,3,match,pass,,115,4,0,2,1,1,1,1,0,4,1,0.25,0.389,0.611,23
+cdr_3_market_0031,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0031.txt,market,3,severe dementia,3,match,pass,,99,2,0,3,1,1,1,0,0,3,1,0.0,0.323,0.677,17
+cdr_3_market_0036,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0036.txt,market,3,severe dementia,3,match,pass,,113,5,0,2,1,1,0,1,0,4,0,0.2,0.451,0.549,31
+cdr_3_market_0041,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0041.txt,market,3,severe dementia,3,match,pass,,80,4,0,2,1,0,0,2,1,2,1,0.0,0.485,0.515,17
+cdr_3_market_0046,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0046.txt,market,3,severe dementia,3,match,pass,,83,2,0,2,1,1,0,1,0,4,0,0.0,0.459,0.541,17
+cdr_3_market_0051,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0051.txt,market,3,severe dementia,3,match,pass,,86,3,0,2,1,0,0,1,0,3,1,0.0,0.438,0.562,19
+cdr_3_market_0056,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0056.txt,market,3,severe dementia,3,match,pass,,89,3,0,2,1,1,0,1,0,3,1,0.0,0.449,0.551,23
+cdr_3_market_0061,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0061.txt,market,3,severe dementia,3,match,pass,,75,2,0,1,1,1,0,2,0,3,1,0.0,0.452,0.548,17
+cdr_3_market_0066,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0066.txt,market,3,severe dementia,3,match,pass,,71,4,0,2,1,1,0,0,1,3,1,0.25,0.429,0.571,17
+cdr_3_market_0071,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0071.txt,market,3,severe dementia,3,match,review,orthography_review:ㄟ,103,3,0,2,1,0,0,1,1,4,1,0.333,0.472,0.528,27
+cdr_3_market_0076,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0076.txt,market,3,severe dementia,3,match,pass,,82,3,0,1,1,1,0,2,0,5,1,0.0,0.515,0.485,25
+cdr_3_market_0081,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0081.txt,market,3,severe dementia,3,match,pass,,79,4,0,1,1,1,1,1,0,3,1,0.5,0.443,0.557,15
+cdr_3_market_0086,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0086.txt,market,3,severe dementia,3,match,pass,,103,5,0,2,1,1,0,0,0,5,1,0.4,0.447,0.553,23
+cdr_3_market_0091,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0091.txt,market,3,severe dementia,3,match,pass,,90,5,0,2,1,1,0,2,0,3,1,0.2,0.463,0.537,21
+cdr_3_market_0096,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0096.txt,market,3,severe dementia,3,match,pass,,65,2,0,2,1,0,0,0,0,4,1,0.0,0.383,0.617,13
+cdr_3_market_0101,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0101.txt,market,3,severe dementia,3,match,pass,,90,2,0,2,1,1,0,0,0,5,1,0.0,0.464,0.536,19
+cdr_3_market_0106,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0106.txt,market,3,severe dementia,3,match,pass,,73,2,0,1,1,1,0,1,0,3,0,0.0,0.436,0.564,23
+cdr_3_market_0111,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0111.txt,market,3,severe dementia,3,match,pass,,63,2,0,2,1,0,0,0,0,3,1,0.0,0.413,0.587,11
+cdr_3_market_0116,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0116.txt,market,3,severe dementia,3,match,pass,,81,2,0,2,1,0,0,1,0,4,1,0.0,0.515,0.485,19
+cdr_3_market_0121,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0121.txt,market,3,severe dementia,3,match,pass,,111,3,1,2,1,1,1,1,0,4,1,0.333,0.395,0.605,25
+cdr_3_market_0126,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0126.txt,market,3,severe dementia,3,match,pass,,111,5,0,2,1,1,1,1,0,6,1,0.2,0.442,0.558,33
+cdr_3_market_0131,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0131.txt,market,3,severe dementia,3,match,pass,,102,2,0,2,1,1,0,1,0,5,2,0.0,0.434,0.566,21
+cdr_3_market_0136,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0136.txt,market,3,severe dementia,3,match,pass,,105,2,0,2,1,1,0,0,0,3,0,0.0,0.482,0.518,27
+cdr_3_market_0141,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0141.txt,market,3,severe dementia,3,match,pass,,112,2,0,2,1,0,0,0,0,3,1,0.0,0.33,0.67,25
+cdr_3_market_0146,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0146.txt,market,3,severe dementia,3,match,pass,,103,2,0,2,1,1,0,1,1,3,1,0.0,0.367,0.633,21
+cdr_3_market_0151,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0151.txt,market,3,severe dementia,3,match,pass,,89,2,0,2,1,0,0,1,0,4,1,0.0,0.417,0.583,21
+cdr_3_market_0156,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0156.txt,market,3,severe dementia,3,match,pass,,97,2,0,2,1,1,0,1,0,4,1,0.0,0.442,0.558,23
+cdr_3_market_0161,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0161.txt,market,3,severe dementia,3,match,pass,,71,3,0,1,1,1,0,1,0,4,1,0.333,0.576,0.424,19
+cdr_3_market_0166,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0166.txt,market,3,severe dementia,3,match,pass,,81,5,0,2,1,1,0,0,0,4,2,0.0,0.54,0.46,21
+cdr_3_market_0171,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0171.txt,market,3,severe dementia,3,match,pass,,64,3,0,2,1,0,0,0,0,3,1,0.333,0.46,0.54,15
+cdr_3_market_0176,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0176.txt,market,3,severe dementia,3,match,pass,,84,3,0,2,1,1,0,1,1,3,1,0.0,0.317,0.683,13
+cdr_3_market_0181,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0181.txt,market,3,severe dementia,3,match,pass,,96,3,1,1,1,0,0,0,1,4,0,0.0,0.422,0.578,29
+cdr_3_market_0186,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0186.txt,market,3,severe dementia,3,match,pass,,92,2,0,2,1,1,1,1,1,3,1,0.0,0.406,0.594,19
+cdr_3_market_0191,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0191.txt,market,3,severe dementia,3,match,pass,,86,4,0,2,1,1,0,1,0,2,0,0.25,0.444,0.556,21
+cdr_3_market_0196,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_market_0196.txt,market,3,severe dementia,3,match,pass,,101,3,0,2,1,0,0,1,1,4,0,0.333,0.284,0.716,23
+cdr_3_memory_0000,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0000.txt,memory,3,severe dementia,3,match,pass,,91,3,0,2,1,1,0,0,0,4,1,0.0,0.338,0.662,18
+cdr_3_memory_0005,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0005.txt,memory,3,severe dementia,3,match,pass,,103,2,0,2,1,1,0,0,0,4,3,0.0,0.375,0.625,21
+cdr_3_memory_0010,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0010.txt,memory,3,severe dementia,3,match,pass,,103,2,0,3,1,0,0,1,1,4,1,0.0,0.325,0.675,22
+cdr_3_memory_0015,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0015.txt,memory,3,severe dementia,3,match,pass,,72,2,0,1,1,1,0,0,0,3,0,0.0,0.333,0.667,15
+cdr_3_memory_0020,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0020.txt,memory,3,severe dementia,3,match,pass,,71,3,0,2,1,0,0,1,0,3,1,0.0,0.327,0.673,14
+cdr_3_memory_0025,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0025.txt,memory,3,severe dementia,3,match,pass,,80,3,0,2,1,0,0,1,0,3,1,0.333,0.323,0.677,13
+cdr_3_memory_0030,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0030.txt,memory,3,severe dementia,3,match,pass,,98,2,0,1,1,1,0,1,1,2,1,0.0,0.367,0.633,23
+cdr_3_memory_0035,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0035.txt,memory,3,severe dementia,3,match,pass,,86,4,1,1,1,1,0,0,0,4,1,0.25,0.339,0.661,15
+cdr_3_memory_0040,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0040.txt,memory,3,severe dementia,3,match,pass,,91,3,0,2,1,0,0,1,0,2,1,0.333,0.364,0.636,19
+cdr_3_memory_0045,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0045.txt,memory,3,severe dementia,3,match,pass,,85,2,1,2,1,1,0,0,0,2,1,0.0,0.286,0.714,12
+cdr_3_memory_0050,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0050.txt,memory,3,severe dementia,3,match,pass,,118,3,0,2,1,1,0,2,1,3,0,0.0,0.316,0.684,26
+cdr_3_memory_0055,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0055.txt,memory,3,severe dementia,3,match,pass,,100,3,0,3,1,0,1,1,0,4,1,0.0,0.4,0.6,16
+cdr_3_memory_0060,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0060.txt,memory,3,severe dementia,3,match,pass,,83,2,0,1,1,1,0,0,0,3,0,0.0,0.377,0.623,15
+cdr_3_memory_0065,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0065.txt,memory,3,severe dementia,3,match,pass,,97,3,0,2,1,0,0,1,0,3,2,0.0,0.375,0.625,23
+cdr_3_memory_0070,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0070.txt,memory,3,severe dementia,3,match,pass,,84,2,0,2,1,0,0,1,0,4,1,0.0,0.328,0.672,15
+cdr_3_memory_0075,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0075.txt,memory,3,severe dementia,3,match,pass,,102,2,0,2,1,1,0,1,1,4,2,0.0,0.434,0.566,25
+cdr_3_memory_0080,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0080.txt,memory,3,severe dementia,3,match,pass,,85,2,0,2,1,0,0,1,0,4,1,0.0,0.414,0.586,18
+cdr_3_memory_0085,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0085.txt,memory,3,severe dementia,3,match,pass,,67,2,0,2,1,1,0,0,0,1,1,0.0,0.233,0.767,10
+cdr_3_memory_0090,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0090.txt,memory,3,severe dementia,3,match,pass,,85,2,0,1,1,0,0,0,0,2,1,0.0,0.329,0.671,23
+cdr_3_memory_0095,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0095.txt,memory,3,severe dementia,3,match,pass,,87,5,0,2,1,1,1,2,0,3,1,0.4,0.419,0.581,19
+cdr_3_memory_0100,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0100.txt,memory,3,severe dementia,3,match,pass,,83,2,0,2,1,1,0,1,0,4,0,0.0,0.362,0.638,16
+cdr_3_memory_0105,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0105.txt,memory,3,severe dementia,3,match,pass,,106,2,0,2,1,1,0,2,0,2,1,0.0,0.376,0.624,22
+cdr_3_memory_0110,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0110.txt,memory,3,severe dementia,3,match,pass,,93,2,0,2,1,1,0,1,0,5,1,0.0,0.414,0.586,20
+cdr_3_memory_0115,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0115.txt,memory,3,severe dementia,3,match,pass,,84,1,0,2,1,0,0,1,0,3,0,0.0,0.426,0.574,25
+cdr_3_memory_0120,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0120.txt,memory,3,severe dementia,3,match,pass,,73,2,0,2,1,1,0,0,0,3,1,0.0,0.44,0.56,18
+cdr_3_memory_0125,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0125.txt,memory,3,severe dementia,3,match,pass,,85,3,0,2,1,0,0,0,0,3,1,0.333,0.457,0.543,21
+cdr_3_memory_0130,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0130.txt,memory,3,severe dementia,3,match,pass,,83,2,0,2,2,0,0,0,0,3,0,0.0,0.361,0.639,18
+cdr_3_memory_0135,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0135.txt,memory,3,severe dementia,3,match,pass,,77,2,1,1,1,0,0,1,1,3,1,0.0,0.355,0.645,14
+cdr_3_memory_0140,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0140.txt,memory,3,severe dementia,3,match,pass,,92,2,0,2,1,0,0,2,0,3,2,0.0,0.449,0.551,21
+cdr_3_memory_0145,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0145.txt,memory,3,severe dementia,3,match,pass,,76,1,1,0,1,0,0,0,0,3,0,0.0,0.4,0.6,16
+cdr_3_memory_0150,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0150.txt,memory,3,severe dementia,3,match,pass,,80,2,0,2,1,0,0,0,1,3,1,0.0,0.403,0.597,20
+cdr_3_memory_0155,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0155.txt,memory,3,severe dementia,3,match,pass,,83,4,0,2,1,0,0,0,0,4,2,0.5,0.507,0.493,25
+cdr_3_memory_0160,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0160.txt,memory,3,severe dementia,3,match,pass,,99,2,0,2,1,1,0,1,0,5,0,0.0,0.469,0.531,22
+cdr_3_memory_0165,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0165.txt,memory,3,severe dementia,3,match,review,orthography_review:𠲎,100,4,0,2,1,1,0,1,1,3,1,0.25,0.368,0.632,25
+cdr_3_memory_0170,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0170.txt,memory,3,severe dementia,3,match,pass,,96,4,0,3,1,0,1,0,0,3,1,0.25,0.379,0.621,16
+cdr_3_memory_0175,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0175.txt,memory,3,severe dementia,3,match,pass,,93,3,0,1,1,1,0,0,0,3,1,0.0,0.418,0.582,21
+cdr_3_memory_0180,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0180.txt,memory,3,severe dementia,3,match,pass,,82,4,0,2,1,1,0,0,0,3,1,0.0,0.383,0.617,14
+cdr_3_memory_0185,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0185.txt,memory,3,severe dementia,3,match,pass,,89,2,0,3,1,0,0,1,1,4,0,0.5,0.292,0.708,16
+cdr_3_memory_0190,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0190.txt,memory,3,severe dementia,3,match,pass,,94,4,0,2,1,1,0,1,0,4,2,0.5,0.539,0.461,25
+cdr_3_memory_0195,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_memory_0195.txt,memory,3,severe dementia,3,match,pass,,102,2,0,2,1,1,1,0,1,4,2,0.0,0.373,0.627,21
+cdr_3_morning_0003,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0003.txt,morning,3,severe dementia,3,match,pass,,65,3,0,1,1,1,0,0,0,4,2,0.333,0.569,0.431,13
+cdr_3_morning_0008,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0008.txt,morning,3,severe dementia,3,match,pass,,95,4,1,2,1,1,0,0,0,4,1,0.25,0.406,0.594,21
+cdr_3_morning_0013,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0013.txt,morning,3,severe dementia,3,match,pass,,81,4,0,2,1,0,0,1,0,3,1,0.0,0.339,0.661,17
+cdr_3_morning_0018,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0018.txt,morning,3,severe dementia,3,match,pass,,85,2,1,1,1,0,0,1,0,4,1,0.0,0.338,0.662,18
+cdr_3_morning_0023,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0023.txt,morning,3,severe dementia,3,match,pass,,73,2,0,2,1,0,0,1,0,2,1,0.0,0.404,0.596,17
+cdr_3_morning_0028,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0028.txt,morning,3,severe dementia,3,match,pass,,93,4,0,2,1,1,0,1,0,4,1,0.25,0.353,0.647,23
+cdr_3_morning_0033,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0033.txt,morning,3,severe dementia,3,match,pass,,77,2,0,2,1,0,0,0,1,3,0,0.0,0.333,0.667,15
+cdr_3_morning_0038,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0038.txt,morning,3,severe dementia,3,match,pass,,80,2,0,2,1,0,0,1,1,3,0,0.0,0.305,0.695,15
+cdr_3_morning_0043,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0043.txt,morning,3,severe dementia,3,match,pass,,73,5,0,1,1,0,0,1,0,3,1,0.4,0.397,0.603,17
+cdr_3_morning_0048,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0048.txt,morning,3,severe dementia,3,match,pass,,75,3,0,2,1,1,0,1,0,2,1,0.333,0.423,0.577,17
+cdr_3_morning_0053,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0053.txt,morning,3,severe dementia,3,match,pass,,81,3,1,1,1,1,0,1,0,2,1,0.0,0.4,0.6,19
+cdr_3_morning_0058,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0058.txt,morning,3,severe dementia,3,match,pass,,75,4,1,2,1,0,0,1,0,2,1,0.0,0.377,0.623,15
+cdr_3_morning_0063,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0063.txt,morning,3,severe dementia,3,match,pass,,78,5,0,2,1,1,0,1,1,4,0,0.6,0.377,0.623,15
+cdr_3_morning_0068,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0068.txt,morning,3,severe dementia,3,match,pass,,76,4,1,2,1,0,0,2,1,3,1,0.25,0.345,0.655,17
+cdr_3_morning_0073,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0073.txt,morning,3,severe dementia,3,match,pass,,70,4,0,2,1,0,0,1,0,3,0,0.25,0.38,0.62,15
+cdr_3_morning_0078,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0078.txt,morning,3,severe dementia,3,match,pass,,106,3,0,3,1,0,0,1,0,4,0,0.0,0.5,0.5,25
+cdr_3_morning_0083,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0083.txt,morning,3,severe dementia,3,match,pass,,81,4,0,2,1,0,0,0,1,3,2,0.0,0.463,0.537,22
+cdr_3_morning_0088,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0088.txt,morning,3,severe dementia,3,match,pass,,93,2,1,2,1,0,0,1,0,4,1,0.0,0.309,0.691,19
+cdr_3_morning_0093,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0093.txt,morning,3,severe dementia,3,match,pass,,84,1,0,2,1,0,0,2,0,3,1,0.0,0.415,0.585,18
+cdr_3_morning_0098,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0098.txt,morning,3,severe dementia,3,match,pass,,75,3,0,3,1,0,0,1,0,2,1,0.333,0.396,0.604,19
+cdr_3_morning_0103,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0103.txt,morning,3,severe dementia,3,match,pass,,78,4,0,2,1,0,0,1,0,3,0,0.25,0.293,0.707,17
+cdr_3_morning_0108,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0108.txt,morning,3,severe dementia,3,match,pass,,93,3,0,2,1,1,1,1,0,4,1,0.0,0.462,0.538,23
+cdr_3_morning_0113,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0113.txt,morning,3,severe dementia,3,match,pass,,83,3,1,2,2,0,0,0,1,4,1,0.333,0.446,0.554,16
+cdr_3_morning_0118,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0118.txt,morning,3,severe dementia,3,match,pass,,91,2,0,1,1,1,0,1,1,5,1,0.0,0.461,0.539,23
+cdr_3_morning_0123,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0123.txt,morning,3,severe dementia,3,match,pass,,83,3,0,2,1,0,0,2,0,3,1,0.333,0.41,0.59,23
+cdr_3_morning_0128,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0128.txt,morning,3,severe dementia,3,match,pass,,70,4,0,2,1,0,0,1,0,2,2,0.0,0.431,0.569,17
+cdr_3_morning_0133,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0133.txt,morning,3,severe dementia,3,match,pass,,97,6,0,2,1,1,0,2,0,4,1,0.333,0.411,0.589,25
+cdr_3_morning_0138,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0138.txt,morning,3,severe dementia,3,match,pass,,83,4,0,2,1,1,0,0,0,3,1,0.25,0.492,0.508,21
+cdr_3_morning_0143,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0143.txt,morning,3,severe dementia,3,match,pass,,91,2,0,2,1,1,0,1,1,3,1,0.0,0.318,0.682,16
+cdr_3_morning_0148,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0148.txt,morning,3,severe dementia,3,match,pass,,79,3,1,1,1,0,0,0,1,4,0,0.333,0.393,0.607,22
+cdr_3_morning_0153,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0153.txt,morning,3,severe dementia,3,match,pass,,134,2,0,3,1,1,1,1,0,4,1,0.5,0.347,0.653,28
+cdr_3_morning_0158,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0158.txt,morning,3,severe dementia,3,match,pass,,77,3,0,2,1,1,0,1,1,3,0,0.333,0.346,0.654,18
+cdr_3_morning_0163,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0163.txt,morning,3,severe dementia,3,match,pass,,91,2,0,2,1,0,0,1,0,3,0,0.0,0.314,0.686,18
+cdr_3_morning_0168,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0168.txt,morning,3,severe dementia,3,match,pass,,82,3,0,2,1,1,0,2,0,4,1,0.0,0.483,0.517,19
+cdr_3_morning_0173,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0173.txt,morning,3,severe dementia,3,match,pass,,95,3,0,2,1,1,0,1,1,4,0,0.0,0.282,0.718,23
+cdr_3_morning_0178,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0178.txt,morning,3,severe dementia,3,match,pass,,97,2,0,1,1,1,0,1,1,4,0,0.0,0.284,0.716,23
+cdr_3_morning_0183,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0183.txt,morning,3,severe dementia,3,match,pass,,69,5,0,1,1,0,0,2,0,2,0,0.6,0.429,0.571,17
+cdr_3_morning_0188,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0188.txt,morning,3,severe dementia,3,match,pass,,102,4,0,3,1,1,0,1,0,4,0,0.0,0.408,0.592,29
+cdr_3_morning_0193,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0193.txt,morning,3,severe dementia,3,match,pass,,90,4,0,2,1,0,0,1,0,4,1,0.25,0.474,0.526,25
+cdr_3_morning_0198,data/transcripts/taigi_cdr/taigi_cdr_1000_v2_20260519/cdr_3/cdr_3_morning_0198.txt,morning,3,severe dementia,3,match,pass,,79,3,0,2,1,1,0,2,0,2,1,0.0,0.382,0.618,19
