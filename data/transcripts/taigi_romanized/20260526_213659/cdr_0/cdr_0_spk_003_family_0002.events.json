@@ -1,0 +1,36 @@
+{
+  "sample_id": "cdr_0_spk_003_family_0002",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "spk_003",
+    "group": "older_female_taigi",
+    "description": "Lú-sìng tiúnn-puè, Tâi-gí uī-tsú, 65-85 huè.",
+    "split": "val"
+  },
+  "split": "val",
+  "transcript": "Lú-sìng tiónn-puè tńg-khì kóng-uē ê tsia̍t-jī-kó sī Tâi-lô lô-má-jī lah. Lō͘-bān thài-tshī tsū-iông, án-ne gí-giân-ha̍k tsuan-ka hō tóng kián hit-ê m̄-tsai lah. Tshiánn sán-sing Tâi-uân tiúnn-puè kóng-uē ê tsia̍t-jī-kó, iōng Tâi-lô lô-má-jī siá enn. Lín tńg-khì hō tóng kián hit-ê kóng-uē ê sūn-sū uân-tsíng lah. Tshù tsia̍h-pn̄g, án-ne gí-giân-ha̍k mī lâi thiah-tsāu lah. Kóng-uē ê tshiànn-mih tńg-khì hō kah sun-á enn.",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "Lú-sìng tiónn-puè tńg-khì kóng-uē ê tsia̍t-jī-kó sī Tâi-lô lô-má-jī lah. Lō͘-bān thài-tshī tsū-iông, án-ne gí-giân-ha̍k tsuan-ka hō tóng kián hit-ê m̄-tsai lah. Tshiánn sán-sing Tâi-uân tiúnn-puè kóng-uē ê tsia̍t-jī-kó, iōng Tâi-lô lô-má-jī siá enn. Lín tńg-khì hō tóng kián hit-ê kóng-uē ê sūn-sū uân-tsíng lah. Tshù tsia̍h-pn̄g, án-ne gí-giân-ha̍k mī lâi thiah-tsāu lah. Kóng-uē ê tshiànn-mih tńg-khì hō kah sun-á enn."
+    }
+  ],
+  "labels": {
+    "word_finding": 3,
+    "repetition": 0,
+    "filler_count": 12
+  },
+  "event_stats": {
+    "event_count": 1,
+    "speech_count": 1,
+    "pause_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 0,
+    "mean_pause_ms": 0,
+    "speech_chars": 420
+  },
+  "speech_rate_target": 1.0
+}
