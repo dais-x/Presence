@@ -1,0 +1,36 @@
+{
+  "sample_id": "cdr_0_spk_001_family_0000",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "speaker": {
+    "speaker_id": "spk_001",
+    "group": "older_female_taigi",
+    "description": "Lú-sìng tiúnn-puè, Tâi-gí uī-tsú, 65-85 huè.",
+    "split": "val"
+  },
+  "split": "val",
+  "transcript": "Lú-sìng tiónn-puè kóng-uē tsū-jiân sī lâi-tshù-lāi tsia̍h-pn̄g, tshiánn tńg-khì kah sun-á lah. Tshing-iōng gín-gín uī-tsú, tiónn-puè iōng m̄-tsai lô-má-jī kóng-uē ê tsia̍t-jī-kó hit-ê tī Tâi-lô ah. Siánn-mih, tiónn-puè thah-ha̍k kóng-uē ê gí-giân-ha̍k iōng beh m̄-tsai uân-tsíng lah. Lú-sìng tiónn-puè tī tsū-jiân sī lâi-thòo, án-ne hı̀ sī kah sun-á ê lâi-tshù-lāi leh. Tshù lāi tsia̍h-pn̄g pín-sṳ́, tiónn-puè tī beh m̄-tsai kóng-uē ê tsū-jiân iōng Tâi-gí lah. Hı̀ thah-ha̍k gáisan-kán lâi-tshù-lāi tsia̍h-pn̄g, án-ne tiónn-puè tī beh m̄-tsai kóng-uē ê lōo-ké-i leh. Tshiánn sán-sing uī-tsú ê bûn-ha̍k lah, tiónn-puè tī beh m̄-tsai Tâi-gí uân-tsíng hit-ê iōng gín-gín lô-má-jī kóng-uē ê tsia̍t-jī-kó leh.",
+  "event_script": [
+    {
+      "type": "speech",
+      "text": "Lú-sìng tiónn-puè kóng-uē tsū-jiân sī lâi-tshù-lāi tsia̍h-pn̄g, tshiánn tńg-khì kah sun-á lah. Tshing-iōng gín-gín uī-tsú, tiónn-puè iōng m̄-tsai lô-má-jī kóng-uē ê tsia̍t-jī-kó hit-ê tī Tâi-lô ah. Siánn-mih, tiónn-puè thah-ha̍k kóng-uē ê gí-giân-ha̍k iōng beh m̄-tsai uân-tsíng lah. Lú-sìng tiónn-puè tī tsū-jiân sī lâi-thòo, án-ne hı̀ sī kah sun-á ê lâi-tshù-lāi leh. Tshù lāi tsia̍h-pn̄g pín-sṳ́, tiónn-puè tī beh m̄-tsai kóng-uē ê tsū-jiân iōng Tâi-gí lah. Hı̀ thah-ha̍k gáisan-kán lâi-tshù-lāi tsia̍h-pn̄g, án-ne tiónn-puè tī beh m̄-tsai kóng-uē ê lōo-ké-i leh. Tshiánn sán-sing uī-tsú ê bûn-ha̍k lah, tiónn-puè tī beh m̄-tsai Tâi-gí uân-tsíng hit-ê iōng gín-gín lô-má-jī kóng-uē ê tsia̍t-jī-kó leh."
+    }
+  ],
+  "labels": {
+    "word_finding": 7,
+    "repetition": 0,
+    "filler_count": 13
+  },
+  "event_stats": {
+    "event_count": 1,
+    "speech_count": 1,
+    "pause_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "pause_total_ms": 0,
+    "mean_pause_ms": 0,
+    "speech_chars": 704
+  },
+  "speech_rate_target": 1.0
+}
