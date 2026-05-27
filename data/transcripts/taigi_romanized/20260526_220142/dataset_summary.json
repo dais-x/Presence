@@ -1,0 +1,23 @@
+{
+  "total": 1000,
+  "by_cdr": {
+    "0": 350,
+    "0.5": 300,
+    "1": 200,
+    "2": 100,
+    "3": 50
+  },
+  "by_split": {
+    "val": 150,
+    "test": 150,
+    "train": 700
+  },
+  "by_scenario": {
+    "family": 150,
+    "morning": 150,
+    "picture": 100,
+    "clinic": 250,
+    "memory": 200,
+    "market": 150
+  }
+}

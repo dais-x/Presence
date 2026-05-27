@@ -1,0 +1,19 @@
+{
+  "total": 1000,
+  "distribution": {
+    "0.5": 300,
+    "1": 200,
+    "0": 350,
+    "2": 100,
+    "3": 50
+  },
+  "expected_distribution": {
+    "0": 350,
+    "0.5": 300,
+    "1": 200,
+    "2": 100,
+    "3": 50
+  },
+  "language": "Taiwanese Mandarin",
+  "script": "Traditional Chinese"
+}

@@ -1,0 +1,5 @@
+﻿speaker_id,speaker_gender,speaker_age_group,speaker_prompt_audio_filename,speaker_prompt_text_transcription
+speaker_f_01,female,adult,speaker_f_01.wav,今天天氣不錯，我早上去市場買了一些青菜和水果。
+speaker_m_01,male,adult,speaker_m_01.wav,我今天搭公車去附近的診所，路上人有一點多。
+speaker_f_02,female,older_adult,speaker_f_02.wav,吃完早餐以後，我整理了一下客廳，然後準備出門買東西。
+speaker_m_02,male,older_adult,speaker_m_02.wav,今天下午我在家裡看電視，晚一點要去便利商店買牛奶。
